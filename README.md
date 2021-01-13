@@ -1,10 +1,12 @@
 MINISTÉRIO DA SAÚDE
+
 Secretaria de Atenção Primária à Saúde
+
 Departamento de Saúde da Família
+
 e-SUS Atenção Primária à Saúde
+
 MANUAL DE USO DO SISTEMA COM PRONTUÁRIO ELETRÔNICO DO CIDADÃO – PEC (versão 4.0)
-Brasília – DF
-2020
 
 2020 Ministério da Saúde.
 Todos os direitos reservados. É permitida a reprodução parcial ou total desta obra, desde que citada a fonte e que não seja para venda ou qualquer fim comercial. Venda proibida. Distribuição gratuita. A responsabilidade pelos direitos autorais de textos e imagens desta obra é da área técnica. A  coleção institucional do Ministério da Saúde pode ser acessada na íntegra na Biblioteca Virtual em Saúde do Ministério da Saúde: <http://www.saude.gov.br/bvs>.
