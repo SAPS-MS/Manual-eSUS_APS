@@ -1,9 +1,3 @@
----
-layout: default
-title: Manual e-SUS APS v4.1
-nav_order: 1
----
-
 MINISTÉRIO DA SAÚDE
 Secretaria de Atenção Primária à Saúde
 Departamento de Saúde da Família
