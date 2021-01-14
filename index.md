@@ -14,14 +14,17 @@ e-SUS Atenção Primária à Saúde
 <br>
 <br>
 <br>
-MANUAL DE USO DO SISTEMA COM PRONTUÁRIO ELETRÔNICO DO CIDADÃO – PEC (versão 4.1)
+PRONTUÁRIO ELETRÔNICO DO CIDADÃO – PEC<br>
 {: .fs-8 }
+{: .text-center }
+(versão 4.1)<br>
+{: .fs-6 }
 {: .text-center }
 <br>
 <br>
-<br>
-<br>
-<br>
+MANUAL DE USO
+{: .fs-8 }
+{: .text-center }
 <br>
 <br>
 <br>
