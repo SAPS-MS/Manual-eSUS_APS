@@ -2,6 +2,7 @@
 {: mx-auto}
 
 ## Secretaria de Atenção Primária à Saúde
+{: .d-inline-block }
 
 ### Departamento de Saúde da Família
 
