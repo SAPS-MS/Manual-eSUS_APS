@@ -3,7 +3,7 @@ layout: default
 title: Início
 nav_order: 1
 has_children: false
-has_toc: true
+has_toc: false
 ---
 
 # MINISTÉRIO DA SAÚDE
