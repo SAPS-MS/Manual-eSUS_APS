@@ -11,6 +11,15 @@ CAPÍTULO 1 - Orientações Gerais sobre o Sistema
 
 Neste capítulo, abordaremos os conceitos e orientações iniciais para utilização do Sistema e-SUS Atenção Básica (AB) com Prontuário Eletrônico do Cidadão (PEC).
 
+<details open markdown="block">
+  <summary>
+    Sumário
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
 # 1.1 Versão do Sistema Usada neste Manual
 
 Este manual foi elaborado usando como referência o Sistema com PEC em sua **versão 4.1**. O acesso às informações sobre o versionamento, versão de banco de dados, data de atualização e tipo de instalação (ver Capítulo 2) podem ser visualizados na opção "**Sobre"** (Figura 1.1), acessada no menu superior do sistema.
