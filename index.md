@@ -12,12 +12,12 @@ e-SUS Atenção Primária à Saúde
 {: .text-center }
 <br>
 <br>
-**P**RONTUÁRIO **E**LETRÔNICO DO **C**IDADÃO<br>
+**P**RONTUÁRIO **E**LETRÔNICO DO **C**IDADÃO
 {: .fs-8 }
-{: .text-center }
-(versão 4.1)<br>
+{: .text-center }<br>
+(versão 4.1)
 {: .fs-6 }
-{: .text-center }
+{: .text-center }<br>
 <br>
 MANUAL DE USO
 {: .fs-8 }
