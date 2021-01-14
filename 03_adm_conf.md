@@ -3,7 +3,7 @@ layout: default
 title: Administração e Configurações do Sistema
 nav_order: 5
 has_children: false
-has_toc: false
+has_toc: true
 ---
 
 

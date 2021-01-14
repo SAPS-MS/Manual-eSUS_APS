@@ -3,7 +3,7 @@ layout: default
 title: Gestão de Cadastros
 nav_order: 11
 has_children: false
-has_toc: false
+has_toc: true
 ---
 
 

@@ -3,7 +3,7 @@ layout: default
 title: Orientações Gerais sobre o Sistema
 nav_order: 3
 has_children: false
-has_toc: false
+has_toc: true
 ---
 
 CAPÍTULO 1 - Orientações Gerais sobre o Sistema

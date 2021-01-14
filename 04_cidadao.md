@@ -3,7 +3,7 @@ layout: default
 title: Cidadão
 nav_order: 6
 has_children: false
-has_toc: false
+has_toc: true
 ---
 
 

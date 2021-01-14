@@ -3,7 +3,7 @@ layout: default
 title: Coleta de Dados Simplificada (CDS)
 nav_order: 9
 has_children: false
-has_toc: false
+has_toc: true
 ---
 
 

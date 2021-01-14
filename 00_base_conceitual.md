@@ -3,7 +3,7 @@ layout: default
 title: Base Conceitual do Sistema
 nav_order: 2
 has_children: false
-has_toc: false
+has_toc: true
 ---
 
 

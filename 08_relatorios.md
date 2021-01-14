@@ -3,7 +3,7 @@ layout: default
 title: Relatórios
 nav_order: 10
 has_children: false
-has_toc: false
+has_toc: true
 ---
 
 

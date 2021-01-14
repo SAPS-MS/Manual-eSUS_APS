@@ -3,7 +3,7 @@ layout: default
 title: Atendimentos
 nav_order: 8
 has_children: false
-has_toc: false
+has_toc: true
 ---
 
 CAPÍTULO 6 - Atendimentos

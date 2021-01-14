@@ -3,7 +3,7 @@ layout: default
 title: Instalação do Sistema
 nav_order: 4
 has_children: false
-has_toc: false
+has_toc: true
 ---
 
 CAPÍTULO 2 - Instalação do Sistema

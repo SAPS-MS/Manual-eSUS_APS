@@ -3,7 +3,7 @@ layout: default
 title: Acompanhamento de condições de saúde
 nav_order: 12
 has_children: false
-has_toc: false
+has_toc: true
 ---
 
 
