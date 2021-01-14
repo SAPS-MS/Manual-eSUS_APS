@@ -12,6 +12,8 @@ CAPÍTULO INTRODUTÓRIO - Base Conceitual do Sistema
 
 Neste capítulo, abordaremos, de forma resumida, os conceitos básicos que orientam o Sistema e-SUS Atenção Básica (e-SUS APS) e o funcionamento das ferramentas do sistema.
 
+{:toc}
+
 # 1. Estratégia e-SUS Atenção Básica (AB)
 
 O e-SUS APS é uma estratégia do Departamento de Saúde da Família (DESF) para reestruturar as informações da Atenção Básica (AB) em nível nacional. Esta ação está alinhada com a proposta mais geral de reestruturação dos Sistemas de Informação em Saúde (SIS) do Ministério da Saúde, entendendo que a qualificação da gestão da informação é fundamental para ampliar a qualidade no atendimento à população.
