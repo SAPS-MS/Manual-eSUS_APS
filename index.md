@@ -6,9 +6,17 @@ description: "Manual e-SUS APS v4.1"
 permalink: /
 ---
 
-# e-SUS Atenção Primária à Saúde
-
-## MANUAL DE USO DO SISTEMA COM PRONTUÁRIO ELETRÔNICO DO CIDADÃO – PEC (versão 4.1)
+e-SUS Atenção Primária à Saúde
+{: .fs-10 }
+{: .fw-700 }
+{: .text-center }
+<br>
+<br>
+<br>
+<br>
+MANUAL DE USO DO SISTEMA COM PRONTUÁRIO ELETRÔNICO DO CIDADÃO – PEC (versão 4.1)
+{: .fs-8 }
+{: .text-center }
 <br>
 <br>
 <br>
