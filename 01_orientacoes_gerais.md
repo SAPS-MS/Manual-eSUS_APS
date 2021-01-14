@@ -16,7 +16,7 @@ Neste capítulo, abordaremos os conceitos e orientações iniciais para utiliza�
     Sumário
   </summary>
   {: .text-delta }
-TOC
+- TOC
 {:toc}
 </details>
 
