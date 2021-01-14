@@ -9,8 +9,19 @@ permalink: /
 # e-SUS Atenção Primária à Saúde
 
 ## MANUAL DE USO DO SISTEMA COM PRONTUÁRIO ELETRÔNICO DO CIDADÃO – PEC (versão 4.1)
-
-### Elaboração, distribuição e informações
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+Elaboração, distribuição e informações<br>
 
 MINISTÉRIO DA SAÚDE<br>
 Secretaria de Atenção Primária à Saúde<br>
@@ -23,18 +34,17 @@ Tels.: (61) 3315-8090 / 3315-8044<br>
 Site: <http://aps.saude.gov.br><br>
 E-mail: esusab@saude.gov.br
 
-**Supervisor Geral**
+**Supervisor Geral**<br>
 Renata Maria de Oliveira Costa
 
-**Coordenação Técnica Geral**
+**Coordenação Técnica Geral**<br>
 João Geraldo de Oliveira Júnior
 
-**Organização**
+**Organização**<br>
 Ana Claudia Cielo, Igor de Carvalho Gomes
-**Revisão Técnica**
 
+**Revisão Técnica**<br>
 Ana Claudia Cielo, Igor de Carvalho Gomes, Micael Macedo Pereira da Trindade, André Cury Alves, João Geraldo de Oliveira Júnior
 
-**Elaboração de texto**
-
+**Elaboração de texto**<br>
 Adriana Kitajima, Allan Nuno Alves de Souza, Ana Claudia Cielo, André Cury Alves, Edson Lucena, Igor de Carvalho Gomes, João Geraldo de Oliveira Júnior, Janaína Nogueira Guimarães, Micael Macedo Pereira, da Trindade, Rodrigo André Cuevas Gaete, Thaís Alessa Leite, Vanessa Lora, Virgínia Fava, Projeto Gráfico, Alexandre Soares de Brito, Diogo Ferreira Gonçalves
