@@ -6,36 +6,21 @@ description: "Manual e-SUS APS v4.1"
 permalink: /
 ---
 
-# MINISTÉRIO DA SAÚDE
-## Secretaria de Atenção Primária à Saúde
-### Departamento de Saúde da Família
-
-
-
-
 # e-SUS Atenção Primária à Saúde
 
 ## MANUAL DE USO DO SISTEMA COM PRONTUÁRIO ELETRÔNICO DO CIDADÃO – PEC (versão 4.1)
 
+### Elaboração, distribuição e informações
+
+MINISTÉRIO DA SAÚDE<br>
+Secretaria de Atenção Primária à Saúde<br>
+Departamento de Saúde da Família<br>
 
 
-
-
-
-
-
-
-
-
-Elaboração, distribuição e informações
-
-MINISTÉRIO DA SAÚDE
-Secretaria de Atenção Primária à Saúde
-Departamento de Saúde da Família
-Esplanada dos Ministérios - Bloco G - 7º andar
-CEP: 70.058-900 – Brasília/DF
-Tels.: (61) 3315-8090 / 3315-8044
-Site: <http://aps.saude.gov.br>
+Esplanada dos Ministérios - Bloco G - 7º andar<br>
+CEP: 70.058-900 – Brasília/DF<br>
+Tels.: (61) 3315-8090 / 3315-8044<br>
+Site: <http://aps.saude.gov.br><br>
 E-mail: esusab@saude.gov.br
 
 **Supervisor Geral**
