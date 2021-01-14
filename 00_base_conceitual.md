@@ -12,7 +12,7 @@ has_toc: true
 
 Neste capítulo, abordaremos, de forma resumida, os conceitos básicos que orientam o Sistema e-SUS Atenção Básica (e-SUS APS) e o funcionamento das ferramentas do sistema.
 
-## Table of contents
+## Sumário
 {: .no_toc .text-delta }
 
 1. TOC
