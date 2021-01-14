@@ -12,18 +12,19 @@ e-SUS Atenção Primária à Saúde
 {: .text-center }
 <br>
 <br>
-**P**RONTUÁRIO **E**LETRÔNICO DO **C**IDADÃO
+PRONTUÁRIO ELETRÔNICO DO CIDADÃO
 {: .fs-8 }
 {: .text-center }
+MANUAL DE USO
+{: .fs-8 }
+{: .text-center }
+<br>
 <br>
 (versão 4.1)
 {: .fs-6 }
 {: .text-center }
 <br>
 <br>
-MANUAL DE USO
-{: .fs-8 }
-{: .text-center }
 <br>
 <br>
 <br>
@@ -33,7 +34,7 @@ MANUAL DE USO
 <br>
 Elaboração, distribuição e informações<br>
 
-MINISTÉRIO DA SAÚDE<br>
+**MINISTÉRIO DA SAÚDE**<br>
 Secretaria de Atenção Primária à Saúde<br>
 Departamento de Saúde da Família<br>
 
@@ -57,4 +58,21 @@ Ana Claudia Cielo, Igor de Carvalho Gomes
 Ana Claudia Cielo, Igor de Carvalho Gomes, Micael Macedo Pereira da Trindade, André Cury Alves, João Geraldo de Oliveira Júnior
 
 **Elaboração de texto**<br>
-Adriana Kitajima, Allan Nuno Alves de Souza, Ana Claudia Cielo, André Cury Alves, Edson Lucena, Igor de Carvalho Gomes, João Geraldo de Oliveira Júnior, Janaína Nogueira Guimarães, Micael Macedo Pereira, da Trindade, Rodrigo André Cuevas Gaete, Thaís Alessa Leite, Vanessa Lora, Virgínia Fava, Projeto Gráfico, Alexandre Soares de Brito, Diogo Ferreira Gonçalves
+Adriana Kitajima, Allan Nuno Alves de Souza, Ana Claudia Cielo, André Cury Alves, Edson Lucena, Igor de Carvalho Gomes, João Geraldo de Oliveira Júnior, Janaína Nogueira Guimarães, Micael Macedo Pereira, da Trindade, Rodrigo André Cuevas Gaete, Thaís Alessa Leite, Vanessa Lora, Virgínia Fava,
+
+**Projeto Gráfico**<br>
+Alexandre Soares de Brito, Diogo Ferreira Gonçalves
+<br>
+<br>
+<br>
+**Ficha Catalográfica**
+{: .text-center }
+
+Brasil. Ministério da Saúde. Secretaria de Atenção Primária à Saúde.<br>
+e-SUS Atenção Primária à Saúde: Manual do Sistema com Prontuário Eletrônico do Cidadão PEC – Versão 4.1 [recurso eletrônico] / Ministério da Saúde, Secretaria de Atenção Primária à Saúde, Secretaria Executiva. – Brasília: Ministério da Saúde, 2020.<br>
+<br>
+ISBN **Versão Preliminar**<br>
+Modo de acesso: <http://aps.saude.gov.br><br>
+CDU 614<br>
+
+Catalogação na fonte – Coordenação-Geral de Documentação e Informação – Editora MS – OS 2020.
