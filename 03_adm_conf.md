@@ -7,8 +7,14 @@ has_toc: true
 ---
 
 
-CAPÍTULO 3 - Administração e Configurações do Sistema
-======================================================
+# CAPÍTULO 3 - Administração e Configurações do Sistema
+{: .no_toc }
+
+## Sumário
+{: .no_toc .text-delta }
+
+- TOC
+{:toc}
 
 A administração do sistema, **acessada na tela inicial,** subdivide- se em "Administração da Instalação" e "Administração Municipal", visto que agora o PEC possui apenas um administrador da instalação. E. Este agrega todos os tipos de instalação conhecidos anteriormente (municipal, centralizadora e multimunicipal). Assim, será sempre possível configurar o PEC para mais de um município.
 

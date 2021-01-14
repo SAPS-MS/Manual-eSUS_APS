@@ -7,8 +7,14 @@ has_toc: true
 ---
 
 
-CAPÍTULO 8 - Relatórios
-=======================
+# CAPÍTULO 8 - Relatórios
+{: .no_toc }
+
+## Sumário
+{: .no_toc .text-delta }
+
+- TOC
+{:toc}
 
 ![](media/image747.png)
 

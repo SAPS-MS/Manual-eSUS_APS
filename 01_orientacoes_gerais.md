@@ -6,19 +6,16 @@ has_children: false
 has_toc: true
 ---
 
-CAPÍTULO 1 - Orientações Gerais sobre o Sistema
-===============================================
+# CAPÍTULO 1 - Orientações Gerais sobre o Sistema
+{: .no_toc }
 
 Neste capítulo, abordaremos os conceitos e orientações iniciais para utilização do Sistema e-SUS Atenção Básica (AB) com Prontuário Eletrônico do Cidadão (PEC).
 
-<details open markdown="block">
-  <summary>
-    Sumário
-  </summary>
-  {: .text-delta }
+## Sumário
+{: .no_toc .text-delta }
+
 - TOC
 {:toc}
-</details>
 
 # 1.1 Versão do Sistema Usada neste Manual
 

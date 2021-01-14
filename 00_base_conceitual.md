@@ -15,7 +15,7 @@ Neste capítulo, abordaremos, de forma resumida, os conceitos básicos que orien
 ## Sumário
 {: .no_toc .text-delta }
 
-1. TOC
+- TOC
 {:toc}
 
 # 1. Estratégia e-SUS Atenção Básica (AB)

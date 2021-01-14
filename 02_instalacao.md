@@ -6,10 +6,16 @@ has_children: false
 has_toc: true
 ---
 
-CAPÍTULO 2 - Instalação do Sistema
-===============================================
+# CAPÍTULO 2 - Instalação do Sistema
+{: .no_toc }
 
 Neste capítulo, abordaremos as questões pertinentes ao processo de instalação do Sistema e-SUS APS.
+
+## Sumário
+{: .no_toc .text-delta }
+
+- TOC
+{:toc}
 
 > ![](media/image58.png) **NOTA**: Para ter maior entendimento sobre qual sistema ou cenário de implantação é mais adequado para o seu município, veja o **Manual de Implantação** do Sistema e-SUS Atenção Básica, disponível em: http://aps.saude.gov.br/ape/esus/comoimplantar.
 

@@ -7,8 +7,14 @@ has_toc: true
 ---
 
 
-CAPÍTULO 5 - Agenda
-===================
+# CAPÍTULO 5 - Agenda
+{: .no_toc }
+
+## Sumário
+{: .no_toc .text-delta }
+
+- TOC
+{:toc}
 
 O módulo de Agenda é usado para organizar a agenda dos profissionais das unidades básicas de saúde (UBS), e será a principal ferramenta utilizada pelos profissionais das recepções das UBS.
 

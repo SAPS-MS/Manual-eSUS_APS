@@ -7,12 +7,20 @@ has_toc: true
 ---
 
 
-CAPÍTULO 4 - Cidadão
-====================
+# CAPÍTULO 4 - Cidadão
+{: .no_toc }
+
+Neste capítulo abordaremos as questões relacionadas ao gerenciamento do cadastro do cidadão, por meio do módulo "Cidadão".
+
+## Sumário
+{: .no_toc .text-delta }
+
+- TOC
+{:toc}
 
 ![](media/image231.png)
 
-Neste capítulo abordaremos as questões relacionadas ao gerenciamento do cadastro do cidadão, por meio do módulo "Cidadão". Todo cidadão, para ser atendido na UBS por meio do Sistema com PEC, ou seja, para ter um prontuário eletrônico ativo no sistema, deve possuir um cadastro ativo no sistema, independente deste cadastro estar ou não identificado pelo número do Cartão Nacional de Saúde (CNS) ou pelo Cadastro de Pessoas Físicas (CPF).
+Todo cidadão, para ser atendido na UBS por meio do Sistema com PEC, ou seja, para ter um prontuário eletrônico ativo no sistema, deve possuir um cadastro ativo no sistema, independente deste cadastro estar ou não identificado pelo número do Cartão Nacional de Saúde (CNS) ou pelo Cadastro de Pessoas Físicas (CPF).
 
 Figura 4.1 - Cartão Nacional de Saúde e Cadastro de Pessoas Físicas
 

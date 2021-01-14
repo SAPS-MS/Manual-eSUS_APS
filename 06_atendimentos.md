@@ -6,8 +6,14 @@ has_children: false
 has_toc: true
 ---
 
-CAPÍTULO 6 - Atendimentos
-=========================
+# CAPÍTULO 6 - Atendimentos
+{: .no_toc }
+
+## Sumário
+{: .no_toc .text-delta }
+
+- TOC
+{:toc}
 
 A partir do novo padrão de funcionamento do PEC os profissionais de saúde têm acesso à Lista de Atendimentos da unidade de saúde utilizando a barra lateral de navegação. É por meio dela que são iniciados os atendimentos aos cidadãos agendados ou os que buscam um atendimento de demanda espontânea.
 
