@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Home
+title: Início
 nav_order: 1
-description: "e-SUS APS v4.1"
+description: "Manual e-SUS APS v4.1"
 permalink: /
 ---
 
