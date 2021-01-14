@@ -1,9 +1,3 @@
----
-layout: default
-title: Início
-has_toc: false
----
-
 # MINISTÉRIO DA SAÚDE
 ## Secretaria de Atenção Primária à Saúde
 ### Departamento de Saúde da Família
