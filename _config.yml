@@ -3,6 +3,7 @@ description: Manual da versão 4.1 do Prontuário Eletrônico do Cidadão (PEC) 
 baseurl: "/e-SUS-APS-v.4.1"
 url: "https://cgiap-saps.github.io"
 permalink: pretty
+exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile", "docs/tests/"]
 remote_theme: pmarsceill/just-the-docs
 color_scheme: SAPS
 logo: "/media/logoesusaps.png"

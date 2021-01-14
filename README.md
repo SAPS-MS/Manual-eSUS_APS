@@ -42,8 +42,8 @@ João Geraldo de Oliveira Júnior
 
 **Organização**
 Ana Claudia Cielo, Igor de Carvalho Gomes
-**Revisão Técnica**
 
+**Revisão Técnica**
 Ana Claudia Cielo, Igor de Carvalho Gomes, Micael Macedo Pereira da Trindade, André Cury Alves, João Geraldo de Oliveira Júnior
 
 **Elaboração de texto**
