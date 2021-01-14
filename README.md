@@ -1,19 +1,36 @@
+---
+layout: default
+title: Início
+nav_order: 1
+has_children: false
+has_toc: true
+---
+
 # MINISTÉRIO DA SAÚDE
-{: mx-auto}
-
 ## Secretaria de Atenção Primária à Saúde
-{: .d-inline-block }
-
 ### Departamento de Saúde da Família
+
+
+
 
 # e-SUS Atenção Primária à Saúde
 
 ## MANUAL DE USO DO SISTEMA COM PRONTUÁRIO ELETRÔNICO DO CIDADÃO – PEC (versão 4.1)
 
+
+
+
+
+
+
+
+
+
 2020 Ministério da Saúde.
 Todos os direitos reservados. É permitida a reprodução parcial ou total desta obra, desde que citada a fonte e que não seja para venda ou qualquer fim comercial. Venda proibida. Distribuição gratuita. A responsabilidade pelos direitos autorais de textos e imagens desta obra é da área técnica. A  coleção institucional do Ministério da Saúde pode ser acessada na íntegra na Biblioteca Virtual em Saúde do Ministério da Saúde: <http://www.saude.gov.br/bvs>.
 
 Tiragem: 1ª edição – 2020 – versão eletrônica
+
 Elaboração, distribuição e informações
 
 MINISTÉRIO DA SAÚDE
@@ -32,42 +49,29 @@ Renata Maria de Oliveira Costa
 João Geraldo de Oliveira Júnior
 
 **Organização**
-Ana Claudia Cielo
-Igor de Carvalho Gomes
-
+Ana Claudia Cielo, Igor de Carvalho Gomes
 **Revisão Técnica**
-Ana Claudia Cielo
-Igor de Carvalho Gomes
-Micael Macedo Pereira da Trindade
-André Cury Alves
-João Geraldo de Oliveira Júnior
+
+Ana Claudia Cielo, Igor de Carvalho Gomes, Micael Macedo Pereira da Trindade, André Cury Alves, João Geraldo de Oliveira Júnior
 
 **Elaboração de texto**
-Adriana Kitajima
-Allan Nuno Alves de Souza
-Ana Claudia Cielo
-André Cury Alves
-Edson Lucena
-Igor de Carvalho Gomes
-João Geraldo de Oliveira Júnior
-Janaína Nogueira Guimarães
-Micael Macedo Pereira da Trindade
-Rodrigo André Cuevas Gaete
-Thaís Alessa Leite
-Vanessa Lora
-Virgínia Fava
-Projeto Gráfico
-Alexandre Soares de Brito
-Diogo Ferreira Gonçalves
+
+Adriana Kitajima, Allan Nuno Alves de Souza, Ana Claudia Cielo, André Cury Alves, Edson Lucena, Igor de Carvalho Gomes, João Geraldo de Oliveira Júnior, Janaína Nogueira Guimarães, Micael Macedo Pereira, da Trindade, Rodrigo André Cuevas Gaete, Thaís Alessa Leite, Vanessa Lora, Virgínia Fava, Projeto Gráfico, Alexandre Soares de Brito, Diogo Ferreira Gonçalves
 
 **Ficha Catalográfica**
-________________________________________________________________________________________________________________
-Brasil. Ministério da Saúde. Secretaria de Atenção Primária à Saúde.
- e-SUS Atenção Primária à Saúde: Manual do Sistema com Prontuário Eletrônico do Cidadão PEC – Versão 4.0 [recurso eletrônico] /
-Ministério da Saúde, Secretaria de Atenção Primária à Saúde, Secretaria-Executiva. – Brasília: Ministério da Saúde, 2020.
 
- ISBN Versão Preliminar
- Modo de acesso: <http://aps.saude.gov.br>
- CDU 614
 ________________________________________________________________________________________________________________
+
+Brasil. Ministério da Saúde. Secretaria de Atenção Primária à Saúde.
+
+   e-SUS Atenção Primária à Saúde: Manual do Sistema com Prontuário Eletrônico do Cidadão PEC – Versão 4.0 [recurso eletrônico] / Ministério da Saúde, Secretaria de Atenção Primária à Saúde, Secretaria-Executiva. – Brasília: Ministério da Saúde, 2020.
+
+   ISBN **Versão Preliminar**
+
+   Modo de acesso: <http://aps.saude.gov.br>
+
+ CDU 614
+
+________________________________________________________________________________________________________________
+
 Catalogação na fonte – Coordenação-Geral de Documentação e Informação – Editora MS – OS 2020.
