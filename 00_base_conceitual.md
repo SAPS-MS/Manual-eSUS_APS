@@ -7,13 +7,10 @@ has_toc: true
 ---
 
 
-CAPÍTULO INTRODUTÓRIO - Base Conceitual do Sistema
-==================================================
+# CAPÍTULO INTRODUTÓRIO - Base Conceitual do Sistema
+{: .no_toc }
 
 Neste capítulo, abordaremos, de forma resumida, os conceitos básicos que orientam o Sistema e-SUS Atenção Básica (e-SUS APS) e o funcionamento das ferramentas do sistema.
-
-# Navigation Structure
-{: .no_toc }
 
 ## Table of contents
 {: .no_toc .text-delta }
