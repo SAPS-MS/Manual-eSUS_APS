@@ -12,15 +12,12 @@ e-SUS Atenção Primária à Saúde
 {: .text-center }
 <br>
 <br>
-<br>
-<br>
-PRONTUÁRIO ELETRÔNICO DO CIDADÃO – PEC<br>
+**P**RONTUÁRIO **E**LETRÔNICO DO **C**IDADÃO<br>
 {: .fs-8 }
 {: .text-center }
 (versão 4.1)<br>
 {: .fs-6 }
 {: .text-center }
-<br>
 <br>
 MANUAL DE USO
 {: .fs-8 }
