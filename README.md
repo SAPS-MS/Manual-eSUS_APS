@@ -1,69 +1,38 @@
-# MINISTÉRIO DA SAÚDE
-## Secretaria de Atenção Primária à Saúde
-### Departamento de Saúde da Família
-
-
-
+**MINISTÉRIO DA SAÚDE**<br>
+Secretaria de Atenção Primária à Saúde<br>
+Departamento de Saúde da Família<br>
+Coordenação-Geral de Informação da Atenção Primária<br>
 
 # e-SUS Atenção Primária à Saúde
 
-## MANUAL DE USO DO SISTEMA COM PRONTUÁRIO ELETRÔNICO DO CIDADÃO – PEC (versão 4.1)
+## MANUAL DE USO DO PRONTUÁRIO ELETRÔNICO DO CIDADÃO – PEC
 
+### Orientações Gerais:
 
+O conteúdo deste manual foi elaborado utilizando Markdown. Orientações em relação a utilização deste método de escrita pode ser acessado em [Markdown Guide](https://www.markdownguide.org/basic-syntax/).
 
+O template utilizado neste manual é o [Just the Docs](https://pmarsceill.github.io/just-the-docs/). Para maiores informações e customização, acesse o repositório no GitHub [Just the Docs](https://github.com/pmarsceill/just-the-docs).
 
+### Estrutura:
 
+O manual está organizado em capítulos. Cada arquivo `<.md>` contém um capítulo. Atualmente o manual é composto por 11 capítulos. O arquivo `index.md` é a página principal de acesso do manual.
 
+O arquivo `_config.yml` contém as configurações de funcionamento do template atualmente utilizado. Altere este arquivo apenas se souber o que está fazendo.
 
+Os arquivos de imagem devem ser gravados na pasta `\media\`, de preferência em formato `.png`.
 
+A pasta `\_sass\` contém os arquivos de customização (`.scss`), que podem ser realizados no esquema de cores (`\color_schemes\`), seja em customizações em geral (`\custom\`)
 
+### Atualizações:
 
-2020 Ministério da Saúde.
-Todos os direitos reservados. É permitida a reprodução parcial ou total desta obra, desde que citada a fonte e que não seja para venda ou qualquer fim comercial. Venda proibida. Distribuição gratuita. A responsabilidade pelos direitos autorais de textos e imagens desta obra é da área técnica. A  coleção institucional do Ministério da Saúde pode ser acessada na íntegra na Biblioteca Virtual em Saúde do Ministério da Saúde: <http://www.saude.gov.br/bvs>.
+As atualizações dos manuais do e-SUS APS devem observar as seguintes premissas, observando o funcionamento da [Política de Controle de Versão do Sistema e-SUS APS](https://cgiap-saps.github.io/e-SUS-APS-v.4.1/00_base_conceitual/#2-pol%C3%ADtica-de-controle-de-vers%C3%A3o-do-sistema-e-sus-aps).
 
-Tiragem: 1ª edição – 2020 – versão eletrônica
+- **Versões de manutenção correção (*revision*):** Em caso de atualização de conteúdo em versões de correção, manter a atualização no projeto de manual da versão de melhorias atual.
 
-Elaboração, distribuição e informações
+- **Versões de melhoria (*minor*) e novidades (*major*):** os manuais destas versões precisam ter projetos independentes no GitHub. Para isto é necessário duplicar a versão anterior e continuar as atualizações.
 
-MINISTÉRIO DA SAÚDE
-Secretaria de Atenção Primária à Saúde
-Departamento de Saúde da Família
-Esplanada dos Ministérios - Bloco G - 7º andar
-CEP: 70.058-900 – Brasília/DF
-Tels.: (61) 3315-8090 / 3315-8044
-Site: <http://aps.saude.gov.br>
-E-mail: esusab@saude.gov.br
+Para otimização dos processos de atualização é adequado utilizar o [GitHub Desktop](https://desktop.github.com/) para sincronização local do repositório. Sugerimos utilizar o [Atom](https://atom.io/) como editor de texto.
 
-**Supervisor Geral**
-Renata Maria de Oliveira Costa
+#### Atualização de conteúdo:
 
-**Coordenação Técnica Geral**
-João Geraldo de Oliveira Júnior
-
-**Organização**
-Ana Claudia Cielo, Igor de Carvalho Gomes
-
-**Revisão Técnica**
-Ana Claudia Cielo, Igor de Carvalho Gomes, Micael Macedo Pereira da Trindade, André Cury Alves, João Geraldo de Oliveira Júnior
-
-**Elaboração de texto**
-
-Adriana Kitajima, Allan Nuno Alves de Souza, Ana Claudia Cielo, André Cury Alves, Edson Lucena, Igor de Carvalho Gomes, João Geraldo de Oliveira Júnior, Janaína Nogueira Guimarães, Micael Macedo Pereira, da Trindade, Rodrigo André Cuevas Gaete, Thaís Alessa Leite, Vanessa Lora, Virgínia Fava, Projeto Gráfico, Alexandre Soares de Brito, Diogo Ferreira Gonçalves
-
-**Ficha Catalográfica**
-
-________________________________________________________________________________________________________________
-
-Brasil. Ministério da Saúde. Secretaria de Atenção Primária à Saúde.
-
-   e-SUS Atenção Primária à Saúde: Manual do Sistema com Prontuário Eletrônico do Cidadão PEC – Versão 4.0 [recurso eletrônico] / Ministério da Saúde, Secretaria de Atenção Primária à Saúde, Secretaria-Executiva. – Brasília: Ministério da Saúde, 2020.
-
-   ISBN **Versão Preliminar**
-
-   Modo de acesso: <http://aps.saude.gov.br>
-
- CDU 614
-
-________________________________________________________________________________________________________________
-
-Catalogação na fonte – Coordenação-Geral de Documentação e Informação – Editora MS – OS 2020.
+Sempre que for realizar uma atualização de conteúdo é desejável que inclua um resumo das alterações na descrição do *commit* no GitHub ou GitHub Desktop.
