@@ -29,7 +29,7 @@ Atualmente, são desenvolvidos instaladores para as seguintes plataformas:
 
 - Microsoft Windows.
 
-A instalação na plataforma Microsoft Windows vem com pacote Java embutido, caso seja necessária uma instalação personalizada deve ser realizada a instalação do pacote Java 7. Para plataformas Linux recomenda- se seguir as instruções do arquivo "LEIA- ME" incluso no arquivo (compactado) de instalação.
+A instalação na plataforma Microsoft Windows vem com pacote Java embutido, caso seja necessária uma instalação personalizada deve ser realizada a instalação do pacote Java 7. Para plataformas Linux recomenda-se seguir as instruções do arquivo "LEIA-ME" incluso no arquivo (compactado) de instalação.
 
 # 2.2 Banco de Dados
 

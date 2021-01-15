@@ -35,7 +35,7 @@ Fonte: SAPS/MS.
 
 Após a instalação do sistema, é necessário fazer sua configuração para, então, começar a utilizá- lo. Seguem abaixo as etapas a serem seguidas para o uso do PEC. É importante seguir a ordem dessas orientações, uma vez que algumas etapas dependem de outras anteriores. Os passos a seguir, conforme o Quadro 3.1, constituem um fluxo lógico para manusear o Sistema com PEC.
 
-> ![](media/image84.png) **DICA**: o sistema vem pré- configurado com opções padronizadas, a partir de características gerais do processo de trabalho na atenção básica, portanto, é importante verificar as configurações pré- definidas e sempre que necessário adequá- las à realidade local.
+> ![](media/image84.png) **DICA**: o sistema vem pré-configurado com opções padronizadas, a partir de características gerais do processo de trabalho na atenção básica, portanto, é importante verificar as configurações pré-definidas e sempre que necessário adequá-las à realidade local.
 
 Quadro 3.1 - Passo a passo de configuração inicial do Sistema com PEC
 

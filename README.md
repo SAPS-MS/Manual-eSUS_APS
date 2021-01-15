@@ -1,11 +1,11 @@
-**MINISTÉRIO DA SAÚDE**<br>
-Secretaria de Atenção Primária à Saúde<br>
-Departamento de Saúde da Família<br>
-Coordenação-Geral de Informação da Atenção Primária<br>
+**MINISTÉRIO DA SAÚDE**{: .text-center }<br>
+Secretaria de Atenção Primária à Saúde{: .text-center }<br>
+Departamento de Saúde da Família{: .text-center }<br>
+Coordenação-Geral de Informação da Atenção Primária{: .text-center }<br>
 
-# e-SUS Atenção Primária à Saúde
-
-## MANUAL DE USO DO PRONTUÁRIO ELETRÔNICO DO CIDADÃO – PEC
+**e-SUS Atenção Primária à Saúde**{: .text-center }<br>
+PRONTUÁRIO ELETRÔNICO DO CIDADÃO – PEC{: .text-center }<br>
+MANUAL DE USO{: .text-center }<br>
 
 ### Orientações Gerais:
 
@@ -15,7 +15,7 @@ O template utilizado neste manual é o [Just the Docs](https://pmarsceill.github
 
 ### Estrutura:
 
-O manual está organizado em capítulos. Cada arquivo `<.md>` contém um capítulo. Atualmente o manual é composto por 11 capítulos. O arquivo `index.md` é a página principal de acesso do manual.
+O manual está organizado em capítulos. Cada arquivo `.md` contém um capítulo. Atualmente o manual é composto por 11 capítulos. O arquivo `index.md` é a página principal de acesso do manual.
 
 O arquivo `_config.yml` contém as configurações de funcionamento do template atualmente utilizado. Altere este arquivo apenas se souber o que está fazendo.
 
