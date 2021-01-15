@@ -1,52 +1,63 @@
+# Título da página
 title: Estratégia e-SUS APS
+# Descrição da página
 description: Manual da versão 4.1 do Prontuário Eletrônico do Cidadão (PEC) do e-SUS APS
+# o subcaminho de seu site, por exemplo /blog
 baseurl: "/e-SUS-APS-v.4.1"
+# o nome do host e protocolo base para seu site, por exemplo, http://example.com
 url: "https://cgiap-saps.github.io"
+#
 permalink: pretty
+#
 exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile", "docs/tests/"]
+# Indica qual o tema externo a ser utilizado na página. Neste caso estamos utilizando o tema "Just the Docs"
 remote_theme: pmarsceill/just-the-docs
+# Indica o esquema de cores customizado definido em /_sass/color_schemes/nomedoarquivo.scss
 color_scheme: SAPS
+# Defina um caminho / url para um logotipo que será exibido em vez do título. Indica o local da logomarca a ser utilizada no canto superior esquerdo da página.
 logo: "/media/logoesusaps.png"
+# Habilita a busca na página
 search_enabled: true
-
+# Configurações da busca
 search:
-  # Split pages into sections that can be searched individually
-  # Supports 1 - 6, default: 2
+  # Divida as páginas em seções que podem ser pesquisadas individualmente
+  # Suporta 1 - 6, padrão: 2
   heading_level: 4
-  # Maximum amount of previews per search result
+  # Quantidade máxima de visualizações por resultado de pesquisa
   # Default: 3
   previews: 3
-  # Maximum amount of words to display before a matched word in the preview
+  # Quantidade máxima de palavras a serem exibidas antes de uma palavra correspondente na visualização
   # Default: 5
   preview_words_before: 5
-  # Maximum amount of words to display after a matched word in the preview
+  # Quantidade máxima de palavras a serem exibidas após uma palavra correspondida na visualização
   # Default: 10
   preview_words_after: 10
-  # Set the search token separator
+  # Defina o separador de token de pesquisa
   # Default: /[\s\-/]+/
-  # Example: enable support for hyphenated search words
+  # Exemplo: habilitar suporte para palavras de pesquisa hifenizadas
   tokenizer_separator: /[\s/]+/
-  # Display the relative url in search results
-  # Supports true (default) or false
+  # Exibir o url relativo nos resultados da pesquisa
+  # Suporta true (padrão) ou false
   rel_url: true
-  # Enable or disable the search button that appears in the bottom right corner of every page
-  # Supports true or false (default)
+  # Habilite ou desabilite o botão de pesquisa que aparece no canto inferior direito de cada página
+  # Suporta true (padrão) ou false
   button: false
 
+# Para ativar ou desativar âncoras título
 heading_anchors: true
 
+# Texto que aparece na parte inferior do conteúdo principal de cada página
 footer_content: "2021 Ministério da Saúde. Todos os direitos reservados. É permitida a reprodução parcial ou total desta obra, desde que citada a fonte e que não seja para venda ou qualquer fim comercial. Venda proibida. Distribuição gratuita. A responsabilidade pelos direitos autorais de textos e imagens desta obra é da área técnica. A
 coleção institucional do Ministério da Saúde pode ser acessada na íntegra na Biblioteca Virtual em Saúde do Ministério da Saúde: http://www.saude.gov.br/bvs"
 
-  # Footer last edited timestamp
-last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
+# Carimbo de data / hora da última edição do rodapé
+last_edit_timestamp: true # mostrar ou ocultar o tempo de edição - a página deve ter `last_modified_date` definido no frontmatter
 last_edit_time_format: "%e %b %Y" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
 
-
-# Aux links for the upper right navigation
+# Links auxiliares para a navegação superior direita]
 aux_links:
   "Estratégia e-SUS APS":
     - "//aps.saude.gov.br/ape/esus"
 
-# Makes Aux links open in a new tab. Default is false
+# Faz com que os links auxiliares abram em uma nova guia. O padrão é "false"
 aux_links_new_tab: true
