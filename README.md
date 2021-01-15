@@ -31,8 +31,11 @@ As atualizações dos manuais do e-SUS APS devem observar as seguintes premissas
 
 - **Versões de melhoria (*minor*) e novidades (*major*):** os manuais destas versões precisam ter projetos independentes no GitHub. Para isto é necessário duplicar a versão anterior e continuar as atualizações.
 
-Para otimização dos processos de atualização é adequado utilizar o [GitHub Desktop](https://desktop.github.com/) para sincronização local do repositório. Sugerimos utilizar o [Atom](https://atom.io/) como editor de texto.
+#### Baixando o projeto
+Utilize o [GitHub Desktop](https://desktop.github.com/) para baixar o projeto em seu computador. Após a instalação, faça o *login* na sua conta GitHub. Escolha o projeto e selecione a opção `Clone`. O GitHub Desktop irá salvar uma cópia do projeto no seu computador.
 
 #### Atualização de conteúdo:
 
-Sempre que for realizar uma atualização de conteúdo é desejável que inclua um resumo das alterações na descrição do *commit* no GitHub ou GitHub Desktop.
+Utilize o [Atom](https://atom.io/) para realizar as edições dos arquivos e os respectivos envios (também conhecido como *commit*). É possível realizar todas as operações de *commit* a partir do Atom. Para isto é necessário ativar o pacote de integração do GitHub disponível no próprio Atom (menu `Packages` > `GitHub` > `Toggle GitHub Tab`). Após configurar sua conta GitHub no Atom é necessário clicar na opção `Git` no canto inferior direito do Atom. Será apresentado uma aba com informações relacionadas ao repositório em que você estará trabalhando, os arquivos que foram identificados com alguma alteração e as opções de *commit*. Não esqueça de salvar as alterações antes de realizar o *commit*.
+
+Sempre que for realizar uma atualização de conteúdo é desejável que inclua um resumo das alterações na descrição do *commit*.
