@@ -1,11 +1,11 @@
-**MINISTÉRIO DA SAÚDE**{: .text-center }<br>
-Secretaria de Atenção Primária à Saúde{: .text-center }<br>
-Departamento de Saúde da Família{: .text-center }<br>
-Coordenação-Geral de Informação da Atenção Primária{: .text-center }<br>
+**MINISTÉRIO DA SAÚDE**<br>
+Secretaria de Atenção Primária à Saúde<br>
+Departamento de Saúde da Família<br>
+Coordenação-Geral de Informação da Atenção Primária<br>
 
-**e-SUS Atenção Primária à Saúde**{: .text-center }<br>
-PRONTUÁRIO ELETRÔNICO DO CIDADÃO – PEC{: .text-center }<br>
-MANUAL DE USO{: .text-center }<br>
+**e-SUS Atenção Primária à Saúde**<br>
+PRONTUÁRIO ELETRÔNICO DO CIDADÃO – PEC<br>
+MANUAL DE USO<br>
 
 ### Orientações Gerais:
 
