@@ -68,10 +68,10 @@ Alexandre Soares de Brito, Diogo Ferreira Gonçalves
 {: .text-center }
 
 Brasil. Ministério da Saúde. Secretaria de Atenção Primária à Saúde.<br>
-e-SUS Atenção Primária à Saúde: Manual do Sistema com Prontuário Eletrônico do Cidadão PEC – Versão 4.1 [recurso eletrônico] / Ministério da Saúde, Secretaria de Atenção Primária à Saúde, Secretaria Executiva. – Brasília: Ministério da Saúde, 2020.<br>
+e-SUS Atenção Primária à Saúde: Manual do Sistema com Prontuário Eletrônico do Cidadão PEC – Versão 4.1 [recurso eletrônico] / Ministério da Saúde, Secretaria de Atenção Primária à Saúde, Secretaria Executiva. – Brasília: Ministério da Saúde, 2021.<br>
 <br>
 ISBN **Versão Preliminar**<br>
 Modo de acesso: <http://aps.saude.gov.br><br>
 CDU 614<br>
 
-Catalogação na fonte – Coordenação-Geral de Documentação e Informação – Editora MS – OS 2020.
+Catalogação na fonte – Coordenação-Geral de Documentação e Informação – Editora MS – OS 2021.
