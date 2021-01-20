@@ -248,8 +248,9 @@ Só é permitido realizar uma escuta inicial para cada atendimento, e não é pe
 
 # 6.3 Realizar Vacinação
 
+O módulo de vacinação possibilita a organização do processo de trabalho, o registro das vacinas, imunoglobulinas e soros que fazem parte do Programa Nacional de Imunização (PNI) do Ministério da Saúde, contribuindo, dessa forma, para o controle, erradicação e eliminação de doenças imunopreveníveis. O PNI define o calendário de vacinação com orientações específicas para crianças, adolescentes, adultos, gestantes e idosos. Sendo assim, a equipe da Atenção Básica realiza a verificação da caderneta para avaliar a situação vacinal e encaminha a população à unidade de saúde para iniciar ou completar o esquema vacinal, conforme o calendário de vacinação. A partir de então, começa o fluxo de atendimento no PEC.
 
-O módulo de vacinação é mais uma novidade na versão 3.0, possibilitando a organização do processo de trabalho, o registro das vacinas, imunoglobulinas e soros que fazem parte do Programa Nacional de Imunização (PNI) do Ministério da Saúde, contribuindo, dessa forma, para o controle, erradicação e eliminação de doenças imunopreveníveis. O PNI define o calendário de vacinação com orientações específicas para crianças, adolescentes, adultos, gestantes e idosos. Sendo assim, a equipe da Atenção Básica realiza a verificação da caderneta para avaliar a situação vacinal e encaminha a população à unidade de saúde para iniciar ou completar o esquema vacinal, conforme o calendário de vacinação. A partir de então, começa o fluxo de atendimento no PEC.
+> ![](media/image74.png) **ATUALIZAÇÃO:** A partir da versão 4.1.17 o registro da vacina COVID-19 está disponível exclusivamente para atendimento à situação nacional de Emergência em Saúde Pública. Mais informações no tópico 6.3.1.2 deste capítulo.
 
 ## 6.3.1 Registrar Vacina Aplicada
 
@@ -339,7 +340,7 @@ Figura 6.15 - Confirmação de registro de dose advertida
 
 ### 6.3.1.1 Cadastrar lote e fabricante
 
-Caso o lote e o fabricante não estejam previamente cadastrado no sistema é possível realizar a inserção destas informações a partir da opção "+ Adicionar novo".
+Caso o lote e o fabricante não estejam previamente cadastrado no sistema, como indicado na [seção 3.10 do Capítulo 3](https://cgiap-saps.github.io/e-SUS-APS-v.4.1/03_adm_conf/#310-lotes-de-imunobiol%C3%B3gicos), é possível realizar a inserção destas informações a partir da opção "+ Adicionar novo".
 
 ![](media/image354.png)
 
@@ -472,6 +473,16 @@ No módulo de acompanhamento da vacinação é possível atualizar a caderneta d
 Figura 6.27 - Adicionar doses anteriores
 
 ![](media/image375.png)
+
+## 6.3.7 Registro de doses para vacinação contra COVID-19
+
+Exclusivamente para atendimento à situação nacional de Emergência em Saúde Pública está disponível o registro das doses aplicadas da vacina COVID-19 além da possibilidade de registro de doses anteriores, se for o caso. Exclusivamente para esta vacina será obrigatória a identificação do cidadão através do CPF ou CNS.
+
+Para iniciar o registro selecione a vacina de acordo com o fabricante como mostra a imagem a seguir.
+
+![](media/vacinacovid19-1.png)
+
+O comportamento do sistema durante o registro da dose aplicada das vacinas COVID-19, assim como o seu aprazamento, seguem o mesmo padrão das vacinas de rotina. Idem para o processo de registro de doses anteriores como mostra a seção 6.3.2.
 
 # 6.4 Atender - Prontuário do Cidadão
 

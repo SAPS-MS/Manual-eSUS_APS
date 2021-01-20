@@ -38,7 +38,9 @@ O Sistema com CDS ou o Módulo CDS (do Sistema com PEC) é um **sistema de apoio
 - Ficha de Vacinação.
 
 Figura 7.1 - Tela do menu do CDS
+
 ![](media/image623.png)
+
 Fonte: SAS/MS.
 
 ## 7.1.1 Orientações Gerais sobre o Processo de Digitação das Fichas
@@ -120,7 +122,9 @@ O Cadastro da Atenção Básica (AB) é uma extensão do CadSUS no que se refere
 Na tela principal, clique no ícone "Cadastro individual". A janela com a lista de fichas digitadas de cadastro individual será mostrada, conforme a Figura 7.7. É possível visualizar esta lista e as opções relacionadas a cada registro, além das opções de filtro da lista.
 
 Figura 7.7 - Tela principal do cadastro individual
+
 ![](media/image637.png)
+
 Fonte:SAS/MS.
 
 ### 7.2.1.1 Adicionar Cadastro Individual
@@ -493,7 +497,7 @@ b.Atividades realizadas em outros estabelecimentos de saúde que não o estabele
 
 3.No bloco "Profissionais participantes", preencha o n⁰ do CNS e o CBO de cada profissional que participou da atividade e clique em ![](media image685.png), inserindo- os na lista, um a um;
 
-a.Caso necessário, para excluir um profissional da lista, clique  na opção ![](media/image686.png) "Excluir";
+a. Caso necessário, para excluir um profissional da lista, clique  na opção ![](media/image686.png) "Excluir";
 
 4.Preencha o "Nº de participantes" e o campo "Nº de avaliações alteradas", o qual traz o resultado da contagem de participantes da atividade coletiva que tiveram a marcação de "Avaliação alterada" na lista de participantes;
 
@@ -503,7 +507,7 @@ a.Caso necessário, para excluir um profissional da lista, clique  na opção ![
 
 ![](media/image687.png)
 
-a.Quando a atividade não for destinada a atender aos 03 (três) itens acima descritos, o sistema desabilita o bloco "Temas para reunião";
+a. Quando a atividade não for destinada a atender aos 03 (três) itens acima descritos, o sistema desabilita o bloco "Temas para reunião";
 
 ### 7.4.1.2 Atividades de saúde
 
@@ -895,7 +899,7 @@ a.Caso o profissional tenha apenas um vínculo no município, os dados do cabeç
 
 b.Caso o profissional tenha mais de um vínculo, o sistema mostrará as opções e o digitador escolherá o que está registrado na ficha de vacina.
 
-c.Caso queira informar novo registro de vacinação realizado no mesmo dia e para o mesmo profissional, clique no botão ![](media image666.png){width="0.8576388888888888in" height="0.2218033683289589in"}. O sistema exibirá uma tela com cabeçalho preenchido (somente leitura) e os dados a serem completados para se efetivar o registro de vacinação.
+c.Caso queira informar novo registro de vacinação realizado no mesmo dia e para o mesmo profissional, clique no botão ![](media/image666.png). O sistema exibirá uma tela com cabeçalho preenchido (somente leitura) e os dados a serem completados para se efetivar o registro de vacinação.
 
 ### 7.11.1.2 Vacinações individualizadas
 
@@ -934,3 +938,23 @@ Figura 7.34 - Adicionar Registro Individualizada
 Fonte: SAS/MS.
 
 Ao finalizar todo o processo de digitação das Fichas de vacina, clique no botão ![](media/image634.png).
+
+> ![](media/image74.png) **ATUALIZAÇÃO:** A partir da versão 4.1.17 o registro da vacina COVID-19 está disponível exclusivamente para atendimento à situação nacional de Emergência em Saúde Pública.
+
+## 7.11.2 Ficha de Vacinação COVID-19
+
+Esta ficha deverá ser utilizada exclusivamente para o registro de doses aplicadas da vacina contra a COVID-19. Diferente da Ficha de vacinação padrão, esta apresenta algumas especificidades relacionadas à captação dos dados, como a inclusão de alguns campos e a obrigatoriedade da identificação do cidadão através do CPF ou CNS.
+
+### 7.11.2.1 Vacinações individualizadas
+
+Especialmente para a vacinação contra a COVID-10 o campo CPF/CNS é de preenchimento obrigatório. A verificação do preenchimento deste campo ocorre após confirmar o registro da dose aplicada clicando no botão ![](media/confirmar.png).
+
+![](media/cpfobrigatorio.png)
+
+### 7.11.2.2 Registro da vacinação
+
+É possível realizar o registro da dose aplicada da vacina contra a COVID-19 utilizando quatro tipos de vacinas previstas para disponibilização em todo o território nacional.
+
+![](media/produtos-vacinas.png)
+
+Ao terminar de registrar a dose aplicada clique no botão ![](media/image672.png). Caso haja alguma inconsistência, o sistema mostrará mensagem na tela indicando os campos que deverão ser corrigidos. Caso não haja nenhuma inconsistência, o sistema salvará os dados, voltará para a tela de adicionar os registros de vacinação e apresentará a mensagem "registro confirmado com sucesso".
