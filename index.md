@@ -5,7 +5,7 @@ nav_order: 1
 description: "Manual e-SUS APS v4.1"
 permalink: /
 # Carimbo de data / hora da última edição do rodapé
-last_modified_date: true
+# last_modified_date: true
 ---
 
 e-SUS Atenção Primária à Saúde
