@@ -50,10 +50,11 @@ heading_anchors: true
 footer_content: "2021 Ministério da Saúde. Todos os direitos reservados. É permitida a reprodução parcial ou total desta obra, desde que citada a fonte e que não seja para venda ou qualquer fim comercial. Venda proibida. Distribuição gratuita. A responsabilidade pelos direitos autorais de textos e imagens desta obra é da área técnica. A
 coleção institucional do Ministério da Saúde pode ser acessada na íntegra na Biblioteca Virtual em Saúde do Ministério da Saúde: http://www.saude.gov.br/bvs"
 
-  # Carimbo de data / hora da última edição do rodapé
-  last_edit_timestamp: true # mostrar ou ocultar o tempo de edição - a página deve ter `last_modified_date` definido no frontmatter
-  last_modified_date: "%b %e %Y at %I:%M %p"
-  last_edit_time_format: "%b %e %Y at %I:%M %p"  # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
+# Carimbo de data / hora da última edição do rodapé
+show_last_edit_time: true
+last_edit_time_format: "%Y-%m-%d %H:%M"
+last_edit_timestamp: true # mostrar ou ocultar o tempo de edição - a página deve ter `last_modified_date` definido no frontmatter
+last_edit_time_format: "%b %e %Y at %I:%M %p"  # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
 
 # Links auxiliares para a navegação superior direita]
 aux_links:
@@ -62,3 +63,11 @@ aux_links:
 
 # Faz com que os links auxiliares abram em uma nova guia. O padrão é "false"
 aux_links_new_tab: true
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Voltar ao topo"
+
+# Google Analytics Tracking (optional)
+ga_tracking:
+ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true/nil by default)
