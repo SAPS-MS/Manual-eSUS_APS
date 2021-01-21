@@ -4,7 +4,7 @@ title: Orientações Gerais sobre o Sistema
 nav_order: 3
 has_children: false
 has_toc: true
-# last_modified_date: true
+last_modified_date: true
 ---
 
 # CAPÍTULO 1 - Orientações Gerais sobre o Sistema
