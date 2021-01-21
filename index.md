@@ -4,7 +4,10 @@ title: Início
 nav_order: 1
 description: "Manual e-SUS APS v4.1"
 permalink: /
+# Carimbo de data / hora da última edição do rodapé
+last_edit_timestamp: true # mostrar ou ocultar o tempo de edição - a página deve ter `last_modified_date` definido no frontmatter
 last_modified_date: "%b %e %Y at %I:%M %p"
+last_edit_time_format: "%b %e %Y at %I:%M %p"  # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
 ---
 
 e-SUS Atenção Primária à Saúde
