@@ -51,8 +51,6 @@ footer_content: "2021 Ministério da Saúde. Todos os direitos reservados. É pe
 coleção institucional do Ministério da Saúde pode ser acessada na íntegra na Biblioteca Virtual em Saúde do Ministério da Saúde: http://www.saude.gov.br/bvs"
 
 # Carimbo de data / hora da última edição do rodapé
-show_last_edit_time: true
-last_edit_time_format: "%Y-%m-%d %H:%M"
 last_edit_timestamp: true # mostrar ou ocultar o tempo de edição - a página deve ter `last_modified_date` definido no frontmatter
 last_edit_time_format: "%b %e %Y at %I:%M %p"  # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
 
