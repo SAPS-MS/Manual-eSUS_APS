@@ -4,7 +4,7 @@ title: Base Conceitual do Sistema
 nav_order: 2
 has_children: false
 has_toc: true
-last_modified_date: true
+last_modified_date: 
 ---
 
 
