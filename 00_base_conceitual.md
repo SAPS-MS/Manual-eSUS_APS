@@ -24,7 +24,7 @@ O e-SUS APS é uma estratégia do Departamento de Saúde da Família (DESF) para
 
 A Estratégia e-SUS APS faz referência ao processo de informatização qualificada do Sistema Único de Saúde (SUS) em busca de um SUS eletrônico (e-SUS) e tem como objetivo concretizar um novo modelo de gestão de informação que apoie os municípios e os serviços de saúde na gestão efetiva da AB e na qualificação do cuidado dos usuários.
 
-Esse modelo nacional de gestão da informação na AB é definido a partir de diretrizes e requisitos essenciais que orientam e organizam o processo de reestruturação desse sistema de informação, instituindo- se o Sistema de Informação em Saúde para a Atenção Básica (SISAB), por meio da Portaria GM/MS Nº 1.412, de 10 de julho de 2013, e a Estratégia e-SUS APS para sua operacionalização. A Estratégia e-SUS APS preconiza:
+Esse modelo nacional de gestão da informação na AB é definido a partir de diretrizes e requisitos essenciais que orientam e organizam o processo de reestruturação desse sistema de informação, instituindo-se o Sistema de Informação em Saúde para a Atenção Básica (SISAB), por meio da Portaria GM/MS Nº 1.412, de 10 de julho de 2013, e a Estratégia e-SUS APS para sua operacionalização. A Estratégia e-SUS APS preconiza:
 
 - **Individualizar o registro**: registro individualizado das informações em saúde, para o acompanhamento dos atendimentos aos cidadãos;
 
@@ -48,7 +48,7 @@ A estratégia é composta por dois sistemas:
 
 - Sistema com Prontuário Eletrônico do Cidadão (**PEC**), sistema com prontuário eletrônico (objeto deste manual), que tem como principal objetivo apoiar o processo de informatização das UBS.
 
-> ![](media/image58.png)**NOTA**: Para conhecer os conceitos e orientações de preenchimento das fichas, consulte o Manual do Sistema com Coleta de Dados Simplificada . Sobre o sistema de digitação acesse o Capítulo 07 deste manual.{.is-info}
+> ![](media/image58.png)**NOTA**: Para conhecer os conceitos e orientações de preenchimento das fichas, consulte o Manual do Sistema com Coleta de Dados Simplificada. Sobre o sistema de digitação acesse o Capítulo 07 deste manual.{.is-info}
 
 Durante o texto, os softwares do Sistema e-SUS APS também são referidos como Sistema com CDS e Sistema com PEC, respectivamente, ou ainda, simplesmente, CDS e PEC.
 
@@ -56,7 +56,7 @@ Durante o texto, os softwares do Sistema e-SUS APS também são referidos como S
 
 # 2. Política de Controle de Versão do Sistema e-SUS APS
 
-O desenvolvimento do Sistema e-SUS APS, considerando todos os *softwares* e aplicativos, está organizado em versões. A Política de Controle de Versões do Sistema e-SUS APS, conforme ilustra a Figura 1, utiliza um esquema clássico de versionamento de sistemas (*major.minor.revision*), alinhando- se ao tipo de implementação incluída no sistema, considerando três tipos de alterações como seguem:
+O desenvolvimento do Sistema e-SUS APS, considerando todos os *softwares* e aplicativos, está organizado em versões. A Política de Controle de Versões do Sistema e-SUS APS, conforme ilustra a Figura 1, utiliza um esquema clássico de versionamento de sistemas (*major.minor.revision*), alinhando-se ao tipo de implementação incluída no sistema, considerando três tipos de alterações como seguem:
 
 a. o primeiro dígito para indicar novas funcionalidades (N);
 b. o segundo dígito para indicar manutenção evolutiva (E); e
@@ -70,13 +70,13 @@ Fonte: SAS/MS.
 
 Essas regras de versionamento permitem que os administradores do sistema nos municípios entendam melhor qual é o tipo de impacto que a substituição de uma versão do sistema poderá trazer aos seus usuários. O que se espera é que, ao passo de estar ciente do lançamento de uma versão, o gestor, em conjunto com o administrador do sistema, proceda da seguinte forma em relação à atualização do sistema em uso no município:
 
-- **Novas Funcionalidades** (N): avaliar as novas funcionalidades e substituir o sistema considerando as necessidades de requalificação dos profissionais que estão utilizando o sistema, em especial os que podem fazer uso das novas funcionalidades;
+- **Novas Funcionalidades** (N): avaliar as novas funcionalidades, substituir a versão antiga do sistema e requalificar os profissionais que estão utilizando o sistema, em especial os que podem fazer uso das novas funcionalidades;
 
-- **Manutenção Evolutiva** (E): avaliar as alterações, substituir o sistema quando possível e alertar os profissionais das melhorias no sistema;
+- **Manutenção Evolutiva** (E): avaliar as alterações, substituir a versão antiga do sistema e alertar os profissionais das melhorias no sistema;
 
-- **Manutenções Corretivas** (C): proceder com a atualização o mais breve possível, com vistas a manter o sistema seguro e com correções de pequenas falhas de desenvolvimento do sistema ou de alguma biblioteca;
+- **Manutenções Corretivas** (C): proceder com a atualização urgentemente, a fim de manter o sistema seguro e com correções de pequenas falhas de desenvolvimento do sistema ou de alguma biblioteca;
 
-Considerando esta política de controle de versão, para identificar uma versão do Sistema e-SUS APS, em especial para identificar alguma funcionalidade do sistema, será possível fazê- lo usando apenas o primeiro e o segundo dígito, por exemplo, Sistema e-SUS APS versão 3.1. O último dígito pode ser omitido, pois não identifica nenhuma funcionalidade, sendo útil quando for necessário identificar alguma versão específica do sistema, em geral em produção, por exemplo, para identificar uma versão do sistema em uma solicitação de suporte técnico.
+Considerando esta política de controle de versão, para identificar uma versão do Sistema e-SUS APS, em especial para identificar alguma funcionalidade do sistema, será possível fazê-lo usando apenas o primeiro e o segundo dígito, por exemplo, Sistema e-SUS APS versão 3.1. O último dígito pode ser omitido, pois não identifica nenhuma funcionalidade, sendo útil quando for necessário identificar alguma versão específica do sistema, em geral em produção, por exemplo, para identificar uma versão do sistema em uma solicitação de suporte técnico.
 
 # 3. Cadastro da Atenção Básica
 
