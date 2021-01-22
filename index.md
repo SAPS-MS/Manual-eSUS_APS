@@ -4,7 +4,6 @@ title: Início
 nav_order: 1
 description: "Manual e-SUS APS v4.1"
 permalink: /
-last_modified_date: "22/01/2021"
 ---
 
 e-SUS Atenção Primária à Saúde
