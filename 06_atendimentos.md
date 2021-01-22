@@ -9,13 +9,15 @@ has_toc: true
 # CAPÍTULO 6 - Atendimentos
 {: .no_toc }
 
+Neste capítulo serão apresentadas as funcionalidades que garantem a ordenação da maior parte dos fluxos de atendimento que ocorrem nos serviços de atenção primária.
+
 ## Sumário
 {: .no_toc .text-delta }
 
 - TOC
 {:toc}
 
-A partir do novo padrão de funcionamento do PEC os profissionais de saúde têm acesso à Lista de Atendimentos da unidade de saúde utilizando a barra lateral de navegação. É por meio dela que são iniciados os atendimentos aos cidadãos agendados ou os que buscam um atendimento de demanda espontânea.
+A partir do padrão de funcionamento do PEC os profissionais de saúde têm acesso à Lista de Atendimentos da unidade de saúde utilizando a barra lateral de navegação. É por meio dela que são iniciados os atendimentos aos cidadãos agendados ou os que buscam um atendimento de demanda espontânea.
 
 ![](media/image305.png)
 

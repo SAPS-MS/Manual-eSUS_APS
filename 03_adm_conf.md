@@ -10,6 +10,8 @@ has_toc: true
 # CAPÍTULO 3 - Administração e Configurações do Sistema
 {: .no_toc }
 
+Este capítulo apresenta as funções de administração e configurações do sistema.
+
 ## Sumário
 {: .no_toc .text-delta }
 
@@ -33,7 +35,7 @@ Fonte: SAPS/MS.
 
 > ![](media/image58.png) **NOTA**: caso o usuário acesse esse módulo com perfil diferente de administrador da instalação ou de Administrador municipal terá um conjunto de funcionalidades restritas ao seu perfil.
 
-Após a instalação do sistema, é necessário fazer sua configuração para, então, começar a utilizá- lo. Seguem abaixo as etapas a serem seguidas para o uso do PEC. É importante seguir a ordem dessas orientações, uma vez que algumas etapas dependem de outras anteriores. Os passos a seguir, conforme o Quadro 3.1, constituem um fluxo lógico para manusear o Sistema com PEC.
+Após a instalação do sistema, é necessário fazer sua configuração para, então, começar a utilizá-lo. Seguem abaixo as etapas a serem seguidas para o uso do PEC. É importante seguir a ordem dessas orientações, uma vez que algumas etapas dependem de outras anteriores. Os passos a seguir, conforme o Quadro 3.1, constituem um fluxo lógico para manusear o Sistema com PEC.
 
 > ![](media/image84.png) **DICA**: o sistema vem pré-configurado com opções padronizadas, a partir de características gerais do processo de trabalho na atenção básica, portanto, é importante verificar as configurações pré-definidas e sempre que necessário adequá-las à realidade local.
 

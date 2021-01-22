@@ -10,6 +10,8 @@ has_toc: true
 # CAPÍTULO 10 - Acompanhamento de condições de saúde
 {: .no_toc }
 
+Este módulo visa proporcionar aos profissionais de saúde um formato mais simples e otimizado de visualizar estas informações.
+
 ## Sumário
 {: .no_toc .text-delta }
 
@@ -18,7 +20,7 @@ has_toc: true
 
 ![](media/image832.png)
 
-Uma das atividades da Atenção Primária à Saúde é realizar o acompanhamento das condições de saúde dos cidadãos vinculados às Equipes da APS. Esta ação é importante e demanda muita organização por parte da equipe. Uma forma facilitada de realizar o acompanhamento das situações de saúde é por meio de relatórios ou listas de cidadãos que possuem determinada condição de saúde, extraídos a partir do sistema de informação utilizado pela equipe. Este módulo visa proporcionar aos profissionais de saúde um formato mais simples e otimizado de visualizar estas informações.
+Uma das atividades da Atenção Primária à Saúde é realizar o acompanhamento das condições de saúde dos cidadãos vinculados às Equipes da APS. Esta ação é importante e demanda muita organização por parte da equipe. Uma forma facilitada de realizar o acompanhamento das situações de saúde é por meio de relatórios ou listas de cidadãos que possuem determinada condição de saúde, extraídos a partir do sistema de informação utilizado pela equipe.
 
 Figura 10.1 - Tela do Relatórios exibida com o perfil de profissional da equipe de AB
 ![](media/image833.png)
