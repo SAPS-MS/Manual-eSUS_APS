@@ -4,6 +4,7 @@ title: Base Conceitual do Sistema
 nav_order: 2
 has_children: false
 has_toc: true
+last_modified_date: true
 ---
 
 
@@ -389,5 +390,3 @@ ROMAN, Angelmar Constantino. **Informatização do registro clínico essencial p
 ZURRO, A. Martín et al. **Atención primaria: conceptos, organización y práctica clínica**. Elsevier España, 2003
 
 WONCA. World Organization of National Colleges. Associations of General Practitioners. Family Physicians. Elaborada pelo Comitê Internacional de Classificação da WONCA. **Classificação Internacional de Atenção Primária (CIAP 2)**. 2. ed. Florianópolis: Sociedade Brasileira de Medicina de Família e Comunidade, 2010
-
-**Atualização da base conceitual**
