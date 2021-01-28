@@ -20,7 +20,7 @@ O cadastro da Atenção Básica é uma extensão do Sistema de Cadastramento de 
 
 O cadastro está organizado em duas dimensões -- individual e domiciliar/territorial --, a dimensão individual capta as informações do cidadão, enquanto a dimensão domiciliar/territorial permite captar as informações do domicílio, vinculando o cidadão ao território. A partir da v 2.1, no e SUS AB esse cadastro possibilita o registro de domicílios que estejam vazios ou abandonados e outros imóveis do território, além da inserção de novos núcleos familiares sem que a equipe tenha que refazer o cadastro domiciliar.
 
-> ![](media/image2.png) **ATENÇÃO**: novos conceitos! A visão de território agora está ampliada. Além de cadastrar os domicílios, também mapeamos outros imóveis do território, como: comércios, terrenos baldios, pontos estratégicos, escola, creche, abrigo, instituição de longa permanência para idosos, unidade prisional, delegacia, estabelecimento religioso, entre outros.
+> ![](media/cds_image2.png) **ATENÇÃO**: novos conceitos! A visão de território agora está ampliada. Além de cadastrar os domicílios, também mapeamos outros imóveis do território, como: comércios, terrenos baldios, pontos estratégicos, escola, creche, abrigo, instituição de longa permanência para idosos, unidade prisional, delegacia, estabelecimento religioso, entre outros.
 
 
 ## 2.1 Cadastro Individual
@@ -29,7 +29,7 @@ O cadastro está organizado em duas dimensões -- individual e domiciliar/territ
 
 **Profissionais que utilizam esta ficha:** Todos os membros das Equipes que atuam na Atenção Básica. Todos os profissionais são habilitados a preencher a ficha de Cadastro Individual.
 
-> ![](media/image2.png) **ATENÇÃO**: toda vez que o ACS realizar cadastro individual, ele deverá preencher esta atividade também na Ficha de Visita Domiciliar, assinalando o campo "Cadastramento/Atualização". Deverá ser utilizado o CNS ou CPF do indivíduo cadastrado.
+> ![](media/cds_image2.png) **ATENÇÃO**: toda vez que o ACS realizar cadastro individual, ele deverá preencher esta atividade também na Ficha de Visita Domiciliar, assinalando o campo "Cadastramento/Atualização". Deverá ser utilizado o CNS ou CPF do indivíduo cadastrado.
 
 A seguir, detalharemos o modo de preenchimento da ficha, atenção aos campos assinalados na ficha com asterisco (/*), pois estes são de preenchimento obrigatório.
 
@@ -39,7 +39,7 @@ O cabeçalho da ficha, assim como o de todas as fichas do CDS, tem um bloco para
 
 **Figura 2.1 -- Cabeçalho da Ficha de Cadastro Individual**
 
-![](media/image7.png)
+![](media/cds_image7.png)
 
 *Fonte: SAS/MS.*
 
@@ -61,7 +61,7 @@ O próximo bloco é utilizado para identificação do profissional que realizou 
 
 **Figura 2.2 -- Identificação do profissional e lotação**
 
-![](media/image7.png)
+![](media/cds_image7.png)
 
 *Fonte: SAS/MS.*
 
@@ -84,11 +84,11 @@ O próximo bloco é utilizado para identificação do profissional que realizou 
 Este bloco visa a identificação do cidadão/usuário do serviço de saúde
 que está sendo cadastrado.
 
-> ![](media/image2.png) ATENÇÃO: Para aumentar o número de registros identificados, a partir da versão 3.2.20 é possível registrar CNS ou CPF do cidadão atendido.
+> ![](media/cds_image2.png) ATENÇÃO: Para aumentar o número de registros identificados, a partir da versão 3.2.20 é possível registrar CNS ou CPF do cidadão atendido.
 
 **Figura 2.3 -- Identificação do usuário/cidadão**
 
-![](media/image8.png)
+![](media/cds_image8.png)
 
 *Fonte: SAS/MS.*
 
@@ -119,9 +119,9 @@ que está sendo cadastrado.
 
 \** Campo obrigatório condicionado a pergunta anterior.
 
-> ![](media/image2.png) **ATENÇÃO**: é importante registrar o **CNS** ou CPF para **identificação** e vinculação do cidadão de seus dados com os registros de atendimento dentro do serviço de saúde. Entretanto, sob hipótese alguma, o fato de **não ter** disponível o n° do **CNS** **ou CPF** deverá inviabilizar o acesso do cidadão aos estabelecimentos de saúde, bem como o cuidado prestado a ele.
+> ![](media/cds_image2.png) **ATENÇÃO**: é importante registrar o **CNS** ou CPF para **identificação** e vinculação do cidadão de seus dados com os registros de atendimento dentro do serviço de saúde. Entretanto, sob hipótese alguma, o fato de **não ter** disponível o n° do **CNS** **ou CPF** deverá inviabilizar o acesso do cidadão aos estabelecimentos de saúde, bem como o cuidado prestado a ele.
 
-> ![](media/image1.png) **NOTA**: para mais informações sobre o CNS, acesse o endereço eletrônico [https://portaldocidadao.saude.gov.br/portalcidadao/](https://portaldocidadao.saude.gov.br/portalcidadao/).
+> ![](media/cds_image1.png) **NOTA**: para mais informações sobre o CNS, acesse o endereço eletrônico [https://portaldocidadao.saude.gov.br/portalcidadao/](https://portaldocidadao.saude.gov.br/portalcidadao/).
 
 |RESPONSÁVEL FAMILIAR|
 |--|
@@ -137,7 +137,7 @@ Este bloco é composto por campos que mapeiam as condições sociodemográficas 
 
 **Figura 2.4 -- Informações sociodemográficas**
 
-![](media/image10.png)
+![](media/cds_image10.png)
 
 *Fonte: SAS/MS.*
 
@@ -229,7 +229,7 @@ Fonte: SAS/MS.*
 
 A orientação sexual do cidadão é a capacidade de ter, sentir ou desenvolver atração e/ou relação emocional, afetiva ou sexual por outra(s) pessoa(s). Enquanto a identidade de gênero é a expressão de uma identidade construída a partir de como a pessoa se reconhece e/ou se apresenta, que pode corresponder ou não ao seu corpo biológico. A identidade de gênero, em suas diferentes expressões, pode ou não envolver modificação da aparência ou do corpo.
 
-Para saber mais sobre o tema, acesse [www.saude.gov.br/saudeLGBT](http://www.saude.gov.br/saudeLGBT), em especial a [Cartilha de Atenção Integral à Saúde da População Trans.](http://portalsaude.saude.gov.br/images/pdf/2016/fevereiro/18/CARTILHA-Equidade-10x15cm.pdf)
+Para saber mais sobre o tema, acesse [www.saude.gov.br/saudeLGBT](http://www.saude.gov.br/saudeLGBT), em especial a [Cartilha de Atenção Integral à Saúde da População Trans.](http://portalsaude.saude.gov.br/cds_images/pdf/2016/fevereiro/18/CARTILHA-Equidade-10x15cm.pdf)
 
 Na atualização da ficha de cadastro individual, entendendo estes como conceitos distintos e complementares, as questões foram subdivididas, como seguem abaixo.
 
@@ -290,9 +290,9 @@ Caso o motivo de saída do cidadão do cadastro seja por óbito, registrar ainda
 Este bloco é preenchido quando o cidadão se recusa a fornecer os dados para preenchimento do seu cadastro. Quando isso acontece, é solicitado ao entrevistado que assine o termo de recusa para assegurar que ele está ciente.
 Em situações em que o cidadão se recuse também a assinar o termo, a validação dessa informação deve ser discutida com o profissional responsável pela supervisão e/ou coordenação desta equipe.
 
-> ![](media/image1.png) **NOTA**: para que a recusa seja efetivada, é necessário que o ACS preencha alguns campos que são obrigatórios para o sistema, tais como número do CNS do profissional que faz o cadastro, CNES da unidade de saúde e data de cadastro. Com isso, é importante que estes campos também sejam preenchidos no caso de recusa do cadastro, para que esta informação possa ser digitada no sistema com CDS.
+> ![](media/cds_image1.png) **NOTA**: para que a recusa seja efetivada, é necessário que o ACS preencha alguns campos que são obrigatórios para o sistema, tais como número do CNS do profissional que faz o cadastro, CNES da unidade de saúde e data de cadastro. Com isso, é importante que estes campos também sejam preenchidos no caso de recusa do cadastro, para que esta informação possa ser digitada no sistema com CDS.
 >
-> ![](media/image2.png) **ATENÇÃO**: a recusa do cidadão ao cadastro, seja ele individual ou domiciliar / territorial, não implicará o não atendimento deste na unidade de saúde, bem como quaisquer outras formas de discriminação.
+> ![](media/cds_image2.png) **ATENÇÃO**: a recusa do cidadão ao cadastro, seja ele individual ou domiciliar / territorial, não implicará o não atendimento deste na unidade de saúde, bem como quaisquer outras formas de discriminação.
 
 ### 2.1.6 Questionário Autorreferido de Condições/Situações de Saúde
 
@@ -304,7 +304,7 @@ Este bloco deverá ser preenchido com informações oferecidas pelo usuário e c
 
 **Figura 2.5 -- Condições/situações de saúde gerais**
 
-![](media/image11.png)
+![](media/cds_image11.png)
 
 *Fonte: SAS/MS.*
 
@@ -386,7 +386,7 @@ O cabeçalho do instrumento, assim como o de todas as fichas de coleta de dados,
 
 **Figura 2.6 -- Bloco de cabeçalho do cadastro**
 
-![](media/image12.png)
+![](media/cds_image12.png)
 
 *Fonte: SAS/MS.*
 
@@ -407,7 +407,7 @@ O próximo bloco é utilizado para identificação do profissional que realizou 
 
 **Figura 2.7 -- Identificação do profissional e lotação**
 
-![](media/image7.png)
+![](media/cds_image7.png)
 
 *Fonte: SAS/MS.*
 
@@ -431,7 +431,7 @@ Neste bloco, é registrado o endereço do domicílio localizado na área de atua
 
 **Figura 2.8 -- Endereço/Local de permanência**
 
-![](media/image13.png)
+![](media/cds_image13.png)
 
 *Fonte: SAS/MS.*
 
@@ -504,7 +504,7 @@ O bloco de condições de moradia é composto por campos que mapeiam as condiç�
 
 **Figura 2.9 -- Condições de moradia**
 
-![](media/image14.png)
+![](media/cds_image14.png)
 
 *Fonte: SAS/MS.*
 
@@ -678,7 +678,7 @@ Este bloco é utilizado para registrar a existência e quantidade de animais no 
 
 Figura 2.10 -- Animais no domicílio
 
-![](media/image15.png)
+![](media/cds_image15.png)
 
 *Fonte: SAS/MS.*
 
@@ -692,7 +692,7 @@ A definição desse responsável familiar é feita pela própria família, sendo
 
 Figura 2.11 -- Identificação de famílias ou núcleos familiares
 
-![](media/image16.png)
+![](media/cds_image16.png)
 
 *Fonte: SAS/MS.*
 
@@ -712,9 +712,9 @@ Figura 2.11 -- Identificação de famílias ou núcleos familiares
 
 *Fonte: SAS/MS.*
 
-> ![](media/image2.png) **ATENÇÃO**: o bloco de identificação de famílias/núcleos familiares deve ser preenchido somente se houver moradores ocupando o domicílio. Caso esteja ocupado, será obrigatório o preenchimento do CNS ou CPF do responsável a fim de permitir a identificação de vínculos familiares entre os indivíduos cadastrados pela Ficha de Cadastro Individual.
+> ![](media/cds_image2.png) **ATENÇÃO**: o bloco de identificação de famílias/núcleos familiares deve ser preenchido somente se houver moradores ocupando o domicílio. Caso esteja ocupado, será obrigatório o preenchimento do CNS ou CPF do responsável a fim de permitir a identificação de vínculos familiares entre os indivíduos cadastrados pela Ficha de Cadastro Individual.
 
-> ![](media/image2.png) **ATENÇÃO**: mesmo que um cidadão tenha mais de um cadastro no território, para fins de vinculação de um núcleo familiar, o **cidadão não poderá ser Responsável Familiar em mais de um domicílio**.
+> ![](media/cds_image2.png) **ATENÇÃO**: mesmo que um cidadão tenha mais de um cadastro no território, para fins de vinculação de um núcleo familiar, o **cidadão não poderá ser Responsável Familiar em mais de um domicílio**.
 
 ### 2.2.7 Termo de Recusa do Cadastro Domiciliar da Atenção Básica
 
@@ -722,12 +722,12 @@ Este bloco é preenchido quando as pessoas do domicílio se recusam a fornecer o
 
 Mesmo quando o Termo de Recusa é assinalado, é obrigatório o preenchimento dos campos do bloco de identificação do estabelecimento de saúde, profissional e data da visita.
 
-> ![](media/image2.png) **ATENÇÃO**: sempre que o profissional realizar um cadastro domiciliar no domicílio, ele deverá preencher esta atividade também na Ficha de Visita Domiciliar, assinalando o campo "Cadastramento/Atualização". Neste caso, deverá ser utilizado o CNS ou CPF do responsável familiar.
+> ![](media/cds_image2.png) **ATENÇÃO**: sempre que o profissional realizar um cadastro domiciliar no domicílio, ele deverá preencher esta atividade também na Ficha de Visita Domiciliar, assinalando o campo "Cadastramento/Atualização". Neste caso, deverá ser utilizado o CNS ou CPF do responsável familiar.
 
 Figura 2.12 -- Termo de Recusa do Cadastro Domiciliar da Atenção
 Básica
 
-![](media/image17.png)
+![](media/cds_image17.png)
 
 *Fonte: SAS/MS.*
 
@@ -737,7 +737,7 @@ Neste bloco, será possível cadastrar instituições de permanência, como esco
 
 Figura 2.13 -- Instituição de permanência
 
-![](media/image18.png)
+![](media/cds_image18.png)
 
 *Fonte: SAS/MS.*
 
@@ -745,7 +745,7 @@ Figura 2.13 -- Instituição de permanência
 
 Figura 2.14 -- Identificação do responsável técnico da instituição de permanência
 
-![](media/image19.png)
+![](media/cds_image19.png)
 
 *Fonte: SAS/MS.*
 
@@ -767,7 +767,7 @@ Este bloco é preenchido quando o responsável técnico da instituição de perm
 
 Figura 2.15 -- Termo de recusa da instituição de permanência
 
-![](media/image20.png)
+![](media/cds_image20.png)
 
 *Fonte: SAS/MS.*
 

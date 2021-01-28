@@ -50,9 +50,9 @@ A estratégia é composta por dois sistemas:
 
 Durante o texto, os softwares do Sistema e-SUS AB também são referidos como Sistema com CDS e Sistema com PEC, respectivamente, ou ainda, simplesmente, CDS e PEC.
 
-> ![](media/image1.png) **NOTA**: Para conhecer os conceitos e orientações do Sistema com PEC, consulte o Manual do Sistema com Prontuário Eletrônico do Cidadão. Especificamente sobre o módulo de digitação do CDS acesse o Capítulo 07 desse manual.
+> ![](media/cds_image1.png) **NOTA**: Para conhecer os conceitos e orientações do Sistema com PEC, consulte o Manual do Sistema com Prontuário Eletrônico do Cidadão. Especificamente sobre o módulo de digitação do CDS acesse o Capítulo 07 desse manual.
 
-> ![](media/image1.png) **NOTA**: Para mais informações sobre legislação, documentos e materiais de apoio sobre a Estratégia e-SUS AB, acesse a **página do e-SUS AB** por meio do endereço eletrônico[http://dab.saude.gov.br/portaldab/esus.php](http://dab.saude.gov.br/portaldab/esus.php)
+> ![](media/cds_image1.png) **NOTA**: Para mais informações sobre legislação, documentos e materiais de apoio sobre a Estratégia e-SUS AB, acesse a **página do e-SUS AB** por meio do endereço eletrônico[http://dab.saude.gov.br/portaldab/esus.php](http://dab.saude.gov.br/portaldab/esus.php)
 
 ## 2. Fichas de Coleta de Dados Simplificada
 
@@ -84,11 +84,11 @@ Este manual foi elaborado para orientar os profissionais de saúde e gestores a 
 
 O processo de digitação deve ser definido no âmbito da gestão municipal, considerando os aspectos logísticos e os recursos humanos disponíveis a esse fim. Em especial, contemplando os diferentes cenários de implantação, como visto no Manual de Implantação da Estratégia e-SUS AB, o fluxo deve estar adequado a cada realidade.
 
-> ![](media/image2.png) **ATENÇÃO**: o **profissional que realizou** o cadastro ou o atendimento/procedimento **é responsável pelas informações** que fornece, **não cabendo** ao digitador, ou a qualquer **outro profissional,** a complementação**, a correção** ou o apontamento de campos que faltam, mesmo que conheçam a informação para complementar. Na ocasião de incorreções, sugere-se a devolução da ficha ao profissional que deu origem ao registro.
+> ![](media/cds_image2.png) **ATENÇÃO**: o **profissional que realizou** o cadastro ou o atendimento/procedimento **é responsável pelas informações** que fornece, **não cabendo** ao digitador, ou a qualquer **outro profissional,** a complementação**, a correção** ou o apontamento de campos que faltam, mesmo que conheçam a informação para complementar. Na ocasião de incorreções, sugere-se a devolução da ficha ao profissional que deu origem ao registro.
 
 Nos outros capítulos deste manual serão apresentadas as fichas do CDS com a descrição dos campos disponíveis para o preenchimento das informações, os conceitos associados a cada um deles e as regras para o seu preenchimento e digitação no sistema.
 
-> ![](media/image1.png) **NOTA**: diferente da política de controle de versão do Sistema e-SUS AB como um todo, visto na próxima seção, **as Fichas de CDS** podem passar por **alterações**/melhorias **anuais ou bienais**, conforme a necessidade apontada pelos municípios e pactuação tripartite. Por isso, é importante que os gestores e coordenadores de Atenção Básica estejam atentos à previsão de alteração de fichas para o planejamento da produção gráfica destas.
+> ![](media/cds_image1.png) **NOTA**: diferente da política de controle de versão do Sistema e-SUS AB como um todo, visto na próxima seção, **as Fichas de CDS** podem passar por **alterações**/melhorias **anuais ou bienais**, conforme a necessidade apontada pelos municípios e pactuação tripartite. Por isso, é importante que os gestores e coordenadores de Atenção Básica estejam atentos à previsão de alteração de fichas para o planejamento da produção gráfica destas.
 
 ### 3. Política de Controle de Versão do Sistema e-SUS AB
 
@@ -102,7 +102,7 @@ c.  o último dígito para indicar apenas manutenção corretiva do sistema  (C)
 
 Figura 1 -- Política de Controle de Versões do Sistema e-SUS AB
 
-![Versionamento-e-SUS_AB](media/image3.png)
+![Versionamento-e-SUS_AB](media/cds_image3.png)
 
 *Fonte: SAS/MS.*
 
@@ -121,7 +121,7 @@ Considerando esta política de controle de versão, para identificar uma versão
 
 ### 4.1 Individualização e Identificação dos Registros
 
-![CartaoSUS](media/image4.png)
+![CartaoSUS](media/cds_image4.png)
 
 O Prontuário Eletrônico do Cidadão e a Coleta de Dados Simplificada do e-SUS AB são utilizados de forma complementar nos cenários possíveis de informatização das Unidades Básicas de Saúde (UBS) nos municípios e no distrito federal. Ambas as ferramentas possibilitam a identificação do registro dos atendimentos por meio do Cartão Nacional de Saúde (CNS), promovendo efetiva coordenação e gestão do cuidado do cidadão, além da possibilidade de compartilhamento de informações com outros serviços de saúde.
 
@@ -131,7 +131,7 @@ Considerando o princípio doutrinário da universalidade no SUS, se o cidadão n
 
 O e-SUS AB apresenta aos profissionais das equipes de Atenção Básica um grande módulo de cadastro de cidadãos, o qual se subdivide em dois módulos distintos: **Cadastro do Cidadão** e **Cadastro do Território**. O primeiro é realizado por meio do PEC nas UBS e o seu principal objetivo é realizar o cadastramento dos usuários do serviço, mesmo que não façam parte do seu território. Trata-se de um cadastro mais simplificado, apenas com informações individuais, com possibilidade de interoperabilidade com a base nacional do CNS. Já o segundo é realizado por meio da Coleta de Dados Simplificada (CDS), a partir das fichas de Cadastro Individual e de Cadastro Domiciliar e Territorial, utilizados pelo Agente Comunitário de Saúde (ACS) para cadastrar os residentes em suas microáreas. Este cadastro é mais extenso e contém informações-chave sobre a população sob responsabilidade da equipe de saúde. Abordaremos o CDS com mais profundidade no Capítulo 7.
 
-> ![](media/image1.png) **NOTA**: A consulta na base nacional do CNS depende de conexão de internet disponível na UBS.
+> ![](media/cds_image1.png) **NOTA**: A consulta na base nacional do CNS depende de conexão de internet disponível na UBS.
 
 Apesar de se tratar de duas formas de cadastrar, os dados de ambas estão disponíveis para que a equipe de saúde possa obter informações de seus usuários da forma mais integrada possível. Uma vez cadastrado pela equipe, usando as fichas, e tenha sido digitado por meio do Sistema com CDS, se estiver utilizando o Sistema com PEC, as informações de cadastro já estarão disponíveis na base local para acesso, por meio do módulo "Cidadão".
 
@@ -157,7 +157,7 @@ O fluxograma, como mostrado na figura a seguir, busca representar um padrão de 
 
 Figura 3 - Usuário chega à UBS
 
-![](media/image5.png)
+![](media/cds_image5.png)
 
 *Fonte: CAB 28, Volume I, pág 28*
 
@@ -171,7 +171,7 @@ Como todo padrão, este, ainda que se aplique a grande número de situações, n
 
 Figura 4 - Usuário precisa de atendimento diferente do específico de rotina da UBS
 
-![](media/image6.png)
+![](media/cds_image6.png)
 
 Fonte: CAB 28, Volume I, pág 28
 
@@ -181,7 +181,7 @@ Em todos esses casos, fica evidente a preocupação de não burocratizar o acolh
 
 Em síntese, o fluxograma definido no CAB 28, mostrado nas figuras 3 e 4, deve ser tomado como uma oferta, um ponto de partida possível, uma estratégia de visualização e organização do trabalho coletivo na UBS, devendo, sempre que necessário, ser adaptado, enriquecido, testado e ajustado, considerando a singularidade de cada lugar, de modo a facilitar o acesso, a escuta inicial qualificada e o atendimento a necessidades de saúde com equidade, assumindo a perspectiva usuário-centrada como um posicionamento ético-político, que tem implicações organizativas e no processo de trabalho das equipes.
 
-> ![](media/image1.png) **NOTA**: para mais informações sobre fluxo de acolhimento à demanda espontânea, consulte o Caderno de Atenção Básica (CAB) nº 28, **Volume I**, por meio do endereço: [http://bvsms.saude.gov.br/bvs/publicacoes/acolhimento_demanda_espontanea.pdf](http://bvsms.saude.gov.br/bvs/publicacoes/acolhimento_demanda_espontanea.pdf), e **Volume II**, por meio do endereço: [http://bvsms.saude.gov.br/bvs/publicacoes/acolhimento_demanda_espontanea_queixas_comuns.pdf](http://bvsms.saude.gov.br/bvs/publicacoes/acolhimento_demanda_espontanea_queixas_comuns.pdf)
+> ![](media/cds_image1.png) **NOTA**: para mais informações sobre fluxo de acolhimento à demanda espontânea, consulte o Caderno de Atenção Básica (CAB) nº 28, **Volume I**, por meio do endereço: [http://bvsms.saude.gov.br/bvs/publicacoes/acolhimento_demanda_espontanea.pdf](http://bvsms.saude.gov.br/bvs/publicacoes/acolhimento_demanda_espontanea.pdf), e **Volume II**, por meio do endereço: [http://bvsms.saude.gov.br/bvs/publicacoes/acolhimento_demanda_espontanea_queixas_comuns.pdf](http://bvsms.saude.gov.br/bvs/publicacoes/acolhimento_demanda_espontanea_queixas_comuns.pdf)
 
 ## 6. Classificação Internacional de Atenção Primária (CIAP)
 

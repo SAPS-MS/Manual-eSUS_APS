@@ -28,7 +28,7 @@ O cabeçalho tem um bloco para a identificação e controle da digitação, que 
 
 Figura 4.1 - Cabeçalho do formulário de Marcadores de Consumo Alimentar**
 
-![](media/image39.png)
+![](media/cds_image39.png)
 
 *Fonte: SAS/MS.*
 
@@ -49,7 +49,7 @@ O próximo bloco é utilizado para identificação do profissional que realizou 
 
 Figura 4.2 -- Identificação do(s) profissional(is) e lotação(ões)
 
-![](media/image22.png)
+![](media/cds_image22.png)
 
 *Fonte: SAS/MS.*
 
@@ -69,11 +69,11 @@ Quadro 4.2 -- Identificação do(s) profissional(is) e lotação(ões)
 
 ## 4.3 Identificação dos cidadãos e local do atendimento
 
-> ![](media/image2.png) **ATENÇÃO:** Para aumentar o número de registros identificados, a partir da versão 3.2.20 é possível registrar CNS ou **CPF** do cidadão atendido.
+> ![](media/cds_image2.png) **ATENÇÃO:** Para aumentar o número de registros identificados, a partir da versão 3.2.20 é possível registrar CNS ou **CPF** do cidadão atendido.
 
 Figura 4.3 -- Identificação do cidadão e local de atendimento e condição de saúde
 
-![](media/image40.png)
+![](media/cds_image40.png)
 
 *Fonte: SAS/MS.*
 
@@ -107,7 +107,7 @@ O preenchimento deste bloco é obrigatório e indica qual o tipo de atendimento 
 
 Figura 4.4 - Tipo de atendimento
 
-![](media/image42.png)
+![](media/cds_image42.png)
 
 *Fonte: SAS/MS.*
 
@@ -133,7 +133,7 @@ Este bloco visa a indicar qual o tipo de consulta realizada. Para tanto, marque 
 
 **Figura 4.5 -- Tipo de consulta/*/***
 
-![](media/image43.png)
+![](media/cds_image43.png)
 
 *Fonte: SAS/MS.*
 
@@ -157,7 +157,7 @@ Visa a subsidiar a observação do processo saúde--doença bucal em âmbito pop
 
 Figura 4.6 -- Vigilância em saúde bucal
 
-![](media/image44.png)
+![](media/cds_image44.png)
 
 *Fonte: SAS/MS.*
 
@@ -187,11 +187,11 @@ Todos os procedimentos estão relacionados aos que constam no Sistema de Gerenci
 
 Figura 4.7 -- Procedimentos odontológicos
 
-![](media/image45.png)
+![](media/cds_image45.png)
 
-![](media/image46.png)
+![](media/cds_image46.png)
 
-![](media/image47.png)
+![](media/cds_image47.png)
 
 *Fonte: SAS/MS.*
 
@@ -212,7 +212,7 @@ Visa ao registro de insumos entregues aos usuários durante o atendimento clíni
 
 Figura 4.8 -- Fornecimento de insumos
 
-![](media/image48.png)
+![](media/cds_image48.png)
 
 *Fonte: SAS/MS.*
 
@@ -230,7 +230,7 @@ Neste bloco, deve-se registrar a conduta/desfecho do episódio, bem como os enca
 
 Figura 4.9 -- Conduta/Desfecho
 
-![](media/image49.png)
+![](media/cds_image49.png)
 
 *Fonte: SAS/MS.*
 

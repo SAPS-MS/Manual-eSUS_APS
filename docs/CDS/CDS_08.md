@@ -20,9 +20,9 @@ has_toc: true
 
 **Profissionais que utilizam esta ficha:** podem ser utilizados por qualquer profissional da equipe de Atenção Básica.
 
-> ![](media/image1.png) **NOTA**: para saber mais sobre o Ciclo de Gestão e Produção do Cuidado acesse o [**Marco de Referência da Vigilância Alimentar e Nutricional na Atenção Básica**](http://bvsms.saude.gov.br/bvs/publicacoes/marco_referencia_vigilancia_alimentar.pdf).
+> ![](media/cds_image1.png) **NOTA**: para saber mais sobre o Ciclo de Gestão e Produção do Cuidado acesse o [**Marco de Referência da Vigilância Alimentar e Nutricional na Atenção Básica**](http://bvsms.saude.gov.br/bvs/publicacoes/marco_referencia_vigilancia_alimentar.pdf).
 
-> ![](media/image1.png) **NOTA**: para auxiliar a utilização do formulário de Marcadores de Consumo Alimentar e a orientação sobre práticas alimentares saudáveis, recomenda-se o uso do documento [**Orientações para Avaliação de Marcadores de Consumo Alimentar na Atenção Básica**](http://bvsms.saude.gov.br/bvs/publicacoes/marcadores_consumo_alimentar_atencao_basica.pdf).
+> ![](media/cds_image1.png) **NOTA**: para auxiliar a utilização do formulário de Marcadores de Consumo Alimentar e a orientação sobre práticas alimentares saudáveis, recomenda-se o uso do documento [**Orientações para Avaliação de Marcadores de Consumo Alimentar na Atenção Básica**](http://bvsms.saude.gov.br/bvs/publicacoes/marcadores_consumo_alimentar_atencao_basica.pdf).
 
 A seguir, serão apresentados os campos do formulário de Marcadores de Consumo Alimentar e as orientações sobre como preenchê-los. Os campos assinalados com asterisco (\*) são de preenchimento obrigatório. Os campos assinalados com dois asteriscos (\*) apontam que todas as questões do bloco deverão ser respondidas.
 
@@ -32,7 +32,7 @@ O cabeçalho tem um bloco para a identificação e controle da digitação, que 
 
 Figura 8.1 -- Cabeçalho do formulário de Marcadores de Consumo Alimentar
 
-![](media/image70.png)
+![](media/cds_image70.png)
 
 *Fonte: SAS/MS.*
 
@@ -53,7 +53,7 @@ O próximo bloco é utilizado para identificação do profissional que realizou 
 
 Figura 8.2 -- Identificação do profissional e lotação
 
-![](media/image56.png)
+![](media/cds_image56.png)
 
 *Fonte: SAS/MS.*
 
@@ -77,11 +77,11 @@ Quadro 8.2 -- Identificação do profissional e lotação
 
 Este bloco de informações permite a identificação do usuário que foi atendido por meio do CNS e nome do cidadão, data de nascimento e sexo. Os dados deste bloco informam também sobre o local do atendimento.
 
-> ![](media/image2.png) **ATENÇÃO:** Para aumentar o número de registros identificados, a partir da versão 3.2.20 é possível registrar CNS ou **CPF** do cidadão atendido.
+> ![](media/cds_image2.png) **ATENÇÃO:** Para aumentar o número de registros identificados, a partir da versão 3.2.20 é possível registrar CNS ou **CPF** do cidadão atendido.
 
 Figura 8.3 -- Identificação do cidadão e local de atendimento
 
-![](media/image71.png)
+![](media/cds_image71.png)
 
 *Fonte: SAS/MS.*
 
@@ -110,7 +110,7 @@ Uma peculiaridade desse formulário é a sua forma de apresentação, organizand
 
 Quadro 8.4 -- Marcadores de consumo alimentar para crianças menores de 6 meses
 
-![](media/image73.png)
+![](media/cds_image73.png)
 
 *Fonte: SAS/MS.*
 
@@ -121,7 +121,7 @@ Quadro 8.4 -- Marcadores de consumo alimentar para crianças menores de 6 meses
 Quadro 8.5 - Marcadores de consumo alimentar para crianças de 6 a 23
 meses**
 
-![](media/image74.png)
+![](media/cds_image74.png)
 
 *Fonte: SAS/MS.*
 
@@ -131,7 +131,7 @@ meses**
 
 Quadro 8.6 -- Marcadores de consumo alimentar para crianças com 2 anos ou mais, adolescentes, adultos, gestantes e idosos
 
-![](media/image75.png)
+![](media/cds_image75.png)
 
 *Fonte: SAS/MS.*
 

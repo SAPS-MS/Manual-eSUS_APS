@@ -20,11 +20,11 @@ has_toc: true
 
 **Profissionais que utilizam esta ficha:** É utilizada por profissionais das equipes de Atenção Básica (incluindo equipe de Saúde Bucal), do Núcleo de Apoio à Saúde da Família (Nasf), do Polo Academia da Saúde, do Consultório na Rua (eCR) e das equipes de Atenção Básica Prisional (EABP).
 
-> ![](media/image1.png) **NOTA**: as ações realizadas nos **Programa Saúde na Escola**, da Política Nacional de Combate ao Tabagismo, entre outras, devem ser registradas usando a Ficha de Atividade Coletiva.
+> ![](media/cds_image1.png) **NOTA**: as ações realizadas nos **Programa Saúde na Escola**, da Política Nacional de Combate ao Tabagismo, entre outras, devem ser registradas usando a Ficha de Atividade Coletiva.
 
 A seguir, serão apresentados os campos da Ficha de Atividade Coletiva e as orientações sobre como preenchê-la. Os campos assinalados com asterisco (/*) são de preenchimento obrigatório.
 
-> ![](media/image2.png) **ATENÇÃO**: deverá ser preenchida **uma ficha para cada atividade** coletiva realizada.
+> ![](media/cds_image2.png) **ATENÇÃO**: deverá ser preenchida **uma ficha para cada atividade** coletiva realizada.
 
 ## 5.1 Cabeçalho
 
@@ -32,7 +32,7 @@ O cabeçalho desta ficha é diferente das demais apresentadas. Ele possui um blo
 
 Figura 5.1 -- Cabeçalho do formulário de Marcadores de Consumo Alimentar
 
-![](media/image50.png)
+![](media/cds_image50.png)
 
 *Fonte: SAS/MS.*
 
@@ -53,7 +53,7 @@ O próximo bloco é utilizado para identificação do profissional de saúde res
 
 Figura 5.2 -- Identificação do profissional responsável e lotação
 
-![](media/image51.png)
+![](media/cds_image51.png)
 
 *Fonte: SAS/MS.*
 
@@ -79,7 +79,7 @@ Este bloco permite o registro da data, turno e local de realização da atividad
 
 Figura 5.3 -- Identificação da atividade coletiva e de outros profissionais
 
-![](media/image52.png)
+![](media/cds_image52.png)
 
 *Fonte: SAS/MS.*
 
@@ -102,13 +102,13 @@ Quadro 5.3 -- Identificação da atividade coletiva e de outros profissionais
 
 \** *Campo com obrigatoriedade condicionada.*
 
-> ![](media/image53.png) **ATUALIZAÇÃO:** disponível a partir da versão 3.0.
+> ![](media/cds_image53.png) **ATUALIZAÇÃO:** disponível a partir da versão 3.0.
 
 |PROGRAMA SAÚDE NA ESCOLA|
 |-|
 |Novo campo -  a partir da versão 3.0 é possível identificar as ações do PSE, por meio do campo Programa Saúde na Escola. Esse campo deve ser assinalado quando forem realizadas atividades no âmbito do PSE. Assinalar o campo “educação” caso a atividade seja realizada pelos profissionais da escola e “saúde” caso a atividade seja realizada pelos profissionais da Atenção Básica em Saúde. Marque os campos “educação” e “saúde” quando a atividade for realizada em conjunto.<br> Campo Nº do INEP (ESCOLA/CRECHE) - Este campo deve ser preenchido obrigatoriamente e somente se a atividade for realizada no âmbito do PSE. Quando a atividade do PSE for realizada fora do ambiente escolar, deverá ser registrado o Nº do INEP (da escola de referência dos alunos público-alvo da atividade).|
 
-> ![](media/image1.png) **NOTA**: para saber mais sobre o PSE, acesse http://dab.saude.gov.br/portaldab/pse.php.
+> ![](media/cds_image1.png) **NOTA**: para saber mais sobre o PSE, acesse http://dab.saude.gov.br/portaldab/pse.php.
 
 ## 5.4 Tipos de atividade coletiva
 
@@ -117,7 +117,7 @@ marcar apenas uma opção entre os tipos de atividade coletiva.
 
 Figura 5.4 -- Tipos de atividade coletiva
 
-![](media/image54.png)
+![](media/cds_image54.png)
 
 *Fonte: SAS/MS.*
 
@@ -198,7 +198,7 @@ As opções 06 a 09 devem ser marcadas somente se ação for realizada no âmbit
 
 ## 5.7 Lista de Participantes
 
-> ![](media/image2.png) **ATENÇÃO:** Para aumentar o número de egistros identificados, a partir da versão 3.2.20 é possível registrar CNS ou **CPF** do cidadão atendido.
+> ![](media/cds_image2.png) **ATENÇÃO:** Para aumentar o número de egistros identificados, a partir da versão 3.2.20 é possível registrar CNS ou **CPF** do cidadão atendido.
 
 Para as atividades coletivas que demandam a identificação dos usuários (opções 05 - Atendimento em Grupo e 06 - Avaliação Procedimento Coletivo), é preciso registrar, no verso da Ficha de Atividade Coletiva, as seguintes informações junto à lista de participantes da atividade:
 
@@ -216,11 +216,11 @@ Para as atividades coletivas que demandam a identificação dos usuários (opç�
 
 Quando se proceder à digitação da ficha no sistema, este fará a validação do número de CNS do cidadão participante da atividade. Para que não haja problemas com possíveis equívocos de registro de CNS do cidadão, é importante estar atento ao preenchimento correto do campo.
 
-> ![](media/image2.png) **ATENÇÃO**: as opções 05 - Atendimento em Grupo e 06 -- Avaliação/Procedimento Coletivo, devem ser anotados todos os participantes, identificando-se os alterados. Especificamente **para o PSE**, a **exceção** são as atividades de avaliação da **acuidade visual**. Para esta, são anotados **apenas os alterados**.
+> ![](media/cds_image2.png) **ATENÇÃO**: as opções 05 - Atendimento em Grupo e 06 -- Avaliação/Procedimento Coletivo, devem ser anotados todos os participantes, identificando-se os alterados. Especificamente **para o PSE**, a **exceção** são as atividades de avaliação da **acuidade visual**. Para esta, são anotados **apenas os alterados**.
 
 Figura 5.5 - Identificação dos cidadãos participantes da atividade coletiva
 
-![](media/image55.png)
+![](media/cds_image55.png)
 
 *Fonte: SAS/MS.*
 

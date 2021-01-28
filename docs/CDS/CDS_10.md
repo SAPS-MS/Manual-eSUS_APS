@@ -16,7 +16,7 @@ has_toc: true
 - TOC
 {:toc}
 
-> ![](media/image53.png) **ATUALIZAÇÃO:** disponível a partir da versão 3.0.
+> ![](media/cds_image53.png) **ATUALIZAÇÃO:** disponível a partir da versão 3.0.
 
 **Objetivo da ficha:** É utilizada para registro de informações das vacinas aplicadas na rotina, campanhas ou demais estratégias realizadas na Atenção Básica. Ela identifica as vacinas que foram aplicadas no cidadão, assim como o profissional que a realizou. Esta ficha não deve ser utilizada para o registro de doses aplicadas anteriormente, mas somente para as administradas no dia.
 
@@ -24,7 +24,7 @@ has_toc: true
 
 A seguir são apresentados os campos da Ficha de Vacinação e as orientações de como preenchê-los. Os campos assinalados com asterisco (\*) são de preenchimento obrigatório.
 
-> ![](media/image1.png) **NOTA**: para informações sobre **Normas e Procedimento de Vacinação**, acesse o endereço eletrônico do [Manual disponibilizado pelo Programa Nacional de Imunizações](http://bvsms.saude.gov.br/bvs/publicacoes/manual_procedimentos_vacinacao.pdf)
+> ![](media/cds_image1.png) **NOTA**: para informações sobre **Normas e Procedimento de Vacinação**, acesse o endereço eletrônico do [Manual disponibilizado pelo Programa Nacional de Imunizações](http://bvsms.saude.gov.br/bvs/publicacoes/manual_procedimentos_vacinacao.pdf)
 
 ## 10.1 Cabeçalho
 
@@ -32,7 +32,7 @@ O cabeçalho tem um bloco para a identificação e controle da digitação, que 
 
 Figura 10.1 -- Cabeçalho da Ficha de Vacinas
 
-![cabeçalho_vacina.png](media/image94.png)
+![cabeçalho_vacina.png](media/cds_image94.png)
 
 *Fonte: SAS/MS.*
 
@@ -52,7 +52,7 @@ O próximo bloco é utilizado para identificação do profissional que realizou 
 
 Figura 10.2 -- Identificação do profissional e lotação
 
-![prof.png](media/image95.png)
+![prof.png](media/cds_image95.png)
 
 *Fonte: SAS/MS.*
 
@@ -74,11 +74,11 @@ Quadro 10.2 -- Identificação do profissional e lotação
 
 Este bloco de informações permite a identificação do usuário que foi atendido por meio do CNS ou CPF, data de nascimento e sexo. Os dados informam também sobre o local do atendimento.
 
-> ![](media/image2.png) ATENÇÃO: Para aumentar o número de registros identificados, a partir da versão 3.2.20 é possível registrar CNS ou CPF do cidadão atendido.
+> ![](media/cds_image2.png) ATENÇÃO: Para aumentar o número de registros identificados, a partir da versão 3.2.20 é possível registrar CNS ou CPF do cidadão atendido.
 
 Figura 10.3 -- Identificação dos cidadãos e local de atendimento
 
-![](media/image96.png)
+![](media/cds_image96.png)
 
 *Fonte: SAS/MS.*
 
@@ -104,7 +104,7 @@ Este grupo mostra a situação ou condição do cidadão que está recebendo a(s
 
 Figura 10.4 -- Situação / Condição no momento da vacinação
 
-![PNI_situação.png](media/image98.png)
+![PNI_situação.png](media/cds_image98.png)
 
 *Fonte: SAS/MS.*
 
@@ -114,24 +114,24 @@ Este bloco de informações é utilizado para o registro da(s) dose(s) de vacina
 
 Figura 10.5 -- Imunobiológicos (frente)
 
-![PNI_imuno_1.png](media/image99.png)
+![PNI_imuno_1.png](media/cds_image99.png)
 
 *Fonte: SAS/MS.*
 
 Figura 10.6 - Imunobiológicos (verso)
 
-![Captura de tela 2017-10-10 16.55.05.png](media/image100.png)
+![Captura de tela 2017-10-10 16.55.05.png](media/cds_image100.png)
 *Fonte: SAS/MS.*
 
 Para cada vacina aplicada o profissional deverá indicar a estratégia, a dose, o lote e o fabricante do imunobiológico. A estratégia e a dose obedecerão à legenda disponível no verso da ficha.
 
-> ![](media/image2.png) **ATENÇÃO**: **exclusivamente** para o registro de aplicação de **BCG**, caso o cidadão for **comunicante de hanseníase**, deverá marcar um "X" no campo "Comun. Hansen.".
+> ![](media/cds_image2.png) **ATENÇÃO**: **exclusivamente** para o registro de aplicação de **BCG**, caso o cidadão for **comunicante de hanseníase**, deverá marcar um "X" no campo "Comun. Hansen.".
 
 Ainda neste bloco, o profissional pode registrar **outros imunobiológicos** não constantes na listagem (até cinco por ficha), como vacinas especiais, soros e imunoglobulinas. Esses imunobiológicos devem ser descritos a partir da sua nomenclatura oficial disponibilizada pela CGPNI, observando o preenchimento do tipo de estratégia, dose, lote e fabricante.
 
 Figura 10.7 -- Registro de aplicação de outros imunobiológicos
 
-![Captura de tela 2017-10-10 16.56.16.png](media/image101.png)
+![Captura de tela 2017-10-10 16.56.16.png](media/cds_image101.png)
 
 *Fonte: SAS/MS.*
 

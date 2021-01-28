@@ -18,7 +18,7 @@ has_toc: true
 
 A Coleta de Dados Simplificada, no âmbito do Serviço de Atenção Domiciliar (SAD), é composta por duas fichas de uso exclusivo das equipes que compõem o SAD -- Equipe Multiprofissional de Atenção Domiciliar (EMAD) e Equipe Multiprofissional de Apoio (EMAP): a Ficha de Avaliação de Elegibilidade e Admissão e a Ficha de Atendimento Domiciliar. Além disso, as equipes de Atenção Domiciliar (AD) também devem utilizar a Ficha de Atividade Coletiva da Atenção Básica, sobretudo, para registro do processo de qualificação do cuidador.
 
-> ![](media/image2.png) **ATENÇÃO**: os campos assinalados com asterisco (\*) são de preenchimento obrigatório. Os campos com a figura geométrica: "□" são de múltipla escolha (ou seja, pode-se assinalar mais de uma opção), enquanto os que contêm a figura geométrica "○" são de opção única.
+> ![](media/cds_image2.png) **ATENÇÃO**: os campos assinalados com asterisco (\*) são de preenchimento obrigatório. Os campos com a figura geométrica: "□" são de múltipla escolha (ou seja, pode-se assinalar mais de uma opção), enquanto os que contêm a figura geométrica "○" são de opção única.
 
 ## 9.1 Ficha de Avaliação de Elegibilidade e Admissão
 
@@ -28,9 +28,9 @@ A Coleta de Dados Simplificada, no âmbito do Serviço de Atenção Domiciliar (
 
 **Profissionais que utilizam esta ficha:** Profissionais de nível superior (obrigatório) e de nível médio (opcional).
 
-> ![](media/image2.png) **ATENÇÃO**: a ficha não deve ser repetida mensalmente. Apenas no caso de saída do usuário e readmissão na equipe é que deverá ser preenchida novamente.
+> ![](media/cds_image2.png) **ATENÇÃO**: a ficha não deve ser repetida mensalmente. Apenas no caso de saída do usuário e readmissão na equipe é que deverá ser preenchida novamente.
 
-> ![](media/image1.png) **NOTA**: a ficha de avaliação deve ser utilizada sempre que a equipe realizar avaliação de cidadãos, mesmo que no momento o usuário não seja admitido no SAD.
+> ![](media/cds_image1.png) **NOTA**: a ficha de avaliação deve ser utilizada sempre que a equipe realizar avaliação de cidadãos, mesmo que no momento o usuário não seja admitido no SAD.
 
 A seguir são apresentados os campos da ficha de Avaliação de Elegibilidade e Admissão, para uso exclusivo para o Serviço de Atenção Domiciliar (SAD). Os campos assinalados com asterisco (\*) são de preenchimento obrigatório.
 
@@ -40,7 +40,7 @@ O cabeçalho do instrumento contém um bloco para a identificação e controle d
 
 Figura 9.1 -- Cabeçalho da ficha de avaliação de elegibilidade e admissão
 
-![](media/image76.png)
+![](media/cds_image76.png)
 
 *Fonte: SAS/MS.*
 
@@ -59,13 +59,13 @@ Quadro 9.1 -- Bloco Cabeçalho
 
 Figura 9.2 -- Identificação do profissional e da equipe
 
-![](media/image77.png)
+![](media/cds_image77.png)
 
 *Fonte: SAS/MS.*
 
 Quadro 9.2 -- Bloco de identificação do profissional e da equipe
 
-> ![](media/image2.png) **ATENÇÃO**: Para aumentar o número de registros identificados, a partir da versão 3.2.20 é possível registrar CNS ou CPF do cidadão atendido.
+> ![](media/cds_image2.png) **ATENÇÃO**: Para aumentar o número de registros identificados, a partir da versão 3.2.20 é possível registrar CNS ou CPF do cidadão atendido.
 
 |CAMPO|ORIENTAÇÃO DE PREENCHIMENTO|
 |-|-|
@@ -86,7 +86,7 @@ Para inserir os dados de identificação da equipe e do profissional no sistema 
 
 Figura 9.3 -- Identificação do cidadão
 
-![](media/image78.png)
+![](media/cds_image78.png)
 
 *Fonte: SAS/MS.*
 
@@ -108,7 +108,7 @@ O início da ficha solicita dados de identificação essenciais do cidadão, com
 
 Figura 9.4 - Procedência
 
-![](media/image80.png)
+![](media/cds_image80.png)
 
 *Fonte: SAS/MS.*
 
@@ -131,7 +131,7 @@ Quadro 9.4 -- Bloco origem do usuário
 
 Figura 9.5 - Bloco Condição(ões) avaliada(s)
 
-![](media/image81.png)
+![](media/cds_image81.png)
 
 *Fonte: SAS/MS.*
 
@@ -139,7 +139,7 @@ Esse bloco deve ser utilizado para registrar situações/condições presentes e
 
 O campo "CID principal" é de preenchimento obrigatório e deve referir a patologia/lesão/situação de saúde que motivou a admissão do cidadão em AD, utilizando a Classificação Internacional de Doenças, versão 10 (CID-10). O campo "CID-10 secundário" é opcional e deve ser utilizado para registro de outras doenças que o cidadão apresenta. Nos casos em que já exista um diagnóstico prévio indicado nos documentos de encaminhamento/referência para o SAD, o CID-10 principal pode ser preenchido por qualquer profissional da EMAD.
 
-> ![](media/image2.png) **ATENÇÃO**: o CID-10 secundário não
+> ![](media/cds_image2.png) **ATENÇÃO**: o CID-10 secundário não
 > deve ser igual ao CID-10 primário.
 
 O registro das condições avaliadas serve para facilitar a identificação e o registro de situações frequentes na AD, auxiliando na organização do trabalho da equipe e na análise da produção. Não deve, portanto, substituir o registro de informações no prontuário.
@@ -148,7 +148,7 @@ O registro das condições avaliadas serve para facilitar a identificação e o 
 
 Figura 9.6 -- Bloco Conclusão/destino
 
-![](media/image82.png)
+![](media/cds_image82.png)
 
 *Fonte: SAS/MS.*
 
@@ -195,7 +195,7 @@ modalidades
 
 **Figura 9.7 -- Bloco Identificação do usuário/cidadão para admissão**
 
-![](media/image83.png)
+![](media/cds_image83.png)
 
 *Fonte: SAS/MS.*
 
@@ -226,7 +226,7 @@ Nota: ^1^ Conforme a Pesquisa nacional por amostra de domicílios (IBGE, 2010).
 
 Figura 9.8 -- Bloco Endereço/local de permanência
 
-![](media/image84.png)
+![](media/cds_image84.png)
 
 *Fonte: SAS/MS.*
 
@@ -254,7 +254,7 @@ O(s) cuidador(es) é(são) a referência no cuidado ao cidadão para as equipes 
 
 Figura 9.9 - Bloco Cuidador
 
-![](media/image85.png)
+![](media/cds_image85.png)
 
 *Fonte: SAS/MS.*
 
@@ -290,7 +290,7 @@ assinalados com asterisco (/*) são de preenchimento obrigatório.
 
 Figura 9.10 -- Cabeçalho da ficha de atendimento domiciliar
 
-![](media/image86.png)
+![](media/cds_image86.png)
 
 *Fonte: SAS/MS.*
 
@@ -300,7 +300,7 @@ O cabeçalho do instrumento, assim como na ficha de avaliação, tem um bloco pa
 
 Figura 9.11 -- Bloco de identificação do profissional e do estabelecimento de saúde
 
-![](media/image87.png)
+![](media/cds_image87.png)
 
 *Fonte: SAS/MS.*
 
@@ -326,7 +326,7 @@ Quadro 9.10 -- Bloco de identificação do profissional e estabelecimento de sa�
 
 Figura 9.12 -- Bloco Identificação dos cidadãos e local do atendimento
 
-![](media/image88.png)
+![](media/cds_image88.png)
 
 *Fonte: SAS/MS.*
 
@@ -350,7 +350,7 @@ A modalidade de AD, assim como descrita na ficha de elegibilidade, Quadro 9.05, 
 
 Figura 9.13 -- Bloco modalidade de AD
 
-![](media/image89.png)
+![](media/cds_image89.png)
 
 *Fonte: SAS/MS.*
 
@@ -358,7 +358,7 @@ Figura 9.13 -- Bloco modalidade de AD
 
 Figura 9.14 -- Bloco Tipo de atendimento
 
-![](media/image90.png)
+![](media/cds_image90.png)
 
 *Fonte: SAS/MS.*
 
@@ -376,11 +376,11 @@ Quadro 9.12 -- Tipo de atendimento
 
 Este bloco deve ser utilizado para registrar situações/condições presentes e/ou avaliadas pelo profissional de saúde no atendimento do cidadão. As situações presentes devem ser assinaladas em todos os atendimentos e por todos os profissionais presentes, e a ausência de marcação indicará que a situação/condição deixou de ocorrer.
 
-> ![](media/image2.png) **ATENÇÃO**: este registro serve para facilitar a identificação e o registro de situações frequentes na AD, auxiliando na organização do trabalho da equipe e na análise da demanda. Não deve, portanto, substituir o registro de informações na evolução e o registro de procedimentos realizados no prontuário clínico.
+> ![](media/cds_image2.png) **ATENÇÃO**: este registro serve para facilitar a identificação e o registro de situações frequentes na AD, auxiliando na organização do trabalho da equipe e na análise da demanda. Não deve, portanto, substituir o registro de informações na evolução e o registro de procedimentos realizados no prontuário clínico.
 
 Figura 9.15 -- Bloco Situações presentes e/ou avaliadas e CID
 
-![](media/image91.png)
+![](media/cds_image91.png)
 
 *Fonte: SAS/MS.*
 
@@ -401,7 +401,7 @@ O campo "Outro procedimento" deve ser utilizado para registrar procedimentos rea
 
 Sugere-se que sejam registrados apenas os procedimentos mais característicos da AD. Assim, não há necessidade de registrar, por exemplo, procedimento de verificação de pressão arterial, sendo que este é um procedimento intrínseco ao processo de avaliação clínica de qualquer usuário.
 
-> ![](media/image2.png) **ATENÇÃO**: vale ressaltar uma **mudança** significativa em relação aos **registros de procedimentos** no RAAS. Devido ao e-SUS AB conter informações oriundas do CNES e ter entradas individualizadas e registros por turno, **não** será **necessário o registro** de procedimentos relativos a **consultas, visitas, atendimento**. Estas informações serão obtidas do cabeçalho da ficha, ou seja, conforme o CNS e CBO do profissional.
+> ![](media/cds_image2.png) **ATENÇÃO**: vale ressaltar uma **mudança** significativa em relação aos **registros de procedimentos** no RAAS. Devido ao e-SUS AB conter informações oriundas do CNES e ter entradas individualizadas e registros por turno, **não** será **necessário o registro** de procedimentos relativos a **consultas, visitas, atendimento**. Estas informações serão obtidas do cabeçalho da ficha, ou seja, conforme o CNS e CBO do profissional.
 
 No caso de profissional de nível superior, serão contabilizados automaticamente os seguintes procedimentos: "consulta/atendimento domiciliar" e "visita domiciliar por profissional de nível superior". Por sua vez, os profissionais de nível médio terão registros automáticos de: "assistência domiciliar por profissional de nível médio" e "visita domiciliar por profissional de nível médio".
 
@@ -409,7 +409,7 @@ Por exemplo, quando um cirurgião dentista realiza uma visita e assinala o campo
 
 Figura 9.16 -- Bloco Procedimentos
 
-![](media/image92.png)
+![](media/cds_image92.png)
 
 *Fonte: SAS/MS.*
 
@@ -419,7 +419,7 @@ Esse bloco de informação é utilizado para registrar a conduta/desfecho após 
 
 Figura 9.17 -- Bloco Conduta/desfecho
 
-![](media/image93.png)
+![](media/cds_image93.png)
 
 *Fonte: SAS/MS.*
 

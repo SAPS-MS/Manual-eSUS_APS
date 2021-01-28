@@ -20,9 +20,9 @@ has_toc: true
 
 **Profissionais que utilizam esta ficha:** É utilizada por profissionais de nível superior das equipes de Atenção Básica, do Núcleo de Apoio à Saúde da Família (NASF), do Polo Academia da Saúde, do Consultório na Rua (eCR) e das equipes de Atenção Básica Prisional (eABP), com exceção do cirurgião-dentista, que preenche a Ficha de Atendimento Odontológico Individual (específica para ESB).
 
-> ![](media/image1.png) **NOTA**: devem ser inseridos, na ficha, os registros dos atendimentos realizados, **por profissional**, **exceto** quando for realizado um **atendimento compartilhado**. Neste caso, deve-se preencher uma Ficha de Atendimento Individual, com os dados dos dois profissionais que realizaram o atendimento compartilhado.
+> ![](media/cds_image1.png) **NOTA**: devem ser inseridos, na ficha, os registros dos atendimentos realizados, **por profissional**, **exceto** quando for realizado um **atendimento compartilhado**. Neste caso, deve-se preencher uma Ficha de Atendimento Individual, com os dados dos dois profissionais que realizaram o atendimento compartilhado.
 
-> ![](media/image2.png) **ATENÇÃO**: a ficha com registro de atendimento compartilhado, **não deve** ser utilizada para registrar outros atendimentos individuais realizado por apenas um dos profissionais.
+> ![](media/cds_image2.png) **ATENÇÃO**: a ficha com registro de atendimento compartilhado, **não deve** ser utilizada para registrar outros atendimentos individuais realizado por apenas um dos profissionais.
 
 A seguir, serão apresentados os campos da Ficha de Atendimento Individual e as orientações sobre como preenchê-los. Os campos assinalados com asterisco (/*) são de preenchimento obrigatório.  
 
@@ -32,7 +32,7 @@ O cabeçalho tem um bloco para a identificação e controle da digitação, que 
 
 Figura 3.1 -- Identificação e controle da digitação da ficha
 
-![](media/image21.png)
+![](media/cds_image21.png)
 
 *Fonte: SAS/MS.*
 
@@ -53,7 +53,7 @@ O próximo bloco é utilizado para identificar o profissional que realizou os at
 
 Figura 3.2 -- Identificação do(s) profissional(is) e lotação(ões)
 
-![](media/image22.png)
+![](media/cds_image22.png)
 
 *Fonte: SAS/MS.*
 
@@ -71,15 +71,15 @@ Quadro 3.2 -- Identificação do(s) profissional(is) e lotação(ões)
 
 \* *Campo de preenchimento obrigatório.*
 
-> ![](media/image2.png) **ATENÇÃO**: os **atendimentos compartilhados**, realizado com frequência pelas equipes de NASF e de AB, esse tipo de atendimento deve ser informado nas fichas do CDS inserindo-se todos os dados (CNS do profissional, CBO, CNES, INE) dos profissionais que realizaram o atendimento compartilhado.
+> ![](media/cds_image2.png) **ATENÇÃO**: os **atendimentos compartilhados**, realizado com frequência pelas equipes de NASF e de AB, esse tipo de atendimento deve ser informado nas fichas do CDS inserindo-se todos os dados (CNS do profissional, CBO, CNES, INE) dos profissionais que realizaram o atendimento compartilhado.
 
 ## 3.3 Identificação dos cidadãos e local do atendimento
 
-> ![](media/image2.png) ATENÇÃO: Para aumentar o número de registros identificados, a partir da versão 3.2.20 é possível registrar CNS ou CPF do cidadão atendido.
+> ![](media/cds_image2.png) ATENÇÃO: Para aumentar o número de registros identificados, a partir da versão 3.2.20 é possível registrar CNS ou CPF do cidadão atendido.
 
 Figura 3.3 -- Identificação do cidadão e local de atendimento
 
-![](media/image23.png)
+![](media/cds_image23.png)
 
 *Fonte: SAS/MS.*
 
@@ -116,7 +116,7 @@ Neste bloco, são registrados os tipos de atendimentos realizados pelas equipes 
 
 Figura 3.4 - Tipo de atendimento
 
-![](media/image25.png)
+![](media/cds_image25.png)
 
 *Fonte: SAS/MS.*
 
@@ -138,7 +138,7 @@ Quadro 3.4 -- Tipo de atendimento
 
 Figura 3.5: Atenção Domiciliar e Racionalidades em Saúde
 
-![](media/image26.png)
+![](media/cds_image26.png)
 
 *Fonte: SAS/MS.*
 
@@ -173,7 +173,7 @@ Quadro 3.6 -- Racionalidade em Saúde
 
 Figura 3.6 -- Vacinação em dia, criança, gestante
 
-![](media/image27.png)
+![](media/cds_image27.png)
 
 *Fonte: SAS/MS.*
 
@@ -223,9 +223,9 @@ Usuário procurou a unidade de saúde por estar com dor lombar. No histórico de
 
 Figura 3.7 -- Problema/condição avaliada
 
-![](media/image28.png)
+![](media/cds_image28.png)
 
-![](media/image29.png)
+![](media/cds_image29.png)
 
 *Fonte: SAS/MS.*
 
@@ -255,7 +255,7 @@ Conforme citado no início deste capítulo, a Ficha de Atendimento Individual n�
 
 Figura 3.8 -- Bloco de exames solicitados (S) e avaliados (A)
 
-![](media/image30.png)
+![](media/cds_image30.png)
 
 *Fonte: SAS/MS.*
 
@@ -275,7 +275,7 @@ Caso o usuário tenha ficado ou não em observação durante o atendimento, essa
 
 Figura 3.9 - Ficou em observação?
 
-![](media/image31.png)
+![](media/cds_image31.png)
 
 *Fonte: SAS/MS.*
 
@@ -286,7 +286,7 @@ Quadro 3.11 - Ficou em observação?
 
 *Fonte: SAS/MS.*
 
-> ![](media/image2.png) **ATENÇÃO**: **concluído** o tempo de **observação**, o campo "**Conduta**" **deve** ser **informado** normalmente, por exemplo, informando se o cidadão foi "Encaminhamento para urgência" ou se teve "Alta do episódio", de acordo com cada caso.
+> ![](media/cds_image2.png) **ATENÇÃO**: **concluído** o tempo de **observação**, o campo "**Conduta**" **deve** ser **informado** normalmente, por exemplo, informando se o cidadão foi "Encaminhamento para urgência" ou se teve "Alta do episódio", de acordo com cada caso.
 
 ### 3.4.9 Núcleo de Apoio à Saúde da Família (NASF) e Polo Academia da Saúde
 
@@ -294,7 +294,7 @@ Os profissionais do NASF e do Polo Academia da Saúde devem utilizar toda a Fich
 
 Figura 3.10 -- Informações para uso exclusivo das equipes do NASF e atividades desenvolvidas no Polo Academia da Saúde
 
-![](media/image32.png)
+![](media/cds_image32.png)
 
 *Fonte: SAS/MS.*
 
@@ -316,7 +316,7 @@ Quadro 3.12 -- Campo exclusivo para uso dos profissionais do NASF e Polo Academi
 
 Figura 3.11 - Conduta
 
-![](media/image33.png)
+![](media/cds_image33.png)
 
 *Fonte: SAS/MS.*
 
@@ -353,7 +353,7 @@ O cabeçalho do instrumento, assim como de todas as fichas do CDS, tem um bloco 
 
 Figura 3A.1 -- Identificação e controle da digitação da ficha
 
-![](media/image34.png)
+![](media/cds_image34.png)
 
 *Fonte: SAS/MS.*
 
@@ -371,7 +371,7 @@ Quadro 3A.1 -- Identificação e controle da digitação
 
 Figura 3A.2 -- Identificação do estabelecimento de saúde e do(s) profissional(is)
 
-![](media/image35.png)
+![](media/cds_image35.png)
 
 *Fonte: SAS/MS.*
 
@@ -391,11 +391,11 @@ Quadro 3A.2 -- Identificação do profissional e do estabelecimento de saúde
 
 ## 3A.3 Identificação do cidadão
 
-> ![](media/image2.png) ATENÇÃO: Para aumentar o número de registros identificados, a partir da versão 3.2.20 é possível registrar CNS ou CPF do cidadão atendido.
+> ![](media/cds_image2.png) ATENÇÃO: Para aumentar o número de registros identificados, a partir da versão 3.2.20 é possível registrar CNS ou CPF do cidadão atendido.
 
 Figura 3A.3 -- Identificação do cidadão
 
-![](media/image36.png)
+![](media/cds_image36.png)
 
 *Fonte: SAS/MS.*
 
@@ -418,7 +418,7 @@ Este bloco é de preenchimento obrigatório, com o resultado dos exames recebido
 
 Figura 3A.4 - Resultado de Exames
 
-![](media/image38.png)
+![](media/cds_image38.png)
 
 *Fonte: SAS/MS.*
 
@@ -429,13 +429,13 @@ Quadro 3A.4 - Resultado de Exames
 |     TESTE DO OLHINHO (TRV)    |     A triagem ocular neonatal ou   “Teste do Olhinho”, faz parte do exame físico do recém-nascido ainda na   maternidade, contemplando a inspeção (ectoscopia) e o teste do reflexo   vermelho, que se faz pela incidência de feixe de luz dirigido sobre os olhos   da criança e, com isso, observa-se a área pupilar, que nos bebês normais   emite um brilho laranja-avermelhado.     Marcar X na opção do resultado do exame   recebido pelo profissional no momento do atendimento, podendo ser Presente   bilateral ou Duvidoso ou ausente.    |
 |     EXAME DE FUNDO   DE OLHO (02.11.06.010-0 - Fundoscopia)    |     Para auxiliar no diagnóstico   diferencial de infecções congênitas, como sífilis, toxoplasmose e   citomegalovírus, bem como a identificação de outras alterações não detectadas   na Triagem Ocular Neonatal, como retinopatia e outros transtornos oculares   congênitos e hereditários, deve-se proceder ao exame do fundo de olho, que   pode ser realizado após a alta da criança da maternidade.     Marcar X na opção do resultado do exame   recebido pelo profissional no momento do atendimento, podendo ser Normal   ou Alterado.    |
 |     TESTE DA ORELHINHA - PEATE (02.11.07.027-0   - Potencial evocado auditivo para triagem auditiva)    |     A presença de microcefalia é   um indicador de risco para perda auditiva (Irda). O teste da orelhinha ou   Potencial Evocado Auditivo de Tronco Encefálico (Peate) deve ser realizada,   preferencialmente, nos primeiros dias de vida (24 h a 48 h), e preferencialmente   ainda na maternidade.      Marcar X na opção do resultado do exame   recebido pelo profissional no momento do atendimento, podendo ser Passou   ou Falhou.    |
-|     EXAMES DE IMAGEM    |     US TRANSFONTANELA   (02.05.02.017-8 Ultrassonografia transfontanela):   indicada para crianças com fontanela aberta, o que se verifica geralmente até   os 6 meses de idade.     Marcar X na opção do resultado do exame   recebido pelo profissional no momento do atendimento, podendo ser Normal,   Sugestivo de infecção congênita, Outras alterações ou Indeterminado.<br>     TOMOGRAFIA COMPUTADORIZADA (02.06.01.007-9 - Tomografia computadorizada   do crânio): sem contraste, para RN cujo tamanho da fontanela   impossibilite a US-TF e para aqueles em que, após a US-TF, ainda persista   dúvida diagnóstica.      Marcar X na opção do resultado do exame   recebido pelo profissional no momento do atendimento, podendo ser Normal,   Sugestivo de infecção congênita, Outras alterações ou Indeterminado.<br>     RESSONÂNCIA MAGNÉTICA (02.07.01.006-4 - Ressonância magnética de   crânio): a ressonância   deve permitir uma melhor avaliação das malformações, especialmente por   possibilitar uma melhor caracterização das alterações corticais e uma melhor   avaliação da substância branca.      Marcar X na opção do resultado do exame   recebido pelo profissional no momento do atendimento, podendo ser Normal,   Sugestivo de infecção congênita, Outras alterações ou Indeterminado.    |
+|     EXAMES DE cds_imageM    |     US TRANSFONTANELA   (02.05.02.017-8 Ultrassonografia transfontanela):   indicada para crianças com fontanela aberta, o que se verifica geralmente até   os 6 meses de idade.     Marcar X na opção do resultado do exame   recebido pelo profissional no momento do atendimento, podendo ser Normal,   Sugestivo de infecção congênita, Outras alterações ou Indeterminado.<br>     TOMOGRAFIA COMPUTADORIZADA (02.06.01.007-9 - Tomografia computadorizada   do crânio): sem contraste, para RN cujo tamanho da fontanela   impossibilite a US-TF e para aqueles em que, após a US-TF, ainda persista   dúvida diagnóstica.      Marcar X na opção do resultado do exame   recebido pelo profissional no momento do atendimento, podendo ser Normal,   Sugestivo de infecção congênita, Outras alterações ou Indeterminado.<br>     RESSONÂNCIA MAGNÉTICA (02.07.01.006-4 - Ressonância magnética de   crânio): a ressonância   deve permitir uma melhor avaliação das malformações, especialmente por   possibilitar uma melhor caracterização das alterações corticais e uma melhor   avaliação da substância branca.      Marcar X na opção do resultado do exame   recebido pelo profissional no momento do atendimento, podendo ser Normal,   Sugestivo de infecção congênita, Outras alterações ou Indeterminado.    |
 
 *Fonte: SAS/MS.*
 
 \* *Campo de preenchimento obrigatório.*
 
-> ![](media/image1.png) **NOTA**: para saber mais a respeito do Plano Nacional de Enfrentamento à Microcefalia, acesse os endereços eletrônicos [http://189.28.128.100/dab/docs/portaldab/documentos/Protocolo_microcefalia_virus_Zika.pdf](http://189.28.128.100/dab/docs/portaldab/documentos/Protocolo_microcefalia_virus_Zika.pdf) e [http://dab.saude.gov.br/portaldab/combate_aedes_aegypti.php?conteudo=material_apoio](http://dab.saude.gov.br/portaldab/combate_aedes_aegypti.php?conteudo=material_apoio)
+> ![](media/cds_image1.png) **NOTA**: para saber mais a respeito do Plano Nacional de Enfrentamento à Microcefalia, acesse os endereços eletrônicos [http://189.28.128.100/dab/docs/portaldab/documentos/Protocolo_microcefalia_virus_Zika.pdf](http://189.28.128.100/dab/docs/portaldab/documentos/Protocolo_microcefalia_virus_Zika.pdf) e [http://dab.saude.gov.br/portaldab/combate_aedes_aegypti.php?conteudo=material_apoio](http://dab.saude.gov.br/portaldab/combate_aedes_aegypti.php?conteudo=material_apoio)
 
 [^1]: Como este cadastro é uma extensão do CADSUS, os dados devem    garantir consistência com o Manual de Operações do CADSUS.
 
