@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Base Conceitual do Sistema
+parent: Prontuário Eletrônico do Cidadão v4.1
 nav_order: 2
 has_children: false
 has_toc: true

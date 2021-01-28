@@ -1,10 +1,27 @@
+---
+layout: default
+title: Cadastro da Atenção Básica
+parent: Coleta de Dados Simplificada v3.2
+nav_order: 3
+has_children: false
+has_toc: true
+---
+
 # CAPÍTULO 2 - Cadastro da Atenção Básica
+{: .no_toc }
+
+## Sumário
+{: .no_toc .text-delta }
+
+- TOC
+{:toc}
 
 O cadastro da Atenção Básica é uma extensão do Sistema de Cadastramento de Usuários do Sistema Único de Saúde (CadSUS)[^1], complementando as informações, por meio do número do Cartão Nacional de Saúde (CNS) do cidadão, com o objetivo de apoiar as equipes de Atenção Básica no mapeamento das características sociais, econômicas e de saúde da população adscrita[^2] ao território sob sua responsabilidade.
 
 O cadastro está organizado em duas dimensões -- individual e domiciliar/territorial --, a dimensão individual capta as informações do cidadão, enquanto a dimensão domiciliar/territorial permite captar as informações do domicílio, vinculando o cidadão ao território. A partir da v 2.1, no e SUS AB esse cadastro possibilita o registro de domicílios que estejam vazios ou abandonados e outros imóveis do território, além da inserção de novos núcleos familiares sem que a equipe tenha que refazer o cadastro domiciliar.
 
 > ![](media/image2.png) **ATENÇÃO**: novos conceitos! A visão de território agora está ampliada. Além de cadastrar os domicílios, também mapeamos outros imóveis do território, como: comércios, terrenos baldios, pontos estratégicos, escola, creche, abrigo, instituição de longa permanência para idosos, unidade prisional, delegacia, estabelecimento religioso, entre outros.
+
 
 ## 2.1 Cadastro Individual
 

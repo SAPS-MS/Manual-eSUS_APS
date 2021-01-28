@@ -1,9 +1,10 @@
 ---
 layout: default
-title: Início
+title: Prontuário Eletrônico do Cidadão v4.1
 nav_order: 1
-description: "Manual e-SUS APS v4.1"
-permalink: /
+has_children: true
+description: "Manual e-SUS APS"
+permalink: /docs/PEC
 ---
 
 e-SUS Atenção Primária à Saúde

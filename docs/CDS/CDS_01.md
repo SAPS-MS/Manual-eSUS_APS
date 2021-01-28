@@ -1,4 +1,20 @@
+---
+layout: default
+title: Introdução
+parent: Coleta de Dados Simplificada v3.2
+nav_order: 2
+has_children: false
+has_toc: true
+---
+
 # CAPÍTULO 1 - Introdução
+{: .no_toc }
+
+## Sumário
+{: .no_toc .text-delta }
+
+- TOC
+{:toc}
 
 Neste capítulo, abordaremos, de forma resumida, os conceitos básicos que orientam o Sistema e-SUS Atenção Básica (e-SUS AB) e o funcionamento das ferramentas do sistema.
 

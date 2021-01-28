@@ -1,4 +1,20 @@
+---
+layout: default
+title: Ficha de Atendimento Individual
+parent: Coleta de Dados Simplificada v3.2
+nav_order: 4
+has_children: false
+has_toc: true
+---
+
 # CAPÍTULO 3 - Ficha de Atendimento Individual
+{: .no_toc }
+
+## Sumário
+{: .no_toc .text-delta }
+
+- TOC
+{:toc}
 
 **Objetivo da ficha:** registro das informações de atendimentos individuais realizados por profissionais de nível superior na Atenção Básica. Não objetiva esgotar todo o processo de atendimento de um indivíduo e também não substitui o registro clínico feito no prontuário clínico de papel. As informações que constam na ficha foram selecionadas segundo a sua relevância e por comporem indicadores de monitoramento e avaliação da AB e das Redes de Atenção à Saúde.
 

@@ -1,9 +1,10 @@
 ---
 layout: default
-title: Início
+title: e-SUS Atividade Coletiva v.
 nav_order: 1
-description: "Manual e-SUS APS v4.1"
-permalink: /
+has_children: true
+description: "Manual e-SUS APS"
+permalink: /docs/ac
 ---
 
 e-SUS Atenção Primária à Saúde

@@ -1,9 +1,10 @@
 ---
 layout: default
-title: Início
+title: Coleta de Dados Simplificada v3.2
 nav_order: 1
-description: "Manual e-SUS APS v4.1"
-permalink: /
+has_children: true
+description: "Manual e-SUS APS"
+permalink: /docs/CDS
 ---
 
 e-SUS Atenção Primária à Saúde
@@ -12,7 +13,7 @@ e-SUS Atenção Primária à Saúde
 {: .text-center }
 <br>
 <br>
-PRONTUÁRIO ELETRÔNICO DO CIDADÃO
+COLETA DE DADOS SIMPLIFICADA
 {: .fs-8 }
 {: .text-center }
 MANUAL DE USO
@@ -20,7 +21,7 @@ MANUAL DE USO
 {: .text-center }
 <br>
 <br>
-(versão 4.1)
+(versão 3.2)
 {: .fs-6 }
 {: .text-center }
 <br>

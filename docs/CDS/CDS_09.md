@@ -1,4 +1,20 @@
+---
+layout: default
+title: Fichas de Atenção Domiciliar
+parent: Coleta de Dados Simplificada v3.2
+nav_order: 10
+has_children: false
+has_toc: true
+---
+
 # CAPÍTULO 9 - Fichas de Atenção Domiciliar
+{: .no_toc }
+
+## Sumário
+{: .no_toc .text-delta }
+
+- TOC
+{:toc}
 
 A Coleta de Dados Simplificada, no âmbito do Serviço de Atenção Domiciliar (SAD), é composta por duas fichas de uso exclusivo das equipes que compõem o SAD -- Equipe Multiprofissional de Atenção Domiciliar (EMAD) e Equipe Multiprofissional de Apoio (EMAP): a Ficha de Avaliação de Elegibilidade e Admissão e a Ficha de Atendimento Domiciliar. Além disso, as equipes de Atenção Domiciliar (AD) também devem utilizar a Ficha de Atividade Coletiva da Atenção Básica, sobretudo, para registro do processo de qualificação do cuidador.
 

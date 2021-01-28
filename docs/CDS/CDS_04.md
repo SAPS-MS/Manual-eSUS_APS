@@ -1,10 +1,26 @@
+---
+layout: default
+title: Ficha de Atendimento Odontológico Individual
+parent: Coleta de Dados Simplificada v3.2
+nav_order: 5
+has_children: false
+has_toc: true
+---
+
 # CAPÍTULO 4 - Ficha de Atendimento Odontológico Individual
+{: .no_toc }
+
+## Sumário
+{: .no_toc .text-delta }
+
+- TOC
+{:toc}
 
 **Objetivo da ficha:** registrar as informações do atendimento individual realizado pela equipe de Saúde Bucal na Atenção Básica.
 
 **Profissionais que utilizam esta ficha:** os profissionais da Atenção Básica aptos a fazer o uso dela são: cirurgião-dentista e técnico em saúde bucal (TSB), além do auxiliar em saúde bucal (ASB) quando acompanhar o atendimento com o cirurgião-dentista.
 
-A seguir, serão apresentados os campos da Ficha de Atendimento Odontológico Individual e as orientações sobre como preenchê-la. Os campos assinalados com asterisco (/*) são de preenchimento obrigatório.
+A seguir, serão apresentados os campos da Ficha de Atendimento Odontológico Individual e as orientações sobre como preenchê-la. Os campos assinalados com asterisco (\*) são de preenchimento obrigatório.
 
 ## 4.1 Cabeçalho
 

@@ -1,9 +1,10 @@
 ---
 layout: default
-title: Início
+title: e-SUS Território v.
 nav_order: 1
-description: "Manual e-SUS APS v4.1"
-permalink: /
+has_children: true
+description: "Manual e-SUS APS"
+permalink: /docs/territorio
 ---
 
 e-SUS Atenção Primária à Saúde
@@ -12,7 +13,7 @@ e-SUS Atenção Primária à Saúde
 {: .text-center }
 <br>
 <br>
-PRONTUÁRIO ELETRÔNICO DO CIDADÃO
+e-SUS Território
 {: .fs-8 }
 {: .text-center }
 MANUAL DE USO
@@ -20,7 +21,7 @@ MANUAL DE USO
 {: .text-center }
 <br>
 <br>
-(versão 4.1)
+(versão )
 {: .fs-6 }
 {: .text-center }
 <br>

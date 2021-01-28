@@ -1,4 +1,20 @@
+---
+layout: default
+title: Ficha de Procedimentos
+parent: Coleta de Dados Simplificada v3.2
+nav_order: 7
+has_children: false
+has_toc: true
+---
+
 # CAPÍTULO 6 - Ficha de Procedimentos
+{: .no_toc }
+
+## Sumário
+{: .no_toc .text-delta }
+
+- TOC
+{:toc}
 
 **Objetivo da ficha:** registrar os procedimentos realizados na Atenção Básica. Ela, identifica os procedimentos que foram feitos por determinado profissional, em ato, diferentemente da Ficha de Atendimento Individual, em que são registradas a solicitação e a avaliação de procedimentos de exames, por exemplo.
 

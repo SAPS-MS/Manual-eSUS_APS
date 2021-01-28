@@ -1,5 +1,20 @@
-# CAPÍTULO 8 - Marcadores de Consumo Alimentar
+---
+layout: default
+title: Marcadores de Consumo Alimentar
+parent: Coleta de Dados Simplificada v3.2
+nav_order: 9
+has_children: false
+has_toc: true
+---
 
+# CAPÍTULO 8 - Marcadores de Consumo Alimentar
+{: .no_toc }
+
+## Sumário
+{: .no_toc .text-delta }
+
+- TOC
+{:toc}
 
 **Objetivo do formulário:** este remete à etapa inicial do Ciclo de Gestão e Produção do Cuidado, que corresponde ao uso do instrumento para avaliar as práticas alimentares e o registro das informações. Os formulários de marcadores de consumo alimentar propõem a avaliação de alimentos consumidos no dia anterior. Esse instrumento permite a identificação de marcadores positivos ou negativos da alimentação e, de maneira mais dinâmica, a composição de indicadores. Por meio da avaliação do consumo alimentar, o profissional da equipe de saúde pode orientar quanto às práticas alimentares adequadas e saudáveis.
 

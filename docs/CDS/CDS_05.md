@@ -1,4 +1,20 @@
+---
+layout: default
+title: Ficha de Atividade Coletiva
+parent: Coleta de Dados Simplificada v3.2
+nav_order: 6
+has_children: false
+has_toc: true
+---
+
 # CAPÍTULO 5 - Ficha de Atividade Coletiva
+{: .no_toc }
+
+## Sumário
+{: .no_toc .text-delta }
+
+- TOC
+{:toc}
 
 **Objetivo da ficha:** registrar as ações realizadas em grupo pelas equipes, conforme as necessidades do território e da própria equipe. Já em sua organização, marcada por blocos de tonalidades de cor diferentes, é perceptível que a ficha apresenta dois focos: as ações coletivas de saúde para a população (como atividades de educação em saúde, atendimentos e avaliações em grupo, e mobilizações sociais) e as ações coletivas para a organização da equipe (reuniões de equipe, reuniões com outras equipes, ou reuniões com outros órgãos).
 

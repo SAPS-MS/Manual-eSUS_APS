@@ -1,4 +1,20 @@
+---
+layout: default
+title: Ficha de Visita Domiciliar e Territorial
+parent: Coleta de Dados Simplificada v3.2
+nav_order: 8
+has_children: false
+has_toc: true
+---
+
 # CAPÍTULO 7 - Ficha de Visita Domiciliar e Territorial
+{: .no_toc }
+
+## Sumário
+{: .no_toc .text-delta }
+
+- TOC
+{:toc}
 
 **Objetivo da ficha:** registrar a atividade de visita ao cidadão ou a outros pontos do território adscrito da equipe da AB. As informações solicitadas na ficha foram selecionadas segundo a sua importância e por comporem indicadores de monitoramento e avaliação para a AB e para as Redes de Atenção à Saúde.
 
