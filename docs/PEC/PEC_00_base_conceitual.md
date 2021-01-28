@@ -49,11 +49,11 @@ A estratégia é composta por dois sistemas:
 
 - Sistema com Prontuário Eletrônico do Cidadão (**PEC**), sistema com prontuário eletrônico (objeto deste manual), que tem como principal objetivo apoiar o processo de informatização das UBS.
 
-> ![](media/pec_image58.png)**NOTA**: Para conhecer os conceitos e orientações de preenchimento das fichas, consulte o Manual do Sistema com Coleta de Dados Simplificada. Sobre o sistema de digitação acesse o Capítulo 07 deste manual.{.is-info}
+> ![](media/pec_image58.png)**NOTA**: Para conhecer os conceitos e orientações de preenchimento das fichas, consulte o Manual do Sistema com Coleta de Dados Simplificada. Sobre o sistema de digitação acesse o Capítulo 07 deste manual.
 
 Durante o texto, os softwares do Sistema e-SUS APS também são referidos como Sistema com CDS e Sistema com PEC, respectivamente, ou ainda, simplesmente, CDS e PEC.
 
-> ![](media/pec_image58.png)**NOTA**: Para mais informações sobre legislação, documentos e materiais de apoio sobre a Estratégia e-SUS APS, acesse a **página do e-SUS APS** por meio do endereço eletrônico [[http://dab.saude.gov.br/portaldab/esus.php]](http://dab.saude.gov.br/portaldab/esus.php){.is-info}
+> ![](media/pec_image58.png)**NOTA**: Para mais informações sobre legislação, documentos e materiais de apoio sobre a Estratégia e-SUS APS, acesse a **página do e-SUS APS** por meio do endereço eletrônico [[http://dab.saude.gov.br/portaldab/esus.php]](http://dab.saude.gov.br/portaldab/esus.php)
 
 # 2. Política de Controle de Versão do Sistema e-SUS APS
 

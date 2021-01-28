@@ -1,7 +1,7 @@
 ---
 layout: default
 title: e-SUS Território v.
-nav_order: 1
+nav_order: 4
 has_children: true
 description: "Manual e-SUS APS"
 permalink: /docs/territorio
