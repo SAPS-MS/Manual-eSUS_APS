@@ -2,7 +2,7 @@
 layout: default
 title: Início
 nav_order: 1
-has_children: true
+has_children: false
 description: "Manual e-SUS APS"
 permalink: /
 ---
