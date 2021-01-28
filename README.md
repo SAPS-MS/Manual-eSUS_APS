@@ -19,7 +19,7 @@ O manual está organizado em capítulos. Cada arquivo `.md` contém um capítulo
 
 O arquivo `_config.yml` contém as configurações de funcionamento do template atualmente utilizado. Altere este arquivo apenas se souber o que está fazendo.
 
-Os arquivos de imagem devem ser gravados na pasta `\media\`, de preferência em formato `.png`.
+Os arquivos de pec_imagem devem ser gravados na pasta `\media\`, de preferência em formato `.png`.
 
 A pasta `\_sass\` contém os arquivos de customização (`.scss`), que podem ser realizados no esquema de cores (`\color_schemes\`), seja em customizações em geral (`\custom\`)
 
