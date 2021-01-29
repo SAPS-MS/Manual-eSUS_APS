@@ -1,8 +1,8 @@
 ---
 layout: default
-title: e-SUS Atividade Coletiva v.
+title: e-SUS Atividade Coletiva v3.2
 nav_order: 5
-nav_exclude: true
+nav_exclude: false
 has_children: true
 description: "Manual e-SUS APS"
 permalink: /docs/ac
@@ -14,7 +14,7 @@ e-SUS Atenção Primária à Saúde
 {: .text-center }
 <br>
 <br>
-PRONTUÁRIO ELETRÔNICO DO CIDADÃO
+e-SUS Atividade Coletiva
 {: .fs-8 }
 {: .text-center }
 MANUAL DE USO
@@ -22,7 +22,7 @@ MANUAL DE USO
 {: .text-center }
 <br>
 <br>
-(versão 4.1)
+(versão 3.2)
 {: .fs-6 }
 {: .text-center }
 <br>
