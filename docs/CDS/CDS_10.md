@@ -52,7 +52,7 @@ O próximo bloco é utilizado para identificação do profissional que realizou 
 
 Figura 10.2 -- Identificação do profissional e lotação
 
-![prof.png](media/cds_image95.png)
+![prof.png](media/cds_image8.png)
 
 *Fonte: SAS/MS.*
 
@@ -78,7 +78,7 @@ Este bloco de informações permite a identificação do usuário que foi atendi
 
 Figura 10.3 -- Identificação dos cidadãos e local de atendimento
 
-![](media/cds_image96.png)
+![](media/cds_image23.png)
 
 *Fonte: SAS/MS.*
 
@@ -134,25 +134,3 @@ Figura 10.7 -- Registro de aplicação de outros imunobiológicos
 ![Captura de tela 2017-10-10 16.56.16.png](media/cds_image101.png)
 
 *Fonte: SAS/MS.*
-
-[^1]: Como este cadastro é uma extensão do CADSUS, os dados devem    garantir consistência com o Manual de Operações do CADSUS.
-
-[^2]: Segundo a Política Nacional de Atenção Básica (BRASIL, 2017),   "adscrição de usuários" é um processo de vinculação de pessoas e/ou   famílias e grupos a profissionais/equipes, com o objetivo de ser    referência para o seu cuidado.
-
-[^3]: MENÉDEZ, E. Modelos, saberes e formas de atenção ao padecimento: exclusões ideológicas e articulações práticas. In: \______. Sujeitos, saberes e estruturas: uma introdução ao enfoque relacional no estudo da Saúde Coletiva. São Paulo: Hucitec, 2009. p.17-70.
-
-[^4]: MENÉDEZ, E. Modelos, saberes e formas de atenção ao padecimento: exclusões ideológicas e articulações práticas. In: \______. Sujeitos, saberes e estruturas: uma introdução ao enfoque relacional no estudo da Saúde Coletiva. São Paulo: Hucitec, 2009. p.17-70.
-
-[^5]: Ver na íntegra Política Nacional de Saúde da Pessoa com Deficiência (2010), disponíveis em: <http://bvsms.saude.gov.br/bvs/publicacoes/>.
-
-[^6]: Disponível em: <https://cadastro.saude.gov.br/cadsusweb/manual.pdf/>.
-
-[^7]: Caderno de Atenção Básica (CAB) nº 13 (BRASIL, 2013); CAB nº 29 (BRASIL, 2010).
-
-[^8]: CAB nº 13 (BRASIL, 2013); CAB nº 29 (BRASIL, 2010).
-
-[^9]: CAB nº 29 (BRASIL, 2010).
-
-[^10]: Manual de Especialidades em Saúde Bucal* (BRASIL, 2008), no capítulo intitulado Estomatologia. Disponível em: <http://189.28.128.100/dab/docs/portaldab/publicacoes/manual_especialidades_bucal.pdf/>.
-
-[^11]: Guia de Recomendações para Uso de Fluoretos no Brasil* (BRASIL, 2009). Disponível em: <http://189.28.128.100/dab/docs/portaldab/publicacoes/guia_fluoretos.pdf/>.
