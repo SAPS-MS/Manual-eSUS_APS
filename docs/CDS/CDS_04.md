@@ -189,10 +189,6 @@ Figura 4.7 -- Procedimentos odontológicos
 
 ![](media/cds_image45.png)
 
-![](media/cds_image46.png)
-
-![](media/cds_image47.png)
-
 *Fonte: SAS/MS.*
 
 Deve-se preencher a quantidade **(números)** de procedimentos realizados durante o atendimento a determinado usuário. Estes campos estão em conformidade com a descrição dos procedimentos (por dente, por sextante ou por usuário) no Sigtap, como segue abaixo:
@@ -256,25 +252,6 @@ Quadro 4.10 -- Encaminhamento
 |ATENDIMENTO A PACIENTES COM NECESSIDADES ESPECIAIS,<br> CIRURGIA BUCOMAXILOFACIAL (BMF),<br>  ENDODONTIA,<br>  ESTOMATOLOGIA,<br>  IMPLANTODONTIA,<br>  ODONTOPEDIATRIA,<br>  ORTODONTIA/ORTOPEDIA,<br> PERIODONTIA,<br> PRÓTESE DENTÁRIA,<br> RADIOLOGIA,<br> OUTROS|Marque com um "x" na linha que corresponder ao tipo de encaminhamento realizado, podendo ser marcada mais de uma opção.|
 
 *Fonte: SAS/MS.*
-
-
-[^1]: Como este cadastro é uma extensão do CADSUS, os dados devem    garantir consistência com o Manual de Operações do CADSUS.
-
-[^2]: Segundo a Política Nacional de Atenção Básica (BRASIL, 2017),   "adscrição de usuários" é um processo de vinculação de pessoas e/ou   famílias e grupos a profissionais/equipes, com o objetivo de ser    referência para o seu cuidado.
-
-[^3]: MENÉDEZ, E. Modelos, saberes e formas de atenção ao padecimento: exclusões ideológicas e articulações práticas. In: \______. Sujeitos, saberes e estruturas: uma introdução ao enfoque relacional no estudo da Saúde Coletiva. São Paulo: Hucitec, 2009. p.17-70.
-
-[^4]: MENÉDEZ, E. Modelos, saberes e formas de atenção ao padecimento: exclusões ideológicas e articulações práticas. In: \______. Sujeitos, saberes e estruturas: uma introdução ao enfoque relacional no estudo da Saúde Coletiva. São Paulo: Hucitec, 2009. p.17-70.
-
-[^5]: Ver na íntegra Política Nacional de Saúde da Pessoa com Deficiência (2010), disponíveis em: <http://bvsms.saude.gov.br/bvs/publicacoes/>.
-
-[^6]: Disponível em: <https://cadastro.saude.gov.br/cadsusweb/manual.pdf/>.
-
-[^7]: Caderno de Atenção Básica (CAB) nº 13 (BRASIL, 2013); CAB nº 29 (BRASIL, 2010).
-
-[^8]: CAB nº 13 (BRASIL, 2013); CAB nº 29 (BRASIL, 2010).
-
-[^9]: CAB nº 29 (BRASIL, 2010).
 
 [^10]: Manual de Especialidades em Saúde Bucal* (BRASIL, 2008), no capítulo intitulado Estomatologia. Disponível em: <http://189.28.128.100/dab/docs/portaldab/publicacoes/manual_especialidades_bucal.pdf/>.
 

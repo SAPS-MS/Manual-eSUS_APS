@@ -171,15 +171,16 @@ Quadro 3.6 -- Racionalidade em Saúde
 
 *Fonte: SAS/MS.*
 
-Figura 3.6 -- Vacinação em dia, criança, gestante
-
-![](media/cds_image27.png)
-
-*Fonte: SAS/MS.*
 
 ### 3.4.4 Avaliação antropométrica
 
 Este campo é composto por informações essenciais de acompanhamento nutricional dos usuários do serviço de saúde em que são informados:
+
+Figura 3.6 - Avaliação antropométrica
+
+![](media/cds_image27.png)
+
+*Fonte: SAS/MS.*
 
 Quadro 3.7 -- Avaliação antropométrica
 
@@ -194,6 +195,13 @@ Quadro 3.7 -- Avaliação antropométrica
 ### 3.4.5 Vacinação em dia, criança e gestante
 
 O campo **vacina em dia** é destinado a qualquer indivíduo. As informações no campo **criança**, são utilizadas para dados de aleitamento materno de crianças até 2 anos de idade e o campo **gestante**, para história pregressa e atual da gestação.  
+
+Figura 3.6 -- Vacinação em dia, criança, gestante
+
+![](media/cds_image27_2.png)
+
+*Fonte: SAS/MS.*
+
 
 Quadro 3.8 -- Vacinação em dia, criança, gestante
 
@@ -371,7 +379,7 @@ Quadro 3A.1 -- Identificação e controle da digitação
 
 Figura 3A.2 -- Identificação do estabelecimento de saúde e do(s) profissional(is)
 
-![](media/cds_image35.png)
+![](media/cds_image8.png)
 
 *Fonte: SAS/MS.*
 
@@ -437,16 +445,6 @@ Quadro 3A.4 - Resultado de Exames
 
 > ![](media/cds_image1.png) **NOTA**: para saber mais a respeito do Plano Nacional de Enfrentamento à Microcefalia, acesse os endereços eletrônicos [http://189.28.128.100/dab/docs/portaldab/documentos/Protocolo_microcefalia_virus_Zika.pdf](http://189.28.128.100/dab/docs/portaldab/documentos/Protocolo_microcefalia_virus_Zika.pdf) e [http://dab.saude.gov.br/portaldab/combate_aedes_aegypti.php?conteudo=material_apoio](http://dab.saude.gov.br/portaldab/combate_aedes_aegypti.php?conteudo=material_apoio)
 
-[^1]: Como este cadastro é uma extensão do CADSUS, os dados devem    garantir consistência com o Manual de Operações do CADSUS.
-
-[^2]: Segundo a Política Nacional de Atenção Básica (BRASIL, 2017),   "adscrição de usuários" é um processo de vinculação de pessoas e/ou   famílias e grupos a profissionais/equipes, com o objetivo de ser    referência para o seu cuidado.
-
-[^3]: MENÉDEZ, E. Modelos, saberes e formas de atenção ao padecimento: exclusões ideológicas e articulações práticas. In: \______. Sujeitos, saberes e estruturas: uma introdução ao enfoque relacional no estudo da Saúde Coletiva. São Paulo: Hucitec, 2009. p.17-70.
-
-[^4]: MENÉDEZ, E. Modelos, saberes e formas de atenção ao padecimento: exclusões ideológicas e articulações práticas. In: \______. Sujeitos, saberes e estruturas: uma introdução ao enfoque relacional no estudo da Saúde Coletiva. São Paulo: Hucitec, 2009. p.17-70.
-
-[^5]: Ver na íntegra Política Nacional de Saúde da Pessoa com Deficiência (2010), disponíveis em: <http://bvsms.saude.gov.br/bvs/publicacoes/>.
-
 [^6]: Disponível em: <https://cadastro.saude.gov.br/cadsusweb/manual.pdf/>.
 
 [^7]: Caderno de Atenção Básica (CAB) nº 13 (BRASIL, 2013); CAB nº 29 (BRASIL, 2010).
@@ -454,7 +452,3 @@ Quadro 3A.4 - Resultado de Exames
 [^8]: CAB nº 13 (BRASIL, 2013); CAB nº 29 (BRASIL, 2010).
 
 [^9]: CAB nº 29 (BRASIL, 2010).
-
-[^10]: Manual de Especialidades em Saúde Bucal* (BRASIL, 2008), no capítulo intitulado Estomatologia. Disponível em: <http://189.28.128.100/dab/docs/portaldab/publicacoes/manual_especialidades_bucal.pdf/>.
-
-[^11]: Guia de Recomendações para Uso de Fluoretos no Brasil* (BRASIL, 2009). Disponível em: <http://189.28.128.100/dab/docs/portaldab/publicacoes/guia_fluoretos.pdf/>.
