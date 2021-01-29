@@ -21,7 +21,7 @@ Neste capítulo, abordaremos, de forma resumida, os conceitos básicos que orien
 
 # 1. Estratégia e-SUS Atenção Básica (AB)
 
-O e-SUS Atenção Primária à Saúde é uma estratégia do Departamento de Saúde da Família (DESF) para reestruturar as informações da Atenção Básica (AB) em nível nacional. Esta ação está alinhada com a proposta mais geral de reestruturação dos Sistemas de Informação em Saúde (SIS) do Ministério da Saúde, entendendo que a qualificação da gestão da informação é fundamental para ampliar a qualidade no atendimento à população.
+O e-SUS APS é uma estratégia do Departamento de Saúde da Família (DESF) para reestruturar as informações da Atenção Básica (AB) em nível nacional. Esta ação está alinhada com a proposta mais geral de reestruturação dos Sistemas de Informação em Saúde (SIS) do Ministério da Saúde, entendendo que a qualificação da gestão da informação é fundamental para ampliar a qualidade no atendimento à população.
 
 A Estratégia e-SUS APS faz referência ao processo de informatização qualificada do Sistema Único de Saúde (SUS) em busca de um SUS eletrônico (e-SUS) e tem como objetivo concretizar um novo modelo de gestão de informação que apoie os municípios e os serviços de saúde na gestão efetiva da AB e na qualificação do cuidado dos usuários.
 
