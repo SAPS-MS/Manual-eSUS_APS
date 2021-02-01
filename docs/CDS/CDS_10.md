@@ -1,4 +1,4 @@
----
+|---
 layout: default
 title: Ficha de Vacinação
 parent: Coleta de Dados Simplificada v3.2
@@ -121,6 +121,7 @@ Figura 10.5 -- Imunobiológicos (frente)
 Figura 10.6 - Imunobiológicos (verso)
 
 ![Captura de tela 2017-10-10 16.55.05.png](media/cds_image100.png)
+
 *Fonte: SAS/MS.*
 
 Para cada vacina aplicada o profissional deverá indicar a estratégia, a dose, o lote e o fabricante do imunobiológico. A estratégia e a dose obedecerão à legenda disponível no verso da ficha.
@@ -129,8 +130,121 @@ Para cada vacina aplicada o profissional deverá indicar a estratégia, a dose, 
 
 Ainda neste bloco, o profissional pode registrar **outros imunobiológicos** não constantes na listagem (até cinco por ficha), como vacinas especiais, soros e imunoglobulinas. Esses imunobiológicos devem ser descritos a partir da sua nomenclatura oficial disponibilizada pela CGPNI, observando o preenchimento do tipo de estratégia, dose, lote e fabricante.
 
-Figura 10.7 -- Registro de aplicação de outros imunobiológicos
+Figura 10.7 - Registro de aplicação de outros imunobiológicos
 
 ![Captura de tela 2017-10-10 16.56.16.png](media/cds_image101.png)
 
 *Fonte: SAS/MS.*
+
+### 10.5.1 Vacinas COVID-19
+
+Exclusivamente para atendimento à situação nacional de Emergência em Saúde Pública está disponível o registro das doses aplicadas da vacina COVID-19. Visando otimizar o processo de registro em papel das vacinas aplicadas para a COVID-19 foi elaborado e disponibilizado uma ficha de vacinação específica para este imunobiológico. O formato de registro muda em relação ao padrão utilizado nas outras fichas, ou seja, cada indivíduo é representado nas linhas.
+
+Figura 10.8 - Registro de aplicação da vacina contra COVID-19
+
+![](media/cds_image102.png)
+
+*Fonte: SAS/MS.*
+
+Para esta vacina será obrigatória a identificação do cidadão através do CPF ou CNS, data de nascimento, sexo, local de atendimento e grupo de atendimento. Este último se aplica apenas à campanhas de vacinação e é representada pela legenda com os códigos de cada grupo de atendimento específico como mostra o quadro a seguir:
+
+Quadro 10.4 - Grupos de atendimento para campanha de vacinação contra COVID-19.
+
+|Código|Grupo de Atendimento|
+|-|-|
+5  | Quilombola
+6  | Privado de Liberdade
+10 | Outros
+13 | Func. do Sistema Prisional
+31 | Caminhoneiro
+32 | Coletivo Rodoviário Passageiros Urbano e de Longo Curso
+33 | Portuário
+34 | Anemia Falciforme
+35 | Câncer
+36 | Diabetes
+37 | Portador de DPOC
+38 | Doença Renal
+39 | Doenças Cardio-Cerebrovasculares
+40 | Hipertensão Grave
+41 | Transplantados
+42 | Obesidade Grave
+43 | 60 a 64 Anos
+44 | 65 a 69 Anos
+45 | 70 a 74 Anos
+46 | 75 a 79 Anos
+47 | 80 anos ou Mais
+48 | Idosos Institucionalizados
+49 | Marinha
+50 | Exército
+51 | Força Aérea
+52 | Bombeiro Civil
+53 | Bombeiro Militar
+54 | Guarda Municipal
+55 | Policial Rod. Federal
+56 | Policial Civil
+57 | Policial Federal
+58 | Policial Militar
+59 | Ribeirinha
+60 | Povos indígenas
+61 | Ensino Básico
+62 | Ensino Superior
+63 | Auxiliar de Veterinário
+64 | Biólogo
+65 | Biomédico
+66 | Cozinheiro e Auxiliares
+67 | Cuidador de Idosos
+68 | Doula/Parteira
+69 | Enfermeiro(a)
+70 | Farmacêutico
+71 | Fisioterapeutas
+72 | Fonoaudiólogo
+73 | Funcionário do Sist. funerário
+74 | Médico
+75 | Med. Veterinário
+76 | Motorista de Ambulância
+77 | Nutricionista
+78 | Odontologista
+79 | Aux. limpeza
+80 | Educador Físico
+81 | Psicólogo
+82 | Recepcionista
+83 | Segurança
+84 | Assistente Social
+85 | Téc. de Enfermagem
+86 | Técnico de Veterinário
+87 | Terapeuta Ocup.
+88 | Prof. Transporte Aéreo Coletivo
+89 | Ferroviário
+90 | Metroviário
+91 | Aquaviário
+92 | Pessoas com Deficiência Institucionalizadas
+93 | Deficiência Grave
+94 | Situação de Rua
+95 | Trab. industriais
+96 | Síndrome de Down
+97 | Aux.de Enfermagem
+98 | Téc. de Odontologia
+99 | Estudante
+
+Os campos do bloco "Vacinas" também são todos de preenchimento obrigatório.
+
+Figura 10.9 - Registro de aplicação da vacina contra COVID-19
+
+![](media/cds_image103.png)
+
+*Fonte: SAS/MS.*
+
+O campo `Vacina COVID-19` deve ser preenchido com a **sigla** referente à vacina aplicada, de acordo com o quadro a seguir:
+
+Quadro 10.5 - Vacinas contra COVID-19.
+
+|Código|Imunobiológico|Fabricante|
+|-|-|-|
+COV19-AZE | Covid-19-Covishield | Oxford/AstraZeneca
+COV19-VAC | Covid-19-Coronavac | Sinovac/Butantan
+COV19-PFZ | BNT162b2 | BioNTech/Fosun Pharma/Pfizer
+COV19-JAN | Ad26.COV2.S | Janssen-Cilag
+
+O campo `Estratégia` já vem pré-preenchido com a opção "5-Campanha". O campo `Dose` deverá ser preenchido com a dose aplicada do imunobiológico. O campo `lote` deverá ser preenchido com a numeração do lote contido no frasco da vacina. O campo `Fabricante` deverá ser preenchido de acordo com o apresentado no frasco do imunobiológico.
+
+> ![](media/cds_image2.png) **ATENÇÃO**: É importante prestar muita atenção tanto ao processo de preparação e aplicação da vacina quanto o registro da vacinação no e-SUS APS, pois não pode haver aplicação cruzada de vacinas. Desta forma o registro correto da vacinação é importante para que não ocorram erros na execução da 2ª dose da vacina.
