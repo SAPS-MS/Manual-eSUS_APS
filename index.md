@@ -42,10 +42,10 @@ E-mail: cgiap@saude.gov.br
 Renata Maria de Oliveira Costa
 
 **Coordenação Técnica Geral**<br>
-João Geraldo de Oliveira Júnior
+Michael Luiz Diana de Oliveira
 
 **Organização**<br>
-Ana Claudia Cielo, Igor de Carvalho Gomes
+Ana Claudia Cielo, Igor de Carvalho Gomes, João Geraldo de Oliveira Júnior
 
 **Revisão Técnica**<br>
 Ana Claudia Cielo, Igor de Carvalho Gomes, Micael Macedo Pereira da Trindade, André Cury Alves, João Geraldo de Oliveira Júnior
