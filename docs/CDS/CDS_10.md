@@ -132,7 +132,7 @@ Ainda neste bloco, o profissional pode registrar **outros imunobiológicos** nã
 
 Figura 10.7 - Registro de aplicação de outros imunobiológicos
 
-![Captura de tela 2017-10-10 16.56.16.png](media/cds_image101.png)
+![](media/cds_image101.png)
 
 *Fonte: SAS/MS.*
 
