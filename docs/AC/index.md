@@ -1,6 +1,6 @@
 ---
 layout: default
-title: e-SUS Atividade Coletiva v3.2
+title: e-SUS Atividade Coletiva v1.3
 nav_order: 5
 nav_exclude: false
 has_children: true
@@ -22,7 +22,7 @@ MANUAL DE USO
 {: .text-center }
 <br>
 <br>
-(versão 3.2)
+(versão 1.3)
 {: .fs-6 }
 {: .text-center }
 <br>
