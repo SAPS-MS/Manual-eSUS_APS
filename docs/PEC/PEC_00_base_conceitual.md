@@ -91,13 +91,13 @@ Considerando o princípio doutrinário da universalidade no SUS, se o cidadão n
 
 ## 3.2 Utilizando o Cadastro do Cidadão
 
-O e-SUS APS apresenta aos profissionais das equipes de Atenção Básica um grande módulo de cadastro de cidadãos, o qual se subdivide em dois módulos distintos: **Cadastro do Cidadão** e **Cadastro do Território**. O primeiro é realizado por meio do PEC nas UBS e o seu principal objetivo é realizar o cadastramento dos usuários do serviço, mesmo que não façam parte do seu território. Trata-se de um cadastro **mais simplificado**, apenas com informações individuais, com possibilidade de interoperabilidade com a base nacional do CNS. Já o segundo é realizado por meio da Coleta de Dados Simplificada (CDS), **a partir das fichas de Cadastro Individual e de Cadastro Domiciliar e Territorial**, utilizados, principalmente, pelo Agente Comunitário de Saúde (ACS) para cadastrar os residentes em suas microáreas. Este cadastro é mais extenso e contém informações-chave sobre a população sob responsabilidade da equipe de saúde. Abordaremos o CDS com mais profundidade no Capítulo 7.
+O e-SUS APS apresenta aos profissionais das equipes de Atenção Básica um grande módulo de cadastro de cidadãos, o qual se subdivide em dois módulos distintos: **Cadastro do Cidadão** e **Cadastro do Território**. O primeiro é realizado por meio do PEC nas UBS e o seu principal objetivo é realizar o cadastramento dos usuários do serviço, mesmo que não façam parte do seu território. Trata-se de um cadastro **mais simplificado**, apenas com informações individuais, com possibilidade de interoperabilidade com a base nacional do CNS. Já o segundo é realizado por meio da Coleta de Dados Simplificada (CDS), **a partir das fichas de Cadastro Individual e de Cadastro Domiciliar e Territorial**, utilizados, principalmente, pelo Agente Comunitário de Saúde (ACS) para cadastrar os residentes em sua microárea. Este cadastro é mais extenso e contém informações-chave sobre a população sob responsabilidade da equipe de saúde. Abordaremos o CDS com mais profundidade no Capítulo 7.
 
 ![](media/pec_image58.png)**NOTA**: A consulta na base nacional do CNS depende de conexão de internet disponível na UBS.
 
 Apesar de se tratar de duas formas de cadastrar, os dados de ambas estão disponíveis para que a equipe de saúde possa obter informações de seus usuários da forma mais integrada possível.
 
-Se estiver utilizando o sistema com PEC, uma vez que o cidadão tenha sido cadastrado pela equipe, usando as fichas, e tenha sido digitado no sistema com CDS, as informações de cadastro deste cidadão, já estarão disponíveis na base local para acesso, por meio do módulo "Cidadão".
+Se estiver utilizando o sistema com PEC, uma vez que o cidadão tenha sido cadastrado pela equipe usando as fichas e tenha sido digitado no sistema com CDS, as informações de cadastro deste cidadão, já estarão disponíveis na base local para acesso por meio do módulo "Cidadão".
 
 Ao contrário, caso o cidadão seja cadastrado e **incluído o número do seu CNS ou CPF** no módulo "Cidadão" do sistema com PEC e, posteriormente, venha a ser cadastrado pelo ACS, usando as fichas de cadastro da AB, ao digitar o cadastro no sistema com CDS, os dados de identificação do cidadão serão aproveitados.
 
@@ -109,9 +109,9 @@ Em especial, sobre o processo de interoperabilidade de cadastro do cidadão, org
 
 - PIX - Patient Identifier Cross- referencing HL7 V3 (PIXV3) - possibilita que múltiplas aplicações distribuídas possam correlacionar informações sobre um único paciente, a partir de fontes que conhecem este paciente por diferentes identificadores;
 
-- PDQ - Patient Demographics Query HL7 V3 (PDQV3) - possibilita que múltiplas aplicações distribuídas consultem os dados demográficos de pessoas armazenados num servidor central (no caso Brasileiro, o servidor do Cadastro Nacional de Usuários do SUS), a partir de um conjunto de dados demográficos pré- definidos.
+- PDQ - Patient Demographics Query HL7 V3 (PDQV3) - possibilita que múltiplas aplicações distribuídas consultem os dados demográficos de pessoas armazenados num servidor central (no caso Brasileiro, o servidor do Cadastro Nacional de Usuários do SUS), a partir de um conjunto de dados demográficos pré-definidos.
 
-As especificações dos perfis IHE PIX e PDQ para interoperabilidade de cadastro, já constam no barramento do Cartão Nacional de Saúde, disponibilizados pelo DataSUS, e já estão integrados ao Sistema e-SUS APS.
+As especificações dos perfis IHE PIX e PDQ para interoperabilidade de cadastro, já constam no barramento do Cartão Nacional de Saúde, disponibilizados pelo DATASUS, e já estão integrados ao Sistema e-SUS APS.
 
 # 4. Fluxo do Cidadão no Sistema e-SUS APS
 
@@ -129,9 +129,9 @@ Como todo padrão, este, ainda que se aplique a grande número de situações, n
 
 1\) Que usuários com atividades agendadas (consultas, por exemplo) ou da rotina da unidade (vacina, por exemplo) devem ser recebidos e devidamente direcionados, evitando esperas desnecessárias com potencial de confusão na recepção;
 
-2\) Que situações imprevistas são inerentes à vida e, nesses casos, requerem certa organização da unidade e do processo de trabalho da equipe, tanto para compreendê- las quanto para intervir sobre elas;
+2\) Que situações imprevistas são inerentes à vida e, nesses casos, requerem certa organização da unidade e do processo de trabalho da equipe, tanto para compreendê-las quanto para intervir sobre elas;
 
-3\) Que os trabalhadores encarregados de escutar demandas que surgem espontaneamente (sem agendamento prévio) devem ter: capacidade de analisá- las (identificando riscos e analisando vulnerabilidade), clareza das ofertas de cuidado existentes na UBS, possibilidade de diálogo com outros colegas, algum grau de resolutividade e respaldo para acionar as ofertas de cuidado em tempos e modos que considerem a necessidade dos usuários.
+3\) Que os trabalhadores encarregados de escutar demandas que surgem espontaneamente (sem agendamento prévio) devem ter: capacidade de analisá-las (identificando riscos e analisando vulnerabilidade), clareza das ofertas de cuidado existentes na UBS, possibilidade de diálogo com outros colegas, algum grau de resolutividade e respaldo para acionar as ofertas de cuidado em tempos e modos que considerem a necessidade dos usuários.
 
 Figura 4 - Usuário precisa de atendimento diferente do específico de rotina da UBS
 
@@ -143,7 +143,7 @@ Outro aspecto importante que merece ser destacado é que, em algumas situações
 
 Em todos esses casos, fica evidente a preocupação de não burocratizar o acolhimento e o fluxo do usuário na unidade, bem como de ampliar a resolutividade e a capacidade de cuidado da equipe. Lembrando que, na atenção básica, os usuários geralmente são conhecidos ou estão próximos (por morarem perto ou serem adscritos à UBS) e que o efetivo trabalho em equipe (multi e transdisciplinar) produz relações solidárias e complementares entre os profissionais (enriquecendo- os individualmente e ao conjunto da equipe), gerando, assim, mais segurança e proteção para os usuários.
 
-No que se refere à definição de intervenções, segundo a estratificação da necessidade do usuário (mediante avaliação de risco e vulnerabilidade), em "não agudo" (intervenções programadas) e "agudo" (atendimento imediato, prioritário ou no dia), o que se pretende é que a necessidade do usuário seja estruturante do tipo e do tempo das intervenções, materializando, aqui, o princípio da equidade. Mais uma vez, o fluxograma proposto deve ser contextualizado, pois, se há um usuário cuja necessidade requer agendamento de consulta em até uma semana e se há disponibilidade no dia (pelo número de faltosos, por exemplo), pode- se aproveitar para atendê- lo (oportunizando o acesso, otimizando as ofertas existentes e fortalecendo potencialmente o seu vínculo com a equipe). No item que trata da "avaliação de risco e vulnerabilidade" no CAB 28 do Volume 1, bem como no volume 2, esse tema é abordado de forma mais detalhada.
+No que se refere à definição de intervenções, segundo a estratificação da necessidade do usuário (mediante avaliação de risco e vulnerabilidade), em "não agudo" (intervenções programadas) e "agudo" (atendimento imediato, prioritário ou no dia), o que se pretende é que a necessidade do usuário seja estruturante do tipo e do tempo das intervenções, materializando, aqui, o princípio da equidade. Mais uma vez, o fluxograma proposto deve ser contextualizado, pois, se há um usuário cuja necessidade requer agendamento de consulta em até uma semana e se há disponibilidade no dia (pelo número de faltosos, por exemplo), pode- se aproveitar para atendê-lo (oportunizando o acesso, otimizando as ofertas existentes e fortalecendo potencialmente o seu vínculo com a equipe). No item que trata da "avaliação de risco e vulnerabilidade" no CAB 28 do Volume 1, bem como no volume 2, esse tema é abordado de forma mais detalhada.
 
 Em síntese, o fluxograma definido no CAB 28, mostrado nas figuras 3 e 4, deve ser tomado como uma oferta, um ponto de partida possível, uma estratégia de visualização e organização do trabalho coletivo na UBS, devendo, sempre que necessário, ser adaptado, enriquecido, testado e ajustado, considerando a singularidade de cada lugar, de modo a facilitar o acesso, a escuta inicial qualificada e o atendimento a necessidades de saúde com equidade, assumindo a perspectiva usuário- centrada como um posicionamento ético- político, que tem implicações organizativas e no processo de trabalho das equipes.
 
@@ -175,7 +175,7 @@ Tendo esses conceitos como norteadores, o modelo de Registro Clínico Orientado 
 
 ## 5.1 Registro Clínico Orientado por Problemas
 
-O modelo de Registro Clínico Orientado por Problemas (RCOP) foi o modelo adotado pelo Sistema e-SUS APS para estruturação da funcionalidade de Prontuário Eletrônico do Cidadão. Este modelo, idealizado por Lawrence Weed na década de 1960 como Registro Médico Orientado por Problemas (RMOP), por meio dos trabalhos \"Medical records that guide and teach\" e \"Medical records, medical education and patient care\", os quais ajudaram na sistematização e consolidação dos conceitos de lista de problemas e do próprio conceito de prontuário orientado por problemas, trazendo como uma das principais ferramentas o método SOAP (subjetivo, objetivo, avaliação e plano) para registro das notas de evolução clínica. Este modelo também é conhecido por História clínica orientada ao problema (HCOP), ou ainda, mais recente, por Registro de Saúde Orientado por Problemas (ReSOAP).
+O modelo de Registro Clínico Orientado por Problemas (RCOP) foi o modelo adotado pelo Sistema e-SUS APS para estruturação das funcionalidades de Prontuário Eletrônico do Cidadão (PEC). Este modelo, idealizado por Lawrence Weed na década de 1960 como Registro Médico Orientado por Problemas (RMOP), por meio dos trabalhos \"Medical records that guide and teach\" e \"Medical records, medical education and patient care\", os quais ajudaram na sistematização e consolidação dos conceitos de lista de problemas e do próprio conceito de prontuário orientado por problemas, trazendo como uma das principais ferramentas o método SOAP (subjetivo, objetivo, avaliação e plano) para registro das notas de evolução clínica. Este modelo também é conhecido por História clínica orientada ao problema (HCOP), ou ainda, mais recente, por Registro de Saúde Orientado por Problemas (ReSOAP).
 
 O modelo RCOP traz como elemento central da forma de registro do cuidado, o método SOAP, como veremos detalhadamente mais adiante. Ao longo do tempo, cada registro irá compor a história clínica do cidadão, esta por sua vez, organizada por problema. Logo, neste ponto é válido discutir o que exatamente estamos conceituando como problema.
 
@@ -205,7 +205,7 @@ O bloco de identificação, tem pelo menos duas fontes de informação, uma que 
 
 O bloco de Antecedentes, tanto os pessoais como os familiares, podem ser compostos por uma quantidade razoável de informação. Ainda, dialogando com a cultura do processo de anamnese tradicional, que destaca o bloco de antecedentes, se visualizou a necessidade de criar um bloco separado em uma funcionalidade chamada antecedentes, o qual inclui:
 
-- Informações do Pré- natal, parto e nascimento do cidadão;
+- Informações do Pré-natal, parto e nascimento do cidadão;
 
 - Informações gerais, como: Cirurgias, Internações e outras Observações, registrando alguns possíveis fatores de risco;
 
