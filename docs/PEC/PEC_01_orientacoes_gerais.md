@@ -10,7 +10,7 @@ has_toc: true
 # CAPÍTULO 1 - Orientações Gerais sobre o Sistema
 {: .no_toc }
 
-Neste capítulo, abordaremos os conceitos e orientações iniciais para utilização do Sistema e-SUS Atenção Básica (AB) com Prontuário Eletrônico do Cidadão (PEC).
+Neste capítulo, abordaremos os conceitos e orientações iniciais para utilização do Sistema e-SUS APS com PEC.
 
 ## Sumário
 {: .no_toc .text-delta }
@@ -20,7 +20,7 @@ Neste capítulo, abordaremos os conceitos e orientações iniciais para utiliza�
 
 # 1.1 Versão do Sistema Usada neste Manual
 
-Este manual foi elaborado usando como referência o Sistema com PEC em sua **versão 4.1**. O acesso às informações sobre o versionamento, versão de banco de dados, data de atualização e tipo de instalação (ver Capítulo 2) podem ser visualizados na opção "**Sobre"** (Figura 1.1), acessada no menu superior do sistema.
+Este manual foi elaborado usando como referência o Sistema com PEC em sua **versão 4.1**. O acesso às informações sobre o versionamento, versão de banco de dados, data de atualização e tipo de instalação (ver Capítulo 2) podem ser visualizados na opção "**Sobre**" (Figura 1.1), acessada no menu superior do sistema.
 
 Figura 1.1 - Versão do Sistema com PEC
 
@@ -59,7 +59,7 @@ No Quadro 1.2, são apresentadas algumas orientações gerais sobre os component
 
 Quadro 1.2 - Orientações básicas de utilização do sistema.
 
-|Definições |Representaçaõ visual |
+|Definições |Representação visual |
 |-|-|
 |**Campos obrigatórios:** são marcados com **\*** (asterisco) e devem ser obrigatoriamente preenchidos.| ![](media/pec_image15.png)|
 |**Campos obrigatórios não preenchidos:** ficam na cor vermelha.|![](media/pec_image16.png)|
@@ -77,7 +77,7 @@ Fonte: SAS/MS.
 
 ## 1.3 Controle de Acesso ao Sistema
 
-O Sistema e-SUS APS controla o acesso dos usuários do PEC por meio de um identificador (***login***) e uma **senha de uso pessoal,** portanto, a entrada no sistema é pessoal e individual para cada usuário, conforme pode ser visualizado na Figura 1.4.
+O Sistema e-SUS APS controla o acesso dos usuários do PEC por meio de um identificador (***login***) e uma **senha de uso pessoal**, portanto, a entrada no sistema é pessoal e individual para cada usuário, conforme pode ser visualizado na Figura 1.4.
 
 Figura 1.3 - Tela de acesso ao Sistema com PEC
 
@@ -133,7 +133,7 @@ Fonte: SAS/MS.
 
 O sistema possui um número máximo de tentativas consecutivas de login com autenticação inválida, por padrão, 10 (DEZ) tentativas é o número máximo, entretanto, o administrador do sistema poderá alterar essa quantidade. Ao atingir o número máximo o seu acesso estará bloqueado.
 
-Quando o usuário, por qualquer motivo, esquecer a senha de acesso, deve solicitar ao administrador do sistema ou ao coordenador da UBS que a redefina. Ao redefiní- la, ela voltará a ser a **senha padrão** do sistema (CNS do profissional mais a palavra "esus"). Para redefinir a senha, o administrador ou o coordenador devem executar os seguintes passos na versão:
+Quando o usuário, por qualquer motivo, esquecer a senha de acesso, deve solicitar ao administrador do sistema ou ao coordenador da UBS que a redefina. Ao redefiní-la, ela voltará a ser a **senha padrão** do sistema (CNS do profissional mais a palavra "esus"). Para redefinir a senha, o administrador ou o coordenador devem executar os seguintes passos na versão:
 
 - Passo 1. Acessar o Módulo de Administração, clicando no botão "Administração";
 
@@ -207,7 +207,7 @@ Para incluir um novo responsável pela instalação será necessário seguir os 
 
 ![](media/pec_image52.png)
 
-3. Ao selecionar esta opção o sistema irá apresentar os campos a seguir solicitando o CPF do novo responsável pela instalação devidamente cadastrado na área do SISAB na Plataforma e- Gestor da SAPS https://egestorab.saude.gov.br/. Clique em "Continuar" para prosseguir.
+3. Ao selecionar esta opção o sistema irá apresentar os campos a seguir solicitando o CPF do novo responsável pela instalação devidamente cadastrado na área do SISAB na Plataforma e-Gestor da SAPS https://egestorab.saude.gov.br/. Clique em "Continuar" para prosseguir.
 
 ![](media/pec_image53.png)
 
