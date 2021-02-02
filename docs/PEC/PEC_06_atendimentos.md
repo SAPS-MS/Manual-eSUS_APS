@@ -52,7 +52,7 @@ Fonte: SAPS/MS.
 
 Em seguida, veremos a função de cada campo:
 
-- **status* atendimento:** filtra a lista pela situação do cidadão em relação ao fluxo de atendimento;
+- **status atendimento:** filtra a lista pela situação do cidadão em relação ao fluxo de atendimento;
 
 ![](media/pec_image311.png)
 
@@ -102,7 +102,7 @@ Fonte: SAPS/MS.
 
 ![](media/pec_image317.png)
 
-> ![](media/pec_image84.png) **DICA**: ao imprimir a declaração de comparecimento do cidadão, certifique- se de que o controle do pop- up da janela do navegador esteja desbloqueado.
+> ![](media/pec_image84.png) **DICA**: ao imprimir a declaração de comparecimento do cidadão, certifique- se de que o controle do pop-up da janela do navegador esteja desbloqueado.
 
 ![](media/pec_image318.png) **realizar escuta inicial:** inicia- se a escuta inicial do cidadão;
 
@@ -126,7 +126,7 @@ Fonte: SAPS/MS.
 
 ## 6.1.1 Adicionar um Novo Atendimento à Lista
 
-Além dos atendimentos agendados para os profissionais da unidade de saúde, é possível a inclusão no sistema dos cidadãos, que procuram o serviço de saúde por demanda espontânea. Para mais informações sobre demanda espontânea, ver [**CAB 28 - Acolhimento à Demanda Espontânea Volume I**](http://189.28.128.100/dab/docs/publicacoes/geral/miolo_CAP_28.pdf).
+Além dos atendimentos agendados para os profissionais da unidade de saúde, é possível a inclusão no sistema dos cidadãos, que procuram o serviço de saúde por demanda espontânea. Para mais informações sobre demanda espontânea, ver [**CAB 28 - Acolhimento à Demanda Espontânea Volume I**](http://aps.saude.gov.br/biblioteca/index).
 
 ### 6.1.1.1 Adicionar cidadão em demanda espontânea
 
@@ -191,7 +191,7 @@ Fonte: SAPS/MS.
 
 Na tela de escuta inicial, os campos "**Motivo da consulta (CIAP2)**", "**Classificação de risco/vulnerabilidade**" e "**Desfecho da escuta inicial**" são obrigatórios.
 
-> ![](media/pec_image58.png) **NOTA**: a ferramenta de escuta inicial também permite o registro de "pré- atendimento" (opção ![](media/pec_image332.png) \"**Realizar pré- atendimento**\" na lista de atendimento) quando for uma consulta agendada, entretanto a funcionalidade "**Classificação de risco/vulnerabilidade**" não estará disponível.
+> ![](media/pec_image58.png) **NOTA**: a ferramenta de escuta inicial também permite o registro de "pré- atendimento" (opção ![](media/pec_image332.png) \"**Realizar pré-atendimento**\" na lista de atendimento) quando for uma consulta agendada, entretanto a funcionalidade "**Classificação de risco/vulnerabilidade**" não estará disponível.
 
 Para fazer o registro da escuta inicial, siga os passos:
 
@@ -409,7 +409,7 @@ Figura 6.20 - Visualização de Imunobiológico
 
 ## 6.3.4. Registrar outros imunobiológicos
 
-Caso o imunobiológico a ser administrado não faça parte do calendário nacional de vacina, ou ainda não conste no quadro de vacinação, há a possibilidade de registrar a dose por meio da aba "Outros imunobiológicos".
+Caso o imunobiológico a ser administrado não faça parte do calendário nacional de vacina há a possibilidade de registrar a dose por meio da aba "Outros imunobiológicos".
 
 ![](media/pec_image366.png)
 
@@ -479,7 +479,8 @@ Figura 6.27 - Adicionar doses anteriores
 
 ## 6.3.7 Registro de doses para vacinação contra COVID-19
 
-Exclusivamente para atendimento à situação nacional de Emergência em Saúde Pública está disponível o registro das doses aplicadas da vacina COVID-19 além da possibilidade de registro de doses anteriores, se for o caso. Exclusivamente para esta vacina será obrigatória a identificação do cidadão através do CPF ou CNS.
+Exclusivamente para atendimento à situação nacional de Emergência em Saúde Pública está disponível o registro das doses aplicadas da vacina COVID-19, além da possibilidade de registro de doses anteriores, se for o caso.
+Exclusivamente para esta vacina é **obrigatória** a identificação do cidadão através do CPF ou CNS.
 
 Para iniciar o registro selecione a vacina de acordo com o fabricante como mostra a pec_imagem a seguir.
 
@@ -807,7 +808,7 @@ Será apresentada, nas próximas seções, cada uma dessas ferramentas com mais 
 
 #### 6.4.2.4.1 Ferramentas do Plano - Atestado
 
-O atestado é um documento de conteúdo informativo, redigido e assinado por **médicos e odontólogos**, de acordo com a Lei nº 605/49, combinada com a Lei nº 5.081/66, como \"atestação\" da existência de certa obrigação ou de ato por ele praticado. Podendo o beneficiário do atestado requerer os direitos daquilo que foi declarado, como os abonos de faltas ao trabalho.
+O atestado é um documento de conteúdo informativo, redigido e assinado por exemplo por **médicos e odontólogos**, de acordo com a Lei nº 605/49, combinada com a Lei nº 5.081/66, como \"atestação\" da existência de certa obrigação ou de ato por ele praticado. Podendo o beneficiário do atestado requerer os direitos daquilo que foi declarado, como os abonos de faltas ao trabalho.
 
 Figura 6.41 - SOAP - Plano - Atestado
 ![](media/pec_image418.png)
@@ -984,7 +985,7 @@ Fonte: SAPS/MS.
 
 Para criar uma receita, siga os passos:
 
-- Passo 1. Clique em "Prescrição do Atendimento",em seguida no botão "adicionar" e exibirá uma tela para a criação da receita;
+- Passo 1. Clique em "Prescrição do Atendimento", em seguida no botão "adicionar" e exibirá uma tela para a criação da receita;
 
 Figura 6.55 - Adicionar medicamentos no receituário
 
@@ -1157,7 +1158,7 @@ A ferramenta "Problemas/Condições e Alergias" auxilia o profissional de saúde
 
 ### 6.4.3.1 Lista de Problemas e Condições
 
-Ao acessar esta funcionalidade, o sistema exibe uma tela com a lista de problemas do indivíduo, que podem estar ativos, latentes ou resolvidos. Segundo Weed (1968, apud CANTALE), um problema clínico é tudo aquilo que requeira diagnóstico e manejo posterior, ou aquilo que interfira com a qualidade de vida, de acordo com a percepção da própria pessoa. Como exemplos de problemas e condições a serem incluídos nessa ferramenta, tem- se: diagnósticos, deficiências, sintomas, sinais, fatores de risco e condições socioeconômicas.
+Ao acessar esta funcionalidade, o sistema exibe uma tela com a lista de problemas do indivíduo, que podem estar ativos, latentes ou resolvidos. Segundo Weed (1968, apud CANTALE), um problema clínico é tudo aquilo que requeira diagnóstico e manejo posterior, ou aquilo que interfira com a qualidade de vida, de acordo com a percepção da própria pessoa. Como exemplos de problemas e condições a serem incluídos nessa ferramenta, tem-se: diagnósticos, deficiências, sintomas, sinais, fatores de risco e condições socioeconômicas.
 
 Figura 6.71 - Problemas/Condições e Alergias
 
@@ -1236,7 +1237,7 @@ Figura 6.73 - Alergia / Reação Adversar
 
 ![](media/pec_image487.png)
 
-**Agente/Substância específica:** campo obrigatório, de descrição livre e pré- cadastrada. O sistema irá consultar os registros anteriores em busca de algum registro similar, a fim de manter a relação histórica entre os registros;
+**Agente/Substância específica:** campo obrigatório, de descrição livre e pré-cadastrada. O sistema irá consultar os registros anteriores em busca de algum registro similar, a fim de manter a relação histórica entre os registros;
 
 ![](media/pec_image488.png)
 
@@ -1408,7 +1409,7 @@ Para concluir o atendimento, na tela de finalização do atendimento, informe:
 
 > ![](media/pec_image58.png) **NOTA**: O PEC gera apenas a notificação no formato SINAN que deve ser enviado à Secretaria Municipal de Saúde. A continuação do processo de investigação deve ser realizado pelas equipes de vigilância do município.
 
-- **Racionalidade em saúde:** Com base no termo Racionalidades Médicas, que é todo o sistema médico complexo construído sobre seis dimensões: morfologia humana, dinâmica vital, doutrina médica (o que é estar doente ou ter saúde), sistema diagnóstico, cosmologia e sistema terapêutico. O termo Racionalidade em Saúde propõe uma ampliação desse conceito para uma abordagem multiprofissional de cuidado em saúde, incluindo as práticas tradicionais/ populares, ancestrais, complementares ou alternativas. Caso o profissional tenha usado alguma racionalidade em saúde diferente da alopatia para nortear o atendimento, deve informá- la neste bloco.
+- **Racionalidade em saúde:** Com base no termo Racionalidades Médicas, que é todo o sistema médico complexo construído sobre seis dimensões: morfologia humana, dinâmica vital, doutrina médica (o que é estar doente ou ter saúde), sistema diagnóstico, cosmologia e sistema terapêutico. O termo Racionalidade em Saúde propõe uma ampliação desse conceito para uma abordagem multiprofissional de cuidado em saúde, incluindo as práticas tradicionais/ populares, ancestrais, complementares ou alternativas. Caso o profissional tenha usado alguma racionalidade em saúde diferente da alopatia para nortear o atendimento, deve informá-la neste bloco.
 
 ![](media/pec_image518.png)
 
@@ -1764,7 +1765,7 @@ Em "**Desfecho do atendimento**", o profissional irá finalizar o atendimento in
 
 ## 6.5.2 Pré-Natal
 
-A gestação representa uma das fases mais importantes na vida do ser humano. Desta forma o período pré- natal necessita de um acompanhamento adequado à gestante. Este acompanhamento pode ser realizado por meio do *Cartão* Pré-Natal sendo possível observar o seu andamento desde a primeira consulta até o seu desfecho. O *Cartão* organiza em formato de sumário clínico as principais informações relacionadas à gestação de forma clara e objetiva. É importante enfatizar que o bloco de notas de evolução SOAP é a principal entrada de dados deste módulo, portanto, é indispensável observar todas as informações para o bom uso da ferramenta. Nas seções que seguem, são destacados alguns pontos específicos de registro e do acompanhamento da gestação de uma cidadã, para potencializar o uso dessa ferramenta pelo profissional por meio do sistema.
+A gestação representa uma das fases mais importantes na vida do ser humano. Desta forma o período pré-natal necessita de um acompanhamento adequado à gestante. Este acompanhamento pode ser realizado por meio do *Cartão* Pré-Natal sendo possível observar o seu andamento desde a primeira consulta até o seu desfecho. O *Cartão* organiza em formato de sumário clínico as principais informações relacionadas à gestação de forma clara e objetiva. É importante enfatizar que o bloco de notas de evolução SOAP é a principal entrada de dados deste módulo, portanto, é indispensável observar todas as informações para o bom uso da ferramenta. Nas seções que seguem, são destacados alguns pontos específicos de registro e do acompanhamento da gestação de uma cidadã, para potencializar o uso dessa ferramenta pelo profissional por meio do sistema.
 
 ### 6.5.2.1 Registrando o atendimento do pré-natal
 
@@ -1774,7 +1775,7 @@ Para dar início ao acompanhamento do pré-natal, é necessário que o profissio
 
 - W71 - INFECÇÕES QUE COMPLICAM A GRAVIDEZ;
 
-- **W78 - GRAVIDEZ;**
+- **W78 - GRAVIDEZ**;
 
 - W79 - GRAVIDEZ NÃO DESEJADA;
 
@@ -2102,7 +2103,7 @@ Alguns exames requerem o registro de dados específicos dos resultados. Estes re
 
 - 0211070149 - Emissões otoacusticas evocadas p/ triagem auditiva/CDS - Teste da orelhinha (EOA)
 
-- 0205020178 - Ultra- sonografia transfontanela;
+- 0205020178 - Ultrassonografia transfontanela;
 
 - 0206010079 - Tomografia computadorizada do crânio;
 
