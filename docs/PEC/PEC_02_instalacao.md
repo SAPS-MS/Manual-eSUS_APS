@@ -60,11 +60,11 @@ O banco de dados PostgreSQL é um *software* livre, portanto, sem custo de licen
 
 # 2.3 Requisitos Mínimos de Sistema
 
-Nesta seção, apontamos alguns requisitos mínimos que devem ajudá- lo a estimar qual o *hardware* de computador que mais se adequa ao seu cenário.
+Nesta seção, apontamos alguns requisitos mínimos que devem ajudá-lo a estimar qual o *hardware* de computador que mais se adequa ao seu cenário.
 
 ## 2.3.1 Sistema com CDS *Offline*
 
-O Sistema com CDS, na versão *stand- alone,* tem como requisitos mínimos para digitação (mínimo/recomendado):
+O Sistema com CDS, na versão *stand-alone,* tem como requisitos mínimos para digitação (mínimo/recomendado):
 
 - Sistema Operacional de 32 ou 64 bits;
 
@@ -120,7 +120,7 @@ Para a instalação do Sistema com PEC, é necessário avaliar a quantidade de p
 
 - **Parametrização Java/Jboss**: - Xms4g - Xmx10g - XX:MaxPermSize=1g - XX:PermSize=512m - XX:ReservedCodeCacheSize=300m ;
 
-**Exemplo 4** - Servidor para **até 150** usuários:
+**Exemplo 4** - Servidor para **até 2500** usuários:
 
 - **Ambiente:** 2 servidores (aplicação e banco de dados);
 
@@ -170,7 +170,7 @@ Por fim, o Gestor da Atenção Básica cadastrado terá seu acesso criado de for
 
 ## 2.4.2 Cadastro do Gestor do SISAB
 
-O Gestor da Atenção Básica deve acessar o e- Gestor com o CPF e a senha recebida por e- mail e cadastrar o Gestor do programa SISAB. O gestor do SISAB terá acesso para visualizar relatórios na área restrita, gerar contra chave do e-SUS APS PEC e cadastrar o Gestor Técnico (Técnico Responsável pela instalação do e-SUS APS PEC).
+O Gestor da Atenção Básica deve acessar o e-Gestor com o CPF e a senha recebida por e- mail e cadastrar o Gestor do programa SISAB. O gestor do SISAB terá acesso para visualizar relatórios na área restrita, gerar contra chave do e-SUS APS PEC e cadastrar o Gestor Técnico (Técnico Responsável pela instalação do e-SUS APS PEC).
 
 Segue passo a passo para realizar o cadastro do Gestor do SISAB.
 
@@ -202,7 +202,7 @@ Por fim, o Gestor do SISAB cadastrado terá seu acesso criado de forma automáti
 
 ## 2.4.3 Cadastro do Gestor Técnico (Técnico Responsável pela instalação do e-SUS APS PEC)
 
-O Gestor do SISAB deve acessar o e- Gestor com o CPF e a senha recebida por e- mail e cadastrar o Gestor Técnico (Técnico Responsável pela instalação do e-SUS APS PEC). O Gestor Técnico terá acesso **apenas para gerar a contra chave** do e-SUS APS PEC.
+O Gestor do SISAB deve acessar o e-Gestor com o CPF e a senha recebida por e- mail e cadastrar o Gestor Técnico (Técnico Responsável pela instalação do e-SUS APS PEC). O Gestor Técnico terá acesso **apenas para gerar a contra chave** do e-SUS APS PEC.
 
 Segue passo a passo para realizar o cadastro do Gestor Técnico:
 
@@ -274,7 +274,7 @@ A instalação multimunicipal atende a situações onde municípios ou o Estado 
 
 > ![](media/pec_image59.png) **ATENÇÃO**: na instalação multimunicipal, o PEC é configurado para ser utilizado na modalidade de prontuário, permitindo que o administrador municipal utilize o sistema conforme a sua necessidade e com total autonomia.
 
-Esse tipo de instalação permite o compartilhamento de cadastros e prontuários clínicos de usuários entre os municípios, facilitando a identificação do paciente e sua localização, reduzindo a necessidade de novo cadastro no território de abrangência. Sua única função é cadastrar profissionais responsáveis pela utilização da aplicação, conhecidos como "Administrador da Instalação". Cada administrador da instalação (seja ele do município, Estado, distrito ou região) deve estar devidamente cadastrado no Sistema e- Gestor.
+Esse tipo de instalação permite o compartilhamento de cadastros e prontuários clínicos de usuários entre os municípios, facilitando a identificação do paciente e sua localização, reduzindo a necessidade de novo cadastro no território de abrangência. Sua única função é cadastrar profissionais responsáveis pela utilização da aplicação, conhecidos como "Administrador da Instalação". Cada administrador da instalação (seja ele do município, Estado, distrito ou região) deve estar devidamente cadastrado no Sistema e-Gestor.
 
 ## 2.5.3 Instalação Tipo Prontuário
 
@@ -294,8 +294,7 @@ As principais funcionalidades do Prontuário Eletrônico do Cidadão são:
 
 - relatórios (descritos no capítulo 8).
 
-O Sistema com PEC ainda apresenta a função de centralizador de informações, que permite importar ou digitar informações do Sistema com CDS, de forma que estejam integradas aos relatórios do sistema, bem como
-possam ser transmitidas ao SISAB.
+O Sistema com PEC ainda apresenta a função de centralizador de informações, que permite importar ou digitar informações do Sistema com CDS, de forma que estejam integradas aos relatórios do sistema, bem como possam ser transmitidas ao SISAB.
 
 # 2.6 Instalação e Configuração Inicial do Sistema
 
@@ -311,7 +310,7 @@ A partir da opção Baixar sistema, serão apresentadas várias opções de inst
 
 ## 2.6.2 Acessando o Sistema pela Primeira Vez
 
-O sistema tem características particulares de um sistema *web*, portanto, ao instalá- lo, você estará instalando um servidor de aplicação *web*, no qual, ao finalizar a instalação, irá iniciar uma aplicação *web* em seu computador.
+O sistema tem características particulares de um sistema *web*, portanto, ao instalá-lo, você estará instalando um servidor de aplicação *web*, no qual, ao finalizar a instalação, irá iniciar uma aplicação *web* em seu computador.
 
 Para acessar o sistema, o usuário deverá abrir um navegador, preferencialmente o Google Chrome https://www.google.com.br/chrome/, e abrir o endereço: http://localhost:8080/esus/.
 
