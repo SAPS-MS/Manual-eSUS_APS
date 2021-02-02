@@ -21,11 +21,11 @@ O módulo de Agenda é usado para organizar a agenda dos profissionais das unida
 
 O módulo de **Agendamento Online** foi desenvolvido conjuntamente entre o Departamento de Saúde da Família - DESF/SAPS e o Departamento de Informática do SUS - DATASUS/SE, a fim de facilitar o acesso dos cidadãos aos serviços de Atenção Básica em todo o país. Dessa forma, foi realizado o desenvolvimento da ferramenta de Agenda Online no PEC e adequações no aplicativo "ConecteSUS Cidadão" para a efetivação desta funcionalidade.
 
-Este módulo está disponível para as equipes de Atenção Básica que utilizam o PEC do e-SUS APS, a partir da versão 3.1, e foi pensado levando em consideração avanços tecnológicos alcançados pela Estratégia e no aumento de acesso constante da população a aparelhos do tipo *smartphones*, dessa forma tendo acesso a aplicações móveis.
+Este módulo está disponível para as equipes de Atenção Básica que utilizam o PEC do e-SUS APS, a partir da versão 3.1, e foi pensado considerando-se os avanços tecnológicos alcançados pela Estratégia e no aumento de acesso constante da população a aparelhos do tipo *smartphones*.
 
 O Agendamento Online consiste na disponibilização de horários da agenda dos profissionais da APS para esse tipo de agendamento, entendendo que esta não deve ser a forma principal ou preferencial de agendamento nas equipes, sendo assim, a equipe deve definir quais serão os horários disponíveis para esse tipo de agendamento, considerando os agendamentos para cuidado continuado e outros tipos de agendamento a serem realizados diretamente na Unidade de Saúde ou para consultas de retorno.
 
-Para uso desta funcionalidade, é necessário que a UBS tenha boa conectividade com a internet, pois utiliza- se um servidor nacional para troca de informação entre a UBS e os cidadãos que utilizam o aplicativo "ConecteSUS Cidadão".
+Para uso desta funcionalidade, é necessário que a UBS tenha boa conectividade com a internet, pois utiliza-se um servidor nacional para troca de informação entre a UBS e os cidadãos que utilizam o aplicativo "ConecteSUS Cidadão".
 
 > ![](media/pec_image59.png) **ATENÇÃO**: A funcionalidade de agendamento de consulta na Atenção Básica por meio do aplicativo "ConecteSUS Cidadão" está disponível apenas para usuários que fazem parte do território de equipes de atenção básica. Para tanto é necessário que o cidadão esteja cadastrado no território da equipe através dos cadastros individual e domiciliar.
 
@@ -37,7 +37,7 @@ Para uso desta funcionalidade, é necessário que a UBS tenha boa conectividade 
 
 É neste local que os profissionais das UBS poderão, dependendo do seu perfil de acesso, consultar e editar as agendas dos profissionais da unidade, ainda é possível adicionar cidadãos na agenda dos profissionais e reservar horários para reuniões ou outras atividades.
 
-Para começar a utilizá- la, é necessário configurar com informações referentes ao horário de trabalho dos profissionais. Quando o profissional apresenta apenas um vínculo no CNES, a agenda virá com uma formatação padrão de atendimentos (dias e horário de trabalho) que pode ser alterada. A configuração da agenda está disponível unicamente para os profissionais com **perfil de coordenação**. No Capítulo 3, você encontra mais informações sobre a configuração da agenda do profissional.
+Para começar a utilizá-la, é necessário configurar com informações referentes ao horário de trabalho dos profissionais. Quando o profissional apresenta apenas um vínculo no CNES, a agenda virá com uma formatação padrão de atendimentos (dias e horário de trabalho) que pode ser alterada. A configuração da agenda está disponível unicamente para os profissionais com **perfil de coordenação**. No Capítulo 3, você encontra mais informações sobre a configuração da agenda do profissional.
 
 > ![](media/pec_image58.png) **NOTA**: antes de utilizar a agenda, é necessário que o coordenador verifique a agenda dos profissionais (ver seção 3.4.5), caso esta não esteja disponível.
 
