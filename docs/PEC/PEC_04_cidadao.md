@@ -31,7 +31,7 @@ Fonte: SAPS/MS.
 
 ![](media/pec_image233.png)
 
-Considerando as diferentes fontes de informações da base de cidadãos do Sistema e-SUS APS e das possibilidades de consultas integradas à base de Cadastramento Nacional de usuários do SUS (CADSUS), por meio do Cartão Nacional de Saúde (CNS),antes de realizar qualquer ação no cadastro de um cidadão, seja para consultar ou alterar os dados dele ou para cadastrar um novo cidadão, o sistema solicita que o usuário realize uma busca sobre a base local ou na base do CNS, quando houver conectividade. O cadastro realizado utilizando este módulo **é enviado para a base nacional do SISAB**, e portanto, **será contabilizado no cadastro do território**.
+Considerando as diferentes fontes de informações da base de cidadãos do Sistema e-SUS APS e das possibilidades de consultas integradas à base de Cadastramento Nacional de usuários do SUS (CADSUS), por meio do Cartão Nacional de Saúde (CNS), antes de realizar qualquer ação no cadastro de um cidadão, seja para consultar ou alterar os dados dele ou para cadastrar um novo cidadão, o sistema solicita que o usuário realize uma busca sobre a base local ou na base do CNS, quando houver conectividade. O cadastro realizado utilizando este módulo **é enviado para a base nacional do SISAB**, e portanto, **será contabilizado no cadastro do território**.
 
 # 4.1 Busca pelo cidadão
 
@@ -58,7 +58,7 @@ Figura 4.3 - Resultado da Busca Cidadão
 
 Fonte: SAPS/MS.
 
-É importante sinalizar que a busca pode retornar como resultado cadastros "inativos", originados de versões anteriores do PEC. Neste caso o sistema apresentará este cadastro com a marcação ![](media/pec_image236.png), como mostra a Figura 4.4.
+É importante sinalizar que a busca pode retornar como resultado de cadastros "inativos", originados de versões anteriores do PEC. Neste caso o sistema apresentará este cadastro com a marcação ![](media/pec_image236.png), como mostra a Figura 4.4.
 
 Figura 4.4 - Marcação de cadastro inativo.
 
@@ -136,7 +136,7 @@ O cabeçalho apresenta um resumo das informações. Também é possível visuali
 
 ## 4.2.2 Atualizar cadastro
 
-Esta opção oferece a possibilidade de alterar algum dado do cidadão e sincronizá- lo com a base de dados do CADSUS. Ao realizar a atualização, clique em "Salvar" para que o sistema se conecte ao CADSUS e realize as alterações. Caso não haja conectividade o sistema irá apresentar um alerta de que não foi possível realizar a sincronização.
+Esta opção oferece a possibilidade de alterar algum dado do cidadão e sincronizá-lo com a base de dados do CADSUS. Ao realizar a atualização, clique em "Salvar" para que o sistema se conecte ao CADSUS e realize as alterações. Caso não haja conectividade o sistema irá apresentar um alerta de que não foi possível realizar a sincronização.
 
 ## 4.2.3 Ver prontuário
 
@@ -148,7 +148,7 @@ Figura 4.19 - Tela para justificar acesso ao prontuário
 
 ## 4.2.4 Ver agendamentos
 
-Na opção **Ver agendamentos** é possível visualizar a lista de vezes que o cidadão foi incluído na agenda da UBS, indicando data e hora do seu agendamento, nome do profissional, CBO e observações. Cada item é apresentado com uma indicação da situação do agendamento (Agendado, Não compareceu, Não aguardou e Atendimento realizado).
+Na opção **Ver agendamentos** é possível visualizar a lista com as informações das vezes que o cidadão foi incluído na agenda da UBS, indicando data e hora do seu agendamento, nome do profissional, CBO e observações. Cada item é apresentado com uma indicação da situação do agendamento (Agendado, Não compareceu, Não aguardou e Atendimento realizado).
 
 Figura 4.18 - Tela de Agendamentos do cidadão
 
