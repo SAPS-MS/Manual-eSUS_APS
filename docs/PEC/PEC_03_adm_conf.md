@@ -19,7 +19,7 @@ Este capítulo apresenta as funções de administração e configurações do si
 - TOC
 {:toc}
 
-A administração do sistema, **acessada na tela inicial,** subdivide- se em "Administração da Instalação" e "Administração Municipal", visto que agora o PEC possui apenas um administrador da instalação. E. Este agrega todos os tipos de instalação conhecidos anteriormente (municipal, centralizadora e multimunicipal). Assim, será sempre possível configurar o PEC para mais de um município.
+A administração do sistema, **acessada na tela inicial,** subdivide-se em "Administração da Instalação" e "Administração Municipal", visto que agora o PEC possui apenas um administrador da instalação. E Este agrega todos os tipos de instalação conhecidos anteriormente (municipal, centralizadora e multimunicipal). Assim, será sempre possível configurar o PEC para mais de um município.
 
 O primeiro módulo agrupa as funções de CNES, Configurações da Instalação, Profissionais, Relatórios e Transmissão de dados. O segundo disponibiliza as funções de Auditoria, CBO, CNES, Gestão municipal, Importar cidadão, Perfis, Profissionais, Transmissão de dados e Unidades de saúde.
 
@@ -148,7 +148,7 @@ Para habilitar a sincronização com o Servidor de Agenda Online do e-SUS AB é 
 
 O usuário do sistema ainda pode acessar a ajuda de contexto ![](media/pec_image99.png) para obter mais informações sobre a ativação e configuração da agenda online.
 
-Ao ativar a Agenda Online o sistema irá sincronizar as informações de agendamento existentes no PEC com o Servidor de Agenda Online do e-SUS AB no DATASUS, permitindo que o cidadão receba notificações por meio do aplicativo "ConecteSUS", disponibilizado pelo DATASUS, tanto de confirmação quanto de cancelamento de agendamentos realizados via PEC.
+Ao ativar a Agenda Online o sistema irá sincronizar as informações de agendamento existentes no PEC com o Servidor de Agenda Online do e-SUS APS no DATASUS, permitindo que o cidadão receba notificações por meio do aplicativo "ConecteSUS", disponibilizado pelo DATASUS, tanto de confirmação quanto de cancelamento de agendamentos realizados via PEC.
 
 Para desabilitar a sincronização com o Servidor de Agenda Online basta clicar no botão "Desabilitar".
 
@@ -580,7 +580,7 @@ Para definir o perfil de acesso do profissional para determinada lotação, bast
 
 ## 3.5.5 Definir Agenda dos Profissionais
 
-Para definir a agenda de trabalho um profissional da unidade de saúde, basta acessar a lista de profissionais e em seguida a lotação do profissional. [**Esta etapa é fundamental para realizar o agendamento dos cidadãos para as consultas**.]
+Para definir a agenda de trabalho um profissional da unidade de saúde, basta acessar a lista de profissionais e em seguida a lotação do profissional. [**Esta etapa é fundamental para realizar o agendamento dos cidadãos para as consultas**]
 
 > ![](media/pec_image58.png) **NOTA**: a agenda do profissional de saúde **que possuir apenas uma lotação** é definida por padrão pelo sistema, por meio do horário- padrão definido no sistema, caso seja necessário ajustar, clique em "Mais opções" ![](media/pec_image153.png) e "Editar configuração de agenda".
 
@@ -719,7 +719,7 @@ Para **copiar** um perfil, basta seguir os passos:
 
 3\. clique em "Mais opções" ![](media/pec_image153.png), em seguida, clique na opção \"Copiar\" na linha correspondente ao perfil que deseja copiar;
 
-4\. no formulário, altere o \"Nome\" do perfil para poder identificá- lo mais tarde. Não é possível alterar o \"Tipo de acesso\";
+4\. no formulário, altere o \"Nome\" do perfil para poder identificá-lo mais tarde. Não é possível alterar o \"Tipo de acesso\";
 
 Figura 3.23 - Cópia de perfil
 
