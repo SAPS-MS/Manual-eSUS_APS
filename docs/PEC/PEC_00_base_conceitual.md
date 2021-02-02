@@ -285,7 +285,7 @@ Para fazer melhor uso da informação, a definição abaixo nos auxilia a entend
 
 Ao fazer a associação do registro via SOAP a uma classificação adequada ao processo de trabalho das equipes de Atenção Básica, o sistema potencializa o uso da informação de registro do atendimento a médio e a longo prazo, possibilitando melhor avaliação da situação de saúde da população no território e ampliando a capacidade do sistema de produzir conhecimento novo e estruturado. Observando este modelo aplicado ao Sistema e-SUS APS, temos:
 
-- **Motivo da consulta**: registrado no bloco Subjetivo do SOAP, o motivo de consulta reflete a perspectiva da pessoa sobre o que está acontecendo com ela. O profissional de saúde deve codificá- la exatamente como o paciente se expressa, sem fazer qualquer juízo de valor quanto à veracidade e/ou exatidão do mesmo. Se o paciente apresentar mais de uma razão para a consulta, essas múltiplas razões devem ser codificadas também. O PEC permite que sejam registrados mais de um motivo da consulta.
+- **Motivo da consulta**: registrado no bloco Subjetivo do SOAP, o motivo de consulta reflete a perspectiva da pessoa sobre o que está acontecendo com ela. O profissional de saúde deve codificá-la exatamente como o paciente se expressa, sem fazer qualquer juízo de valor quanto à veracidade e/ou exatidão do mesmo. Se o paciente apresentar mais de uma razão para a consulta, essas múltiplas razões devem ser codificadas também. O PEC permite que sejam registrados mais de um motivo da consulta.
 
 - **Problema de saúde**: registrado no bloco Avaliação do SOAP, o problema de saúde, detectado ou avaliado, é o item principal de um episódio de cuidado, podendo ser classificado de acordo com o estágio em que se encontra a gravidade do problema e o grau de certeza que se pode ter sobre o diagnóstico.
 
@@ -303,7 +303,7 @@ Com base no termo Racionalidades Médicas, que é todo o sistema médico complex
 
 A PNSILGBT reconhece identidade de gênero e orientação sexual como determinantes sociais de saúde devido à discriminação e ao preconceito que podem vulnerabilizar essas populações. A PNSILGBT tem desenvolvido diversas ações com o objetivo de promover a saúde integral da população LGBT, com foco na eliminação da discriminação e do preconceito institucional, bem como na contribuição para a redução das desigualdades e a consolidação do SUS como um sistema universal, integral e equitativo. Para atender as diretrizes desta política foi incluído no sistema e-SUS APS, tanto na ficha de cadastro individual quanto no cadastro simplificado do PEC, o campo nome social e identidade de gênero.
 
-Ainda prevendo o acesso a população LGBT sem impedimentos, quanto ao registro adequado e solicitação de procedimentos específicos para um determinado sexo, o sistema e-SUS APS com PEC não restringe as classificações do **SIGTAP, CID, CIAP** e demais funcionalidades para um determinado sexo. Dessa forma, se o campo **identidade de gênero** for preenchido ao realizar o **cadastro individual** do cidadão, o sistema e-SUS APS com PEC desabilita as críticas relacionadas ao sexo feminino ou masculino, permitindo o uso de todas as funcionalidades independente do sexo do cidadão.
+Ainda prevendo o acesso a população LGBT sem impedimentos, quanto ao registro adequado e solicitação de procedimentos específicos de acordo com o sexo, o sistema e-SUS APS com PEC não restringe as classificações do **SIGTAP, CID, CIAP** e demais funcionalidades para um determinado sexo. Dessa forma, se o campo **identidade de gênero** for preenchido ao realizar o **cadastro individual** do cidadão, o sistema e-SUS APS com PEC desabilita as críticas relacionadas ao sexo feminino ou masculino, permitindo o uso de todas as funcionalidades independente do sexo do cidadão.
 
 # 6. Termo de Uso e Condições Gerais
 
@@ -315,7 +315,7 @@ Ao utilizar o e-SUS APS você se torna um **USUÁRIO**, e isso implica a aceita�
 
 SISTEMA e-SUS APS
 
-O Sistema e-SUS APS é um software público e gratuito, portanto não é permitido qualquer tipo de cobrança pela aquisição ou pelo seu uso. Seu fornecimento é feito pelo Ministério da Saúde sob responsabilidade do Departamento de Atenção Básica (DAB), da Secretaria de Atenção à Saúde (SAS), por meio do Portal do DAB ([[http://dab.saude.gov.br/esus]](http://dab.saude.gov.br/esus)). O desenvolvimento é feito em cooperação com a Universidade Federal de Santa Catarina (UFSC).
+O Sistema e-SUS APS é um software público e gratuito, portanto não é permitido qualquer tipo de cobrança pela aquisição ou pelo seu uso. Seu fornecimento é feito pelo Ministério da Saúde sob responsabilidade do Departamento de Saúde da Família (DESF), da Secretaria de Atenção Primária à Saúde (SAPS), por meio do Portal da APS ([[http://aps.saude.gov.br/ape/esus]](http://aps.saude.gov.br/ape/esus)). O desenvolvimento é feito em cooperação com a Universidade Federal de Santa Catarina (UFSC).
 
 O Sistema e-SUS APS com Prontuário Eletrônico do Cidadão (PEC) é um sistema de software que auxilia nas ações de:
 
@@ -343,6 +343,12 @@ ENVIO DE INFORMAÇÕES AO SISAB
 
 O Sistema e-SUS APS está totalmente integrado ao Sistema de Informação em Saúde para a Atenção Básica (SISAB), sistema oficial de monitoramento das ações da Atenção Básica em nível nacional. A depender do cenário de implantação local, os dados poderão ser enviados de forma automática ou manual ao SISAB. Toda informação inserida no sistema pelo USUÁRIO é de sua total responsabilidade. Portanto, é importante que este registro seja fidedigno em relação às ações de saúde executadas, a fim de garantir a qualidade dos dados do sistema de informação em saúde.
 
+COMPARTILHAMENTO DE DADOS COM FERRAMENTAS EXTERNAS
+
+O e-SUS APS PEC está integrado com o **Google Analytics for Firebase**. Ele permite analisar o comportamento do usuário, de forma que seja possível identificar oportunidades de melhoria no fluxo de uso das funcionalidades do sistema. Também permite diagnosticar problemas na implementação e visualizar informações sobre a performance do sistema. Essa ferramenta usa cookies. Assim, a informação gerada pelo cookie sobre o seu uso do e-SUS APS PEC é transmitida para um servidor Google que pode transferir as informações coletadas por meio deste procedimento técnico à terceiros. Frisamos que o e-SUS APS PEC usa o recurso **Analytics UserID** para rastrear dados de interação. Este ID de usuário é anônimo e criptografado. Não é enviado nenhum dado pessoal. Também não é enviado nenhuma informação clínica ou de cadastro de cidadãos.
+
+Caso o administrador do sistema deseje impedir a coleta de dados gerados pelo cookie e relacionados ao uso do sistema (incluindo seu endereço IP), bem como o processamento desses dados pelo Google, basta baixar e instalar o plug-in do navegador disponível no seguinte link: ([[https://tools.google.com/dlpage/gaoptout?hl=pt-BR]](https://tools.google.com/dlpage/gaoptout?hl=pt-BR)). Mais informações e regulamentos de privacidade aplicáveis ​​do Google podem ser encontrados nas **Políticas de Privacidade do Google** e na página de sobre do **Google Marketing Platform**.
+
 LEGISLAÇÃO E REGULAMENTAÇÃO
 
 Todo USUÁRIO deve estar atento à legislação e regulamentação em relação ao processo de trabalho de sua categoria profissional durante o uso do sistema. O Sistema e-SUS APS tem o objetivo, sempre que possível, de auxiliar nas atividades desenvolvidas pelo USUÁRIO. Contudo, não o isenta de suas responsabilidades sobre as ações ou sobre o registro das ações em conformidade com a legislação brasileira. Desta forma, o USUÁRIO é responsável pelo uso do sistema, observando todas as leis, decretos e regulamentos nacionais, estaduais e municipais aplicáveis e em vigor, as normas de segurança e privacidade e as políticas publicadas.
@@ -365,9 +371,20 @@ O Sistema e-SUS APS mantém conduta de respeito à privacidade e, sobretudo, CON
 
 INFRAESTRUTURA TECNOLÓGICA
 
-A responsabilidade pela certificação da configuração adequada dos equipamentos, em pleno acordo com requisitos mínimos necessários para uso do Sistema e-SUS APS é da gestão local. Portanto, o Ministério da Saúde se isenta da responsabilidade pelo funcionamento e desempenho inadequado do Sistema e-SUS APS, caso as configurações mínimas recomendadas não sejam atendidas. Para obter mais informações sobre os requisitos mínimos, acesse: [[http://dab.saude.gov.br/portaldab/esus.php?conteudo=download]](http://dab.saude.gov.br/portaldab/esus.php?conteudo=download).
+A responsabilidade pela certificação da configuração adequada dos equipamentos, em pleno acordo com requisitos mínimos necessários para uso do Sistema e-SUS APS é da gestão local. Portanto, o Ministério da Saúde se isenta da responsabilidade pelo funcionamento e desempenho inadequado do Sistema e-SUS APS, caso as configurações mínimas recomendadas não sejam atendidas. Para obter mais informações sobre os requisitos mínimos, acesse: [[http://aps.saude.gov.br/ape/esus/download]](http://aps.saude.gov.br/ape/esus/download).
 
 **ATENÇÃO!** A integridade da base de dados da instalação é de responsabilidade da gestão local. Para garantir a consistência dos dados e o correto funcionamento do sistema as informações devem ser inseridas ou importadas através do e-SUS APS PEC. A realização de uma cópia de segurança dos dados evita a perda completa das informações armazenadas no caso de qualquer eventualidade e deve ser realizada periodicamente.
+
+RESPONSABILIDADE DO USUÁRIO DO SISTEMA E DO SECRETÁRIO MUNICIPAL DE SAÚDE
+
+Após o LOGIN, todo registro feito pelo usuário do sistema será de sua responsabilidade:
+
+- o registro e envio dos dados ao SISAB é de responsabilidade do USUÁRIO do sistema. É importante que o registro seja fidedigno em relação às ações de saúde executadas, a fim de garantir a qualidade dos dados do sistema de informação em saúde;
+- o USUÁRIO do sistema é responsável pelos resultados obtidos por meio do uso de qualquer ferramenta do software e-SUS APS, inclusive aqueles decorrentes do uso indevido e da não execução dos processos complementares que garantam a segurança dos registros;
+- realizar a guarda, proteção e o tratamento dos dados do prontuário eletrônico, seguindo as disposições presentes na Lei no. 13.709/2018;
+- não disponibilizar, emprestar ou permitir a pessoas ou instituições não autorizadas pelo secretário municipal de saúde o acesso à base de dados do PEC;
+- realizar a anonimização e desidentificação dos dados quando estes forem extraídos com a finalidade de gerar relatórios gerenciais;
+- garantir, para fins de estudos por órgãos de pesquisas, a anonimização e desidentificação dos dados pessoais, sempre que possível, assim como assegurar os devidos padrões éticos relacionados a estudos e pesquisas.
 
 # 7. Referências Bibliográficas
 
