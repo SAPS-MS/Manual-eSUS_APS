@@ -25,26 +25,28 @@ A Coleta de Dados Simplificada (CDS) é um dos componentes da Estratégia e-SUS 
 # 7.1 Visão Geral do Sistema/Módulo CDS
 
 
-O Sistema com CDS ou o Módulo CDS (do Sistema com PEC) é um **sistema de apoio à digitação** das fichas que compõem esse sistema. A Figura 7.1 apresenta a tela principal do CDS, na qual também são visualizadas as doze fichas para o registro de informações, que compõem o sistema e-SUS AB. São elas:
+O Sistema com CDS ou o Módulo CDS (do Sistema com PEC) é um **sistema de apoio à digitação** das fichas que compõem esse sistema. A Figura 7.1 apresenta a tela principal do CDS, na qual também são visualizadas os módulos para o registro de informações, que compõem o sistema e-SUS APS. São elas:
 
 - Cadastro individual;
 - Cadastro domiciliar e territorial;
-- Ficha de atendimento individual;
-- Ficha de atendimento odontológico;
-- Ficha de atividade coletiva;
-- Ficha de procedimentos;
-- Ficha de visita domiciliar e territorial;
+- Atendimento individual;
+- Atendimento odontológico;
+- Atividade coletiva;
+- Procedimentos;
+- Visita domiciliar e territorial;
 - Marcadores de consumo alimentar;
-- Ficha de avaliação de elegibilidade;
-- Ficha de atendimento domiciliar;
-- Ficha complementar - Síndrome neurológica por Zika/Microcefalia;
-- Ficha de Vacinação.
+- Avaliação de elegibilidade e admissão;
+- Atendimento domiciliar;
+- Síndrome neurológica por Zika/Microcefalia;
+- Vacinação.
 
 Figura 7.1 - Tela do menu do CDS
 
-![](media/pec_image623.png)
+![](media/pec_image856.png)
 
 Fonte: SAS/MS.
+
+> ![](media/pec_image58.png) **NOTA**: Devido a Emergência Mundial de Saúde Pública provocada pela Covid-19 foi elaborado uma ficha adicional de vacinação para registro da campanha de vacinação contra a Covid-19. Os registros desta ficha deverão ser realizados também no módulo de vacinação.
 
 ## 7.1.1 Orientações Gerais sobre o Processo de Digitação das Fichas
 
