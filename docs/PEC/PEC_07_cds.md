@@ -122,9 +122,7 @@ O Cadastro da Atenção Básica (AB) é uma extensão do CadSUS no que se refere
 
 ## 7.2.1 Cadastro Individual
 
-![](media/pec_image636.png)
-
-Na tela principal, clique no ícone "Cadastro individual". A janela com a lista de fichas digitadas de cadastro individual será mostrada, conforme a Figura 7.7. É possível visualizar esta lista e as opções relacionadas a cada registro, além das opções de filtro da lista.
+Na tela principal, clique em "Cadastro individual". A janela com a lista de fichas digitadas de cadastro individual será mostrada, conforme a Figura 7.7. É possível visualizar esta lista e as opções relacionadas a cada registro, além das opções de filtro da lista.
 
 Figura 7.7 - Tela principal do cadastro individual
 
@@ -202,9 +200,7 @@ Para fazer cadastro individual com termo de recusa, siga os passos:
 
 ## 7.2.2 Cadastro domiciliar e territorial
 
-![](media/pec_image648.png)
-
-Na tela principal do CDS, clique no ícone "Cadastro domiciliar e territorial". A janela da "Lista de cadastro domiciliar" será mostrada, conforme a Figura 7.11. É possível visualizar a lista de cadastros realizados, o componente de filtro e as opções relacionadas a cada registro.
+Na tela principal do CDS, clique em "Cadastro domiciliar e territorial". A janela da "Lista de cadastro domiciliar" será mostrada, conforme a Figura 7.11. É possível visualizar a lista de cadastros realizados, o componente de filtro e as opções relacionadas a cada registro.
 
 Figura 7.11 - Tela principal do cadastro domiciliar
 ![](media/pec_image649.png)
@@ -336,8 +332,6 @@ As fichas de atendimento são utilizadas para registro dos profissionais de nív
 
 ## 7.3.1 Ficha de Atendimento Individual
 
-![](media/pec_image661.png)
-
 Na tela principal do Módulo do CDS, clique no ícone "Ficha de Atendimento Individual". Será apresentada a lista das "Fichas de Atendimento Individual" digitadas, em que constará a Data do atendimento, CNS do profissional responsável pelo atendimento, CBO do profissional, CNES da UBS, e o INE da equipe, conforme a Figura 7.14.
 
 Figura 7.14 - Lista de Fichas de Atendimento Individual
@@ -406,9 +400,7 @@ Ao finalizar a digitação da Ficha de Atendimento Individual, clique no botão 
 
 ## 7.3.2 Ficha de Atendimento Odontológico Individual
 
-![](media/pec_image674.png)
-
-Na tela principal, clique no ícone "Ficha de Atendimento Odontológico". Será apresentada a lista das "Fichas de Atendimento Odontológico" digitadas, conforme a Figura 7.17, em que constará a data do atendimento, o número do CNS do profissional que preencheu a ficha, o CBO do profissional, o código CNES da UBS e o código INE da equipe.
+Na tela principal do CDS, clique no ícone "Ficha de Atendimento Odontológico". Será apresentada a lista das "Fichas de Atendimento Odontológico" digitadas, conforme a Figura 7.17, em que constará a data do atendimento, o número do CNS do profissional que preencheu a ficha, o CBO do profissional, o código CNES da UBS e o código INE da equipe.
 
 Figura 7.17 - Lista de Fichas de Atendimento Odontológico
 ![](media/pec_image675.png)
@@ -469,8 +461,6 @@ Fonte: SAS/MS.
 Ao finalizar a digitação da Ficha de Atendimento Odontológico, clique no botão ![](media/pec_image634.png).
 
 # 7.4 Ficha de Atividade Coletiva
-
-![](media/pec_image681.png)
 
 A Ficha de Atividade Coletiva visa ao registro das atividades realizadas pelas equipes conforme as necessidades do território e capacidade da equipe de estruturar as ações. Nela, pode ser registrada ações estruturantes para a organização do processo de trabalho, como reuniões da própria equipe de saúde, reuniões com outras equipes de saúde, ou reuniões com outros órgãos, além das atividades de saúde voltadas para a população, como: educação em saúde, atendimentos, avaliações em grupo e mobilizações sociais, conforme podemos ver na Figura 7.19.
 
@@ -558,8 +548,6 @@ Fonte: SAS/MS.
 
 # 7.5 Ficha de Procedimentos
 
-![](media/pec_image692.png)
-
 A Ficha de Procedimentos é utilizada para a coleta de dados sobre a realização de procedimentos ambulatoriais. Ela capta os procedimentos que foram realizados por determinado profissional, diferentemente da Ficha de Atendimento Individual, em que são registradas a solicitação e a avaliação de exames.
 
 ## 7.5.1 Como registrar as informações de uma Ficha de Procedimentos
@@ -632,8 +620,6 @@ Como podemos visualizar, os procedimentos individualizados permanecem em telas s
 
 # 7.6 Ficha de Visita Domiciliar e Territorial
 
-![](media/pec_image699.png)
-
 A Ficha de Visita Domiciliar e Territorial tem como objetivo principal registrar as atividades de visitas domiciliares do Agente Comunitário de Saúde (ACS) ou do Agente de Combate a Endemias (ACE), realizadas no território adstrito à equipe da UBS.
 
 ## 7.6.1 Como registrar as informações de uma Ficha de Visita Domiciliar e Territorial
@@ -688,8 +674,6 @@ Após clicar no botão ![](media/pec_image701.png), siga os passos:
 
 # 7.7 Marcadores de Consumo Alimentar
 
-![](media/pec_image709.png)
-
 Esse instrumento permite a identificação de marcadores positivos ou negativos da alimentação e, de maneira mais dinâmica, a composição de indicadores.
 
 > ![](media/pec_image84.png) **DICA**: para auxiliar a utilização da ficha, que pode **ser feita por qualquer profissional da Atençãoásica**, e a orientação sobre práticas alimentares saudáveis, recomenda- se o uso do documento "Orientações para Avaliação de Marcadores de Consumo Alimentar na Atenção Básica", disponível em [[http://dab.saude.gov.br/portaldab/biblioteca.php?conteudo=publicacoes/marcadores_consumo_alimentar_atencao_basica]](http://dab.saude.gov.br/portaldab/biblioteca.php?conteudo=publicacoes/marcadores_consumo_alimentar_atencao_basica).
@@ -721,8 +705,6 @@ Após clicar no botão ![](media/pec_image701.png), siga os passos:
 - Passo 4. Ao finalizar a digitação da ficha, clique no botão ![](media/pec_image646.png).
 
 # 7.8 Ficha de Avaliação de Elegibilidade e Admissão
-
-![](media/pec_image714.png)
 
 **Exclusiva para uso em Serviço de Atenção Domiciliar (SAD)**, pode ser utilizada pelos profissionais das equipes de Atenção Domiciliar (AD), cadastrados no CNES, por meio dos tipos: i) Equipe Multiprofissional de Atenção Domiciliar (EMAD); e ii) Equipe Multiprofissional de Apoio (EMAP). Esse instrumento permite identificar os cidadãos elegíveis para acompanhamento pelas equipes de AD.
 
@@ -768,9 +750,7 @@ Passo 5. Conclua o preenchimento, respeitando minimamente os campos obrigatório
 
 ![](media/pec_image721.png)
 
-7.9 Ficha de Atendimento Domiciliar
-
-![](media/pec_image722.png)
+# 7.9 Ficha de Atendimento Domiciliar
 
 Esta ficha é de uso **exclusivo do Serviço de Atenção Domiciliar (SAD)**, os profissionais de nível superior da equipe de AB deverão informar o atendimento domiciliar na ficha de atendimento individual no campo "Local de Atendimento" conforme descrito no capítulo 7.1.3. Por tanto, a Ficha de atendimento domiciliar pode ser utilizada pelos **profissionais das equipes de Atenção Domiciliar**, cadastrados no CNES, por meio dos tipos: i) Equipe Multiprofissional de Atenção Domiciliar (EMAD); e ii) Equipe Multiprofissional de Apoio (EMAP). Esse instrumento permite registrar os atendimentos realizados pelas equipes de AD.
 
@@ -832,8 +812,6 @@ Para preencher os dados da Ficha de Atendimento Domiciliar, siga os passos:
 
 # 7.10 Ficha Complementar - Registro de Emergência em Saúde Pública Síndrome Neurológica por Zika/Microcefalia
 
-![](media/pec_image729.png)
-
 Na tela principal do Módulo do CDS, clique no ícone "Síndrome neurológica por Zika/Microcefalia". Será apresentada a lista das fichas digitadas, em que constará a data do atendimento, o número do Cartão SUS do cidadão, o número do cartão do SUS do responsável familiar e o turno do atendimento., conforme a Figura 7.30.
 
 Figura 7.30 - Lista de Fichas complementares
@@ -873,8 +851,6 @@ b.Caso o profissional tenha mais de um vínculo, o sistema mostrará as opções
 9.Após a digitação dos dados, clique no botão ![](media/pec_image634.png) e, caso haja alguma inconsistência, o sistema mostrará mensagem na tela indicando os campos que deverão ser corrigidos. Se não houver inconsistência, o sistema salvará os dados e voltará para a tela anterior.
 
 # 7.11 Ficha de vacinação
-
-![](media/pec_image734.png)
 
 Esta ficha é para o registro dos imunobiológicos, soros e imunoglobulinas administradas no âmbito da Atenção Básica e o seu registro é fundamental para a continuidade do cuidado e acompanhamento da imunização do cidadão conforme preconizado pelo Programa Nacional de Imunização do Ministério da Saúde.
 
@@ -922,7 +898,7 @@ c.O campo "Comunicante de hanseníase" somente estará habilitado  após a confi
 
 ### 7.11.1.3 Vacinação
 
-No bloco "Vacinação" digite o Imunobiológico, a Estratégia, a Dose, o Lote e o Fabricante, conforme preenchido na ficha de vacinação. Em seguida clique no botão ![](media pec_image740.png) para adicionar o registro do imunobiológico. Para cada imunobiológico repita essa mesma operação.
+No bloco "Vacinação" digite o Imunobiológico, a Estratégia, a Dose, o Lote e o Fabricante, conforme preenchido na ficha de vacinação. Em seguida clique no botão ![](media/pec_image740.png) para adicionar o registro do imunobiológico. Para cada imunobiológico repita essa mesma operação.
 
 Figura 7.32 - Adicionar Vacinação
 ![](media/pec_image741.png)
@@ -952,7 +928,7 @@ Esta ficha deverá ser utilizada exclusivamente para o registro de doses aplicad
 
 ### 7.11.2.1 Vacinações individualizadas
 
-Especialmente para a vacinação contra a COVID-10 o campo CPF/CNS é de preenchimento obrigatório. A verificação do preenchimento deste campo ocorre após confirmar o registro da dose aplicada clicando no botão ![](media/confirmar.png).
+Especialmente para a vacinação contra a COVID-19 o campo CPF/CNS é de preenchimento obrigatório. A verificação do preenchimento deste campo ocorre após confirmar o registro da dose aplicada clicando no botão ![](media/confirmar.png).
 
 ![](media/cpfobrigatorio.png)
 
