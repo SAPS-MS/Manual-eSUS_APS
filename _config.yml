@@ -1,7 +1,7 @@
 # Título da página
 title: "Estratégia e-SUS APS"
 # Descrição da página
-description: "Manual da versão 4.1 do Prontuário Eletrônico do Cidadão (PEC) do e-SUS APS"
+description: "Manual do e-SUS APS"
 # o subcaminho de seu site, por exemplo /blog
 baseurl: "/e-SUS-APS-v.4.1"
 # o nome do host e protocolo base para seu site, por exemplo, http://example.com

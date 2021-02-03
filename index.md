@@ -2,7 +2,8 @@
 layout: default
 title: Início
 nav_order: 1
-description: "Manual e-SUS APS v4.1"
+has_children: false
+description: "Manual e-SUS APS"
 permalink: /
 ---
 
@@ -12,17 +13,11 @@ e-SUS Atenção Primária à Saúde
 {: .text-center }
 <br>
 <br>
-PRONTUÁRIO ELETRÔNICO DO CIDADÃO
-{: .fs-8 }
-{: .text-center }
 MANUAL DE USO
 {: .fs-8 }
 {: .text-center }
 <br>
 <br>
-(versão 4.1)
-{: .fs-6 }
-{: .text-center }
 <br>
 <br>
 <br>
@@ -47,10 +42,10 @@ E-mail: cgiap@saude.gov.br
 Renata Maria de Oliveira Costa
 
 **Coordenação Técnica Geral**<br>
-João Geraldo de Oliveira Júnior
+Michael Luiz Diana de Oliveira
 
 **Organização**<br>
-Ana Claudia Cielo, Igor de Carvalho Gomes
+Ana Claudia Cielo, Igor de Carvalho Gomes, João Geraldo de Oliveira Júnior
 
 **Revisão Técnica**<br>
 Ana Claudia Cielo, Igor de Carvalho Gomes, Micael Macedo Pereira da Trindade, André Cury Alves, João Geraldo de Oliveira Júnior
