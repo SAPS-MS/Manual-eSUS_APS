@@ -66,5 +66,5 @@ back_to_top: true
 back_to_top_text: "Voltar ao topo"
 
 # Google Analytics Tracking (optional)
-ga_tracking:
+ga_tracking: G-J2CX11K46E
 ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true/nil by default)
