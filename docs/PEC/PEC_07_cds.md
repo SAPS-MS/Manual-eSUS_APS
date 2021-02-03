@@ -10,7 +10,7 @@ has_toc: true
 # CAPÍTULO 7 - Coleta de Dados Simplificada (CDS)
 {: .no_toc }
 
-Este capítulo apresenta informações para a utilização do Módulo CDS, agregado ao Sistema com PEC, considerando o processo de digitação das fichas previamente preenchidas. Todas as orientações que constam neste manual se aplicam ao Sistema com CDS (*standalone*). Para mais informações sobre o Sistema com CDS, em especial sobre a forma de preenchimento das fichas, consulte o Manual do Sistema com Coleta de Dados Simplificada, disponível por meio do endereço eletrônico [http://aps.saude.gov.br/ape/esus](http://aps.saude.gov.br/ape/esus).
+Este capítulo apresenta informações para a utilização do Módulo CDS, agregado ao Sistema com PEC, considerando o processo de digitação das fichas previamente preenchidas. Todas as orientações que constam neste manual se aplicam ao Sistema com CDS (*standalone*). Para mais informações sobre o Sistema com CDS, em especial sobre a forma de preenchimento das fichas, consulte o Manual do Sistema com Coleta de Dados Simplificada, disponível por meio do endereço eletrônico [http://dab.saude.gov.br/portaldab/esus.php](http://dab.saude.gov.br/portaldab/esus.php).
 
 ## Sumário
 {: .no_toc .text-delta }
@@ -25,28 +25,26 @@ A Coleta de Dados Simplificada (CDS) é um dos componentes da Estratégia e-SUS 
 # 7.1 Visão Geral do Sistema/Módulo CDS
 
 
-O Sistema com CDS ou o Módulo CDS (do Sistema com PEC) é um **sistema de apoio à digitação** das fichas que compõem esse sistema. A Figura 7.1 apresenta a tela principal do CDS, na qual também são visualizadas os módulos para o registro de informações, que compõem o sistema e-SUS AB. São elas:
+O Sistema com CDS ou o Módulo CDS (do Sistema com PEC) é um **sistema de apoio à digitação** das fichas que compõem esse sistema. A Figura 7.1 apresenta a tela principal do CDS, na qual também são visualizadas as doze fichas para o registro de informações, que compõem o sistema e-SUS AB. São elas:
 
 - Cadastro individual;
 - Cadastro domiciliar e territorial;
-- Atendimento individual;
-- Atendimento odontológico;
-- Atividade coletiva;
-- Procedimentos;
-- Visita domiciliar e territorial;
+- Ficha de atendimento individual;
+- Ficha de atendimento odontológico;
+- Ficha de atividade coletiva;
+- Ficha de procedimentos;
+- Ficha de visita domiciliar e territorial;
 - Marcadores de consumo alimentar;
-- Avaliação de elegibilidade e admissão;
-- Atendimento domiciliar;
-- Síndrome neurológica por Zika/Microcefalia;
-- Vacinação.
+- Ficha de avaliação de elegibilidade;
+- Ficha de atendimento domiciliar;
+- Ficha complementar - Síndrome neurológica por Zika/Microcefalia;
+- Ficha de Vacinação.
 
 Figura 7.1 - Tela do menu do CDS
 
-![](media/pec_image856.png)
+![](media/pec_image623.png)
 
 Fonte: SAS/MS.
-
-> ![](media/pec_image58.png) **NOTA**: Devido a emergência em saúde pública provocada pela COVID-19 foi elaborada uma ficha de vacinação adicional para o registro da campanha de vacinação contra a Covid-19. O Registro dessa ficha deverá ser realizado também no módulo de Vacinação do Sistema com CDS.
 
 ## 7.1.1 Orientações Gerais sobre o Processo de Digitação das Fichas
 
@@ -934,8 +932,14 @@ Especialmente para a vacinação contra a COVID-19 o campo CPF/CNS é de preench
 
 ### 7.11.2.2 Registro da vacinação
 
-É possível realizar o registro da dose aplicada da vacina contra a COVID-19 utilizando quatro tipos de vacinas previstas para disponibilização em todo o território nacional.
+É possível realizar o registro da dose aplicada da vacina contra a COVID-19 utilizando os quatro tipos de vacinas previstas para disponibilização em todo o território nacional.
 
 ![](media/produtos-vacinas.png)
 
-Ao terminar de registrar a dose aplicada clique no botão ![](media/pec_image672.png). Caso haja alguma inconsistência, o sistema mostrará mensagem na tela indicando os campos que deverão ser corrigidos. Caso não haja nenhuma inconsistência, o sistema salvará os dados, voltará para a tela de adicionar os registros de vacinação e apresentará a mensagem "registro confirmado com sucesso".
+Para as vacinas contra a COVID-19 estará disponível **exclusivamente** para preenchimento o campo `Grupo de Atendimento` de forma obrigatória. O campo `Estratégia` apresentará apenas o valor **5- Campanha** e o campo `Fabricante` estará travado e preenchido com o nome do fabricante referente ao item escolhido no campo `Imunobiológico`, como mostra a imagem a seguir:
+
+![](media/pec_image845.png)
+
+Clique no botão ![](media/pec_image740.png) para incluir este imunobiológico na lista de doses aplicadas para este cidadão. Caso haja necessidade de incluir doses de outras vacinas, reinicie o processo selecionando o imunobiológico e preenchendo os demais campos.
+
+Ao terminar de registrar todas as doses aplicadas no cidadão clique no botão ![](media/pec_image672.png). Caso haja alguma inconsistência, o sistema mostrará mensagem na tela indicando os campos que deverão ser corrigidos. Caso não haja nenhuma inconsistência, o sistema salvará os dados, voltará para a tela de adicionar os registros de vacinação e apresentará a mensagem "registro confirmado com sucesso".
