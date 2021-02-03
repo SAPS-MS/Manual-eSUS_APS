@@ -33,7 +33,7 @@ Fonte: SAPS/MS.
 
 ![](media/pec_image750.png)
 
-As opções de administração e configuração estão disponíveis APENAS para os perfis de administração da instalação. Para evitar o processamento desnecessário dos relatórios apenas o administrador da instalação, devidamente instruído, poderá utilizá- la.
+As opções de administração e configuração estão disponíveis APENAS para os perfis de administração da instalação. Para evitar o processamento desnecessário dos relatórios apenas o administrador da instalação, devidamente instruído, poderá utilizá-la.
 
 ## 8.1.1 Processamento
 
