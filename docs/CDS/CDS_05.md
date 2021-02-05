@@ -18,7 +18,7 @@ has_toc: true
 
 **Objetivo da ficha:** registrar as ações realizadas em grupo pelas equipes, conforme as necessidades do território e da própria equipe. Já em sua organização, marcada por blocos de tonalidades de cor diferentes, é perceptível que a ficha apresenta dois focos: as ações coletivas de saúde para a população (como atividades de educação em saúde, atendimentos e avaliações em grupo, e mobilizações sociais) e as ações coletivas para a organização da equipe (reuniões de equipe, reuniões com outras equipes, ou reuniões com outros órgãos).
 
-**Profissionais que utilizam esta ficha:** É utilizada por profissionais das equipes de Atenção Básica (incluindo equipe de Saúde Bucal), do Núcleo de Apoio à Saúde da Família (Nasf), do Polo Academia da Saúde, do Consultório na Rua (eCR) e das equipes de Atenção Básica Prisional (EABP).
+**Profissionais que utilizam esta ficha:** É utilizada por profissionais das equipes de Atenção Básica (incluindo equipe de Saúde Bucal), do Núcleo de Apoio à Saúde da Família (NASF), do Polo Academia da Saúde, do Consultório na Rua (eCR) e das equipes de Atenção Básica Prisional (EABP).
 
 > ![](media/cds_image1.png) **NOTA**: as ações realizadas nos **Programa Saúde na Escola**, da Política Nacional de Combate ao Tabagismo, entre outras, devem ser registradas usando a Ficha de Atividade Coletiva.
 
@@ -30,7 +30,7 @@ A seguir, serão apresentados os campos da Ficha de Atividade Coletiva e as orie
 
 O cabeçalho desta ficha é diferente das demais apresentadas. Ele possui um bloco de identificação e controle da digitação, um bloco de identificação do profissional responsável e um bloco de identificação da atividade e dos demais profissionais envolvidos na condução da atividade.
 
-Figura 5.1 -- Cabeçalho do formulário de Marcadores de Consumo Alimentar
+Figura 5.1 -- Cabeçalho do formulário de Atividade Coletiva
 
 ![](media/cds_image50.png)
 
