@@ -231,7 +231,7 @@ Quadro 7.9 -- Glicemia
 |CAMPO|ORIENTAÇÃO SOBRE O BLOCO/PREENCHIMENTO|
 |-|-|
 |GLICEMIA CAPILAR (mg/dl)|Anote a glicemia capilar do usuário em números inteiros. Ex: 100.|
-|MOMENTO DA COLETA| Anote o momento que realizou a glicemia capilar no usuário. Se foi em **jejum** anote **0**. Se **pós prandial** anote **1**. Se **pré prandial** anote **2**. Se **não sabe especificar** anote **3**.|
+|MOMENTO DA COLETA| Anote o número referente ao momento que realizou a glicemia capilar no usuário. Registre: <br> (0) Jejum;<br> (1)  Pós prandial;<br> (2) Pré prandial e<br> (3) Não especificado.|
 
 ## 7.6 Desfecho
 
