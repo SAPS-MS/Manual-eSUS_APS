@@ -39,7 +39,7 @@ Quadro 7.1 -- Identificação e controle da digitação
 |CAMPO|ORIENTAÇÃO SOBRE O BLOCO/PREENCHIMENTO|
 |-|-|
 |DIGITADO POR|Nome do profissional que digitou a ficha.|
-|DATA|Dia/ mês/ ano em que a digitação foi realizada no sistema.|
+|DATA|Dia/mês/ano em que a digitação foi realizada no sistema.|
 |CONFERIDO POR|Nome do profissional que fez a supervisão do preenchimento da ficha.|
 |FOLHA Nº|Esse campo pode ser utilizado na organização do processo de trabalho do profissional que realizou o cadastro, através da inserção de numeração nas folhas.|
 
@@ -199,17 +199,51 @@ Quadro 7.7 -- Antropometria
 
 *Fonte: SAS/MS.*
 
-## 7.4 Desfecho
+## 7.4 Sinais Vitais
+
+Este campo é composto por informações referentes as novas atribuições dos ACS de acordo com a Lei nº 13.595, de 5 de Janeiro de 2018, desde que tenha concluído o curso técnico, tenha disponíveis os equipamentos adequados e esteja sendo assistido por profissional de saúde de nível superior que seja membro da equipe.
+
+Figura 7.8 -- Sinais Vitais
+
+![](media/cds_image104.png)
+
+*Fonte: SAS/MS.*
+
+Quadro 7.8 -- Sinais Vitais
+
+|CAMPO|ORIENTAÇÃO SOBRE O BLOCO/PREENCHIMENTO|
+|-|-|
+|TEMPERATURA (°C)|Anote a temperatura em graus Celsius do usuário em números inteiros ou decimais.|
+|PRESSÃO ARTERIAL (mmHg)|Anote a pressão arterial do usuário. Ex: 120/080|
+
+## 7.5 Glicemia
+
+Este campo é composto por informação referente a nova atribuição dos ACS de acordo com a Lei nº 13.595, de 5 de Janeiro de 2018, desde que tenha concluído o curso técnico, tenha disponíveis os equipamentos adequados e esteja sendo assistido por profissional de saúde de nível superior que seja membro da equipe.
+
+Figura 7.9 -- Glicemia
+
+![](media/cds_image105.png)
+
+*Fonte: SAS/MS.*
+
+Quadro 7.9 -- Glicemia
+
+|CAMPO|ORIENTAÇÃO SOBRE O BLOCO/PREENCHIMENTO|
+|-|-|
+|GLICEMIA CAPILAR (mg/dl)|Anote a glicemia capilar do usuário em números inteiros. Ex: 100.|
+|MOMENTO DA COLETA| Anote o número referente ao momento que realizou a glicemia capilar no usuário. Registre: <br> (0) Jejum;<br> (1)  Pós prandial;<br> (2) Pré prandial e<br> (3) Não especificado.|
+
+## 7.6 Desfecho
 
 Bloco utilizado para identificar o desfecho da visita domiciliar e territorial. Este campo é de preenchimento obrigatório (*).
 
-Figura 7.7 -- Desfecho**
+Figura 7.10 -- Desfecho**
 
 ![](media/cds_image69.png)
 
 *Fonte: SAS/MS.*
 
-Quadro 7.8 -- Desfecho
+Quadro 7.10 -- Desfecho
 
 |CAMPO|ORIENTAÇÃO SOBRE O BLOCO/PREENCHIMENTO|
 |-|-|

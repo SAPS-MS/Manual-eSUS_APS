@@ -11,7 +11,7 @@ has_toc: true
 # CAPÍTULO 10 - Acompanhamento de condições de saúde
 {: .no_toc }
 
-Este módulo visa proporcionar aos profissionais de saúde um formato mais simples e otimizado de visualizar estas informações.
+Este módulo visa proporcionar aos gestores de UBS e profissionais de saúde um formato mais simples e otimizado de visualizar as informações relacionadas aos problemas e condições de saúde da população acompanhadas pelas equipes de atenção primária à saúde.
 
 ## Sumário
 {: .no_toc .text-delta }

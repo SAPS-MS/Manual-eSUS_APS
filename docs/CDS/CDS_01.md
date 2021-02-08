@@ -20,7 +20,7 @@ Neste capítulo, abordaremos, de forma resumida, os conceitos básicos que orien
 
 ## 1. Estratégia e-SUS Atenção Básica
 
-O e-SUS AB é uma estratégia do Departamento de Atenção Básica (DAB) para reestruturar as informações da Atenção Básica (AB) em nível nacional. Esta ação está alinhada com a proposta mais geral de reestruturação dos Sistemas de Informação em Saúde (SIS) do Ministério da Saúde (MS), entendendo que a qualificação da gestão da informação é fundamental para ampliar a qualidade no atendimento à população.
+O e-SUS AB é uma estratégia do Departamento de Saúde da Família (DESF) para reestruturar as informações da Atenção Básica (AB) em nível nacional. Esta ação está alinhada com a proposta mais geral de reestruturação dos Sistemas de Informação em Saúde (SIS) do Ministério da Saúde (MS), entendendo que a qualificação da gestão da informação é fundamental para ampliar a qualidade no atendimento à população.
 
 A Estratégia e-SUS AB faz referência ao processo de informatização qualificada do Sistema Único de Saúde (SUS) em busca de um SUS eletrônico (e-SUS) e tem como objetivo concretizar um novo modelo de gestão de informação que apoie os municípios e os serviços de saúde na gestão efetiva da AB e na qualificação do cuidado dos usuários. Esse modelo nacional de gestão da informação na AB é definido a partir de diretrizes e requisitos essenciais que orientam e organizam o processo de reestruturação do sistema de informação, instituído o Sistema de Informação em Saúde para a Atenção Básica (SISAB), por meio da Portaria GM/MS Nº 1.412, de 10 de julho de 2013, e a Estratégia e-SUS AB para sua operacionalização.
 
@@ -52,7 +52,7 @@ Durante o texto, os softwares do Sistema e-SUS AB também são referidos como Si
 
 > ![](media/cds_image1.png) **NOTA**: Para conhecer os conceitos e orientações do Sistema com PEC, consulte o Manual do Sistema com Prontuário Eletrônico do Cidadão. Especificamente sobre o módulo de digitação do CDS acesse o Capítulo 07 desse manual.
 
-> ![](media/cds_image1.png) **NOTA**: Para mais informações sobre legislação, documentos e materiais de apoio sobre a Estratégia e-SUS AB, acesse a **página do e-SUS AB** por meio do endereço eletrônico[http://dab.saude.gov.br/portaldab/esus.php](http://dab.saude.gov.br/portaldab/esus.php)
+> ![](media/cds_image1.png) **NOTA**: Para mais informações sobre legislação, documentos e materiais de apoio sobre a Estratégia e-SUS AB, acesse a **página do e-SUS AB** por meio do endereço eletrônico[https://aps.saude.gov.br/ape/esus](https://aps.saude.gov.br/ape/esus)
 
 ## 2. Fichas de Coleta de Dados Simplificada
 
@@ -60,18 +60,19 @@ O Sistema com CDS é um dos componentes da estratégia e-SUS AB, adequada para U
 
 O objetivo é ser uma estratégia de preenchimento de fichas que coletam dados de cadastros, visitas domiciliares, atendimentos e atividades desenvolvidas pelas equipes de AB. Esses dados devem ser digitados no CDS off-line ou PEC e, posteriormente, enviados para o SISAB por meio do PEC com conectividade.
 
-O CDS é composto por doze fichas para o registro de informações:
+O CDS é alimentado por fichas para o registro de informações, o conjunto de fichas são as que seguem abaixo:
 
 -   Cadastro Individual,
 -   Cadastro Domiciliar,
--   Ficha de Atendimento Individual,
--   Ficha de Procedimentos,
--   Ficha de Atendimento Odontológico Individual,
--   Ficha de Atividade Coletiva,
--   Ficha de Vacinação (**nova**),
--   Ficha de Visita Domiciliar,
+-   Atendimento Individual,
+-   Procedimentos,
+-   Atendimento Odontológico Individual,
+-   Atividade Coletiva,
+-   Vacinação (**nova**),
+-   Visita Domiciliar,
 -   Marcadores de Consumo Alimentar,
--   Ficha Complementar.
+-   Síndrome Neurológica por Zika/microcefalia (Ficha Complementar),
+-   Vacinação Covid-19 (**nova**)
 
 Ainda existem mais duas fichas exclusivas para Serviço de Atenção Domiciliar (SAD):
 
@@ -84,7 +85,7 @@ Este manual foi elaborado para orientar os profissionais de saúde e gestores a 
 
 O processo de digitação deve ser definido no âmbito da gestão municipal, considerando os aspectos logísticos e os recursos humanos disponíveis a esse fim. Em especial, contemplando os diferentes cenários de implantação, como visto no Manual de Implantação da Estratégia e-SUS AB, o fluxo deve estar adequado a cada realidade.
 
-> ![](media/cds_image2.png) **ATENÇÃO**: o **profissional que realizou** o cadastro ou o atendimento/procedimento **é responsável pelas informações** que fornece, **não cabendo** ao digitador, ou a qualquer **outro profissional,** a complementação**, a correção** ou o apontamento de campos que faltam, mesmo que conheçam a informação para complementar. Na ocasião de incorreções, sugere-se a devolução da ficha ao profissional que deu origem ao registro.
+> ![](media/cds_image2.png) **ATENÇÃO**: o **profissional que realizou** o cadastro ou o atendimento/procedimento **é responsável pelas informações** que fornece, **não cabendo ao digitador**, ou a qualquer **outro profissional, **a complementação**, a **correção** ou o **apontamento** de campos que faltam, mesmo que conheçam a informação para complementar. Na ocasião de incorreções, sugere-se a devolução da ficha ao profissional que deu origem ao registro.
 
 Nos outros capítulos deste manual serão apresentadas as fichas do CDS com a descrição dos campos disponíveis para o preenchimento das informações, os conceitos associados a cada um deles e as regras para o seu preenchimento e digitação no sistema.
 
