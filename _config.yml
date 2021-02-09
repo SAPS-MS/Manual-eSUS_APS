@@ -15,7 +15,7 @@ remote_theme: pmarsceill/just-the-docs
 # Indica o esquema de cores customizado definido em /_sass/color_schemes/nomedoarquivo.scss
 color_scheme: SAPS
 # Defina um caminho / url para um logotipo que será exibido em vez do título. Indica o local da logomarca a ser utilizada no canto superior esquerdo da página.
-logo: "/media/logoesusaps.png"
+logo: "/assets/media/logoesusaps.png"
 # Habilita a busca na página
 search_enabled: true
 # Configurações da busca
