@@ -73,7 +73,7 @@ Brasil. Ministério da Saúde. Secretaria de Atenção Primária à Saúde.<br>
 e-SUS Atenção Primária à Saúde: Manual do aplicativo e-SUS Atividade Coletiva – Versão 1.3 [recurso eletrônico] / Ministério da Saúde, Secretaria de Atenção Primária à Saúde, Secretaria Executiva. – Brasília: Ministério da Saúde, 2021.<br>
 <br>
 ISBN **Versão Preliminar**<br>
-Modo de acesso: <http://aps.saude.gov.br><br>
+Modo de acesso: <https://aps.saude.gov.br/ape/esus><br>
 CDU 614<br>
 
 Catalogação na fonte – Coordenação-Geral de Documentação e Informação – Editora MS – OS 2021.
