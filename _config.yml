@@ -50,7 +50,7 @@ heading_anchors: true
 # footer_content: "2021 Ministério da Saúde. Todos os direitos reservados. É permitida a reprodução parcial ou total desta obra, desde que citada a fonte e que não seja para venda ou qualquer fim comercial. Venda proibida. Distribuição gratuita. A responsabilidade pelos direitos autorais de textos e imagens desta obra é da área técnica. A coleção institucional do Ministério da Saúde pode ser acessada na íntegra na Biblioteca Virtual em Saúde do Ministério da Saúde: http://www.saude.gov.br/bvs."
 
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
-last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
+last_edit_time_format: "%d-%m-%Y" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
 
 
 # Links auxiliares para a navegação superior direita
