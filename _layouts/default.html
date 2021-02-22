@@ -153,7 +153,7 @@ layout: table_wrappers
         {% capture footer_custom %}
           {%- include footer_custom.html -%}
         {% endcapture %}
-        {% if footer_custom != "" or site.last_edit_timestamp or site.gh_edit_link %}
+        {% if footer_custom != "" or page.last_edit_timestamp or site.gh_edit_link %}
           <hr>
           <footer>
             {% if site.back_to_top %}
@@ -162,9 +162,9 @@ layout: table_wrappers
 
             {{ footer_custom }}
 
-            {% if site.last_edit_timestamp or site.gh_edit_link %}
+            {% if page.last_edit_timestamp or site.gh_edit_link %}
               <div class="d-flex mt-2">
-                {% if site.last_edit_timestamp and site.last_edit_time_format and page.last_modified_date %}
+                {% if page.last_edit_timestamp and site.last_edit_time_format and page.last_modified_date %}
                   <p class="text-small text-grey-dk-000 mb-0 mr-2">
                     Última atualização em <span class="d-inline-block">{{ page.last_modified_date | date: site.last_edit_time_format }}</span>.
                   </p>
