@@ -5,6 +5,7 @@ nav_order: 3
 has_children: true
 description: "Manual e-SUS APS"
 permalink: /docs/CDS
+last_modified_date: "now"
 ---
 
 e-SUS Atenção Primária à Saúde
