@@ -34,7 +34,8 @@ Figura 4.1 - Tela com nome do cidadão
 
 *Fonte: SAS/MS*
 
-> ![](media/image97.png) **ATUALIZAÇÃO:** A partir da versão 3.1, é possível visualizar as condições de saúde do cidadão, ao acessar o perfil para registrar a visita domiciliar.
+{: .atualizacao }
+A partir da versão 3.1, é possível visualizar as condições de saúde do cidadão, ao acessar o perfil para registrar a visita domiciliar.
 
 2.  Em seguida a tela de registro da visita será exibida. Nesta tela será registrada a "Visita foi realizada", o "Motivo da visita", "Busca ativa" e/ou "Acompanhamento". Ainda é possível registrar a antropometria e se a "visita foi acompanhada por outro profissional";
 
@@ -56,7 +57,8 @@ Figura 4.3 - Tela visita ao cidadão
 
 Quando não houver um motivo de busca ativa ou acompanhamento, a visita familiar é destinada a abordagem familiar, caracterizando-se como "Visita Periódica" que também faz parte da rotina dos agentes.
 
-> ![](media/image13.png) **NOTA**: para que o sistema habilite a opção de "Visitar" família, é necessário existir o cadastro de um **responsável familiar** no núcleo familiar.
+{: .nota }
+para que o sistema habilite a opção de "Visitar" família, é necessário existir o cadastro de um **responsável familiar** no núcleo familiar.
 
 Siga os passos para registrar a visita a família:
 

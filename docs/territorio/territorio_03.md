@@ -22,9 +22,11 @@ O cadastro da Atenção Primária é uma extensão do Cadastro Nacional do SUS (
 
 O cadastro está organizado em quatro dimensões (domiciliar e territorial, familiar e individual) conforme detalhado nas seções a seguir.
 
-> ![](media/image11.png) **ATENÇÃO**: a partir da reestruturação do cadastro também é possível registrar domicílios que estejam vazios, e outros tipos de imóveis existentes no território.
->
-> ![](media/image14.png) **DICA**: a manutenção de registros de domicílios permite fazer um melhor controle pela equipe de questões de vigilância do território, bem como auxilia na inserção de novos núcleos familiares em domicílios já cadastrados.
+{: .atencao }
+a partir da reestruturação do cadastro também é possível registrar domicílios que estejam vazios, e outros tipos de imóveis existentes no território.
+
+{: .dica }
+a manutenção de registros de domicílios permite fazer um melhor controle pela equipe de questões de vigilância do território, bem como auxilia na inserção de novos núcleos familiares em domicílios já cadastrados.
 
 O aplicativo permite uma visão ampliada sobre o território no qual a equipe é responsável. Inicialmente é mostrada a lista de logradouros previamente cadastrados na base de dados local do PEC após a sincronização, como mostra a imagem a seguir.
 
@@ -74,7 +76,8 @@ O Cadastro Domiciliar é utilizado para registrar as características sociossani
 
 Para incluir um novo domicílio é necessário selecionar o ícone ![](media/image25.png) no canto inferior direito, caso o logradouro já esteja cadastrado.
 
-> ![](media/image13.png) **NOTA**: para mais informações sobre os conceitos que dizem respeito ao cadastramento dos domicílios recomenda-se a leitura do Manual do Sistema com Coleta de Dados Simplificada (CDS).
+{: .nota }
+para mais informações sobre os conceitos que dizem respeito ao cadastramento dos domicílios recomenda-se a leitura do Manual do Sistema com Coleta de Dados Simplificada (CDS).
 
 O cadastro de domicílios é dividido em três etapas.
 
@@ -122,7 +125,8 @@ Figura 3.11 - Tela de cadastro de imóvel
 
 Para informar a recusa do cadastro do imóvel ainda será necessário preencher todos os campos obrigatórios de identificação do mesmo.
 
-> ![](media/image13.png) **NOTA**: a opção de recusa do cadastro só está disponível para os tipos de imóveis: Domicílio, Abrigo, Instituição de Longa Permanência para Idosos, Unidade Prisional, Unidade de Medida Sócio Educativa e Delegacia.
+{: .nota }
+a opção de recusa do cadastro só está disponível para os tipos de imóveis: Domicílio, Abrigo, Instituição de Longa Permanência para Idosos, Unidade Prisional, Unidade de Medida Sócio Educativa e Delegacia.
 
 ### 3.1.3 Atualizar Cadastro Domiciliar
 
@@ -207,7 +211,8 @@ Para editar os dados de um núcleo familiar, selecione o ícone ![](media image3
 
 Após a criação do núcleo familiar passamos para o cadastro dos indivíduos que fazem parte desta família. O Cadastro Individual é utilizado para registrar as características sociodemográficas, problemas e condições de saúde dos cidadãos. Tem como objetivo captar informações sobre os cidadãos que se encontram adscritos no território das equipes de Atenção Primária. O cadastramento e sua atualização periódica são atribuições dos agentes comunitários de saúde (ACS) nas equipes da Estratégia Saúde da Família (ESF). Para outras equipes de APS, este fluxo será definido em cada localidade.
 
-> ![](media/image13.png) **NOTA**: para mais informações sobre os conceitos que dizem respeito ao cadastramento dos domicílios recomenda-se a leitura do Manual do Sistema com Coleta de Dados Simplificada (CDS).
+{: .nota }
+para mais informações sobre os conceitos que dizem respeito ao cadastramento dos domicílios recomenda-se a leitura do Manual do Sistema com Coleta de Dados Simplificada (CDS).
 
 ### 3.3.1 Novo Cidadão
 
@@ -281,7 +286,8 @@ Fonte: SAS/MS.
 
 -   Clique em FINALIZAR CADASTRO para finalizar e salvar o cadastro do cidadão.
 
-> ![](media/image13.png) **NOTA**: Caso tenha sido cadastrado em situação de rua, será exibida uma sétima etapa com questões pertinentes à tal situação.
+{: .nota }
+Caso tenha sido cadastrado em situação de rua, será exibida uma sétima etapa com questões pertinentes à tal situação.
 
 ### 3.3.2 Recusa do Cadastro de Cidadão
 
@@ -509,9 +515,11 @@ Figura 3.45. Mesclar Logradouros
 
 *Fonte: SAS/MS*
 
-> ![](media/image11.png) **ATENÇÃO**: Se o Logradouro possuir domicílios com cadastros incompletos não será possível selecioná-lo como logradouro de "Origem". Ademais o logradouro de origem não poderá ser igual ao de "Destino".
+{: .atencao }
+Se o Logradouro possuir domicílios com cadastros incompletos não será possível selecioná-lo como logradouro de "Origem". Ademais o logradouro de origem não poderá ser igual ao de "Destino".
 
-> ![](media/image13.png) **NOTA**: Se um domicílio possuir uma nova atualização de cadastro na mesma data que se quer mesclar os logradouros, o imóvel deverá ser editado e não atualizado. Imóveis atualizados ao mesclar logradouros não são contabilizados nos relatórios de produção.
+{: .nota }
+Se um domicílio possuir uma nova atualização de cadastro na mesma data que se quer mesclar os logradouros, o imóvel deverá ser editado e não atualizado. Imóveis atualizados ao mesclar logradouros não são contabilizados nos relatórios de produção.
 
 ## 3.6. Buscar logradouro, família ou cidadão
 

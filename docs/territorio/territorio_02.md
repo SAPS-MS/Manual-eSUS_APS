@@ -73,7 +73,8 @@ Durante o primeiro acesso, o profissional de saúde deve realizar a sincronizaç
 
 3)  Deve haver uma rede local, sem fio (wireless), com acesso à instalação do e-SUS APS PEC para que seja possível fazer a sincronização do sistema com o aplicativo;
 
-> ![](media/image9.png) **NOTA**: Para ter mais detalhes sobre as versões com compatibilidade entre Aplicativo e-SUS Território e o PEC do e-SUS APS acesse a área de [aplicativos do e-SUS APS](http://aps.saude.gov.br/ape/esus/download).
+{: .nota }
+Para ter mais detalhes sobre as versões com compatibilidade entre Aplicativo e-SUS Território e o PEC do e-SUS APS acesse a área de [aplicativos do e-SUS APS](http://aps.saude.gov.br/ape/esus/download).
 
 ## 2.4 Sincronização
 
@@ -97,13 +98,15 @@ Figura 2.2 - Tela de sincronização app e-SUS APS Território.
 
 Após a confirmação de sucesso na primeira sincronização, caso haja cadastros na base, estes são carregados no tablet. É importante sempre manter as bases sincronizadas para garantir a integridade das bases de dados entre o tablet e o PEC. Recomenda-se que a sincronização seja feita ao menos uma vez por dia.
 
-> ![](media/image11.png) **ATENÇÃO**: Durante a sincronização o PEC envia apenas cadastros do território consistentes em relação aos vínculos entre responsável familiar, domicílio e logradouro. Caso alguns cadastros não sejam sincronizados em nenhuma das direções é necessário resolver estas inconsistências, seja no PEC ou no Aplicativo, para que haja 100% de sucesso neste processo.
+{: .atencao }
+Durante a sincronização o PEC envia apenas cadastros do território consistentes em relação aos vínculos entre responsável familiar, domicílio e logradouro. Caso alguns cadastros não sejam sincronizados em nenhuma das direções é necessário resolver estas inconsistências, seja no PEC ou no Aplicativo, para que haja 100% de sucesso neste processo.
 
 ## 2.5 Alterar o Servidor de Sincronização
 
 O aplicativo grava o endereço do servidor configurado inicialmente no processo de sincronização, podendo ser modificado futuramente caso seja necessário. No entanto é impossível sincronizar com uma instalação diferente após a sincronização inicial. Para que isso seja possível os dados do aplicativo devem ser apagados manualmente. Para tal, vá até as opções de configuração do seu dispositivo Android e utilize a opção "Limpar dados", presente na sessão "aplicativos", para o aplicativo e-SUS Território. Isso irá remover todos os dados do aplicativo, permitindo então que ele seja sincronizado com outra instalação.
 
-> ![](media/image11.png) **ATENÇÃO**: para garantir que nenhum dado seja perdido, faça a sincronização com a aplicação que você está usando anteriormente.
+{: .atencao }
+para garantir que nenhum dado seja perdido, faça a sincronização com a aplicação que você está usando anteriormente.
 
 ## 2.6 Autenticação
 
@@ -121,4 +124,5 @@ A tela de autenticação apresenta dois campos de preenchimento obrigatório:
 
 -   **Senha**: insira a senha do usuário, a mesma senha cadastrada no PEC o qual foi sincronizado
 
-> ![](media/image13.png) **NOTA**: A **senha de acesso** para o Aplicativo é a mesma utilizada pelo usuário no PEC.
+{: .nota }
+A **senha de acesso** para o Aplicativo é a mesma utilizada pelo usuário no PEC.
