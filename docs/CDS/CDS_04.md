@@ -70,7 +70,8 @@ Quadro 4.2 -- Identificação do(s) profissional(is) e lotação(ões)
 
 ## 4.3 Identificação dos cidadãos e local do atendimento
 
-> ![](media/cds_image2.png) **ATENÇÃO:** Para aumentar o número de registros identificados, a partir da versão 3.2.20 é possível registrar CNS ou **CPF** do cidadão atendido.
+{: .atencao }
+Para aumentar o número de registros identificados, a partir da versão 3.2.20 é possível registrar CNS ou **CPF** do cidadão atendido.
 
 Figura 4.3 -- Identificação do cidadão e local de atendimento e condição de saúde
 

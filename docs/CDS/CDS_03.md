@@ -21,9 +21,11 @@ last_modified_date: "now"
 
 **Profissionais que utilizam esta ficha:** É utilizada por profissionais de nível superior das equipes de Atenção Básica, do Núcleo de Apoio à Saúde da Família (NASF), do Polo Academia da Saúde, do Consultório na Rua (eCR) e das equipes de Atenção Básica Prisional (eABP), com exceção do cirurgião-dentista, que preenche a Ficha de Atendimento Odontológico Individual (específica para ESB).
 
-> ![](media/cds_image1.png) **NOTA**: devem ser inseridos, na ficha, os registros dos atendimentos realizados, **por profissional**, **exceto** quando for realizado um **atendimento compartilhado**. Neste caso, deve-se preencher uma Ficha de Atendimento Individual, com os dados dos dois profissionais que realizaram o atendimento compartilhado.
+{: .nota }
+devem ser inseridos, na ficha, os registros dos atendimentos realizados, **por profissional**, **exceto** quando for realizado um **atendimento compartilhado**. Neste caso, deve-se preencher uma Ficha de Atendimento Individual, com os dados dos dois profissionais que realizaram o atendimento compartilhado.
 
-> ![](media/cds_image2.png) **ATENÇÃO**: a ficha com registro de atendimento compartilhado, **não deve** ser utilizada para registrar outros atendimentos individuais realizado por apenas um dos profissionais.
+{: .atencao }
+a ficha com registro de atendimento compartilhado, **não deve** ser utilizada para registrar outros atendimentos individuais realizado por apenas um dos profissionais.
 
 A seguir, serão apresentados os campos da Ficha de Atendimento Individual e as orientações sobre como preenchê-los. Os campos assinalados com asterisco (/*) são de preenchimento obrigatório.  
 
@@ -72,11 +74,13 @@ Quadro 3.2 -- Identificação do(s) profissional(is) e lotação(ões)
 
 \* *Campo de preenchimento obrigatório.*
 
-> ![](media/cds_image2.png) **ATENÇÃO**: os **atendimentos compartilhados**, realizado com frequência pelas equipes de NASF e de AB, esse tipo de atendimento deve ser informado nas fichas do CDS inserindo-se todos os dados (CNS do profissional, CBO, CNES, INE) dos profissionais que realizaram o atendimento compartilhado.
+{: .atencao }
+os **atendimentos compartilhados**, realizado com frequência pelas equipes de NASF e de AB, esse tipo de atendimento deve ser informado nas fichas do CDS inserindo-se todos os dados (CNS do profissional, CBO, CNES, INE) dos profissionais que realizaram o atendimento compartilhado.
 
 ## 3.3 Identificação dos cidadãos e local do atendimento
 
-> ![](media/cds_image2.png) ATENÇÃO: Para aumentar o número de registros identificados, a partir da versão 3.2.20 é possível registrar CNS ou CPF do cidadão atendido.
+{: .atencao }
+Para aumentar o número de registros identificados, a partir da versão 3.2.20 é possível registrar CNS ou CPF do cidadão atendido.
 
 Figura 3.3 -- Identificação do cidadão e local de atendimento
 
@@ -295,7 +299,8 @@ Quadro 3.11 - Ficou em observação?
 
 *Fonte: SAS/MS.*
 
-> ![](media/cds_image2.png) **ATENÇÃO**: **concluído** o tempo de **observação**, o campo "**Conduta**" **deve** ser **informado** normalmente, por exemplo, informando se o cidadão foi "Encaminhamento para urgência" ou se teve "Alta do episódio", de acordo com cada caso.
+{: .atencao }
+**concluído** o tempo de **observação**, o campo "**Conduta**" **deve** ser **informado** normalmente, por exemplo, informando se o cidadão foi "Encaminhamento para urgência" ou se teve "Alta do episódio", de acordo com cada caso.
 
 ### 3.4.9 Núcleo de Apoio à Saúde da Família (NASF) e Polo Academia da Saúde
 
@@ -400,7 +405,8 @@ Quadro 3A.2 -- Identificação do profissional e do estabelecimento de saúde
 
 ## 3A.3 Identificação do cidadão
 
-> ![](media/cds_image2.png) ATENÇÃO: Para aumentar o número de registros identificados, a partir da versão 3.2.20 é possível registrar CNS ou CPF do cidadão atendido.
+{: .atencao }
+Para aumentar o número de registros identificados, a partir da versão 3.2.20 é possível registrar CNS ou CPF do cidadão atendido.
 
 Figura 3A.3 -- Identificação do cidadão
 
@@ -444,7 +450,8 @@ Quadro 3A.4 - Resultado de Exames
 
 \* *Campo de preenchimento obrigatório.*
 
-> ![](media/cds_image1.png) **NOTA**: para saber mais a respeito do Plano Nacional de Enfrentamento à Microcefalia, acesse os endereços eletrônicos [http://189.28.128.100/dab/docs/portaldab/documentos/Protocolo_microcefalia_virus_Zika.pdf](http://189.28.128.100/dab/docs/portaldab/documentos/Protocolo_microcefalia_virus_Zika.pdf) e [http://dab.saude.gov.br/portaldab/combate_aedes_aegypti.php?conteudo=material_apoio](http://dab.saude.gov.br/portaldab/combate_aedes_aegypti.php?conteudo=material_apoio)
+{: .nota }
+para saber mais a respeito do Plano Nacional de Enfrentamento à Microcefalia, acesse os endereços eletrônicos [http://189.28.128.100/dab/docs/portaldab/documentos/Protocolo_microcefalia_virus_Zika.pdf](http://189.28.128.100/dab/docs/portaldab/documentos/Protocolo_microcefalia_virus_Zika.pdf) e [http://dab.saude.gov.br/portaldab/combate_aedes_aegypti.php?conteudo=material_apoio](http://dab.saude.gov.br/portaldab/combate_aedes_aegypti.php?conteudo=material_apoio)
 
 [^6]: Disponível em: <https://cadastro.saude.gov.br/cadsusweb/manual.pdf/>.
 

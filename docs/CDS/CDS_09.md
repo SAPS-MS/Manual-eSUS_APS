@@ -19,7 +19,8 @@ last_modified_date: "now"
 
 A Coleta de Dados Simplificada, no âmbito do Serviço de Atenção Domiciliar (SAD), é composta por duas fichas de uso exclusivo das equipes que compõem o SAD -- Equipe Multiprofissional de Atenção Domiciliar (EMAD) e Equipe Multiprofissional de Apoio (EMAP): a Ficha de Avaliação de Elegibilidade e Admissão e a Ficha de Atendimento Domiciliar. Além disso, as equipes de Atenção Domiciliar (AD) também devem utilizar a Ficha de Atividade Coletiva da Atenção Básica, sobretudo, para registro do processo de qualificação do cuidador.
 
-> ![](media/cds_image2.png) **ATENÇÃO**: os campos assinalados com asterisco (\*) são de preenchimento obrigatório. Os campos com a figura geométrica: "□" são de múltipla escolha (ou seja, pode-se assinalar mais de uma opção), enquanto os que contêm a figura geométrica "○" são de opção única.
+{: .atencao }
+os campos assinalados com asterisco (\*) são de preenchimento obrigatório. Os campos com a figura geométrica: "□" são de múltipla escolha (ou seja, pode-se assinalar mais de uma opção), enquanto os que contêm a figura geométrica "○" são de opção única.
 
 ## 9.1 Ficha de Avaliação de Elegibilidade e Admissão
 
@@ -29,9 +30,11 @@ A Coleta de Dados Simplificada, no âmbito do Serviço de Atenção Domiciliar (
 
 **Profissionais que utilizam esta ficha:** Profissionais de nível superior (obrigatório) e de nível médio (opcional).
 
-> ![](media/cds_image2.png) **ATENÇÃO**: a ficha não deve ser repetida mensalmente. Apenas no caso de saída do usuário e readmissão na equipe é que deverá ser preenchida novamente.
+{: .atencao }
+a ficha não deve ser repetida mensalmente. Apenas no caso de saída do usuário e readmissão na equipe é que deverá ser preenchida novamente.
 
-> ![](media/cds_image1.png) **NOTA**: a ficha de avaliação deve ser utilizada sempre que a equipe realizar avaliação de cidadãos, mesmo que no momento o usuário não seja admitido no SAD.
+{: .nota }
+a ficha de avaliação deve ser utilizada sempre que a equipe realizar avaliação de cidadãos, mesmo que no momento o usuário não seja admitido no SAD.
 
 A seguir são apresentados os campos da ficha de Avaliação de Elegibilidade e Admissão, para uso exclusivo para o Serviço de Atenção Domiciliar (SAD). Os campos assinalados com asterisco (\*) são de preenchimento obrigatório.
 
@@ -66,7 +69,8 @@ Figura 9.2 -- Identificação do profissional e da equipe
 
 Quadro 9.2 -- Bloco de identificação do profissional e da equipe
 
-> ![](media/cds_image2.png) **ATENÇÃO**: Para aumentar o número de registros identificados, a partir da versão 3.2.20 é possível registrar CNS ou CPF do cidadão atendido.
+{: .atencao }
+Para aumentar o número de registros identificados, a partir da versão 3.2.20 é possível registrar CNS ou CPF do cidadão atendido.
 
 |CAMPO|ORIENTAÇÃO DE PREENCHIMENTO|
 |-|-|
@@ -140,8 +144,8 @@ Esse bloco deve ser utilizado para registrar situações/condições presentes e
 
 O campo "CID principal" é de preenchimento obrigatório e deve referir a patologia/lesão/situação de saúde que motivou a admissão do cidadão em AD, utilizando a Classificação Internacional de Doenças, versão 10 (CID-10). O campo "CID-10 secundário" é opcional e deve ser utilizado para registro de outras doenças que o cidadão apresenta. Nos casos em que já exista um diagnóstico prévio indicado nos documentos de encaminhamento/referência para o SAD, o CID-10 principal pode ser preenchido por qualquer profissional da EMAD.
 
-> ![](media/cds_image2.png) **ATENÇÃO**: o CID-10 secundário não
-> deve ser igual ao CID-10 primário.
+{: .atencao }
+o CID-10 secundário não deve ser igual ao CID-10 primário.
 
 O registro das condições avaliadas serve para facilitar a identificação e o registro de situações frequentes na AD, auxiliando na organização do trabalho da equipe e na análise da produção. Não deve, portanto, substituir o registro de informações no prontuário.
 
@@ -377,7 +381,8 @@ Quadro 9.12 -- Tipo de atendimento
 
 Este bloco deve ser utilizado para registrar situações/condições presentes e/ou avaliadas pelo profissional de saúde no atendimento do cidadão. As situações presentes devem ser assinaladas em todos os atendimentos e por todos os profissionais presentes, e a ausência de marcação indicará que a situação/condição deixou de ocorrer.
 
-> ![](media/cds_image2.png) **ATENÇÃO**: este registro serve para facilitar a identificação e o registro de situações frequentes na AD, auxiliando na organização do trabalho da equipe e na análise da demanda. Não deve, portanto, substituir o registro de informações na evolução e o registro de procedimentos realizados no prontuário clínico.
+{: .atencao }
+este registro serve para facilitar a identificação e o registro de situações frequentes na AD, auxiliando na organização do trabalho da equipe e na análise da demanda. Não deve, portanto, substituir o registro de informações na evolução e o registro de procedimentos realizados no prontuário clínico.
 
 Figura 9.15 -- Bloco Situações presentes e/ou avaliadas e CID
 
@@ -402,7 +407,8 @@ O campo "Outro procedimento" deve ser utilizado para registrar procedimentos rea
 
 Sugere-se que sejam registrados apenas os procedimentos mais característicos da AD. Assim, não há necessidade de registrar, por exemplo, procedimento de verificação de pressão arterial, sendo que este é um procedimento intrínseco ao processo de avaliação clínica de qualquer usuário.
 
-> ![](media/cds_image2.png) **ATENÇÃO**: vale ressaltar uma **mudança** significativa em relação aos **registros de procedimentos** no RAAS. Devido ao e-SUS AB conter informações oriundas do CNES e ter entradas individualizadas e registros por turno, **não** será **necessário o registro** de procedimentos relativos a **consultas, visitas, atendimento**. Estas informações serão obtidas do cabeçalho da ficha, ou seja, conforme o CNS e CBO do profissional.
+{: .atencao }
+vale ressaltar uma **mudança** significativa em relação aos **registros de procedimentos** no RAAS. Devido ao e-SUS AB conter informações oriundas do CNES e ter entradas individualizadas e registros por turno, **não** será **necessário o registro** de procedimentos relativos a **consultas, visitas, atendimento**. Estas informações serão obtidas do cabeçalho da ficha, ou seja, conforme o CNS e CBO do profissional.
 
 No caso de profissional de nível superior, serão contabilizados automaticamente os seguintes procedimentos: "consulta/atendimento domiciliar" e "visita domiciliar por profissional de nível superior". Por sua vez, os profissionais de nível médio terão registros automáticos de: "assistência domiciliar por profissional de nível médio" e "visita domiciliar por profissional de nível médio".
 

@@ -51,9 +51,11 @@ A estratégia é composta por dois sistemas:
 
 Durante o texto, os softwares do Sistema e-SUS AB também são referidos como Sistema com CDS e Sistema com PEC, respectivamente, ou ainda, simplesmente, CDS e PEC.
 
-> ![](media/cds_image1.png) **NOTA**: Para conhecer os conceitos e orientações do Sistema com PEC, consulte o Manual do Sistema com Prontuário Eletrônico do Cidadão. Especificamente sobre o módulo de digitação do CDS acesse o Capítulo 07 desse manual.
+{: .nota }
+Para conhecer os conceitos e orientações do Sistema com PEC, consulte o Manual do Sistema com Prontuário Eletrônico do Cidadão. Especificamente sobre o módulo de digitação do CDS acesse o Capítulo 07 desse manual.
 
-> ![](media/cds_image1.png) **NOTA**: Para mais informações sobre legislação, documentos e materiais de apoio sobre a Estratégia e-SUS AB, acesse a **página do e-SUS AB** por meio do endereço eletrônico[https://aps.saude.gov.br/ape/esus](https://aps.saude.gov.br/ape/esus)
+{: .nota }
+Para mais informações sobre legislação, documentos e materiais de apoio sobre a Estratégia e-SUS AB, acesse a **página do e-SUS AB** por meio do endereço eletrônico[https://aps.saude.gov.br/ape/esus](https://aps.saude.gov.br/ape/esus)
 
 ## 2. Fichas de Coleta de Dados Simplificada
 
@@ -86,11 +88,13 @@ Este manual foi elaborado para orientar os profissionais de saúde e gestores a 
 
 O processo de digitação deve ser definido no âmbito da gestão municipal, considerando os aspectos logísticos e os recursos humanos disponíveis a esse fim. Em especial, contemplando os diferentes cenários de implantação, como visto no Manual de Implantação da Estratégia e-SUS AB, o fluxo deve estar adequado a cada realidade.
 
-> ![](media/cds_image2.png) **ATENÇÃO**: o **profissional que realizou** o cadastro ou o atendimento/procedimento **é responsável pelas informações** que fornece, **não cabendo ao digitador**, ou a qualquer **outro profissional, **a complementação**, a **correção** ou o **apontamento** de campos que faltam, mesmo que conheçam a informação para complementar. Na ocasião de incorreções, sugere-se a devolução da ficha ao profissional que deu origem ao registro.
+{: .atencao }
+o **profissional que realizou** o cadastro ou o atendimento/procedimento **é responsável pelas informações** que fornece, **não cabendo ao digitador**, ou a qualquer **outro profissional, **a complementação**, a **correção** ou o **apontamento** de campos que faltam, mesmo que conheçam a informação para complementar. Na ocasião de incorreções, sugere-se a devolução da ficha ao profissional que deu origem ao registro.
 
 Nos outros capítulos deste manual serão apresentadas as fichas do CDS com a descrição dos campos disponíveis para o preenchimento das informações, os conceitos associados a cada um deles e as regras para o seu preenchimento e digitação no sistema.
 
-> ![](media/cds_image1.png) **NOTA**: diferente da política de controle de versão do Sistema e-SUS AB como um todo, visto na próxima seção, **as Fichas de CDS** podem passar por **alterações**/melhorias **anuais ou bienais**, conforme a necessidade apontada pelos municípios e pactuação tripartite. Por isso, é importante que os gestores e coordenadores de Atenção Básica estejam atentos à previsão de alteração de fichas para o planejamento da produção gráfica destas.
+{: .nota }
+diferente da política de controle de versão do Sistema e-SUS AB como um todo, visto na próxima seção, **as Fichas de CDS** podem passar por **alterações**/melhorias **anuais ou bienais**, conforme a necessidade apontada pelos municípios e pactuação tripartite. Por isso, é importante que os gestores e coordenadores de Atenção Básica estejam atentos à previsão de alteração de fichas para o planejamento da produção gráfica destas.
 
 ### 3. Política de Controle de Versão do Sistema e-SUS AB
 
@@ -133,7 +137,8 @@ Considerando o princípio doutrinário da universalidade no SUS, se o cidadão n
 
 O e-SUS AB apresenta aos profissionais das equipes de Atenção Básica um grande módulo de cadastro de cidadãos, o qual se subdivide em dois módulos distintos: **Cadastro do Cidadão** e **Cadastro do Território**. O primeiro é realizado por meio do PEC nas UBS e o seu principal objetivo é realizar o cadastramento dos usuários do serviço, mesmo que não façam parte do seu território. Trata-se de um cadastro mais simplificado, apenas com informações individuais, com possibilidade de interoperabilidade com a base nacional do CNS. Já o segundo é realizado por meio da Coleta de Dados Simplificada (CDS), a partir das fichas de Cadastro Individual e de Cadastro Domiciliar e Territorial, utilizados pelo Agente Comunitário de Saúde (ACS) para cadastrar os residentes em suas microáreas. Este cadastro é mais extenso e contém informações-chave sobre a população sob responsabilidade da equipe de saúde. Abordaremos o CDS com mais profundidade no Capítulo 7.
 
-> ![](media/cds_image1.png) **NOTA**: A consulta na base nacional do CNS depende de conexão de internet disponível na UBS.
+{: .nota }
+A consulta na base nacional do CNS depende de conexão de internet disponível na UBS.
 
 Apesar de se tratar de duas formas de cadastrar, os dados de ambas estão disponíveis para que a equipe de saúde possa obter informações de seus usuários da forma mais integrada possível. Uma vez cadastrado pela equipe, usando as fichas, e tenha sido digitado por meio do Sistema com CDS, se estiver utilizando o Sistema com PEC, as informações de cadastro já estarão disponíveis na base local para acesso, por meio do módulo "Cidadão".
 
@@ -183,7 +188,8 @@ Em todos esses casos, fica evidente a preocupação de não burocratizar o acolh
 
 Em síntese, o fluxograma definido no CAB 28, mostrado nas figuras 3 e 4, deve ser tomado como uma oferta, um ponto de partida possível, uma estratégia de visualização e organização do trabalho coletivo na UBS, devendo, sempre que necessário, ser adaptado, enriquecido, testado e ajustado, considerando a singularidade de cada lugar, de modo a facilitar o acesso, a escuta inicial qualificada e o atendimento a necessidades de saúde com equidade, assumindo a perspectiva usuário-centrada como um posicionamento ético-político, que tem implicações organizativas e no processo de trabalho das equipes.
 
-> ![](media/cds_image1.png) **NOTA**: para mais informações sobre fluxo de acolhimento à demanda espontânea, consulte o Caderno de Atenção Básica (CAB) nº 28, **Volume I**, por meio do endereço: [http://bvsms.saude.gov.br/bvs/publicacoes/acolhimento_demanda_espontanea.pdf](http://bvsms.saude.gov.br/bvs/publicacoes/acolhimento_demanda_espontanea.pdf), e **Volume II**, por meio do endereço: [http://bvsms.saude.gov.br/bvs/publicacoes/acolhimento_demanda_espontanea_queixas_comuns.pdf](http://bvsms.saude.gov.br/bvs/publicacoes/acolhimento_demanda_espontanea_queixas_comuns.pdf)
+{: .nota }
+para mais informações sobre fluxo de acolhimento à demanda espontânea, consulte o Caderno de Atenção Básica (CAB) nº 28, **Volume I**, por meio do endereço: [http://bvsms.saude.gov.br/bvs/publicacoes/acolhimento_demanda_espontanea.pdf](http://bvsms.saude.gov.br/bvs/publicacoes/acolhimento_demanda_espontanea.pdf), e **Volume II**, por meio do endereço: [http://bvsms.saude.gov.br/bvs/publicacoes/acolhimento_demanda_espontanea_queixas_comuns.pdf](http://bvsms.saude.gov.br/bvs/publicacoes/acolhimento_demanda_espontanea_queixas_comuns.pdf)
 
 ## 6. Classificação Internacional de Atenção Primária (CIAP)
 
@@ -238,7 +244,7 @@ BRASIL. Ministério da Saúde. **Acolhimento à demanda espontânea**. v. 1. Bra
 
 BRASIL. Ministério da Saúde. **Acolhimento à demanda espontânea: queixas mais comuns na atenção básica**. Brasília: Ministério da Saúde, 2012. (Cadernos de Atenção Básica, n. 28, volume 2)
 
-OLIVEIRA, Maria Amélia de Campos; PEREIRA, Iara Cristina. **Atributos essenciais da Atenção Primária e a Estratégia Saúde da Família**. Rev. bras. enferm., Brasília , v. 66, n. spe, p. 158-164, Sept. 2013 . Available from /<http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0034 71672013000700020&lng=en&nrm=iso/>. access on 22 Aug. 2017. http://dx.doi.org/10.1590/S0034-71672013000700020.
+OLIVEIRA, Maria Amélia de Campos; PEREIRA, Iara Cristina. **Atributos essenciais da Atenção Primária e a Estratégia Saúde da Família**. Rev. bras. enferm., Brasília , v. 66, n. spe, p. 158-164, Sept. 2013 . Available from http://www.scielo.br/scielo.php?script=sci_arttext&pid=S003471672013000700020&lng=en&nrm=iso. access on 22 Aug. 2017. http://dx.doi.org/10.1590/S0034-71672013000700020.
 
 ZURRO, A. Martín et al. **Atención primaria: conceptos, organización y práctica clínica**. Elsevier España, 2003
 

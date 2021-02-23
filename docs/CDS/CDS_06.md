@@ -74,7 +74,8 @@ Este bloco de informações permite a identificação do usuário que foi atendi
 
 O campo "Escuta inicial/Orientação" deverá ser marcado para registrar a realização de acolhimento, utilizado para demanda espontânea de acordo com o fluxo de cada UBS. Caso o acolhimento na UBS seja realizado por profissional técnico ou auxiliar de enfermagem, esse procedimento deverá ser registrado na Ficha de Procedimentos; caso seja realizado por profissional de nível superior, poderá ser registrado na Ficha de Procedimentos quando a escuta inicial orientação se der fora do atendimento, ou na Ficha de Atendimento Individual quando o próprio tipo de atendimento se configurar como escuta inicial/orientação.
 
-> ![](media/cds_image2.png) **ATENÇÃO:** Para aumentar o número de registros identificados, a partir da versão 3.2.20 é possível registrar CNS ou **CPF** do cidadão atendido.
+{: .atencao }
+Para aumentar o número de registros identificados, a partir da versão 3.2.20 é possível registrar CNS ou **CPF** do cidadão atendido.
 
 Figura 6.3 -- Identificação dos cidadãos, local de atendimento e escuta inicial/orientação
 
@@ -102,9 +103,11 @@ Quadro 6.3 -- Dados dos usuários, local de atendimento e escuta inicial/orienta
 
 É realizada no momento em que o usuário chega ao serviço de saúde, primeiro contato, relatando queixas ou sinais e sintomas percebidos por ele. Durante o acolhimento e escuta qualificada, o profissional, poderá resolver o caso por meio de orientação ou, ainda, realizar classificação de risco com análise de vulnerabilidade para atendimento imediato/no mesmo dia para cidadão em situação aguda ou com agendamento garantido para outro dia para cidadão com situação não aguda.
 
-> ![](media/cds_image2.png) **ATENÇÃO**: o ato de escuta inicial/orientação deve ser **registrado** uma **única vez por cidadão**.
+{: .atencao }
+o ato de escuta inicial/orientação deve ser **registrado** uma **única vez por cidadão**.
 
-> ![](media/cds_image1.png) **NOTA**: para saber mais sobre escuta inicial e processo de acolhimento à demanda espontânea, consulte o [Caderno de Atenção Básica - CAB - Acolhimento nº 28](http://189.28.128.100/dab/docs/publicacoes/cadernos_ab/caderno_28.pdf)
+{: .nota }
+para saber mais sobre escuta inicial e processo de acolhimento à demanda espontânea, consulte o [Caderno de Atenção Básica - CAB - Acolhimento nº 28](http://189.28.128.100/dab/docs/publicacoes/cadernos_ab/caderno_28.pdf)
 
 ## 6.5 Procedimentos/pequenas cirurgias
 
@@ -118,7 +121,8 @@ Figura 6.4 -- Procedimentos/pequenas cirurgias
 
 O profissional deverá marcar um "x" na opção da linha correspondente ao procedimento realizado.
 
-> ![](media/cds_image2.png) **ATENÇÃO**: os campos de administração de medicamentos, são destinados ao registro do profissional que administrou, e **não** deve ser utilizado para registro de prescrição.
+{: .atencao }
+os campos de administração de medicamentos, são destinados ao registro do profissional que administrou, e **não** deve ser utilizado para registro de prescrição.
 
 Ainda neste bloco, o profissional pode registrar outros procedimentos não constantes na listagem (até seis por cidadão). Esses procedimentos devem ser descritos a partir do seu código SIGTAP, sendo o preenchimento registrado de forma vertical.
 
@@ -128,7 +132,8 @@ Figura 6.5 -- Registro de outros procedimentos
 
 *Fonte: SAS/MS.*
 
-> ![](media/cds_image1.png) **NOTA**: para mais informações sobre o **SIGTAP** acesse: http://sigtap.datasus.gov.br/tabela-unificada/app/sec/inicio.jsp.
+{: .nota }
+para mais informações sobre o **SIGTAP** acesse: http://sigtap.datasus.gov.br/tabela-unificada/app/sec/inicio.jsp.
 
 ## 6.6 Procedimentos consolidados
 
@@ -136,7 +141,8 @@ Este bloco de informações é utilizado para o registro dos procedimentos reali
 
 O bloco em questão traz informações consolidadas e destina-se principalmente aos profissionais que atuam na sala de procedimentos (a exemplo de auxiliares e técnicos de enfermagem) e realizam esses procedimentos comuns em grande número de usuários em um mesmo dia, tais como: aferição de PA, aferição de temperatura, curativo simples, coleta de material para exame laboratorial, glicemia capilar, medição de altura e medição de peso.
 
-> ![](media/cds_image2.png) **ATENÇÃO**: Caso um profissional de nível superior faça um desses procedimentos durante o atendimento individual, se necessário, pode registrá-lo na Ficha de Atendimento Individual, não havendo necessidade de registrá-lo no bloco de procedimentos consolidados.
+{: .atencao }
+Caso um profissional de nível superior faça um desses procedimentos durante o atendimento individual, se necessário, pode registrá-lo na Ficha de Atendimento Individual, não havendo necessidade de registrá-lo no bloco de procedimentos consolidados.
 
 Figura 6.6 -- Registro de procedimentos consolidados
 

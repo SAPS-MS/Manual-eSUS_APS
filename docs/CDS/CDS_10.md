@@ -17,7 +17,8 @@ last_modified_date: "now"
 - TOC
 {:toc}
 
-> ![](media/cds_image53.png) **ATUALIZAÇÃO:** disponível a partir da versão 3.0.
+{: .atualizacao }
+disponível a partir da versão 3.0.
 
 **Objetivo da ficha:** É utilizada para registro de informações das vacinas aplicadas na rotina, campanhas ou demais estratégias realizadas na Atenção Básica. Ela identifica as vacinas que foram aplicadas no cidadão, assim como o profissional que a realizou. Esta ficha não deve ser utilizada para o registro de doses aplicadas anteriormente, mas somente para as administradas no dia.
 
@@ -25,7 +26,8 @@ last_modified_date: "now"
 
 A seguir são apresentados os campos da Ficha de Vacinação e as orientações de como preenchê-los. Os campos assinalados com asterisco (\*) são de preenchimento obrigatório.
 
-> ![](media/cds_image1.png) **NOTA**: para informações sobre **Normas e Procedimento de Vacinação**, acesse o endereço eletrônico do [Manual disponibilizado pelo Programa Nacional de Imunizações](http://bvsms.saude.gov.br/bvs/publicacoes/manual_procedimentos_vacinacao.pdf)
+{: .nota }
+para informações sobre **Normas e Procedimento de Vacinação**, acesse o endereço eletrônico do [Manual disponibilizado pelo Programa Nacional de Imunizações](http://bvsms.saude.gov.br/bvs/publicacoes/manual_procedimentos_vacinacao.pdf)
 
 ## 10.1 Cabeçalho
 
@@ -75,7 +77,8 @@ Quadro 10.2 -- Identificação do profissional e lotação
 
 Este bloco de informações permite a identificação do usuário que foi atendido por meio do CNS ou CPF, data de nascimento e sexo. Os dados informam também sobre o local do atendimento.
 
-> ![](media/cds_image2.png) ATENÇÃO: Para aumentar o número de registros identificados, a partir da versão 3.2.20 é possível registrar CNS ou CPF do cidadão atendido.
+{: .atencao }
+Para aumentar o número de registros identificados, a partir da versão 3.2.20 é possível registrar CNS ou CPF do cidadão atendido.
 
 Figura 10.3 -- Identificação dos cidadãos e local de atendimento
 
@@ -127,7 +130,8 @@ Figura 10.6 - Imunobiológicos (verso)
 
 Para cada vacina aplicada o profissional deverá indicar a estratégia, a dose, o lote e o fabricante do imunobiológico. A estratégia e a dose obedecerão à legenda disponível no verso da ficha.
 
-> ![](media/cds_image2.png) **ATENÇÃO**: **exclusivamente** para o registro de aplicação de **BCG**, caso o cidadão for **comunicante de hanseníase**, deverá marcar um "X" no campo "Comun. Hansen.".
+{: .atencao }
+**exclusivamente** para o registro de aplicação de **BCG**, caso o cidadão for **comunicante de hanseníase**, deverá marcar um "X" no campo "Comun. Hansen.".
 
 Ainda neste bloco, o profissional pode registrar **outros imunobiológicos** não constantes na listagem (até cinco por ficha), como vacinas especiais, soros e imunoglobulinas. Esses imunobiológicos devem ser descritos a partir da sua nomenclatura oficial disponibilizada pela CGPNI, observando o preenchimento do tipo de estratégia, dose, lote e fabricante.
 
@@ -248,4 +252,5 @@ COV19-JAN | Ad26.COV2.S | Janssen-Cilag
 
 O campo `Estratégia` já vem pré-preenchido com a opção "5-Campanha". O campo `Dose` deverá ser preenchido com a dose aplicada do imunobiológico. O campo `lote` deverá ser preenchido com a numeração do lote contido no frasco da vacina. O campo `Fabricante` deverá ser preenchido de acordo com o apresentado no frasco do imunobiológico.
 
-> ![](media/cds_image2.png) **ATENÇÃO**: É importante prestar muita atenção tanto ao processo de preparação e aplicação da vacina quanto o registro da vacinação no e-SUS APS, pois não pode haver aplicação cruzada de vacinas. Desta forma o registro correto da vacinação é importante para que não ocorram erros na execução da 2ª dose da vacina.
+{: .atencao }
+É importante prestar muita atenção tanto ao processo de preparação e aplicação da vacina quanto o registro da vacinação no e-SUS APS, pois não pode haver aplicação cruzada de vacinas. Desta forma o registro correto da vacinação é importante para que não ocorram erros na execução da 2ª dose da vacina.

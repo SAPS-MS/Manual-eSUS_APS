@@ -5,7 +5,7 @@ parent: Coleta de Dados Simplificada v3.2
 nav_order: 3
 has_children: false
 has_toc: true
-last_modified_date: "now"
+
 ---
 
 # CAPÍTULO 2 - Cadastro da Atenção Básica
@@ -21,7 +21,8 @@ O cadastro da Atenção Básica é uma extensão do Sistema de Cadastramento de 
 
 O cadastro está organizado em duas dimensões -- individual e domiciliar/territorial --, a dimensão individual capta as informações do cidadão, enquanto a dimensão domiciliar/territorial permite captar as informações do domicílio, vinculando o cidadão ao território. A partir da v 2.1, no e SUS AB esse cadastro possibilita o registro de domicílios que estejam vazios ou abandonados e outros imóveis do território, além da inserção de novos núcleos familiares sem que a equipe tenha que refazer o cadastro domiciliar.
 
-> ![](media/cds_image2.png) **ATENÇÃO**: novos conceitos! A visão de território agora está ampliada. Além de cadastrar os domicílios, também mapeamos outros imóveis do território, como: comércios, terrenos baldios, pontos estratégicos, escola, creche, abrigo, instituição de longa permanência para idosos, unidade prisional, delegacia, estabelecimento religioso, entre outros.
+{: .atencao }
+novos conceitos! A visão de território agora está ampliada. Além de cadastrar os domicílios, também mapeamos outros imóveis do território, como: comércios, terrenos baldios, pontos estratégicos, escola, creche, abrigo, instituição de longa permanência para idosos, unidade prisional, delegacia, estabelecimento religioso, entre outros.
 
 
 ## 2.1 Cadastro Individual
@@ -30,7 +31,8 @@ O cadastro está organizado em duas dimensões -- individual e domiciliar/territ
 
 **Profissionais que utilizam esta ficha:** Todos os membros das Equipes que atuam na Atenção Básica. Todos os profissionais são habilitados a preencher a ficha de Cadastro Individual.
 
-> ![](media/cds_image2.png) **ATENÇÃO**: toda vez que o ACS realizar cadastro individual, ele deverá preencher esta atividade também na Ficha de Visita Domiciliar, assinalando o campo "Cadastramento/Atualização". Deverá ser utilizado o CNS ou CPF do indivíduo cadastrado.
+{: .atencao }
+toda vez que o ACS realizar cadastro individual, ele deverá preencher esta atividade também na Ficha de Visita Domiciliar, assinalando o campo "Cadastramento/Atualização". Deverá ser utilizado o CNS ou CPF do indivíduo cadastrado.
 
 A seguir, detalharemos o modo de preenchimento da ficha, atenção aos campos assinalados na ficha com asterisco (/*), pois estes são de preenchimento obrigatório.
 
@@ -85,7 +87,8 @@ O próximo bloco é utilizado para identificação do profissional que realizou 
 Este bloco visa a identificação do cidadão/usuário do serviço de saúde
 que está sendo cadastrado.
 
-> ![](media/cds_image2.png) ATENÇÃO: Para aumentar o número de registros identificados, a partir da versão 3.2.20 é possível registrar CNS ou CPF do cidadão atendido.
+{: .atencao }
+Para aumentar o número de registros identificados, a partir da versão 3.2.20 é possível registrar CNS ou CPF do cidadão atendido.
 
 **Figura 2.3 -- Identificação do usuário/cidadão**
 
@@ -120,9 +123,11 @@ que está sendo cadastrado.
 
 \** Campo obrigatório condicionado a pergunta anterior.
 
-> ![](media/cds_image2.png) **ATENÇÃO**: é importante registrar o **CNS** ou CPF para **identificação** e vinculação do cidadão de seus dados com os registros de atendimento dentro do serviço de saúde. Entretanto, sob hipótese alguma, o fato de **não ter** disponível o n° do **CNS** **ou CPF** deverá inviabilizar o acesso do cidadão aos estabelecimentos de saúde, bem como o cuidado prestado a ele.
+{: .atencao }
+é importante registrar o **CNS** ou CPF para **identificação** e vinculação do cidadão de seus dados com os registros de atendimento dentro do serviço de saúde. Entretanto, sob hipótese alguma, o fato de **não ter** disponível o n° do **CNS** **ou CPF** deverá inviabilizar o acesso do cidadão aos estabelecimentos de saúde, bem como o cuidado prestado a ele.
 
-> ![](media/cds_image1.png) **NOTA**: para mais informações sobre o CNS, acesse o endereço eletrônico [https://portaldocidadao.saude.gov.br/portalcidadao/](https://portaldocidadao.saude.gov.br/portalcidadao/).
+{: .nota }
+para mais informações sobre o CNS, acesse o endereço eletrônico [https://portaldocidadao.saude.gov.br/portalcidadao/](https://portaldocidadao.saude.gov.br/portalcidadao/).
 
 |RESPONSÁVEL FAMILIAR|
 |--|
@@ -291,9 +296,11 @@ Caso o motivo de saída do cidadão do cadastro seja por óbito, registrar ainda
 Este bloco é preenchido quando o cidadão se recusa a fornecer os dados para preenchimento do seu cadastro. Quando isso acontece, é solicitado ao entrevistado que assine o termo de recusa para assegurar que ele está ciente.
 Em situações em que o cidadão se recuse também a assinar o termo, a validação dessa informação deve ser discutida com o profissional responsável pela supervisão e/ou coordenação desta equipe.
 
-> ![](media/cds_image1.png) **NOTA**: para que a recusa seja efetivada, é necessário que o ACS preencha alguns campos que são obrigatórios para o sistema, tais como número do CNS do profissional que faz o cadastro, CNES da unidade de saúde e data de cadastro. Com isso, é importante que estes campos também sejam preenchidos no caso de recusa do cadastro, para que esta informação possa ser digitada no sistema com CDS.
+{: .nota }
+para que a recusa seja efetivada, é necessário que o ACS preencha alguns campos que são obrigatórios para o sistema, tais como número do CNS do profissional que faz o cadastro, CNES da unidade de saúde e data de cadastro. Com isso, é importante que estes campos também sejam preenchidos no caso de recusa do cadastro, para que esta informação possa ser digitada no sistema com CDS.
 >
-> ![](media/cds_image2.png) **ATENÇÃO**: a recusa do cidadão ao cadastro, seja ele individual ou domiciliar / territorial, não implicará o não atendimento deste na unidade de saúde, bem como quaisquer outras formas de discriminação.
+{: .atencao }
+a recusa do cidadão ao cadastro, seja ele individual ou domiciliar / territorial, não implicará o não atendimento deste na unidade de saúde, bem como quaisquer outras formas de discriminação.
 
 ### 2.1.6 Questionário Autorreferido de Condições/Situações de Saúde
 
@@ -713,9 +720,11 @@ Figura 2.11 -- Identificação de famílias ou núcleos familiares
 
 *Fonte: SAS/MS.*
 
-> ![](media/cds_image2.png) **ATENÇÃO**: o bloco de identificação de famílias/núcleos familiares deve ser preenchido somente se houver moradores ocupando o domicílio. Caso esteja ocupado, será obrigatório o preenchimento do CNS ou CPF do responsável a fim de permitir a identificação de vínculos familiares entre os indivíduos cadastrados pela Ficha de Cadastro Individual.
+{: .atencao }
+o bloco de identificação de famílias/núcleos familiares deve ser preenchido somente se houver moradores ocupando o domicílio. Caso esteja ocupado, será obrigatório o preenchimento do CNS ou CPF do responsável a fim de permitir a identificação de vínculos familiares entre os indivíduos cadastrados pela Ficha de Cadastro Individual.
 
-> ![](media/cds_image2.png) **ATENÇÃO**: mesmo que um cidadão tenha mais de um cadastro no território, para fins de vinculação de um núcleo familiar, o **cidadão não poderá ser Responsável Familiar em mais de um domicílio**.
+{: .atencao }
+mesmo que um cidadão tenha mais de um cadastro no território, para fins de vinculação de um núcleo familiar, o **cidadão não poderá ser Responsável Familiar em mais de um domicílio**.
 
 ### 2.2.7 Termo de Recusa do Cadastro Domiciliar da Atenção Básica
 
@@ -723,7 +732,8 @@ Este bloco é preenchido quando as pessoas do domicílio se recusam a fornecer o
 
 Mesmo quando o Termo de Recusa é assinalado, é obrigatório o preenchimento dos campos do bloco de identificação do estabelecimento de saúde, profissional e data da visita.
 
-> ![](media/cds_image2.png) **ATENÇÃO**: sempre que o profissional realizar um cadastro domiciliar no domicílio, ele deverá preencher esta atividade também na Ficha de Visita Domiciliar, assinalando o campo "Cadastramento/Atualização". Neste caso, deverá ser utilizado o CNS ou CPF do responsável familiar.
+{: .atencao }
+sempre que o profissional realizar um cadastro domiciliar no domicílio, ele deverá preencher esta atividade também na Ficha de Visita Domiciliar, assinalando o campo "Cadastramento/Atualização". Neste caso, deverá ser utilizado o CNS ou CPF do responsável familiar.
 
 Figura 2.12 -- Termo de Recusa do Cadastro Domiciliar da Atenção
 Básica

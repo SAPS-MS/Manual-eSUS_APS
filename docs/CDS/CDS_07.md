@@ -21,7 +21,8 @@ last_modified_date: "now"
 
 **Profissionais que utilizam esta ficha:** o conceito de visita domiciliar foi redefinido. Dessa forma, agora é considerado apenas de competência do agente comunitário de saúde (ACS) e do agente de combate às endemias (ACE). Para todos os outros profissionais de saúde, nível médio e nível superior redefiniu-se como atendimento individual, e o local - domicílio.
 
-> ![](media/cds_image2.png) **ATENÇÃO**: a Ficha de Visita Domiciliar e Territorial é de **uso exclusivo** do ACS e do ACE. Para os demais profissionais, a visita domiciliar é definida como atendimento realizado no domicílio, e deve ser registrada na Ficha de Atendimento (Individual/Odontológico Individual), especificando, no campo "Local de Atendimento", 04 - Domicílio.
+{: .atencao }
+a Ficha de Visita Domiciliar e Territorial é de **uso exclusivo** do ACS e do ACE. Para os demais profissionais, a visita domiciliar é definida como atendimento realizado no domicílio, e deve ser registrada na Ficha de Atendimento (Individual/Odontológico Individual), especificando, no campo "Local de Atendimento", 04 - Domicílio.
 
 Preencher no momento da visita. Caso não seja possível, pode ser preenchida logo após o término da visita**.** A seguir, serão apresentados os campos e as orientações sobre como preenchê-la. Os campos assinalados com asterisco (/*) são de preenchimento obrigatório.
 
@@ -70,7 +71,8 @@ Quadro 7.2 -- Identificação do estabelecimento de saúde e do profissional
 
 Além das informações que constam no cabeçalho de cada ficha, esta ainda possui campos que permitem a identificação do usuário, essenciais à individualização do registro, e a sinalização de realização de visita compartilhada. São eles:
 
-> ![](media/cds_image2.png) ATENÇÃO: Para aumentar o número de registros identificados, a partir da versão 3.2.20 é possível registrar CNS ou CPF do cidadão atendido.
+{: .atencao }
+Para aumentar o número de registros identificados, a partir da versão 3.2.20 é possível registrar CNS ou CPF do cidadão atendido.
 
 Figura 7.3 -- Identificação do usuário e visita compartilhada
 
@@ -254,4 +256,5 @@ Quadro 7.10 -- Desfecho
 
 *Fonte: SAS/MS.*
 
-> ![](media/cds_image2.png) **ATENÇÃO**: quando a visita for recusada ou o cidadão estiver ausente, o profissional deverá apontar um dos desfechos: "Visita recusada" ou "Ausente", lembrando sempre de preencher a identificação do profissional, lotação e data, para que seja possível a inserção da ficha no sistema.
+{: .atencao }
+quando a visita for recusada ou o cidadão estiver ausente, o profissional deverá apontar um dos desfechos: "Visita recusada" ou "Ausente", lembrando sempre de preencher a identificação do profissional, lotação e data, para que seja possível a inserção da ficha no sistema.

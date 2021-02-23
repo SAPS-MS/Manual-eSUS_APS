@@ -21,9 +21,11 @@ last_modified_date: "now"
 
 **Profissionais que utilizam esta ficha:** podem ser utilizados por qualquer profissional da equipe de Atenção Básica.
 
-> ![](media/cds_image1.png) **NOTA**: para saber mais sobre o Ciclo de Gestão e Produção do Cuidado acesse o [**Marco de Referência da Vigilância Alimentar e Nutricional na Atenção Básica**](http://bvsms.saude.gov.br/bvs/publicacoes/marco_referencia_vigilancia_alimentar.pdf).
+{: .nota }
+para saber mais sobre o Ciclo de Gestão e Produção do Cuidado acesse o [**Marco de Referência da Vigilância Alimentar e Nutricional na Atenção Básica**](http://bvsms.saude.gov.br/bvs/publicacoes/marco_referencia_vigilancia_alimentar.pdf).
 
-> ![](media/cds_image1.png) **NOTA**: para auxiliar a utilização do formulário de Marcadores de Consumo Alimentar e a orientação sobre práticas alimentares saudáveis, recomenda-se o uso do documento [**Orientações para Avaliação de Marcadores de Consumo Alimentar na Atenção Básica**](http://bvsms.saude.gov.br/bvs/publicacoes/marcadores_consumo_alimentar_atencao_basica.pdf).
+{: .nota }
+para auxiliar a utilização do formulário de Marcadores de Consumo Alimentar e a orientação sobre práticas alimentares saudáveis, recomenda-se o uso do documento [**Orientações para Avaliação de Marcadores de Consumo Alimentar na Atenção Básica**](http://bvsms.saude.gov.br/bvs/publicacoes/marcadores_consumo_alimentar_atencao_basica.pdf).
 
 A seguir, serão apresentados os campos do formulário de Marcadores de Consumo Alimentar e as orientações sobre como preenchê-los. Os campos assinalados com asterisco (\*) são de preenchimento obrigatório. Os campos assinalados com dois asteriscos (\*) apontam que todas as questões do bloco deverão ser respondidas.
 
@@ -78,7 +80,8 @@ Quadro 8.2 -- Identificação do profissional e lotação
 
 Este bloco de informações permite a identificação do usuário que foi atendido por meio do CNS e nome do cidadão, data de nascimento e sexo. Os dados deste bloco informam também sobre o local do atendimento.
 
-> ![](media/cds_image2.png) **ATENÇÃO:** Para aumentar o número de registros identificados, a partir da versão 3.2.20 é possível registrar CNS ou **CPF** do cidadão atendido.
+{: .atencao }
+Para aumentar o número de registros identificados, a partir da versão 3.2.20 é possível registrar CNS ou **CPF** do cidadão atendido.
 
 Figura 8.3 -- Identificação do cidadão e local de atendimento
 
