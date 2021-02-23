@@ -39,3 +39,23 @@ Utilize o [GitHub Desktop](https://desktop.github.com/) para baixar o projeto em
 Utilize o [Atom](https://atom.io/) para realizar as edições dos arquivos e os respectivos envios (também conhecido como *commit*). É possível realizar todas as operações de *commit* a partir do Atom. Para isto é necessário ativar o pacote de integração do GitHub disponível no próprio Atom (menu `Packages` > `GitHub` > `Toggle GitHub Tab`). Após configurar sua conta GitHub no Atom é necessário clicar na opção `Git` no canto inferior direito do Atom. Será apresentado uma aba com informações relacionadas ao repositório em que você estará trabalhando, os arquivos que foram identificados com alguma alteração e as opções de *commit*. Não esqueça de salvar as alterações antes de realizar o *commit*. Após salvar, os arquivos alterados estarão no bloco `Unstaged Changes`. Clique na opção `Stage All` e os arquivos estarão prontos para serem enviados para o repositório no GitHub. Clique em `Commit to main` para confirmar as alterações no arquivo.
 
 > *Sempre que for realizar uma atualização de conteúdo é desejável que inclua um resumo das alterações na descrição do commit. Isto facilitará o entendimento da alteração realizada por outros usuários do repositório.*
+
+É possível utilizar blocos de chamada (callouts) no texto para dar destaque a informações do tipo `Atenção`, `Nota`, `Dica` e `Atualização`. Os conceitos de cada item e o comando que deve ser utilizado antes de cada bloco são apresentados no quadro a seguir:
+
+|Bloco|Conceito|Formato|
+|-|-|-|
+|**ATENÇÃO**|bloco utilizado para destacar uma informação importante para o funcionamento do sistema, caso o usuário não tome atenção ao fato citado é possível que o fluxo não funcione.|{: .atencao }|
+|**NOTA**|bloco utilizado para informar ao usuário sobre possíveis problemas na execução de um processo com um fluxo diferente do padrão (caminho feliz).|{: .nota }|
+|**DICA**|bloco que dá dicas sobre boas práticas no uso do sistema que podem garantir melhores resultados no uso do sistema.|{: .dica }|
+|**ATUALIZAÇÃO**|este marcador localiza no manual as alterações (novidades e melhorias) disponível no sistema a partir da versão em questão.|{: .atualizacao }|
+
+Exemplo:
+
+Com o código:
+```
+{: .nota }
+![](media/image8.png) **NOTA**: Para ter mais detalhes sobre as versões com compatibilidade entre Aplicativo e-SUS Atividade Coletiva e Sistema e-SUS APS com PEC [clique aqui](http://dab.saude.gov.br/portaldab/esus.php?conteudo=download).
+```
+O manual se apresenta desta forma:
+
+![](assets/media/nota.png)

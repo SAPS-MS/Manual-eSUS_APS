@@ -51,15 +51,15 @@ heading_anchors: true
 
 # Callouts
 callouts:
-  attention:
+  atencao:
     title: Atenção
-    color: purple
+    color: yellow
   atualizacao:
     title: Atualização
-    color: yellow
+    color: blue
   nota:
     title: Nota
-    color: blue
+    color: grey-dk
   dica:
     title: Dica
     color: green
