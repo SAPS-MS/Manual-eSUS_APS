@@ -18,7 +18,8 @@ Neste capítulo, abordaremos as questões pertinentes ao processo de instalaçã
 - TOC
 {:toc}
 
-> ![](media/pec_image58.png) **NOTA**: Para ter maior entendimento sobre qual sistema ou cenário de implantação é mais adequado para o seu município, veja o **Manual de Implantação** do Sistema e-SUS Atenção Básica, disponível em: http://aps.saude.gov.br/ape/esus/comoimplantar.
+{: .nota }
+Para ter maior entendimento sobre qual sistema ou cenário de implantação é mais adequado para o seu município, veja o **Manual de Implantação** do Sistema e-SUS Atenção Básica, disponível em: http://aps.saude.gov.br/ape/esus/comoimplantar.
 
 # 2.1 Sistema Operacional
 
@@ -42,7 +43,8 @@ O banco de dados PostgreSQL é um *software* livre, portanto, sem custo de licen
 
 **Banco H2** - nas versões anteriores à 2.0, era usado como banco de dados- padrão. Pode ser utilizado em UBS com servidor local ou para instalações centralizadas com **até 20 usuários** simultâneos, porém este banco não é mais recomendado. Portanto, a partir da versão 2.0, o banco de dados H2 não será mais suportado pelo Sistema e-SUS APS com PEC, sendo utilizado, exclusivamente, para *software* CDS.
 
-> ![](media/pec_image59.png) **ATENÇÃO**: A partir da versão 2.0, o suporte ao Banco de Dados **H2** **será** **descontinuado** para instalações do Sistema e-SUS APS com **PEC**, estando disponível apenas para o Sistema com CDS (Offline).
+{: .atencao }
+A partir da versão 2.0, o suporte ao Banco de Dados **H2** **será** **descontinuado** para instalações do Sistema e-SUS APS com **PEC**, estando disponível apenas para o Sistema com CDS (Offline).
 
 **Banco de Dados Oracle** - optando por este banco de dados, podem ser utilizadas as versões Oracle XE 11g, Oracle Standard Edition 11g ou Oracle Enterprise Edition 11g.
 
@@ -156,7 +158,8 @@ No e- Gestor, foi criado o perfil Gestor da Atenção Básica. Este novo papel t
 
 ![](media/pec_image61.png)
 
-> ![](media/pec_image59.png) **ATENÇÃO**: a senha deverá ser digitada da mesma forma que foi registrada (considerando letras maiúsculas, minúsculas e caracteres especiais).
+{: .atencao }
+a senha deverá ser digitada da mesma forma que foi registrada (considerando letras maiúsculas, minúsculas e caracteres especiais).
 
 - Passo 3. Clique em "Cadastrar Novo".
 
@@ -272,7 +275,8 @@ As principais funcionalidades do centralizador são:
 
 A instalação multimunicipal atende a situações onde municípios ou o Estado tem capacidade de compartilhar uma instalação para outros municípios (com boa conectividade).
 
-> ![](media/pec_image59.png) **ATENÇÃO**: na instalação multimunicipal, o PEC é configurado para ser utilizado na modalidade de prontuário, permitindo que o administrador municipal utilize o sistema conforme a sua necessidade e com total autonomia.
+{: .atencao }
+na instalação multimunicipal, o PEC é configurado para ser utilizado na modalidade de prontuário, permitindo que o administrador municipal utilize o sistema conforme a sua necessidade e com total autonomia.
 
 Esse tipo de instalação permite o compartilhamento de cadastros e prontuários clínicos de usuários entre os municípios, facilitando a identificação do paciente e sua localização, reduzindo a necessidade de novo cadastro no território de abrangência. Sua única função é cadastrar profissionais responsáveis pela utilização da aplicação, conhecidos como "Administrador da Instalação". Cada administrador da instalação (seja ele do município, Estado, distrito ou região) deve estar devidamente cadastrado no Sistema e-Gestor.
 
@@ -304,9 +308,11 @@ Para fazer o *download* (baixar) do sistema para instalação, basta acessar o s
 
 A partir da opção Baixar sistema, serão apresentadas várias opções de instaladores, conforme seu sistema operacional (Windows e Linux) ou ainda conforme sua necessidade (sistema de produção ou treinamento). Selecione a opção que mais se adapte à sua necessidade e siga os passos apresentados para fazer a instalação em seu sistema.
 
-> ![](media/pec_image58.png) **NOTA**: o termo **sistema de produção** é usado para designar os sistemas que estão sendo usados pelas equipes de saúde para desenvolver as atividade do cotidiano, sem que este uso seja categorizado como para treinamento ou uso em homologação do sistema.
+{: .nota }
+o termo **sistema de produção** é usado para designar os sistemas que estão sendo usados pelas equipes de saúde para desenvolver as atividade do cotidiano, sem que este uso seja categorizado como para treinamento ou uso em homologação do sistema.
 
-> ![](media/pec_image59.png) **ATENÇÃO**: para realizar atividades de treinamento e capacitação dos profissionais da equipe de saúde, utilize sempre a **versão de treinamento** do Sistema e-SUS APS. Esta versão tem as mesmas funcionalidades da versão de produção, **porém ela garante que os dados NÃO sejam enviados ao SISAB**.
+{: .atencao }
+para realizar atividades de treinamento e capacitação dos profissionais da equipe de saúde, utilize sempre a **versão de treinamento** do Sistema e-SUS APS. Esta versão tem as mesmas funcionalidades da versão de produção, **porém ela garante que os dados NÃO sejam enviados ao SISAB**.
 
 ## 2.6.2 Acessando o Sistema pela Primeira Vez
 

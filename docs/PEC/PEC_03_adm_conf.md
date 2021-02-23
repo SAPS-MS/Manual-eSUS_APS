@@ -34,11 +34,13 @@ Figura 3.1.2 - Tela do módulo "Administração municipal" acessado com o perfil
 
 Fonte: SAPS/MS.
 
-> ![](media/pec_image58.png) **NOTA**: caso o usuário acesse esse módulo com perfil diferente de administrador da instalação ou de Administrador municipal terá um conjunto de funcionalidades restritas ao seu perfil.
+{: .nota }
+caso o usuário acesse esse módulo com perfil diferente de administrador da instalação ou de Administrador municipal terá um conjunto de funcionalidades restritas ao seu perfil.
 
 Após a instalação do sistema, é necessário fazer sua configuração para, então, começar a utilizá-lo. Seguem abaixo as etapas a serem seguidas para o uso do PEC. É importante seguir a ordem dessas orientações, uma vez que algumas etapas dependem de outras anteriores. Os passos a seguir, conforme o Quadro 3.1, constituem um fluxo lógico para manusear o Sistema com PEC.
 
-> ![](media/pec_image84.png) **DICA**: o sistema vem pré-configurado com opções padronizadas, a partir de características gerais do processo de trabalho na atenção básica, portanto, é importante verificar as configurações pré-definidas e sempre que necessário adequá-las à realidade local.
+{: .dica }
+o sistema vem pré-configurado com opções padronizadas, a partir de características gerais do processo de trabalho na atenção básica, portanto, é importante verificar as configurações pré-definidas e sempre que necessário adequá-las à realidade local.
 
 Quadro 3.1 - Passo a passo de configuração inicial do Sistema com PEC
 
@@ -54,7 +56,8 @@ Quadro 3.1 - Passo a passo de configuração inicial do Sistema com PEC
 
 Fonte: SAPS/MS.
 
-> ![](media/pec_image59.png) **ATENÇÃO**: profissionais que tem mais de uma lotação (vínculo) na unidade de saúde deverão ter sua agenda criada manualmente.
+{: .atencao }
+profissionais que tem mais de uma lotação (vínculo) na unidade de saúde deverão ter sua agenda criada manualmente.
 
 Na sequência, serão apresentadas as funcionalidades do módulo "Configurações da instalação" com vistas a contemplar os passos de configuração do sistema. E, ao final, serão apresentadas as funcionalidades para a transmissão, importação e exportação de dados do sistema.
 
@@ -134,7 +137,8 @@ Para desabilitar a conexão com o serviço do Hórus, conforme a Figura 3.6, sig
 
 Esta funcionalidade permite, a partir da versão 3.0, que o administrador do sistema habilite ou desabilite a sincronização dos dados da Agenda das Unidades de Saúde realizados por meio da instalação local com PEC, no município, com o Servidor de Agendamento Online do e-SUS APS disponibilizado no DATASUS.
 
-> ![](media/pec_image59.png) **ATENÇÃO**: é preciso ter conectividade **com a internet** para que este serviço funcione.
+{: .atencao }
+é preciso ter conectividade **com a internet** para que este serviço funcione.
 
 Para habilitar a sincronização, acesse a funcionalidade de Agenda Online nas opções de configuração do sistema, conforme pode ser visto na Figura 3.1.8.
 
@@ -144,7 +148,8 @@ Figura 3.1.8 - Tela para habilitar a Agenda Online
 
 Para habilitar a sincronização com o Servidor de Agenda Online do e-SUS AB é necessário gerar a contrachave, seguindo o mesmo fluxo de ativação da instalação, como mostra a Seção 2.4.4, porém selecionando a opção de "Agendamento" ![](media/pec_image98.png).
 
-> ![](media/pec_image58.png) **NOTA**: para habilitar este serviço é necessário acessar o Portal do e- Gestor AB para gerar a contrachave. Se preferir, é possível receber mais orientação de como gerar a contra- chave ligando para o Disque Saúde através do telefone 136, opção 8. Consulte a **Seção 2.4** para mais informações.
+{: .nota }
+para habilitar este serviço é necessário acessar o Portal do e- Gestor AB para gerar a contrachave. Se preferir, é possível receber mais orientação de como gerar a contra- chave ligando para o Disque Saúde através do telefone 136, opção 8. Consulte a **Seção 2.4** para mais informações.
 
 O usuário do sistema ainda pode acessar a ajuda de contexto ![](media/pec_image99.png) para obter mais informações sobre a ativação e configuração da agenda online.
 
@@ -244,7 +249,8 @@ Fonte: SAPS/MS.
 
 Para concluir, clique em "Salvar". O perfil de administrador municipal será listado no acesso do responsável municipal recém adicionado.
 
-> ![](media/pec_image58.png) **NOTA**: só é possível habilitar um responsável municipal para cada município, sendo que esse usuário receberá o perfil de administrador municipal no PEC.
+{: .nota }
+só é possível habilitar um responsável municipal para cada município, sendo que esse usuário receberá o perfil de administrador municipal no PEC.
 
 ### 3.1.5 Configurações avançadas
 
@@ -284,9 +290,11 @@ Figura 3.3 - Tela de configuração de horários- padrão de atendimento
 
 Fonte: SAPS/MS.
 
-> ![](media/pec_image58.png) **NOTA**: os turnos matutino, vespertino e noturno, e em casos excepcionais de madrugada, devem ser configurados dentro de cada período, conforme a necessidade local.
+{: .nota }
+os turnos matutino, vespertino e noturno, e em casos excepcionais de madrugada, devem ser configurados dentro de cada período, conforme a necessidade local.
 
-> ![](media/pec_image84.png) **DICA**: as configurações de horário padrão serão utilizadas no sistema para pré- configurar a agenda dos profissionais, portanto busque definir aqui o que é mais frequente.
+{: .dica }
+as configurações de horário padrão serão utilizadas no sistema para pré- configurar a agenda dos profissionais, portanto busque definir aqui o que é mais frequente.
 
 Após efetuar as alterações necessárias clique no botão Salvar para confirmar as alterações.
 
@@ -332,7 +340,8 @@ Para editar o algum CBO, siga os passos:
 
 Esta funcionalidade permite importar os dados do Sistema de Cadastro Nacional de Estabelecimentos de Saúde (SCNES), por meio do arquivo XML, disponibilizado na área do gestor no site do CNES [http:// cnes2.datasus.gov.br/](http://cnes2.datasus.gov.br/). Tanto o administrador da instalação (administrador da instalação) quanto o administrador municipal podem importar o arquivo CNES no sistema.
 
-> ![](media/pec_image59.png) **ATENÇÃO**: toda vez que houver uma atualização dos dados no CNES, deve- se gerar um novo arquivo para importação no e-SUS APS.
+{: .atencao }
+toda vez que houver uma atualização dos dados no CNES, deve- se gerar um novo arquivo para importação no e-SUS APS.
 
 Para fazer download do arquivo do CNES, siga os passos:
 
@@ -408,7 +417,8 @@ Figura 3.9 - Lista de unidades de saúde
 
 Fonte: SAPS/MS.
 
-> ![](media/pec_image59.png) **ATENÇÃO**: todos os dados das unidades de saúde utilizadas pelo Sistema e-SUS APS são provenientes do CNES, portanto é importante sempre manter as informações atualizadas no CNES, a fim de evitar erros de validação das informações enviadas ao SISAB.
+{: .atencao }
+todos os dados das unidades de saúde utilizadas pelo Sistema e-SUS APS são provenientes do CNES, portanto é importante sempre manter as informações atualizadas no CNES, a fim de evitar erros de validação das informações enviadas ao SISAB.
 
 ## 3.4.1 Visualizar Tipos de Serviço
 
@@ -446,7 +456,8 @@ Figura 3.11 - Visualizar dados das equipes (INE/área)
 
 Fonte: SAPS/MS.
 
-> ![](media/pec_image84.png) **DICA**: mantenha as informações de Área e Equipe (INE) responsável pelo território corretamente vinculadas e atualizadas no CNES, pois estas informações são utilizadas nos relatórios do sistema e também auxiliam no processamento e controle de acesso quando a equipe (INE) responsável pela área for alterada.
+{: .dica }
+mantenha as informações de Área e Equipe (INE) responsável pelo território corretamente vinculadas e atualizadas no CNES, pois estas informações são utilizadas nos relatórios do sistema e também auxiliam no processamento e controle de acesso quando a equipe (INE) responsável pela área for alterada.
 
 # 3.5 Profissionais (Usuários do Sistema)
 
@@ -476,7 +487,8 @@ Fonte: SAPS/MS.
 
 A lista de usuários do sistema é controlada pela lista de profissionais do sistema. Ou seja, todos os profissionais ativos têm acesso ao sistema usando o CPF de seu cadastro e senha pessoal.
 
-> ![](media/pec_image84.png) **DICA**: **evite utilizar esta funcionalidade** **para cadastrar profissionais de saúde** que realizam atendimentos e ações de saúde por meio do sistema. pois ao enviar os dados para o SISAB esses registros de atendimentos podem não ser validados pelo CNES, ou seja, serão rejeitados pelo SISAB caso o cadastro do profissional não seja atualizado antes do fechamento da competência.
+{: .dica }
+**evite utilizar esta funcionalidade** **para cadastrar profissionais de saúde** que realizam atendimentos e ações de saúde por meio do sistema. pois ao enviar os dados para o SISAB esses registros de atendimentos podem não ser validados pelo CNES, ou seja, serão rejeitados pelo SISAB caso o cadastro do profissional não seja atualizado antes do fechamento da competência.
 
 Para cadastrar um profissional/usuário do sistema, siga os passos:
 
@@ -528,13 +540,15 @@ Para redefinir a senha de um usuário, siga os passos:
 
 3\. a senha será redefinida para o número do CNS do profissional mais a palavra "esus", clique no botão "Redefinir senha" para concluir. Exemplo: "267207490990000esus".
 
-> ![](media/pec_image84.png) **DICA**: evite utilizar esta funcionalidade sem que o profissional solicite, pois isso poderá gerar insegurança no uso do sistema pelos profissionais.
+{: .dica }
+evite utilizar esta funcionalidade sem que o profissional solicite, pois isso poderá gerar insegurança no uso do sistema pelos profissionais.
 
 ## 3.5.3 Lotar um Profissional
 
 Assim como a lista de profissionais, as lotações também são importadas por meio do XML gerado pelo CNES, no entanto é possível alterar os dados, caso seja necessário.
 
-> ![](media/pec_image59.png) **ATENÇÃO**: todas as informações desatualizadas ou com inconsistência em relação ao CNES não serão validadas, portanto evite criar ou alterar lotação do profissional manualmente, prefira fazê-lo, sempre que possível, pelo CNES. As lotações criadas manualmente não são alteradas nem desativadas automaticamente com a importação do XML, é necessário selecionar a opção "Atualizar perfis ao importar CNES" ao cadastrar a lotação.
+{: .atencao }
+todas as informações desatualizadas ou com inconsistência em relação ao CNES não serão validadas, portanto evite criar ou alterar lotação do profissional manualmente, prefira fazê-lo, sempre que possível, pelo CNES. As lotações criadas manualmente não são alteradas nem desativadas automaticamente com a importação do XML, é necessário selecionar a opção "Atualizar perfis ao importar CNES" ao cadastrar a lotação.
 
 Para acessar a lotação de um profissional, basta clicar na opção "Visualizar" ![](media/pec_image148.png) do profissional desejado. Será apresentada a lista das lotações previamente cadastradas do profissional escolhido no final da página, conforme a Figura 3.17.
 
@@ -568,7 +582,8 @@ Para **excluir** uma lotação, clique em "Mais opções" ![](media/pec_image153
 
 Como vimos na Figura 3.18, ao adicionar a lotação de um profissional, também é definido o seu perfil de acesso, por meio da opção "Perfis".
 
-> ![](media/pec_image58.png) **NOTA**: o sistema já define o perfil de acesso dos profissionais de saúde com perfis- padrão, estes perfis são definidos com base no CBO importado do cadastro do CNES, no entanto todos os perfis e/ou recursos podem ser alterados conforme a necessidade local.
+{: .nota }
+o sistema já define o perfil de acesso dos profissionais de saúde com perfis- padrão, estes perfis são definidos com base no CBO importado do cadastro do CNES, no entanto todos os perfis e/ou recursos podem ser alterados conforme a necessidade local.
 
 Para definir o perfil de acesso do profissional para determinada lotação, basta seguir os passos:
 
@@ -582,9 +597,11 @@ Para definir o perfil de acesso do profissional para determinada lotação, bast
 
 Para definir a agenda de trabalho um profissional da unidade de saúde, basta acessar a lista de profissionais e em seguida a lotação do profissional. [**Esta etapa é fundamental para realizar o agendamento dos cidadãos para as consultas**]
 
-> ![](media/pec_image58.png) **NOTA**: a agenda do profissional de saúde **que possuir apenas uma lotação** é definida por padrão pelo sistema, por meio do horário- padrão definido no sistema, caso seja necessário ajustar, clique em "Mais opções" ![](media/pec_image153.png) e "Editar configuração de agenda".
+{: .nota }
+a agenda do profissional de saúde **que possuir apenas uma lotação** é definida por padrão pelo sistema, por meio do horário- padrão definido no sistema, caso seja necessário ajustar, clique em "Mais opções" ![](media/pec_image153.png) e "Editar configuração de agenda".
 
-> ![](media/pec_image58.png) **NOTA**: somente o perfil de coordenador, ou seja, o Coordenador da UBS, poderá alterar ou definir a agenda dos profissionais de saúde que realizam atendimento.
+{: .nota }
+somente o perfil de coordenador, ou seja, o Coordenador da UBS, poderá alterar ou definir a agenda dos profissionais de saúde que realizam atendimento.
 
 Para ativar a agenda de um profissional, siga os passos:
 
@@ -646,11 +663,14 @@ Para **desabilitar** horários para o agendamento online basta clicar novamente.
 
 Clique em "Salvar" para concluir.
 
-> ![](media/pec_image59.png) **ATENÇÃO**: Não é possível configurar o agendamento online para profissionais que são inseridos manualmente no PEC.
+{: .atencao }
+Não é possível configurar o agendamento online para profissionais que são inseridos manualmente no PEC.
 
-> ![](media/pec_image58.png) **NOTA**: A mudança de configuração da agenda pode ser realizada a qualquer momento, porém não altera os horários agendados previamente.
+{: .nota }
+A mudança de configuração da agenda pode ser realizada a qualquer momento, porém não altera os horários agendados previamente.
 
-> ![](media/pec_image84.png) **DICA**: Antes de realizar a configuração da Agenda Online realize uma conversa prévia com toda a equipe, para pactuação de estratégia de abertura desse formato de agendamento, a disponibilização de horários pode ser gradual. Atente- se para informar a população sobre esse possibilidade de agendamento.
+{: .dica }
+Antes de realizar a configuração da Agenda Online realize uma conversa prévia com toda a equipe, para pactuação de estratégia de abertura desse formato de agendamento, a disponibilização de horários pode ser gradual. Atente- se para informar a população sobre esse possibilidade de agendamento.
 
 ## 3.5.8 Outras Opções para um Profissional
 
@@ -769,7 +789,8 @@ Para **editar** um perfil, clique em "Editar" ![](media/pec_image169.png) para o
 
 Para **excluir** um perfil, clique em "Mais opções" ![](media/pec_image153.png) e "Excluir" do perfil desejado. Será apresentada uma mensagem solicitando a confirmação desta exclusão.
 
-> ![](media/pec_image59.png) **ATENÇÃO**: só é possível excluir um perfil que não esteja em uso no sistema, ou seja, sem nenhum usuário associado a ele.
+{: .atencao }
+só é possível excluir um perfil que não esteja em uso no sistema, ou seja, sem nenhum usuário associado a ele.
 
 Para **inativar** um perfil, clique em "Mais opções" ![](media/pec_image153.png) e "Inativar" do perfil desejado. Será apresentada uma mensagem solicitando a confirmação desta inativação.
 
@@ -973,7 +994,8 @@ Essa digitação poderá ser feita por meio de instalação *off-line* do CDS (o
 
 A UBS com, ao menos, um computador tem infraestrutura para que a digitação das fichas seja feita na própria unidade. Os dados digitados são enviados à SMS por arquivo ou por conexão eventual, por exemplo, modem discado ou 3G. Este cenário também se aplica às equipes de AB que tenham acesso à internet em locais fora da UBS, como em telecentro, lan house etc.
 
-> ![](media/pec_image84.png) **DICA**: este cenário inicia o processo de descentralização da digitação das fichas da SMS para equipes de AB, permitindo o acompanhamento da digitação e qualidade das informações.
+{: .dica }
+este cenário inicia o processo de descentralização da digitação das fichas da SMS para equipes de AB, permitindo o acompanhamento da digitação e qualidade das informações.
 
 Figura 3.33 - Fluxo de transmissão de dados para UBS sem internet
 
@@ -991,7 +1013,8 @@ Figura 3.34 - Fluxo de transmissão de dados para UBS com internet
 
 Fonte: SAPS/MS.
 
-> ![](media/pec_image84.png) **DICA**: é possível implantar alguns módulos do PEC, por exemplo: agenda na recepção e atendimento pelo médico e enfermeiro. Considerando que o custo de informatizar os demais ambientes de atendimento da UBS é relativamente baixo, este fluxo pode ser transitório.
+{: .dica }
+é possível implantar alguns módulos do PEC, por exemplo: agenda na recepção e atendimento pelo médico e enfermeiro. Considerando que o custo de informatizar os demais ambientes de atendimento da UBS é relativamente baixo, este fluxo pode ser transitório.
 
 ### 3.7.4.4 Integração com Sistemas Próprios
 
@@ -1134,7 +1157,8 @@ A seguir são apresentados os tipos de eventos que podem ser registrados na tril
 
 Esta funcionalidade é mais uma novidade no PEC e permite que o profissional de saúde cadastre o fabricante e o lote do imunobiológico no sistema, agilizando e facilitando a busca deste quando for registrar uma dose aplicada.
 
-> ![](media/pec_image58.png) **NOTA**: Somente os profissionais enfermeiros, técnicos de enfermagem, médicos ou farmacêuticos têm acesso ao recurso de cadastramento de lotes de imunobiológico.
+{: .nota }
+Somente os profissionais enfermeiros, técnicos de enfermagem, médicos ou farmacêuticos têm acesso ao recurso de cadastramento de lotes de imunobiológico.
 
 Para realizar o cadastramento do lote de imunobiológico o usuário do sistema, com perfil de acesso ao cadastro, deverá seguir as seguintes etapas:
 
@@ -1160,7 +1184,8 @@ Para realizar o cadastramento do lote de imunobiológico o usuário do sistema, 
 
 7\. Pronto, no próximo registro de aplicação de doses da vacina, o imunobiológico já estará presente no campo "Lote fabricante" quando for registrar uma dose aplicada.
 
-> ![](media/pec_image58.png) **NOTA**: Para saber mais como realizar um registro de um imunobiológico administrado consulte o capítulo 6.3 deste manual.
+{: .nota }
+Para saber mais como realizar um registro de um imunobiológico administrado consulte o capítulo 6.3 deste manual.
 
 8\. Caso queira editar o lote ou excluir o imunobiológico cadastrado basta clicar nos ícones ![](media/pec_image209.png) e ![](media pec_image210.png), respectivamente. Caso o imunobiológico já tiver sido referenciado a algum registro de aplicação de vacina no sistema, não será possível excluir o lote.
 

@@ -184,13 +184,15 @@ Figura 4.10 - Continuação Formulário de preenchimento do cadastro do cidadão
 
 ![](media/pec_image252.png)
 
-> ![](media/pec_image58.png) **NOTA**: para mais detalhes de preenchimento do formulário, ver seção 4.4.
+{: .nota }
+para mais detalhes de preenchimento do formulário, ver seção 4.4.
 
 ## 4.3.2 Adicionar cidadão por meio do Cadastro da Atenção Básica
 
 Visando uma maior integração das ações dos ACS no cadastro do território, todo cidadão cadastrado, por meio das fichas de cadastro da atenção básica (cadastro individual e cadastro domiciliar e territorial) é automaticamente importado para o módulo Cidadão do PEC, após finalizado o processo de digitação (módulo CDS), processamento e envio das fichas. De forma similar, ocorre a integração com os dados recebidos no Sistema PEC pelo transmissor de dados.
 
-> ![](media/pec_image59.png) **ATENÇÃO**: o cidadão só será importado para o módulo cidadão após processamento das fichas na transmissão de dados. O processamento das fichas é automático, entretanto o servidor do sistema deve ficar ligado, conectado à internet, durante a noite (0h às 6h).
+{: .atencao }
+o cidadão só será importado para o módulo cidadão após processamento das fichas na transmissão de dados. O processamento das fichas é automático, entretanto o servidor do sistema deve ficar ligado, conectado à internet, durante a noite (0h às 6h).
 
 ## 4.3.3 Adicionar um Novo Cidadão
 
@@ -232,7 +234,8 @@ Fonte: SAPS/MS.
 
 O cadastro no módulo Cidadão é um cadastro simplificado que estende e integra os dados do cadastro do CADSUS ao Sistema e-SUS APS, por meio do número do CNS do cidadão, visando garantir um mínimo de informações sobre o cidadão que está sendo atendido pela equipe de AB.
 
-> ![](media/pec_image58.png) **NOTA**: é importante realizar o cadastro completo dos cidadãos, realizado principalmente pelos agentes de saúde, utilizando as fichas do CDS ou o aplicativo e-SUS Território.
+{: .nota }
+é importante realizar o cadastro completo dos cidadãos, realizado principalmente pelos agentes de saúde, utilizando as fichas do CDS ou o aplicativo e-SUS Território.
 
 Este cadastro é formado por quatro blocos de informações:
 
@@ -291,7 +294,8 @@ Figura 4.18 - Vincular equipe responsável
 
 ![](media/pec_image262.png)
 
-> ![](media/pec_image59.png) **ATENÇÃO**: Pessoas não cadastradas na equipe podem ser atendidas normalmente, porém o acompanhamento de saúde deve ser realizado pela equipe responsável.
+{: .atencao }
+Pessoas não cadastradas na equipe podem ser atendidas normalmente, porém o acompanhamento de saúde deve ser realizado pela equipe responsável.
 
 ## 4.5.4 Endereço
 

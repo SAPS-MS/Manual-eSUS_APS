@@ -43,7 +43,8 @@ O processamento dos relatórios é um processo diário e incremental iniciado a 
 
 Nesta funcionalidade, conforme podemos ver na Figura 8.2, é possível Marcar para reprocessamento ![](media/pec_image752.png) ou forçar o processamento ![](media/pec_image753.png) dos dados dos relatórios do sistema. A primeira funcionalidade permite que os dados dos relatórios, mesmo os dados que já foram processados, sejam reprocessados junto ao fluxo automático do sistema. A segunda funcionalidade força o processamento a ser executado de imediato.
 
-> ![](media/pec_image59.png) **ATENÇÃO**: a funcionalidade de "Forçar o processamento" pode ser um tanto dispendioso para a performance do PEC, a depender do tamanho da base de dados, podendo gerar lentidão para os outros usuários. Portanto, sempre que possível utilize a opção "Marcar para reprocessamento".
+{: .atencao }
+a funcionalidade de "Forçar o processamento" pode ser um tanto dispendioso para a performance do PEC, a depender do tamanho da base de dados, podendo gerar lentidão para os outros usuários. Portanto, sempre que possível utilize a opção "Marcar para reprocessamento".
 
 Figura 8.2 - Tela Processamento de Relatórios exibida somente com o perfil de administrador
 ![](media/pec_image754.png)
@@ -59,7 +60,8 @@ Figura 8.3 - Tela de Configuração de Impressão exibida somente com o perfil d
 ![](media/pec_image756.png)
 Fonte: SAPS/MS.
 
-> ![](media/pec_image84.png) **DICA**: o fator de carga no sistema, em relação à geração de um relatório, está relacionado com a capacidade de processamento do computador que está sendo utilizado, bem como com a quantidade de registros dentro do sistema/instalação. Caso a geração de relatórios prejudique o desempenho do sistema, opte por uma configuração com fatores menores.
+{: .dica }
+o fator de carga no sistema, em relação à geração de um relatório, está relacionado com a capacidade de processamento do computador que está sendo utilizado, bem como com a quantidade de registros dentro do sistema/instalação. Caso a geração de relatórios prejudique o desempenho do sistema, opte por uma configuração com fatores menores.
 
 Após finalizar a configuração clique em Salvar ![](media/pec_image757.png) para ativar a nova configuração.
 
@@ -86,7 +88,8 @@ Figura 8.4 - Tipos de filtro de gestor municipal
 ![](media/pec_image758.png)
 Fonte: SAPS/MS.
 
-> ![](media/pec_image58.png) **NOTA**: as opções "Profissional" e "Categoria profissional" [não podem] ser utilizadas em conjunto. É possível filtrar as informações do relatório por profissional **[ou]** por uma categoria profissional.
+{: .nota }
+as opções "Profissional" e "Categoria profissional" [não podem] ser utilizadas em conjunto. É possível filtrar as informações do relatório por profissional **[ou]** por uma categoria profissional.
 
 O perfil de coordenador da UBS terá acesso apenas a dados do serviço de saúde sob sua gestão. É possível utilizar filtros para a totalização dos dados nos relatórios de acordo com as vinculações de unidade de saúde e equipe de saúde registradas no CNES. Estão disponíveis os filtros "Período", "Equipe", "Profissional" e "Categoria Profissional", como mostra a Figura 8.5.
 
@@ -204,7 +207,8 @@ Após selecionar as variáveis desejadas para gerar o relatório basta clicar no
 
 As variáveis apresentadas possibilitam a realização de uma análise inicial da situação de saúde do território de atuação das equipes de Atenção Básica, com a finalidade de construção de estratégia de enfrentamento das condicionalidades e dos determinantes sociais que afetam a qualidade da saúde da população assistida.
 
-> ![](media/pec_image58.png) NOTA: Para mais informações sobre as variáveis e as opções de filtro, consulte o Manual de Preenchimento das Fichas do CDS sobre a Ficha de Cadastro Domiciliar e Territorial.
+{: .nota }
+Para mais informações sobre as variáveis e as opções de filtro, consulte o Manual de Preenchimento das Fichas do CDS sobre a Ficha de Cadastro Domiciliar e Territorial.
 
 ## 8.3.2 Relatório consolidado de Cadastro Individual
 
@@ -282,7 +286,8 @@ As variáveis apresentadas podem complementar a análise da situação de saúde
 
 ![](media/pec_image784.png)
 
-> ![](media/pec_image58.png) NOTA: Para mais informações sobre as variáveis e as opções de filtro, consulte o Manual de Preenchimento das Fichas do CDS sobre a Ficha de Cadastro Individual.
+{: .nota }
+Para mais informações sobre as variáveis e as opções de filtro, consulte o Manual de Preenchimento das Fichas do CDS sobre a Ficha de Cadastro Individual.
 
 ## 8.3.3 Relatório da Situação do Território
 
@@ -374,7 +379,8 @@ No filtro personalizado são apresentados outras variáveis consolidadas que inf
 
 Após selecionar as variáveis desejadas para gerar o relatório basta clicar no botão "Exportar CSV" ou "Imprimir".
 
-> ![](media/pec_image58.png){width="0.3906255468066492in" height="0.33203083989501314in"} NOTA: Para mais informações sobre as variáveis e as opções de filtro, consulte o Manual de Preenchimento das Fichas do **CDS** sobre a **Ficha de Atendimento Domiciliar**.
+{: .nota }
+Para mais informações sobre as variáveis e as opções de filtro, consulte o Manual de Preenchimento das Fichas do **CDS** sobre a **Ficha de Atendimento Domiciliar**.
 
 ## 8.4.2 Atendimento individual
 
@@ -436,7 +442,8 @@ No filtro personalizado são apresentados outras variáveis consolidadas que inf
 
 Após selecionar as variáveis desejadas para gerar o relatório basta clicar no botão "Exportar CSV" ou "Imprimir".
 
-> ![](media/pec_image58.png) NOTA: Para mais informações sobre as variáveis e as opções de filtro, consulte o Manual de Preenchimento das Fichas do **CDS** sobre a **Ficha de Atendimento Individual**.
+{: .nota }
+Para mais informações sobre as variáveis e as opções de filtro, consulte o Manual de Preenchimento das Fichas do **CDS** sobre a **Ficha de Atendimento Individual**.
 
 ## 8.4.3 Atendimento odontológico individual
 
@@ -490,7 +497,8 @@ No filtro personalizado são apresentados outras variáveis consolidadas que inf
 
 Após selecionar as variáveis desejadas para gerar o relatório basta clicar no botão "Exportar CSV" ou "Imprimir".
 
-> ![](media/pec_image58.png) NOTA: Para mais informações sobre as variáveis e as opções de filtro, consulte o Manual de Preenchimento das Fichas do **CDS** sobre a **Ficha de Atendimento Individual Odontológico**.
+{: .nota }
+Para mais informações sobre as variáveis e as opções de filtro, consulte o Manual de Preenchimento das Fichas do **CDS** sobre a **Ficha de Atendimento Individual Odontológico**.
 
 ## 8.4.4 Atividade coletiva
 
@@ -532,7 +540,8 @@ No filtro personalizado são apresentados outras variáveis consolidadas que inf
 
 Após selecionar as variáveis desejadas para gerar o relatório basta clicar no botão "Exportar CSV" ou "Imprimir".
 
-> ![](media/pec_image58.png) NOTA: Para mais informações sobre as variáveis e as opções de filtro, consulte o Manual de Preenchimento das Fichas do **CDS** sobre a **Ficha de Atividade Coletiva**.
+{: .nota }
+Para mais informações sobre as variáveis e as opções de filtro, consulte o Manual de Preenchimento das Fichas do **CDS** sobre a **Ficha de Atividade Coletiva**.
 
 ## 8.4.5 Avaliação de elegibilidade e admissão
 
@@ -582,7 +591,8 @@ No filtro personalizado são apresentados outras variáveis consolidadas que inf
 
 Após selecionar as variáveis desejadas para gerar o relatório basta clicar no botão "Exportar CSV" ou "Imprimir".
 
-> ![](media/pec_image58.png) NOTA: Para mais informações sobre as variáveis e as opções de filtro, consulte o Manual de Preenchimento das Fichas do **CDS** sobre a **Ficha de Avaliação de Elegibilidade e Admissão** do SAD.
+{: .nota }
+Para mais informações sobre as variáveis e as opções de filtro, consulte o Manual de Preenchimento das Fichas do **CDS** sobre a **Ficha de Avaliação de Elegibilidade e Admissão** do SAD.
 
 ## 8.4.6 Marcadores de consumo alimentar
 
@@ -614,7 +624,8 @@ No filtro personalizado são apresentados outras variáveis consolidadas que inf
 
 Após selecionar as variáveis desejadas para gerar o relatório basta clicar no botão "Exportar CSV" ou "Imprimir".
 
-> ![](media/pec_image58.png) NOTA: Para mais informações sobre as variáveis e as opções de filtro, consulte o Manual de Preenchimento das Fichas do **CDS** sobre a ficha **Marcadores de Consumo Alimentar**.
+{: .nota }
+Para mais informações sobre as variáveis e as opções de filtro, consulte o Manual de Preenchimento das Fichas do **CDS** sobre a ficha **Marcadores de Consumo Alimentar**.
 
 ## 8.4.7 Procedimentos
 
@@ -656,7 +667,8 @@ No filtro personalizado são apresentados outras variáveis consolidadas que inf
 
 Após selecionar as variáveis desejadas para gerar o relatório basta clicar no botão "Exportar CSV" ou "Imprimir".
 
-> ![](media/pec_image58.png) NOTA: Para mais informações sobre as variáveis e as opções de filtro, consulte o Manual de Preenchimento das Fichas do **CDS** sobre a **Ficha de Procedimentos**.
+{: .nota }
+Para mais informações sobre as variáveis e as opções de filtro, consulte o Manual de Preenchimento das Fichas do **CDS** sobre a **Ficha de Procedimentos**.
 
 ## 8.4.8 Procedimentos consolidados
 
@@ -676,7 +688,8 @@ O filtro personalizado apresenta todas as variáveis que aparecem no relatório 
 
 Após selecionar as variáveis desejadas para gerar o relatório basta clicar no botão "Exportar CSV" ou "Imprimir".
 
-> ![](media/pec_image58.png) NOTA: Para mais informações sobre as variáveis e as opções de filtro, consulte o Manual de Preenchimento das Fichas do **CDS** sobre a **Ficha de Procedimento**, especialmente sobre o bloco de procedimentos consolidados.
+{: .nota }
+Para mais informações sobre as variáveis e as opções de filtro, consulte o Manual de Preenchimento das Fichas do **CDS** sobre a **Ficha de Procedimento**, especialmente sobre o bloco de procedimentos consolidados.
 
 ## 8.4.9 Resumo de produção
 
@@ -732,7 +745,8 @@ Os relatórios poderão ser gerados a partir dos "grupos de informações dispon
 
 Após selecionar as variáveis desejadas para gerar o relatório basta clicar no botão "Exportar CSV" ou "Imprimir".
 
-> ![](media/pec_image58.png) NOTA: Para mais informações sobre as variáveis e as opções de filtro, consulte o Manual de Preenchimento das Fichas do **CDS** sobre a **Ficha complementar** de Síndrome neurológica por Zika / Microcefalia.
+{: .nota }
+Para mais informações sobre as variáveis e as opções de filtro, consulte o Manual de Preenchimento das Fichas do **CDS** sobre a **Ficha complementar** de Síndrome neurológica por Zika / Microcefalia.
 
 ## 8.4.11 Visita domiciliar e territorial
 
@@ -776,7 +790,8 @@ No filtro personalizado são apresentados outras variáveis consolidadas que inf
 
 Após selecionar as variáveis desejadas para gerar o relatório basta clicar no botão "Exportar CSV" ou "Imprimir".
 
-> ![](media/pec_image58.png) NOTA: Para mais informações sobre as variáveis e as opções de filtro, consulte o Manual de Preenchimento das Fichas do **CDS** sobre a **Ficha de Visita Domiciliar e Territorial**.
+{: .nota }
+Para mais informações sobre as variáveis e as opções de filtro, consulte o Manual de Preenchimento das Fichas do **CDS** sobre a **Ficha de Visita Domiciliar e Territorial**.
 
 ## 8.4.12 Vacinação
 
@@ -818,7 +833,8 @@ No filtro personalizado são apresentados outras variáveis consolidadas que inf
 
 Após selecionar as variáveis desejadas para gerar o relatório basta clicar no botão "Exportar CSV" ou "Imprimir".
 
-> ![](media/pec_image58.png) NOTA: Para mais informações sobre as variáveis e as opções de filtro, consulte o Manual de Preenchimento das Fichas do **CDS** sobre a **Ficha de Vacinação**.
+{: .nota }
+Para mais informações sobre as variáveis e as opções de filtro, consulte o Manual de Preenchimento das Fichas do **CDS** sobre a **Ficha de Vacinação**.
 
 ### 8.4.12.1 Orientação para extração de relatórios de doses aplicadas para auxílio no cálculo de cobertura vacinal.
 
@@ -831,7 +847,8 @@ Para a impressão com o perfil de gestor municipal (secretário de saúde, coord
 Figura 1 - Tipos de filtro de gestor municipal
 ![](media/pec_image758.png)
 
-> ![](media/pec_image58.png) **NOTA**: as opções "Profissional" e "Categoria profissional" [não podem] ser utilizadas em conjunto. É possível filtrar as informações do relatório por profissional **[ou]** por uma categoria profissional.
+{: .nota }
+as opções "Profissional" e "Categoria profissional" [não podem] ser utilizadas em conjunto. É possível filtrar as informações do relatório por profissional **[ou]** por uma categoria profissional.
 
 Para visualizar os dados referentes ao quantitativo de dose aplicadas referentes a um imunobiológico em um determinado período e local, siga os passos a seguir:
 
@@ -1000,7 +1017,8 @@ Figura 8.31 - Filtro do relatório operacional de gestantes/puérperas - coorden
 ![](media/pec_image815.png)
 Fonte: SAPS/MS.
 
-> ![](media/pec_image58.png) NOTA: os profissionais de saúde, sem perfil de coordenação, irão observar que o filtro INE estará desabilitado, mas poderão utilizar o filtro "Microárea" para selecionar uma microárea específica.
+{: .nota }
+os profissionais de saúde, sem perfil de coordenação, irão observar que o filtro INE estará desabilitado, mas poderão utilizar o filtro "Microárea" para selecionar uma microárea específica.
 
 Prioritariamente, as **gestantes cadastradas** no território da equipe comporão este relatório, devendo estar **vinculadas a um responsável familiar**, *e este*, **vinculado a um domicílio do território**. Contudo, é possível verificar se há alguma gestante sendo acompanhada, mas que está fora da área de cobertura da equipe. O relatório oferece à equipe dados relacionados à DUM, DPP, IG, informações relacionadas à última consulta pré- natal (data da última consulta e situação vacinal), status do VDRL, além da data de outras consultas e visita domiciliar realizada pelo ACS, como observado na pec_imagem a seguir.
 
@@ -1018,7 +1036,8 @@ Figura 8.33 - Tela do Relatório de crianças menores de 5 anos - perfil de coor
 ![](media/pec_image817.png)
 Fonte: SAPS/MS.
 
-> ![](media/pec_image58.png) NOTA: os profissionais de saúde, sem perfil de coordenação, irão observar que o filtro INE estará desabilitado, mas poderão utilizar o filtro "Microárea" para selecionar uma microárea específica, bem como um CID10.
+{: .nota }
+os profissionais de saúde, sem perfil de coordenação, irão observar que o filtro INE estará desabilitado, mas poderão utilizar o filtro "Microárea" para selecionar uma microárea específica, bem como um CID10.
 
 Prioritariamente, as **crianças menores de 5 anos cadastradas no território** da equipe comporão este relatório, devendo estar **vinculadas a um responsável familiar**, *e este*, **vinculado a um domicílio no território**. Entretanto, é possível verificar se há alguma criança sendo acompanhada, mas que está fora da área de cobertura da equipe. O relatório oferece à equipe dados relacionados a realização da consulta na primeira semana de vida, se foram avaliados os testes da triagem neonatal (pezinho, orelhinha e olhinho), última consulta odontológica, última visita do ACS e os registros da última consulta de puericultura (tipo de aleitamento, status de imunização, últimas medições de perímetro cefálico, peso, altura e estado nutricional), como mostra a pec_imagem a seguir.
 
@@ -1036,7 +1055,8 @@ Figura 8.35 - Tela do Relatório de Risco Cardiovascular - perfil de coordenador
 ![](media/pec_image819.png)
 Fonte: SAPS/MS.
 
-> ![](media/pec_image58.png) NOTA: os profissionais de saúde, sem perfil de coordenação, irão observar que o filtro INE estará desabilitado, mas poderão utilizar o filtro "Microárea" para selecionar uma microárea específica.
+{: .nota }
+os profissionais de saúde, sem perfil de coordenação, irão observar que o filtro INE estará desabilitado, mas poderão utilizar o filtro "Microárea" para selecionar uma microárea específica.
 
 Os **cidadãos em risco cardiovascular**, **cadastrados no território** da equipe, comporão este relatório devendo estar **vinculados a um responsável familiar**, *e este*, **vinculado a um domicílio no território**. Todavia, é possível verificar se há algum cidadão sendo acompanhado, mas que está fora da área de cobertura da equipe. O relatório oferece à equipe, dados relacionados a presença de diagnóstico ou informação auto referida de hipertensão arterial sistêmica, diabetes, tabagismo, último IMC, data do atendimento em que foi realizada a consulta para rastreamento de risco cardiovascular e a data da última consulta para condições que ampliam o risco cardiovascular, além da consulta odontológica e da última visita domiciliar realizada pelo ACS.
 Os critérios de inclusão do cidadão neste relatório são:

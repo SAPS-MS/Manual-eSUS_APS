@@ -91,7 +91,8 @@ A identificação para acesso (***login***) será controlada pelo próprio siste
 
 O controle da **senha** é pessoal, **iniciada** no sistema, por padrão, com o número do **CNS do profissional adicionando a palavra "esus"**. Exemplo: CNSesus (242136991820005esus). Ao realizar acesso ao sistema pela primeira vez, será solicitado ao usuário que altere sua senha. Neste instante, crie uma senha pessoal.
 
-> ![](media/pec_image58.png) **NOTA**: A **senha padrão** para o primeiro acesso ao sistema mudou, agora é o número do CNS do profissional mais a palavra "esus".
+{: .nota }
+A **senha padrão** para o primeiro acesso ao sistema mudou, agora é o número do CNS do profissional mais a palavra "esus".
 
 Caso o usuário possua mais de um perfil serão exibidas as opções de acesso pelos perfis disponíveis.
 
@@ -173,7 +174,8 @@ O administrador da instalação, ao se esquecer da senha, deverá:
 
 4. o sistema gerará nova chave para que o administrador possa solicitar nova contrachave do PEC.
 
-> ![](media/pec_image58.png) **NOTA**: Para mais informações sobre como **solicitar nova contrachave**, ver Seção 2.4.
+{: .nota }
+Para mais informações sobre como **solicitar nova contrachave**, ver Seção 2.4.
 
 5. após inserir a contra chave e clicar "Salvar" o sistema apresentará uma caixa de diálogo de confirmação da alteração da senha do instalador como mostra a pec_imagem abaixo:
 
@@ -195,7 +197,8 @@ O administrador da instalação, ao se esquecer da senha, deverá:
 
 - O sistema diferencia letras maiúsculas de minúsculas.
 
-> ![](media/pec_image59.png) **ATENÇÃO**: Não é possível definir uma senha fora do padrão mínimo de segurança estabelecido.
+{: .atencao }
+Não é possível definir uma senha fora do padrão mínimo de segurança estabelecido.
 
 ## 1.3.4 Preciso definir um novo responsável pela instalação, o que devo fazer?
 

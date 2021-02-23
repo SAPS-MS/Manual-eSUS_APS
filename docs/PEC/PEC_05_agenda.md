@@ -27,11 +27,14 @@ O Agendamento Online consiste na disponibilização de horários da agenda dos p
 
 Para uso desta funcionalidade, é necessário que a UBS tenha boa conectividade com a internet, pois utiliza-se um servidor nacional para troca de informação entre a UBS e os cidadãos que utilizam o aplicativo "ConecteSUS Cidadão".
 
-> ![](media/pec_image59.png) **ATENÇÃO**: A funcionalidade de agendamento de consulta na Atenção Básica por meio do aplicativo "ConecteSUS Cidadão" está disponível apenas para usuários que fazem parte do território de equipes de atenção básica. Para tanto é necessário que o cidadão esteja cadastrado no território da equipe através dos cadastros individual e domiciliar.
+{: .atencao }
+A funcionalidade de agendamento de consulta na Atenção Básica por meio do aplicativo "ConecteSUS Cidadão" está disponível apenas para usuários que fazem parte do território de equipes de atenção básica. Para tanto é necessário que o cidadão esteja cadastrado no território da equipe através dos cadastros individual e domiciliar.
 
-> ![](media/pec_image58.png) **NOTA**: A mudança de configuração da agenda pode ser realizada a qualquer momento, porém não altera os horários agendados previamente.
+{: .nota }
+A mudança de configuração da agenda pode ser realizada a qualquer momento, porém não altera os horários agendados previamente.
 
-> ![](media/pec_image84.png) **DICA**: Antes de realizar a configuração da Agenda Online realize uma conversa prévia com toda a equipe, para pactuação de estratégia de abertura desse formato de agendamento. A disponibilização de horários pode ser gradual. Atente-se para informar a população sobre essa possibilidade de agendamento.
+{: .dica }
+Antes de realizar a configuração da Agenda Online realize uma conversa prévia com toda a equipe, para pactuação de estratégia de abertura desse formato de agendamento. A disponibilização de horários pode ser gradual. Atente-se para informar a população sobre essa possibilidade de agendamento.
 
 ![](media/pec_image267.png)
 
@@ -39,7 +42,8 @@ Para uso desta funcionalidade, é necessário que a UBS tenha boa conectividade 
 
 Para começar a utilizá-la, é necessário configurar com informações referentes ao horário de trabalho dos profissionais. Quando o profissional apresenta apenas um vínculo no CNES, a agenda virá com uma formatação padrão de atendimentos (dias e horário de trabalho) que pode ser alterada. A configuração da agenda está disponível unicamente para os profissionais com **perfil de coordenação**. No Capítulo 3, você encontra mais informações sobre a configuração da agenda do profissional.
 
-> ![](media/pec_image58.png) **NOTA**: antes de utilizar a agenda, é necessário que o coordenador verifique a agenda dos profissionais (ver seção 3.4.5), caso esta não esteja disponível.
+{: .nota }
+antes de utilizar a agenda, é necessário que o coordenador verifique a agenda dos profissionais (ver seção 3.4.5), caso esta não esteja disponível.
 
 Para o profissional utilizar a agenda para gestão dos atendimentos, deverá primeiramente clicar na opção "Agenda", após o sistema exibirá a tela da agenda, conforme a Figura 5.1, abrindo na data e no período atual do acesso.
 
@@ -89,11 +93,13 @@ Fonte: SAS/MS.
 
 ![](media/pec_image280.png)
 
-> ![](media/pec_image58.png) **NOTA**: Quando a funcionalidade do Agendamento Online está ativada, todo agendamento salvo no módulo de Agenda do PEC é enviado para o servidor de agendamento online, que dispara uma notificação "*push"* com informações relacionadas a este agendamento para o aplicativo "ConecteSUS". Neste caso, como o agendamento foi realizado presencialmente na UBS, não há restrição em relação ao cidadão pertencer ao território de referência da equipe de atenção básica.
+{: .nota }
+Quando a funcionalidade do Agendamento Online está ativada, todo agendamento salvo no módulo de Agenda do PEC é enviado para o servidor de agendamento online, que dispara uma notificação "*push"* com informações relacionadas a este agendamento para o aplicativo "ConecteSUS". Neste caso, como o agendamento foi realizado presencialmente na UBS, não há restrição em relação ao cidadão pertencer ao território de referência da equipe de atenção básica.
 
 Conforme os agendamentos são realizados para as datas futuras, a agenda do profissional vai sendo preenchida nos horários escolhidos. Este agendamento pode ser realizado pelo recepcionista da UBS, pelo próprio profissional ao finalizar a escuta inicial ou ao finalizar o atendimento, ou ainda, por outros profissionais da equipe.
 
-> ![](media/pec_image58.png) **NOTA**: buscando fortalecer o planejamento da equipe em relação às demandas dos cidadãos no território, o sistema só permite criar um agendamento para consulta ou reserva em horários posteriores ao atual. Por exemplo, caso esteja criando um agendamento às 14h27 do dia corrente, só será possível criar um agendamento nesse dia a partir desse horário (14h40, 15h00,\...), ou nos dias subsequentes.
+{: .nota }
+buscando fortalecer o planejamento da equipe em relação às demandas dos cidadãos no território, o sistema só permite criar um agendamento para consulta ou reserva em horários posteriores ao atual. Por exemplo, caso esteja criando um agendamento às 14h27 do dia corrente, só será possível criar um agendamento nesse dia a partir desse horário (14h40, 15h00,\...), ou nos dias subsequentes.
 
 Após ser realizada a configuração da agenda da equipe com os horários disponíveis para Agendamento Online, os mesmos serão apresentados na agenda da seguinte forma:
 
@@ -121,7 +127,8 @@ Figura 5.3 - Agendamento fora da UBS
 
 ![](media/pec_image286.png)
 
-> ![](media/pec_image84.png) **DICA**: Quando o cidadão é colocado na agenda como agendamento fora da UBS, automaticamente aparecerá na lista de registro tardio de atendimento no dia agendado. Para saber mais sobre o registro tardio de atendimento consulte o capítulo 6.6.
+{: .dica }
+Quando o cidadão é colocado na agenda como agendamento fora da UBS, automaticamente aparecerá na lista de registro tardio de atendimento no dia agendado. Para saber mais sobre o registro tardio de atendimento consulte o capítulo 6.6.
 
 ## 5.1.2 Adicionar Cidadão na Lista de Atendimentos
 
@@ -187,7 +194,8 @@ Os *status* de sincronização possíveis são:
 
 Para cancelar um agendamento, clique no ícone "Cancelar agendamento" ![](media/pec_image284.png).
 
-> ![](media/pec_image58.png) **NOTA**: caso o horário marcado já tenha passado, não será possível excluir o agendamento. Para estes casos, utilize a opção "informar falta do cidadão", clicando sobre o ícone ![](media/pec_image283.png).
+{: .nota }
+caso o horário marcado já tenha passado, não será possível excluir o agendamento. Para estes casos, utilize a opção "informar falta do cidadão", clicando sobre o ícone ![](media/pec_image283.png).
 
 Para efetivar o cancelamento, é necessário preencher uma justificativa, conforme mostrado na Figura 5.4. Para concluir clique em "Salvar" ![](media/pec_image279.png).
 
@@ -225,9 +233,11 @@ Para identificar os agendamentos por cidadão, siga os passos:
 
 ![](media/pec_image297.png)
 
-> ![](media/pec_image58.png) **NOTA**: para visualizar o histórico de agendamento, clique na opção "Mostrar agendamentos anteriores".
+{: .nota }
+para visualizar o histórico de agendamento, clique na opção "Mostrar agendamentos anteriores".
 
-> ![](media/pec_image84.png) **DICA**: quando o profissional que estiver consultando os agendamentos do cidadão quiser visualizar apenas os da sua agenda, basta clicar na opção "somente os meus".
+{: .dica }
+quando o profissional que estiver consultando os agendamentos do cidadão quiser visualizar apenas os da sua agenda, basta clicar na opção "somente os meus".
 
 ## 5.1.7 Visualizar prontuário
 
@@ -237,7 +247,8 @@ Para visualizar o prontuário do cidadão, clique no ícone ![](media/pec_image2
 
 Esta funcionalidade é utilizada para reserva da agenda do profissional quando este não estiver disponível para realizar consultas. Os motivos de reserva da agenda são: atendimento externo, atividade coletiva, reunião e outro.
 
-> ![](media/pec_image84.png) **DICA**: a reserva da agenda é indicada apenas para atividades de pequena duração e dentro do mesmo turno. Caso haja necessidade de bloqueio de um período maior da agenda do profissional, por exemplo, por motivo de férias ou licença médica, deve ser usada a **opção de fechamento da agenda** com o perfil de coordenação, ver seção 3.4.6.
+{: .dica }
+a reserva da agenda é indicada apenas para atividades de pequena duração e dentro do mesmo turno. Caso haja necessidade de bloqueio de um período maior da agenda do profissional, por exemplo, por motivo de férias ou licença médica, deve ser usada a **opção de fechamento da agenda** com o perfil de coordenação, ver seção 3.4.6.
 
 Para fazer uma reserva de horário na agenda, siga os passos:
 

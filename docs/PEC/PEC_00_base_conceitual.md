@@ -49,11 +49,13 @@ A estratégia é composta por dois sistemas:
 
 - Sistema com Prontuário Eletrônico do Cidadão (**PEC**), sistema com prontuário eletrônico (objeto deste manual), que tem como principal objetivo apoiar o processo de informatização das UBS.
 
-> ![](media/pec_image58.png)**NOTA**: Para conhecer os conceitos e orientações de preenchimento das fichas, consulte o Manual do Sistema com Coleta de Dados Simplificada. Sobre o sistema de digitação acesse o Capítulo 07 deste manual.
+{: .nota }
+Para conhecer os conceitos e orientações de preenchimento das fichas, consulte o Manual do Sistema com Coleta de Dados Simplificada. Sobre o sistema de digitação acesse o Capítulo 07 deste manual.
 
 Durante o texto, os softwares do Sistema e-SUS APS também são referidos como Sistema com CDS e Sistema com PEC, respectivamente, ou ainda, simplesmente, CDS e PEC.
 
-> ![](media/pec_image58.png)**NOTA**: Para mais informações sobre legislação, documentos e materiais de apoio sobre a Estratégia e-SUS APS, acesse a **página do e-SUS APS** por meio do endereço eletrônico [[http://dab.saude.gov.br/portaldab/esus.php]](http://dab.saude.gov.br/portaldab/esus.php)
+{: .nota }
+Para mais informações sobre legislação, documentos e materiais de apoio sobre a Estratégia e-SUS APS, acesse a **página do e-SUS APS** por meio do endereço eletrônico [[http://dab.saude.gov.br/portaldab/esus.php]](http://dab.saude.gov.br/portaldab/esus.php)
 
 # 2. Política de Controle de Versão do Sistema e-SUS APS
 
@@ -147,7 +149,8 @@ No que se refere à definição de intervenções, segundo a estratificação da
 
 Em síntese, o fluxograma definido no CAB 28, mostrado nas figuras 3 e 4, deve ser tomado como uma oferta, um ponto de partida possível, uma estratégia de visualização e organização do trabalho coletivo na UBS, devendo, sempre que necessário, ser adaptado, enriquecido, testado e ajustado, considerando a singularidade de cada lugar, de modo a facilitar o acesso, a escuta inicial qualificada e o atendimento a necessidades de saúde com equidade, assumindo a perspectiva usuário- centrada como um posicionamento ético- político, que tem implicações organizativas e no processo de trabalho das equipes.
 
-> ![](media/pec_image58.png) **NOTA**: para mais informações sobre fluxo de acolhimento à demanda espontânea, consulte o Caderno de Atenção Básica (CAB) nº 28, **Volume I**, por meio da Biblioteca virtual em Saúde no endereço: [[http://bvsms.saude.gov.br/bvs/publicacoes/acolhimento_demanda_espontanea.pdf]](http://bvsms.saude.gov.br/bvs/publicacoes/acolhimento_demanda_espontanea.pdf), e **Volume II**, por meio do endereço: [[http://bvsms.saude.gov.br/bvs/publicacoes/acolhimento_demanda_espontanea_queixas_comuns.pdf]](http://bvsms.saude.gov.br/bvs/publicacoes/acolhimento_demanda_espontanea_queixas_comuns.pdf).
+{: .nota }
+para mais informações sobre fluxo de acolhimento à demanda espontânea, consulte o Caderno de Atenção Básica (CAB) nº 28, **Volume I**, por meio da Biblioteca virtual em Saúde no endereço: [[http://bvsms.saude.gov.br/bvs/publicacoes/acolhimento_demanda_espontanea.pdf]](http://bvsms.saude.gov.br/bvs/publicacoes/acolhimento_demanda_espontanea.pdf), e **Volume II**, por meio do endereço: [[http://bvsms.saude.gov.br/bvs/publicacoes/acolhimento_demanda_espontanea_queixas_comuns.pdf]](http://bvsms.saude.gov.br/bvs/publicacoes/acolhimento_demanda_espontanea_queixas_comuns.pdf).
 
 # 5. Modelo conceitual do Prontuário Eletrônico do Cidadão
 
@@ -291,13 +294,15 @@ Ao fazer a associação do registro via SOAP a uma classificação adequada ao p
 
 - **Intervenção/Procedimento de cuidado**: registrado no bloco Plano do SOAP, a intervenção consiste no plano de ação proposto de acordo com o motivo da consulta e avaliação realizados pelo profissional. Associa- se o código alfa do capítulo relacionado ao procedimento (em outras palavras, a "LETRA" do capítulo que se relaciona a esse procedimento).
 
-> ![](media/pec_image58.png) **NOTA**: para mais informações sobre como utilizar a CIAP 2, acesse o material disponível sobre esse tema no site da Sociedade Brasileira de Medicina de Família e Comunidade, por meio do link: [[http://www.sbmfc.org.br/default.asp?paginaId=72]](http://www.sbmfc.org.br/default.asp?paginaId=72).
+{: .nota }
+para mais informações sobre como utilizar a CIAP 2, acesse o material disponível sobre esse tema no site da Sociedade Brasileira de Medicina de Família e Comunidade, por meio do link: [[http://www.sbmfc.org.br/default.asp?paginaId=72]](http://www.sbmfc.org.br/default.asp?paginaId=72).
 
 ## 5.3 Racionalidade em saúde
 
 Com base no termo Racionalidades Médicas, que é todo o sistema médico complexo construído sobre seis dimensões: morfologia humana, dinâmica vital, doutrina médica (o que é estar doente ou ter saúde), sistema diagnóstico, cosmologia e sistema terapêutico, o termo Racionalidade em Saúde propõe uma ampliação desse conceito para uma abordagem multiprofissional de cuidado em saúde incluindo as práticas tradicionais/ populares, ancestrais e ou alternativas.
 
-> ![](media/pec_image58.png) **NOTA**: para mais informações consulte a Política Nacional de Práticas Integrativas e Complementares no SUS, por meio do endereço: [[http://bvsms.saude.gov.br/bvs/publicacoes/politica_nacional_praticas_integrativas_complementares_2ed.pdf]](http://bvsms.saude.gov.br/bvs/publicacoes/politica_nacional_praticas_integrativas_complementares_2ed.pdf)
+{: .nota }
+para mais informações consulte a Política Nacional de Práticas Integrativas e Complementares no SUS, por meio do endereço: [[http://bvsms.saude.gov.br/bvs/publicacoes/politica_nacional_praticas_integrativas_complementares_2ed.pdf]](http://bvsms.saude.gov.br/bvs/publicacoes/politica_nacional_praticas_integrativas_complementares_2ed.pdf)
 
 ## 5.4 Política Nacional de Saúde Integral de Lésbica, Gays, Bissexuais, Travestis e Transexuais (PNSILGBT)
 

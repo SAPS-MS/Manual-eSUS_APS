@@ -27,7 +27,8 @@ Figura 9.1. Módulo de Gestão de Cadastros
 ![](media/pec_image822.png)
 Fonte: SAPS/MS.
 
-> ![](media/pec_image58.png) **NOTA**: Por se tratar de uma ação de alta sensibilidade e de muita responsabilidade apenas profissionais com perfil de "Gerente de UBS" poderão ter acesso a esta funcionalidade.
+{: .nota }
+Por se tratar de uma ação de alta sensibilidade e de muita responsabilidade apenas profissionais com perfil de "Gerente de UBS" poderão ter acesso a esta funcionalidade.
 
 # 9.1 Busca pelo cidadão
 

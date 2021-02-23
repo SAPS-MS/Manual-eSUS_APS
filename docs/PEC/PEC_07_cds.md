@@ -20,7 +20,8 @@ Este capítulo apresenta informações para a utilização do Módulo CDS, agreg
 
 A Coleta de Dados Simplificada (CDS) é um dos componentes da Estratégia e-SUS APS, sendo utilizada principalmente nos serviços de saúde que não dispõem de sistema informatizado para utilização rotineira no trabalho.
 
-> ![](media/pec_image58.png) **NOTA**: Para conhecer os conceitos e orientações de preenchimento das fichas, consulte o Manual do Sistema com Coleta de Dados Simplificada (CDS).
+{: .nota }
+Para conhecer os conceitos e orientações de preenchimento das fichas, consulte o Manual do Sistema com Coleta de Dados Simplificada (CDS).
 
 # 7.1 Visão Geral do Sistema/Módulo CDS
 
@@ -46,7 +47,8 @@ Figura 7.1 - Tela do menu do CDS
 
 Fonte: SAS/MS.
 
-> ![](media/pec_image58.png) **NOTA**: Devido a Emergência Mundial de Saúde Pública provocada pela Covid-19 foi elaborado uma ficha adicional de vacinação para registro da campanha de vacinação contra a Covid-19. Os registros desta ficha deverão ser realizados também no módulo de vacinação.
+{: .nota }
+Devido a Emergência Mundial de Saúde Pública provocada pela Covid-19 foi elaborado uma ficha adicional de vacinação para registro da campanha de vacinação contra a Covid-19. Os registros desta ficha deverão ser realizados também no módulo de vacinação.
 
 ## 7.1.1 Orientações Gerais sobre o Processo de Digitação das Fichas
 
@@ -100,7 +102,8 @@ Na listagem das fichas, ainda existem várias ações possíveis para cada regis
 
 - ![](media/pec_image632.png) **Excluir:** permite excluir uma ficha digitada. Disponível apenas para fichas não enviadas.
 
-> ![](media/pec_image59.png) **ATENÇÃO**: caso a ficha digitada já tenha sido transmitida para o SISAB, não será possível editá- la ou excluí- la (botão esmaecido), apenas será possível visualizar a ficha ![](media/pec_image633.png).
+{: .atencao }
+caso a ficha digitada já tenha sido transmitida para o SISAB, não será possível editá- la ou excluí- la (botão esmaecido), apenas será possível visualizar a ficha ![](media/pec_image633.png).
 
 ## 7.1.3 Inconsistência ao Finalizar a Digitação
 
@@ -114,7 +117,8 @@ Fonte: SAS/MS.
 
 Verifique as mensagens, corrigindo a informação conforme estiver preenchido na ficha. Caso ela esteja preenchida de forma **inconsistente**, em relação à validação do sistema, **cancele a digitação** da ficha e informe o supervisor, a equipe de saúde ou o profissional responsável pelo preenchimento dela.
 
-> ![](media/pec_image59.png) **ATENÇÃO**: caso alguma **inconsistência** seja **detectada** pela validação do sistema, o supervisor ou o próprio profissional deve ser avisado para que esta ficha possa ser **verificada na origem da informação**.
+{: .atencao }
+caso alguma **inconsistência** seja **detectada** pela validação do sistema, o supervisor ou o próprio profissional deve ser avisado para que esta ficha possa ser **verificada na origem da informação**.
 
 # 7.2 Cadastro da Atenção Básica
 
@@ -196,7 +200,8 @@ Para fazer cadastro individual com termo de recusa, siga os passos:
 
 ![](media/pec_image647.png)
 
-> ![](media/pec_image59.png) **ATENÇÃO**: caso o campo "Termo de recusa" seja marcado, os campos ficam desabilitados para preenchimento, exceto os campos de identificação do cidadão.
+{: .atencao }
+caso o campo "Termo de recusa" seja marcado, os campos ficam desabilitados para preenchimento, exceto os campos de identificação do cidadão.
 
 ## 7.2.2 Cadastro domiciliar e territorial
 
@@ -318,7 +323,8 @@ Figura 7.13 - Termo de recusa do cadastro domiciliar
 ![](media/pec_image659.png)
 Fonte: SAS/MS.
 
-> ![](media/pec_image59.png) **ATENÇÃO**: caso o campo de termo de recusa seja marcado, os campos ficam desabilitados para preenchimento, exceto os campos de identificação do imóvel.
+{: .atencao }
+caso o campo de termo de recusa seja marcado, os campos ficam desabilitados para preenchimento, exceto os campos de identificação do imóvel.
 
 ## 7.2.3 Atualizar Cadastro da Atenção Básica
 
@@ -488,7 +494,8 @@ a.Caso seja uma atividade do Programa Saúde na Escola, o n⁰ do INEP (Escola/C
 
 b.Atividades realizadas em outros estabelecimentos de saúde que não o estabelecimento de origem da equipe, deverá ser preenchido o campo "CNES" no bloco Local de atividade (Exemplo: quando realiza atividade em um Polo de Academia da Saúde);
 
-> ![](media/pec_image74.png) **ATUALIZAÇÃO:** A partir da versão 3.1, no momento da digitação da ficha será apresentada uma lista com as Escolas do Município no campo INEP, com o isso deve- se escolher uma das escolas listadas para informar onde a Atividade Coletiva foi realizada.
+{: .atualizacao }
+A partir da versão 3.1, no momento da digitação da ficha será apresentada uma lista com as Escolas do Município no campo INEP, com o isso deve- se escolher uma das escolas listadas para informar onde a Atividade Coletiva foi realizada.
 
 3.No bloco "Profissionais participantes", preencha o n⁰ do CNS e o CBO de cada profissional que participou da atividade e clique em ![](media pec_image685.png), inserindo- os na lista, um a um;
 
@@ -676,7 +683,8 @@ Após clicar no botão ![](media/pec_image701.png), siga os passos:
 
 Esse instrumento permite a identificação de marcadores positivos ou negativos da alimentação e, de maneira mais dinâmica, a composição de indicadores.
 
-> ![](media/pec_image84.png) **DICA**: para auxiliar a utilização da ficha, que pode **ser feita por qualquer profissional da Atençãoásica**, e a orientação sobre práticas alimentares saudáveis, recomenda- se o uso do documento "Orientações para Avaliação de Marcadores de Consumo Alimentar na Atenção Básica", disponível em [[http://dab.saude.gov.br/portaldab/biblioteca.php?conteudo=publicacoes/marcadores_consumo_alimentar_atencao_basica]](http://dab.saude.gov.br/portaldab/biblioteca.php?conteudo=publicacoes/marcadores_consumo_alimentar_atencao_basica).
+{: .dica }
+para auxiliar a utilização da ficha, que pode **ser feita por qualquer profissional da Atençãoásica**, e a orientação sobre práticas alimentares saudáveis, recomenda- se o uso do documento "Orientações para Avaliação de Marcadores de Consumo Alimentar na Atenção Básica", disponível em [[http://dab.saude.gov.br/portaldab/biblioteca.php?conteudo=publicacoes/marcadores_consumo_alimentar_atencao_basica]](http://dab.saude.gov.br/portaldab/biblioteca.php?conteudo=publicacoes/marcadores_consumo_alimentar_atencao_basica).
 
 Após clicar no botão ![](media/pec_image701.png), siga os passos:
 
@@ -872,29 +880,30 @@ Em seguida preencha o cabeçalho da Ficha de vacina no sistema.
 
 ### 7.11.1.1 Informações de cabeçalho
 
-1.Informe o CNS do profissional e automaticamente o sistema apresentará opções para o CBO, CNES e INE oriundas da base de dados do CNES e que foram importado na instalação da aplicação. Lembre também de informar a data em que foi(ram) administrado(s) o(s) imunobiológico(s) no cidadão.
+1. Informe o CNS do profissional e automaticamente o sistema apresentará opções para o CBO, CNES e INE oriundas da base de dados do CNES e que foram importado na instalação da aplicação. Lembre também de informar a data em que foi(ram) administrado(s) o(s) imunobiológico(s) no cidadão.
 
 ![](media/pec_image738.png)
 
-a.Caso o profissional tenha apenas um vínculo no município, os dados do cabeçalho serão preenchidos automaticamente, com exceção da data;
+a. Caso o profissional tenha apenas um vínculo no município, os dados do cabeçalho serão preenchidos automaticamente, com exceção da data;
 
-b.Caso o profissional tenha mais de um vínculo, o sistema mostrará as opções e o digitador escolherá o que está registrado na ficha de vacina.
+b. Caso o profissional tenha mais de um vínculo, o sistema mostrará as opções e o digitador escolherá o que está registrado na ficha de vacina.
 
-c.Caso queira informar novo registro de vacinação realizado no mesmo dia e para o mesmo profissional, clique no botão ![](media/pec_image666.png). O sistema exibirá uma tela com cabeçalho preenchido (somente leitura) e os dados a serem completados para se efetivar o registro de vacinação.
+c. Caso queira informar novo registro de vacinação realizado no mesmo dia e para o mesmo profissional, clique no botão ![](media/pec_image666.png). O sistema exibirá uma tela com cabeçalho preenchido (somente leitura) e os dados a serem completados para se efetivar o registro de vacinação.
 
 ### 7.11.1.2 Vacinações individualizadas
 
-2.Após clicar no botão ![](media/pec_image666.png) digite os dados conforme preenchido na ficha, iniciando pelo Turno da administração do imunobiológico, os dados de identificação do cidadão, o local de atendimento e o grupo, se for o caso:
+2. Após clicar no botão ![](media/pec_image666.png) digite os dados conforme preenchido na ficha, iniciando pelo Turno da administração do imunobiológico, os dados de identificação do cidadão, o local de atendimento e o grupo, se for o caso:
 
-a.Se o cidadão está na situação de "viajante"
+a. Se o cidadão está na situação de "viajante"
 
-b.A Situação de "Gestante" e "Puérpera" somente estará habilitado  quando for selecionado o sexo "Feminino".
+b. A Situação de "Gestante" e "Puérpera" somente estará habilitado  quando for selecionado o sexo "Feminino".
 
-c.O campo "Comunicante de hanseníase" somente estará habilitado  após a confirmação do registro da BCG.
+c. O campo "Comunicante de hanseníase" somente estará habilitado  após a confirmação do registro da BCG.
 
 ![](media/pec_image739.png)
 
-> ![](media/pec_image59.png) **ATENÇÃO:** Para habilitar o campo e registrar um comunicante de hanseníase, o digitador terá que preencher, no bloco "Vacinação", o campo imunobiológico com a vacina **BCG** e os demais campos obrigatórios. Em seguida deverá clicar no botão "confirmar".
+{: .atencao }
+Para habilitar o campo e registrar um comunicante de hanseníase, o digitador terá que preencher, no bloco "Vacinação", o campo imunobiológico com a vacina **BCG** e os demais campos obrigatórios. Em seguida deverá clicar no botão "confirmar".
 
 ### 7.11.1.3 Vacinação
 
@@ -920,7 +929,8 @@ Fonte: SAS/MS.
 
 Ao finalizar todo o processo de digitação das Fichas de vacina, clique no botão ![](media/pec_image634.png).
 
-> ![](media/pec_image74.png) **ATUALIZAÇÃO:** A partir da versão 4.1.17 o registro da vacina COVID-19 está disponível exclusivamente para atendimento à situação nacional de Emergência em Saúde Pública.
+{: .atualizacao }
+A partir da versão 4.1.17 o registro da vacina COVID-19 está disponível exclusivamente para atendimento à situação nacional de Emergência em Saúde Pública.
 
 ## 7.11.2 Ficha de Vacinação COVID-19
 

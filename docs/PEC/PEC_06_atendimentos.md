@@ -68,7 +68,8 @@ Ao clicar nos campos "Período", "Tipo de serviço", "Equipe" e "Profissional", 
 
 ![](media/pec_image312.png)
 
-> ![](media/pec_image58.png) **NOTA**: os **tipos de serviços** mostrados no filtro rápido são os que foram cadastrados, no momento da configuração, para a unidade de saúde. Para mais informações sobre tipo de serviço, ver seção 3.3.1.
+{: .nota }
+os **tipos de serviços** mostrados no filtro rápido são os que foram cadastrados, no momento da configuração, para a unidade de saúde. Para mais informações sobre tipo de serviço, ver seção 3.3.1.
 
 Se for preenchido mais de um campo para pesquisa, a lista de atendimento resultante conterá apenas os registros que contemplem todos os filtros simultaneamente. O sistema também apresenta em formato de *tags* identificando as opções utilizadas para a filtragem da lista de atendimento, como observado na pec_imagem a seguir:
 
@@ -76,7 +77,8 @@ Se for preenchido mais de um campo para pesquisa, a lista de atendimento resulta
 
 Caso o profissional deseje retornar os filtros para o padrão, basta clicar no botão "Voltar para padrão".
 
-> ![](media/pec_image58.png) **NOTA**: a lista com os cidadãos para atendimento, por padrão, apresenta os atendimentos do dia, filtrando os cidadãos com *status* "Atendimento realizado" e ou que "Não aguardou o atendimento".
+{: .nota }
+a lista com os cidadãos para atendimento, por padrão, apresenta os atendimentos do dia, filtrando os cidadãos com *status* "Atendimento realizado" e ou que "Não aguardou o atendimento".
 
 A lista de atendimentos apresenta informações sobre a hora de chegada, nome do cidadão, profissional e tipo de serviço. A barra colorida no canto esquerdo da lista indica o *status* daquele atendimento, e as cores estão relacionadas com o quadro do "Status atendimento", que se encontra no ícone da pesquisa e filtro ![](media/pec_image309.png).
 
@@ -88,7 +90,8 @@ Outra funcionalidade para auxiliar na organização do atendimento é o \"**Orde
 
 É possível ordenar pela data e hora de chegada (crescente ou decrescente) ou pela classificação de risco (apenas atendimentos que passaram pela escuta inicial). Por padrão, a lista é ordenada por ordem crescente (ordem de chegada) + classificação de risco.
 
-> ![](media/pec_image84.png) **DICA**: sempre observe se há algum tipo de filtro ativo para visualização da lista, a fim de não haver confusão ou falsa impressão da quantidade de cidadãos dentro da lista de atendimento.
+{: .dica }
+sempre observe se há algum tipo de filtro ativo para visualização da lista, a fim de não haver confusão ou falsa impressão da quantidade de cidadãos dentro da lista de atendimento.
 
 Como podemos ver na Figura 6.3, algumas ferramentas são disponibilizadas para cada cidadão na lista de atendimentos. A seguir, apresentamos cada ferramenta e para que servem:
 
@@ -102,7 +105,8 @@ Fonte: SAPS/MS.
 
 ![](media/pec_image317.png)
 
-> ![](media/pec_image84.png) **DICA**: ao imprimir a declaração de comparecimento do cidadão, certifique- se de que o controle do pop-up da janela do navegador esteja desbloqueado.
+{: .dica }
+ao imprimir a declaração de comparecimento do cidadão, certifique- se de que o controle do pop-up da janela do navegador esteja desbloqueado.
 
 ![](media/pec_image318.png) **realizar escuta inicial:** inicia- se a escuta inicial do cidadão;
 
@@ -171,7 +175,8 @@ Figura 6.6 - Adicionar Atendimento
 
 ![](media/pec_image330.png)
 
-> ![](media/pec_image59.png) ATENÇÃO: Caso o cidadão tenha procurado a Unidade Básica de Saúde para a realização de vacinação a recepção poderá, no momento de inclusão do cidadão na lista de atendimento, marcar a opção "**Vacina**".
+{: .atencao }
+Caso o cidadão tenha procurado a Unidade Básica de Saúde para a realização de vacinação a recepção poderá, no momento de inclusão do cidadão na lista de atendimento, marcar a opção "**Vacina**".
 
 # 6.2 Escuta Inicial
 
@@ -181,7 +186,8 @@ A escuta inicial representa o primeiro atendimento realizado ao cidadão em **de
 
 O perfil de escuta inicial poderá ser habilitado para os profissionais a depender da organização do processo de trabalho em cada município (ver Seção 3.4.4).
 
-> ![](media/pec_image58.png) **NOTA:** Só é permitido realizar uma escuta para cada atendimento, e não é permitida a exclusão, nem a adição de informações após a finalização do atendimento.
+{: .nota }
+Só é permitido realizar uma escuta para cada atendimento, e não é permitida a exclusão, nem a adição de informações após a finalização do atendimento.
 
 Ao clicar na opção ![](media/pec_image332.png) \"**Realizar escuta inicial**\", disponível na tela da lista de atendimentos, será exibida uma tela, conforme a Figura 6.4.
 
@@ -191,7 +197,8 @@ Fonte: SAPS/MS.
 
 Na tela de escuta inicial, os campos "**Motivo da consulta (CIAP2)**", "**Classificação de risco/vulnerabilidade**" e "**Desfecho da escuta inicial**" são obrigatórios.
 
-> ![](media/pec_image58.png) **NOTA**: a ferramenta de escuta inicial também permite o registro de "pré- atendimento" (opção ![](media/pec_image332.png) \"**Realizar pré-atendimento**\" na lista de atendimento) quando for uma consulta agendada, entretanto a funcionalidade "**Classificação de risco/vulnerabilidade**" não estará disponível.
+{: .nota }
+a ferramenta de escuta inicial também permite o registro de "pré- atendimento" (opção ![](media/pec_image332.png) \"**Realizar pré-atendimento**\" na lista de atendimento) quando for uma consulta agendada, entretanto a funcionalidade "**Classificação de risco/vulnerabilidade**" não estará disponível.
 
 Para fazer o registro da escuta inicial, siga os passos:
 
@@ -217,17 +224,21 @@ Figura 6.8 - Antropometria, Sinais Vitais e Glicemia
 
 - VERMELHO - para risco e/ou vulnerabilidade **alta**.
 
-> ![](media/pec_image58.png) **NOTA**: o protocolo de classificação de risco utilizado no sistema está definido no [Caderno de Atenção Básica (CAB) 28 - Acolhimento à Demanda Espontânea - Volume I](http://189.28.128.100/dab/docs/publicacoes/geral/miolo_CAP_28.pdf). Adaptações deste protocolo podem ser realizadas de acordo com a necessidade local.
+{: .nota }
+o protocolo de classificação de risco utilizado no sistema está definido no [Caderno de Atenção Básica (CAB) 28 - Acolhimento à Demanda Espontânea - Volume I](http://189.28.128.100/dab/docs/publicacoes/geral/miolo_CAP_28.pdf). Adaptações deste protocolo podem ser realizadas de acordo com a necessidade local.
 
-> ![](media/pec_image59.png) **ATENÇÃO**: a classificação de risco/vulnerabilidade é um campo de preenchimento obrigatório para os atendimentos à demanda espontânea, em especial para as consultas que serão realizadas no mesmo dia.
+{: .atencao }
+a classificação de risco/vulnerabilidade é um campo de preenchimento obrigatório para os atendimentos à demanda espontânea, em especial para as consultas que serão realizadas no mesmo dia.
 
-> ![](media/pec_image84.png) **DICA**: Ao fazer a classificação de risco/vulnerabilidade e encaminhar o cidadão para atendimento no dia, o sistema exibe essa informação na lista de atendimento, após finalizar a escuta inicial, para auxiliar na organização e fluxo do atendimento.
+{: .dica }
+Ao fazer a classificação de risco/vulnerabilidade e encaminhar o cidadão para atendimento no dia, o sistema exibe essa informação na lista de atendimento, após finalizar a escuta inicial, para auxiliar na organização e fluxo do atendimento.
 
 - Passo 5. Informe os procedimentos realizados na escuta inicial, caso algum procedimento complementar tenha sido executado;
 
 ![](media/pec_image336.png)
 
-> ![](media/pec_image58.png) **NOTA:** Se forem preenchidos os grupos **Antropometria**, no que se refere a peso e altura, **Sinais** **vitais** e **Glicemia**, os procedimentos que correspondem a essas ações serão inseridos no grupo **Procedimentos** **realizados** automaticamente.
+{: .nota }
+Se forem preenchidos os grupos **Antropometria**, no que se refere a peso e altura, **Sinais** **vitais** e **Glicemia**, os procedimentos que correspondem a essas ações serão inseridos no grupo **Procedimentos** **realizados** automaticamente.
 
 - Passo 6. Faça o Desfecho da Escuta Inicial do cidadão escolhendo uma das ações a seguir:
 
@@ -237,7 +248,8 @@ Figura 6.8 - Antropometria, Sinais Vitais e Glicemia
 
 ![](media/pec_image337.png)
 
-> ![](media/pec_image59.png) **ATENÇÃO**: Caso o cidadão seja incluído na lista de atendimento para a aplicação de vacinas deve ser marcado a opção "**Vacina**" para que a equipe da sala de vacina identifique- o na lista de atendimento e realize o registro da aplicação.
+{: .atencao }
+Caso o cidadão seja incluído na lista de atendimento para a aplicação de vacinas deve ser marcado a opção "**Vacina**" para que a equipe da sala de vacina identifique- o na lista de atendimento e realize o registro da aplicação.
 
 - **agendar consulta:** Adicionalmente, é possível, para os casos em que o problema não foi resolvido, agendar uma consulta para um profissional, na data, turno e horário disponível. Na agenda do profissional, será adicionada esta nova consulta.
 
@@ -247,13 +259,15 @@ Figura 6.8 - Antropometria, Sinais Vitais e Glicemia
 
 Só é permitido realizar uma escuta inicial para cada atendimento, e não é permitido a edição, nem a exclusão dessas informações. No caso em que o usuário tenha acessado a escuta inicial por engano, é possível cancelar essa ação, se a escuta não tiver sido "finalizada". Para isso, deve- se ir até o fim da página e clicar no botão ![](media/pec_image340.png).
 
-> ![](media/pec_image59.png) **ATENÇÃO**: para interromper um atendimento iniciado de forma equivocada, é importante usar o botão "cancelar atendimento", caso contrário, o atendimento ficará travado e aguardando ser finalizado pelo profissional que iniciou o atendimento, não sendo possível que outro profissional o atenda.
+{: .atencao }
+para interromper um atendimento iniciado de forma equivocada, é importante usar o botão "cancelar atendimento", caso contrário, o atendimento ficará travado e aguardando ser finalizado pelo profissional que iniciou o atendimento, não sendo possível que outro profissional o atenda.
 
 # 6.3 Realizar Vacinação
 
 O módulo de vacinação possibilita a organização do processo de trabalho, o registro das vacinas, imunoglobulinas e soros que fazem parte do Programa Nacional de Imunização (PNI) do Ministério da Saúde, contribuindo, dessa forma, para o controle, erradicação e eliminação de doenças imunopreveníveis. O PNI define o calendário de vacinação com orientações específicas para crianças, adolescentes, adultos, gestantes e idosos. Sendo assim, a equipe da Atenção Básica realiza a verificação da caderneta para avaliar a situação vacinal e encaminha a população à unidade de saúde para iniciar ou completar o esquema vacinal, conforme o calendário de vacinação. A partir de então, começa o fluxo de atendimento no PEC.
 
-> ![](media/pec_image74.png) **ATUALIZAÇÃO:** A partir da versão 4.1.17 o registro da vacina COVID-19 está disponível exclusivamente para atendimento à situação nacional de Emergência em Saúde Pública. Mais informações no tópico 6.3.1.2 deste capítulo.
+{: .atualizacao }
+A partir da versão 4.1.17 o registro da vacina COVID-19 está disponível exclusivamente para atendimento à situação nacional de Emergência em Saúde Pública. Mais informações no tópico 6.3.1.2 deste capítulo.
 
 ## 6.3.1 Registrar Vacina Aplicada
 
@@ -327,7 +341,8 @@ Figura 6.13 - Tela para adicionar vacinação
 
 8\. Ao final destas etapas clique em "SALVAR" e aparecerá a mensagem "Registro salvo com sucesso". Caso esteja faltando o preenchimento de algum campo obrigatório, o registro não será salvo e o sistema emitirá um alerta informando qual(is) campo(s) não foram preenchidos.
 
-> ![](media/pec_image59.png) **ATENÇÃO:** os profissionais de saúde que realizam a administração de imunobiológicos deverão seguir as normas e procedimentos para a vacinação de acordo com o Programa Nacional de Imunização do Ministério da Saúde.
+{: .atencao }
+os profissionais de saúde que realizam a administração de imunobiológicos deverão seguir as normas e procedimentos para a vacinação de acordo com o Programa Nacional de Imunização do Ministério da Saúde.
 
 9\. Ainda é possível verificar as informações sobre o registro ao clicar no quadro da dose da vacina administrada (Figura 6.14).
 
@@ -335,7 +350,8 @@ Figura 6.14 - Visualização de Imunobiológico
 
 ![](media/pec_image359.png)
 
-> ![](media/pec_image84.png) **DICA:** Para aumentar a segurança na aplicação dos imunobiológicos o sistema emite alertas quando da tentativa de registro de uma dose que não seja recomendada para o cidadão (Figura 6.15).
+{: .dica }
+Para aumentar a segurança na aplicação dos imunobiológicos o sistema emite alertas quando da tentativa de registro de uma dose que não seja recomendada para o cidadão (Figura 6.15).
 
 Figura 6.15 - Confirmação de registro de dose advertida
 
@@ -514,7 +530,8 @@ Figura 6. 28 - Tela do Prontuário Eletrônico do Cidadão
 
 - ![](media/pec_image385.png) **Finalização do Atendimento:** funcionalidade de controle de finalização do atendimento.
 
-> ![](media/pec_image58.png) **NOTA**: os **técnicos de enfermagem** podem realizar o registro de atendimento por meio da opção "Atender" da lista de atendimento. As funcionalidades disponíveis serão: a folha de rosto, o SOAP restrito ao subjetivo, objetivo e plano com lembretes, visualização de prescrições de medicamentos e orientações, além do acompanhamento, dados cadastrais, fichas CDS e da finalização do atendimento.
+{: .nota }
+os **técnicos de enfermagem** podem realizar o registro de atendimento por meio da opção "Atender" da lista de atendimento. As funcionalidades disponíveis serão: a folha de rosto, o SOAP restrito ao subjetivo, objetivo e plano com lembretes, visualização de prescrições de medicamentos e orientações, além do acompanhamento, dados cadastrais, fichas CDS e da finalização do atendimento.
 
 ## 6.4.1 Folha de Rosto
 
@@ -608,7 +625,8 @@ Para fazer melhor uso da informação, a definição abaixo nos auxilia a entend
 
 Ao fazer a associação do registro via SOAP a uma classificação adequada ao processo de trabalho das equipes de Atenção Básica, o sistema potencializa o uso da informação de registro do atendimento a médio e longo prazo, possibilitando melhor avaliação da situação de saúde da população no território e ampliando a capacidade do sistema de produzir conhecimento novo e estruturado.
 
-> ![](media/pec_image58.png) **NOTA**: para mais informações sobre como utilizar a CIAP 2, acesse o [Guia Rápido](http://189.28.128.100/dab/docs/portaldab/documentos/guia_CIAP2.pdf), no site do e-SUS APS.
+{: .nota }
+para mais informações sobre como utilizar a CIAP 2, acesse o [Guia Rápido](http://189.28.128.100/dab/docs/portaldab/documentos/guia_CIAP2.pdf), no site do e-SUS APS.
 
 ### 6.4.2.1 SOAP - Subjetivo
 
@@ -774,7 +792,8 @@ Para registrar uma avaliação ou problema detectado, siga os passos:
 
 - Passo 5. Por último, clique no botão \"Confirmar\" para concluir.
 
-> ![](media/pec_image59.png) **ATENÇÃO:** Não é possível informar mais de uma vez a mesma codificação CIAP2/CID10, ou seja, repetido. Então, se não conseguir adicionar um problema/condição esteja atento a essa situação.
+{: .atencao }
+Não é possível informar mais de uma vez a mesma codificação CIAP2/CID10, ou seja, repetido. Então, se não conseguir adicionar um problema/condição esteja atento a essa situação.
 
 ### 6.4.2.4 SOAP - Plano
 
@@ -961,7 +980,8 @@ Figura 6.52 - SOAP - Plano - lembretes
 
 Fonte: SAPS/MS.
 
-> ![](media/pec_image59.png) **ATENÇÃO:** Lembretes desativados não poderão ter a descrição alterada e não aparecerá mais na folha de rosto do cidadão.
+{: .atencao }
+Lembretes desativados não poderão ter a descrição alterada e não aparecerá mais na folha de rosto do cidadão.
 
 #### 6.4.2.4.4 Ferramentas do Plano - Prescrição de Medicamentos
 
@@ -1033,9 +1053,11 @@ Figura 6.56 - Posologia e Frequência da dose
 
 - Passo 5. Para finalizar clique no botão "Fechar" ![](media/pec_image456.png).
 
-> ![](media/pec_image58.png) **NOTA**: as regras por medicamento, determinam o tipo de receita e consequentemente o tipo de impressão a ser gerada de acordo com o tipo de medicamento listado na receita. Caso existam medicamentos para tipos de receitas diferentes o sistema irá distribuí-los nos impressos adequados, automaticamente.
+{: .nota }
+as regras por medicamento, determinam o tipo de receita e consequentemente o tipo de impressão a ser gerada de acordo com o tipo de medicamento listado na receita. Caso existam medicamentos para tipos de receitas diferentes o sistema irá distribuí-los nos impressos adequados, automaticamente.
 
-> ![](media/pec_image58.png) **NOTA**: caso seja necessário prescrever um medicamento que esteja fora da lista padrão, use a opção "Registro manual" ![](media/pec_image457.png). Essa forma de prescrição não traz as informações de Princípio Ativo, Concentração, Forma Farmacêutica e Tipo de Receita, por padrão, sendo necessário o seu preenchimento.
+{: .nota }
+caso seja necessário prescrever um medicamento que esteja fora da lista padrão, use a opção "Registro manual" ![](media/pec_image457.png). Essa forma de prescrição não traz as informações de Princípio Ativo, Concentração, Forma Farmacêutica e Tipo de Receita, por padrão, sendo necessário o seu preenchimento.
 
 Caso a UBS utilize o Sistema Hórus para gestão da farmácia será possível realizar a consulta de disponibilidade do medicamento prescrito. A indicação de ativação da integração com o Hórus é representada pelo ícone ![](media/pec_image458.png) ativo, como vimos, anteriormente, no bloco de fornecimento. Ao final da prescrição do medicamento será exibida a lista de estabelecimentos que tem o medicamento disponível, por meio da coluna "Disponibilidade".
 
@@ -1045,7 +1067,8 @@ Figura 6.57 - Exemplo de disponibilidade de medicamentos
 
 Fonte: SAPS/MS.
 
-> ![](media/pec_image58.png) **NOTA**: caso sua UBS tenha implantado o Sistema Hórus e o recurso não esteja disponível, é necessário verificar se o recurso está habilitado. Para mais detalhes ver Seção 3.1.7.
+{: .nota }
+caso sua UBS tenha implantado o Sistema Hórus e o recurso não esteja disponível, é necessário verificar se o recurso está habilitado. Para mais detalhes ver Seção 3.1.7.
 
 - Passo 6. Para imprimir a receita elaborada na consulta, clique no botão \"Imprimir prescrições deste atendimento\" ![](media/pec_image460.png).
 
@@ -1343,7 +1366,8 @@ Figura 6.77 - Tela de visualização do atendimento
 
 Fonte: SAPS/MS.
 
-> ![](media/pec_image58.png) **NOTA**: os procedimentos apresentados no detalhamento do atendimento do cidadão, por meio do histórico, são aqueles que não se enquadram em "tipo de consulta" ou aqueles gerados a partir da entrada de dados clínicos no quadro "informações complementares", os quais geram procedimentos automáticos.
+{: .nota }
+os procedimentos apresentados no detalhamento do atendimento do cidadão, por meio do histórico, são aqueles que não se enquadram em "tipo de consulta" ou aqueles gerados a partir da entrada de dados clínicos no quadro "informações complementares", os quais geram procedimentos automáticos.
 
 ## 6.4.7 Dados Cadastrais
 
@@ -1397,7 +1421,8 @@ Para concluir o atendimento, na tela de finalização do atendimento, informe:
 
 ![](media/pec_image515.png)
 
-> ![](media/pec_image84.png) **DICA**: Os **procedimentos clínicos** são aqueles que são executados diretamente no cidadão, como por exemplo uma sutura, uma sessão de auriculoterapia ou tratamento de pé diabético, e que informam um contexto clínico mais específico, apoiando a tomada de decisão clínica e a continuidade do cuidado. Os **procedimentos administrativos** são aqueles que representam uma informação em saúde mais ampla e inespecífica como tipos de consulta (ex. consulta médica em atenção básica) e não necessariamente apoiam a tomada de decisão clínica.
+{: .dica }
+Os **procedimentos clínicos** são aqueles que são executados diretamente no cidadão, como por exemplo uma sutura, uma sessão de auriculoterapia ou tratamento de pé diabético, e que informam um contexto clínico mais específico, apoiando a tomada de decisão clínica e a continuidade do cuidado. Os **procedimentos administrativos** são aqueles que representam uma informação em saúde mais ampla e inespecífica como tipos de consulta (ex. consulta médica em atenção básica) e não necessariamente apoiam a tomada de decisão clínica.
 
 - **Lista de CID10 inseridos na avaliação:** lista de códigos CID10 inseridos na avaliação, para os casos de consultas médicas.
 
@@ -1407,7 +1432,8 @@ Para concluir o atendimento, na tela de finalização do atendimento, informe:
 
 ![](media/pec_image517.png)
 
-> ![](media/pec_image58.png) **NOTA**: O PEC gera apenas a notificação no formato SINAN que deve ser enviado à Secretaria Municipal de Saúde. A continuação do processo de investigação deve ser realizado pelas equipes de vigilância do município.
+{: .nota }
+O PEC gera apenas a notificação no formato SINAN que deve ser enviado à Secretaria Municipal de Saúde. A continuação do processo de investigação deve ser realizado pelas equipes de vigilância do município.
 
 - **Racionalidade em saúde:** Com base no termo Racionalidades Médicas, que é todo o sistema médico complexo construído sobre seis dimensões: morfologia humana, dinâmica vital, doutrina médica (o que é estar doente ou ter saúde), sistema diagnóstico, cosmologia e sistema terapêutico. O termo Racionalidade em Saúde propõe uma ampliação desse conceito para uma abordagem multiprofissional de cuidado em saúde, incluindo as práticas tradicionais/ populares, ancestrais, complementares ou alternativas. Caso o profissional tenha usado alguma racionalidade em saúde diferente da alopatia para nortear o atendimento, deve informá-la neste bloco.
 
@@ -1525,7 +1551,8 @@ Fonte: SAPS/MS.
 
 - **não identificado:** deve ser preenchido todas as vezes que não for identificada nenhuma condição de vigilância em saúde bucal descrita acima.
 
-> ![](media/pec_image58.png) **NOTA**: quando identificada a presença de **fendas ou fissuras labiopalatais** ou **fluorose dentária moderada ou severa** no paciente, o cirurgião- dentista deverá registrar na \"**lista de problemas/condições**\" essas situações, por meio do CID 10 correspondente, conforme códigos citados acima. O registro na lista de problemas auxiliará o profissional na vigilância da saúde bucal do cidadão acerca desses problemas/condições.
+{: .nota }
+quando identificada a presença de **fendas ou fissuras labiopalatais** ou **fluorose dentária moderada ou severa** no paciente, o cirurgião- dentista deverá registrar na \"**lista de problemas/condições**\" essas situações, por meio do CID 10 correspondente, conforme códigos citados acima. O registro na lista de problemas auxiliará o profissional na vigilância da saúde bucal do cidadão acerca desses problemas/condições.
 
 #### 6.5.1.3.2 Prótese Dentária Superior/Inferior
 
@@ -1816,9 +1843,11 @@ Nele, é possível realizar os registros de:
 
 - **movimentação fetal:** registrar a percepção materna ou do profissional de saúde em relação a presença de movimentos do feto. Para isto, clique em sim ou não.
 
-> ![](media/pec_image59.png) **ATENÇÃO**: *o sistema sempre irá tornar [obrigatório] o preenchimento da **DUM** na seção "Objetivo" quando se tratar de uma "primeira consulta de pré-natal". Esta data pode ser ajustada nas próximas consultas de pré-natal por meio do mesmo campo ou dos resultados de exames específicos, como mencionado anteriormente.*
+{: .atencao }
+*o sistema sempre irá tornar [obrigatório] o preenchimento da **DUM** na seção "Objetivo" quando se tratar de uma "primeira consulta de pré-natal". Esta data pode ser ajustada nas próximas consultas de pré-natal por meio do mesmo campo ou dos resultados de exames específicos, como mencionado anteriormente.*
 >
-> ![](media/pec_image58.png) **NOTA**: caso os antecedentes obstétricos estejam desatualizados, o sistema mostrará a mensagem "Atualize os antecedentes obstétricos".
+{: .nota }
+caso os antecedentes obstétricos estejam desatualizados, o sistema mostrará a mensagem "Atualize os antecedentes obstétricos".
 
 A partir da segunda consulta de pré-natal, os dados do bloco "Pré-Natal - Primeira Consulta" serão transferidos da seção "Avaliação" para a seção "Objetivo" do SOAP.
 
@@ -1975,7 +2004,8 @@ Fonte: SAS/MS
 
 No bloco pré-natal, parto e puerpério, o profissional de saúde pode registrar os dados que apoiam o cuidado da criança provenientes tanto do cartão de pré-natal quanto da caderneta da criança, tais como o tipo de gravidez, tipo de parto, idade gestacional ao nascer, avaliação do apgar e os dados antropométricos ao nascer relativo ao peso, altura e perímetro cefálico.
 
-> ![](media/pec_image58.png) **NOTA**: o bloco "Pré-natal, parto e nascimento" é exibido apenas quando não há registro anterior em relação a estes dados no sistema.
+{: .nota }
+o bloco "Pré-natal, parto e nascimento" é exibido apenas quando não há registro anterior em relação a estes dados no sistema.
 
 Após o registro dos dados no bloco sobre "pré-natal, parto e nascimento" no SOAP, estes poderão ser acessados no módulo "Antecedentes".
 
@@ -1989,7 +2019,8 @@ O bloco do desenvolvimento da criança, somente estará presente no campo "Objet
 
 Para registrar o crescimento da criança com a finalidade de avaliar o estado nutricional e o desenvolvimento do perímetro cefálico, o profissional de saúde deverá preencher os campos do bloco "Antropometria" e digitar os valores referentes ao *Peso em Quilogramas (Kg), Altura e Perímetro Cefálico* em centímetros (cm). Após a inserção dos valores do Peso e Altura o Índice de Massa Corporal (IMC) é calculado automaticamente.
 
-> ![](media/pec_image84.png) **DICA**: Para o acompanhamento adequado da criança é importante que o profissional de saúde registre em todas as consultas de puericultura os dados antropométricos. Estes dados comporão as tabelas e gráficos no módulo de "Acompanhamento" da Puericultura. Neste módulo é possível analisar a curva de crescimento da criança, mais informações no capítulo ***6.5.3.2. Acompanhamento da Puericultura***.
+{: .dica }
+Para o acompanhamento adequado da criança é importante que o profissional de saúde registre em todas as consultas de puericultura os dados antropométricos. Estes dados comporão as tabelas e gráficos no módulo de "Acompanhamento" da Puericultura. Neste módulo é possível analisar a curva de crescimento da criança, mais informações no capítulo ***6.5.3.2. Acompanhamento da Puericultura***.
 
 Figura 6.113 - Bloco Antropometria
 
@@ -2017,7 +2048,8 @@ Figura 6.116 - Confirmação de status "Presente" para a alteração fenotípica
 
 ![](media/pec_image578.png)
 
-> ![](media/pec_image59.png) **ATENÇÃO**: Atente para a caixa de diálogo solicitando a confirmação da alteração fenotípica na criança. Após a finalização do atendimento não será possível alterar o status. Se o profissional de saúde finalizar o atendimento com o status "presente" de forma errônea, o sistema emitirá alerta relacionado ao desenvolvimento que não condiz com a realidade da criança. Por isso, fique atento às boas práticas do registro em prontuários.
+{: .atencao }
+Atente para a caixa de diálogo solicitando a confirmação da alteração fenotípica na criança. Após a finalização do atendimento não será possível alterar o status. Se o profissional de saúde finalizar o atendimento com o status "presente" de forma errônea, o sistema emitirá alerta relacionado ao desenvolvimento que não condiz com a realidade da criança. Por isso, fique atento às boas práticas do registro em prontuários.
 
 Para iniciar a avaliação dos fatores de risco clique no botão "Avaliar" e em seguida será aberta uma tela conforme a figura abaixo. Neste momento clique sobre "Ausente" ou "Presente" em cada condição a ser observada.
 
@@ -2065,7 +2097,8 @@ Figura 6.122 - Avaliação dos Marcos de Desenvolvimento
 
 ![](media/pec_image585.png)
 
-> ![](media/pec_image84.png) DICA: No bloco de avaliação dos marcos de desenvolvimento ao clicar no símbolo da seta para baixo ![](media/pec_image586.png) aparece as informações relacionadas aos significados ou comportamentos esperados na avaliação do marco, com a finalidade de orientar o profissional que irá realizar a averiguação e o registro do mesmo (Figura 6.122).
+{: .dica }
+No bloco de avaliação dos marcos de desenvolvimento ao clicar no símbolo da seta para baixo ![](media/pec_image586.png) aparece as informações relacionadas aos significados ou comportamentos esperados na avaliação do marco, com a finalidade de orientar o profissional que irá realizar a averiguação e o registro do mesmo (Figura 6.122).
 
 Ao finalizar a avaliação do marco do desenvolvimento, o bloco apresentará o status de cada marco, de acordo com o encontrado no momento da avaliação. Os status apresentados são os seguintes:
 
@@ -2321,7 +2354,8 @@ Figura 6.147 - Lista registro tardio de atendimento
 
 ![](media/pec_image622.png)
 
-> ![](media/pec_image84.png) **DICA**: Atendimentos realizados fora da UBS podem ser agendados ao selecionar na agenda a opção \"Fora da UBS\". Os registros agendados são automaticamente inseridos na lista de registro tardio. Para saber mais como agendar um cidadão para o atendimento fora da UBS, consulte o capítulo 5.1.1.
+{: .dica }
+Atendimentos realizados fora da UBS podem ser agendados ao selecionar na agenda a opção \"Fora da UBS\". Os registros agendados são automaticamente inseridos na lista de registro tardio. Para saber mais como agendar um cidadão para o atendimento fora da UBS, consulte o capítulo 5.1.1.
 
 # ANEXOS
 
