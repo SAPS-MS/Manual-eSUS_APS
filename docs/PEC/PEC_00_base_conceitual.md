@@ -95,7 +95,8 @@ Considerando o princípio doutrinário da universalidade no SUS, se o cidadão n
 
 O e-SUS APS apresenta aos profissionais das equipes de Atenção Básica um grande módulo de cadastro de cidadãos, o qual se subdivide em dois módulos distintos: **Cadastro do Cidadão** e **Cadastro do Território**. O primeiro é realizado por meio do PEC nas UBS e o seu principal objetivo é realizar o cadastramento dos usuários do serviço, mesmo que não façam parte do seu território. Trata-se de um cadastro **mais simplificado**, apenas com informações individuais, com possibilidade de interoperabilidade com a base nacional do CNS. Já o segundo é realizado por meio da Coleta de Dados Simplificada (CDS), **a partir das fichas de Cadastro Individual e de Cadastro Domiciliar e Territorial**, utilizados, principalmente, pelo Agente Comunitário de Saúde (ACS) para cadastrar os residentes em sua microárea. Este cadastro é mais extenso e contém informações-chave sobre a população sob responsabilidade da equipe de saúde. Abordaremos o CDS com mais profundidade no Capítulo 7.
 
-![](media/pec_image58.png)**NOTA**: A consulta na base nacional do CNS depende de conexão de internet disponível na UBS.
+{: .nota }
+A consulta na base nacional do CNS depende de conexão de internet disponível na UBS.
 
 Apesar de se tratar de duas formas de cadastrar, os dados de ambas estão disponíveis para que a equipe de saúde possa obter informações de seus usuários da forma mais integrada possível.
 
@@ -150,7 +151,7 @@ No que se refere à definição de intervenções, segundo a estratificação da
 Em síntese, o fluxograma definido no CAB 28, mostrado nas figuras 3 e 4, deve ser tomado como uma oferta, um ponto de partida possível, uma estratégia de visualização e organização do trabalho coletivo na UBS, devendo, sempre que necessário, ser adaptado, enriquecido, testado e ajustado, considerando a singularidade de cada lugar, de modo a facilitar o acesso, a escuta inicial qualificada e o atendimento a necessidades de saúde com equidade, assumindo a perspectiva usuário- centrada como um posicionamento ético- político, que tem implicações organizativas e no processo de trabalho das equipes.
 
 {: .nota }
-para mais informações sobre fluxo de acolhimento à demanda espontânea, consulte o Caderno de Atenção Básica (CAB) nº 28, **Volume I**, por meio da Biblioteca virtual em Saúde no endereço: [[http://bvsms.saude.gov.br/bvs/publicacoes/acolhimento_demanda_espontanea.pdf]](http://bvsms.saude.gov.br/bvs/publicacoes/acolhimento_demanda_espontanea.pdf), e **Volume II**, por meio do endereço: [[http://bvsms.saude.gov.br/bvs/publicacoes/acolhimento_demanda_espontanea_queixas_comuns.pdf]](http://bvsms.saude.gov.br/bvs/publicacoes/acolhimento_demanda_espontanea_queixas_comuns.pdf).
+para mais informações sobre fluxo de acolhimento à demanda espontânea, consulte o Caderno de Atenção Básica (CAB) nº 28, [Volume I](http://bvsms.saude.gov.br/bvs/publicacoes/acolhimento_demanda_espontanea_cab28v1.pdf), e [Volume II](http://bvsms.saude.gov.br/bvs/publicacoes/acolhimento_demanda_espontanea_queixas_comuns_cab28v2.pdf).
 
 # 5. Modelo conceitual do Prontuário Eletrônico do Cidadão
 
