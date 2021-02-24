@@ -15,13 +15,13 @@ O template utilizado neste manual é o [Just the Docs](https://pmarsceill.github
 
 ### Estrutura:
 
-O manual está organizado em capítulos. Cada arquivo `.md` contém um capítulo. Atualmente o manual é composto por 11 capítulos. O arquivo `index.md` é a página principal de acesso do manual.
+Cada manual está em uma subpasta exclusiva na pasta `\docs\`. Os mesmos estão organizado em capítulos, sendo um arquivo `.md` para da um deles. Todos os manuais possuem um arquivo `index.md` como página principal de acesso e com informações da ficha catalográfica.
 
-O arquivo `_config.yml` contém as configurações de funcionamento do template atualmente utilizado. Altere este arquivo apenas se souber o que está fazendo.
+O arquivo `_config.yml` contém as configurações de funcionamento do template atualmente utilizado. A pasta `\_sass\` contém os arquivos de customização (`.scss`), que podem ser realizados no esquema de cores (`\color_schemes\`), seja em customizações em geral (`\custom\`). Arquivos de customização também estão presentes nas pastas `\_inlcudes\` e `\_layouts\`. 
+> *Manipule estes arquivos apenas se souber o que está fazendo.*
 
-Os arquivos de pec_imagem devem ser gravados na pasta `\media\`, de preferência em formato `.png`.
+Os arquivos de imagem devem ser gravados na pasta `\media\` de cada manual, de preferência em formato `.png`.
 
-A pasta `\_sass\` contém os arquivos de customização (`.scss`), que podem ser realizados no esquema de cores (`\color_schemes\`), seja em customizações em geral (`\custom\`)
 
 ### Atualizações:
 
@@ -31,14 +31,37 @@ As atualizações dos manuais do e-SUS APS devem observar as seguintes premissas
 
 - **Versões de melhoria (*minor*) e novidades (*major*):** os manuais destas versões precisam ter projetos independentes no GitHub. Para isto é necessário duplicar a versão anterior e continuar as atualizações.
 
-#### Baixando o projeto
+### Configurar, baixar projeto e enviar atualizações com GitHub Desktop
 Utilize o [GitHub Desktop](https://desktop.github.com/) para baixar o projeto em seu computador. Após a instalação, faça o *login* na sua conta GitHub. Escolha o projeto e selecione a opção `Clone`. O GitHub Desktop irá salvar uma cópia do projeto no seu computador.
 
-#### Atualização de conteúdo:
+#### Editando os arquivos `.md`
+Utilize um editor de código como o [Atom](https://atom.io/) ou [Visual Studio Code](https://code.visualstudio.com/) para realizar as edições dos arquivos e os respectivos envios (também conhecido como *commit*). 
 
-Utilize o [Atom](https://atom.io/) para realizar as edições dos arquivos e os respectivos envios (também conhecido como *commit*). É possível realizar todas as operações de *commit* a partir do Atom. Para isto é necessário ativar o pacote de integração do GitHub disponível no próprio Atom (menu `Packages` > `GitHub` > `Toggle GitHub Tab`). Após configurar sua conta GitHub no Atom é necessário clicar na opção `Git` no canto inferior direito do Atom. Será apresentado uma aba com informações relacionadas ao repositório em que você estará trabalhando, os arquivos que foram identificados com alguma alteração e as opções de *commit*. Não esqueça de salvar as alterações antes de realizar o *commit*. Após salvar, os arquivos alterados estarão no bloco `Unstaged Changes`. Clique na opção `Stage All` e os arquivos estarão prontos para serem enviados para o repositório no GitHub. Clique em `Commit to main` para confirmar as alterações no arquivo.
+Não esqueça de salvar as alterações antes de realizar o *commit*. Após salvar os arquivos vá ao GitHub Desktop e serão mostrados os arquivos que foram alterados. Caso seja mais de um arquivo será necessário descrever resumidamente as alterações. Clique em `Commit to main` para confirmar as alterações no arquivo. Por fim clique em `Push origin` para que os arquivos sejam atualizados no repositório do GitHub.
 
 > *Sempre que for realizar uma atualização de conteúdo é desejável que inclua um resumo das alterações na descrição do commit. Isto facilitará o entendimento da alteração realizada por outros usuários do repositório.*
+
+### Atualização de conteúdo:
+Cada arquivo `.md` inicia com uma "folha de rosto" (*frontmatter*) que indica algumas configurações de comportamento daquele arquivo. Uma delas é a *Data da Última Atualização*, representada pela *tag* `last_modified_date`, como mostrado a seguir:
+
+```yaml
+---
+layout: default
+title: e-SUS Atividade Coletiva v1.3
+nav_order: 5
+nav_exclude: false
+has_children: true
+last_modified_date: "21/02/2021"
+description: "Manual e-SUS APS"
+permalink: /docs/ac
+---
+```
+
+> Sempre que for realizada uma atualização de conteúdo a tag `last_modified_date` deve conter a data do dia em que a atualização está sendo concluída e enviada ao repositório, sempre usando aspas (""). 
+
+Desta forma sempre será mostrado no rodapé do capítulo a data da sua última atualização.
+
+#### Blocos de chamada (*callouts*)
 
 É possível utilizar blocos de chamada (callouts) no texto para dar destaque a informações do tipo `Atenção`, `Nota`, `Dica` e `Atualização`. Os conceitos de cada item e o comando que deve ser utilizado antes de cada bloco são apresentados no quadro a seguir:
 
