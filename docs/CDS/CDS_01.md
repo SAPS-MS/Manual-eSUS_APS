@@ -5,7 +5,7 @@ parent: Coleta de Dados Simplificada v3.2
 nav_order: 2
 has_children: false
 has_toc: true
-last_modified_date: "now"
+last_modified_date: "04/02/2021"
 ---
 
 # CAPÍTULO 1 - Introdução
