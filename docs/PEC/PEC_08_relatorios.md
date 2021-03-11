@@ -1088,6 +1088,38 @@ Quadro 8.1 - Códigos CIAP2 e CID10 para o Relatório de Risco Cardiovascular
 
 Fonte: SAPS/MS.
 
+# 8.6 Relatórios Gerenciais
+
+![](media/pec_image871.png)
+
+{: .atualizacao }
+A partir da versão 4.2 estarão disponíveis relatórios gerenciais com informações sobre o funcionamento da Unidade de Saúde.
+
+Os Relatórios Gerenciais tem como principal objetivo apresentar ao Gerente da UBS e às equipes informações específicas e essenciais sobre o funcionamento da Unidade de Saúde, observando dados gerados durante os fluxos presentes no cotidiano do serviço.
+
+Este novo formato de relatório utiliza uma tecnologia mais sofisticada que os demais relatórios já existentes, pois oferece ao profissional uma forma mais dinâmica de trabalhar a informação.
+
+## 6.6.1 Relatório de Absenteísmo
+
+O Relatório de Absenteísmo apresenta de forma clara o comportamento dos usuários em relação aos agendamentos realizados previamente, as faltas e os seus motivos.
+
+![](media/pec_image857.png)
+
+
+
+ta versão possui o novo grupo de Relatórios Gerenciais. Neste grupo, os dados são apresentados em uma tabela dinâmica construída pelo usuário. O usuário pode definir a tabela arrastando os campos disponíveis para linhas e colunas. Também é permitida a exportação destes relatórios para um arquivo no formado .csv.
+
+O primeiro relatório disponibilizado é o Relatório de Absenteísmo, o qual apresenta informações quantitativas sobre as faltas dos cidadãos.
+
+
+
+
+
+
+
+
+
 [^3]: Segundo a Política Nacional de Atenção Básica (BRASIL, 2011), "adscrição de usuários" é um processo de vinculação de pessoas e/ou famílias e grupos a profissionais/equipes, com o objetivo de ser referência para o seu cuidado.
 
 [^4]: Em caso de re- territorialização, os logradouros, domicílios ou cidadãos que fiquem fora da área de cobertura da equipe poderão ser identificados com o status "Fora de Área", sendo identificados desta forma nos relatórios e no filtro "microárea".
+
