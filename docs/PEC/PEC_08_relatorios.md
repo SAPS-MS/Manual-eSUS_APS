@@ -1069,7 +1069,9 @@ Os critérios de inclusão do cidadão neste relatório são:
 - Opções \"Hipertensão arterial\"; \"Diabetes\"; \"Obesidade\"; \"Tabagismo\" marcada na Ficha de Atendimento Individual;
 
 Figura 8.36 - Exemplo de Relatório Operacional de risco cardiovascular
+
 ![](media/pec_image820.png)
+
 Fonte: SAPS/MS.
 
 Quadro 8.1 - Códigos CIAP2 e CID10 para o Relatório de Risco Cardiovascular
@@ -1099,25 +1101,83 @@ Os Relatórios Gerenciais tem como principal objetivo apresentar ao Gerente da U
 
 Este novo formato de relatório utiliza uma tecnologia mais sofisticada que os demais relatórios já existentes, pois oferece ao profissional uma forma mais dinâmica de trabalhar a informação.
 
-## 6.6.1 Relatório de Absenteísmo
+## 8.6.1 Relatório de Absenteísmo
 
-O Relatório de Absenteísmo apresenta de forma clara o comportamento dos usuários em relação aos agendamentos realizados previamente, as faltas e os seus motivos.
+O Relatório de Absenteísmo apresenta de forma clara o comportamento dos usuários em relação aos agendamentos realizados previamente, as faltas dos cidadãos e outras informações relevantes. Utiliza contagem de eventos do módulo de agenda em que o cidadãos não compareceu ou não aguardou.
+
+Figura 8.37 - Tela principal do relatório de absenteísmo
 
 ![](media/pec_image857.png)
 
+Fonte: SAPS/MS.
 
+A Figura 8.37 apresenta a tela principal deste relatório. Nele são apresentados blocos com as possibilidades de variáveis que podem ser utilizadas para visualizar estas informações.
 
-ta versão possui o novo grupo de Relatórios Gerenciais. Neste grupo, os dados são apresentados em uma tabela dinâmica construída pelo usuário. O usuário pode definir a tabela arrastando os campos disponíveis para linhas e colunas. Também é permitida a exportação destes relatórios para um arquivo no formado .csv.
+O primeiro bloco (figura 8.38) apresenta o período que o profissional deseja que seja utilizado como intervalo de tempo para a análise. É possível selecionar as opções pré-definidas dos últimos 3, 6 ou 12 meses. Também é possível selecionar um intervalo de tempo customizado.
 
-O primeiro relatório disponibilizado é o Relatório de Absenteísmo, o qual apresenta informações quantitativas sobre as faltas dos cidadãos.
+Figura 8.38 - Bloco para seleção do intervalo de tempo.
 
+![](media/pec_image858.png)
 
+Fonte: SAPS/MS.
 
+A seguir (Figura 8.39) são apresentados os campos disponíveis para uso, sendo elas:
+- Equipe
+- Categoria profissional
+- Turno
+- Tipo de falta
+- Profissional
+- Tempo entre agendamento e consulta
 
+Figura 8.39 - Variáveis disponíveis.
 
+![](media/pec_image859.png)
 
+Fonte: SAPS/MS.
 
+É possível filtrar as variáveis de cada campo clicando no ícone ![](media/pec_image872.png) como mostra a Figura 8.40. 
 
+Figura 8.40 - Filtro de variáveis do campo.
+
+![](media/pec_image873.png)
+
+Fonte: SAPS/MS.
+
+Estes campos podem ser distribuídas no bloco seguinte (figura 8.41) que representam as colunas e linhas da tabela que será construída. Para isto basta clicar e arrastar cada variável para uma das caixas. É possível incluir mais de um campo na linha e na coluna.
+
+Figura 8.41 - Caixas "Colunas" e "Linhas".
+
+![](media/pec_image868.png)
+
+Fonte: SAPS/MS.
+
+Feito isso basta é possível escolher a forma de cálculo que deve ser apresentado na tabela a ser construída. O sistema realiza as operações de contagem das variáves ou o cálculo percentual entre as variáveis, como mostra a Figura 8.42.
+
+Figura 8.42 - Formas de cálculo dos resultados.
+
+![](media/pec_image861.png)
+
+Fonte: SAPS/MS.
+
+Caso algum campo seja filtrado o sistema apresentará os filtros aplicados, indicando qual(ais) o(s) campo(s) e variável(eis) foram filtradas como mostra a Figura 8.43.
+
+Figura 8.42 - Formas de cálculo dos resultados.
+
+![](media/pec_image862.png)
+
+Fonte: SAPS/MS.
+
+Se desejar limpar as seleções, clique no botão ![](media/pec_image863.png). Para concluir o processo clique no botão ![](media/pec_image864.png).
+
+Ao final será apresentado uma tabela com os resultados baseados nas seleções realizadas e distribuídas nos quadros **Colunas** e **Linhas**, como mostra a Figura 8.43 a seguir.
+
+Figura 8.42 - Formas de cálculo dos resultados.
+
+![](media/pec_image865.png)
+
+Fonte: SAPS/MS.
+
+Caso necessite, é possível realizar a exportação destes relatórios para um arquivo no formado .csv clicando no botão ![](media/pec_image874.png).
 
 [^3]: Segundo a Política Nacional de Atenção Básica (BRASIL, 2011), "adscrição de usuários" é um processo de vinculação de pessoas e/ou famílias e grupos a profissionais/equipes, com o objetivo de ser referência para o seu cuidado.
 
