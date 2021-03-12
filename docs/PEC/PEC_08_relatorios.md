@@ -5,7 +5,7 @@ parent: Prontuário Eletrônico do Cidadão v4.1
 nav_order: 10
 has_children: false
 has_toc: true
-last_modified_date: "03/02/2021"
+last_modified_date: "12/03/2021"
 ---
 
 
@@ -1161,7 +1161,7 @@ Fonte: SAPS/MS.
 
 Caso algum campo seja filtrado o sistema apresentará os filtros aplicados, indicando qual(ais) o(s) campo(s) e variável(eis) foram filtradas como mostra a Figura 8.43.
 
-Figura 8.42 - Formas de cálculo dos resultados.
+Figura 8.43 - Formas de cálculo dos resultados.
 
 ![](media/pec_image862.png)
 
@@ -1169,9 +1169,9 @@ Fonte: SAPS/MS.
 
 Se desejar limpar as seleções, clique no botão ![](media/pec_image863.png). Para concluir o processo clique no botão ![](media/pec_image864.png).
 
-Ao final será apresentado uma tabela com os resultados baseados nas seleções realizadas e distribuídas nos quadros **Colunas** e **Linhas**, como mostra a Figura 8.43 a seguir.
+Ao final será apresentado uma tabela com os resultados baseados nas seleções realizadas e distribuídas nos quadros **Colunas** e **Linhas**, como mostra a Figura 8.44 a seguir.
 
-Figura 8.42 - Formas de cálculo dos resultados.
+Figura 8.44 - Formas de cálculo dos resultados.
 
 ![](media/pec_image865.png)
 
