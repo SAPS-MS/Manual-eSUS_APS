@@ -1206,9 +1206,10 @@ O módulo de Gestão municipal agrupa funcionalidades gerais, são elas: Compart
 
 ## 3.11.1 Compartilhamento de prontuário
 
-Essa funcionalidade permite compartilhar prontuários com todos os outros municípios que utilizam a mesma instalação em questão.
+{: .atualizacao }
+O módulo para Configuração de Compartilhamento de Prontuário foi descontinuado. A partir da versão 4.2, todos os municípios que utilizam a mesma instalação multimunicipal irão compartilhar os prontuário dos cidadãos. Esta alteração não interfere na geração de relatórios do PEC. A nova regra de compartilhamento de prontuário entre municípios está de acordo com a política de privacidade da RNDS.
 
-A funcionalidade estará ativa quando o botão estiver habilitado ![](media/pec_image216.png). Para desativar o compartilhamento, desabilite o botão ![](media/pec_image217.png).
+Este módulo permitia que um município optasse por não compartilhar dados de prontuário com outros municípios da mesma instalação multimunicipal.
 
 ## 3.11.2 Configuração da agenda padrão
 
