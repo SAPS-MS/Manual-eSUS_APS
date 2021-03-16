@@ -32,7 +32,7 @@ Este manual foi elaborado usando como referência o Aplicativo e-SUS Território
 
 Figura 1.1 -- Versão do Aplicativo e-SUS Território
 
-![](media/image119.jpg)
+![](media/image119.png)
 
 *Fonte: SAS/MS.*
 
