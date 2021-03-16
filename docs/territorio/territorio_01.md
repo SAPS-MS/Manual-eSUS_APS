@@ -22,9 +22,9 @@ Neste capítulo, abordaremos uma breve apresentação, os conceitos e as orienta
 
 O Departamento de Saúde da Família (DESF) incluiu na Estratégia e-SUS Atenção Primária à Saúde (e-SUS APS) aplicativos móveis para registro das ações realizadas pelos profissionais de saúde em locais de difícil manejo de computadores ou notebooks. O desenvolvimento destes aplicativos é integrado ao Sistema e-SUS APS com Prontuário Eletrônico do Cidadão (PEC) ampliando a capacidade de troca de informações entre a equipe. Nesse contexto, não por acaso, o primeiro aplicativo desenvolvido para APS priorizou os Agentes Comunitários de Saúde (ACS), Agentes de Combate às Endemias (ACE) e os Agentes de Ação Social (AAS) dada a capilaridade das ações no território.
 
-O aplicativo e-SUS Território foi desenvolvido para utilização em dispositivos do tipo tablet, levando em conta aspectos relacionados ao conforto, à segurança e à usabilidade da ferramenta dentro processo de trabalho dos agentes. Na Seção 2.2 são oferecidas especificações do tablet ou smartphone que melhor se adequam à ferramenta.
+O aplicativo e-SUS Território foi desenvolvido para utilização em dispositivos do tipo tablet ou smartphone, levando em conta aspectos relacionados ao conforto, à segurança e à usabilidade da ferramenta dentro processo de trabalho dos agentes. Na Seção 2.2 são oferecidas especificações do tablet ou smartphone que melhor se adequam à ferramenta.
 
-Sua experiência de uso poderá contribuir para que o aplicativo e-SUS Território e os sistemas e SUS APS dialoguem cada vez mais com a sua prática profissional. O canal para registro de sugestões é o [Pesquisa de Opinião do e-SUS AB - Seção e-SUS Território](http://sisaps.saude.gov.br/pesquisa/). Para problemas, abra um chamado no [Suporte e-SUS APS](http://esusaps.bridge.ufsc.br/support).
+Sua experiência de uso poderá contribuir para que o aplicativo e-SUS Território e os sistemas e SUS APS dialoguem cada vez mais com a sua prática profissional. O canal para registro de sugestões é o [Pesquisa de Opinião do e-SUS AB - Seção e-SUS Território](http://sisaps.saude.gov.br/pesquisa/). Para relatar problemas no aplicativo, abra um chamado no [Suporte e-SUS APS](http://esusaps.bridge.ufsc.br/support).
 
 ## 1.1 Versão do Aplicativo Usado neste Manual
 
