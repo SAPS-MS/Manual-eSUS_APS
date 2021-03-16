@@ -58,11 +58,11 @@ Nessa perspectiva, o desenvolvimento do Sistema e-SUS APS passa a priorizar o at
 
 ## 1.4 Visita Domiciliar
 
-A visita domiciliar, no contexto das ações realizadas pelos agentes de saúde (ACS, ACE e AAS), foco deste aplicativo, tem como principal objetivo registrar as ações de acompanhamento do usuário que se encontra adscrito no território da equipe da APS. Nesse sentido, quando a visita demandar ações à pessoas específicas de um núcleo familiar, tais como `cadastramento atualização`, `busca ativa`, `acompanhamento`, `egresso de internação`, `convites atividades coletivas/campanhas de saúde`, `orientação/prevenção` ou `outros`, deve ser registrada a visita ao cidadão.
+A visita domiciliar, no contexto das ações realizadas pelos agentes de saúde (ACS, ACE e AAS), foco deste aplicativo, tem como principal objetivo registrar as ações de acompanhamento do usuário que se encontra adscrito no território da equipe da APS. Nesse sentido, quando a visita demandar ações às pessoas específicas de um núcleo familiar, tais como `cadastramento/atualização`, `busca ativa`, `acompanhamento`, `egresso de internação`, `convites para atividades coletivas/campanhas de saúde`, `orientação/prevenção` ou `outros`, deve ser registrada a visita ao cidadão.
 
 Vale contextualizar que o conceito de visita domiciliar, no Sistema e-SUS APS, foi redefinido, considerando apenas as ações em domicílio realizadas pelos agentes de saúde. Para os outros profissionais de saúde, nível médio/técnico e nível superior, as ações realizadas no domicílio são agora definidas como **atendimento no domicílio**.
 
-Desde a utilização do Sistema com CDS, com o registro das informações de forma individualizada, tem sido possível dar visibilidade ao alcance das ações destes Agentes no acompanhamento dos indivíduos. Será possível vincular estes indivíduos a seus núcleos familiares, possibilitando um acompanhamento, de forma geral, à família.
+Desde a utilização do Sistema com CDS, com o registro das informações de forma individualizada, tem sido possível dar visibilidade ao alcance das ações destes agentes no acompanhamento dos indivíduos. Será possível vincular estes indivíduos a seus núcleos familiares, possibilitando um acompanhamento, de forma geral, à família.
 
 ## 1.5 Fluxo de Cadastro e Atualização pelo Aplicativo
 
