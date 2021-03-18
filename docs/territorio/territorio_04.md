@@ -18,7 +18,7 @@ last_modified_date: "01/02/2021"
 - TOC
 {:toc}
 
-Após cadastrar os domicílios, os núcleos familiares e os cidadãos que compõem os núcleos familiares é possível registrar as visitas domiciliares e territoriais, tanto individualmente a depender das condições específicas de cada cidadão , quanto em contexto de acompanhamento periódico das famílias , conforme visto na Figura 4.1.
+Após cadastrar os domicílios, os núcleos familiares e os cidadãos que compõem os núcleos familiares é possível registrar as visitas domiciliares e territoriais, tanto individualmente a depender das condições específicas de cada cidadão, quanto em contexto de acompanhamento periódico das famílias, conforme visto na Figura 4.1.
 
 ## 4.1 Visitar Cidadão
 
@@ -37,7 +37,7 @@ Figura 4.1 - Tela com nome do cidadão
 {: .atualizacao }
 A partir da versão 3.1, é possível visualizar as condições de saúde do cidadão, ao acessar o perfil para registrar a visita domiciliar.
 
-2.  Em seguida a tela de registro da visita será exibida. Nesta tela será registrada a "Visita foi realizada", o "Motivo da visita", "Busca ativa" e/ou "Acompanhamento". Ainda é possível registrar a antropometria e se a "visita foi acompanhada por outro profissional";
+2.  Em seguida a tela de registro da visita será exibida. Nesta tela será registrada a "Visita foi realizada", o "Motivo da visita", "Busca ativa" e/ou "Acompanhamento".
 
 Figura 4.2 - Tela Visita ao cidadão
 
@@ -52,6 +52,17 @@ Figura 4.3 - Tela visita ao cidadão
 ![](media/image100.png)
 
 *Fonte: SAS/MS*
+
+A partir da versão 3.2, além da possibilidade de registrar a antropometria e se a "visita foi acompanhada por outro profissional", também é possível registrar os sinais vitais (temperatura e pressão arterial) e a glicemia capilar.
+
+Figura 4.4 - Tela visita ao cidadão
+
+![](media/image118.png)
+
+*Fonte: SAS/MS*
+
+{: .nota }
+O registro dos campos sinais vitais (temperatura e pressão arterial) e glicemia pelos ACS está de acordo com a Lei nº 13.595, de 05 de Janeiro de 2018, que incluiu novas atribuições aos Agentes Comunitários de Saúde. Esta normativa refere que o ACS somente realizará a aferição dos sinais vitais e da glicemia capilar, a partir do momento que tenha concluído o curso técnico e tenha disponíveis os equipamentos adequados, além de ser assistido por profissional de saúde de nível superior e que seja membro da equipe. 
 
 ## 4.2 Visitar Família
 

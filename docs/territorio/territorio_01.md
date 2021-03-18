@@ -90,7 +90,7 @@ Figura 1.2 - Fluxo de Cadastro/Atualização usando CDS
 
 ![](media/image4.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAS/MS*.
 
 Na mesma perspectiva, porém utilizando o aplicativo e-SUS Território, conforme ilustração da Figura 1.3, o processo ocorre como segue:
 
