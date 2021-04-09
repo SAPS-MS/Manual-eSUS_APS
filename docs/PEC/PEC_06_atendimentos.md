@@ -5,7 +5,7 @@ parent: Prontuário Eletrônico do Cidadão v4.1
 nav_order: 8
 has_children: false
 has_toc: true
-last_modified_date: "02/02/2021"
+last_modified_date: "09/04/2021"
 ---
 
 # CAPÍTULO 6 - Atendimentos
