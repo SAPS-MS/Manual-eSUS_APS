@@ -709,11 +709,19 @@ Figura 6.35 - SOAP - Objetivo - grupo mulher (com DUM registrada)
 
 Fonte: SAPS/MS.
 
+#### 6.4.2.2.1 - Resultados de Exames
+
 No bloco "Objetivo", é possível gerenciar exames solicitados, avaliados e seus resultados. Itens solicitados por meio da ferramenta "Exames" do PEC são mostrados no grupo "Exames solicitados e/ou avaliados" no atendimento seguinte. Para mais detalhes sobre como solicitar exames pelo sistema, ver o tópico "Plano", na Seção 6.4.2.4. A lista será exibida conforme a Figura 6.29.
 
 Figura 6.36 - SOAP - Objetivo - lista de exames
 
 ![](media/pec_image409.png)
+
+Fonte: SAPS/MS.
+
+Para facilitar a busca dos exames solicitados ou avaliados o recurso de filtro ![](media/pec_image414.png) permite selecionar o período na qual se quer fazer a pesquisa e ainda exibir os exames com resultado e/ou sem resultado, conforme figura abaixo:
+
+![](media/pec_image415.png)
 
 Fonte: SAPS/MS.
 
@@ -759,11 +767,17 @@ Figura 6.38 - Registro de dados específicos de Resultado de Exame
 
 ![](media/pec_image413.png)
 
-Para facilitar a busca dos exames solicitados ou avaliados o recurso de filtro ![](media/pec_image414.png) permite selecionar o período na qual se quer fazer a pesquisa e ainda exibir os exames com resultado e/ou sem resultado, conforme figura abaixo:
-
-![](media/pec_image415.png)
-
-Fonte: SAPS/MS.
+{: .atualizacao }
+A versão 4.2.1 amplia o escopo de exames que podem ter o preenchimento estruturado de resultados, ainda que de forma manual. São eles:
+|Código SIGTAP| Exame|
+|- |- |
+|0202010295 | Dosagem de Colesterol Total|
+|0202010279 | Dosagem de Colesterol HDL|
+|0202010287 | Dosagem de Colesterol LDL|
+|0202010678 | Dosagem de Triglicerídeos|
+|0202010317 | Dosagem de Creatinina|
+|0202050025 | Clearance de Creatinina|
+ 
 
 ### 6.4.2.3 SOAP - Avaliação
 
