@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Atendimentos
-parent: Prontuário Eletrônico do Cidadão v4.1
+parent: Prontuário Eletrônico do Cidadão v4.2
 nav_order: 8
 has_children: false
 has_toc: true

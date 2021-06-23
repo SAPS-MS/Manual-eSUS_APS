@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Instalação do Sistema
-parent: Prontuário Eletrônico do Cidadão v4.1
+parent: Prontuário Eletrônico do Cidadão v4.2
 nav_order: 4
 has_children: false
 has_toc: true
