@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Prontuário Eletrônico do Cidadão v4.1
+title: Prontuário Eletrônico do Cidadão v4.2
 nav_order: 2
 has_children: true
 description: "Manual e-SUS APS"
@@ -22,7 +22,7 @@ MANUAL DE USO
 {: .text-center }
 <br>
 <br>
-(versão 4.1)
+(versão 4.2)
 {: .fs-6 }
 {: .text-center }
 <br>
