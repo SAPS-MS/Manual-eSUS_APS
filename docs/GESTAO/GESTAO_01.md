@@ -29,7 +29,7 @@ Caso ainda tenha alguma dificuldade técnica ou em utilizar este aplicativo, con
 
 ## 1.1 Versão do Aplicativo Usado neste Manual
 
-Este manual foi elaborado usando como referência a **versão 1.0** do Aplicativo Gestão e-SUS APS. O acesso às informações sobre a versão do aplicativo podem ser visualizadas na seção **Sobre** (Figura 1.2), acessada no **Perfil** do usuário no menu do aplicativo, conforme a Figura 1.1 abaixo:
+Este manual foi elaborado usando como referência a **versão 1.0** do Aplicativo Gestão e-SUS APS. O acesso às informações sobre a versão do aplicativo podem ser visualizadas na seção **Sobre** (Figura 1.2), acessada no **Perfil** ao clicar sobre o simbolo ![](media/image3.png) no menu do aplicativo, conforme a Figura 1.1 abaixo:
 
 Figura 1.1 -- Perfil do Usuário
 
