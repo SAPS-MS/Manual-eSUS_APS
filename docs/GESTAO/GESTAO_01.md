@@ -25,7 +25,7 @@ O aplicativo Gestão e-SUS APS foi desenvolvido para utilização em dispositivo
 
 Sua experiência de uso poderá contribuir para que o aplicativo Gestão e-SUS APS e os sistemas e-SUS APS dialoguem cada vez mais com a sua prática profissional. O canal para registro de sua experiência e sugestões é o [Pesquisa de Opinião do e-SUS APS](http://dabsistemas.saude.gov.br/sistemas/pesquisaesusab/).
 
-Caso ainda tenha alguma dificuldade técnica ou em utilizar este aplicativo, consulte este Manual de instrução de instalação e uso. Permancendo a dificuldade entre em contato com os desenvolvedores por este [Suporte] (http://esusaps.bridge.ufsc.br/support/login)
+Caso ainda tenha alguma dificuldade técnica ou em utilizar este aplicativo, consulte este Manual de instrução de instalação e uso. Permancendo a dificuldade entre em contato com os desenvolvedores por este [Suporte] (http://esusaps.bridge.ufsc.br/support/login).
 
 ## 1.1 Versão do Aplicativo Usado neste Manual
 
