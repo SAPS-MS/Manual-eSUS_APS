@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Gestão e-SUS APS
+title: Gestão e-SUS APS v1.0
 nav_order: 5
 nav_exclude: false
 has_children: true
