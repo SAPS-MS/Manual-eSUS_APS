@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Prontuário Eletrônico do Cidadão (PEC) v4.2
+title: Prontuário Eletrônico do Cidadão v4.2
 nav_order: 2
 has_children: true
 description: "Manual e-SUS APS"
