@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Introdução
-parent: Gestão e-SUS APS v1.0
+parent: 
 nav_order: 1
 has_children: false
 last_modified_date: "28/06/2021"
