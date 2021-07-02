@@ -5,7 +5,7 @@ parent: Prontuário Eletrônico do Cidadão v4.2
 nav_order: 2
 has_children: false
 has_toc: true
-last_modified_date: "02/02/2021"
+last_modified_date: "02/07/2021"
 ---
 
 
@@ -20,81 +20,86 @@ Neste capítulo, abordaremos, de forma resumida, os conceitos básicos que orien
 - TOC
 {:toc}
 
-# 1. Estratégia e-SUS Atenção Básica (AB)
+# 1. Estratégia e-SUS Atenção Primária à Saúde (APS)
 
-O e-SUS APS é uma estratégia do Departamento de Saúde da Família (DESF) para reestruturar as informações da Atenção Básica (AB) em nível nacional. Esta ação está alinhada com a proposta mais geral de reestruturação dos Sistemas de Informação em Saúde (SIS) do Ministério da Saúde, entendendo que a qualificação da gestão da informação é fundamental para ampliar a qualidade no atendimento à população.
+O e-SUS APS é uma estratégia do Departamento de Saúde da Família (DESF) para reestruturar as informações da Atenção Primária à Saúde (APS) em nível nacional. Esta ação está alinhada com a proposta mais geral de reestruturação dos Sistemas de Informação em Saúde (SIS) do Ministério da Saúde (MS), entendendo que a qualificação da gestão da informação é fundamental para ampliar a qualidade no atendimento à população.
 
-A Estratégia e-SUS APS faz referência ao processo de informatização qualificada do Sistema Único de Saúde (SUS) em busca de um SUS eletrônico (e-SUS) e tem como objetivo concretizar um novo modelo de gestão de informação que apoie os municípios e os serviços de saúde na gestão efetiva da AB e na qualificação do cuidado dos usuários.
+A Estratégia e-SUS APS faz referência ao processo de informatização qualificada do Sistema Único de Saúde (SUS) em busca de um SUS eletrônico (e-SUS) e tem como objetivo concretizar um novo modelo de gestão de informação que apoie os municípios e os serviços de saúde na gestão efetiva da APS e na qualificação do cuidado dos usuários.
 
-Esse modelo nacional de gestão da informação na AB é definido a partir de diretrizes e requisitos essenciais que orientam e organizam o processo de reestruturação desse sistema de informação, instituindo-se o Sistema de Informação em Saúde para a Atenção Básica (SISAB), por meio da Portaria GM/MS Nº 1.412, de 10 de julho de 2013, e a Estratégia e-SUS APS para sua operacionalização. A Estratégia e-SUS APS preconiza:
+Esse modelo nacional de gestão da informação na APS é definido a partir de diretrizes e requisitos essenciais que orientam e organizam o processo de reestruturação desse SIS, instituindo-se o Sistema de Informação em Saúde para a Atenção Básica (SISAB), por meio da Portaria GM/MS Nº 1.412, de 10 de julho de 2013, e a Estratégia e-SUS APS para sua operacionalização. A Estratégia e-SUS APS preconiza:
 
-- **Individualizar o registro**: registro individualizado das informações em saúde, para o acompanhamento dos atendimentos aos cidadãos;
+- **Indentificar e Individualizar o registro**: registro individualizado das informações em saúde e identificado, por meio do Cadastro de Pessoas Físicas (CPF) ou Cartão Nacional de Saúde (CNS), para o acompanhamento dos atendimentos aos cidadãos;
 
-- **Integrar a informação**: integração dos diversos sistemas de informação oficiais existentes na AB, a partir do modelo de informação;
+- **Integrar a informação por meio da Rede Nacional de Dados em Saúde (RNDS)**: integrar a RNDS enviando dados em saúde, a partir de modelos de informações padronizados;
 
 - **Reduzir o retrabalho na coleta de dados**: reduzir a necessidade de registrar informações similares em mais de um instrumento (fichas/sistemas) ao mesmo tempo;
 
-- **Informatizar as unidades**: desenvolvimento de soluções tecnológicas que contemplem os processos de trabalho da AB, com recomendações de boas práticas e o estímulo à informatização dos serviços de saúde;
+- **Informatizar as unidades**: desenvolvimento de soluções tecnológicas que contemplem os processos de trabalho da APS, com recomendações de boas práticas e o estímulo à informatização dos serviços de saúde por meio do **Programa Informatiza APS**;
+
+- **Qualificar os dados em saúde**: promover a qualificação da entrada dos dados em saúde por meio da padronização das terminologias e adoção de metodologias de registro clínico. 
 
 - **Gestão do cuidado**: introdução de novas tecnologias para otimizar o trabalho dos profissionais na perspectiva de realizar a gestão do cuidado;
 
-- **Coordenação do cuidado**: a qualificação do uso da informação na gestão e no cuidado em saúde na perspectiva de integração dos serviços de saúde.
+- **Coordenação do cuidado**: otimizar o uso da informação na gestão e no cuidado em saúde na perspectiva de integração dos serviços de saúde.
 
-A estratégia é composta por dois sistemas:
+A estratégia é composta por dois grandes SIS, um para o armazenamento dos dados e outro para a coleta de dados, sendo respectivamente:
 
-- **SISAB**, sistema de informação nacional vigente para o processamento e a disseminação de dados e informações relacionadas a AB, com a finalidade de construção do conhecimento e tomada de decisão para as três esferas de gestão. Além disso, corrobora para fins de financiamento e de adesão aos programas e estratégias da Política Nacional de Atenção Básica (PNAB), e
+- **SISAB**, sistema de informação nacional vigente para o processamento e a disseminação de dados e informações relacionadas a APS, com a finalidade de construção do conhecimento e tomada de decisão para as três esferas de gestão. Além disso, corrobora para fins de financiamento e de adesão aos programas e estratégias da Política Nacional de Atenção Básica (PNAB), e
 
-- **Sistema e-SUS APS**, composto por dois softwares para coleta dos dados:
+- **Sistema e-SUS APS**, composto por dois softwares e dois aplicativos para coleta dos dados:
 
 - Sistema com Coleta de Dados Simplificada (**CDS**), sistema de transição/contingência, que apoia o processo de coleta de dados por meio de fichas e um sistema de digitação;
 
 - Sistema com Prontuário Eletrônico do Cidadão (**PEC**), sistema com prontuário eletrônico (objeto deste manual), que tem como principal objetivo apoiar o processo de informatização das UBS.
 
-{: .nota }
-Para conhecer os conceitos e orientações de preenchimento das fichas, consulte o Manual do Sistema com Coleta de Dados Simplificada. Sobre o sistema de digitação acesse o Capítulo 07 deste manual.
-
-Durante o texto, os softwares do Sistema e-SUS APS também são referidos como Sistema com CDS e Sistema com PEC, respectivamente, ou ainda, simplesmente, CDS e PEC.
+- Aplicativo e-SUS Território (**e-SUS Território**) e e-SUS Atividade Coletiva (**e-SUS AC**), aplicativos móveis e offline que auxiliam os profissionais na coleta de dados no território e na coleta de dados das atividades coletivas realizadas pela equipe fora da unidade básica de saúde, respectivamente.  
 
 {: .nota }
-Para mais informações sobre legislação, documentos e materiais de apoio sobre a Estratégia e-SUS APS, acesse a **página do e-SUS APS** por meio do endereço eletrônico [[http://dab.saude.gov.br/portaldab/esus.php]](http://dab.saude.gov.br/portaldab/esus.php)
+Para conhecer mais sobre os aplicativos consulte os Manuais destas aplicações.
+Para conhecer os conceitos e orientações de preenchimento das fichas, consulte o Manual do Sistema com Coleta de Dados Simplificada. Entretanto, sobre o sistema de digitação no CDS acesse o Capítulo 07 deste manual.
+
+Durante a leitura deste manual, os softwares do Sistema e-SUS APS também são referidos como Sistema com CDS e Sistema com PEC, respectivamente, ou ainda, simplesmente, CDS e PEC.
+
+{: .nota }
+Para mais informações sobre legislação, documentos e materiais de apoio sobre a Estratégia e-SUS APS, acesse a [**página do e-SUS APS**](http://dab.saude.gov.br/portaldab/esus.php).
 
 # 2. Política de Controle de Versão do Sistema e-SUS APS
 
-O desenvolvimento do Sistema e-SUS APS, considerando todos os *softwares* e aplicativos, está organizado em versões. A Política de Controle de Versões do Sistema e-SUS APS, conforme ilustra a Figura 1, utiliza um esquema clássico de versionamento de sistemas (*major.minor.revision*), alinhando-se ao tipo de implementação incluída no sistema, considerando três tipos de alterações como seguem:
+O desenvolvimento do Sistema e-SUS APS, considerando todos os *softwares* e *aplicativos*, está organizado em versões. A Política de Controle de Versões do Sistema e-SUS APS, conforme ilustra a Figura 1, utiliza um esquema clássico de versionamento de sistemas (*major.minor.revision*). Assim, alinhando-se ao tipo de implementação incluída no sistema, considerando três tipos de alterações a seguir:
 
-a. o primeiro dígito para indicar novas funcionalidades (N);
-b. o segundo dígito para indicar manutenção evolutiva (E); e
-c. o último dígito para indicar apenas manutenção corretiva do sistema (C).
+a. o **primeiro dígito** para indicar novas funcionalidades (N);
+b. o **segundo dígito** para indicar manutenção evolutiva (E); e
+c. o **último dígito** para indicar apenas manutenção corretiva do sistema (C).
 
 Figura 1 - Política de Controle de Versões do Sistema e-SUS APS
 
 ![](media/pec_image2.png)
 
-Fonte: SAS/MS.
+Fonte: SAPS/MS.
 
-Essas regras de versionamento permitem que os administradores do sistema nos municípios entendam melhor qual é o tipo de impacto que a substituição de uma versão do sistema poderá trazer aos seus usuários. O que se espera é que, ao passo de estar ciente do lançamento de uma versão, o gestor, em conjunto com o administrador do sistema, proceda da seguinte forma em relação à atualização do sistema em uso no município:
+Essas regras de versionamento permitem que os administradores do sistema e-SUS APS nos municípios entendam melhor qual é o tipo de impacto que a substituição de uma versão poderá trazer aos seus usuários. O que se espera é que, ao passo de estar ciente do lançamento de uma versão, o gestor, em conjunto com o administrador do sistema, proceda da seguinte forma em relação à atualização do sistema em uso no município:
 
-- **Novas Funcionalidades** (N): avaliar as novas funcionalidades, substituir a versão antiga do sistema e requalificar os profissionais que estão utilizando o sistema, em especial os que podem fazer uso das novas funcionalidades;
+- **Novas Funcionalidades** (N): avaliar as novas funcionalidades, substituir a versão antiga do sistema e treinar os profissionais que estão utilizando o sistema, em especial os que podem fazer uso das novas funcionalidades;
 
-- **Manutenção Evolutiva** (E): avaliar as alterações, substituir a versão antiga do sistema e alertar os profissionais das melhorias no sistema;
+- **Manutenção Evolutiva** (E): avaliar as alterações, substituir a versão antiga do sistema e alertar os profissionais das melhorias no sistema. Se perceber a necessidade treinar os usuários novamente;
 
-- **Manutenções Corretivas** (C): proceder com a atualização urgentemente, a fim de manter o sistema seguro e com correções de pequenas falhas de desenvolvimento do sistema ou de alguma biblioteca;
+- **Manutenções Corretivas** (C): proceder com a atualização **urgentemente**, a fim de manter o sistema *seguro* e com *correções de pequenas falhas de desenvolvimento* do sistema ou de alguma biblioteca;
 
-Considerando esta política de controle de versão, para identificar uma versão do Sistema e-SUS APS, em especial para identificar alguma funcionalidade do sistema, será possível fazê-lo usando apenas o primeiro e o segundo dígito, por exemplo, Sistema e-SUS APS versão 3.1. O último dígito pode ser omitido, pois não identifica nenhuma funcionalidade, sendo útil quando for necessário identificar alguma versão específica do sistema, em geral em produção, por exemplo, para identificar uma versão do sistema em uma solicitação de suporte técnico.
+Considerando esta política de controle de versão, para identificar uma versão do Sistema e-SUS APS é possível fazê-lo usando apenas o primeiro e o segundo dígito, por exemplo, Sistema e-SUS APS versão 4.2. O último dígito pode ser omitido, pois não identifica nenhuma funcionalidade ou manutenção evolutiva. O terceiro dígito é útil quando for necessário identificar alguma versão específica e para identificar uma versão do sistema em uma solicitação de [suporte técnico](http://esusaps.bridge.ufsc.br/support/login).
 
-# 3. Cadastro da Atenção Básica
+# 3. Cadastro na Atenção Primária à Saúde
 
 ## 3.1 Individualização e Identificação dos Registros
 
 ![CartaoSUS.png](media/pec_image3.png)
 
-O Prontuário Eletrônico do Cidadão (PEC) e a Coleta de Dados Simplificada (CDS) do e-SUS APS são utilizados de forma complementar nos cenários possíveis de informatização das Unidades Básicas de Saúde (UBS) nos municípios e no distrito federal. Ambas as ferramentas possibilitam a identificação do registro dos atendimentos por meio do Cartão Nacional de Saúde (CNS) ou Cadastro de Pessoas Físicas (CPF), promovendo efetiva coordenação e gestão do cuidado do cidadão, além da possibilidade de compartilhamento de informações com outros serviços de saúde.
+O PEC e o CDS do e-SUS APS são utilizados de forma complementares nos cenários possíveis de informatização das Unidades Básicas de Saúde (UBS) dos municípios e do distrito federal. Ambas as ferramentas possibilitam a identificação dos registros de atendimentos ao cidadão por meio do CNS ou CPF, promovendo efetiva coordenação e gestão do cuidado, além da possibilidade de compartilhamento de informações com outros sistemas de saúde em diferentes níveis da Rede de Atenção à Saúde (RAS).
 
-Considerando o princípio doutrinário da universalidade no SUS, se o cidadão não tiver um CNS ou CPF, ele **DEVE** ser atendido e poderá ser utilizado o registro no CDS ou PEC. Entretanto, este registro do atendimento vira um dado individualizado e não identificado. Dessa maneira, o dado apenas comporá o consolidado de ações desenvolvidas pela equipe. Em relação ao cadastro, é possível marcar a opção "Não possui CNS" e acompanhá-lo normalmente.
+Considerando o princípio doutrinário da universalidade no SUS, se o cidadão não tiver um CNS ou CPF, ele **DEVE** ser atendido e poderá ser utilizado o registro no CDS ou PEC. Entretanto, este registro do atendimento vira um *dado individualizado e não identificado*. Dessa maneira, o dado apenas comporá o consolidado de ações desenvolvidas pela equipe.
 
 ## 3.2 Utilizando o Cadastro do Cidadão
 
-O e-SUS APS apresenta aos profissionais das equipes de Atenção Básica um grande módulo de cadastro de cidadãos, o qual se subdivide em dois módulos distintos: **Cadastro do Cidadão** e **Cadastro do Território**. O primeiro é realizado por meio do PEC nas UBS e o seu principal objetivo é realizar o cadastramento dos usuários do serviço, mesmo que não façam parte do seu território. Trata-se de um cadastro **mais simplificado**, apenas com informações individuais, com possibilidade de interoperabilidade com a base nacional do CNS. Já o segundo é realizado por meio da Coleta de Dados Simplificada (CDS), **a partir das fichas de Cadastro Individual e de Cadastro Domiciliar e Territorial**, utilizados, principalmente, pelo Agente Comunitário de Saúde (ACS) para cadastrar os residentes em sua microárea. Este cadastro é mais extenso e contém informações-chave sobre a população sob responsabilidade da equipe de saúde. Abordaremos o CDS com mais profundidade no Capítulo 7.
+O e-SUS APS apresenta aos profissionais das equipes de Atenção Primária um grande módulo de cadastro de cidadãos, o qual se subdivide em dois módulos distintos: **Cadastro do Cidadão** e **Cadastro do Território**. O primeiro é realizado por meio do PEC nas UBS e o seu principal objetivo é realizar o cadastramento dos usuários do serviço, mesmo que não façam parte do seu território. Trata-se de um cadastro **simplificado**, apenas com informações individuais, com possibilidade de interoperabilidade com a base nacional do CNS. Já o segundo é realizado por meio do CDS, **a partir das fichas de Cadastro Individual e de Cadastro Domiciliar e Territorial**, utilizados principalmente pelo Agente Comunitário de Saúde (ACS) para cadastrar os residentes da microárea sob responsabilidade deste profissional. Este cadastro é mais completo e contém levantamentos importantes sobre atendida pela equipe de saúde. Abordaremos o CDS com mais profundidade no Capítulo 7.
 
 {: .nota }
 A consulta na base nacional do CNS depende de conexão de internet disponível na UBS.

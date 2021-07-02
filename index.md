@@ -7,7 +7,7 @@ description: "Manual e-SUS APS"
 permalink: /
 ---
 
-e-SUS Atenção Primária à Saúde
+e-SUS Atenção Primária à Saúde (e-SUS APS)
 {: .fs-10 }
 {: .fw-700 }
 {: .text-center }
@@ -41,7 +41,6 @@ Esplanada dos Ministérios - Bloco G - 7º andar<br>
 CEP: 70.058-900 – Brasília/DF<br>
 Tels.: (61) 3315-8090 / 3315-8044<br>
 Site: <http://sisaps.saude.gov.br/esus/><br>
-E-mail: <cgiap@saude.gov.br>
 
 **Supervisor Geral**<br>
 Renata Maria de Oliveira Costa
@@ -50,13 +49,13 @@ Renata Maria de Oliveira Costa
 Michael Luiz Diana de Oliveira
 
 **Organização**<br>
-Ana Claudia Cielo, Igor de Carvalho Gomes, João Geraldo de Oliveira Júnior
+Ana Claudia Cielo, Igor de Carvalho Gomes e João Geraldo de Oliveira Júnior
 
 **Revisão Técnica**<br>
-Ana Claudia Cielo, Igor de Carvalho Gomes, Micael Macedo Pereira da Trindade, André Cury Alves, João Geraldo de Oliveira Júnior
+Ana Claudia Cielo, André Cury Alves, Igor de Carvalho Gomes, João Geraldo de Oliveira e Micael Macedo Pereira da Trindade.
 
-**Elaboração de texto**<br>
-Adriana Kitajima, Allan Nuno Alves de Souza, Ana Claudia Cielo, André Cury Alves, Edson Lucena, Igor de Carvalho Gomes, João Geraldo de Oliveira Júnior, Janaína Nogueira Guimarães, Micael Macedo Pereira, da Trindade, Rodrigo André Cuevas Gaete, Thaís Alessa Leite, Vanessa Lora, Virgínia Fava,
+**Colaboradores**<br>
+Adriana Kitajima, Allan Nuno Alves de Souza, Ana Claudia Cielo, André Cury Alves, Edson Lucena, Igor de Carvalho Gomes, João Geraldo de Oliveira Júnior, Janaína Nogueira Guimarães, Micael Macedo Pereira, da Trindade, Rodrigo André Cuevas Gaete, Thaís Alessa Leite, Vanessa Lora e Virgínia Fava.
 
 **Projeto Gráfico**<br>
 Alexandre Soares de Brito, Diogo Ferreira Gonçalves
@@ -68,7 +67,7 @@ Alexandre Soares de Brito, Diogo Ferreira Gonçalves
 {: .text-center }
 
 Brasil. Ministério da Saúde. Secretaria de Atenção Primária à Saúde.<br>
-e-SUS Atenção Primária à Saúde: Manual do Sistema com Prontuário Eletrônico do Cidadão PEC – Versão 4.1 [recurso eletrônico] / Ministério da Saúde, Secretaria de Atenção Primária à Saúde, Secretaria Executiva. – Brasília: Ministério da Saúde, 2021.<br>
+e-SUS Atenção Primária à Saúde: Manual do Sistema com Prontuário Eletrônico do Cidadão PEC – Versão 4.2 [recurso eletrônico] / Ministério da Saúde, Secretaria de Atenção Primária à Saúde, Secretaria Executiva. – Brasília: Ministério da Saúde, 2021.<br>
 <br>
 ISBN **Versão Preliminar**<br>
 Modo de acesso: <https://aps.saude.gov.br/ape/esus><br>
