@@ -5,7 +5,7 @@ parent: Prontuário Eletrônico do Cidadão v4.2
 nav_order: 5
 has_children: false
 has_toc: true
-last_modified_date: "02/02/2021"
+last_modified_date: "05/07/2021"
 ---
 
 
@@ -24,41 +24,42 @@ A administração do sistema, **acessada na tela inicial,** subdivide-se em "Adm
 
 O primeiro módulo agrupa as funções de CNES, Configurações da Instalação, Profissionais, Relatórios e Transmissão de dados. O segundo disponibiliza as funções de Auditoria, CBO, CNES, Gestão municipal, Importar cidadão, Perfis, Profissionais, Transmissão de dados e Unidades de saúde.
 
-Figura 3.1.1 - Tela do módulo "Administração da Instalação" acessado com o perfil de administrador da instalação
+Figura 3.1.1 - Tela do módulo "Administração da Instalação" acessado com o perfil de administrador da instalação.
+
 ![](media/pec_image82.png)
 
-Fonte: SAPS/MS.
+Fonte: SAPS/MS
 
 Figura 3.1.2 - Tela do módulo "Administração municipal" acessado com o perfil de administrador municipal
 
 ![](media/pec_image83.png)
 
-Fonte: SAPS/MS.
+Fonte: SAPS/MS
 
 {: .nota }
 caso o usuário acesse esse módulo com perfil diferente de administrador da instalação ou de Administrador municipal terá um conjunto de funcionalidades restritas ao seu perfil.
 
-Após a instalação do sistema, é necessário fazer sua configuração para, então, começar a utilizá-lo. Seguem abaixo as etapas a serem seguidas para o uso do PEC. É importante seguir a ordem dessas orientações, uma vez que algumas etapas dependem de outras anteriores. Os passos a seguir, conforme o Quadro 3.1, constituem um fluxo lógico para manusear o Sistema com PEC.
+Após a instalação do sistema, é necessário fazer sua configuração para, então, começar a utilizá-lo. Seguem abaixo as etapas a serem seguidas para o uso do PEC. É importante seguir a ordem dessas orientações, uma vez que algumas etapas dependem de outras anteriores. Os passos a seguir, conforme o Quadro 3.1, constituem um fluxo lógico para manusear o Sistema e-SUS APS com PEC.
 
 {: .dica }
-o sistema vem pré-configurado com opções padronizadas, a partir de características gerais do processo de trabalho na atenção básica, portanto, é importante verificar as configurações pré-definidas e sempre que necessário adequá-las à realidade local.
+o sistema vem pré-configurado com opções padronizadas, a partir de características gerais do processo de trabalho na atenção primária à saúde, portanto, é importante verificar as configurações pré-definidas e sempre que necessário adequá-las à realidade local.
 
 Quadro 3.1 - Passo a passo de configuração inicial do Sistema com PEC
 
-|**Passos**|**Descrição**|**Perfil- Padrão**|**Função**|
+|**Passos**|**Descrição**|**Perfil-Padrão**|**Função**|
 |- |- |- |- |
-|Passo 1|configurar sistema (envio de dados e horário de funcionamento da UBS)| administrador da instalação| ![](media/pec_image85.png)|
-|Passo 2|definir o(s) administrador(es) do(s) município(s)|administrador da instalação |![](media/pec_image85.png)|
-|Passo 3|definir o tempo de consulta de cada categoria profissional por CBO, quando necessário|Administrador municipal|![](media/pec_image86.png)|
-|Passo 5|criar/redefinir perfis e personalizar recursos de cada perfil, quando necessário|Administrador municipal ou Coordenador |![](media/pec_image88.png)|
-|Passo 6|verificar configuração dos profissionais importados do CNES (identificação, lotação, perfil)|Administrador municipal ou Coordenador| ![](media/pec_image89.png)|
-|Passo 7|verificar a agenda dos profissionais de saúde|Coordenador|![](media/pec_image89.png)|
+|Passo 1|Configurar sistema (envio de dados e horário de funcionamento da UBS)| administrador da instalação| ![](media/pec_image85.png)|
+|Passo 2|Definir o(s) administrador(es) do(s) Distrito Federal/Município(s)|administrador da instalação |![](media/pec_image85.png)|
+|Passo 3|Definir o tempo de consulta de cada categoria profissional por CBO, quando necessário|Administrador municipal|![](media/pec_image86.png)|
+|Passo 5|Criar/redefinir perfis e personalizar recursos de cada perfil, quando necessário|Administrador municipal ou Coordenador |![](media/pec_image88.png)|
+|Passo 6|Verificar configuração dos profissionais importados do CNES (identificação, lotação, perfil)|Administrador municipal ou Coordenador| ![](media/pec_image89.png)|
+|Passo 7|Verificar a agenda dos profissionais de saúde|Coordenador|![](media/pec_image89.png)|
+|
 
-
-Fonte: SAPS/MS.
+Fonte: SAPS/MS
 
 {: .atencao }
-profissionais que tem mais de uma lotação (vínculo) na unidade de saúde deverão ter sua agenda criada manualmente.
+Profissionais que tem mais de uma lotação (vínculo) na unidade de saúde deverão ter sua agenda criada manualmente.
 
 Na sequência, serão apresentadas as funcionalidades do módulo "Configurações da instalação" com vistas a contemplar os passos de configuração do sistema. E, ao final, serão apresentadas as funcionalidades para a transmissão, importação e exportação de dados do sistema.
 
@@ -78,7 +79,7 @@ Figura 3.3 - Botão "Testar conexão com a internet"
 
 ![](media/pec_image92.png)
 
-Fonte: SAPS/MS.
+Fonte: SAPS/MS
 
 ### 3.1.1.1 CADSUS
 
@@ -90,11 +91,11 @@ Para desabilitar a conexão com o serviço do CADSUS, conforme a Figura 3.9, sig
 
 1\. No combo box "Desabilitar durante", selecione uma das opções:
 
-- 30 minutos, 1 hora, 2 horas, 4 horas, 8 horas, 1 semana ou 1  mês.
+- 30 minutos, 1 hora, 2 horas, 4 horas, 8 horas, 1 semana ou 1 mês.
 
 2\. Clique no botão "Desabilitar" para concluir.
 
-Para habilitar a conexão com o CADSUS, após indisponibilidade temporária, clique no botão "Habilitar", conforme a Figura 3.5.
+Para habilitar a conexão com o CADSUS, após indisponibilidade temporária, clique no botão "Habilitar", conforme a Figura 3.1.5.
 
 Figura 3.1.4
 
@@ -110,7 +111,7 @@ Fonte: SAPS/MS
 
 ### 3.1.1.2 Hórus
 
-Por meio dessa funcionalidade, a partir da versão 2.1, é possível ativar a integração com o Sistema Hórus. Para habilitar o recurso, a instalação precisa estar conectada à internet.
+Por meio dessa funcionalidade, desde a versão 2.1, é possível ativar a integração com o Sistema Hórus. Para habilitar o recurso, a instalação precisa estar conectada à internet.
 
 Na opção "Hórus", o administrador da instalação poderá habilitar ou desabilitar o serviço Hórus, quando houver necessidade.
 
@@ -126,20 +127,20 @@ Figura 3.1.7
 
 Fonte: SAPS/MS
 
-Para desabilitar a conexão com o serviço do Hórus, conforme a Figura 3.6, siga os passos abaixo:
+Para desabilitar a conexão com o serviço do Hórus, conforme a Figura 3.1.6, siga os passos abaixo:
 
 1\. No combo box "Desabilitar durante", selecione uma das opções:
 
-- 30 minutos, 1 hora, 2 horas, 4 horas, 8 horas ou "Tempo  indeterminado".
+- 30 minutos, 1 hora, 2 horas, 4 horas, 8 horas ou "Tempo indeterminado".
 
 2\. Clique no botão "Desabilitar" para concluir.
 
 ### 3.1.1.3 Agenda Online
 
-Esta funcionalidade permite, a partir da versão 3.0, que o administrador do sistema habilite ou desabilite a sincronização dos dados da Agenda das Unidades de Saúde realizados por meio da instalação local com PEC, no município, com o Servidor de Agendamento Online do e-SUS APS disponibilizado no DATASUS.
+Esta funcionalidade permite, desde a versão 3.0, que o administrador do sistema habilite ou desabilite a sincronização dos dados da Agenda das Unidades de Saúde realizados por meio da instalação local com PEC, no município, com o Servidor de Agendamento Online do e-SUS APS disponibilizado no DATASUS.
 
 {: .atencao }
-é preciso ter conectividade **com a internet** para que este serviço funcione.
+é preciso estar conectado à **internet** para que este serviço funcione.
 
 Para habilitar a sincronização, acesse a funcionalidade de Agenda Online nas opções de configuração do sistema, conforme pode ser visto na Figura 3.1.8.
 
@@ -147,14 +148,14 @@ Figura 3.1.8 - Tela para habilitar a Agenda Online
 
 ![](media/pec_image97.png)
 
-Para habilitar a sincronização com o Servidor de Agenda Online do e-SUS AB é necessário gerar a contrachave, seguindo o mesmo fluxo de ativação da instalação, como mostra a Seção 2.4.4, porém selecionando a opção de "Agendamento" ![](media/pec_image98.png).
+Para habilitar a sincronização com o Servidor de Agenda Online do sistema e-SUS APS com PEC é necessário gerar a contrachave, seguindo o mesmo fluxo de ativação da instalação, como mostra a Seção 2.4.4, porém selecionando a opção de "Agendamento" ![](media/pec_image98.png).
 
 {: .nota }
-para habilitar este serviço é necessário acessar o Portal do e- Gestor AB para gerar a contrachave. Se preferir, é possível receber mais orientação de como gerar a contra- chave ligando para o Disque Saúde através do telefone 136, opção 8. Consulte a **Seção 2.4** para mais informações.
+para habilitar este serviço é necessário acessar o Portal do e- Gestor AB para gerar a contrachave. Se preferir, é possível receber mais orientação de como gerar a contrachave ligando para o Disque Saúde através do telefone 136, opção 8. Consulte a **Seção 2.4** para mais informações.
 
 O usuário do sistema ainda pode acessar a ajuda de contexto ![](media/pec_image99.png) para obter mais informações sobre a ativação e configuração da agenda online.
 
-Ao ativar a Agenda Online o sistema irá sincronizar as informações de agendamento existentes no PEC com o Servidor de Agenda Online do e-SUS APS no DATASUS, permitindo que o cidadão receba notificações por meio do aplicativo "ConecteSUS", disponibilizado pelo DATASUS, tanto de confirmação quanto de cancelamento de agendamentos realizados via PEC.
+Ao ativar a Agenda Online o sistema irá sincronizar as informações de agendamento existentes no PEC com o Servidor de Agenda Online do sistema e-SUS APS com PEC no DATASUS, permitindo que o cidadão receba notificações por meio do aplicativo "ConecteSUS", disponibilizado pelo DATASUS, tanto de confirmação quanto de cancelamento de agendamentos realizados via PEC.
 
 Para desabilitar a sincronização com o Servidor de Agenda Online basta clicar no botão "Desabilitar".
 
@@ -174,7 +175,7 @@ Figura 3.1.9. - Tela de configuração de opções de segurança
 
 ![](media/pec_image100.png)
 
-Fonte: SAPS/MS.
+Fonte: SAPS/MS
 
 Para configurar um período de redefinição de senha, siga os passos abaixo:
 
@@ -186,13 +187,13 @@ Para configurar um período de redefinição de senha, siga os passos abaixo:
 
 2\. Para concluir, clique em "Salvar".
 
-Para configurar o período máximo de inatividade do sistema , siga os passos abaixo:
+Para configurar o período máximo de inatividade do sistema, siga os passos abaixo:
 
 ![](media/pec_image100.png)
 
 1\. No combo box "Período máximo de inatividade", conforme figura acima, selecione uma das opções:
 
-- 30 minutos, 1 hora, 2 hora, 3 hora ou 4 hora.
+- 30 minutos, 1 hora, 2 horas, 3 horas ou 4 horas.
 
 2\. Para concluir, clique em "Salvar".
 
@@ -212,7 +213,7 @@ Em condições excepcionais, é possível solicitar a redefinição de senhas de
 
 Esta funcionalidade permite que o administrador da instalação configure o servidor da sua instalação e um servidor SMTP para disponibilizar a opção de \"Esqueci minha senha\" na tela de login. Esta opção permite que os profissionais redefinam suas senhas via e- mail.
 
-Para configurar o servidor da instalação e-SUS APS PEC, siga os passos abaixo:
+Para configurar o servidor da instalação do sistmea e-SUS APS com PEC, siga os passos abaixo:
 
 ![](media/pec_image102.png)
 
@@ -226,17 +227,17 @@ Para configurar o servidor SMTP para envio de e- mail, siga os passos abaixo:
 
 ![](media/pec_image103.png)
 
-1\. No campo "Endereço do servidor do e- mail (SMTP)", informe o endereço do servidor de e- mail da conta responsável pelo envio da mensagem de recuperação de senha. Informe também a porta utilizada para a comunicação;
+1\. No campo "Endereço do servidor do e-mail (SMTP)", informe o endereço do servidor de e-mail da conta responsável pelo envio da mensagem de recuperação de senha. Informe também a porta utilizada para a comunicação;
 
-2\. No campo "Login", informe o endereço de e- mail válido usado para acessar o servidor SMTP. Se desejar que esse e- mail seja reconhecido como o remetente da mensagem, marque a opção "Usar como e- mail remetente" ;
+2\. No campo "Login", informe o endereço de e-mail válido usado para acessar o servidor SMTP. Se desejar que esse e-mail seja reconhecido como o remetente da mensagem, marque a opção "Usar como e-mail remetente";
 
-3\. No campo "Senha", informe a senha de acesso ao servidor. Caso não tenha optado por usar o mesmo e- mail de login para ser o remetente, informe um e- mail válido para esse fim no campo "E- mail remetente"; e
+3\. No campo "Senha", informe a senha de acesso ao servidor. Caso não tenha optado por usar o mesmo e-mail de login para ser o remetente, informe um e-mail válido para esse fim no campo "e-mail remetente"; e
 
 4\. Clique em "Habilitar" para concluir, se a conexão for "Bem sucedida". É possível desabilitar o serviço a qualquer momento por meio do botão "Desabilitar".
 
 ## 3.1.4 Municípios e Responsáveis
 
-A partir da versão 4.0 do e-SUS APS PEC, a instalação poderá ser configurada para ser utilizada por mais de um município. Para adicionar outros municípios é necessário incluir um responsável municipal, que deverá ativar a instalação do seu município.
+A partir da versão 4.0 do sistema e-SUS APS com PEC, a instalação poderá ser configurada para ser utilizada por mais de um município. Para adicionar outros municípios é necessário incluir um responsável municipal, que deverá ativar a instalação do seu município.
 
 Os municípios ativos na instalação compartilham apenas os dados de cadastro e prontuário de cidadão que foram cadastrados na instalação ou que foram enviados para ela.
 
@@ -246,7 +247,7 @@ Figura 3.0 - Lista de responsáveis municipais
 
 ![](media/pec_image104.png)
 
-Fonte: SAPS/MS.
+Fonte: SAPS/MS
 
 Para concluir, clique em "Salvar". O perfil de administrador municipal será listado no acesso do responsável municipal recém adicionado.
 
@@ -255,15 +256,15 @@ só é possível habilitar um responsável municipal para cada município, sendo
 
 ### 3.1.5 Configurações avançadas
 
-Na aba "Configurações avançadas", é possível alterar o número de requisições simultâneas que podem ser processadas pelo sistema, conforme figura 4.1. Essa opção é utilizada para gerenciar a performance do sistema em casos peculiares.
+Na aba "Configurações avançadas", é possível alterar o número de requisições simultâneas que podem ser processadas pelo sistema, conforme figura 3.1. Essa opção é utilizada para gerenciar a performance do sistema em casos peculiares.
 
 Figura 3.1 - Performance - Número de requisições simultâneas processadas
 
 ![](media/pec_image105.png)
 
-Fonte: SAPS/MS.
+Fonte: SAPS/MS
 
-A alteração do Número de requisições pode prejudicar o desempenho do sistema, entre em contato com o suporte do e-SUS APS para mais informações acessando o Portal de Suporte por meio do link: [http://esusaps.bridge.ufsc.br](http://esusaps.bridge.ufsc.br/pt-BR/support/home).
+A alteração do número de requisições pode prejudicar o desempenho do sistema, entre em contato com o suporte do e-SUS APS para mais informações acessando o Portal de Suporte por meio do link: [http://esusaps.bridge.ufsc.br](http://esusaps.bridge.ufsc.br/pt-BR/support/home).
 
 No combo box "Desabilitar durante", selecione uma das opções:
 
@@ -281,15 +282,15 @@ Figura 3.2 - Tela de configuração dos Horários
 
 ![](media/pec_image106.png)
 
-Fonte: SAPS/MS.
+Fonte: SAPS/MS
 
-No bloco "Horário padrão da agenda do profissional" são definidas as informações padrões para pré-configuração da agenda dos profissionais. Deve ser informado os períodos de atendimento, preenchendo horário inicial e final de cada período, na sequência deve ser informado o "Tempo padrão de duração dos atendimentos". Esta informação trata- se da média da duração das consultas dos profissionais e servirá de base para a organização das agendas. Veja a seção 3.2 para outras opções de tempo de duração por CBO.
+No bloco "Horário padrão da agenda do profissional" são definidas as informações padrões para pré-configuração da agenda dos profissionais. Deve ser informado os períodos de atendimento, preenchendo horário inicial e final de cada período, na sequência deve ser informado o "Tempo padrão de duração dos atendimentos". Esta informação trata-se da média da duração das consultas dos profissionais e servirá de base para a organização das agendas. Veja a seção 3.2 para outras opções de tempo de duração por CBO.
 
-Figura 3.3 - Tela de configuração de horários- padrão de atendimento
+Figura 3.3 - Tela de configuração de horários-padrão de atendimento
 
 ![](media/pec_image107.png)
 
-Fonte: SAPS/MS.
+Fonte: SAPS/MS
 
 {: .nota }
 os turnos matutino, vespertino e noturno, e em casos excepcionais de madrugada, devem ser configurados dentro de cada período, conforme a necessidade local.
@@ -305,7 +306,7 @@ Após efetuar as alterações necessárias clique no botão Salvar para confirma
 
 O módulo CBO é utilizado para controlar, por meio do código da Classificação Brasileira de Ocupações (CBO), o tipo de **profissional que poderá ser lotado em uma unidade** e o **tempo de atendimento** de cada um, quando for o caso.
 
-Esta configuração já vem pré definida com uma configuração- padrão, no entanto pode ser alterada conforme a necessidade do município.
+Esta configuração já vem pré definida com uma configuração-padrão, no entanto pode ser alterada conforme a necessidade do município.
 
 Para ter acesso à lista de CBOs e suas configurações, basta acessar o módulo "Administração" e clicar em "CBO". Será apresentada a lista dos códigos da CBO disponíveis e o *status* de cada categoria, conforme a Figura 3.4.
 
@@ -315,11 +316,11 @@ Figura 3.4 - Lista de CBOs
 
 ![](media/pec_image116.png)
 
-Fonte: SAPS/MS.
+Fonte: SAPS/MS
 
 ## 3.2.1 Editar CBO
 
-Para editar o algum CBO, siga os passos:
+Para editar algum CBO, siga os passos:
 
 1.clique no ícone "Editar" ![](media/pec_image117.png) do CBO desejado para alterar o tempo de agendamento de uma consulta para outra;
 
@@ -339,7 +340,7 @@ Para editar o algum CBO, siga os passos:
 
 ![](media/pec_image123.png)
 
-Esta funcionalidade permite importar os dados do Sistema de Cadastro Nacional de Estabelecimentos de Saúde (SCNES), por meio do arquivo XML, disponibilizado na área do gestor no site do CNES [http:// cnes2.datasus.gov.br/](http://cnes2.datasus.gov.br/). Tanto o administrador da instalação (administrador da instalação) quanto o administrador municipal podem importar o arquivo CNES no sistema.
+Esta funcionalidade permite importar os dados do Sistema de Cadastro Nacional de Estabelecimentos de Saúde (SCNES), por meio do arquivo XML, disponibilizado na área do gestor no site do CNES [http:// cnes2.datasus.gov.br/](http://cnes2.datasus.gov.br/). Tanto o administrador da instalação quanto o administrador municipal podem importar o arquivo CNES no sistema.
 
 {: .atencao }
 toda vez que houver uma atualização dos dados no CNES, deve- se gerar um novo arquivo para importação no e-SUS APS.
@@ -352,15 +353,21 @@ Para fazer download do arquivo do CNES, siga os passos:
 
 ![](media/pec_image124.png)
 
+Fonte: DATASUS/MS
+
 3\. Agora, acesse o sistema do CNES com suas respectivas informações;
 
 ![](media/pec_image125.png)
+
+Fonte: DATASUS/MS
 
 4\. Clique no nome do arquivo "XMLPARAESUS_XXXXXX.ZIP", onde XXXXXX corresponde ao número do IBGE do município, e escolha um local para salvá- lo.
 
 ![](media/pec_image126.png)
 
-Após carregar (*download*) o arquivo XML gerado CNESNet, é possível importá- lo por meio dos seguintes passos:
+Fonte: DATASUS/MS
+
+Após carregar (*download*) o arquivo XML gerado CNESNet, é possível importá-lo por meio dos seguintes passos:
 
 1\. na tela "Administração", clique na opção "CNES";
 
@@ -382,33 +389,34 @@ Figura 3.5 - Tela de importação do CNES
 
 ![](media/pec_image129.png)
 
-Fonte: SAPS/MS.
+Fonte: SAPS/MS
 
 Figura 3.6 - Modelo do relatório de profissionais com mais de uma lotação que não tiveram agenda configurada.
 
 ![](media/pec_image131.png)
 
-Fonte: SAPS/MS.
+Fonte: SAPS/MS
 
-O relatório de importação traz dados importantes sobre a consistência dos cadastros realizados no CNES em relação aos dados necessários para um bom funcionamento no sistema, portanto, é altamente recomendado que seja analisado antes de prosseguir.
+{: .atencao }
+[**ATENÇÃO**] O relatório de importação traz dados importantes sobre a consistência dos cadastros realizados no CNES em relação aos dados necessários para um bom funcionamento no sistema, portanto, é altamente recomendado que seja analisado antes de prosseguir.
 
 Figura 3.7 - Modelo do relatório de registros não importados.
 
 ![](media/pec_image132.png)
 
-Fonte: SAPS/MS.
+Fonte: SAPS/MS
 
 Figura 3.8 - Modelo do relatório registros importados.
 
 ![](media/pec_image133.png)
 
-Fonte: SAPS/MS.
+Fonte: SAPS/MS
 
 # 3.4 Unidades de Saúde
 
 ![](media/pec_image134.png)
 
-Os dados sobre os estabelecimentos (unidades de saúde) usados pelo sistema, como vimos na seção 3.2, são importados do Sistema CNES, via XML, portanto todos os estabelecimentos devem estar devidamente cadastrados e atualizados no Sistema CNES do seu município e enviados para a base nacional.
+Os dados sobre os estabelecimentos (unidades de saúde) usados pelo sistema, como vimos na seção 3.2, são importados do Sistema CNES, via XML, portanto todos os estabelecimentos devem estar devidamente cadastrados e atualizados no SCNES do seu município/Distrito Federal e enviados para a base nacional.
 
 Para ter acesso à lista das unidade, conforme a Figura 3.9, basta acessar o módulo "Administração" e clicar em "Unidades de Saúde".
 
@@ -416,14 +424,14 @@ Figura 3.9 - Lista de unidades de saúde
 
 ![](media/pec_image135.png)
 
-Fonte: SAPS/MS.
+Fonte: SAPS/MS
 
 {: .atencao }
-todos os dados das unidades de saúde utilizadas pelo Sistema e-SUS APS são provenientes do CNES, portanto é importante sempre manter as informações atualizadas no CNES, a fim de evitar erros de validação das informações enviadas ao SISAB.
+todos os dados das unidades de saúde utilizadas pelo Sistema e-SUS APS são provenientes do CNES, portanto é importante sempre manter as informações atualizadas no SCNES, a fim de evitar erros de validação das informações enviadas ao SISAB.
 
 ## 3.4.1 Visualizar Tipos de Serviço
 
-Todas as informações principais da unidade de saúde vem do cadastro do CNES e, portanto, não podem ser alteradas no Sistema e-SUS APS. Porém, para um bom funcionamento das funções do sistema em relação ao fluxo de serviço da unidade, é necessário editar os tipos de serviço no módulo "Gestão municipal" (seção 3.11.4), no acesso de administrador municipal, para indicar quais são os tipos de serviços realizados nas UBS do município. Siga os passos indicados, conforme a Figura 4.10, para editar os tipos de serviço:
+Todas as informações principais da unidade de saúde vem do SCNES e, portanto, não podem ser alteradas no Sistema e-SUS APS. Porém, para um bom funcionamento das funções do sistema em relação ao fluxo de serviço da unidade, é necessário editar os tipos de serviço no módulo "Gestão municipal" (seção 3.11.4), no acesso de administrador municipal, para indicar quais são os tipos de serviços ofertados nas UBS do município/distrito federal. Siga os passos indicados, conforme a Figura 4.10, para editar os tipos de serviço:
 
 1.clique na opção "Visualizar" ![](media/pec_image130.png) da unidade de saúde desejada;
 
