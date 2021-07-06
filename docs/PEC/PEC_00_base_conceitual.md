@@ -61,7 +61,7 @@ Para conhecer os conceitos e orientações de preenchimento das fichas, consulte
 Durante a leitura deste manual, os softwares do Sistema e-SUS APS também são referidos como Sistema com CDS e Sistema com PEC, respectivamente, ou ainda, simplesmente, CDS e PEC.
 
 {: .nota }
-Para mais informações sobre legislação, documentos e materiais de apoio sobre a Estratégia e-SUS APS, acesse a [**página do e-SUS APS**](http://dab.saude.gov.br/portaldab/esus.php).
+Para mais informações sobre legislação, documentos e materiais de apoio sobre a Estratégia e-SUS APS, acesse a [**página do e-SUS APS**](https://sisaps.saude.gov.br/esus/).
 
 # 2. Política de Controle de Versão do Sistema e-SUS APS
 
