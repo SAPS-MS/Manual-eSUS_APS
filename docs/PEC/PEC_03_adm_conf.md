@@ -1129,6 +1129,8 @@ A seguir são apresentados os tipos de eventos que podem ser registrados na tril
 | Tentativa de autenticação com sucesso | Login realizado pelo profissional no sistema | - |
 | Tentativa de autenticação sem sucesso | Login não foi realizado pelo profissional no sistema após a tentativa | Login ou senha incorretos e CPF do Login utilizado na tentativa |
 | Troca de senha | Profissional utiliza o recurso Alterar Senha ou a sua senha é redefinida em Redefinir senha. | - |
+| Habilitar o PEC a acessar RNDS | Habilitação do certificado digital no PEC para acessar a RNDS | - | 
+| Desabilitar PEC a acessar RNDS | Desabilitação do certificado digital no PEC para acessar a RNDS | - |
 
 # 3.10 Lotes de Imunobiológicos
 
@@ -1235,3 +1237,119 @@ Para adicionar, clique em "Adicionar tipo de serviço", informe o nome do tipo d
 ![](media/pec_image882.png)
 
 Para editar, clique em ![](media/pec_image228.png). Para excluir um tipo de serviço, cliquem em ![](media/pec_image229.png).
+
+### 3.11.4 Configuração RNDS
+
+A partir da versão 4.2, esta funcionalidade foi implementada no sistema e-SUS APS com PEC com a finalidade de acessar a Rede Nacional de Dados em Saúde (RNDS), que é a plataforma que integrará os dados de saúde no país. Na prática, quando o **administrador municipal** habilita essa funcionalidade, o profissional de saúde da APS consegue acessar o site *ConectSUS Profissional*, por meio do PEC, para visualizar os dados de saúde oriundos de outros pontos de atenção à saúde onde o cidadão já foi atendido.
+
+Figura 3.11.4 - Tela de Configuração RNDS
+
+![](media/pec_image883.png)
+
+Fonte: SAPS/MS
+
+A funcionalidade apresenta a "Contra-Chave" da instalação do sistema e-SUS APS PEC para ser copiada; os campos para a inclusão do "Certificado"; "Senha" e "Identificador solicitante".
+
+## 3.12 Acessando a RNDS por meio do PEC
+
+Esta seção visa orientar os gestores e técnicos responsáveis pela Estratégia e-SUS APS a habilitarem o PEC para acessar a RNDS.
+
+### 3.12.1 Municípios que NÃO possuem certificado digital A1
+
+Quando o Município ou Distrito Federal que utilizam o PEC não possuir certificado digital do tipo A1, o **administrador municipal** da instalação PEC deverá seguir os seguintes passos:
+
+1º\) Acessar o ambiente restrito do portal [e-Gestor Atenção Básica](https://egestorab.saude.gov.br/paginas/login.xhtml/) com Login e Senha do **gestor municipal do Fundo Nacional de Saúde**;
+
+Figura 3.12.1 Ambiente Restrito do sistema e-Gestor AB
+
+![](media/pec_image885.png)
+
+Fonte: SAPS/MS
+
+2º\) Após o login no sistema e-Gestor AB, selecionar o sistema "INTEGRAÇÃO PORTAL DE SERVIÇOS DATASUS";
+
+Figura 3.12.2 - Tela de seleção de sistemas no e-Gestor AB
+
+![](media/pec_image886.png)
+
+Fonte: SAPS/MS
+
+3º\) Preencha o Formulário (Figura 3.12.3) com os dados do usuário responsável pela geração do token (CPF e Nome) e selecione o Estabelecimento de saúde onde o token será utilizado para autenticação, em seguida clique em "Gerar Token". Todos os tokens gerados serão exibidos na aba "Tokens gerados".
+
+Figura 3.12.3 - Formulário Gerador de Token no sistema e-Gestor AB
+
+![](media/pec_image887.png)
+
+Fonte: SAPS/MS
+
+{: .nota }
+A validade do token é até às 23:59h do dia de sua geração. Após esse período é automaticamente desativado, não sendo mais possível utilizá-lo.
+
+{: .nota }
+O responsável (CPF) por gerar o token no e-Gestor AB deverá ser o mesmo a realizar a solicitação no portal de serviços
+
+4º\) Após obter o **Token** copie a **Contra Chave** no sistema e-SUS APS com PEC no móodulo "Gestão Municipal" na aba "Configuração RNDS, conforme a figura 3.11.4.
+
+5º\) De posse do **token** gerado no sistema e-Gestor AB e a **Contra Chave** copiada no sistema e-SUS APS com PEC, solicite a permissão para o acesso a RNDS, no [Portal de Serviços](https://servicos-datasus.saude.gov.br/detalhe/kz4a6ol5OH/) do DATASUS para análise e aprovação. 
+
+{: .nota }
+Informações sobre solicitação de credenciais para o ambiente de homologação consulte o Manual de Apoio para Solicitação de Credenciais no [Portal de Serviços](https://servicos-datasus.saude.gov.br/detalhe/kz4a6ol5OH/): PEC e-SUS APS, na seção [“Informações Técnicas”](https://mobileapps.saude.gov.br/portal-servicos/files/f3bd659c8c8ae3ee966e575fde27eb58/4de58629ec765adb3a6de15f72d89ec1_2e2s99cfg.pdf/).
+
+6º\) Após a homologação pelo DATASUS faça o download do arquivo gerado.
+
+### 3.12.2 Municípios que POSSUEM certificado digital A1
+
+Os Municípios/Distrito Federal que possuam certificado digital A1 não precisará gerar o token no e-Gestor AB e nem copiar a Contra Chave do PEC. Neste caso, deve acessar o [Portal de Serviços](https://servicos-datasus.saude.gov.br/detalhe/kz4a6ol5OH/) do DATASUS e na aba "Certificado digital" escolher "Certificado A1 (.pfx)" para certificado digital do tipo A1 da cadeia ICP-Brasil. Após a homologação pelo DATASUS faça o download do arquivo gerado.
+
+Figura 3.12.4 - Escolha de tipo de certificado no Portal de Serviços do DATASUS
+
+![](media/pec_image888.png)
+
+Fonte: DATASUS/MS
+
+{: .nota }
+Mais informações acesse o Manual de Apoio para Solicitação de Credenciais no [Portal de Serviços](https://servicos-datasus.saude.gov.br/detalhe/kz4a6ol5OH/).
+
+### 3.12.3 Configurando a instalação do PEC com a chave homologada no Portal de Serviço do DATASUS
+
+Nesta etapa é fundamental o papel do **administrador da instalação**.
+
+O **administrador da instalação** de posse do certificado (.pfx ou .p12) gerado no Portal de Serviço pelo gestor municipal deverá **criar a pasta "chaves"** e incluir o arquivo (.pfx ou .p12) nesta pasta. A depender do sistema operacional o administrador da instalação deverá proceder da seguinte forma:
+
+* Se o sistema operacional for Windows - *C:\ProgramFiles\e-SUS\webserver\chaves*. Inclua o arquivo (.pfx ou .p12) na pasta "chaves". 
+
+Figura 3.12.5 Tela do Windows
+
+![](media/pec_image889.png)
+
+Fonte: Windows10/Microsoft
+
+* Se o sistema operacional for Linux - Acesse o repositório com o comando *cd/opt/e-SUS/webserver/*. Para criar a pasta "chaves" é utilizado o comando */opt/e-SUS/webserver$ sudo mkdir chaves*. Inclua o arquivo (.pfx ou .p12) na pasta "chaves". 
+
+Figura 3.12.6 Tela do Linux
+
+![](media/pec_image890.png)
+
+Fonte: Linux/Canonical
+
+### 3.12.4 Habilitando o PEC para o Acesso a RNDS
+
+Nesta etapa o **administrador municipal** acessa a instalação PEC com login e senha para habilitar o acesso do PEC à RNDS por meio do módulo "Gestão Municipal". Neste módulo, conforme a figura 3.11.4, na aba "Configuração RNDS", o **administrador municipal** selecionará o certificado - previamente inserido pelo *administrador da instalação* na pasta "chaves" da instalação PEC - informará a senha do certificado e o identificador do solicitante obtido no Portal de serviço do DATASUS, no momento em que a solicitação de credenciamento é homologada para o acesso a RNDS. 
+
+Após a habilitação, na tela de atendimento do cidadão pelo *profissional de saúde* no PEC é apresentado o botão para acessar a RNDS conforme a figura 3.12.7
+
+Figura 3.12.7 - Tela de Atendimento do cidadão no PEC
+
+![](media/pec_image891.png)
+
+Fonte: SAPS/MS
+
+### 3.12.5 Desabilitando o PEC para o Acesso a RNDS
+
+Figura 3.12.8 - Configuração RNDS
+
+![](media/pec_image892.png)
+
+Fonte: SAPS/MS
+
+Após habilitado o acesso à RNDS, caso seja necessário desabilitá-lo, basta clicar no botão "Desabilitar", conforme a figura 3.12.8. Ao desabilitar o certificado digital o botão de acesso a RNDS na tela de atendimento do PEC (Figura 3.12.7) não será mais apresentado.
