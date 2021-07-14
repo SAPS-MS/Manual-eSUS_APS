@@ -1314,7 +1314,7 @@ Fonte: DATASUS/MS
 Mais informações acesse o Manual de Apoio para Solicitação de Credenciais no [Portal de Serviços](https://servicos-datasus.saude.gov.br/detalhe/kz4a6ol5OH/).
 
 {: .atencao }
-[**ATENÇÃO**] Não carregue o 'certificado .cer' para o PEC. Este tipo de arquivo não é compatível com o sistema.
+[**ATENÇÃO**] Não carregue o 'certificado .cer'. O tipo de arquivo gerado não é compatível com o sistema.
 
 ### 3.12.3 Configurando a instalação do PEC com a chave homologada no Portal de Serviço do DATASUS
 
