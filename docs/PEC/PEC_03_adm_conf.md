@@ -1299,7 +1299,10 @@ Informações sobre solicitação de credenciais para o ambiente de homologaçã
 
 ### 3.12.2 Municípios que POSSUEM certificado digital A1
 
-Os Municípios/Distrito Federal que possuam certificado digital A1 não precisará gerar o token no e-Gestor AB e nem copiar a Contra Chave do PEC. Neste caso, deve acessar o [Portal de Serviços](https://servicos-datasus.saude.gov.br/detalhe/kz4a6ol5OH/) do DATASUS e na aba "Certificado digital" escolher "Certificado A1 (.pfx)" para certificado digital do tipo A1 da cadeia ICP-Brasil. Após a homologação pelo DATASUS faça o download do arquivo gerado.
+Os Municípios/Distrito Federal que possuam certificado digital A1 não precisará gerar o token no e-Gestor AB e nem copiar a Contra Chave do PEC. 
+
+{: .nota }
+Os municípios/distrito federal com certificado A1 também devem acessar o [Portal de Serviços](https://servicos-datasus.saude.gov.br/detalhe/kz4a6ol5OH/) do DATASUS preencher o formulário solicitado e na aba "Certificado digital" escolher "Certificado A1 (.pfx)" para certificado digital do tipo A1 da cadeia ICP-Brasil. Após a homologação pelo DATASUS faça o download do arquivo gerado.
 
 Figura 3.12.4 - Escolha de tipo de certificado no Portal de Serviços do DATASUS
 
