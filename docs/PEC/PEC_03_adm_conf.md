@@ -1288,7 +1288,7 @@ A validade do token é até às 23:59h do dia de sua geração. Após esse perí
 {: .nota }
 O responsável (CPF) por gerar o token no e-Gestor AB deverá ser o mesmo a realizar a solicitação no portal de serviços
 
-4º\) Após obter o **Token** copie a **Contra Chave** no sistema e-SUS APS com PEC no móodulo "Gestão Municipal" na aba "Configuração RNDS, conforme a figura 3.11.4.
+4º\) Após obter o **Token** copie a **Contra Chave** no sistema e-SUS APS com PEC no módulo "Gestão Municipal" na aba "Configuração RNDS, conforme a figura 3.11.4.
 
 5º\) De posse do **token** gerado no sistema e-Gestor AB e a **Contra Chave** copiada no sistema e-SUS APS com PEC, solicite a permissão para o acesso a RNDS, no [Portal de Serviços](https://servicos-datasus.saude.gov.br/detalhe/kz4a6ol5OH/) do DATASUS para análise e aprovação. 
 
@@ -1312,6 +1312,9 @@ Fonte: DATASUS/MS
 
 {: .nota }
 Mais informações acesse o Manual de Apoio para Solicitação de Credenciais no [Portal de Serviços](https://servicos-datasus.saude.gov.br/detalhe/kz4a6ol5OH/).
+
+{: .atencao }
+[**ATENÇÃO**] Não carregue o 'certificado .cer' para o PEC. Este tipo de arquivo não é compatível com o sistema.
 
 ### 3.12.3 Configurando a instalação do PEC com a chave homologada no Portal de Serviço do DATASUS
 
