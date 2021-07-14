@@ -1282,8 +1282,8 @@ Figura 3.12.3 - Formulário Gerador de Token no sistema e-Gestor AB
 
 Fonte: SAPS/MS
 
-{: .nota }
-A validade do token é até às 23:59h do dia de sua geração. Após esse período é automaticamente desativado, não sendo mais possível utilizá-lo.
+{: .atencao }
+[**ATENÇÃO**] A validade do token é até às 23:59h do dia de sua geração. Após esse período é automaticamente desativado, não sendo mais possível utilizá-lo.
 
 {: .nota }
 O responsável (CPF) por gerar o token no e-Gestor AB deverá ser o mesmo a realizar a solicitação no portal de serviços
