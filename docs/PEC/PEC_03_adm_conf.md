@@ -1258,7 +1258,7 @@ Esta seção visa orientar os gestores e técnicos responsáveis pela Estratégi
 
 Quando o Município ou Distrito Federal que utilizam o PEC não possuir certificado digital do tipo A1, o **administrador municipal** da instalação PEC deverá seguir os seguintes passos:
 
-1º\) Acessar o ambiente restrito do portal [e-Gestor Atenção Básica](https://egestorab.saude.gov.br/paginas/login.xhtml/) com Login e Senha do **gestor municipal do Fundo Nacional de Saúde**;
+1º\) Acessar o ambiente restrito do portal [e-Gestor Atenção Básica](https://egestorab.saude.gov.br/paginas/login.xhtml/) com Login e Senha do **gestor municipal**;
 
 Figura 3.12.1 Ambiente Restrito do sistema e-Gestor AB
 
