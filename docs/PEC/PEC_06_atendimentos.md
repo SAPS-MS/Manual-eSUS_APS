@@ -614,7 +614,8 @@ Fonte: SAPS/MS
 {: .nota }
 os **técnicos de enfermagem** podem realizar o registro de atendimento por meio da opção "Atender" da lista de atendimento. As funcionalidades disponíveis serão: a folha de rosto, o SOAP restrito ao subjetivo, objetivo e plano com lembretes, visualização de prescrições de medicamentos e orientações, além do acompanhamento, dados cadastrais, fichas CDS e da finalização do atendimento.
 
-{: .nota } A funcionalidade "**Acessar RNDS**" somente estará disponivel na tela de atendimento caso o **administrador municipal** da instalação PEC tenha habilitado esta funcionalidade no módulo "**Gestão Municipal**". Para maiores informações acesse o [capítulo 3.11.4](https://cgiap-saps.github.io/Manual-eSUS-APS/docs/PEC/PEC_03_adm_conf/#3114-configura%C3%A7%C3%A3o-rnds) deste manual.
+{: .nota } 
+A funcionalidade "**Acessar RNDS**" somente estará disponivel na tela de atendimento caso o **administrador municipal** da instalação PEC tenha habilitado esta funcionalidade no módulo "**Gestão Municipal**". Para maiores informações acesse o [capítulo 3.11.4](https://cgiap-saps.github.io/Manual-eSUS-APS/docs/PEC/PEC_03_adm_conf/#3114-configura%C3%A7%C3%A3o-rnds) deste manual.
 
 ## 6.4.1 Acessar RNDS 
 
