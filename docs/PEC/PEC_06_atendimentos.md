@@ -5,7 +5,7 @@ parent: Prontuário Eletrônico do Cidadão v4.2
 nav_order: 8
 has_children: false
 has_toc: true
-last_modified_date: "09/04/2021"
+last_modified_date: "20/07/2021"
 ---
 
 # CAPÍTULO 6 - Atendimentos
@@ -19,7 +19,7 @@ Neste capítulo serão apresentadas as funcionalidades que garantem a ordenaçã
 - TOC
 {:toc}
 
-A partir do padrão de funcionamento do PEC os profissionais de saúde têm acesso à Lista de Atendimentos da unidade de saúde utilizando a barra lateral de navegação. É por meio dela que são iniciados os atendimentos aos cidadãos agendados ou os que buscam um atendimento de demanda espontânea.
+A partir do padrão de funcionamento do Prontuário Eletrônico do Cidadão (PEC) os profissionais de saúde têm acesso à Lista de Atendimentos da unidade de saúde utilizando a barra lateral de navegação. É por meio dela que são iniciados os atendimentos aos cidadãos agendados ou os que buscam um atendimento de demanda espontânea.
 
 ![](media/pec_image305.png)
 
@@ -35,17 +35,25 @@ Fonte: SAPS/MS.
 
 A lista de atendimentos oferece uma série de recursos que auxiliam na organização das ações realizadas aos cidadãos que já entraram no fluxo de atendimento, seja por um atendimento agendado, seja por uma demanda espontânea, como vimos na Seção 5.1.1.
 
-Para pesquisar um cidadão específico que esteja incluído na Lista de Atendimento basta digitar o seu nome, CPF ou CNS na caixa de busca, como mostrado em destaque na pec_imagem a seguir:
+Para pesquisar um cidadão específico que esteja incluído na Lista de Atendimento basta digitar o nome, CPF ou CNS na caixa de busca, como mostrado em destaque na figura a seguir:
+
+Figura 6.1.1 - Lista de Atendimentos
 
 ![](media/pec_image307.png)
 
+Fonte: SAPS/MS
+
 Caso o profissional deseje visualizar apenas os cidadãos que estão aguardando para o seu atendimento, selecione a opção "Ver somente os meus atendimentos". Esta opção filtra a lista de atendimento apenas com os cidadãos marcados para serem atendidos pelo profissional logado no sistema.
+
+Figura 6.1.2 - Lista de Atendimentos
 
 ![](media/pec_image308.png)
 
-Um recurso importante desta lista são as formas de pesquisa e filtro, conforme a Figura 6.2. Clique na opção de filtro ![](media/pec_image309.png) para mais campos de pesquisa.
+Fonte: SAPS/MS
 
-Figura 6.2 - Opções de pesquisa da lista de atendimentos
+Um recurso importante desta lista são as formas de pesquisa e filtro, conforme a Figura 6.1.3 Clique na opção de filtro ![](media/pec_image309.png) para mais campos de pesquisa.
+
+Figura 6.1.3 - Opções de pesquisa da lista de atendimentos
 
 ![](media/pec_image310.png)
 
@@ -67,12 +75,16 @@ Em seguida, veremos a função de cada campo:
 
 Ao clicar nos campos "Período", "Tipo de serviço", "Equipe" e "Profissional", o sistema irá abrir uma lista de opções disponíveis para utilizar como filtro. É possível realizar pesquisa por digitação nestes campos.
 
+Figura 6.1.4 - Tipo de Serviço
+
 ![](media/pec_image312.png)
+
+Fonte: SAPS/MS
 
 {: .nota }
 os **tipos de serviços** mostrados no filtro rápido são os que foram cadastrados, no momento da configuração, para a unidade de saúde. Para mais informações sobre tipo de serviço, ver seção 3.3.1.
 
-Se for preenchido mais de um campo para pesquisa, a lista de atendimento resultante conterá apenas os registros que contemplem todos os filtros simultaneamente. O sistema também apresenta em formato de *tags* identificando as opções utilizadas para a filtragem da lista de atendimento, como observado na pec_imagem a seguir:
+Se for preenchido mais de um campo para pesquisa, a lista de atendimento resultante conterá apenas os registros que contemplem todos os filtros simultaneamente. O sistema também apresenta em formato de *tags* identificando as opções utilizadas para a filtragem da lista de atendimento, como observado na figura a seguir:
 
 ![](media/pec_image313.png)
 
@@ -94,40 +106,40 @@ Outra funcionalidade para auxiliar na organização do atendimento é o \"**Orde
 {: .dica }
 sempre observe se há algum tipo de filtro ativo para visualização da lista, a fim de não haver confusão ou falsa impressão da quantidade de cidadãos dentro da lista de atendimento.
 
-Como podemos ver na Figura 6.3, algumas ferramentas são disponibilizadas para cada cidadão na lista de atendimentos. A seguir, apresentamos cada ferramenta e para que servem:
+Como podemos ver na Figura 6.1.5, algumas ferramentas são disponibilizadas para cada cidadão na lista de atendimentos. A seguir, apresentamos cada ferramenta e para que servem:
 
-Figura 6.3 - Ferramentas da lista de atendimentos
+Figura 6.1.5 - Ferramentas da lista de atendimentos
 
 ![](media/pec_image316.png)
 
 Fonte: SAPS/MS.
 
-**Gerar declaração de comparecimento:** será disponibilizada para impressão com os dados do cidadão selecionado, podendo adicionar o **nome do acompanhante.** A impressão só estará disponível após o cidadão passar por algum atendimento na UBS;
+**Gerar declaração de comparecimento:** será disponibilizada para impressão com os dados do cidadão selecionado, podendo adicionar o **nome do acompanhante**. A impressão só estará disponível após o cidadão passar por algum atendimento na UBS;
 
 ![](media/pec_image317.png)
 
 {: .dica }
-ao imprimir a declaração de comparecimento do cidadão, certifique- se de que o controle do pop-up da janela do navegador esteja desbloqueado.
+ao imprimir a declaração de comparecimento do cidadão, certifique-se de que o controle do pop-up da janela do navegador esteja desbloqueado.
 
-![](media/pec_image318.png) **realizar escuta inicial:** inicia- se a escuta inicial do cidadão;
+![](media/pec_image318.png) **realizar escuta inicial**: inicia-se a escuta inicial do cidadão;
 
-![](media/pec_image319.png) **visualizar escuta inicial:** visualização da escuta inicial, caso ela já tenha sido realizada e registrada no mesmo dia;
+![](media/pec_image319.png) **visualizar escuta inicial**: visualização da escuta inicial, caso ela já tenha sido realizada e registrada no mesmo dia;
 
-![](media/pec_image320.png) **atender:** inicia- se o atendimento de um cidadão;
+![](media/pec_image320.png) **atender**: inicia-se o atendimento de um cidadão;
 
-![](media/pec_image321.png) **realizar vacinação:** realizar o registro de vacinação para este cidadão;
+![](media/pec_image321.png) **realizar vacinação**: realizar o registro de vacinação para este cidadão;
 
-**Cidadão não aguardou:** permite indicar no sistema que um cidadão estava na lista de atendimentos, mas, por algum motivo, não aguardou o atendimento;
+**Cidadão não aguardou**: permite indicar no sistema que um cidadão estava na lista de atendimentos, mas, por algum motivo, não aguardou o atendimento;
 
-**Cidadão retornou:** permite desfazer a ação \"Cidadão não aguardou\";
+**Cidadão retornou**: permite desfazer a ação \"Cidadão não aguardou\";
 
-**Visualizar prontuário:** visualização do prontuário completo do cidadão (caso o cidadão já tenha um registro anterior neste prontuário);
+**Visualizar prontuário**: visualização do prontuário completo do cidadão (caso o cidadão já tenha um registro anterior neste prontuário);
 
-**Visualizar atendimentos do dia:** visualização dos atendimentos ou escuta inicial. Disponível somente se o cidadão tiver algum atendimento no dia;
+**Visualizar atendimentos do dia**: visualização dos atendimentos ou escuta inicial. Disponível somente se o cidadão tiver algum atendimento no dia;
 
-**Editar:** edição do dados referentes às demandas daquele cidadão que aguarda na Lista de Atendimento. É possível editar o profissional, equipe de referência que irá atendê- lo ou o tipo de serviço oferecido pela UBS em que o cidadão será atendido;
+**Editar**: edição do dados referentes às demandas daquele cidadão que aguarda na Lista de Atendimento. É possível editar o profissional, equipe de referência que irá atendê- lo ou o tipo de serviço oferecido pela UBS em que o cidadão será atendido;
 
-![](media/pec_image322.png) **Excluir:** excluir cidadão da lista de atendimento. Esta opção estará habilitada apenas se o registro não possuir referências, ou seja, se o atendimento já tiver sido iniciado, não será possível realizar a exclusão.
+![](media/pec_image322.png) **Excluir**: excluir cidadão da lista de atendimento. Esta opção estará habilitada apenas se o registro não possuir referências, ou seja, se o atendimento já tiver sido iniciado, não será possível realizar a exclusão.
 
 ## 6.1.1 Adicionar um Novo Atendimento à Lista
 
@@ -139,7 +151,11 @@ Para adicionar um cidadão à lista de atendimento por demanda espontânea, siga
 
 - Passo 1. Na tela da lista de atendimentos, clique em ![](media/pec_image323.png);
 
+Figura 6.1.6 - Adicionar cidadão na Lista de Atendimento
+
 ![](media/pec_image324.png)
+
+Fonte: SAPS/MS
 
 - Passo 2. Selecione o **cidadão**. Observe que o sistema apresenta a lista de cidadãos com seus dados demográficos e indica se o mesmo já está adicionado na Lista de Atendimentos. Caso o cidadão não esteja cadastrado nesta UBS, é possível realizar o cadastro dele clicando em ![](media/pec_image325.png);  
 
@@ -151,8 +167,11 @@ Para adicionar um cidadão à lista de atendimento por demanda espontânea, siga
 
 - Passo 5. Selecione os **tipos de serviço** que serão oferecidos no atendimento. Esta seleção não é obrigatória e não restringe os serviços que serão realizados no atendimento;
 
-Figura 6.4 - Adicionar Atendimento
+Figura 6.1.7 - Adicionar Atendimento
+
 ![](media/pec_image327.png)
+
+Fonte: SAPS/MS
 
 - Passo 6. Para concluir, clique em "**Adicionar**". Após isso, o cidadão será exibido na lista de atendimento.
 
@@ -162,58 +181,70 @@ Figura 6.4 - Adicionar Atendimento
 
 - Passo 1. Na tela da lista de atendimentos, clique em ![](media/pec_image323.png). Caso o cidadão tenha agendamentos para este dia, será apresentada uma lista indicando as reservas de agenda para aquele dia.
 
-Figura 6.5 - Adicionar Atendimento
+Figura 6.1.8 - Adicionar Atendimento
 
 ![](media/pec_image328.png)
 
+Fonte: SAPS/MS
+
 - Passo 2. Ao selecionar o agendamento o sistema automaticamente preenche os campos disponíveis, como Profissional, Equipe e Tipo de Serviço;.
 
-Figura 6.6 - Adicionar Atendimento
+Figura 6.1.9 - Adicionar Atendimento
 
 ![](media/pec_image329.png)
 
+Fonte:SAPS/MS
+
 - Passo 3. Para concluir, clique em "**Adicionar**". Após isso, o cidadão será exibido na lista de atendimento
+
+Figura 6.1.10 - Adicionar Atendimento
 
 ![](media/pec_image330.png)
 
+Fonte: SAPS/MS
+
 {: .atencao }
-Caso o cidadão tenha procurado a Unidade Básica de Saúde para a realização de vacinação a recepção poderá, no momento de inclusão do cidadão na lista de atendimento, marcar a opção "**Vacina**".
+Caso o cidadão tenha procurado a Unidade Básica de Saúde (UBS) para a realização de vacinação a recepção poderá, no momento de inclusão do cidadão na lista de atendimento, marcar a opção "**Vacina**".
 
 # 6.2 Escuta Inicial
 
 ![](media/pec_image331.png)
 
-A escuta inicial representa o primeiro atendimento realizado ao cidadão em **demanda espontânea** na unidade de saúde. A finalidade desta escuta é acolher o indivíduo, levantar informações sobre o motivo da busca pelo cuidado em saúde e orientar a conduta mais adequada para o caso. É possível coletar informações subjetivas, medições objetivas e classificar o risco/vulnerabilidade, de acordo com a avaliação do risco biológico e da vulnerabilidade subjetivo- social do indivíduo. O profissional que realizou a escuta inicial poderá resolver o caso por meio de orientação ou encaminhar o cidadão para atendimento no dia, procedimento na UBS ou agendamento de consulta em outro dia.
+A escuta inicial representa o primeiro atendimento realizado ao cidadão em **demanda espontânea** na UBS. A finalidade desta escuta é acolher o indivíduo, levantar informações sobre o motivo da busca pelo cuidado em saúde e orientar a conduta mais adequada para o caso. É possível coletar informações subjetivas, medições objetivas e classificar o risco/vulnerabilidade, de acordo com a avaliação do risco biológico e da vulnerabilidade subjetivo-social do indivíduo. O profissional que realizou a escuta inicial poderá resolver o caso por meio de orientações ou encaminhar o cidadão para atendimento no dia, procedimento na UBS ou agendamento de consulta em outro dia.
 
 O perfil de escuta inicial poderá ser habilitado para os profissionais a depender da organização do processo de trabalho em cada município (ver Seção 3.4.4).
 
 {: .nota }
 Só é permitido realizar uma escuta para cada atendimento, e não é permitida a exclusão, nem a adição de informações após a finalização do atendimento.
 
-Ao clicar na opção ![](media/pec_image332.png) \"**Realizar escuta inicial**\", disponível na tela da lista de atendimentos, será exibida uma tela, conforme a Figura 6.4.
+Ao clicar na opção ![](media/pec_image332.png) \"**Realizar escuta inicial**\", disponível na tela da lista de atendimentos, será exibida uma tela, conforme a Figura 6.1.11
 
-Figura 6.7 - Ferramentas para realizar escuta Inicial
+Figura 6.2 - Ferramentas para realizar escuta Inicial
+
 ![](media/pec_image333.png)
+
 Fonte: SAPS/MS.
 
 Na tela de escuta inicial, os campos "**Motivo da consulta (CIAP2)**", "**Classificação de risco/vulnerabilidade**" e "**Desfecho da escuta inicial**" são obrigatórios.
 
 {: .nota }
-a ferramenta de escuta inicial também permite o registro de "pré- atendimento" (opção ![](media/pec_image332.png) \"**Realizar pré-atendimento**\" na lista de atendimento) quando for uma consulta agendada, entretanto a funcionalidade "**Classificação de risco/vulnerabilidade**" não estará disponível.
+a ferramenta de escuta inicial também permite o registro de "pré-atendimento" (opção ![](media/pec_image332.png) \"**Realizar pré-atendimento**\" na lista de atendimento) quando for uma consulta agendada, entretanto a funcionalidade "**Classificação de risco/vulnerabilidade**" não estará disponível.
 
 Para fazer o registro da escuta inicial, siga os passos:
 
 - Passo 1: Registre o motivo da consulta usando a CIAP2;
 
-- Passo 2.Faça as anotações necessárias da escuta inicial do cidadão, no campo "Motivo da consulta (Descrição)";
+- Passo 2: Faça as anotações necessárias da escuta inicial do cidadão, no campo "Motivo da consulta (Descrição)";
 
-- Passo 3. Registre dados de antropometria, sinais vitais e glicemia, de acordo com as necessidades observadas no atendimento;
+- Passo 3: Registre dados de antropometria, sinais vitais e glicemia, de acordo com as necessidades observadas no atendimento;
 
-Figura 6.8 - Antropometria, Sinais Vitais e Glicemia
+Figura 6.2.1 - Antropometria, Sinais Vitais e Glicemia
 
 ![](media/pec_image334.png)
 
-- Passo 4. Informe a classificação de risco/vulnerabilidade. Esta classificação permite aos profissionais a priorização dos casos mais urgentes ou que requerem atendimento imediato, permitindo a ordenação da lista por prioridade no atendimento;
+Fonte: SAPS/MS
+
+- Passo 4: Informe a classificação de risco/vulnerabilidade. Esta classificação permite aos profissionais a priorização dos casos mais urgentes ou que requerem atendimento imediato, permitindo a ordenação da lista por prioridade no atendimento;
 
 ![](media/pec_image335.png)
 
@@ -229,64 +260,73 @@ Figura 6.8 - Antropometria, Sinais Vitais e Glicemia
 o protocolo de classificação de risco utilizado no sistema está definido no [Caderno de Atenção Básica (CAB) 28 - Acolhimento à Demanda Espontânea - Volume I](http://189.28.128.100/dab/docs/publicacoes/geral/miolo_CAP_28.pdf). Adaptações deste protocolo podem ser realizadas de acordo com a necessidade local.
 
 {: .atencao }
-a classificação de risco/vulnerabilidade é um campo de preenchimento obrigatório para os atendimentos à demanda espontânea, em especial para as consultas que serão realizadas no mesmo dia.
+A classificação de risco/vulnerabilidade é um campo de preenchimento obrigatório para os atendimentos à demanda espontânea, em especial para as consultas que serão realizadas no mesmo dia.
 
 {: .dica }
 Ao fazer a classificação de risco/vulnerabilidade e encaminhar o cidadão para atendimento no dia, o sistema exibe essa informação na lista de atendimento, após finalizar a escuta inicial, para auxiliar na organização e fluxo do atendimento.
 
-- Passo 5. Informe os procedimentos realizados na escuta inicial, caso algum procedimento complementar tenha sido executado;
+- Passo 5: Informe os procedimentos realizados na escuta inicial, caso algum procedimento complementar tenha sido executado;
 
 ![](media/pec_image336.png)
 
 {: .nota }
-Se forem preenchidos os grupos **Antropometria**, no que se refere a peso e altura, **Sinais** **vitais** e **Glicemia**, os procedimentos que correspondem a essas ações serão inseridos no grupo **Procedimentos** **realizados** automaticamente.
+Se forem preenchidos os grupos **Antropometria**, no que se refere a peso e altura, **Sinais vitais** e **Glicemia**, os procedimentos que correspondem a essas ações serão inseridos no grupo **Procedimentos realizados** automaticamente.
 
-- Passo 6. Faça o Desfecho da Escuta Inicial do cidadão escolhendo uma das ações a seguir:
+- Passo 6: Faça o Desfecho da Escuta Inicial do cidadão escolhendo uma das ações a seguir:
 
-- **liberar cidadão:** libera o cidadão da lista de atendimentos, para os casos em que o problema foi resolvido na própria escuta inicial ou nos casos em que se possa agendar uma consulta;
+- **liberar cidadão**: libera o cidadão da lista de atendimentos, para os casos em que o problema foi resolvido na própria escuta inicial ou nos casos em que se possa agendar uma consulta;
 
-- **adicionar na lista de atendimento:** para os casos em que o cidadão precisa de outro atendimento e/ou serviço na unidade de saúde no mesmo dia, o cidadão será reinserido na lista de atendimento e permanece com a situação "Aguardando atendimento" para que ele possa ser atendido/consultado por outro profissional;
+- **adicionar na lista de atendimento**: para os casos em que o cidadão precisa de outro atendimento e/ou serviço na unidade de saúde no mesmo dia, o cidadão será reinserido na lista de atendimento e permanece com a situação "Aguardando atendimento" para que ele possa ser atendido/consultado por outro profissional;
+
+Figura 6.2.2 - Desfecho da escuta inicial
 
 ![](media/pec_image337.png)
 
-{: .atencao }
-Caso o cidadão seja incluído na lista de atendimento para a aplicação de vacinas deve ser marcado a opção "**Vacina**" para que a equipe da sala de vacina identifique- o na lista de atendimento e realize o registro da aplicação.
+Fonte: SAPS/MS
 
-- **agendar consulta:** Adicionalmente, é possível, para os casos em que o problema não foi resolvido, agendar uma consulta para um profissional, na data, turno e horário disponível. Na agenda do profissional, será adicionada esta nova consulta.
+{: .atencao }
+Caso o cidadão seja incluído na lista de atendimento para a aplicação de vacinas deve ser marcado a opção "**Vacina**" para que a equipe da sala de vacina identifique-o na lista de atendimento e realize o registro da aplicação.
+
+- **agendar consulta**: Para os casos em que o problema não foi resolvido na escuta inicial e há a necessidade de agendar uma consulta para um profissional, na data, turno e horário disponível. Na agenda do profissional, será adicionada esta nova consulta.
+
+Figura 6.2.3 - Desfecho da escuta inicial
 
 ![](media/pec_image338.png)
 
-- Passo 7. Clique no botão ![](media/pec_image339.png) para concluir o atendimento e salvar as informações.
+Fonte: SAPS/MS
 
-Só é permitido realizar uma escuta inicial para cada atendimento, e não é permitido a edição, nem a exclusão dessas informações. No caso em que o usuário tenha acessado a escuta inicial por engano, é possível cancelar essa ação, se a escuta não tiver sido "finalizada". Para isso, deve- se ir até o fim da página e clicar no botão ![](media/pec_image340.png).
+- Passo 7: Clique no botão ![](media/pec_image339.png) para concluir o atendimento e salvar as informações.
+
+{: .nota }
+Só é permitido realizar uma escuta inicial para cada atendimento! Também não é permitido a edição, nem a exclusão dessas informações após finalizado. No caso em que o usuário tenha acessado a escuta inicial por engano, é possível cancelar essa ação, se a escuta não tiver sido finalizada. Para isso, deve-se ir até o fim da página e clicar no botão ![](media/pec_image340.png).
 
 {: .atencao }
-para interromper um atendimento iniciado de forma equivocada, é importante usar o botão "cancelar atendimento", caso contrário, o atendimento ficará travado e aguardando ser finalizado pelo profissional que iniciou o atendimento, não sendo possível que outro profissional o atenda.
+Para interromper um atendimento iniciado de forma equivocada, é importante usar o botão "cancelar atendimento", caso contrário, o atendimento ficará travado e aguardando ser finalizado pelo profissional que iniciou o atendimento, não sendo possível que outro profissional o atenda.
 
 # 6.3 Realizar Vacinação
 
-O módulo de vacinação possibilita a organização do processo de trabalho, o registro das vacinas, imunoglobulinas e soros que fazem parte do Programa Nacional de Imunização (PNI) do Ministério da Saúde, contribuindo, dessa forma, para o controle, erradicação e eliminação de doenças imunopreveníveis. O PNI define o calendário de vacinação com orientações específicas para crianças, adolescentes, adultos, gestantes e idosos. Sendo assim, a equipe da Atenção Básica realiza a verificação da caderneta para avaliar a situação vacinal e encaminha a população à unidade de saúde para iniciar ou completar o esquema vacinal, conforme o calendário de vacinação. A partir de então, começa o fluxo de atendimento no PEC.
+O módulo de vacinação possibilita a organização do processo de trabalho, o registro das vacinas, imunoglobulinas e soros que fazem parte do Programa Nacional de Imunização (PNI) do Ministério da Saúde (MS), contribuindo, dessa forma, para o controle, erradicação e eliminação de doenças imunopreveníveis. O PNI define o calendário de vacinação com orientações específicas para crianças, adolescentes, adultos, gestantes e idosos. Sendo assim, a equipe da Atenção Primária realiza a verificação da caderneta para avaliar a situação vacinal e encaminha a população à unidade de saúde para iniciar ou completar o esquema vacinal conforme o calendário de vacinação. A partir de então, começa o fluxo de atendimento no PEC.
 
 {: .atualizacao }
 A partir da versão 4.1.17 o registro da vacina COVID-19 está disponível exclusivamente para atendimento à situação nacional de Emergência em Saúde Pública. Mais informações no tópico 6.3.1.2 deste capítulo.
 
 ## 6.3.1 Registrar Vacina Aplicada
 
-O registro da vacina no fluxo de atendimento do PEC é ativado pela opção "Vacina" marcada na inclusão do cidadão na lista de atendimento ou nos blocos de desfecho da escuta inicial e atendimentos realizados na UBS como demonstrado nos tópicos anteriores. Caso esta opção seja selecionada o botão "Realizar Vacinação" estará disponível como mostra a pec_imagem a seguir:
+O registro da vacina no fluxo de atendimento do PEC é ativado pela opção "Vacina" marcada na inclusão do cidadão na lista de atendimento ou nos blocos de desfecho da escuta inicial e atendimentos realizados na UBS como demonstrado nos tópicos anteriores. Caso esta opção seja selecionada o botão "Realizar Vacinação" estará disponível como mostra a figura a seguir:
 
-Figura 6.9 - Opção de registro da Vacinação
+Figura 6.3 - Opção de registro da Vacinação
 
 ![](media/pec_image341.png)
 
-Fonte: SAPS/MS.
+Fonte: SAPS/MS
 
 Após clicar em ![](media/pec_image342.png) realizar vacinação estará disponível o registro da vacinação no PEC.
 
-Figura 6.10 - Tela de registro da Vacinação
+Figura 6.3.1 - Tela de registro da Vacinação
 
 ![](media/pec_image343.png)
 
-Fonte: SAPS/MS.
+Fonte: SAPS/MS
 
 A tela para registrar a vacinação apresenta os seguintes Blocos de preenchimento: a) Condições; b) Vacinação e c) Desfecho. Neste subcapítulo abordaremos sobre os blocos "Condições" e "Vacinação".
 
@@ -294,20 +334,23 @@ A tela para registrar a vacinação apresenta os seguintes Blocos de preenchimen
 
 Este bloco apresenta ao profissional as condições específicas relacionadas ao cidadão que será vacinado. As condições são "Gestante", "Puérpera" e "Viajante".
 
-Figura 6.11 - Bloco de Condições do Registro de Vacinação
+Figura 6.3.2 - Bloco de Condições do Registro de Vacinação
 
 ![](media/pec_image344.png)
 
-Fonte: SAPS/MS.
+Fonte: SAPS/MS
 
 **VACINAÇÃO**
 
 Este bloco apresenta os recursos disponíveis para o registro da vacinação. O quadro de vacinação é apresentado conforme figura abaixo:
 
-Figura 6.12 - Quadro para o registro dos imunobiológicos
+Figura 6.3.3 - Quadro para o registro dos imunobiológicos
+
 ![](media/pec_image345.png)
 
-Neste quadro é possível visualizar o status da situação vacinal de cada imunobiológico. Se a vacina estiver em dia, o quadro da "DOSE" do imunobiológico aparecerá na cor verde. Caso a vacina esteja atrasada aparecerá na cor vermelha. Se a dose a ser aplicada fazer parte do calendário vacinal do cidadão e estiver no tempo para ser realizada, o quadro aparecerá na cor branca como disponível. Os quadros das "DOSES" das vacinas na cor cinza significam que são doses a serem aplicadas futuramente.
+Fonte: SAPS/MS
+
+Neste quadro é possível visualizar o status da situação vacinal de cada imunobiológico. Se a vacina estiver em dia, o quadro da "DOSE" do imunobiológico aparecerá na cor verde. Caso a vacina esteja atrasada aparecerá na cor vermelha. Se a dose aplicada faz parte do calendário vacinal do cidadão e estiver no tempo para ser realizada, o quadro aparecerá na cor branca como "disponível". Os quadros das "DOSES" das vacinas na cor cinza significam que são doses a serem aplicadas futuramente.
 
 Quando aparecer um asterisco ![](media/pec_image346.png) no quadro "DOSE" do imunobiológico significa que esta vacina foi registrada no atendimento.
 
@@ -316,17 +359,18 @@ Quando aparecer um asterisco ![](media/pec_image346.png) no quadro "DOSE" do imu
 Para registrar uma vacina aplicada siga as seguintes etapas:
 
 1\. É possível visualizar o calendário vacinal de acordo com o ciclo de vida (criança, adolescente, adulto e idoso) ou pelo calendário nacional completo;
-2\. Clique sobre a "Dose" do imunobiológico que será administrado. Após será aberta uma nova tela "ADICIONAR VACINAÇÃO" conforme a figura 6.9:
+
+2\. Clique sobre a "Dose" do imunobiológico que será administrado. Após será aberta uma nova tela "ADICIONAR VACINAÇÃO" conforme a figura 6.3.4:
 
 ![](media/pec_image348.png)
 
-Figura 6.13 - Tela para adicionar vacinação
+Figura 6.3.4 - Tela para adicionar vacinação
 
 ![](media/pec_image349.png)
 
-3\. Se o registro for de uma dose da vacina administrada no momento, o botão permanece, por padrão, como "Não" ![](media/pec_image350.png). Caso seja para um registro de dose administrada em outro dia ou em outro local de atendimento, com a finalidade de atualizar a caderneta do cidadão no PEC, então deve- se mover o botão para "SIM" ![](media/pec_image351.png). Esta última funcionalidade será detalhada mais adiante.
+3\. Se o registro for de uma dose da vacina administrada no momento, o botão permanece, por padrão, como "Não" ![](media/pec_image350.png). Caso seja para um registro de dose administrada em outro dia ou em outro local de atendimento, com a finalidade de atualizar a caderneta do cidadão no PEC, então deve-se mover o botão para "SIM" ![](media/pec_image351.png). Esta última funcionalidade será detalhada mais adiante.
 
-4\. Os campos para o registro do "Imunobiológico" e "dose" aparecerão conforme a seleção realizada pelo profissional de saúde na tela do quadro de vacinação (Figura 6.8), não sendo possível a sua alteração.
+4\. Os campos para o registro do "Imunobiológico" e "dose" aparecerão conforme a seleção realizada pelo profissional de saúde na tela do quadro de vacinação (Figura 6.3.4), não sendo possível a sua alteração.
 
 ![](media/pec_image352.png)
 
@@ -343,20 +387,24 @@ Figura 6.13 - Tela para adicionar vacinação
 8\. Ao final destas etapas clique em "SALVAR" e aparecerá a mensagem "Registro salvo com sucesso". Caso esteja faltando o preenchimento de algum campo obrigatório, o registro não será salvo e o sistema emitirá um alerta informando qual(is) campo(s) não foram preenchidos.
 
 {: .atencao }
-os profissionais de saúde que realizam a administração de imunobiológicos deverão seguir as normas e procedimentos para a vacinação de acordo com o Programa Nacional de Imunização do Ministério da Saúde.
+Os profissionais de saúde que realizam a administração de imunobiológicos deverão seguir as normas e procedimentos para a vacinação de acordo com o Programa Nacional de Imunização do Ministério da Saúde.
 
-9\. Ainda é possível verificar as informações sobre o registro ao clicar no quadro da dose da vacina administrada (Figura 6.14).
+9\. Ainda é possível verificar as informações sobre o registro ao clicar no quadro da dose da vacina administrada (Figura 6.3.5).
 
-Figura 6.14 - Visualização de Imunobiológico
+Figura 6.3.5 - Visualização de Imunobiológico
 
 ![](media/pec_image359.png)
+
+Fonte: SAPS/MS
 
 {: .dica }
 Para aumentar a segurança na aplicação dos imunobiológicos o sistema emite alertas quando da tentativa de registro de uma dose que não seja recomendada para o cidadão (Figura 6.15).
 
-Figura 6.15 - Confirmação de registro de dose advertida
+Figura 6.3.6 - Confirmação de registro de dose advertida
 
 ![](media/pec_image360.png)
+
+Fonte: SAPS/MS
 
 ### 6.3.1.1 Cadastrar lote e fabricante
 
@@ -366,22 +414,24 @@ Caso o lote e o fabricante não estejam previamente cadastrado no sistema, como 
 
 Serão disponibilizados mais campos para a realização da operação conforme a figura a seguir:
 
+Figura 6.3.6
+
 ![](media/pec_image355.png)
+
+Fonte: SAPS/MS
 
 Siga os passos as seguir para cadastrar novos lotes e fabricantes de uma vacina.
 
-- Passo 1. No campo "Cadastrar lote" digite o número do Lote, o nome do Fabricante e a Data de validade contida no frasco/embalagem do imunobiológico. Observe que todos esses campos são de preenchimento
+- Passo 1: No campo "Cadastrar lote" digite o número do Lote, o nome do Fabricante e a Data de validade contida no frasco/embalagem do imunobiológico. Observe que todos esses campos são de preenchimento
 obrigatório.
 
-- Passo 2. Caso o Lote, Fabricante e a Data de validade que foi adicionado no campo "Cadastrar lote" já esteja cadastrado no sistema irá aparecer a mensagem "Este lote de imunobiológico já está cadastrado", conforme a figura 6.16. Nesta situação, clique em "OK" e após na opção ![](media/pec_image356.png) que removerá os campos para cadastro de lote e voltará exibir o combo "Lote/Fabricante".
-
-Figura 6.16. Mensagem de Alerta
+- Passo 2: Caso o Lote, Fabricante e a Data de validade que foi adicionado no campo "Cadastrar lote" já esteja cadastrado no sistema irá aparecer a mensagem "Este lote de imunobiológico já está cadastrado". Nesta situação, clique em "OK" e após na opção ![](media/pec_image356.png) que removerá os campos para cadastro de lote e voltará exibir o combo "Lote/Fabricante".
 
 ![](media/pec_image357.png)
 
 ## 6.3.2. Registrar dose anterior
 
-Aproveitando a oportunidade do registro da dose aplicada no cidadão é recomendado também registrar as doses anteriores com a finalidade de atualizar o calendário vacinal. Para registrar uma dose anterior siga as seguintes etapas.
+Aproveitando a oportunidade do registro da dose aplicada no cidadão é recomendado também registrar as doses anteriores com a finalidade de atualizar o calendário vacinal no PEC. Para registrar uma dose anterior siga as seguintes etapas.
 
 1\. É possível visualizar o calendário vacinal de acordo com o ciclo de vida (criança, adolescente, adulto e idoso) ou pelo calendário nacional completo;
 
@@ -389,11 +439,11 @@ Aproveitando a oportunidade do registro da dose aplicada no cidadão é recomend
 
 3\. Mova o botão "É registro anterior?" até que apareça a palavra "Sim" ![](media/pec_image351.png). Após essa ação aparecerá a tela conforme a figura abaixo:
 
-Figura 6.18 - Tela para adicionar doses de vacinas aplicadas anteriormente
+Figura 6.3.7 - Tela para adicionar doses de vacinas aplicadas anteriormente
 
 ![](media/pec_image361.png)
 
-4\. Os combos para o registro do "Imunobiológico" e "dose" aparecerão conforme a seleção realizada pelo profissional de saúde na tela do quadro de vacinação (Figura 6.18), não sendo possível a sua alteração.
+4\. Os campos para o registro do "Imunobiológico" e "dose" aparecerão conforme a seleção realizada pelo profissional de saúde na tela do quadro de vacinação (Figura 6.3.7), não sendo possível a sua alteração.
 
 5\. Registrar a data de aplicação (campo obrigatório), o número do lote e do fabricante, se houver essa informação na caderneta apresentada pelo cidadão, além de observações, caso necessário, no campo específico para esse fim.
 
@@ -407,38 +457,53 @@ Para realizar o aprazamento siga as seguintes etapas:
 
 1\. Visualize o calendário vacinal de acordo com o ciclo de vida (criança, adolescente, adulto e idoso) ou pelo calendário nacional completo;
 
-2\. Clique sobre a "Dose" do imunobiológico que será registrado e aprazado. Após será aberta a tela "ADICIONAR VACINAÇÃO" conforme a figura 6.9, visto anteriormente.
+2\. Clique sobre a "Dose" do imunobiológico que será registrado e aprazado. Após será aberta a tela "ADICIONAR VACINAÇÃO" conforme a figura 6.3.7, visto anteriormente.
 
-3\. O aprazamento poderá ser feito por meio da aba "Aprazamento" ![](media/pec_image362.png), com a finalidade de aprazar qualquer dose do calendário vacinal, ou simplesmente por meio do campo "Aprazamento", quando for registrar uma dose aplicada e aprazar a próxima dose. Em ambos os casos, digite a data que o cidadão deverá retornar para receber a dose.
+3\. O aprazamento poderá ser feito por meio da aba "Aprazamento" ![](media/pec_image362.png), ou simplesmente por meio do campo "Aprazamento" (6.3.6), quando for registrar uma dose aplicada. Em ambos os casos, digite a data que o cidadão deverá retornar para receber a dose.
 
 ![](media/pec_image363.png)
 
-4\. Ao finalizar o registro clique no botão "SALVAR" e o quadro de vacinação aparecerá com a dose aprazada para uma data futura, conforme figura 6.19
+4\. Ao finalizar o registro clique no botão "SALVAR" e o quadro de vacinação aparecerá com a dose aprazada para uma data futura, conforme figura 6.3.8
 
-Figura 6.19 - Calendário Vacinal com doses de vacinas aprazadas
+Figura 6.3.8 - Calendário Vacinal com doses de vacinas aprazadas
 
 ![](media/pec_image364.png)
 
-5\. Ainda é possível verificar as informações sobre o registro ao clicar no quadro da dose da vacina aprazada (Figura 6.20).
+Fonte: SAPS/MS
 
-Figura 6.20 - Visualização de Imunobiológico
+5\. Ainda é possível verificar as informações sobre o registro ao clicar no quadro da dose da vacina aprazada (Figura 6.3.9).
+
+Figura 6.3.9 - Visualização de Imunobiológico
+
 ![](media/pec_image365.png)
+
+Fonte: SAPS/MS
 
 ## 6.3.4. Registrar outros imunobiológicos
 
-Caso o imunobiológico a ser administrado não faça parte do calendário nacional de vacina há a possibilidade de registrar a dose por meio da aba "Outros imunobiológicos".
+Caso o imunobiológico a ser administrado não faça parte do padrão de calendário nacional de vacinação preconizado pelo PNI há a possibilidade de registrar a dose por meio da aba "Outros imunobiológicos".
+
+Figura 6.3.10 - Adicionar outros imunobiológicos
 
 ![](media/pec_image366.png)
 
-Ao clicar em "Adicionar dose" aparecerá a tela, de acordo com a Figura 6.17. Em seguida siga os mesmos passos conforme já descrito no subcapítulo 6.3.1 deste manual para a adição de doses de imunobiológico no sistema com PEC.
+Fonte: SAPS/MS
 
-Figura 6.21 - Tela de adicionar vacinação
+Ao clicar em "Adicionar dose" aparecerá a tela, de acordo com a Figura 6.3.11. Em seguida siga os mesmos passos conforme já descrito no subcapítulo 6.3.1 deste manual para a adição de doses de imunobiológico no sistema com PEC.
+
+Figura 6.3.11 - Tela de adicionar vacinação
 
 ![](media/pec_image367.png)
 
-Ao clicar em "Salvar" aparecerá a dose aplicada e a aprazada, esta última se for o caso, na tela da aba "Outros imunobiológicos".
+Fonte: SAPS/MS
+
+Ao clicar em "Salvar" aparecerá a dose aplicada e a dose aprazada, esta última se for o caso, na tela da aba "Outros imunobiológicos".
+
+Figura 3.3.12
 
 ![](media/pec_image368.png)
+
+Fonte: SAPS/MS
 
 ## 6.3.5. Finalizar registro de dose aplicada
 
@@ -448,27 +513,27 @@ Para finalizar o registro da(s) dose(s) da(s) vacina(s) aplicada(s) passaremos p
 
 Após registrar os dados da vacinação o profissional deve selecionar um desfecho, de modo semelhante ao passo 6 do módulo da "Escuta inicial", e em seguida, clicar em "Finalizar o Atendimento".
 
-Figura 6.22 - Bloco de Desfecho do Registro de Vacinação
+Figura 6.3.13 - Bloco de Desfecho do Registro de Vacinação
 
 ![](media/pec_image369.png)
 
-Fonte: SAPS/MS.
+Fonte: SAPS/MS
 
 Após finalizar o atendimento será possível visualizar os registros feitos para este cidadão na ferramenta "HISTÓRICO".
 
-Figura 6.23 - Visualização no Histórico do Registro de Vacinação
+Figura 6.3.14 - Visualização no Histórico do Registro de Vacinação
 
 ![](media/pec_image370.png)
 
-Fonte: SAPS/MS.
+Fonte: SAPS/MS
 
 Clicando em cada "card" apresentado no histórico é possível ver o detalhamento do registro clínico.
 
-Figura 6.24 - Registro de Vacinação no Histórico de Atendimento
+Figura 6.3.15 - Registro de Vacinação no Histórico de Atendimento
 
 ![](media/pec_image371.png)
 
-Fonte: SAPS/MS.
+Fonte: SAPS/MS
 
 ## 6.3.6 Acompanhamento da situação vacinal
 
@@ -476,63 +541,84 @@ No intuito de proporcionar aos profissionais de saúde o acompanhamento da situa
 
 O *Cartão* minimizado apresenta informações essenciais e objetivas ao acompanhamento da situação vacinal, tais como: Se a vacina está em dia, qual foi a última vacina aplicada e a data em que foi aplicada, conforme a figura abaixo.
 
-Figura 6.25 - Cartão de Vacinação
+Figura 6.3.16 - Cartão de Vacinação
 
 ![](media/pec_image372.png)
 
-Ao clicar neste *Cartão* aparecem as vacinas recomendadas segundo o ciclo de vida do cidadão. Caso queira visualizar todas as vacinas de acordo com o PNI clique em "Calendário nacional completo". Neste momento, o profissional de saúde poderá analisar a situação vacinal e indicar a atualização da caderneta de vacinação se existirem vacinas atrasadas ou disponíveis, conforme a figura abaixo.
+Fonte: SAPS/MS
 
-Figura 6.26 - Acompanhamento da situação do cartão vacinal
+Ao clicar neste *Cartão* aparecem as vacinas recomendadas segundo o ciclo de vida do cidadão. Caso queira visualizar todas as vacinas do calendário clique em "Calendário nacional completo". Neste momento, o profissional de saúde poderá analisar a situação vacinal e indicar a atualização da caderneta de vacinação se existirem vacinas atrasadas ou disponíveis, conforme a figura abaixo.
+
+Figura 6.3.17 - Acompanhamento da situação do cartão vacinal
 
 ![](media/pec_image373.png)
+
+Fonte: SAPS/MS
 
 ### 6.3.6.1 Adicionar doses anteriores
 
 No módulo de acompanhamento da vacinação é possível atualizar a caderneta do cidadão no PEC incluindo as doses que estão na caderneta física de vacinação. Para registrar essas doses clique em ![](media pec_image374.png) e siga os passos do capítulo 6.3.2.
 
-Figura 6.27 - Adicionar doses anteriores
+Figura 6.3.18 - Adicionar doses anteriores
 
 ![](media/pec_image375.png)
+
+Fonte: SAPS/MS
 
 ## 6.3.7 Registro de doses para vacinação contra COVID-19
 
 Exclusivamente para atendimento à situação nacional de Emergência em Saúde Pública está disponível o registro das doses aplicadas da vacina COVID-19, além da possibilidade de registro de doses anteriores, se for o caso.
+
 Exclusivamente para esta vacina é **obrigatória** a identificação do cidadão através do CPF ou CNS.
 
-Para iniciar o registro selecione a vacina de acordo com o fabricante como mostra a pec_imagem a seguir.
+Para iniciar o registro selecione a vacina de acordo com o fabricante como mostra a figura a seguir.
+
+Figura 6.3.19
 
 ![](media/vacinacovid19-1.png)
+
+Fonte: SAPS/MS
 
 O comportamento do sistema durante o registro da dose aplicada das vacinas COVID-19, assim como o seu aprazamento, seguem o mesmo padrão das vacinas de rotina. Idem para o processo de registro de doses anteriores como mostra a seção 6.3.2.
 
 # 6.4 Atender - Prontuário do Cidadão
 
-Ao clicar na opção ![](media/pec_image376.png) \"Atender\" da lista de atendimentos, o sistema exibirá uma tela com as funcionalidades do Prontuário Eletrônico do Cidadão (Figura 6.21).
+Ao clicar na opção ![](media/pec_image376.png) \"Atender\" da lista de atendimentos, o sistema exibirá uma tela com as funcionalidades do PEC (Figura 6.4).
 
-Figura 6. 28 - Tela do Prontuário Eletrônico do Cidadão
+Figura 6.4 - Tela do Prontuário Eletrônico do Cidadão
 
-![](media/pec_image377.png)
+![](media/pec_image893.png)
+
+Fonte: SAPS/MS
 
 É por meio do PEC que o profissional de saúde poderá efetuar o registro da consulta, utilizando principalmente, o modelo de Registro Clínico Orientado a Problemas (RCOP), sendo possível acessar as seguintes ferramentas:
 
-- ![](media/pec_image378.png) **Folha de Rosto:** ferramenta que permite visualizar um sumário clínico do paciente e que auxilia o profissional a ter acesso rápido aos dados mais relevantes de saúde e de cuidado do cidadão;
+- ![](media/pec_image378.png) **Folha de Rosto**: ferramenta que permite visualizar um sumário clínico do paciente e que auxilia o profissional a ter acesso rápido aos dados mais relevantes de saúde e de cuidado do cidadão;
 
-- ![](media/pec_image379.png) **SOAP:** ferramenta que orienta a inserção de dados subjetivos, clínicos da saúde do cidadão, o estabelecimento de diagnósticos, o planejamento das ações ou intervenções, além da avaliação dos problemas e das condições de saúde detectadas no atendimento;
+- ![](media/pec_image379.png) **SOAP**: ferramenta que orienta a inserção de dados subjetivos, clínicos da saúde do cidadão, o estabelecimento de diagnósticos, o planejamento das ações ou intervenções, além da avaliação dos problemas e das condições de saúde detectadas no atendimento;
 
-- ![](media/pec_image380.png) **Problemas/Condições e Alergias:** ferramenta que permite o registro e gestão da lista de problemas ou outras condições de saúde o cidadão, além do registro de história pregressa do cidadão relacionado a alergias e/ou a reação adversa;
+- ![](media/pec_image380.png) **Problemas/Condições e Alergias**: ferramenta que permite o registro e gestão da lista de problemas ou outras condições de saúde do cidadão, além do registro de história pregressa do cidadão relacionado a alergias e/ou a reação adversa;
 
-- ![](media/pec_image381.png) **Acompanhamento:** ferramenta que apresenta o resumo estruturado das informações importantes para o acompanhamento de determinados problemas ou condições de saúde do cidadão;
+- ![](media/pec_image381.png) **Acompanhamento**: ferramenta que apresenta o resumo estruturado das informações importantes para o acompanhamento de determinados problemas ou condições de saúde do cidadão;
 
-- ![](media/pec_image382.png) **Antecedentes:** ferramenta que permite fazer o registro da história familiar, de patologias pregressas e de saúde do cidadão; é integrada com a lista de problema;
+- ![](media/pec_image382.png) **Antecedentes**: ferramenta que permite fazer o registro da história familiar, de patologias pregressas e de saúde do cidadão; é integrada com a lista de problema;
 
-- ![](media/pec_image383.png) **Histórico:** ferramenta que possibilita visualizar com mais detalhes o histórico de atendimentos do cidadão;
+- ![](media/pec_image383.png) **Histórico**: ferramenta que possibilita visualizar com mais detalhes o histórico de atendimentos do cidadão;
 
-- ![](media/pec_image384.png) **Dados Cadastrais:** funcionalidade que permite o acesso rápido e a visualização do cadastro do cidadão;
+- ![](media/pec_image384.png) **Dados Cadastrais**: funcionalidade que permite o acesso rápido e a visualização do cadastro do cidadão;
 
-- ![](media/pec_image385.png) **Finalização do Atendimento:** funcionalidade de controle de finalização do atendimento.
+- ![](media/pec_image385.png) **Finalização do Atendimento**: funcionalidade de controle de finalização do atendimento.
+
+- ![](media/pec_image894.png) **Acessar RNDS**: funcionalidade que permite ao profissional de saúde visualizar dados clínicos do cidadão que foram registrados em outros pontos de atenção à saúde e que foram enviados para a Rede Nacional de Dados em Saúde (RNDS). 
 
 {: .nota }
 os **técnicos de enfermagem** podem realizar o registro de atendimento por meio da opção "Atender" da lista de atendimento. As funcionalidades disponíveis serão: a folha de rosto, o SOAP restrito ao subjetivo, objetivo e plano com lembretes, visualização de prescrições de medicamentos e orientações, além do acompanhamento, dados cadastrais, fichas CDS e da finalização do atendimento.
+
+{: .nota } A funcionalidade "**Acessar RNDS**" somente estará disponivel na tela de atendimento caso o **administrador municipal** da instalação PEC tenha habilitado esta funcionalidade no módulo "**Gestão Municipal**". Para maiores informações acesse o [capítulo 3.11.4](https://cgiap-saps.github.io/Manual-eSUS-APS/docs/PEC/PEC_03_adm_conf/#3114-configura%C3%A7%C3%A3o-rnds) deste manual.
+
+## 6.4.1 Acessar RNDS 
+
+![](media/pec_image894.png)
 
 ## 6.4.1 Folha de Rosto
 
