@@ -673,7 +673,7 @@ Fonte: DATASUS/MS
 {: .dica }
 Mais informações sobre o Conecte SUS Profissional e/ou a RNDS acesse o [Portal de Serviços](https://servicos-datasus.saude.gov.br/detalhe/kz4a6ol5OH) do DATASUS e/ou o [Portal da RNDS](https://rnds.saude.gov.br/) do Ministério da Saúde. 
 
-## 6.4.1 Folha de Rosto
+## 6.4.2 Folha de Rosto
 
 ![](media/pec_image386.png)
 
@@ -735,7 +735,7 @@ Figura 6.30 - Folha de Rosto com informações sumarizadas a partir de registros
 
 Fonte: SAPS/MS.
 
-## 6.4.2 SOAP
+## 6.4.3 SOAP
 
 ![](media/pec_image398.png)
 
@@ -768,7 +768,7 @@ Ao fazer a associação do registro via SOAP a uma classificação adequada ao p
 {: .nota }
 para mais informações sobre como utilizar a CIAP 2, acesse o [Guia Rápido](http://189.28.128.100/dab/docs/portaldab/documentos/guia_CIAP2.pdf), no site do e-SUS APS.
 
-### 6.4.2.1 SOAP - Subjetivo
+### 6.4.3.1 SOAP - Subjetivo
 
 **S** O A P
 
@@ -796,7 +796,7 @@ Para adicionar um motivo de consulta usando a CIAP2, siga os passos:
 
 ![](media/pec_image405.png)
 
-### 6.4.2.2 SOAP - Objetivo
+### 6.4.3.2 SOAP - Objetivo
 
 S **O** A P
 
@@ -848,7 +848,7 @@ Figura 6.35 - SOAP - Objetivo - grupo mulher (com DUM registrada)
 
 Fonte: SAPS/MS.
 
-#### 6.4.2.2.1 - Resultados de Exames
+#### 6.4.3.2.1 - Resultados de Exames
 
 No bloco "Objetivo", é possível gerenciar exames solicitados, avaliados e seus resultados. Itens solicitados por meio da ferramenta "Exames" do PEC são mostrados no grupo "Exames solicitados e/ou avaliados" no atendimento seguinte. Para mais detalhes sobre como solicitar exames pelo sistema, ver o tópico "Plano", na Seção 6.4.2.4. A lista será exibida conforme a Figura 6.29.
 
@@ -918,7 +918,7 @@ A versão 4.2.1 amplia o escopo de exames que podem ter o preenchimento estrutur
 |0202050025 | Clearance de Creatinina|
  
 
-### 6.4.2.3 SOAP - Avaliação
+### 6.4.3.3 SOAP - Avaliação
 
 S O **A** P
 
@@ -949,7 +949,7 @@ Para registrar uma avaliação ou problema detectado, siga os passos:
 {: .atencao }
 Não é possível informar mais de uma vez a mesma codificação CIAP2/CID10, ou seja, repetido. Então, se não conseguir adicionar um problema/condição esteja atento a essa situação.
 
-### 6.4.2.4 SOAP - Plano
+### 6.4.3.4 SOAP - Plano
 
 S O A **P**
 
@@ -1025,7 +1025,7 @@ Ao criar um atestado, na listagem de atestados, aparecerão algumas opções por
 
 ![](media/pec_image426.png) **Editar**: apresentar os dados do atestado em modo de edição. Após as alterações, clique no botão "Salvar".
 
-#### 6.4.2.4.2 Ferramentas do Plano - Exames
+#### 6.4.3.4.2 Ferramentas do Plano - Exames
 
 Nesta ferramenta, é possível solicitar exames para o cidadão em atendimento. Exames cadastrados neste módulo irão ser incluídos no bloco "Objetivo" do registro de atendimento do SOAP, na parte de exames solicitados e/ou avaliados, após a finalização da consulta em que eles foram inseridos.
 
@@ -1039,7 +1039,7 @@ Fonte: SAPS/MS.
 
 Os exames que têm alta complexidade são classificados como exames de **alto custo**. Os exames que têm menor custo e baixa densidade tecnológica são classificados como exames **comuns** e não precisam de detalhamento maior, apenas os dados clínicos do cidadão.
 
-##### 6.4.2.4.2.1 Solicitar um exame **Comum**:
+##### 6.4.3.4.2.1 Solicitar um exame **Comum**:
 
 Para criar uma solicitação de exame **Comum** basta seguir os passos a seguir:
 
@@ -1071,7 +1071,7 @@ Esta é uma alternativa que agiliza a requisição de exames, visto que são apr
 
 - Passo 3. Para concluir, clique no botão ![](media/pec_image432.png).
 
-##### 6.4.2.4.2.2 Solicitar exames de **Alto Custo**
+##### 6.4.3.4.2.2 Solicitar exames de **Alto Custo**
 
 Para cadastrar a solicitação de um exame de "**Alto Custo**" é necessário adicionar o exame e justificar a solicitação, informando o CID10 e motivo do procedimento, de acordo com os passos a seguir:
 
@@ -1100,7 +1100,7 @@ Após cadastrar aparecerá uma lista de exames no bloco "Solicitações do atend
 
 - Ao clicar sobre o nome do exame é possível editar algum dado da solicitação de exames. Após as alterações, clique no botão "Salvar".
 
-#### 6.4.2.4.3 Ferramentas do Plano - Lembrete
+#### 6.4.3.4.3 Ferramentas do Plano - Lembrete
 
 Nesta ferramenta, é possível cadastrar lembretes para as próximas consultas, permitindo anotar informações importantes a respeito do atendimento e/ou do indivíduo que devam ser retomadas pelo profissional ou pela equipe.
 
@@ -1137,7 +1137,7 @@ Fonte: SAPS/MS.
 {: .atencao }
 Lembretes desativados não poderão ter a descrição alterada e não aparecerá mais na folha de rosto do cidadão.
 
-#### 6.4.2.4.4 Ferramentas do Plano - Prescrição de Medicamentos
+#### 6.4.3.4.4 Ferramentas do Plano - Prescrição de Medicamentos
 
 Esta ferramenta permite fazer a prescrição de medicamentos, contendo orientação de uso para o paciente, efetuada por profissional legalmente habilitado, podendo ser de lista padrão (pré- definida pelo CATMAT[^1]) ou descrição em texto livre (Registro Manual).
 
@@ -1246,7 +1246,7 @@ Figura 6.60 - Modelo do Receituário Impresso no PEC
 
 ![](media/pec_image463.png)
 
-#### 6.4.2.4.5 Ferramentas do Plano - Orientações
+#### 6.4.3.4.5 Ferramentas do Plano - Orientações
 
 Esta ferramenta permite ao profissional de saúde registrar orientações a serem entregues ao paciente. Por exemplo, podem ser escritas orientações alimentares ou sobre cuidados a sua saúde.
 
@@ -1278,7 +1278,7 @@ Figura 6.67 - Orientações
 
 ![](media/pec_image468.png)
 
-#### 6.4.2.4.6 Ferramentas do Plano - Encaminhamentos
+#### 6.4.3.4.6 Ferramentas do Plano - Encaminhamentos
 
 Esta ferramenta oferta aos profissionais a possibilidade de registrar e gerar a impressão da solicitação de encaminhamento para atendimento em serviços de atenção especializada.
 
@@ -1327,13 +1327,13 @@ Figura 6.70 - Modelo de Guia de Encaminhamento
 
 Além do SOAP e suas ferramentas, ainda é possível usar as outras ferramentas do prontuário, como seguem nas próximas seções.
 
-## 6.4.3 Problemas / Condições e Alergias
+## 6.4.4 Problemas / Condições e Alergias
 
 ![](media/pec_image474.png)
 
 A ferramenta "Problemas/Condições e Alergias" auxilia o profissional de saúde no controle da lista de problemas e/ou condições de saúde do cidadão.
 
-### 6.4.3.1 Lista de Problemas e Condições
+### 6.4.4.1 Lista de Problemas e Condições
 
 Ao acessar esta funcionalidade, o sistema exibe uma tela com a lista de problemas do indivíduo, que podem estar ativos, latentes ou resolvidos. Segundo Weed (1968, apud CANTALE), um problema clínico é tudo aquilo que requeira diagnóstico e manejo posterior, ou aquilo que interfira com a qualidade de vida, de acordo com a percepção da própria pessoa. Como exemplos de problemas e condições a serem incluídos nessa ferramenta, tem-se: diagnósticos, deficiências, sintomas, sinais, fatores de risco e condições socioeconômicas.
 
@@ -1395,7 +1395,7 @@ Podemos ainda inserir um problema ou condição de saúde como **resolvido**, se
 
 - Passo 3. Adicione novos problemas ou condições que foram resolvidos, clicando no botão "Adicionar problema ou condição +".
 
-### 6.4.3.2 Alergias e Reações Adversas
+### 6.4.4.2 Alergias e Reações Adversas
 
 É possível inserir **alergias e reações adversas** seguindo os seguintes passos:
 
