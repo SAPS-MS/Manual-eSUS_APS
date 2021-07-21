@@ -617,9 +617,61 @@ os **técnicos de enfermagem** podem realizar o registro de atendimento por meio
 {: .nota } 
 A funcionalidade "**Acessar RNDS**" somente estará disponivel na tela de atendimento caso o **administrador municipal** da instalação PEC tenha habilitado esta funcionalidade no módulo "**Gestão Municipal**". Para maiores informações acesse o [capítulo 3.11.4](https://cgiap-saps.github.io/Manual-eSUS-APS/docs/PEC/PEC_03_adm_conf/#3114-configura%C3%A7%C3%A3o-rnds) deste manual.
 
+{: .novidade }
+A partir da versão 4.0 do sistema e-SUS APS com PEC é possível configurar o sistema para acessar a RNDS.
+
 ## 6.4.1 Acessar RNDS 
 
 ![](media/pec_image894.png)
+
+Esta funcionalidade promove o acesso aos dados clínicos do cidadão que estão na RNDS por meio do portal **Conecte SUS Profissional**.
+
+Para que o profissional de saúde, logado no PEC, consiga visualizar os dados clínicos na RNDS por meio do portal **Conecte SUS Profissional** deverá seguir os seguintes passos:
+
+1\) Na tela de atendimento do PEC clique no botão "Acessar RNDS";
+
+Figura 6.4.1 - Tela de Atendimento PEC
+
+![](media/pec_image895.png)
+
+Fonte: SAPS/MS
+
+2\) Após clicar no botão "Acessar RNDS" abrirá o portal **gov.br**. Acesse sua conta com  **CPF** e **senha** cadastrada neste portal (Figura 6.4.2 e Figura 6.4.3). Caso não possua uma conta ativa, crie uma clicando no botão "Crie sua conta gov.br". 
+
+Figura 6.4.2
+
+![](media/pec_image897.png)
+
+Fonte: SAPS/MS
+
+Figura 6.4.3
+
+![](media/pec_image898.png)
+
+Fonte: SAPS/MS
+
+{: .dica }
+Para mais informações ou tirar dúvidas sobre o serviço do gov.br acesse o [site](http://faq-loginunico.servicos.gov.br).
+
+{: .nota }
+Para conseguir acessar a RNDS o profissional de saúde deve ter o selo de confiabilidade **Prata** na conta do gov.br. Para entender melhor sobre os níveis de autenticação (bronze, prata e ouro), acesse o portal [gov.br](https://www.gov.br/receitafederal/pt-br/canais_atendimento/atendimento-virtual/criargovbr/selos-de-confiabilidade).
+
+3\) Uma vez realizado o acesso via login e senha no site **gov.br**, o profissional de saúde acessará o portal **Conecte SUS Profissional**. Após ler e aceitar os termos de responsabilidades no compartilhamento de dados (Figura 6.4.4) terá acesso as informações disponíveis, tais como: resultado de exame laboratorial, vacinas, medicações dispensadas, alergias registradas pelo cidadão, além dos atendimentos e as internações hospitalares (Figura 6.4.5).
+
+Figura 6.4.4 - Nota Informativa - Termo de Responsabilidade de acesso a RNDS
+
+![](media/pec_imagem899.png)
+
+Fonte: DATASUS/MS
+
+Figura 6.4.5 - Portal Conecte SUS Profissional
+
+![](media/pec_image900.png)
+
+Fonte: DATASUS/MS
+
+{: .dica }
+Mais informações sobre o Conecte SUS Profissional e/ou a RNDS acesse o [Portal de Serviços](https://servicos-datasus.saude.gov.br/detalhe/kz4a6ol5OH) do DATASUS e/ou o [Portal da RNDS](https://rnds.saude.gov.br/) do Ministério da Saúde. 
 
 ## 6.4.1 Folha de Rosto
 
