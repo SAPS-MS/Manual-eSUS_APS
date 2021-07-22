@@ -898,6 +898,7 @@ Alguns exames requerem o registro de dados específicos dos resultados. Estes re
 
 {: .atualizacao }
 A versão 4.2.1 amplia o escopo de exames que podem ter o preenchimento estruturado de resultados, ainda que de forma manual. São eles:
+
 |Código SIGTAP| Exame|
 |- |- |
 |0202010295 | Dosagem de Colesterol Total|
@@ -905,9 +906,8 @@ A versão 4.2.1 amplia o escopo de exames que podem ter o preenchimento estrutur
 |0202010287 | Dosagem de Colesterol LDL|
 |0202010678 | Dosagem de Triglicerídeos|
 |0202010317 | Dosagem de Creatinina|
-|0202050025 | Clearance de Creatinina|
+|0202050025 | Clearance de Creatinina||
  
-
 ### 6.4.3.3 SOAP - Avaliação
 
 S O **A** P
@@ -945,7 +945,7 @@ S O A **P**
 
 Após identificar os problemas/condições de saúde do cidadão que está demandando cuidados, a última parte do SOAP possibilita o registro das informações do plano de cuidado. O sistema oferece uma estrutura que permite registro rápido do plano por meio de um campo de texto e/ou usando códigos para o registro de procedimentos e intervenções, conforme Figura 6.4.16.
 
-{: .atualização }
+{: .atualizacao }
 A partir da versão 3.2 o profissional pode realizar o registro de procedimentos clínicos realizados utilizando duas classificações: a Tabela de Procedimentos do SUS (SIGTAP) e o Capítulo de procedimentos da CIAP2. Este campo novo apresenta apenas procedimentos clínicos, ou seja, procedimentos que podem ser executados diretamente no cuidado ao cidadão.
 
 Figura 6.4.16 - SOAP - Plano
