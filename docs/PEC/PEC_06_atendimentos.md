@@ -906,7 +906,7 @@ A versão 4.2.1 amplia o escopo de exames que podem ter o preenchimento estrutur
 |0202010287 | Dosagem de Colesterol LDL|
 |0202010678 | Dosagem de Triglicerídeos|
 |0202010317 | Dosagem de Creatinina|
-|0202050025 | Clearance de Creatinina||
+|0202050025 | Clearance de Creatinina|
  
 ### 6.4.3.3 SOAP - Avaliação
 
