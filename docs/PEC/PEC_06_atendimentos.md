@@ -912,42 +912,43 @@ A versão 4.2.1 amplia o escopo de exames que podem ter o preenchimento estrutur
 
 S O **A** P
 
-Neste campo é registrado a avaliação do cidadão feito pelo profissional de saúde, considerando o raciocínio clínico baseado na análise dos blocos "Subjetivo" e "Objetivo". Aqui podem ser colocadas as hipóteses de diagnóstico ou diagnóstico codificado.
+Neste campo é registrado a avaliação do cidadão feito pelo profissional de saúde, considerando o raciocínio clínico baseado na análise dos blocos "Subjetivo" e "Objetivo". Na **Avaliação** podem ser registradas as hipóteses de diagnóstico e/ou diagnóstico codificado.
 
-O código do problema e/ou condição detectada ou avaliada durante o atendimento é de preenchimento obrigatório, sendo necessário informar pelo menos um código, CIAP2 ou CID10. Caso seja necessário, também poderá ser incluída uma nota, conforme podemos ver na Figura 6.33.
+O código do problema e/ou condição detectada ou avaliada durante o atendimento é de preenchimento obrigatório, sendo necessário informar pelo menos um código, CIAP2 ou CID10. Caso seja necessário, também poderá ser incluída uma nota, conforme podemos ver na Figura 6.4.15.
 
-Figura 6.39 - SOAP - Avaliação
+Figura 6.4.15 - SOAP - Avaliação
 
-![](media/pec_image416.png)
+![](media/pec_image902.png)
 
-Fonte: SAPS/MS.
+Fonte: SAPS/MS
 
 Caso o profissional decida acompanhar o problema/condição avaliada, em consultas posteriores, é possível incluí-lo na Lista de Problemas/Condições como situação "Ativo".
 
-Para registrar uma avaliação ou problema detectado, siga os passos:
+Para registrar uma condição ou problema detectado, siga os passos:
 
 - Passo 1. Informe o código CIAP2;
 
-- Passo 2. Após informar o código CIAP2, para registros de profissional médico ou odontólogo, é possível marcar a opção "Filtro CID10 X CIAP2", que possibilita restringir a lista de códigos CID10 em relação a um código da CIAP2; logo depois, informe o CID10;
+- Passo 2. Se informar o código CIAP2, para registros de profissional médico ou odontólogo, é possível marcar a opção "Filtro CID10 X CIAP2", que possibilita restringir a lista de códigos CID10 em relação a um código da CIAP2; logo depois, selecione o CID10;
 
-- Passo 3. Caso necessário, registre alguma nota relacionada com o problema detectado;
+- Passo 3. Se necessário, registre alguma nota relacionada com o problema detectado;
 
-- Passo 4. Se houver necessidade de acompanhar este problema/condição, marque a opção "Inserir na Lista de Problemas/Condições como ativo";
+- Passo 4. Se houver necessidade de acompanhar este problema/condição, marque a opção "**Inserir na Lista de Problemas/Condições como ativo**";
 
 - Passo 5. Por último, clique no botão \"Confirmar\" para concluir.
 
 {: .atencao }
-Não é possível informar mais de uma vez a mesma codificação CIAP2/CID10, ou seja, repetido. Então, se não conseguir adicionar um problema/condição esteja atento a essa situação.
+Não é possível registrar a mesma codificação CIAP2/CID10 no mesmo atendimento. Então, se não conseguir adicionar um problema/condição esteja atento a essa situação.
 
 ### 6.4.3.4 SOAP - Plano
 
 S O A **P**
 
-Após identificar os problemas/condições de saúde do cidadão que está demandando cuidados, a última parte do SOAP possibilita o registro das informações do plano de cuidado. O sistema oferece uma estrutura que permite registro rápido do plano por meio de um campo de texto e/ou usando códigos para o registro de procedimentos e intervenções, conforme Figura 6.34.
+Após identificar os problemas/condições de saúde do cidadão que está demandando cuidados, a última parte do SOAP possibilita o registro das informações do plano de cuidado. O sistema oferece uma estrutura que permite registro rápido do plano por meio de um campo de texto e/ou usando códigos para o registro de procedimentos e intervenções, conforme Figura 6.4.16.
 
-Na versão 3.2 o profissional pode realizar o registro de procedimentos clínicos realizados utilizando duas classificações: a Tabela de Procedimentos do SUS (SIGTAP) e o Capítulo de procedimentos da CIAP2. Este campo novo apresenta apenas procedimentos clínicos, ou seja, procedimentos que podem ser executados diretamente no cuidado ao cidadão.
+{: .atualização }
+A partir da versão 3.2 o profissional pode realizar o registro de procedimentos clínicos realizados utilizando duas classificações: a Tabela de Procedimentos do SUS (SIGTAP) e o Capítulo de procedimentos da CIAP2. Este campo novo apresenta apenas procedimentos clínicos, ou seja, procedimentos que podem ser executados diretamente no cuidado ao cidadão.
 
-Figura 6.40 - SOAP - Plano
+Figura 6.4.16 - SOAP - Plano
 
 ![](media/pec_image417.png)
 
@@ -955,21 +956,21 @@ Fonte: SAPS/MS.
 
 O sistema ainda disponibiliza algumas ferramentas específicas para auxiliar no registro e acompanhamento do plano de cuidado, como vemos a seguir:
 
-- **Atestados:** ferramenta que ajuda o profissional na emissão e controle de atestados e de licença maternidade elaborados para o cidadão;
+- **Atestados**: ferramenta que ajuda o profissional na emissão e controle de atestados e de licença maternidade elaborados para o cidadão;
 
-- **Exames:** ferramenta que auxilia o profissional na solicitação de exame comum e/ou de alto custo;
+- **Exames**: ferramenta que auxilia o profissional na solicitação de exame comum e/ou de alto custo;
 
-- **Lembretes:** ferramenta que auxilia o profissional a registrar lembretes para serem visualizados, por meio da folha de rosto, nas próximas consultas;
+- **Lembretes**: ferramenta que auxilia o profissional a registrar lembretes para serem visualizados, por meio da folha de rosto, nas próximas consultas;
 
-- **Prescrição de medicamentos:** ferramenta que auxilia o profissional nas prescrições medicamentosas no atendimento ao cidadão, na visualização do histórico de prescrições e da lista de medicamentos, além da impressão dos receituários com as medicações prescritas no momento;
+- **Prescrição de medicamentos**: ferramenta que auxilia o profissional nas prescrições medicamentosas no atendimento ao cidadão, na visualização do histórico de prescrições e da lista de medicamentos, além da impressão dos receituários com as medicações prescritas no momento;
 
-- **Orientações:** ferramenta que auxilia o profissional na elaboração de recomendações para o cidadão;
+- **Orientações**: ferramenta que auxilia o profissional na elaboração de recomendações para o cidadão;
 
-- **Encaminhamentos:** ferramenta de registro e geração de impressão da guia de referência e contra referência para atendimento em outros níveis de atenção à saúde.
+- **Encaminhamentos**: ferramenta de registro e geração de impressão da guia de referência e contra referência para atendimento em outros níveis de atenção à saúde.
 
 Será apresentada, nas próximas seções, cada uma dessas ferramentas com mais detalhes.
 
-#### 6.4.2.4.1 Ferramentas do Plano - Atestado
+#### 6.4.3.4.1 Ferramentas do Plano - Atestado
 
 O atestado é um documento de conteúdo informativo, redigido e assinado por exemplo por **médicos e odontólogos**, de acordo com a Lei nº 605/49, combinada com a Lei nº 5.081/66, como \"atestação\" da existência de certa obrigação ou de ato por ele praticado. Podendo o beneficiário do atestado requerer os direitos daquilo que foi declarado, como os abonos de faltas ao trabalho.
 
