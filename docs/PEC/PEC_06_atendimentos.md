@@ -651,16 +651,16 @@ Figura 6.4.3
 Fonte: SAPS/MS
 
 {: .dica }
-Para mais informações ou tirar dúvidas sobre o serviço do gov.br acesse o [site](http://faq-loginunico.servicos.gov.br).
+Para mais informações ou tirar dúvidas sobre o serviço do gov.br acesse o [site](http://faq-login-unico.servicos.gov.br/en/latest/).
 
 {: .nota }
-Para conseguir acessar a RNDS o profissional de saúde deve ter o selo de confiabilidade **Prata** na conta do gov.br. Para entender melhor sobre os níveis de autenticação (bronze, prata e ouro), acesse o portal [gov.br](https://www.gov.br/receitafederal/pt-br/canais_atendimento/atendimento-virtual/criargovbr/selos-de-confiabilidade).
+Para conseguir acessar a RNDS o profissional de saúde deve ter o selo de confiabilidade **Prata** na conta do gov.br. Para entender melhor sobre os níveis de autenticação (bronze, prata e ouro), acesse o portal [gov.br](https://www.gov.br/receitafederal/pt-br/canais_atendimento/atendimento-virtual/criar-govbr/selos-de-confiabilidade).
 
 3\) Uma vez realizado o acesso via login e senha no site **gov.br**, o profissional de saúde acessará o portal **Conecte SUS Profissional**. Após ler e aceitar os termos de responsabilidades no compartilhamento de dados (Figura 6.4.4) terá acesso as informações disponíveis, tais como: resultado de exame laboratorial, vacinas, medicações dispensadas, alergias registradas pelo cidadão, além dos atendimentos e as internações hospitalares (Figura 6.4.5).
 
 Figura 6.4.4 - Nota Informativa - Termo de Responsabilidade de acesso a RNDS
 
-![](media/pec_imagem899.png)
+![](media/pec_image899.png)
 
 Fonte: DATASUS/MS
 
@@ -669,6 +669,9 @@ Figura 6.4.5 - Portal Conecte SUS Profissional
 ![](media/pec_image900.png)
 
 Fonte: DATASUS/MS
+
+{: .nota }
+Nesta primeira etapa de desenvolvimento da RNDS somente os médicos poderão acessar o portal Conecte SUS Profissional por meio do PEC. Futuramente, todos os profissionais de saúde que compõem a equipe de Atenção Primária também terão acesso. 
 
 {: .dica }
 Mais informações sobre o Conecte SUS Profissional e/ou a RNDS acesse o [Portal de Serviços](https://servicos-datasus.saude.gov.br/detalhe/kz4a6ol5OH) do DATASUS e/ou o [Portal da RNDS](https://rnds.saude.gov.br/) do Ministério da Saúde. 
@@ -679,102 +682,91 @@ Mais informações sobre o Conecte SUS Profissional e/ou a RNDS acesse o [Portal
 
 A folha de rosto, por meio de um sumário clínico do cidadão, oferece acesso rápido a um conjunto de informações importantes do cidadão.
 
-Figura 6.29 - Prontuário do Cidadão - folha de rosto
+Figura 6.4.6 - Prontuário do Cidadão - folha de rosto
 
 ![](media/pec_image387.png)
 
-Fonte: SAPS/MS.
+Fonte: SAPS/MS
 
-Conforme podemos ver na Figura 6.22, a folha de rosto conta com os seguintes blocos de informações:
+Conforme podemos ver na Figura 6.4.6, a folha de rosto conta com os seguintes blocos de informações:
 
-- **Escuta inicial:** permite visualizar os registros do atendimento ao cidadão na escuta inicial, caso ele tenha passado por essa escuta;
+- **Escuta inicial**: permite visualizar os registros do atendimento ao cidadão realizados na escuta inicial;
 
 ![](media/pec_image390.png)
 
-Fonte: SAPS/MS.
-
-- **Últimos contatos:** exibe os últimos três atendimentos do cidadão na unidade de saúde, permitindo saber quais os problemas/condições avaliadas e quando ocorreram. Caso haja necessidade de ver mais informações do histórico do cidadão é possível clicar no botão "Mais informações";
+- **Últimos contatos**: exibe os últimos três atendimentos do cidadão na unidade de saúde, permitindo saber quais os problemas/condições avaliadas e quando ocorreram. Caso haja necessidade de ver mais informações do histórico do cidadão é possível clicar no botão "Mais informações";
 
 ![](media/pec_image391.png)
 
-Fonte: SAPS/MS.
-
-- **Problemas/condições:** exibe os problemas/condições ativos ou latentes do cidadão . Não exibe os problemas/condições resolvidos (estes poderão ser visualizados clicando no ícone "Lista de Problemas");
+- **Problemas/condições**: exibe os problemas/condições ativos ou latentes do cidadão. **Não exibe os problemas/condições resolvidos** (estes poderão ser visualizados clicando no ícone "Lista de Problemas");
 
 ![](media/pec_image392.png)
 
-Fonte: SAPS/MS.
-
-- **Alergias/Reações Adversas**: exibe a lista de alergias e as reações adversas provocadas no cidadão, identificando Agente Causador, Categoria e Criticidade, além da data de instalação. Caso haja necessidade de ver mais informações sobre alergias/reações adversas é possível clicar no botão "Mais informações".
+- **Alergias/Reações Adversas**: exibe a lista de alergias e as reações adversas do cidadão, identificando Agente Causador, Categoria, Criticidade e data de instalação. Caso haja necessidade de ver mais informações sobre alergias/reações adversas é possível clicar no botão "Mais informações".
 
 ![](media/pec_image393.png)
 
-Fonte: SAPS/MS.
+- **Vacinação**: apresenta informações em relação a situação vacinal do cidadão, última vacina aplicada, data da aplicação, se existem vacinas atrasadas ou aprazadas. Clicando no botão "Mais informações" é possível acessar o acompanhamento de vacinação do cidadão.
 
-- **Vacinação:** apresenta informações em relação a situação vacinal do cidadão, última vacina aplicada, data da aplicação, se existem vacinas atrasadas ou aprazadas. Clicando no botão "Mais informações" é possível acessar o acompanhamento de vacinação do cidadão.
+![](media/pec_image901.png)
 
-![](media/pec_image394.png)
-
-Fonte: SAPS/MS.
-
-- **Medicamentos Ativos:** exibe as medicações em uso contínuo com a data de início da prescrição, além disso, apresenta também as últimas prescrições acompanhadas pela data. Caso haja necessidade de ver mais informações sobre prescrições de medicamentos é possível clicar no botão "Mais informações".
+- **Medicamentos Ativos**: exibe as medicações em uso contínuo, data de início da prescrição e conclusão, se for o caso. Caso haja necessidade de ver mais informações sobre medicamentos ativos é possível clicar no botão "Mais informações".
 
 ![](media/pec_image395.png)
 
-Fonte: SAPS/MS.
-
-- **Lembretes:** exibe os lembretes ativos criados pelo profissional ou por algum membro da equipe (veja como criar lembretes por meio do Plano do SOAP, na Seção 6.4.2.7).
+- **Lembretes**: exibe os lembretes ativos criados pelo profissional ou por algum membro da equipe (veja como criar lembretes por meio do Plano do SOAP, na Seção 6.4.3.7).
 
 ![](media/pec_image396.png)
 
-Fonte: SAPS/MS.
-
-Figura 6.30 - Folha de Rosto com informações sumarizadas a partir de registros anteriores
+Figura 6.4.7 - Folha de Rosto com informações sumarizadas a partir de registros anteriores
 
 ![](media/pec_image397.png)
 
-Fonte: SAPS/MS.
+Fonte: SAPS/MS
 
 ## 6.4.3 SOAP
 
 ![](media/pec_image398.png)
 
-O **SOAP** (Subjetivo, Objetivo, Avaliação e Plano), é o método de registro da **nota de evolução**, permite registrar de forma sintética e estruturada as questões subjetivas do cidadão, além das impressões objetivas sobre o estado geral do cidadão. Pode ainda ser registrado o exame físico, exames complementares, a avaliação, as necessidades ou problemas identificados, e o plano de cuidados realizados no encontro entre o profissional de saúde e o cidadão. O método SOAP é a principal ferramenta para registro do atendimento usada pelo modelo RCOP.
+O **SOAP** (Subjetivo, Objetivo, Avaliação e Plano), é o método de registro da **nota de evolução**, permite registrar de forma sintética e estruturada os dados clínicos do cidadão.  O método começa com as questões subjetivas, segue para as impressões objetivas sobre o estado geral do cidadão observadas no exame físico e exames complementares. Em seguida, após a coleta dos dados subjetivos e objetivos parte-se para a avaliação, identificando as condições ou problemas de saúde. Por fim, o plano de cuidados prescritos no encontro entre o profissional de saúde e o cidadão. 
+
+O método SOAP é a principal ferramenta para registro do atendimento usada pelo modelo RCOP.
 
 A sigla SOAP corresponde a quatro blocos de informações detalhadas a seguir:
 
-- **(S) subjetivo:** conjunto de campos que possibilita o registro da parte subjetiva da anamnese da consulta, ou seja, os dados dos sentimentos e percepções do cidadão em relação à sua saúde;
+> **(S) subjetivo**: conjunto de campos que possibilita o registro da parte subjetiva da anamnese da consulta, ou seja, os dados dos sentimentos e percepções do cidadão em relação à sua saúde;
 
-- **(O) objetivo:** conjunto de campos que possibilita o registro do exame físico, como os sinais e sintomas detectados, além do registro de resultados de exames realizados;
+> **(O) objetivo**: conjunto de campos que possibilita o registro do exame físico, como os sinais e sintomas detectados, além do registro de resultados de exames realizados;
 
-- **(A) avaliação:** conjunto de campos que possibilita o registro da conclusão feita pelo profissional de saúde a partir dos dados observados nos itens anteriores, como os motivos para aquele encontro, a anamnese do cidadão e dos exames físico e complementares;
+> **(A) avaliação**: conjunto de campos que possibilita o registro da conclusão feita pelo profissional de saúde a partir dos dados coletados nos itens anteriores.
 
-- **(P) plano:** conjunto de funcionalidades que permite registrar o plano de cuidado ao cidadão em relação ao(s) problema(s) avaliado(s).
+> **(P) plano**: conjunto de funcionalidades que permite registrar o plano de cuidado ao cidadão em relação ao(s) problema(s) e condição(ões) de saúde identificado(s).
 
-Em especial o Subjetivo (motivo da consulta), Avaliação (problema detectado) e Plano (intervenção- procedimento) vêm acompanhados de uma informação entre parênteses que está relacionada ao uso da Classificação Internacional de Atenção Primária - 2ª edição (CIAP2), conforme podemos ver no diagrama da Figura 6.15.
+{: .nota }
+O campo **motivo da consulta** no Subjetivo, **problema detectado** na Avaliação e **intervenção-procedimento** no Plano existe a possibilidade de coleta de dados padronizados por meio do uso da Classificação Internacional de Atenção Primária - 2ª edição (CIAP2), seguindo a metodologia desta classificação conforme podemos ver no diagrama da Figura 6.4.8
 
-Figura 6.31 - Uso da CIAP2 no registro do atendimento
+Figura 6.4.8 - Uso da CIAP2 no registro do atendimento
 
 ![](media/pec_image7.png)
 
-Fonte: CIAP2, 2008.
+Fonte: CIAP2, 2008
 
 Para fazer melhor uso da informação, a definição abaixo nos auxilia a entender o conceito de **episódio de cuidado**, caracterizado pelo registro desses três elementos da consulta:
 
-> *"Os motivos da consulta, os problemas de saúde/diagnósticos, e os procedimentos para o cuidado/intervenções são a base de um episódio de cuidados, constituído por uma ou mais consultas incluindo as alterações ao longo do tempo. Por conseguinte, um episódio de cuidados refere- se a todo tipo de atenção prestada a determinado indivíduo que apresente um problema de saúde ou uma doença. Quando esses episódios são introduzidos no processo informatizado de um paciente com base na CIAP2, é possível avaliar a necessidade de cuidados de saúde, a abrangência, o grau de integração, de acessibilidade e responsabilidade.*" (CIAP2, 2008)
+> *"Os motivos da consulta, os problemas de saúde/diagnósticos, e os procedimentos para o cuidado/intervenções são a base de um episódio de cuidados, constituído por uma ou mais consultas incluindo as alterações ao longo do tempo. Por conseguinte, um episódio de cuidados refere-se a todo tipo de atenção prestada a determinado indivíduo que apresente um problema de saúde ou uma doença. Quando esses episódios são introduzidos no processo informatizado de um paciente com base na CIAP2, é possível avaliar a necessidade de cuidados de saúde, a abrangência, o grau de integração, de acessibilidade e responsabilidade.*" (CIAP2, 2008)
 
-Ao fazer a associação do registro via SOAP a uma classificação adequada ao processo de trabalho das equipes de Atenção Básica, o sistema potencializa o uso da informação de registro do atendimento a médio e longo prazo, possibilitando melhor avaliação da situação de saúde da população no território e ampliando a capacidade do sistema de produzir conhecimento novo e estruturado.
+Ao fazer a associação do registro via SOAP a uma classificação adequada ao processo de trabalho das equipes de Atenção Primária, o sistema potencializa o uso da informação de registro do atendimento a médio e longo prazo, possibilitando melhor avaliação da situação de saúde da população no território e ampliando a capacidade do sistema de produzir conhecimento novo e estruturado.
 
 {: .nota }
-para mais informações sobre como utilizar a CIAP 2, acesse o [Guia Rápido](http://189.28.128.100/dab/docs/portaldab/documentos/guia_CIAP2.pdf), no site do e-SUS APS.
+para mais informações sobre como utilizar a CIAP2, acesse o [Guia Rápido](http://189.28.128.100/dab/docs/portaldab/documentos/guia_CIAP2.pdf), no site do e-SUS APS.
 
 ### 6.4.3.1 SOAP - Subjetivo
 
 **S** O A P
 
-O registro da parte subjetiva pode ser realizado usando um campo aberto e/ou por meio de codificação dos motivos da consulta usando a CIAP2 e algumas notas, quando necessário. Ainda é possível registrar (em campo aberto) se o cidadão está sendo acompanhado por algum especialista em relação ao motivo da consulta.
+O registro da parte subjetiva pode ser realizado usando o campo texto e/ou por meio de codificação do motivo da consulta usando a terminologia CIAP2, e ainda registrar notas, se necessário. 
 
-Figura 6.32 - SOAP - Subjetivo (motivo da consulta)
+Figura 6.4.9 - SOAP - Subjetivo (motivo da consulta)
 
 ![](media/pec_image399.png)
 
@@ -800,7 +792,7 @@ Para adicionar um motivo de consulta usando a CIAP2, siga os passos:
 
 S **O** A P
 
-O registro do "Objetivo", conforme a Figura 6.26, pode ser realizado usando campos abertos e/ou estruturados para anotar sinais e sintomas percebidos pelo profissional de saúde durante o atendimento.  O sistema oferece um bloco de campos estruturados para facilitar o preenchimento das aferições mais frequentes na consulta. Os campos disponíveis são:
+O registro do "Objetivo", conforme a Figura 6.4.10, pode ser realizado usando campo texto e/ou estruturado para anotar sinais e sintomas percebidos pelo profissional de saúde durante o atendimento. O sistema oferece um bloco de campos estruturados para facilitar o preenchimento das aferições mais frequentes na consulta. Os campos disponíveis são:
 
 - **Antropometria**:
 
@@ -821,28 +813,28 @@ O registro do "Objetivo", conforme a Figura 6.26, pode ser realizado usando camp
 
 - **Vacinação**:
 
- - Vacinação em dia: campo destinado a informar se a vacinação do indivíduo, em qualquer faixa etária, está atualizada ou não, observando as normas preconizadas pelo Programa Nacional de Imunização (PNI) do Ministério da Saúde sobre o calendário vacinal nacional.
+ - Vacinação em dia: campo destinado a informar se a vacinação do cidadão está atualizada ou não, de acordo com as normas preconizadas pelo Programa Nacional de Imunização (PNI) do Ministério da Saúde (MS) sobre o calendário vacinal nacional.
 
 - **Glicemia**:
  - Glicemia capilar: registrar em miligramas por decilitro (mg/dL). É necessário informar se, no **momento da coleta**, o cidadão encontrava-se na situação de jejum, pré-prandial, pós-prandial ou não especificado.
 
-Figura 6.33 - SOAP - Objetivo
+Figura 6.4.9 - SOAP - Objetivo
 
 ![](media/pec_image406.png)
 
-Fonte: SAPS/MS.
+Fonte: SAPS/MS
 
-Para os casos em que o cidadão em atendimento é do sexo feminino, o bloco "Mulher" é disponibilizado, como mostra a Figura 6.34.
+Para os casos em que o cidadão em atendimento é do sexo feminino, o bloco "Mulher" é disponibilizado, como mostra a Figura 6.4.10.
 
-Figura 6.34 - SOAP - Objetivo - grupo mulher (sem DUM registrada)
+Figura 6.4.10 - SOAP - Objetivo - grupo mulher (sem DUM registrada)
 
 ![](media/pec_image407.png)
 
-Fonte: SAPS/MS.
+Fonte: SAPS/MS
 
-- **DUM (Data da Última Menstruação):** neste campo, é possível registrar a data da última menstruação da cidadã em atendimento, mesmo que não haja suspeita ou condição de gravidez. Após salvo o registro da DUM aparece a informação conforme figura abaixo.
+- **DUM (Data da Última Menstruação)**: neste campo, registra-se a data da última menstruação da mulher em atendimento, mesmo que não haja suspeita ou condição de gravidez. Após salvo o registro da DUM aparece a informação conforme figura abaixo.
 
-Figura 6.35 - SOAP - Objetivo - grupo mulher (com DUM registrada)
+Figura 6.4.11 - SOAP - Objetivo - grupo mulher (com DUM registrada)
 
 ![](media/pec_image408.png)
 
@@ -850,9 +842,9 @@ Fonte: SAPS/MS.
 
 #### 6.4.3.2.1 - Resultados de Exames
 
-No bloco "Objetivo", é possível gerenciar exames solicitados, avaliados e seus resultados. Itens solicitados por meio da ferramenta "Exames" do PEC são mostrados no grupo "Exames solicitados e/ou avaliados" no atendimento seguinte. Para mais detalhes sobre como solicitar exames pelo sistema, ver o tópico "Plano", na Seção 6.4.2.4. A lista será exibida conforme a Figura 6.29.
+No bloco "Objetivo", é possível gerenciar exames solicitados, avaliados e seus resultados. Itens solicitados por meio da ferramenta "Exames" do PEC são mostrados no grupo "Exames solicitados e/ou avaliados" no atendimento seguinte. Para mais detalhes sobre como solicitar exames pelo sistema, ver o tópico "Plano", na Seção 6.5.2.4. A lista será exibida conforme a Figura 6.4.12
 
-Figura 6.36 - SOAP - Objetivo - lista de exames
+Figura 6.4.12 - SOAP - Objetivo - lista de exames
 
 ![](media/pec_image409.png)
 
@@ -862,47 +854,45 @@ Para facilitar a busca dos exames solicitados ou avaliados o recurso de filtro !
 
 ![](media/pec_image415.png)
 
-Fonte: SAPS/MS.
+Fonte: SAPS/MS
 
 Para informar o resultado de um exame já solicitado, siga os passos descritos abaixo:
 
-- Passo 1. Clique no botão \"Informar Resultado\" ![](media/pec_image410.png) do exame - o sistema apresentará uma tela, conforme a Figura 6.37;
+- Passo 1. Clique no botão \"Informar Resultado\" ![](media/pec_image410.png) do exame - o sistema apresentará uma tela, conforme a Figura 6.4.13;
 
 - Passo 2. o bloco "Solicitação", será mostrado o nome do exame em questão, a data da solicitação, os dados do profissional e UBS que realizou a solicitação;
 
-- Passo 3. No bloco "Resultados", informe a data de realização, a data do resultado e a descrição sobre o(s) resultado(s) do exame;
+- Passo 3. No bloco "Resultados", informe a data de realização, a data do resultado e a descrição sobre o resultado do exame;
 
 - Passo 4. No caso de ser um exame específico, algumas outras informações aparecerão no bloco \"Resultado de exame específico\" para serem preenchidas;
 
 - Passo 5. Para concluir, clique em \"Salvar\".
 
-Figura 6.37 - SOAP - Objetivo - entrada de resultado de exame previamente solicitado via PEC
+Figura 6.4.13 - SOAP - Objetivo - entrada de resultado de exame previamente solicitado via PEC
 
 ![](media/pec_image411.png)
 
-Fonte: SAPS/MS.
+Fonte: SAPS/MS
 
 É possível registrar exames não solicitados por meio do PEC, mas que foram trazidos pelo cidadão em atendimento. Para isso, siga os passos abaixo:
 
-- Passo 1. Clique no botão \"Adicionar\" no bloco "Exames solicitados e/ou avaliados" - o sistema apresentará uma tela, conforme a Figura 6.31;
+- Passo 1. Clique no botão \"Adicionar\" no bloco "Exames solicitados e/ou avaliados" - o sistema apresentará uma tela, conforme a Figura 6.4.14;
 
 - Passo 2. No bloco "Solicitação", informe o exame e a data que ele foi solicitado;
 
-- Passo 3. No bloco "Resultados", informe a data de realização, a data do resultado e a descrição referente ao(s) resultado(s) do(s) exame(s);
+- Passo 3. No bloco "Resultados", informe a data de realização, a data do resultado e a descrição referente ao resultado do exame;
 
 - Passo 4. Caso seja um exame específico, algumas outras informações aparecerão no bloco \"Resultado de exame específico\" para serem preenchidas;
 
 - Passo 5. Para concluir, clique em \"Salvar\".
 
-Figura 6.37 - SOAP - Objetivo - adicionar resultado de exame não solicitado via PEC
+Figura 6.4.14 - SOAP - Objetivo - adicionar resultado de exame não solicitado via PEC
 
 ![](media/pec_image412.png)
 
-Fonte: SAPS/MS.
+Fonte: SAPS/MS
 
-Alguns exames requerem o registro de dados específicos dos resultados. Estes resultados são utilizados em outras seções do PEC. Um exemplo é o exame de dosagem de hemoglobina glicosilada, onde é possível registrar o resultado em percentil (%), como mostra a pec_imagem abaixo:
-
-Figura 6.38 - Registro de dados específicos de Resultado de Exame
+Alguns exames requerem o registro de dados específicos dos resultados. Estes resultados são utilizados em outras seções do PEC. Um exemplo é o exame de dosagem de hemoglobina glicada, onde é possível registrar o resultado em percentil (%), como mostra a imagem abaixo:
 
 ![](media/pec_image413.png)
 
