@@ -1,17 +1,17 @@
 ---
 layout: default
-title: Registro da Atividade Coletiva
-parent: e-SUS Atividade Coletiva v1.3
+title: Relatórios
+parent: Gestão e-SUS APS v1.0
 nav_order: 3
 has_children: false
-last_modified_date: "01/02/2021"
+last_modified_date: "03/08/2021"
 has_toc: true
 ---
 
-# Capítulo 3 - Registro da Atividade Coletiva
+# Capítulo 3 - Relatórios
 {: .no_toc }
 
-Neste capítulo será demonstrado como realizar o registro das atividade coletivas desenvolvidas na atenção básica no aplicativo e-SUS Atividade Coletiva.
+Neste capítulo será demonstrado como gerar os relatórios de produção da Atenção Primária à Saúde (APS) no aplicativo **Gestão e-SUS APS** no formato analítico ou de série histórica. 
 
 ## Sumário
 {: .no_toc .text-delta }
@@ -19,302 +19,266 @@ Neste capítulo será demonstrado como realizar o registro das atividade coletiv
 - TOC
 {:toc}
 
-## 3.1 Organização dos registros de Atividade Coletiva
+## 3.1 Resumo de Produção
 
-Após a tela de login do aplicativo é mostrado o ambiente principal com as abas "Grupos" e "Atividades Coletivas".
+Após a tela de escolha de acesso [Figura 2.3.2](![](media/image5.png)) é apresentada a tela principal com os recursos "**(1) Filtro**", "**(2) Analítico**", "**(3) Série histórica**", "**(4) ambiente onde os dados serão apresentados os cards de relatórios**, "**(5) Relatórios**" e "**(6) Perfil**".
 
-### 3.1.1 Criar Grupos de Atividade Coletiva
+Figura 3.1.1 - Tela de Resumo de Produção com os principais recursos
 
-Os grupos funcionam para os casos de atividades que são realizadas de forma mais frequente com um conjunto específico de cidadãos. Esta funcionalidade foi elaborada para facilitar para os profissionais a identificação destes agrupamentos, seu gerenciamento e registro das atividades.
+![](media/image8.png)
 
-Figura 3.1. Tela de Grupos e/ou Atividades Coletivas do e-SUS Atividade Coletiva
-
-![](media/image25.png)
-
-Fonte: SAS/MS
-
-Para criar um grupo é necessário tocar no botão ![](media image26.png) e selecionar a opção "Novo Grupo".
-
-Figura 3.2. Tela de Grupos e/ou Atividades Coletivas do e-SUS Atividade Coletiva
-
-![](media/image27.png)
-
-Fonte: SAS/MS
-
-Na sequência é possível dar um nome ao grupo, escolher a cor do ícone, editar suas iniciais, selecionar o CNES do estabelecimento onde o grupo faz parte e definir se é uma atividade de saúde ou de reunião.
-
-Figura 3.3. Cadastrar Grupo
-
-![](media/image28.png)
-
-Fonte: SAS/MS
-
-Após esta etapa é possível apenas salvar o grupo ou salvar o grupo e iniciar um registro de atividade coletiva para este grupo.
-
-Figura 3.4. Cadastrar Grupo
-
-![](media/image29.png)
-
-Fonte: SAS/MS
-
-Após salvar o grupo, o mesmo ficará disponível na aba Grupos para ser reutilizado quando for necessário. Ao passo que forem sendo criados, os grupos permanecerão nesta aba.
-
-Figura 3.5. Tela dos Grupos do aplicativo e-SUS Atividade Coletiva
-
-![](media/image30.png)
-
-Fonte: SAS/MS
-
-Cada cartão de grupo disponibiliza opções ![](media/image31.png) possibilitando editar ou remover o grupo. Tocando no cartão do grupo o aplicativo abre a tela com a listagem de atividades realizadas e apresenta o botão ![](media/image26.png), pelo qual pode ser registrada uma nova atividade para aquele grupo.
-
-Figura 3.6. Tela de Grupos do aplicativo e-SUS Atividade Coletiva
-
-![](media/image32.png)
-
-Fonte: SAS/MS
+Fonte: SAPS/MS
 
 {: .nota  }
-Grupos que já foram sincronizados não podem ser removidos.
+Por padrão a tela inicial apresenta a aba dos relatórios analíticos com dados referentes aos últimos 7 dias. 
 
-### 3.1.2 Atividades Coletivas
+### 3.1.1 Gerar Relatório
 
-Na aba "Atividades Coletivas" são apresentadas outras duas abas, uma com os registros não finalizados e outra com as atividades finalizadas. As atividades não finalizadas são aquelas em que por algum motivo não foram totalmente preenchidas, podendo ser complementadas posteriormente.
+O aplicativo gera relatórios tanto analíticos quanto de séries históricas referentes ao Atendimento individual, Atendimento odontológico, Atendimento domiciliar, Vacinação, Procedimentos individualizados e Atividade coletiva produzidos nos serviços de atenção primária. 
 
-Figura 3.7. Tela Atividades Coletivas do aplicativo e-SUS Atividade Coletiva
+{: .atencao  }
+Todos os dados dos relatóros citados acima são apresentados no aplicativo provenientes do sistema e-SUS APS com PEC configurado na URL do login inicial.
+
+A funcionalidade "filtrar" ![](media/image7.png) aplica filtros aos relatórios exibidos, compatíveis com os mesmos filtros utilizados nos relatórios do sistema e-SUS APS com PEC.
+
+Esta funcionalidade apresenta filtros de **Período**, **Unidade**, **Equipe**, **Categoria profissional**, **Sexo** e **Faixa etária**.  
+
+* **Período**: Consiste em períodos pré-definidos - *Últimos 7 dias*; *Semana Passada*; *Últimos 30 dias* ou *Última competência*. 
+* **Unidade**: Seleciona a Unidade de Saúde que queira visualizar o relatório.
+* **Equipe**: Seleciona as equipes pertencentes à Unidade de Saúde escolhida.
+* **Categoria profissional**: Seleciona a categoria profissional que atua na Unidade/Equipe escolhida.
+* **Sexo**: Consiste em sexo biológico - *Feminino*; *Masculino* e *Não informado*. 
+* **Faixa etária**: Consiste em faixa etária pré estabelecida - **Criança**: *0 a 09 anos*; **Adolescente**: *10 a 189 anos*; **Adulto**: *20 a 59 anos* e **Idoso**: *60 anos ou mais*.
+
+{: .nota  }
+Os filtros para escolha de Unidade ou Equipe variam de acordo com o perfil de acesso do usuário do aplicativo
+
+{: .nota  }
+Na tela inicial somente os filtros **Período**, **Unidade** e **Equipe** são visualizados. Para aplicar os demais filtros clique em um dos cards de relatórios para selecionar os filtros **Categoria profissional**, **Sexo** e **Faixa etária**.
+
+Após escolhida as varíaveis clique em "Filtrar". Caso queira refazer a busca, clique em "**Limpar filtros**". 
+
+Figura 3.1.1.1 - Tela inicial com a funcionalidade Filtrar.
+
+![](media/image9.png)
+
+Fonte: SAPS/MS
+
+Figura 3.1.1.2 - Tela Produção com os filtros Categoria Profissional, Sexo e Faixa etária
 
 ![](media/image33.png)
 
-Fonte: SAS/MS
-
-A aba "Atividades Finalizadas" apresenta a lista de atividades que tiveram seu registro concluído e que estão prontas para sincronização ou já foram sincronizadas com o PEC.
-
-Figura 3.8. Tela Atividades Coletivas do aplicativo e-SUS Atividade Coletiva
-
-![](media/image34.png)
-
-Fonte: SAS/MS
-
-{: .atencao }
-As atividades que ainda não foram sincronizadas apresentam o símbolo ![](media/image34.png). Sincronize sempre que possível.
-
-Atividades coletivas que ainda não foram sincronizadas podem ser "Excluídas" ou "Editadas". A opção "Copiar" fica disponível sempre para todas as atividades.
-
-Figura 3.9. Tela Atividades Coletivas do aplicativo e-SUS Atividade Coletiva
-
-![](media/image35.png)
-
-Fonte: SAS/MS
+Fonte: SAPS/MS
 
 {: .nota  }
-Após a sincronização é possível apenas copiar a atividade para realizar um novo registro.
+Para verificar os relatórios gerados a partir dos campos selecionados no "filtro", o recurso "Relatórios" no rodapé da tela de resumo de produção deve estar selecionado. A partir disso, basta selecionar a aba "Analítico" para os relatórios analíticos ou selecione a aba "Série histórica" para os relatórios de série histórica.
 
-### 3.1.3. Copiar Atividade Coletiva
+## 3.2 Relatório Analítico
 
-Ainda na aba "Atividades Finalizadas" ao clicar na opção ![](media/image31.png), conforme visto nas figuras 3.8 e 3.9, é possível "Copiar" a atividade coletiva já registrada no aplicativo. Ao acionar essa opção aparece a caixa de diálogo abaixo, a partir daí, pode escolher apenas os dados que queira copiar da atividade selecionada.
+Figura 3.2.1 - Tela Resumo de produção (Relatório Analítico)
 
-Figura 3.10. Caixa de diálogo Copiar atividade
+![](media/image10.png)
 
-![](media/image36.png)
+Fonte: SAPS/MS
 
-Fonte: SAS/MS
-
-Por padrão, todos os itens já vem selecionados. Ao permanecer selecionado o item "Dados da atividade" serão copiadas as informações referentes ao cabeçalho, tipo, tema, público e práticas. Ao permanecer selecionado o item "Participantes" serão copiados os dados referentes ao CNS, nome, sexo e data de nascimento dos participantes da atividade copiada. E por fim, ao permanecer selecionada o item "Profissionais" as informações sobre CNS, nome e CBO dos profissionais que participaram da atividade copiada serão replicadas.
-
-## 3.2 Adicionar atividade coletiva
-
-Para adicionar uma nova atividade coletiva, clique no botão ![](media/image26.png). Esta opção é apresentada em diversos locais no aplicativo, como nas abas "Grupos" e "Atividades Coletivas", além dos cartões dos grupos já formados. Caso a atividade seja criada dentro de um grupo, a mesma já virá com os dados característicos daquele grupo preenchidos, como o nome do grupo e o tipo de atividade, saúde ou reunião. Para registrar atividades coletivas sem grupo específico, será solicitado a escolha entre "nova atividade em saúde" ou "nova atividade de reunião".
-
-![](media/image27.png)
-
-### 3.2.1 Nova Atividade em Saúde
-
-Ao clicar em "Nova Atividade em Saúde" inicia-se o registro da atividade coletiva. O processo de registro é dividido em etapas, iniciando pelo Cabeçalho até a Finalização.
-
-No **Cabeçalho** são solicitados o Grupo (se houver), data da atividade, número de participantes, turno, local da atividade (neste caso quando é uma UBS é solicitado o número CNES, se for escola/creche é solicitado o número INEP e caso seja outro local, descrever qual localidade) e se é uma atividade do Programa Saúde na Escola.
-
-Figura 3.11. Tela Nova Atividade Coletiva em Saúde
-
-![](media/image37.png)
-
-Fonte: SAS/MS
-
-A lista de **Profissionais** consiste em incluir os executores da atividade, destacando o responsável pela atividade. Ao clicar no botão ![](media/image26.png), é apresentada uma tela de pesquisa, na qual é possível realizar a busca pelos profissionais existentes no Cadastro Nacional de Estabelecimentos de Saúde (CNES) do município.
-
-Figura 3.12. Tela Nova Atividade Coletiva em Saúde
-
-![](media/image38.png)
-
-![](media/image39.png)
-
-Fonte: SAS/MS
-
-Caso o profissional tenha mais de uma lotação, será possível selecionar a partir de uma lista carregada previamente do PEC. Para adicionar o profissional selecionado na lista de Profissionais da atividade, deve-se clicar em ![](media/image40.png).
-
-Figura 3.12. Tela Adicionar profissional
-
-![](media/image41.png)
-
-Fonte: SAS/MS
-
-O **Tipo** de atividade, como no registro realizado na Coleta de Dados Simplificada (CDS), determina o funcionamento posterior do aplicativo a partir da escolha da atividade. Dito isto, as próximas etapas poderão mostrar apenas as opções condizentes com o tipo de atividade selecionada.
-
-Figura 3.13. Tela Nova Atividade Coletiva em Saúde
-
-![](media/image42.png)
-
-Fonte: SAS/MS
+Na aba **ANALÍTICO** aparecerão os cards com os relatórios de produção do Atendimento Individual, Atendimento Odontológico, Atendimento domiciliar, Vacinação, Procedimentos individualizados e Atividade Coletiva, conforme a figura acima.
 
 {: .nota  }
-Somente uma opção pode ser selecionada em "Tipo de Atividade"..
+O card de relatórios apresentará o total absoluto das ações de saúde para o período selecionado no filtro e uma tag ![](media/image25.png) de comparação do valor absoluto com o do período imediateamente anterior.
 
-No **Público-alvo** o profissional deverá selecionar para que tipo de público está sendo realizada a atividade. Esta etapa é obrigatória e permite a seleção de uma ou mais opções.
+Figura 3.2.2 - Card de Relatório de Atendimento Individual
 
-Figura 3.14. Tela Nova Atividade Coletiva em Saúde
+![](media/image11.png)
 
-![](media/image43.png)
+Fonte: SAPS/MS
 
-Fonte: SAS/MS
+Ao clicar em um dos cards de Relatórios serão apresentados mais dados:
 
-O **Tema** apresenta a lista de temáticas em saúde que foram abordados na atividade coletiva realizada. É de preenchimento obrigatório permitindo a seleção de um ou mais temas.
+Figura 3.2.3 - Tela Relatório de Atendimento individual (Produção)
 
-Figura 3.15. Tela Nova Atividade Coletiva em Saúde
+![](media/image12.png)
 
-![](media/image44.png)
+Fonte: SAPS/MS
 
-Fonte: SAS/MS
+{: .nota  }
+Ao clicar no símbolo ![](media/image26.png) o card expandirá apresentando demais informações, clicando no símbolo ![](media/image27.png) o card apresentará somente as informações que possuam dados a serem apresentados
 
-Quando a atividade coletiva for do "Tipo" "05 - Atendimento em Grupo" ou "06 - Avaliação / Procedimento coletivo" a aba "**Práticas em Saúde**" fica visível no aplicativo e a seleção das práticas é obrigatória.
+Figura 3.2.4 - Tela sobre a População do Relatório de Atendimento Individual
 
-Figura 3.16. Tela Nova Atividade Coletiva em Saúde
+![](media/image13.png)
 
-![](media/image45.png)
+Fonte: SAPS/MS
 
-![](media/image46.png)
+Figura 3.2.5 - Tela sobre Condições do Relatório de Atendimento Individual
 
-Fonte: SAS/MS
+![](media/image14.png)
 
-Além da lista de práticas mostrada anteriormente é possível incluir práticas não listadas através da opção "Outro procedimento coletivo". Selecionando esta opção será mostrado a lista de práticas disponíveis e seu código SIGTAP.
+Fonte: SAPS/MS
 
-Figura 3.17. Tela adicionar procedimento em Nova Atividade Coletiva em Saúde
+Figura 3.2.6 - Tela sobre Exames do Relatório de Atendimento Individual
 
-![](media/image47.png)
+![](media/image15.png)
 
-Fonte: SAS/MS
+Fonte: SAPS/MS
 
-Em **Participantes** o profissional irá incluir os cidadãos que participaram da atividade coletiva. Neste momento é possível incluir os cidadãos tocando no botão ![](media/image26.png). Serão listados os cidadãos cadastrados no território da UBS, recebidos na sincronização com o PEC local previamente realizada.
+### 3.2.1 - Detalhamento do Relatório Analítico: Atendimento Individual
 
-Figura 3.18. Tela Nova Atividade Coletiva em Saúde
+Ao acessar o card de relatório do atendimento individual o gestor observará (4) quatro blocos com seus respectivos dados:
 
-![](media/image48.png)
+I) **PRODUÇÃO**
+            
+            - *Resumo de produção* (Registros identificados e Registros não identificados)
+            - *Local de Atendimento* (UBS, Domicílio, Escola/Creche, Instituição/Abrigo, Polo/Academia da saúde, Rua, Unidade móvel, Unidade prisional/congênere, Unidade sócioeducativa e Outros)
+            - *Turno* (Manhã, Tarde, Noite e Não informado)
+            - *Tipo de Atendimento* (Consulta no dia, Escuta inicial, Atendimento de urgência, Consulta agendada, Cuidado continuado e Não informado).
 
-![](media/image49.png)
+II) **POPULAÇÃO**
 
-Fonte: SAS/MS
+            - *Sexo* (Masculino, Feminino e Não informado)
+            - *Faixa etária* (Criança de 0 a 09 anos, Adolescente de 10 a 19 anos, Adultos de 20 a 59 anos e Idoso de 60 anos ou mais)
 
-Caso o cidadão não seja encontrado é possível incluir seus dados diretamente no aplicativo tocando o botão ![](media/image26.png) na lista de cidadãos. Após esta ação o aplicativo solicita que alguns campos sejam preenchidos como nome, sexo, data de nascimento e número de CNS se houver.
+III) **CONDIÇÕES**
 
-Figura 3.19. Adicionar novo participante em Nova Atividade Coletiva em Saúde
+            - *Problemas/Condições avaliadas* (Asma, Desnutrição, Diabetes, DPOC, Hipertensão Arterial, Obesidade, Pré-Natal, Puericultura, Puerpério, Reabilitação, Saúde Mental, Saúde Sexual/Reprodutiva, Tabagismo, Usuário de outras drogas e Usuário de álcool)
+            - *Problmeas/Condições avalidas - Outros CID10*
+            - *Problemas/Condições avalidas - Outros CIAP2*
+            - *Problemas/Condições avaliadas - Doenças Transmissíveis
 
-![](media/image50.png)
+IV) **EXAMES**
 
-Fonte: SAS/MS
+            - *Exames solicitados e avaliados*
+            - *Exames - Triagem neonatal*
+            - *Outros exames solicitados e avaliados (código do SIGTAP) 
 
-Após incluir um cidadão é necessário salvar o registro e depois tocar em Salvar no canto superior direito do aplicativo para salvar a lista de cidadãos participantes da atividade.
+### 3.2.2 - Detalhamento do Relatório Analítico: Atendimento Odontológico
 
-Com a lista de cidadãos salva, será possível marcar aqueles cidadãos que estiveram presentes na atividade. Caso seja um grupo de participação fixa é possível reutilizar a lista de participantes, sendo necessário apenas atribuir a presença dos que compareceram na atividade.
+Ao acessar o card de relatório do atendimento odontológico o gestor observará (3) três blocos com seus respectivos dados:
 
-Figura 3.20. Tela Nova Atividade Coletiva em Saúde
+I) **PRODUÇÃO** 
 
-![](media/image51.png)
+            - Os mesmos itens apresentados no relatório de Atendimento Individual
 
-Fonte: SAS/MS
+II) **PROCEDIMENTOS**
+            - *Procedimentos* (Aplicação de cariostático - por dente, Aplicação de selante - por dente, Selamento provisório de cavidade dentária, Acesso à polpa dentária e medicação - por dente, Adaptação de prótese dentária, Aplicação tópica de flúor - individual por sessão, Capeamento pulpar, Cimentação de prótese dentária, Curativo de demora com ou sem preparo biomecânico, Drenagem de abscesso, Evidenciação de placa bacteriana, Exodontia de dente decíduo, Exodontia de dente permanente, Instalação de prótese dentária, Moldagem dentogengival para construção de prótese dentária, Orientação de higiene bucal, Profilaxia/Remoção de placa bacteriana, Pulpotomia dentária, Raspagem alisamento e polimento supragengivais - por sextante, Raspagem alisamento subgengivais - por sextante, Restauração de dente permanente anterior, Retirada de pontos de cirurgias básicas - por paciente, tratamento de alveolite e Ulotomia/Ulectomia)
+            - *Outros procedimentos (SIGTAP)
+        
+III) **POPULAÇÃO**
 
-Caso se trate de uma atividade do tipo "05- Atendimento em Grupo" ou "06- Avaliação / Procedimento coletivo", será possível incluir informações específicas da prática realizada.
+            - Os mesmos itens apresentadaos no relatório de Atendimento Individual
 
-Figura 3.21. Tela Nova Atividade Coletiva em Saúde
+### 3.2.3 - Detalhamento do Relatório Analítico: Atendimento Domiciliar
 
-![](media/image52.png)
+Ao acessar o card de relatório do atendimento domiciliar o gestor observará (2) dois blocos com seus respectivos dados:
 
-![](media/image53.png)
+I) **PRODUÇÃO**
 
-Fonte: SAS/MS
+            - Os mesmos itens apresentados no relatório de Atendimento Individual.
+            - No *Local de atendimento* está incluída, além das que já são apresentadas nos demais relatórios, as variáveis CACON/UNACON, Hospital e Unidade de Pronto Atendimento.
+            - *Tipo de Atendimento* (Atendimento programado, atendimento não programado e visita domiciliar pós-óbito)
 
-A última etapa do preenchimento é a **Finalização** do registro em que o profissional revisa as informações inseridas e salva as informações da atividade coletiva realizada.
+II) **POPULAÇÃO** 
 
-Figura 3.22. Tela Nova Atividade Coletiva em Saúde
+            - Os mesmos itens apresentados no relatório de Atendimento Individual
 
-![](media/image54.png)
+{: .nota  }
+O relatório de atendimento domiciliar é referente aos atendimentos prestados pelas equipes de Atenção Domiciliar e não pelas equipes de atenção primária. 
 
-![](media/image55.png)
+### 3.2.4 - Detalhamento do Relatório Analítico: Vacinação
 
-Fonte: SAS/MS
+Ao acessar o card de relatório de vacinação o gestor observará (2) dois blocos com seus respectivos dados:
 
-Caso haja algum campo obrigatório que não foi preenchido o aplicativo indicará quais são as inconsistências do registro como é mostrado abaixo:
+I) **PRODUÇÃO**
 
-Figura 3.23. Tela com as inconsistências na Atividade
+            - Os mesmos itens apresentados no relatório de Atendimento Individual
 
-![](media/image56.png)
+II) **POPULAÇÃO**
 
-Fonte: SAS/MS
+            - Os mesmos itens apresentados no relatório de Atendimento Individual
 
-Tocando na opção "Ver inconsistências" o aplicativo mostra em detalhes onde estão a inconsistência.
+### 3.2.5 - Detalhamento do Relatório Analítico: Procedimentos Individualizados
 
-Figura 3.24. Tela com as inconsistências na atividade
+Ao acessar o card de relatório dos procedimentos individualizados o gestor observará (3) três blocos com seus respectivos dados:
 
-![](media/image57.png)
+I) **PRODUÇÃO**
 
-Fonte: SAS/MS
+            - Os mesmos itens apresentados no relatório de Atendimento Individual
 
-### 3.2.2 Nova Atividade de Reunião
+II) **PROCEDIMENTOS**
 
-Nesta seção será abordado como incluir uma nova atividade de reunião no aplicativo de Atividade Coletiva. Assim como na inserção de uma nova atividade coletiva em saúde, o registro de uma atividade de reunião é dividido em etapas, começando pelo Cabeçalho até a Finalização.
+            - *Outros procedimentos* (SIGTAP)
+            - *Procedimentos/Pequenas cirurgias* (Administração de Vitamina A, Acupuntura com inserção de agulhas, Cateterismo vesical de alívio, Cauterização química de pequenas lesões, Cirurgia de unha/cantoplastia, Coleta de citopatológico de colo uterino, cuidado de estomas, Curativo especial, Drenagem de abscesso, Eletrocardiograma, Exame de fundo de olho/Fundoscopia, Exame do pé diabético, Exérese/Biopsia/Punção de tumores superficiais de pele, Infiltração em cavidade sinovial, Remoção de corpo estranho da cavidade auditiva e nasal, Remoção de corpo estranho da cavidade auditiva e nasal, Remoção de corpo estranho subcutâneo, Retirada de cerume, Retirada de pontos de cirurgias básicas - por paciente, Sutura simples, Tamponamento de epistaxe, Teste do olhinho (TRV) e Triagem oftalmológica)
+            - *Procedimentos - Teste rápido* (Gravidez, Dosagem de proteína, para HIV, hepatite C e sífilis)
+            - *Procedimentos - Administração de medicamentos* (Via: Oral, Intramuscular, Endovenosa, Inalação/Nebulização, Tópica, Subcutânea, além de informação de Penicilina para tratamento de sífilis)
 
-No **Cabeçalho** são solicitados o Grupo (se houver), data em que ocorreu a atividade, número de participantes, que deve possuir no mínimo 01 (um), turno, local da atividade, quando é uma UBS é solicitado o número CNES, quando é uma escola/creche é solicitado o número INEP e por fim, quando é outro local descreva qual é a localidade, esses campos são obrigatórios. Se for uma atividade de reunião relacionada ao Programa Saúde na Escola selecione as opções "Educação" e/ou "Saúde" .
+III) **POPULAÇÃO**
 
-![](media/image58.png)
+            - Os mesmos itens no relatório de Atendimento Individual
 
-Figura 3.25. Tela Nova Atividade de Reunião
+### 3.2.5 - Detalhamento do Relatório Analítico: Atividade Coletiva
 
-![](media/image59.png)
+Ao acessar o card de relatório das atividades coletivas o gestor observará (3) três blocos com seus respectivos dados:
 
-Fonte: SAS/MS
+I) **PRODUÇÃO**
 
-A seguir selecione os profissionais que participarão da reunião, para isso, basta selecionar os "Profissionais" na lista, conforme figura abaixo. Caso um dos participantes não estejam previamente na lista é possível adicionar clicando no botão ![](media/image60.png).
+            - *Resumo de produção* (Total de registros)
 
-Figura 3.26. Tela Nova Atividade de Reunião
+II) **POPULAÇÃO**
 
-![](media/image61.png)
+            - *Público-alvo* (Criança 0 a 3 anos, Criança 4 a 5 anos, Criança 6 a 11 anos, Adolescente, Mulher, Gestante, Homem, Idoso, Familiares, Comunidade em geral, Pessoas com doenças crônicas, Usuário de tabaco, Usuário de álcool, Usuário de outras drogas, Pessoas com sofrimento ou transtorno mental, Profissional de educação, Outros e Não informado)
 
-Fonte: SAS/MS
+III) **DETALHAMENTO**
 
-Quando o profissional não é selecionado o seu status fica como "ausente" ![](media/image62.png), ao selecioná-lo muda para a opção de "Responsável" ![](media/image63.png). Os profissionais selecionados serão os participantes da atividade de reunião. Cabe lembrar que é possível selecionar apenas 01 (um) responsável pela atividade, quando escolhido o responsável os demais profissionais da lista terá esta opção desabilitada.
+            - *Programa Saúde na Escola* (Educação e Saúde)
+            - *Temas para saúde* (Autocuidado de pessoas com doenças crônicas, Envelhecimento - climatério, andropausa, etc, Ações de combate ao Aedes aegypti, Agravos negligenciados, Alimentação saudável, Cidadania e direitos humanos, Dependência química - tabaco, álcool e outras drogas, Plantas medicinais/Fitoterapia, Prevenção da violência e promoção da cultura da paz, Saúde ambiental, Saúde bucal, Saúde do trabalhador, Saúde mental, Saúde sexual e reprodutiva, Semana saúde na escola, Outros e Não informado)
+            - *Atividade* (Reunião de equipe, Atendimento em grupo, Avaliação/Procedimento coletivo, Reunião com outras equipes de saúde, Reunião intersetorial/Conselho local de saúde/Controle social, Educação em saúde, Mobilização social e Não informado)
+            - *Temas para reunião* (Questões administrativas/Funcionamento, Processo de trabalho, Diagnóstico do território/Monitoramento das ações da equipe, Discussão de caso/Projeto terapêutico singular, Educação Permanente e Outros)
 
-![](media/image64.png)
+{: .nota  }
+Para maiores informações sobre as variávies constantes nos relatórios analíticos leia o [Manual de Uso do Sistema de Coleta de Dados Simplificada](https://cgiap-saps.github.io/Manual-eSUS-APS/docs/CDS)
 
-O próximo passo é selecionar o "Tipo" de Atividade. Na tela aparecerá como tipo de atividade a "Reunião de equipe", "Reunião com outras equipes de saúde" e "Reunião intersetorial/Conselho local de saúde/Controle Social". Somente é possível selecionar uma dessas atividades.
+## 3.3 Relatório Série Histórica
 
-Figura 3.27. Tela Nova Atividade de Reunião
+Por meio da Tela inicial é possível acessar a aba "*Série Histórica*", na qual serão apresentados os dados quantitativos dos últimos 6 meses referente aos relatórios que queira visualizar. Da mesma forma que o relatório analítico, o da série histórica é composto pelos relatórios de Atendimento individual, Atendimento Odontológico, Atendimento domiciliar, Vacinação, Procedimentos individualizados e Atividade Coletiva.
 
-![](media/image65.png)
+Figura 3.3.1 - Tela Resumo de Produção (Série Histórica)
 
-Fonte: SAS/MS
+![](media/image23.png)
 
-Seguindo o registro da atividade coletiva a próxima etapa se configura em selecionar o "Tema" para a reunião. Na tela será exibida os temas referentes a "Questões administrativas Funcionamento", "Processo de trabalho", "Diagnóstico do território/Monitoramento do território", "Planejamento/Monitoramento das ações da equipe", "Discussão de caso/Projeto terapêutico singular", "Educação Permanente" e "Outros". Diferente da aba "Tipo", é possível selecionar mais de um tema.
+Fonte: SAPS/MS
 
-Figura 3.28. Tela Nova Atividade de Reunião
+Na série histórica o perído no filtro ![](media/image7.png) já vem por padrão os últimos 6 meses, os demais campos variam de acordo com o perfil de acesso do usuário. Dessa forma, para o coordenador de UBS apenas o campo "equipe" é selecionável, já para o gestor municipal é possível selecionar o campo "unidade".  
 
-![](media/image66.png)
+Figura 3.3.2 - Tela Filtrar (Perfil coordenador de UBS)
 
-Fonte: SAS/MS
+![](media/image24.png)
 
-Por fim, a última etapa será revisar o que foi registrado na seção "Finalização". Ao confirmar os dados clique no botão "Finalizar".
+Fonte: SAPS/MS
 
-Figura 3.28. Tela Nova Atividade de Reunião
+### 3.3.1 Detalhamento do Relatório da Série Histórica
 
-Fonte: SAS/MS
+Na tela inicial todos os cards apresentam o total absoluto da produção para cada tipo de relatório de acordo com o período. 
 
-![](media/image67.png)
+Figura 3.3.1.1 - Cards com os relatórios 
 
-![](media/image68.png)
+![](media/image28.png)
 
-Caso algum campo obrigatório não tenha sido preenchido o aplicativo apresentará o mesmo comportamento referido para o registro da atividade coletiva no capítulo 3.2.1 ao apontar as inconsistências para as devidas correções.
+Fonte: SAPS/MS
+
+{: .nota  }
+A tag ![](media/image29.png) no card de Atendimento individual, por exemplo, significa a quantidade de atendimentos feitos no último mês do período em análise. 
+
+Ao clicar no card de relatório de sua escolha aparecerá o gráfico de linha, na qual exibe informações ordenadas pela quantidade de produção de acordo com o período cronológico de tempo, mostrando a evolução da produção por unidade básica de saúde e/ou equipes a depender do perfil de acesso do usuário. 
+
+Figura 3.3.1.2 - Gráfico Atendimento individual (Série Histórica)
+
+![](media/image21.png)
+
+Fonte SAPS/MS
+
+Ainda para visualizar os dados no formato de tabela clique na imagem ![](media/image32.png) para voltar a visualizar no formato de gráfico de linha clique na imagem ![](media/image31.png).
+
+Figura 3.3.2 - Tabela do relatório série histórica
+
+![](media/image30.png)
+
+Fonte: SAPS/MS
