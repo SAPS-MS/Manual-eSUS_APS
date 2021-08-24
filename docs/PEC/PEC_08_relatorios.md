@@ -12,7 +12,7 @@ last_modified_date: "12/03/2021"
 # CAPÍTULO 8 - Relatórios
 {: .no_toc }
 
-O módulo "Relatórios" permite que trabalhadores e gestores possam visualizar, de forma sintetizada e sistematizada, as ações de saúde realizadas no território. São vários tipos de relatórios, divididos em consolidados, produção e operacionais, e são utilizados por diferentes tipos de atores.
+O módulo "Relatórios" permite que trabalhadores e gestores possam visualizar, de forma sintetizada e sistematizada, as ações de saúde realizadas no território. São vários tipos de relatórios divididos em gerenciais, consolidados, operacionais e produção, e são utilizados por diferentes tipos de atores.
 
 ## Sumário
 {: .no_toc .text-delta }
@@ -22,9 +22,9 @@ O módulo "Relatórios" permite que trabalhadores e gestores possam visualizar, 
 
 ![](media/pec_image747.png)
 
-O acompanhamento das ações de saúde que são realizadas no território é uma tarefa extremamente importante do cotidiano das equipes de Atenção Primária à Saúde. Esta atividade, além de auxiliar os trabalhadores a enxergar seu território, exprime o resultado do seu esforço, podendo ser potente ferramenta de reflexão e transformação do seu processo de trabalho.
+O acompanhamento das ações de saúde que são realizadas no território é uma tarefa extremamente importante no cotidiano das equipes de Atenção Primária à Saúde. Esta atividade, além de auxiliar os trabalhadores a enxergar seu território, exprime o resultado do seu esforço, podendo ser potente ferramenta de reflexão e transformação do seu processo de trabalho.
 
-Nesta versão os relatórios são exibidos na barra lateral de navegação, oferecendo um caminho mais simples e rápido para cada relatório (Figura 8.1). Clicando na opção "Relatórios" o sistema apresenta a lista com todos os disponíveis, dependendo do tipo de acesso que o profissional ou gestor tenha. Caso haja dúvida em relação ao relatório, é possível acionar um balão de ajuda representado pelo símbolo ![](media/pec_image748.png) no canto superior direito de cada tela dos relatórios.
+Nesta versão os relatórios são exibidos na barra lateral de navegação, oferecendo um caminho mais simples e rápido para cada relatório (Figura 8.1). Clicando na opção "Relatórios" o sistema apresenta a lista com todos os disponíveis, dependendo do tipo de acesso que o profissional ou gestor possui. Caso haja dúvida em relação ao relatório, é possível acionar um balão de ajuda representado pelo símbolo ![](media/pec_image748.png) no canto superior direito de cada tela dos relatórios.
 
 Figura 8.1 - Tela do Relatórios exibida com o perfil de profissional da equipe de AB
 ![](media/pec_image749.png)
@@ -34,13 +34,13 @@ Fonte: SAPS/MS.
 
 ![](media/pec_image750.png)
 
-As opções de administração e configuração estão disponíveis APENAS para os perfis de administração da instalação. Para evitar o processamento desnecessário dos relatórios apenas o administrador da instalação, devidamente instruído, poderá utilizá-la.
+As opções de administração e configuração estão disponíveis APENAS para os perfis de administrador da instalação. Para evitar o processamento desnecessário dos relatórios apenas o administrador da instalação, devidamente instruído, poderá utilizá-la.
 
 ## 8.1.1 Processamento
 
 ![](media/pec_image751.png)
 
-O processamento dos relatórios é um processo diário e incremental iniciado a meia- noite (0h) do próximo dia, a partir dos itens registrados ou enviados por meio do sistema. Este processo é ativado sempre que o usuário clica em Gerar/Transmitir os dados para envio ao SISAB, ver Seção 3.6.3.2.
+O processamento dos relatórios é um processo diário e incremental automático iniciado a meia-noite (0h), a partir dos itens registrados ou enviados por meio do sistema. Este processo é pode ser ativado manualmente sempre que o usuário clica em Gerar/Transmitir os dados para envio ao SISAB, ver Seção 3.6.3.2.
 
 Nesta funcionalidade, conforme podemos ver na Figura 8.2, é possível Marcar para reprocessamento ![](media/pec_image752.png) ou forçar o processamento ![](media/pec_image753.png) dos dados dos relatórios do sistema. A primeira funcionalidade permite que os dados dos relatórios, mesmo os dados que já foram processados, sejam reprocessados junto ao fluxo automático do sistema. A segunda funcionalidade força o processamento a ser executado de imediato.
 
@@ -69,9 +69,11 @@ Após finalizar a configuração clique em Salvar ![](media/pec_image757.png) pa
 # 8.2 Nível de Agregação das Informações
 
 
-O Sistema e-SUS APS, como sistema de gerenciamento de dados e informações da Atenção Básica, traz grande avanço no que diz respeito à segurança, sigilo e confidencialidade dos dados de saúde dos cidadãos. Isso quer dizer que apenas os profissionais que participam do atendimento ao cidadão têm acesso aos seus dados de saúde.
+O Sistema e-SUS APS, como sistema de gerenciamento de dados e informações da Atenção Primária, traz grande avanço no que diz respeito à segurança, sigilo e confidencialidade dos dados de saúde dos cidadãos. Isso quer dizer que apenas os profissionais que participam do atendimento ao cidadão têm acesso aos seus dados clínicos de saúde.
 
-Atualmente, os relatórios do e-SUS APS disponibilizam informações agregadas, por meio dos relatórios consolidados e de produção, além dos relatórios operacionais, com informações individualizadas (Figura 8.1). A seguir uma breve explicação sobre os agrupamentos dos relatórios no sistema:
+Atualmente, os relatórios do e-SUS APS disponibilizam informações agregadas, por meio dos relatórios gerenciais, consolidados e de produção, além dos relatórios operacionais, com informações individualizadas e identificadas (Figura 8.1). A seguir uma breve explicação sobre os agrupamentos dos relatórios no sistema:
+
+- **Relatórios gerenciais**: a partir da versão 4.2 do sistema, está disponível um novo grupo de relatórios, Neste grupo, os dados são apresentados em uma tabela dinâmica construída pelo usuário. O usuário pode definir a tabela arrastando os campos disponíveis para linhas e colunas. Também é permitida a exportação destes relatórios para um arquivo no formado .csv.
 
 - **Relatórios consolidados**: são os relatórios que permitem uma visualização da situação cadastral consolidada, de acordo com a data selecionada, permitindo ao usuário ver a informação mais atual até aquele momento. Ver seção 8.3 para mais detalhes sobre os relatórios.
 
@@ -146,7 +148,22 @@ Passo 4. Para filtrar outros itens para compor um mesmo relatório, basta seguir
 
 - Caso queira remover um filtro, basta excluir o item do campo "filtro personalizado", usando o botão "Excluir" ![](media/pec_image777.png).
 
-# 8.3 Relatórios Consolidados
+# 8.3 Relatórios Gerenciais
+
+Figura
+
+A versão 4.2 possui o novo grupo de Relatórios Gerenciais. Neste grupo, os dados são apresentados em uma tabela dinâmica construída pelo usuário. O usuário pode definir a tabela arrastando os campos disponíveis para linhas e colunas. Também é permitida a exportação destes relatórios para um arquivo no formado .csv.
+
+O primeiro relatório disponibilizado é o Relatório de Absenteísmo, o qual apresenta informações quantitativas sobre as faltas dos cidadãos.
+
+## 8.3.1 Relatório de Absenteísmo
+
+Este relatório apresenta a contagem de agendamentos em que o cidadão não compareceu ou não foi atendido na data e horário definidos na agenda. A contagem é realizada utilizando o módulo de agenda do PEC, e são considerados os agendamentos com situação "Não compareceu" e "Não aguardou".
+
+
+Figura
+
+# 8.4 Relatórios Consolidados
 
 Figura 8.8 - Tela do Relatórios consolidados exibida com o perfil de profissional da equipe de AB
 ![](media/pec_image778.png)
