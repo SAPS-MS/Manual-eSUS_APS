@@ -39,11 +39,11 @@ last_modified_date: "24/08/2021"
 
 |LOGRADOURO|LOGRADOURO|LOGRADOURO|LOGRADOURO|
 |--|--|--|--|
-|Acampamento|Corredor|Marina|Rotatória|
-|Acesso|Córrego|Módulo|Rótula|
-|Adro|Descida|Monte|Rua|
-|Aeroporto|Desvio|Morro|Rua de ligação|
-|Alameda|Distrito|Núcleo|Rua de pedestre|
+|Acampamento|Descida|Marina|Rotatória|
+|Acesso|Desvio|Módulo|Rótula|
+|Adro|Distrito|Monte|Rua|
+|Aeroporto|Rodovia|Morro|Rua de ligação|
+|Alameda|Largo|Núcleo|Rua de pedestre|
 |Alto|Elevada|Parada|Servidão|
 |Área|Entrada particular|Paradouro|Setor|
 |Área especial|Entrequadra|Paralela|Sítio|
@@ -70,5 +70,5 @@ last_modified_date: "24/08/2021"
 |Circular|Ladeira|Reta|Vila|
 |Colônia|Lago|Retiro|Zigue-zague|
 |Complexo viário|Lagoa|Retorno|Condomínio|
-|Largo|Rodoanel|Conjunto|Loteamento|
-|Rodovia|
+|Corredor|Rodoanel|Conjunto|Loteamento|
+|Córrego|
