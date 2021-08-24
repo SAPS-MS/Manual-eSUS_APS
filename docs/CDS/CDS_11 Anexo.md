@@ -45,8 +45,8 @@ last_modified_date: "24/08/2021"
 |Aeroporto|Desvio|Morro|Rua de ligação|
 |Alameda|Distrito|Núcleo|Rua de pedestre|
 |Alto|Elevada|Parada|Servidão|
-|Área|Entrada particular|Paradouro|Setor|
-|Área especial|Entrequadra|Paralela|Sítio|
+|Área|Entrada particular|Paradouro|
+|Setor|Área especial|Entrequadra|Paralela|Sítio|
 |Artéria|Escada|Parque|Subida|
 |Atalho|Esplanada|Passagem|Terminal|
 |Avenida|Estação|Passagem subterrânea|Travessa|
@@ -64,10 +64,10 @@ last_modified_date: "24/08/2021"
 |Galeria|Quinta|Via de acesso|Caminho|
 |Granja|Quintas|Via de pedestre|Campo|
 |Habitacional|Ramal|Via elevado|Canal|
-|Ilha|Rampa|Via expressa|Chácara|Jardim
-|Recanto|Viaduto|Chapadão|Jardinete|
-|Residencial|Viela|Circular|Ladeira|
-|Reta|Vila|Colônia|Lago|
-|Retiro|Zigue-zague|Complexo viário|Lagoa|
-|Retorno|Condomínio|Largo|Rodoanel|
-|Conjunto|Loteamento|Rodovia|
+|Ilha|Rampa|Via expressa|Chácara|
+|Jardim|Recanto|Viaduto|Chapadão|
+|Jardinete|Residencial|Viela|Circular|
+|Ladeira|Reta|Vila|Colônia|
+|Lago|Retiro|Zigue-zague|Complexo viário|
+|Lagoa|Retorno|Condomínio|Largo|
+|Rodoanel|Conjunto|Loteamento|Rodovia|
