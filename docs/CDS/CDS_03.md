@@ -224,9 +224,9 @@ Estes campos devem ser utilizados para registrar problemas/condições de saúde
 
 A primeira parte do bloco deve ser preenchida marcando um "X" na opção da linha correspondente ao problema identificado ou condição avaliada. Somente se o problema não estiver descrito na ficha, poderá ser utilizado o campo "**Outros**" para esse registro, podendo registrar: CIAP-2 (Classificação Internacional de Atenção Primária) e CID-10 (Classificação Internacional de Doenças).
 
--   **CIAP-2**: dois campos de código para registrar problemas     identificados usando a Classificação Internacional de Atenção     Primária, versão 2. No Anexo O, pode-se encontrar pequena descrição     da CIAP 2 e como deve ser utilizada para identificar problemas.     Conheça também o [Sumário da CIAP-2](http://www.sbmfc.org.br/wp-content/uploads/media/file/CIAP%202/CIAP%20Brasil_atualizado.pdf).
+-   **CIAP-2**: dois campos de código para registrar problemas identificados usando a Classificação Internacional de Atenção Primária, versão 2. No Anexo O, pode-se encontrar pequena descrição  da CIAP 2 e como deve ser utilizada para identificar problemas. Conheça mais sobre a [CIAP-2](http://www.sbmfc.org.br/wp-content/uploads/media/file/CIAP%202/CIAP%20Brasil_atualizado.pdf) e o [Sumário da CIAP-2](http://189.28.128.100/dab/docs/portaldab/documentos/esus/CIAP2_sumario_correcao_W84.pdf).
 
--   **CID-10**: dois campos que permitem registrar problemas     identificados utilizando a Classificação Internacional de Doenças, versão 10.
+-   **CID-10**: dois campos que permitem registrar problemas identificados utilizando a Classificação Internacional de Doenças, versão 10.
 
 ***Exemplo de registro***
 
