@@ -21,17 +21,29 @@ last_modified_date: "24/08/2021"
 ## Anexo A - FICHAS DE COLETA DE DADOS SIMPLIFICADA
 
 A1 [Cadastro Individual](http://189.28.128.100/dab/docs/portaldab/documentos/esus/ficha_cadastro_individual_v3_2.pdf)
+
 A2 [Cadastro Domiciliar e Territorial](http://189.28.128.100/dab/docs/portaldab/documentos/esus/ficha_cadastro_domiciliar_territorial_v3_2.pdf)
+
 A3 [Ficha de Atendimento Individual](http://189.28.128.100/dab/docs/portaldab/documentos/esus/ficha_atendimento_individual_v3_2.pdf)
+
 A4 [Ficha de Procedimentos](http://189.28.128.100/dab/docs/portaldab/documentos/esus/ficha_procedimentos_v3_2.pdf)
+
 A5 [Ficha de Atendimento Odontológico Individual](http://189.28.128.100/dab/docs/portaldab/documentos/esus/ficha_individual_odontologico_v3_2.pdf)
+
 A6 [Ficha de Atividade Coletiva](http://189.28.128.100/dab/docs/portaldab/documentos/esus/ficha_atividade_coletiva_v3_2.pdf)
+
 A7 [Ficha de Vacinação](http://189.28.128.100/dab/docs/portaldab/documentos/esus/ficha_vacinacao_v3_2.pdf)
+
 A8 [Ficha de Vacinação COVID-19](http://189.28.128.100/dab/docs/portaldab/documentos/esus/ficha_vacinacao_COVID-19.pdf)
+
 A9 [Ficha de Visita Domiciliar e Territorial](http://189.28.128.100/dab/docs/portaldab/documentos/esus/ficha_v_domiciliar_terr_v4_1.pdf)
+
 A10 [Marcadores de Consumo Alimentar](http://189.28.128.100/dab/docs/portaldab/documentos/esus/ficha_marcadores_alimentar_v3_2.pdf)
+
 A11 [Ficha Complementar](http://189.28.128.100/dab/docs/portaldab/documentos/esus/ficha_cadastro_complementar_v3_2.pdf)
+
 A12 [Ficha de Avaliação de Elegibilidade e Admissão](http://189.28.128.100/dab/docs/portaldab/documentos/esus/ficha_avaliacao_elegibilidade_admissao_v3_2.pdf)
+
 A13 [Ficha de Atendimento Domiciliar](http://189.28.128.100/dab/docs/portaldab/documentos/esus/ficha_atendimento_domiciliar_v3_2.pdf)
 
 
@@ -92,7 +104,7 @@ Fonte: DATASUS, 2015
 |24|RN|Rio Grande do Norte|
 |25|PB|Paraíba|
 |26|PE|Pernambuco|
-|27vAL|Alagoas|
+|27|AL|Alagoas|
 |28|SE|Sergipe|
 |29|BA|Bahia|
 |31|MG|Minas Gerais|
