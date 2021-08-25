@@ -72,3 +72,81 @@ last_modified_date: "24/08/2021"
 |Complexo viário|Lagoa|Retorno|Condomínio|
 |Corredor|Rodoanel|Conjunto|Loteamento|
 |Córrego|
+Fonte: DATASUS, 2015
+
+## Anexo C - LISTA DAS UNIDADES DA FEDERAÇÃO
+
+|Código IBGE|Sigla|Nome|
+|--|--|--|
+|11|RO|Rondônia|
+|12|AC|Acre|
+|13|AM|Amazonas|
+|14|RR|Roraima|
+|15|PA|Pará|
+|16|AP|Amapá|
+|17|TO|Tocantins|
+|21|MA|Maranhão|
+|22|PI|Piauí|
+|23|CE|Ceará|
+|24|RN|Rio Grande do Norte|
+|25|PB|Paraíba|
+|26|PE|Pernambuco|
+|27vAL|Alagoas|
+|28|SE|Sergipe|
+|29|BA|Bahia|
+|31|MG|Minas Gerais|
+|32|ES|Espírito Santo|
+|33|RJ|Rio de Janeiro|
+|35|SP|São Paulo|
+|41|PR|Paraná|
+|42|SC|Santa Catarina|
+|43|RS|Rio Grande do Sul|
+|50|MS|Mato Grosso do Sul|
+|51|MT|Mato Grosso|
+|52|GO|Goiás|
+|53|DF|Distrito Federal|
+Fonte: IBGE, 2010a
+
+## Anexo D - LISTA DE POVOS E COMUNIDADES TRADICIONAIS
+
+|Povos e Comunidades Tradicionais|
+|--|
+|Agroextrativistas|
+|Caatingueiros|
+|Caiçaras|
+|Cerrado|
+Ciganos
+Comunidades de fundo e fecho de pasto
+Extrativistas
+Faxinalenses
+Geraizeiros
+Marisqueiros
+Pantaneiros
+Pescadores artesanais
+Pomeranos
+Povos indígenas
+Povos quilombolas
+Quebradeiras de coco babaçu
+Retireiros
+Ribeirinhos
+Seringueiros
+Povos de terreiro / Matriz africana
+Vazanteiros
+Outros
+Acampada
+Andirobeiras
+Apátridas
+Assentada
+Camponeses
+Castanheiras
+Catadores de mangaba
+Isqueiros
+Jangadeiros
+Migrantes
+Morroquianos
+Populações atingidas por barragens
+População circense
+Refugiados
+Trabalhadores rurais assalariados
+Trabalhadores rurais temporários
+Varjeiros
