@@ -581,6 +581,20 @@ Fonte: SAPS/MS
 
 O comportamento do sistema durante o registro da dose aplicada das vacinas COVID-19, assim como o seu aprazamento, seguem o mesmo padrão das vacinas de rotina. Idem para o processo de registro de doses anteriores como mostra a seção 6.3.2.
 
+## 6.3.8 Exclusão de registros de doses aplicadas de vacina
+A opção de exclusão de um registro de dose aplicada de vacina no PEC somente é possível de ser realizada pelo profissional que realizou o registro/atendimento.
+Para realizar a exclusão de um atendimento, o mesmo  já deve estar processado.
+Siga os passos abaixo para realizar a exclusão:
+1. Localize o cidadão através da “Lista de Atendimentos”
+2. Insira o cidadão na lista de atendimentos e clique em “atender”
+3. Acesse o “Histórico” e localize o antedimento em que foi realizado o registro da vacinação de forma equivocada
+4. Acesse o histórico daquele atendimento, clicando no “cartão”
+5. Clique na opção “Excluir atendimento”
+Leia com atenção a confirmação de exclusão, e clique em “Excluir atendimento”
+6. Após a exclusão, deve-se realizar um novo registro, dessa vez é necessário que seja no CDS, com as informações corretas.
+
+OBS: quando esta opção for selecionada, TODAS as informações daquele atendimento serão excluídas, fique atento para todas as informações contidas naquele atendimento.
+
 # 6.4 Atender - Prontuário do Cidadão
 
 Ao clicar na opção ![](media/pec_image376.png) \"Atender\" da lista de atendimentos, o sistema exibirá uma tela com as funcionalidades do PEC (Figura 6.4).
