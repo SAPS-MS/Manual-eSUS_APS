@@ -956,3 +956,31 @@ Para as vacinas contra a COVID-19 estará disponível **exclusivamente** para pr
 Clique no botão ![](media/pec_image740.png) para incluir este imunobiológico na lista de doses aplicadas para este cidadão. Caso haja necessidade de incluir doses de outras vacinas, reinicie o processo selecionando o imunobiológico e preenchendo os demais campos.
 
 Ao terminar de registrar todas as doses aplicadas no cidadão clique no botão ![](media/pec_image672.png). Caso haja alguma inconsistência, o sistema mostrará mensagem na tela indicando os campos que deverão ser corrigidos. Caso não haja nenhuma inconsistência, o sistema salvará os dados, voltará para a tela de adicionar os registros de vacinação e apresentará a mensagem "registro confirmado com sucesso".
+
+### 7.11.2.3 Exclusão ou retificação de registros de vacinas realizados de maneira equivocada
+
+A exclusão ou retificação de um registro de vacinação realizado de maneira equivocada deve ser realizado de preferência pelo profissional que realizou o registro no sistema.
+
+Para realizar a exclusão de uma ficha, a mesma  já deve estar processada.
+
+Siga os passos abaixo para realizar a retificação:
+
+1. Localize a ficha de vacinação que contém o registro realizado de forma equivocada
+
+OBS: é possível buscar o registro pelo CPF ou CNS do cidadão.
+
+2. Clique no menu à esquerda, e selecione a opção “Retificar”
+3. Ao selecionar a opção “Retificar”, clique na opção “Excluir Ficha e Iniciar retificação”
+4. Realize as correções no registro realizado de forma equivocada
+5. Clique em “Salvar retificação”
+
+Siga os passos abaixo para realizar a exclusão:
+
+1. Localize a ficha de vacinação que contém o registro realizado de forma equivocada
+
+OBS: é possível buscar o registro pelo CPF ou CNS do cidadão.
+
+2. Clique no menu à esquerda, e selecione a opção “Cancelar”
+3. Ao selecionar a opção "Cancelar”, clique em “Excluir ficha”
+
+Ao realizar esta ação, todos os registros contidos na ficha serão excluídos.
