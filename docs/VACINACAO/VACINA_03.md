@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Instalação
-parent: e-SUS Vacinação v0.1.0
+parent: Gestão e-SUS APS v1.0
 nav_order: 2
 has_children: false
-last_modified_date: "05/11/2021"
+last_modified_date: "28/07/2021"
 has_toc: true
 ---
 
@@ -200,3 +200,27 @@ Se você ficou com alguma dúvida, entre em contato com o nosso [suporte](https:
 ### 2.4.9 Foro
 
 Quaisquer disputas ou controvérsias oriundas de quaisquer atos praticados no âmbito da utilização dos sítios e/ou aplicativos pelos usuários, inclusive com relação ao descumprimento dos Termos de Uso e Política de Privacidade ou pela violação dos direitos da Administração Pública Federal, de outros Usuários e/ou de terceiros, inclusive direitos de propriedade intelectual, de sigilo e de personalidade, serão processadas na Comarca de Brasília/DF.
+
+
+{: .nota }
+Na tela do perfil, se precisar de suporte para uso do aplicativo, o usuário pode acessar o card "Obter ajuda" e será direcionado para o canal de suporte oficial do e-SUS APS. 
+
+{: .atencao }
+Para acessar a funcionalidade "Obter ajuda" o dispositivo deverá ter acesso a internet. 
+
+Na tela do perfil ainda é possível acessar a ferramenta "**Sobre**" ![](media/image3.png) para acessar às informações da versão do aplicativo
+
+Figura 2.4.2 - Tela Sobre a versão do aplicativo
+
+![](media/image1.png)
+
+Fonte: SAPS/MS
+
+{: .nota }
+Apenas os profissionais de saúde habilitados para registrarem vacinação e que possuam lotação ativa na URL do servidor informado na autenticação conseguirão utilizar o aplicativo *e-SUS Vacinação*.
+
+{: .atencao }
+O aplicativo é de uso pessoal e intransferível!!! Caso um usuário retorne a tela de autenticação após logado no aplicativo, ao tentar alterar a informação de "Usuário" não é possível alterar o CPF. Os dados gerados no aplicativo estão vinculados ao CPF do usuário que logou o aplicativo. 
+
+{: .atencao }
+![](media/image16.png)
