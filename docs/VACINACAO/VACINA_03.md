@@ -8,10 +8,10 @@ last_modified_date: "28/07/2021"
 has_toc: true
 ---
 
-# Capítulo 2 - Instalação
+# Capítulo 3 - Como Utilizar o Aplicativo
 {: .no_toc }
 
-Neste capítulo abordaremos sobre a instalação, os requisitos mínimos, a autenticação do usuário para acessar o aplicativo **e-SUS Vacinação**, assim como os seus termos de uso e política de privacidade.
+Neste capítulo abordaremos sobre o passo a passo para tirar maior proveito do aplicativo **e-SUS Vacinação** para agilizar as campanhas ou demais estratégias de vacinação no território ou na própria unidade de saúde. 
 
 ## Sumário
 {: .no_toc .text-delta }
@@ -19,7 +19,76 @@ Neste capítulo abordaremos sobre a instalação, os requisitos mínimos, a aute
 - TOC
 {:toc}
 
-## 2.1 Instalação
+## 3.1 Cadastrar imunobiológico
+
+Após a autenticação no aplicativo e a escolha da lotação do vacinador, agora é o momento de cadastrar as vacinas que serão utilizadas na campanha. Nesta etapa basta clicar sobre o ícone com o sinal de "+" conforme a figura (3.0)
+
+Figura 3.0 - Tela Vacinações
+
+![](media/image_3.png)
+
+Fonte: SAPS/MS
+
+Após clicar no ícone aparecerão os seguintes campos para o preenchimento **obrigatório** (Fig. 3.1):
+
+1. **Local de Atendimento**: Informar o local onde está sendo realizado a vacinação;
+2. **Imunobiológico**: Informar a vacina que está sendo administrada;
+3. **Fabricante**: Informar o fabricante da vacina que está sendo administrada;
+4. **Lote**: Informar o número do Lote do fabricante da vacina e
+5. **Estratégia**: Informar a estratégia de vacinação conforme orientação do PNI.
+
+Ao finalizar clique em "Salvar".
+
+Figura 3.1 - Tela iniciar nova vacinação
+
+![](media/image_4.png)
+
+Fonte: SAPS/MS
+
+{: .dica } 
+Antes de começar a campanha ou qualquer estratégia de vacinação faça o cadastro prévio de todas as vacinas que serão administradas no dia, assim o usuário do aplicativo agiliza o processo de registro das doses aplicadas. 
+
+{: .nota } 
+Após o cadastro do imunobiológico, o mesmo aparecerá na aba "EM ANDAMENTO". Todas as vacinas cadastradas aparecerão nesta aba (Vide figura 3.2). 
+
+## 3.2 Informar cidadão vacinado
+
+Após cadastradas as vacinas é o momento de registrar os cidadãos que foram imunizados. Para inserir o cidadão clique sobre o "card" com o nome do imunobiológico que foi aplicado (Figura 3.2).
+
+Figura 3.2 - Tela Vacinações
+
+![](media/image_5.png)
+
+Fonte: SAPS/MS
+
+Em seguida aparecerá uma tela para informar dados do cidadão e os respectivos dados de vacinação do mesmo, nesta tela clique sobre o ícone com o sinal de "+" (Figura 3.3).
+
+Figura 3.3 - Tela Cidadãos Informados
+
+![](media/image_6.png)
+
+Fonte: SAPS/MS
+
+Após clicar no ícone abrirá outra tela para informar os seguintes campos:
+
+1. **Dose**: Informar qual a dose da vacina foi administrada de acordo com as regras do PNI;
+2. **CPF/CNS**: Registrar o documento de identificação do cidadão;
+3. **Data de nascimento**: Informar a data de nascimento;
+4. **Sexo**: Registrar o sexo "Feminino" ou "Masculino";
+5. **Grupo de Atendimento**: Informar o grupo de atendimento no caso das campanhas de vacinação contra Covid-19, de acordo com as regras do PNI e
+6. **Condições**: Informar se o vacinado se encontra na condição de Gestante, Puérpera ou Viajante, caso necessário. Além de Comunicante de Hanseníase, no caso da BCG 
+
+Para finalizar clique em **"Salvar"**, caso for registrar outro cidadão para o mesmo imunobiológico clique em **"Salvar e informar próximo"**.
+
+{: .dica }
+As boas práticas dos registros de informação em saúde requer que a cada atendimento ou procedimento realizado por um profissional de saúde seja feita logo em seguida o registro. Agindo dessa forma, o profissional de saúde, reduz o risco de erro de digitação. 
+
+{: .nota } 
+Após registrado os dados do cidadão vacinado é gerado um "card" na tela 'Cidadãos informados' da respectiva vacinação aplicada (Figura 3.3).
+
+
+
+
 
 A instalação do Aplicativo **e-SUS Vacinação** se dá pelo fluxo padrão de instalação de aplicativos para dispositivos Android. 
 
