@@ -133,7 +133,7 @@ A Estratégia e-SUS APS faz referência ao processo de informatização qualific
 
 Nesse contexto, insere-se a coleta de informações de vacinação através das Fichas de Vacinação CDS geradas no uso do aplicativo.
 
-#### 2.4.3.1 Por quanto tempo os dados ficam armazenado
+#### 2.4.3.1 Por quanto tempo os dados ficam armazenado?
 
 Os dados ficarão armazenados nas bases de dados do Ministério da Saúde pelo tempo que for necessário para continuarmos fazendo políticas públicas em saúde. Os dados pessoais serão, sempre que possível, anonimizados.
 
