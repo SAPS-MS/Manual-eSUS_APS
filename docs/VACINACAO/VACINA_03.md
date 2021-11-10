@@ -123,7 +123,9 @@ Figura 3.6 - Tela do Menu
 
 Fonte: SAPS/MS
 
-* **Enviar fichas**: Esta seção é fundamental para o envio dos registros realizados no aplicativo, ao clicar sobre a palavra 'enviar fichas', os dados são enviados para o servidor PEC registrado na URL inserida na autenticação do aplicativo. Ao final do envio, os dados registrados da vacinação aparecerão na aba 'Enviadas'. (Figura 3.7)
+#### 3.3.2.1 **Enviar fichas** 
+
+Esta seção é fundamental para o envio dos registros realizados no aplicativo, ao clicar sobre a palavra 'enviar fichas', os dados são enviados para o servidor PEC registrado na URL inserida na autenticação do aplicativo. Ao final do envio, os dados registrados da vacinação aparecerão na aba 'Enviadas'. (Figura 3.7)
 
 Figura 3.7 - lista de 'Enviadas'
 
@@ -135,10 +137,13 @@ Fonte: SAPS/MS
 Os registros que apresentarem inconsistências nas informações não serão enviados ao sistema e-SUS APS com PEC e permanecerão na lista 'EM ANDAMENTO' com o card apresentando o símbolo ![](media/image_16.png). Essas inconsistências significam que os dados foram rejeitados e os erros indicados [apresentados em uma lista] deverão ser corrigidos para que os dados sejam enviados novamente. Se o problema persistir, realize o registro por meio do sistema e-SUS APS com Coleta de Dados em Saúde (CDS). 
 
 
+#### 3.3.2.2 **Trocar acesso** 
 
-* **Trocar acesso**: Se o profissional possuir mais de uma lotação, esta seção permitirá a escolha de qual lotação acessar para inserir os dados. 
+Se o profissional possuir mais de uma lotação, esta seção permitirá a escolha de qual lotação acessar para inserir os dados. 
 
-* **Obter ajuda**: Nesta seção é possível obter ajuda por meio de alguns materiais de apoio e do suporte do e-SUS APS. Para acessar os materiais e o suporte é necessário o acesso a internet (Figura 3.8)
+#### 3.3.2.3 **Obter ajuda**
+
+Nesta seção é possível obter ajuda por meio de alguns materiais de apoio e do suporte do e-SUS APS. Para acessar os materiais e o suporte é necessário o acesso a internet (Figura 3.8)
 
 Figura 3.8 - Tela 'Obter Ajuda'
 
@@ -146,10 +151,16 @@ Figura 3.8 - Tela 'Obter Ajuda'
 
 Fonte: SAPS/MS
 
-* **Sobre**: Esta seção apresenta principalmente a versão do aplicativo. Os usuários do sistema e-SUS APS devem sempre estar atento as atualizações das versões para utilizarem a versão mais atual.
+#### 3.3.2.4 **Sobre**
+
+Esta seção apresenta principalmente a versão do aplicativo. Os usuários do sistema e-SUS APS devem sempre estar atento as atualizações das versões para utilizarem a versão mais atual.
 
 Figura 3.9 - Tela 'Sobre"
 
 ![](media/image_15.png)
 
-* **Sair**: Esta seção permite ao usuário deslogar do aplicativo  
+Fonte: SAPS/MS
+
+#### 3.3.2.5 **Sair** 
+
+Esta seção permite ao usuário deslogar do aplicativo e sair com segurança da aplicação.  
