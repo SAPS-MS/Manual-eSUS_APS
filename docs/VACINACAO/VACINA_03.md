@@ -94,7 +94,7 @@ Após registrado os dados do cidadão vacinado é gerado um "card" na tela 'Cida
 
 ## 3.3 Outros recursos do Aplicativo
 
-### 3.3.1 Edição e Exclusão de registros ![](media/image_8.png)
+### 3.3.1 Edição e Exclusão de registros
 
 Os dados registrados no aplicativo e-SUS Vacinação poderão ser excluídos ou editados enquanto não forem enviados para o sistema e-SUS APS.  Para editar ou excluir esses dados acesse o ícone ![](media/image_8.png) nas telas 'Cidadão Informado' e 'Dados do cidadão' (Figuras 3.4 e 3.5). 
 
@@ -113,7 +113,7 @@ Fonte: SAPS/MS
 {: .nota }
 Para excluir a vacina cadastrada não deve haver nenhum cidadão cadastrado no mesmo. 
 
-### 3.3.2 Menu ![](media/image_11.png)
+### 3.3.2 Menu
 
 Na tela inicial do aplicativo é possível acessar um menu. Ao clicar sobre o ícone ![](media/image_11.png) aparecerão os seguintes recursos (Figura 3.6):
 
