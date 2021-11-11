@@ -148,22 +148,7 @@ Passo 4. Para filtrar outros itens para compor um mesmo relatório, basta seguir
 
 - Caso queira remover um filtro, basta excluir o item do campo "filtro personalizado", usando o botão "Excluir" ![](media/pec_image777.png).
 
-# 8.3 Relatórios Gerenciais
-
-Figura
-
-A versão 4.2 possui o novo grupo de Relatórios Gerenciais. Neste grupo, os dados são apresentados em uma tabela dinâmica construída pelo usuário. O usuário pode definir a tabela arrastando os campos disponíveis para linhas e colunas. Também é permitida a exportação destes relatórios para um arquivo no formado .csv.
-
-O primeiro relatório disponibilizado é o Relatório de Absenteísmo, o qual apresenta informações quantitativas sobre as faltas dos cidadãos.
-
-## 8.3.1 Relatório de Absenteísmo
-
-Este relatório apresenta a contagem de agendamentos em que o cidadão não compareceu ou não foi atendido na data e horário definidos na agenda. A contagem é realizada utilizando o módulo de agenda do PEC, e são considerados os agendamentos com situação "Não compareceu" e "Não aguardou".
-
-
-Figura
-
-# 8.4 Relatórios Consolidados
+# 8.3 Relatórios Consolidados
 
 Figura 8.8 - Tela do Relatórios consolidados exibida com o perfil de profissional da equipe de AB
 ![](media/pec_image778.png)
