@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Relatórios
-parent: Prontuário Eletrônico do Cidadão v4.2
+parent: Prontuário Eletrônico do Cidadão v4.3
 nav_order: 10
 has_children: false
 has_toc: true
-last_modified_date: "12/03/2021"
+last_modified_date: "12/11/2021"
 ---
 
 
@@ -1094,7 +1094,7 @@ Fonte: SAPS/MS.
 
 # 8.6 Relatórios Gerenciais
 
-![](media/pec_image871.png)
+![](media/pec_image903.png)
 
 {: .atualizacao }
 A partir da versão 4.2 estarão disponíveis relatórios gerenciais com informações sobre o funcionamento da Unidade de Saúde.
@@ -1130,6 +1130,8 @@ A seguir (Figura 8.39) são apresentados os campos disponíveis para uso, sendo 
 - Tipo de falta
 - Profissional
 - Tempo entre agendamento e consulta
+- CBO
+- Faixa etária
 
 Figura 8.39 - Variáveis disponíveis.
 
@@ -1153,7 +1155,7 @@ Figura 8.41 - Caixas "Colunas" e "Linhas".
 
 Fonte: SAPS/MS.
 
-Feito isso basta é possível escolher a forma de cálculo que deve ser apresentado na tabela a ser construída. O sistema realiza as operações de contagem das variáves ou o cálculo percentual entre as variáveis, como mostra a Figura 8.42.
+Feito isso, é possível escolher a forma que deve ser apresentado na tabela a ser construída. O sistema realiza as operações de contagem das variáves ou o cálculo percentual entre as variáveis, como mostra a Figura 8.42.
 
 Figura 8.42 - Formas de cálculo dos resultados.
 
@@ -1185,3 +1187,50 @@ Caso necessite, é possível realizar a exportação destes relatórios para um 
 
 [^4]: Em caso de re- territorialização, os logradouros, domicílios ou cidadãos que fiquem fora da área de cobertura da equipe poderão ser identificados com o status "Fora de Área", sendo identificados desta forma nos relatórios e no filtro "microárea".
 
+## 8.6.2 Relatório de Atendimento
+
+Este relatório tem por objetivo obter dados quantitativos sobre o número de atendimentos individuais e odontológicos distribuídos em um determinado período de tempo, com a finalidade de auxiliar os gestores na tomada de decisões estratégicas da unidade de saúde.
+
+Figura 8.45 Tela principal do relatório de atendimentos
+
+![](media/pec_image904.png)
+
+Fonte: SAPS/MS
+
+É possível extrair o relatório de atendimento selecionando o período mensal, semanal, do último mês, último 3 meses, último 6 meses ou ainda em um período personalizado. 
+
+O relatório ainda pode ser extraído com a finalidade de conhecer a quantidade de atendimento a um determinado problema ou condição de saúde, para isso, basta selecionar a CIAP2, CID10 ou os grupos de condições prioritárias. 
+
+{: .nota }
+O relatório gerencial de atendimentos apresenta a contagem dos atendimentos individuais e odontológicos realizados. A origem dos atendimentos deste relatório são o CDS e o PEC. Os atendimentos do tipo "Escuta inicial / Orientação" não são apresentados.
+
+Da mesma forma como acontece no Relatório de Absenteísmo também é possível fazer filtros no bloco "Campos Disponíveis", arrastar as variáveis para serem visualizadas em colunas ou linhas, apresentar os resultados na tabela no formato de contagem ou porcentagem e extrair esses dados em .CSV
+
+Figura 8.46 Tela principal do relatório de atendimetno
+
+![](media/pec_image906.png)
+
+Fonte: SAPS/MS
+
+## 8.6.3 Relatório de Vacinação
+
+Este relatório tem por objetivo obter dados quantitativos sobre o número de doses de determinadas vacinas aplicadas, distribuídos em um determinado período de tempo, com a finalidade de auxiliar o gestor na tomada de decisões estratégicas da unidade de saúde.
+
+Figura 8.46 Tela principal do relatório de vacinação
+
+![](media/pec_image905.png)
+
+Fonte: SAPS/MS
+
+É possível extrair o relatório de vacinas aplicadas selecionando o período mensal, semanal, do último mês, último 3 meses, último 6 meses ou ainda em um período personalizado. 
+
+{: .nota }
+O relatório gerencial de vacinação apresenta a quantidade de doses de vacinas aplicadas nos atendimentos de vacinação provenientes tanto do CDS quanto do PEC.
+
+Da mesma forma como acontece no Relatório de Absenteísmo também é possível fazer filtros no bloco "Campos Disponíveis", arrastar as variáveis para serem visualizadas em colunas ou linhas, apresentar os resultados na tabela no formato de contagem ou porcentagem e extrair esses dados em .CSV
+
+Figura 8.47 Tela principal do relatório de vacinação
+
+![](media/pec_image907.png)
+
+Fonte: SAPS/MS
