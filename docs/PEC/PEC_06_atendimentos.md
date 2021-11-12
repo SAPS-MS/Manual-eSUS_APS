@@ -584,12 +584,12 @@ O comportamento do sistema durante o registro da dose aplicada das vacinas COVID
 ## 6.3.8 Exclusão de registros de doses aplicadas de vacina após finalizado o atendimento
 
 {: .novidade }
-A partir da versão 4.3 o sistema e-SUS APS disponibiliza a funcionalidade de exclusão do registro de vacina salvo no sistema
+A partir da versão 4.3 o sistema e-SUS APS disponibiliza a funcionalidade de exclusão do registro de dose aplicada de vacina que já estava salvo no PEC
 
 {: .nota }
-Esta opção de exclusão do registro de dose aplicada da vacina no PEC só pode ser realizada pelo profissional que realizou o registro/atendimento.
+Esta opção de exclusão do registro de dose aplicada de vacina no PEC só pode ser executada pelo profissional que realizou o registro/atendimento.
 
-Para realizar a exclusão da dose aplicada após já ter sido salvo e finalizado o atendimento, siga os passos abaixo:
+Para realizar a exclusão da dose aplicada, após já ter sido salvo e finalizado o atendimento, siga os passos abaixo:
 
 1. Adicione o cidadão que terá o registro excluído de vacinação na “Lista de Atendimentos”;
 
@@ -632,7 +632,7 @@ Fonte: SAPS/MS
 8. Após a exclusão, deve-se realizar um novo registro, dessa vez é necessário que seja no CDS, com as informações corretas.
 
 {: .atencao }
-Quando esta opção for selecionada, **TODAS** as informações daquele atendimento serão excluídas, fique atento para todas as informações contidas naquele atendimento.
+Quando esta opção "excluir atendimento" for selecionada, **TODAS** as informações daquele atendimento serão excluídas, fique atento para todas as informações contidas naquele atendimento.
 
 # 6.4 Atender - Prontuário do Cidadão
 
