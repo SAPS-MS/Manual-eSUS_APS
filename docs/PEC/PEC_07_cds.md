@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Coleta de Dados Simplificada (CDS)
-parent: Prontuário Eletrônico do Cidadão v4.2
+parent: Prontuário Eletrônico do Cidadão v4.3
 nav_order: 9
 has_children: false
 has_toc: true

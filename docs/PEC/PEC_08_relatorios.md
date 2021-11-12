@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Relatórios
-parent: Prontuário Eletrônico do Cidadão v4.2
+parent: Prontuário Eletrônico do Cidadão v4.3
 nav_order: 10
 has_children: false
 has_toc: true
