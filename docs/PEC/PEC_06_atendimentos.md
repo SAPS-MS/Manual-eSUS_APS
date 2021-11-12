@@ -591,13 +591,13 @@ Esta opção de exclusão do registro de dose aplicada de vacina no PEC só pode
 
 Para realizar a exclusão da dose aplicada, após já ter sido salvo e finalizado o atendimento, siga os passos abaixo:
 
-1. Adicione o cidadão que terá o registro excluído de vacinação na “Lista de Atendimentos”;
+* Adicione o cidadão que terá o registro excluído de vacinação na “Lista de Atendimentos”;
 
-2. Clique em "Mais opções" ![](media/pec_image153.png), em seguida  "visualizar prontuário";
+* Clique em "Mais opções" ![](media/pec_image153.png), em seguida  "visualizar prontuário";
 
-3. Acesse o módulo “Histórico” ![](media/pec_image383.png) e localize o antedimento em que foi realizado o registro da vacinação de forma equivocada;
+* Acesse o módulo “Histórico” ![](media/pec_image383.png) e localize o antedimento em que foi realizado o registro da vacinação de forma equivocada;
 
-4. Acesse o histórico daquele atendimento, clicando no “cartão”
+* Acesse o histórico daquele atendimento, clicando no “cartão”
 
 Figura 6.3.20 Tela do Histórico
 
@@ -605,7 +605,7 @@ Figura 6.3.20 Tela do Histórico
 
 Fonte: SAPS/MS
 
-5. Clique na opção “Excluir atendimento”;
+* Clique na opção “Excluir atendimento”;
 
 Figura 6.3.21 Tela do Histórico expandida
 
@@ -613,7 +613,7 @@ Figura 6.3.21 Tela do Histórico expandida
 
 Fonte: SAPS/MS
 
-6. Leia com atenção a confirmação de exclusão, e clique em “Excluir atendimento”;
+* Leia com atenção a confirmação de exclusão, e clique em “Excluir atendimento”;
 
 Figura 6.3.22 Tela do Histórico expandida
 
@@ -621,7 +621,7 @@ Figura 6.3.22 Tela do Histórico expandida
 
 Fonte: SAPS/MS
 
-7. Ao excluir o 'cartão' do histórico apresentará a mensagem "marcado para exclusão". Após o processamento dos dados no sistema, todas as informações desse histórico serão excluídas. 
+* Ao excluir o 'cartão' do histórico apresentará a mensagem "marcado para exclusão". Após o processamento dos dados no sistema, todas as informações desse histórico serão excluídas. 
 
 Figura 6.3.23 Tela do Histórico
 
@@ -629,7 +629,7 @@ Figura 6.3.23 Tela do Histórico
 
 Fonte: SAPS/MS
 
-8. Após a exclusão, deve-se realizar um novo registro, dessa vez é necessário que seja no CDS, com as informações corretas.
+* Após a exclusão, deve-se realizar um novo registro, dessa vez é necessário que seja no CDS, com as informações corretas.
 
 {: .atencao }
 Quando esta opção "excluir atendimento" for selecionada, **TODAS** as informações daquele atendimento serão excluídas, fique atento para todas as informações contidas naquele atendimento.
