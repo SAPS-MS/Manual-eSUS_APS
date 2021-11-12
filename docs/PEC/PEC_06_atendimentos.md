@@ -581,19 +581,58 @@ Fonte: SAPS/MS
 
 O comportamento do sistema durante o registro da dose aplicada das vacinas COVID-19, assim como o seu aprazamento, seguem o mesmo padrão das vacinas de rotina. Idem para o processo de registro de doses anteriores como mostra a seção 6.3.2.
 
-## 6.3.8 Exclusão de registros de doses aplicadas de vacina
-A opção de exclusão de um registro de dose aplicada de vacina no PEC somente é possível de ser realizada pelo profissional que realizou o registro/atendimento.
-Para realizar a exclusão de um atendimento, o mesmo  já deve estar processado.
-Siga os passos abaixo para realizar a exclusão:
-1. Localize o cidadão através da “Lista de Atendimentos”
-2. Insira o cidadão na lista de atendimentos e clique em “atender”
-3. Acesse o “Histórico” e localize o antedimento em que foi realizado o registro da vacinação de forma equivocada
-4. Acesse o histórico daquele atendimento, clicando no “cartão”
-5. Clique na opção “Excluir atendimento”
-Leia com atenção a confirmação de exclusão, e clique em “Excluir atendimento”
-6. Após a exclusão, deve-se realizar um novo registro, dessa vez é necessário que seja no CDS, com as informações corretas.
+## 6.3.8 Exclusão de registros de doses aplicadas de vacina após finalizado o atendimento
 
-OBS: quando esta opção for selecionada, TODAS as informações daquele atendimento serão excluídas, fique atento para todas as informações contidas naquele atendimento.
+{: .novidade }
+A partir da versão 4.3 o sistema e-SUS APS disponibiliza a funcionalidade de exclusão do registro de vacina salvo no sistema
+
+{: .nota }
+Esta opção de exclusão do registro de dose aplicada da vacina no PEC só pode ser realizada pelo profissional que realizou o registro/atendimento.
+
+Para realizar a exclusão da dose aplicada após já ter sido salvo e finalizado o atendimento, siga os passos abaixo:
+
+1. Adicione o cidadão que terá o registro excluído de vacinação na “Lista de Atendimentos”;
+
+2. Clique em "Mais opções" ![](media/pec_image153.png), em seguida  "visualizar prontuário";
+
+3. Acesse o módulo “Histórico” ![](media/pec_image383.png) e localize o antedimento em que foi realizado o registro da vacinação de forma equivocada;
+
+4. Acesse o histórico daquele atendimento, clicando no “cartão”
+
+Figura 6.3.20 Tela do Histórico
+
+![](media/pec_image908.png)
+
+Fonte: SAPS/MS
+
+5. Clique na opção “Excluir atendimento”;
+
+Figura 6.3.21 Tela do Histórico expandida
+
+![](media/pec_image909.png)
+
+Fonte: SAPS/MS
+
+6. Leia com atenção a confirmação de exclusão, e clique em “Excluir atendimento”;
+
+Figura 6.3.22 Tela do Histórico expandida
+
+![](media/pec_image910.png)
+
+Fonte: SAPS/MS
+
+7. Ao excluir o 'cartão' do histórico apresentará a mensagem "marcado para exclusão". Após o processamento dos dados no sistema, todas as informações desse histórico serão excluídas. 
+
+Figura 6.3.23 Tela do Histórico
+
+![](media/pec_image911.png)
+
+Fonte: SAPS/MS
+
+8. Após a exclusão, deve-se realizar um novo registro, dessa vez é necessário que seja no CDS, com as informações corretas.
+
+{: .atencao }
+Quando esta opção for selecionada, **TODAS** as informações daquele atendimento serão excluídas, fique atento para todas as informações contidas naquele atendimento.
 
 # 6.4 Atender - Prontuário do Cidadão
 
