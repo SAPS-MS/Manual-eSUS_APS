@@ -5,7 +5,7 @@ nav_order: 2
 has_children: true
 description: "Manual e-SUS APS"
 permalink: /docs/PEC
-last_modified_date: "02/07/2021"
+last_modified_date: "12/11/2021"
 ---
 
 e-SUS Atenção Primária à Saúde (e-SUS APS)
@@ -22,7 +22,7 @@ MANUAL DE USO
 {: .text-center }
 <br>
 <br>
-(versão 4.2)
+(versão 4.3)
 {: .fs-6 }
 {: .text-center }
 <br>
