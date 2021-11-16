@@ -1,6 +1,6 @@
 ---
 layout: default
-title: e-SUS Vacinação v0.1.0
+title: e-SUS Vacinação v1.0.0
 nav_order: 6
 nav_exclude: false
 has_children: true
