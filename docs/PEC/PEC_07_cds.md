@@ -957,30 +957,62 @@ Clique no botão ![](media/pec_image740.png) para incluir este imunobiológico n
 
 Ao terminar de registrar todas as doses aplicadas no cidadão clique no botão ![](media/pec_image672.png). Caso haja alguma inconsistência, o sistema mostrará mensagem na tela indicando os campos que deverão ser corrigidos. Caso não haja nenhuma inconsistência, o sistema salvará os dados, voltará para a tela de adicionar os registros de vacinação e apresentará a mensagem "registro confirmado com sucesso".
 
-### 7.11.2.3 Exclusão ou retificação de registros de vacinas realizados de maneira equivocada
+### 7.11.2.3 Exclusão de ficha ou retificação de registro de vacina realizado de maneira equivocada
 
+{: .novidade }
+A partir da versão 4.3.5 é possível excluir fichas de vacinação ou retificar um dado na ficha que foi registrado equivocadamete, mesmo que esta já tenha sido processada pelo sistema.
+
+{: .dica }
 A exclusão ou retificação de um registro de vacinação realizado de maneira equivocada deve ser realizado de preferência pelo profissional que realizou o registro no sistema.
 
-Para realizar a exclusão de uma ficha, a mesma  já deve estar processada.
+Para executar esses recursos primeiramente acesse o módulo do CDS na barra lateral do sistema ![](media/pec_image912.png). Em seguida clique sobre em "vacinação".
 
-Siga os passos abaixo para realizar a retificação:
+![](media/pec_image913.png)
 
-1. Localize a ficha de vacinação que contém o registro realizado de forma equivocada
+Em seguida clique no 'box' "mostrar registros enviados/recebidos (1), depois clique no filtro ![](media/pec_image115.png) (2) para buscar as fichas enviadas utilizando o CPF ou CNS do cidadão terão seus dados retificados ou excluídos, e em seguida clique em "Pesquisar" (3). Procedendo dessa forma aparecerá a lista de fichas de vacinação que foram enviadas/recebidas de acordo com a sua pesquisa.
 
-OBS: é possível buscar o registro pelo CPF ou CNS do cidadão.
+![](media/pec_image914.png)
 
-2. Clique no menu à esquerda, e selecione a opção “Retificar”
-3. Ao selecionar a opção “Retificar”, clique na opção “Excluir Ficha e Iniciar retificação”
-4. Realize as correções no registro realizado de forma equivocada
-5. Clique em “Salvar retificação”
+Para **retificar** um dado na ficha siga os passos abaixo: 
 
-Siga os passos abaixo para realizar a exclusão:
+1. Localize a ficha de vacinação que contém o registro realizado de forma equivocada;
 
-1. Localize a ficha de vacinação que contém o registro realizado de forma equivocada
+2. Clique no menu à esquerda ![](media/pec_image32.png) na ficha a ser retificada encontrada na lista de registros enviados/recebidos, em seguida selecione a opção “Retificar”.
 
-OBS: é possível buscar o registro pelo CPF ou CNS do cidadão.
+![](media/pec_image915.png)
 
-2. Clique no menu à esquerda, e selecione a opção “Cancelar”
+3. Após clique na opção “Excluir Ficha e Iniciar retificação”
+
+![](media/pec_image916.png)
+
+4. Realize as correções no registro realizado de forma equivocada clicando no ícone "editar" ![](media/pec_image426.png).
+
+![](media/pec_image917.png)
+
+{: .nota }
+Para retificar os dados da vacina clique no ícone "editar" ![](media/pec_image426.png) para habilitar os campos 'imunobiológico', 'Estratégia, 'Grupo de atendimeto', se for o caso, 'dose', 'lote' e 'fabricante'.
+![](media/pec_image918.png)
+
+5. Após finalizar a retificação clique em "Confirmar" e em seguida clique em “Retificar ficha”.
+
+![](media/pec_image919.png)
+
+
+Para **excluir** uma ficha com todos os dados, siga os passos abaixo:
+
+1. Localize a ficha de vacinação que contém o registro realizado de forma equivocada;
+
+2. Clique no menu à esquerda ![](media/pec_image32.png) na ficha a ser excluída encontrada na lista de registros enviados/recebidos, em seguida selecione a opção “Cancelar”.
+
 3. Ao selecionar a opção "Cancelar”, clique em “Excluir ficha”
 
+![](media/pec_image920.png)
+
+{: .atencao }
 Ao realizar esta ação, todos os registros contidos na ficha serão excluídos.
+
+{: .nota }
+Para realizar a exclusão ou retificação de uma ficha, a mesma já deve estar processada.
+
+{: .nota }
+As fichas retificadas ou excluídas poderão ser visualizados na trilha de auditoria do sistema e-SUS APS. 
