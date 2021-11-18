@@ -975,17 +975,17 @@ Em seguida clique no 'box' "mostrar registros enviados/recebidos (1), depois cli
 
 Para **retificar** um dado na ficha siga os passos abaixo: 
 
-1. Localize a ficha de vacinação que contém o registro realizado de forma equivocada;
+* Localize a ficha de vacinação que contém o registro realizado de forma equivocada;
 
-2. Clique no menu à esquerda ![](media/pec_image32.png) na ficha a ser retificada encontrada na lista de registros enviados/recebidos, em seguida selecione a opção “Retificar”.
+* Clique no menu à esquerda ![](media/pec_image32.png) na ficha a ser retificada encontrada na lista de registros enviados/recebidos, em seguida selecione a opção “Retificar”.
 
 ![](media/pec_image915.png)
 
-3. Após clique na opção “Excluir Ficha e Iniciar retificação”
+* Após clique na opção “Excluir Ficha e Iniciar retificação”
 
 ![](media/pec_image916.png)
 
-4. Realize as correções no registro realizado de forma equivocada clicando no ícone "editar" ![](media/pec_image426.png).
+* Realize as correções no registro realizado de forma equivocada clicando no ícone "editar" ![](media/pec_image426.png).
 
 ![](media/pec_image917.png)
 
@@ -993,18 +993,18 @@ Para **retificar** um dado na ficha siga os passos abaixo:
 Para retificar os dados da vacina clique no ícone "editar" ![](media/pec_image426.png) para habilitar os campos 'imunobiológico', 'Estratégia, 'Grupo de atendimeto', se for o caso, 'dose', 'lote' e 'fabricante'.
 ![](media/pec_image918.png)
 
-5. Após finalizar a retificação clique em "Confirmar" e em seguida clique em “Retificar ficha”.
+* Após finalizar a retificação clique em "Confirmar" e em seguida clique em “Retificar ficha”.
 
 ![](media/pec_image919.png)
 
 
 Para **excluir** uma ficha com todos os dados, siga os passos abaixo:
 
-1. Localize a ficha de vacinação que contém o registro realizado de forma equivocada;
+* Localize a ficha de vacinação que contém o registro realizado de forma equivocada;
 
-2. Clique no menu à esquerda ![](media/pec_image32.png) na ficha a ser excluída encontrada na lista de registros enviados/recebidos, em seguida selecione a opção “Cancelar”.
+* Clique no menu à esquerda ![](media/pec_image32.png) na ficha a ser excluída encontrada na lista de registros enviados/recebidos, em seguida selecione a opção “Cancelar”.
 
-3. Ao selecionar a opção "Cancelar”, clique em “Excluir ficha”
+* Ao selecionar a opção "Cancelar”, clique em “Excluir ficha”
 
 ![](media/pec_image920.png)
 

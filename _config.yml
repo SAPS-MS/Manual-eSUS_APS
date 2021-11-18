@@ -53,7 +53,7 @@ heading_anchors: true
 callouts:
   atencao:
     title: Atenção
-    color: yellow
+    color: red
   atualizacao:
     title: Atualização
     color: blue
@@ -65,7 +65,7 @@ callouts:
     color: green
   cuidado:
     title: Cuidado
-    color: red
+    color: yellow
   novidade:
     title: Novidade
     color: purple
