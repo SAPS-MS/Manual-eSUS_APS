@@ -70,7 +70,7 @@ O PEC possui os seguintes perfis padrão:
 
 * [Técnico em saúde bucal](#\26-tsb-t-cnico-em-sa-de-bucal)
 
-#1. ACE - Agente de combate a endemias
+#\1. ACE - Agente de combate a endemias
 
 | Recursos |
 | -------- |
