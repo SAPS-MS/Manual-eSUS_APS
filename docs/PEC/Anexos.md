@@ -9,16 +9,9 @@ last_modified_date: "19/11/2021"
 ---
 
 
-# ANEXO I - Acompanhamento de condições de saúde
+# ANEXO I
 {: .no_toc }
 
-Este módulo visa proporcionar aos gestores de UBS e profissionais de saúde um formato mais simples e otimizado de visualizar as informações relacionadas aos problemas e condições de saúde da população acompanhadas pelas equipes de atenção primária à saúde.
-
-## Sumário
-{: .no_toc .text-delta }
-
-- TOC
-{:toc}
 
 ## Perfis por tipo de acesso 
 
