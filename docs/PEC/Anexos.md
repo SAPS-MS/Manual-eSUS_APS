@@ -13,39 +13,6 @@ last_modified_date: "19/11/2021"
 {: .no_toc }
 
 
-## Perfis por tipo de acesso 
-
-
-| Perfil - Redesign | Tipo de acesso | Apresenta na combo de Perfil e Tipo de acesso | É municipal |
-| ----------------- | -------------- | --------------------------------------------- | ----------- |
-| ACE - AGENTE DE COMBATE ÀS ENDEMIAS | Lotação | Sim | Sim |
-| ACS - AGENTE COMUNITÁRIO DE SAÚDE | Lotação | Sim | Sim |
-| ADMINISTRADOR MUNICIPAL | Administração municipal | Não | Não |
-| ASB - AUXILIAR DE SAÚDE BUCAL | Lotação | Sim | Sim |
-| AUXILIAR OU TÉCNICO DE ENFERMAGEM | Lotação | Sim | Sim |
-| AUXILIAR OU TÉCNICO DE ENFERMAGEM AD | Lotação | Sim | Sim |
-| CIRURGIÃO DENTISTA | Lotação | Sim | Sim |
-| COORDENADOR AD | Lotação | Sim | Sim |
-| COORDENADOR DA UBS | Lotação | Sim | Sim |
-| DIGITADOR | Lotação | Sim | Sim |
-| ENFERMEIRO | Lotação | Sim | Sim |
-| ENFERMEIRO AD | Lotação | Sim | Sim |
-| ESCUTA INICIAL | Lotação | Sim | Sim |
-| FARMACÊUTICO | Lotação | Sim | Sim |
-| GESTOR ESTADUAL | Gestor estadual | Sim | Não |
-| GESTOR MUNICIPAL | Gestor municipal | Sim | Sim |
-| ADMINISTRADOR MUNICIPAL DE CENTRALIZADORA | Gestor municipal | Sim | Sim |
-| INSTALADOR  | Administração da Instalação | Não | Não |
-| MÉDICO | Lotação | Sim | Sim |
-| MÉDICO AD | Lotação | Sim | Sim |
-| OUTRO PROF. NÍVEL MÉDIO/TÉCNICO | Lotação | Sim | Sim |
-| OUTRO PROF. NÍVEL MÉDIO/TÉCNICO AD | Lotação | Sim | Sim |
-| OUTRO PROF. NÍVEL SUPERIOR | Lotação | Sim | Sim |
-| OUTRO PROF. NÍVEL SUPERIOR AD | Lotação | Sim | Sim |
-| OUTROS PROFISSIONAIS DE NÍVEL SUPERIOR NASF | Lotação | Sim | Sim |
-| RECEPÇÃO | Lotação | Sim | Sim |
-| TSB - TÉCNICO DE SAÚDE BUCAL | Lotação | Sim | Sim |
-
 ## Perfis padrão do PEC
 
 
