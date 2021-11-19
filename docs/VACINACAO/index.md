@@ -1,6 +1,6 @@
 ---
 layout: default
-title: e-SUS Vacinação v1.0.0
+title: e-SUS Vacinação v1.0
 nav_order: 6
 nav_exclude: false
 has_children: true
@@ -23,7 +23,7 @@ MANUAL DE USO
 {: .text-center }
 <br>
 <br>
-(versão 0.1.0)
+(versão 1.0)
 {: .fs-6 }
 {: .text-center }
 <br>
@@ -76,7 +76,7 @@ Alexandre Soares de Brito e Diogo Ferreira Gonçalves
 {: .text-center }
 
 Brasil. Ministério da Saúde. Secretaria de Atenção Primária à Saúde.<br>
-e-SUS Atenção Primária à Saúde: Manual do aplicativo e-SUS Vacinação – Versão 0.1.O [recurso eletrônico] / Ministério da Saúde, Secretaria de Atenção Primária à Saúde, Secretaria Executiva. – Brasília: Ministério da Saúde, 2021.<br>
+e-SUS Atenção Primária à Saúde: Manual do aplicativo e-SUS Vacinação – Versão 1.0 [recurso eletrônico] / Ministério da Saúde, Secretaria de Atenção Primária à Saúde, Secretaria Executiva. – Brasília: Ministério da Saúde, 2021.<br>
 <br>
 ISBN **Versão Preliminar**<br>
 Modo de acesso: <https://aps.saude.gov.br/ape/esus><br>

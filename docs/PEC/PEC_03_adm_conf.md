@@ -696,7 +696,7 @@ O sistema e-SUS APS com PEC oferece um conjunto de perfis-padrão no sistema de 
 
 A lista de perfis-padrão foram determinadas por meio da avaliação de boas práticas de uma equipe de Atenção Primária. No entanto, considerando a grande diversidade e especificidades regionais, não devem ser tomadas como regras, mas apenas como referências para um conjunto de recursos.
 
-Em anexo a este manual, ANEXO I, apresentamos a lista de perfis-padrão do sistema e breve descrição de sua aplicação nas unidade de saúde, em funções gerenciais ou administrativas.
+Em [anexo](https://cgiap-saps.github.io/Manual-eSUS-APS/docs/PEC/Anexos/) a este manual apresentamos a lista de perfis-padrão do sistema e breve descrição de sua aplicação nas unidade de saúde, em funções gerenciais ou administrativas.
 
 ## 3.6.3 Perfil Personalizado
 
