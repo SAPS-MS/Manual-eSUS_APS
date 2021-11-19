@@ -81,7 +81,7 @@ Fonte: SAS/MS.
 
 Portanto, para digitar uma ficha, selecione a ferramenta correspondente, na tela principal, conforme a ficha que deseja digitar. Após abrir a tela de listagem da ficha correspondente, clique no botão ![](media/pec_image626.png). Logo depois, já é possível iniciar a digitação da ficha. Nas seções a seguir, cada ficha será abordada com mais detalhes.
 
-Neste momento, vale destacar ainda o novo componente de filtro ![](media/pec_image627.png), disponível na listagem das fichas, conforme podemos ver na Figura 7.4. Ele permite a realização de pesquisa utilizando algumas informações dos cabeçalhos das fichas, como o CNS do profissional, data de nascimento, CBO, CNES da unidade onde a ficha foi preenchida, INE, entre outras. Os campos de pesquisa variam de acordo com cada ficha.
+Neste momento, vale destacar ainda o componente de filtro ![](media/pec_image627.png), disponível na listagem das fichas, conforme podemos ver na Figura 7.4. Ele permite a realização de pesquisa utilizando algumas informações dos cabeçalhos das fichas, como o CNS do profissional, data de nascimento, CBO, CNES da unidade onde a ficha foi preenchida, INE, entre outras. Os campos de pesquisa variam de acordo com cada ficha.
 
 Figura 7.4 - Componente de filtro da listagem das fichas
 ![](media/pec_image628.png)
@@ -95,6 +95,14 @@ Figura 7.5 - Fichas não enviadas
 ![](media/pec_image630.png)
 Fonte: SAS/MS.
 
+A partir da versão 4.3 do sistema e-SUS APS, as fichas são pré-salvas em formato de rascunho, evitando que os dados se percam. Entretanto, para que a ficha seja enviada é necessário salvá-la. Quando a ficha estiver no formato rascunho irá apresentar uma marcaçao na cor laranja.
+
+Figura 7.6 - Ficha no formato rascunho
+![](media/pec_image921.png)
+Fonte: SAS/MS.
+
+Se aparecer essa marcação na cor laranja na listagem das fichas clique em editar ![](media/pec_image209.png) e em seguida clique em "Salvar" para que a mesma possa ser enviada. 
+
 Na listagem das fichas, ainda existem várias ações possíveis para cada registro e, por padrão, as seguintes opções estão disponíveis:
 
 - ![](media/pec_image631.png) **Visualizar:** permite visualizar as informações de uma ficha digitada;
@@ -102,9 +110,9 @@ Na listagem das fichas, ainda existem várias ações possíveis para cada regis
 - ![](media/pec_image632.png) **Editar:** permite fazer alterações em uma ficha digitada. Disponível apenas para fichas não enviadas.
 
 - ![](media/pec_image632.png) **Excluir:** permite excluir uma ficha digitada. Disponível apenas para fichas não enviadas.
-
+ 
 {: .atencao }
-caso a ficha digitada já tenha sido transmitida para o SISAB, não será possível editá- la ou excluí- la (botão esmaecido), apenas será possível visualizar a ficha ![](media/pec_image633.png).
+Com exceção da ficha de vacina, caso a ficha digitada já tenha sido transmitida para o SISAB, não será possível editá-la ou excluí-la (botão esmaecido), apenas será possível visualizar a ficha ![](media/pec_image633.png).
 
 ## 7.1.3 Inconsistência ao Finalizar a Digitação
 
@@ -685,7 +693,7 @@ Após clicar no botão ![](media/pec_image701.png), siga os passos:
 Esse instrumento permite a identificação de marcadores positivos ou negativos da alimentação e, de maneira mais dinâmica, a composição de indicadores.
 
 {: .dica }
-para auxiliar a utilização da ficha, que pode **ser feita por qualquer profissional da Atençãoásica**, e a orientação sobre práticas alimentares saudáveis, recomenda- se o uso do documento "Orientações para Avaliação de Marcadores de Consumo Alimentar na Atenção Básica", disponível em [[http://dab.saude.gov.br/portaldab/biblioteca.php?conteudo=publicacoes/marcadores_consumo_alimentar_atencao_basica]](http://dab.saude.gov.br/portaldab/biblioteca.php?conteudo=publicacoes/marcadores_consumo_alimentar_atencao_basica).
+para auxiliar a utilização da ficha, que pode **ser feita por qualquer profissional da Atenção Básica**, e a orientação sobre práticas alimentares saudáveis, recomenda- se o uso do documento "Orientações para Avaliação de Marcadores de Consumo Alimentar na Atenção Básica", disponível em [[http://dab.saude.gov.br/portaldab/biblioteca.php?conteudo=publicacoes/marcadores_consumo_alimentar_atencao_basica]](http://dab.saude.gov.br/portaldab/biblioteca.php?conteudo=publicacoes/marcadores_consumo_alimentar_atencao_basica).
 
 Após clicar no botão ![](media/pec_image701.png), siga os passos:
 
