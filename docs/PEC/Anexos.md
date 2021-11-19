@@ -18,57 +18,57 @@ last_modified_date: "19/11/2021"
 
 O PEC possui os seguintes perfis padrão:
 
-* [ACE - Agente de combate a endemias](#\1-ace-agente-de-combate-a-endemias)
+* [ACE - Agente de combate a endemias](#1-ace---agente-de-combate-a-endemias)
 
-* [ACS - Agente comunitário de saúde](#\2-acs-agente-comunit-rio-de-sa-de)
+* [ACS - Agente comunitário de saúde](#2-acs---agente-comunitário-de-saúde)
 
-* [Administrador municipal](#\3-administrador-municipal)
+* [Administrador municipal](#3-administrador-municipal)
 
-* [ASB - Auxiliar em saúde bucal](#\4-asb-auxiliar-em-sa-de-bucal)
+* [ASB - Auxiliar em saúde bucal](#4-asb---auxiliar-em-saúde-bucal)
 
-* [Auxiliar ou técnico de enfermagem](#\5-auxiliar-ou-t-cnico-de-enfermagem)
+* [Auxiliar ou técnico de enfermagem](#5-auxiliar-ou-técnico-de-enfermagem)
 
-* [Auxiliar ou técnico de enfermagem AD](#\6-auxiliar-ou-t-cnico-de-enfermagem-ad)
+* [Auxiliar ou técnico de enfermagem AD](#6-auxiliar-ou-técnico-de-enfermagem-ad)
 
-* [Cirurgião dentista](#\7-cirurgi-o-dentista)
+* [Cirurgião dentista](#7-cirurgião-dentista)
 
-* [Coordenador UBS](#\8-coordenador-ubs)
+* [Coordenador UBS](#8-coordenador-ubs)
 
-* [Coordenador AD](#\9-coordenador-ad)
+* [Coordenador AD](#9-coordenador-ad)
 
-* [Digitador](#\10-digitador)
+* [Digitador](#10-digitador)
 
-* [Enfermeiro](#\11-enfermeiro)
+* [Enfermeiro](#11-enfermeiro)
 
-* [Enfermeiro AD](#\12-enfermeiro-ad)
+* [Enfermeiro AD](#12-enfermeiro-ad)
 
-* [Escuta inicial](#\13-escuta-inicial)
+* [Escuta inicial](#13-escuta-inicial)
 
-* [Farmacêutico](#\14-farmac-utico)
+* [Farmacêutico](#14-farmacêutico)
 
-* [Gestor estadual](#\15-gestor-estadual)
+* [Gestor estadual](#15-gestor-estadual)
 
-* [Gestor municipal](#\16-gestor-municipal)
+* [Gestor municipal](#16-gestor-municipal)
 
-* [Instalador](#\17-instalador)
+* [Instalador](#17-instalador)
 
-* [Médico](#\18-m-dico)
+* [Médico](#18-médico)
 
-* [Médico AD](#\19-m-dico-ad)
+* [Médico AD](#19-médico-ad)
 
-* [Outro prof. de nível superior](#\20-outro-prof-de-n-vel-superior)
+* [Outro prof. de nível superior](#20-outro-prof-de-nível-superior)
 
-* [Outro prof. nível superior AD](#\21-outro-prof-n-vel-superior-ad)
+* [Outro prof. nível superior AD](#21-outro-prof-nível-superior-ad)
 
-* [Outro prof. nível médio técnico](#\22-outro-prof-n-vel-m-dio-t-cnico)
+* [Outro prof. nível médio técnico](#22-outro-prof-nível-médio-técnico)
 
-* [Outro prof. nível técnico AD](#\23-outro-prof-n-vel-m-dio-t-cnico-ad)
+* [Outro prof. nível técnico AD](#23-outro-prof-nível-médio-técnico-ad)
 
-* [Outro prof. nível sup. NASF](#\24-outro-prof-n-vel-sup-nasf)
+* [Outro prof. nível sup. NASF](#24-outro-prof-nível-sup-nasf)
 
-* [Recepção](#\25-recep-o)
+* [Recepção](#25-recepção)
 
-* [Técnico em saúde bucal](#\26-tsb-t-cnico-em-sa-de-bucal)
+* [Técnico em saúde bucal](#26-tsb---técnico-em-saúde-bucal)
 
 # 1. ACE - Agente de combate a endemias
 
