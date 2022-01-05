@@ -35,7 +35,7 @@ Para um bom funcionamento do aplicativo, fique atento aos requisitos mínimos do
 
 -   Memória RAM, mínimo de 1 GB (um gigabyte)
 
--   A tela recomendada é de 9 ou 10 polegadas.
+-   A tela recomendada é a partir de 5 polegadas.
 
 -   Armazenamento, mínimo de 16 GB
 
