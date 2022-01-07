@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Cadastro da Atenção Básica
-parent: e-SUS Território v.3.2
+parent: e-SUS Território v3.2
 nav_order: 4
 has_children: false
 has_toc: true
