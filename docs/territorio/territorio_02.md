@@ -5,7 +5,7 @@ parent: e-SUS Território v3.2
 nav_order: 3
 has_children: false
 has_toc: true
-last_modified_date: "01/02/2021"
+last_modified_date: "07/01/2022"
 ---
 
 
@@ -65,7 +65,7 @@ Para um bom funcionamento do aplicativo, fique atento aos requisitos mínimos do
 
 ## 2.3 Primeiro Acesso ao Aplicativo
 
-Durante o primeiro acesso, o profissional de saúde deve realizar a sincronização do aplicativo com uma instalação do Sistema e-SUS APS PEC da sua UBS. Para tanto, algumas questões devem ser observadas:
+Durante o primeiro acesso, o profissional de saúde deve realizar a sincronização do aplicativo com a instalação do Sistema e-SUS APS PEC da sua UBS. Para tanto, algumas questões devem ser observadas:
 
 1)  Deve haver uma instalação do Sistema e-SUS APS com PEC compatível com a versão do aplicativo e-SUS Território;
 
@@ -73,20 +73,17 @@ Durante o primeiro acesso, o profissional de saúde deve realizar a sincronizaç
 
 3)  Deve haver uma rede local, sem fio (wireless), com acesso à instalação do e-SUS APS PEC para que seja possível fazer a sincronização do sistema com o aplicativo;
 
-{: .nota }
-Para ter mais detalhes sobre as versões com compatibilidade entre Aplicativo e-SUS Território e o PEC do e-SUS APS acesse a área de [aplicativos do e-SUS APS](http://aps.saude.gov.br/ape/esus/download).
-
 ## 2.4 Sincronização
 
-A sincronização permite que os dados da equipe que utilizará o aplicativo, bem como os dados de cadastro do território previamente processados no PEC, quando houverem, sejam transmitidos para o aplicativo, de modo a permitir que o profissional de saúde desenvolva ações, tanto de novos cadastros, como de atualizações ou visitas domiciliares de famílias já cadastradas.
+A sincronização permite que os dados da equipe que utilizará o aplicativo, bem como os dados de cadastro do território previamente processados no PEC, quando houverem, sejam transmitidos para o aplicativo, de modo a permitir que o agente de saúde desenvolva ações, tanto de novos cadastros, como de atualizações ou visitas domiciliares de famílias já cadastradas.
 
 A tela de sincronização, conforme podemos ver na Figura 2.1, apresenta três campos de preenchimento obrigatório:
 
--   **Endereço do servidor**: deverá ser informado o endereço eletrônico do servidor (computador onde o Sistema e-SUS APS com PEC está instalado) com o qual o aplicativo realizará a sincronização (ex.: `http://www.municipio.esusab.gov.br:8080/esus` ou `http://IP_Computador:8080/esus`.
+-   **Endereço do servidor**: deverá ser informado o endereço eletrônico do servidor onde o Sistema e-SUS APS com PEC está instalado na qual o aplicativo realizará a sincronização (ex.: `http://www.municipio.esusab.gov.br:8080/esus` ou `http://IP_Computador:8080/esus`.
 
--   **Login**: CPF do profissional de saúde (uma vez feita a sincronização com o CPF do profissional de saúde esse dado não poderá ser alterado, a menos que todos os dados do aplicativo sejam apagados nas configurações dos aplicativos instalados no dispositivo).
+-   **Login**: CPF do agente de saúde (uma vez feita a sincronização com o CPF do agente de saúde esse dado não poderá ser alterado, a menos que todos os dados do aplicativo sejam apagados nas configurações dos aplicativos instalados no dispositivo).
 
--   **Senha**: a mesma senha cadastrada no PEC de sincronização.
+-   **Senha**: a mesma senha cadastrada no PEC que fará a sincronização com o aplicativo.
 
 Figura 2.2 - Tela de sincronização app e-SUS APS Território.
 
@@ -94,9 +91,9 @@ Figura 2.2 - Tela de sincronização app e-SUS APS Território.
 
 *Fonte: SAS/MS*
 
-É importante lembrar que o processo de sincronização depende de conectividade entre o tablet e a instalação PEC do e-SUS APS, seja por rede local Wi-Fi, seja via internet. Verifique com a gestão do seu município as orientações para esta configuração.  
+É importante lembrar que o processo de sincronização depende de conectividade entre o tablet/smartphone e a instalação PEC do e-SUS APS, seja por rede local Wi-Fi, seja via internet. Verifique com a gestão do seu município as orientações para esta configuração.  
 
-Após a confirmação de sucesso na primeira sincronização, caso haja cadastros na base, estes são carregados no tablet. É importante sempre manter as bases sincronizadas para garantir a integridade das bases de dados entre o tablet e o PEC. Recomenda-se que a sincronização seja feita ao menos uma vez por dia.
+Após a confirmação de sucesso na primeira sincronização, caso haja cadastros na base, estes são carregados no tablet/smartphone. É importante sempre manter as bases sincronizadas para garantir a integridade das bases de dados entre o tablet/smartphone e o PEC. Recomenda-se que a sincronização seja feita ao menos uma vez por dia.
 
 {: .atencao }
 Durante a sincronização o PEC envia apenas cadastros do território consistentes em relação aos vínculos entre responsável familiar, domicílio e logradouro. Caso alguns cadastros não sejam sincronizados em nenhuma das direções é necessário resolver estas inconsistências, seja no PEC ou no Aplicativo, para que haja 100% de sucesso neste processo.
@@ -106,11 +103,11 @@ Durante a sincronização o PEC envia apenas cadastros do território consistent
 O aplicativo grava o endereço do servidor configurado inicialmente no processo de sincronização, podendo ser modificado futuramente caso seja necessário. No entanto é impossível sincronizar com uma instalação diferente após a sincronização inicial. Para que isso seja possível os dados do aplicativo devem ser apagados manualmente. Para tal, vá até as opções de configuração do seu dispositivo Android e utilize a opção "Limpar dados", presente na sessão "aplicativos", para o aplicativo e-SUS Território. Isso irá remover todos os dados do aplicativo, permitindo então que ele seja sincronizado com outra instalação.
 
 {: .atencao }
-para garantir que nenhum dado seja perdido, faça a sincronização com a aplicação que você está usando anteriormente.
+Para garantir que nenhum dado seja perdido, faça a sincronização com a aplicação que você estava usando anteriormente.
 
 ## 2.6 Autenticação
 
-Nos próximos acessos, o aplicativo mostrará os campos "CPF" e "SENHA", como mostra a Figura 2.2.
+Nos próximos acessos, o aplicativo mostrará os campos "CPF" e "SENHA", como mostra a Figura 2.3.
 
 Figura 2.3 - Tela de autenticação, app e-SUS Território
 
@@ -120,9 +117,9 @@ Fonte: SAS/MS.
 
 A tela de autenticação apresenta dois campos de preenchimento obrigatório:
 
--   **CPF**: insira o número de CPF do profissional de saúde
+-   **CPF**: insira o número de CPF do agente de saúde
 
--   **Senha**: insira a senha do usuário, a mesma senha cadastrada no PEC o qual foi sincronizado
+-   **Senha**: insira a senha do usuário, a mesma senha cadastrada no PEC o qual foi sincronizado o aplicativo
 
 {: .nota }
-A **senha de acesso** para o Aplicativo é a mesma utilizada pelo usuário no PEC.
+A **senha de acesso** para o Aplicativo é a mesma utilizada pelo agente de saúde no PEC.

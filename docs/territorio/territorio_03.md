@@ -18,9 +18,9 @@ last_modified_date: "01/02/2021"
 - TOC
 {:toc}
 
-O cadastro da Atenção Primária é uma extensão do Cadastro Nacional do SUS (CadSUS), complementando as informações com o objetivo de apoiar as equipes de Atenção Primária no mapeamento das características sociais, econômicas e de saúde da população adscrita[^1] ao território sob sua responsabilidade.
+O cadastro da Atenção Primária à Saúde é uma extensão do Cadastro Nacional do SUS (CadSUS), complementando as informações com o objetivo de apoiar as equipes de Atenção Primária no mapeamento das características sociais, econômicas e de saúde da população adscrita[^1] ao território sob sua responsabilidade.
 
-O cadastro está organizado em quatro dimensões (domiciliar e territorial, familiar e individual) conforme detalhado nas seções a seguir.
+O cadastro está organizado em quatro dimensões (domiciliar, territorial, familiar e individual) conforme detalhado nas seções a seguir.
 
 {: .atencao }
 a partir da reestruturação do cadastro também é possível registrar domicílios que estejam vazios, e outros tipos de imóveis existentes no território.
@@ -36,37 +36,35 @@ Figura 3.1 - Lista de logradouros e domicílios, app e-SUS Território
 
 ![](media/image15.png)
 
-*Fonte: SAS/MS*
+*Fonte: SAPS/MS*
 
-Caso a base local esteja vazia, a tela apresentada na Figura 3.1 não mostrará nenhuma informação, cabendo ao profissional de saúde o início do cadastramento do território.
+Caso a base local esteja vazia, a tela apresentada na Figura 3.1 não mostrará nenhuma informação, cabendo ao agente de saúde o início do cadastramento do território.
 
 O ícone ![](media/image16.png) situado no canto inferior direito da tela é utilizado para ofertar opções de interação de acordo com as funcionalidades disponíveis na tela.
 
-O botão ![](media/image17.png) no canto superior esquerdo mostra o menu principal do aplicativo com informações sobre o profissional que está logado no aplicativo além das opções "Sincronizar", "Unificar Logradouros", "Editar Logradouro", "Sobre", "Relatórios de Território", Inconsistências da sincronização", "Trocar lotação" e "Sair".
-
-Para retornar à tela anterior utilize o ícone ![](media/image18.png).
+O botão ![](media/image17.png) no canto superior esquerdo mostra o menu principal do aplicativo com informações sobre o agente que está logado no aplicativo, além das opções "Sincronizar", "Inconsitências da Sicronização", "Mapa", "Relatórios de território", "Unificar Logradouros", "Editar Logradouro", "Sobre", "Trocar lotação", "Obter ajuda" e "Sair".
 
 Figura 3.2 - Menu principal do App e-SUS Território.
 
-![](media/image19.png)
+![](media/image120.jpg)
 
-*Fonte: SAS/MS*
+*Fonte: SAPS/MS*
 
-Ao selecionar um logradouro é possível visualizar os domicílios que estão cadastrados nesse logradouro, identificados pelo número e complemento.
+Ao selecionar um logradouro é possível visualizar os domicílios que estão cadastrados nesse logradouro, identificados pelo número do domícilio e o seu complemento informados no endereço.
 
 Figura 3.3 - Lista de imóveis.
 
 ![](media/image20.png)
 
-*Fonte: SAS/MS*
+*Fonte: SAPS/MS*
 
-Ao selecionar um domicílio é possível visualizar um resumo das suas informações de cadastro, como podemos ver na imagem abaixo. Para facilitar a identificação de situações de saúde é possível visualizar alguns marcadores que facilitam o acompanhamento do indivíduo, da família e do território. Informações como ![](media/image21.png), ![](media/image22.png) e ![](media/image23.png) serão apresentadas, conforme figura acima, para que os Agentes organizem o seu trabalho no dia a dia.
+Ao selecionar um domicílio é possível visualizar um resumo das suas informações de cadastro, como podemos ver na imagem abaixo. Para facilitar a identificação de situações de saúde é possível visualizar alguns marcadores que facilitam o acompanhamento do indivíduo, da família e do território. Informações como ![](media/image21.png), ![](media/image22.png) e ![](media/image23.png) serão apresentadas para que os agentes de saúde organizem o seu trabalho no dia a dia.
 
 Figura 3.4 - Informações do domicílio..
 
 ![](media/image24.png)
 
-*Fonte: SAS/MS*
+*Fonte: SAPS/MS*
 
 ## 3.1 Cadastro de Domicílio
 
