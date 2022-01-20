@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Instalação e Sincronização
-parent: e-SUS Território v3.2
+parent: e-SUS Território v3.3
 nav_order: 3
 has_children: false
 has_toc: true

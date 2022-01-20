@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Relatórios
-parent: e-SUS Território v3.2
+parent: e-SUS Território v3.3
 nav_order: 6
 has_children: false
 has_toc: true
-last_modified_date: "01/02/2021"
+last_modified_date: "20/01/2022"
 ---
 
 
@@ -26,7 +26,7 @@ Figura 5.1 - Tela de Menu de Contexto do Usuário.
 
 ![](media/image114.png)
 
-*Fonte: SAS/MS*
+*Fonte: SAPS/MS*
 
 O aplicativo oferece três tipos de relatórios, conforme descrito nas próximas seções.
 
@@ -38,7 +38,7 @@ Figura 5.2 - Relatórios do território da equipe: Condições de moradia
 
 ![](media/image115.png)
 
-*Fonte: SAS/MS*
+*Fonte: SAPS/MS*
 
 ## 5.2 População
 
@@ -48,14 +48,14 @@ Figura 5.3 - Relatórios do território da equipe: População
 
 ![](media/image116.png)
 
-*Fonte: SAS/MS*
+*Fonte: SAPS/MS*
 
 ## 5.3 Situação de Saúde
 
-O relatório de situação de saúde, tem o objetivo de consolidar a situação de saúde do território, com base nos cadastros individuais dos cidadãos adscritos.
+O relatório de situação de saúde, tem o objetivo de consolidar a situação de saúde do território, com base nos dados coletados na ficha de cadastro individual sobre a situação e condição de saúde do cidadãos adscritos.
 
 Figura 5.4 - Relatório do território da equipe: Situação de saúde
 
 ![](media/image117.png)
 
-*Fonte: SAS/MS*
+*Fonte: SAPS/MS*
