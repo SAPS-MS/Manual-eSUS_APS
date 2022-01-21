@@ -84,7 +84,7 @@ Figura 1.3 - Tela de acesso ao Sistema com PEC
 
 ![](media/pec_image36.png)
 
-Fonte: SAPS/MS.
+Fonte: SAPS/MS
 
 >![](media/pec_image59.png) **ATENÇÃO**: Cada profissional terá seu acesso, controle de permissões e controle de auditoria vinculado a seu login (CPF), devendo portanto, utilizar apenas seu login e senha pessoal para o uso do sistema.
 
