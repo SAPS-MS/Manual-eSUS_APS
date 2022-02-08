@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Instalação e Sincronização
-parent: e-SUS Território v3.3
+parent: e-SUS Território v3.4
 nav_order: 3
 has_children: false
 has_toc: true
@@ -77,26 +77,45 @@ Durante o primeiro acesso, o profissional de saúde deve realizar a sincronizaç
 
 A sincronização permite que os dados da equipe que utilizará o aplicativo, bem como os dados de cadastro do território previamente processados no PEC, quando houverem, sejam transmitidos para o aplicativo, de modo a permitir que o agente de saúde desenvolva ações, tanto de novos cadastros, como de atualizações ou visitas domiciliares de famílias já cadastradas.
 
-A tela de sincronização, conforme podemos ver na Figura 2.1, apresenta três campos de preenchimento obrigatório:
+A tela de sincronização apresenta três campos de preenchimento obrigatório:
 
--   **Endereço do servidor**: deverá ser informado o endereço eletrônico do servidor onde o Sistema e-SUS APS com PEC está instalado na qual o aplicativo realizará a sincronização (ex.: `http://www.municipio.esusab.gov.br:8080/esus` ou `http://IP_Computador:8080/esus`.
+-   **Endereço do servidor**: informar o endereço eletrônico do servidor onde o Sistema e-SUS APS com PEC está instalado e na qual o aplicativo realizará a sincronização (ex.: `http://www.municipio.esusab.gov.br:8080/esus` ou `http://IP_Computador:8080/esus`.
 
--   **Login**: CPF do agente de saúde (uma vez feita a sincronização com o CPF do agente de saúde esse dado não poderá ser alterado, a menos que todos os dados do aplicativo sejam apagados nas configurações dos aplicativos instalados no dispositivo).
+-   **Login**: CPF do agente de saúde (uma vez feita a sincronização com o CPF do agente de saúde esse dado não poderá ser alterado, a menos que todos os dados do aplicativo sejam deletados nas *configurações dos aplicativos* instalados do seu tablet/smartphone).
 
 -   **Senha**: a mesma senha cadastrada no PEC que fará a sincronização com o aplicativo.
 
-Figura 2.2 - Tela de sincronização app e-SUS APS Território.
-
-![](media/image10.png)
-
-*Fonte: SAS/MS*
-
-É importante lembrar que o processo de sincronização depende de conectividade entre o tablet/smartphone e a instalação PEC do e-SUS APS, seja por rede local Wi-Fi, seja via internet. Verifique com a gestão do seu município as orientações para esta configuração.  
-
-Após a confirmação de sucesso na primeira sincronização, caso haja cadastros na base, estes são carregados no tablet/smartphone. É importante sempre manter as bases sincronizadas para garantir a integridade das bases de dados entre o tablet/smartphone e o PEC. Recomenda-se que a sincronização seja feita ao menos uma vez por dia.
+{: .nota }
+O processo de sincronização depende de conectividade entre o tablet/smartphone e a instalação PEC do e-SUS APS, seja por rede local Wi-Fi, seja via internet. Verifique com a gestão do seu município as orientações para esta configuração.  
 
 {: .atencao }
 Durante a sincronização o PEC envia apenas cadastros do território consistentes em relação aos vínculos entre responsável familiar, domicílio e logradouro. Caso alguns cadastros não sejam sincronizados em nenhuma das direções é necessário resolver estas inconsistências, seja no PEC ou no Aplicativo, para que haja 100% de sucesso neste processo.
+
+### 2.4.1 Sicronizando apenas os cadastros de sua microárea
+
+{: .novidade }
+A partir da versão 3.4.0 do aplicativo e-SUS Território a funcionalidade **sincronização** possibilita que os dados de cadastro do território previamente processados na instalação PEC sejam transmitidos para o aplicativo, permitindo que o agente de saúde importe apenas os cadastros de cidadãos/famílias/domicílios/imóveis de sua microárea ao invés de sincronizar todos os dados da equipe. Essa funcionalidade acelera o processo de sincronização. 
+
+Para realizar essa ação clique em **sincronização** na tela inicial do aplicativo e em seguida aparecerá uma tela conforme a imagem abaixo. 
+
+Figura 2.1 - Tela sincronizar
+
+![](media/image128.png)
+
+**Fonte: SAPS/MS**
+
+Ao informar a microárea o aplicativo receberá do PEC os domíclios/imóveis cadastrados da microárea informada. 
+
+{: .nota }
+Caso o usuário do aplicativo não informe nenhuma microárea, o PEC enviará todos os domicílios/imóveis cadastrados na equipe, com exceção os que foram marcados como Fora de Área (FA)
+
+Quando a microárea é informada na sincronização, além do domícilio/imóvel o PEC também enviará os dados dos cidadãos/famílias da microárea informada. Dessa forma, o PEC enviará apenas cidadãos/famíiias associadas aos domicílios/imóveis cadastrados na referida microárea.
+
+{: .nota }
+Caso não tenha sido informada nenhuma microárea, o PEC enviará todos os cidadãos e famílias ativas associadas à equipe do usuário.
+
+{: .atencao }
+Após a confirmação de sucesso na primeira sincronização, caso haja cadastros na base, estes são carregados no tablet/smartphone. É importante sempre manter as bases do PEC e do aplicativo sincronizados a fim de garantir a integridade dessas bases de dados. Recomenda-se que a sincronização seja feita ao menos uma vez por dia.
 
 ## 2.5 Alterar o Servidor de Sincronização
 

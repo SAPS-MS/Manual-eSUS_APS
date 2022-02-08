@@ -1,12 +1,12 @@
 ---
 layout: default
-title: e-SUS Território v3.3
+title: e-SUS Território v3.4
 nav_order: 4
 nav_exclude: false
 has_children: true
 description: "Manual e-SUS APS"
 permalink: /docs/territorio
-last_modified_date: "07/01/2022"
+last_modified_date: "07/02/2022"
 ---
 
 e-SUS Atenção Primária à Saúde
@@ -23,7 +23,7 @@ MANUAL DE USO
 {: .text-center }
 <br>
 <br>
-(versão 3.3)
+(versão 3.4)
 {: .fs-6 }
 {: .text-center }
 <br>
@@ -76,7 +76,7 @@ Alexandre Soares de Brito, Diogo Ferreira Gonçalves
 {: .text-center }
 
 Brasil. Ministério da Saúde. Secretaria de Atenção Primária à Saúde.<br>
-e-SUS Atenção Primária à Saúde: Manual do aplicativo e-SUS Território – Versão 3.3 [recurso eletrônico] / Ministério da Saúde, Secretaria de Atenção Primária à Saúde, Secretaria Executiva. – Brasília: Ministério da Saúde, 2022.<br>
+e-SUS Atenção Primária à Saúde: Manual do aplicativo e-SUS Território – Versão 3.4 [recurso eletrônico] / Ministério da Saúde, Secretaria de Atenção Primária à Saúde, Secretaria Executiva. – Brasília: Ministério da Saúde, 2022.<br>
 <br>
 ISBN **Versão Preliminar**<br>
 Modo de acesso: <https://aps.saude.gov.br/ape/esus><br>

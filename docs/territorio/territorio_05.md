@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Relatórios
-parent: e-SUS Território v3.3
+parent: e-SUS Território v3.4
 nav_order: 6
 has_children: false
 has_toc: true

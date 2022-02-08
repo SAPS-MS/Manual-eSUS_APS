@@ -78,7 +78,7 @@ Fonte: SAPS/MS.
 
 ## 1.3 Controle de Acesso ao Sistema
 
-O Sistema e-SUS APS controla o acesso dos usuários do PEC por meio de um identificador (***login***) e uma **senha de uso pessoal**, portanto, a entrada no sistema é pessoal e individual para cada usuário, conforme pode ser visualizado na Figura 1.4.
+O Sistema e-SUS APS controla o acesso dos usuários do PEC por meio de um identificador (***login***) e uma **senha de uso pessoal**, portanto, a entrada no sistema é pessoal e individual para cada usuário, conforme pode ser visualizado na Figura 1.3.
 
 Figura 1.3 - Tela de acesso ao Sistema com PEC
 
@@ -167,7 +167,58 @@ Fonte: SAPS/MS.
 
 Após a conclusão destes passos o usuário que teve a senha bloqueada deverá acessar o sistema utilizando o número do seu CNS acrescido da palavra "esus", como senha inicial. No primeiro acesso o sistema solicitará ao usuário que troque a senha padrão por uma senha pessoal.
 
-## 1.3.3 Sou Administrador da instalação e esqueci a minha senha! O que fazer?
+## 1.3.3 Autenticação via gov.br
+
+{: .novidade }
+A autenticação eletrônica via gov.br garente maior segurança da informação. A autenticação via gov.br utiliza o serviço de integração do Login Ùnico.
+
+## 1.3.3.1 Como habilitar a autenticação via gov.br no PEC
+
+**ADMINISTRADOR MUNICIPAL DO PEC**
+Para habilitar a autenticação o município deve seguir o roteiro de integração de serviços ao Login Único do gov.br constante no [sitio eletônico do gov.br](https://manual-roteiro-integracao-login-unico.servicos.gov.br/pt/stable/solicitarconfiguracao.html).
+
+Após seguir o passo a passo descrito no Manual de integração com o Login Único, o administrador municipal receberá um "ClientID" e ""ClientSecret". 
+
+**ADMINISTRADOR DA INSTALAÇÃO**
+De posse do "ClentID" e "ClientSecret" o adminstrador da instalação deve inserir os tokens no arquivo de configuração da instalação (application.properties). Nas váriaveis:
+
+* "ClientID" deve ser inserido na váriavel "bridge.security.oauth2.client.registration.govbr.client-id";
+* "ClientSecret" deve ser inserido na váriavel "bridge.security.oauth2.client.registration.govbr.client-secret".
+
+{: .nota }
+O botão de acesso por meio do gov.br na tela de login do PEC somente estará disponível após a inserção dos tokens no arquivo de configuração descrito acima. Alem disso, é necessário que os municípios utilizem o HTTPS nas instalações para que a comunicação com o gov.br aconteça.
+
+Figura 1.6 - Tela de Login do PEC com o botão de acesso gov.br
+
+![](media/pec_image922.png)
+
+Fonte: SAPS/MS
+
+{: .atencao }
+Caso a internet esteja desabilitada o botão do gov.br não será exibido
+
+## 1.3.3.2 Fazendo login no PEC por meio do gov.br
+
+Para realizar o acesso via gov.br basta clicar no botão indicado na figura acima e o profissional de saúde será redirecionado para o site do gov.br.
+
+Figura 1.7 Tela de login do site gov.br
+
+![](media/pec_image923.png)
+
+Fonte:SAPS/MS
+
+{: .nota }
+Para realizar o login via gov.br o usuário do sistema e-SUS APS com PEC deverá criar o seu acesso digitando o CPF. Para saber mais como criar a conta gov.br acesse esse [link](https://www.gov.br/governodigital/pt-br/conta-gov-br/conta-gov-br/)
+
+Após criar o acesso ao gov.br basta digitar o CPF e senha na tela de login do site gov.br e o usuário do sistema será direcionado para o PEC.
+
+{: .atencao }
+Ao ser redirecionado para o PEC alguns cenários podem acontecer, tais como:
+* Se o usuário não possui nenhuma lotação na instalação PEC que será usada, será exibido a seguinte mensagem: "Você não possui nenhum acesso habilitado. Entre em contato com o administrador do sistema para liberar o seu acesso.";
+* Se o usuário tive no tempo de alterar a senha, neste caso o usuário será redirecionado para a tela de troca de senha;
+* Se o usuário estiver com o acesso bloqueado, por excesso de tentativas de acesso, precisará solicitar a redefinição da senha.
+
+## 1.3.4 Sou Administrador da instalação e esqueci a minha senha! O que fazer?
 
 O administrador da instalação, ao se esquecer da senha, deverá:
 
@@ -215,7 +266,7 @@ Fonte: SAPS/MS
 {: .atencao }
 Não é possível definir uma senha fora do padrão mínimo de segurança estabelecido.
 
-## 1.3.4 Preciso definir um novo responsável pela instalação, o que devo fazer?
+## 1.3.5 Preciso definir um novo responsável pela instalação, o que devo fazer?
 
 Para incluir um novo responsável pela instalação será necessário seguir os passos abaixo:
 
