@@ -28,7 +28,7 @@ A Estratégia e-SUS APS faz referência ao processo de informatização qualific
 
 Esse modelo nacional de gestão da informação na APS é definido a partir de diretrizes e requisitos essenciais que orientam e organizam o processo de reestruturação desse SIS, instituindo-se o Sistema de Informação em Saúde para a Atenção Básica (SISAB), por meio da Portaria GM/MS Nº 1.412, de 10 de julho de 2013, e a Estratégia e-SUS APS para sua operacionalização. A Estratégia e-SUS APS preconiza:
 
-- **Indentificar e Individualizar o registro**: registro individualizado das informações em saúde e identificado, por meio do Cadastro de Pessoas Físicas (CPF) ou Cartão Nacional de Saúde (CNS), para o acompanhamento dos atendimentos aos cidadãos;
+- **Identificar e Individualizar o registro**: registro individualizado das informações em saúde e identificado, por meio do Cadastro de Pessoas Físicas (CPF) ou Cartão Nacional de Saúde (CNS), para o acompanhamento dos atendimentos aos cidadãos;
 
 - **Integrar a informação por meio da Rede Nacional de Dados em Saúde (RNDS)**: integrar a RNDS enviando dados em saúde, a partir de modelos de informações padronizados;
 
