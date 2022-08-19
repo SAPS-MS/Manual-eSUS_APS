@@ -20,23 +20,6 @@ O módulo de Agenda é usado para organizar a agenda dos profissionais das unida
 - TOC
 {:toc}
 
-O módulo de **Agendamento Online** foi desenvolvido conjuntamente entre o Departamento de Saúde da Família - DESF/SAPS e o Departamento de Informática do SUS - DATASUS/SE, a fim de facilitar o acesso dos cidadãos aos serviços de Atenção Básica em todo o país. Dessa forma, foi realizado o desenvolvimento da ferramenta de Agenda Online no PEC e adequações no aplicativo "ConecteSUS Cidadão" para a efetivação desta funcionalidade.
-
-Este módulo está disponível para as equipes de Atenção Básica que utilizam o PEC do e-SUS APS, a partir da versão 3.1, e foi pensado considerando-se os avanços tecnológicos alcançados pela Estratégia e no aumento de acesso constante da população a aparelhos do tipo *smartphones*.
-
-O Agendamento Online consiste na disponibilização de horários da agenda dos profissionais da APS para esse tipo de agendamento, entendendo que esta não deve ser a forma principal ou preferencial de agendamento nas equipes, sendo assim, a equipe deve definir quais serão os horários disponíveis para esse tipo de agendamento, considerando os agendamentos para cuidado continuado e outros tipos de agendamento a serem realizados diretamente na Unidade de Saúde ou para consultas de retorno.
-
-Para uso desta funcionalidade, é necessário que a UBS tenha boa conectividade com a internet, pois utiliza-se um servidor nacional para troca de informação entre a UBS e os cidadãos que utilizam o aplicativo "ConecteSUS Cidadão".
-
-{: .atencao }
-A funcionalidade de agendamento de consulta na Atenção Básica por meio do aplicativo "ConecteSUS Cidadão" está disponível apenas para usuários que fazem parte do território de equipes de atenção básica. Para tanto é necessário que o cidadão esteja cadastrado no território da equipe através dos cadastros individual e domiciliar.
-
-{: .nota }
-A mudança de configuração da agenda pode ser realizada a qualquer momento, porém não altera os horários agendados previamente.
-
-{: .dica }
-Antes de realizar a configuração da Agenda Online realize uma conversa prévia com toda a equipe, para pactuação de estratégia de abertura desse formato de agendamento. A disponibilização de horários pode ser gradual. Atente-se para informar a população sobre essa possibilidade de agendamento.
-
 ![](media/pec_image267.png)
 
 É neste local que os profissionais das UBS poderão, dependendo do seu perfil de acesso, consultar e editar as agendas dos profissionais da unidade, ainda é possível adicionar cidadãos na agenda dos profissionais e reservar horários para reuniões ou outras atividades.
@@ -44,13 +27,11 @@ Antes de realizar a configuração da Agenda Online realize uma conversa prévia
 Para começar a utilizá-la, é necessário configurar com informações referentes ao horário de trabalho dos profissionais. Quando o profissional apresenta apenas um vínculo no CNES, a agenda virá com uma formatação padrão de atendimentos (dias e horário de trabalho) que pode ser alterada. A configuração da agenda está disponível unicamente para os profissionais com **perfil de coordenação**. No Capítulo 3, você encontra mais informações sobre a configuração da agenda do profissional.
 
 {: .nota }
-antes de utilizar a agenda, é necessário que o coordenador verifique a agenda dos profissionais (ver seção 3.4.5), caso esta não esteja disponível.
+Antes de utilizar a agenda, é necessário que o coordenador se cerifique sobre a configuração da agenda dos profissionais (ver seção 3.4.5), e realize a adequação, caso necessário.
 
-Para o profissional utilizar a agenda para gestão dos atendimentos, deverá primeiramente clicar na opção "Agenda", após o sistema exibirá a tela da agenda, conforme a Figura 5.1, abrindo na data e no período atual do acesso.
+Para o profissional utilizar a agenda para gestão dos atendimentos, deverá primeiramente clicar na opção "Agenda", após o sistema exibirá a tela da agenda, conforme a Figura 5.1, abrindo na data atual do acesso.
 
-Para visualizar os horários de outros períodos, basta clicar nos links (1) "1° período", \"2° período\", "3°período" ou "4° período", (conforme configuração realizada pelo administrador da instalação) localizados acima da lista de horários ![](media/pec_image268.png), em destaque, o período selecionado na agenda.
-
-Para visualizar os horários de outro dia do mês, basta clicar no calendário no dia desejado, por exemplo, dia 22, ![](media/pec_image269.png). Para retornar à data atual, clique em "Hoje" ![](media/pec_image270.png), ou no dia em destaque ![](media/pec_image271.png).
+Para visualizar os horários, basta clicar na data desejada na agenda. Para visualizar os horários de outro dia do mês, basta clicar no calendário no dia desejado, por exemplo, dia 22, ![](media/pec_image269.png). Para retornar à data atual, clique em "Hoje" ![](media/pec_image270.png), ou no dia em destaque ![](media/pec_image271.png).
 
 Figura 5.1 - Tela da agenda
 
@@ -66,7 +47,7 @@ Para agendar uma consulta, basta seguir os passos:
 
 ![](media/pec_image273.png)
 
-- Passo 2. Selecione a data do agendamento. É possível trocar o mês, clicando nas setas![](media/pec_image274.png) ![](media/pec_image274.png).
+- Passo 2. Selecione a data do agendamento. É possível trocar o mês, clicando nas setas ![](media/pec_image274.png).
 
 ![](media/pec_image275.png)
 
@@ -78,7 +59,7 @@ Figura 5.2 - Agendar/Reservar Horários
 
 ![](media/pec_image277.png)
 
-Fonte: SAS/MS.
+Fonte: SAPS/MS.
 
 - Passo 4. Selecione o tipo de agendamento, clicando na opção "Consulta" ou "Reserva";
 
@@ -86,11 +67,11 @@ Fonte: SAS/MS.
 
 - Passo 6. Selecione o cidadão (o nome do cidadão somente aparecerá caso já esteja cadastrado);
 
-- Passo 7. Se o cidadão não estiver cadastrado, clique no ícone "Cadastrar novo cidadão" ![](media/pec_image278.png) e preencha com os dados solicitados;
+- Passo 7. Se o cidadão não estiver cadastrado, clique no ícone "Cadastrar cidadão" ![](media/pec_image278.png) e preencha com os dados solicitados;
 
 - Passo 8. Caso necessário, é possível usar o campo "Observações" para fazer alguma anotação prévia sobre a consulta;
 
-- Passo 9. Clique em "Salvar" ![](media/pec_image279.png). O nome do cidadão será incluído na agenda com a legenda "Agendado", conforme a figura abaixo:
+- Passo 9. Clique em "Salvar" ![](media/pec_image279.png). O nome do cidadão será incluído na agenda, conforme a figura abaixo:
 
 ![](media/pec_image280.png)
 
@@ -100,15 +81,17 @@ Quando a funcionalidade do Agendamento Online está ativada, todo agendamento sa
 Conforme os agendamentos são realizados para as datas futuras, a agenda do profissional vai sendo preenchida nos horários escolhidos. Este agendamento pode ser realizado pelo recepcionista da UBS, pelo próprio profissional ao finalizar a escuta inicial ou ao finalizar o atendimento, ou ainda, por outros profissionais da equipe.
 
 {: .nota }
-buscando fortalecer o planejamento da equipe em relação às demandas dos cidadãos no território, o sistema só permite criar um agendamento para consulta ou reserva em horários posteriores ao atual. Por exemplo, caso esteja criando um agendamento às 14h27 do dia corrente, só será possível criar um agendamento nesse dia a partir desse horário (14h40, 15h00,\...), ou nos dias subsequentes.
+Buscando fortalecer o planejamento da equipe em relação às demandas dos cidadãos no território, o sistema só permite criar um agendamento para consulta ou reserva em horários posteriores ao atual. Por exemplo, caso esteja criando um agendamento às 14h27 do dia corrente, só será possível criar um agendamento nesse dia a partir desse horário (14h40, 15h00,\...).
 
-Após ser realizada a configuração da agenda da equipe com os horários disponíveis para Agendamento Online, os mesmos serão apresentados na agenda da seguinte forma:
+Após ser realizada a configuração da agenda da equipe com os horários disponíveis para Agendamento Online, os mesmos serão apresentados bloqueados na agenda da seguinte forma:
 
 ![](media/pec_image281.png)
 
 A partir do agendamento, o sistema oferece algumas opções para fazer o controle do agendamento:
 
-- "Adicionar cidadão na lista de atendimentos" ![](media/pec_image282.png)
+- "Visualizar prontuário" ![](media/pec_image282.png)
+
+- "Adicionar cidadão na lista de atendimentos" ![](media/pec_image924.png)
 
 - "Informar falta do cidadão" ![](media/pec_image283.png)
 
@@ -116,9 +99,12 @@ A partir do agendamento, o sistema oferece algumas opções para fazer o control
 
 - Visualizar agendamento e dados do cidadão (clicando sobre o nome do cidadão)
 
-Além dessas funcionalidades ainda é possível, pesquisar os agendamentos por cidadão e a função "Visualizar prontuário" ![](media/pec_image285.png). Quando necessária esta visualização está disponível para os profissionais de saúde.
+![](media/pec_image925.png)
 
-Para os horários configurados para agendamento online, não é possível realizar outra forma de agendamento, a opção possível é apenas de reserva da agenda pelos seguintes motivos: atendimento externo, atividade coletiva, reunião ou outro.
+Além dessas funcionalidades ainda é possível, pesquisar os agendamentos por cidadão, conforme figura:
+![](media/pec_image926.png). 
+
+Para os horários configurados para agendamento online, não é possível realizar outra forma de agendamento, a opção possível é apenas de reservar da agenda pelos seguintes motivos: atendimento externo, atividade coletiva, reunião ou outro....
 
 ## 5.1.1 Agendar atendimento fora da UBS
 
@@ -161,7 +147,26 @@ O agendamento apresenta a situação atual em que se encontra, por exemplo, como
 
 - **Cancelado**: agendamento foi cancelado.
 
-### 5.1.3.1 Sincronização com Agenda Online do e-SUS APS
+## 5.1.4 Agendamento Online
+
+O módulo de **Agendamento Online** foi desenvolvido conjuntamente entre o Departamento de Saúde da Família - DESF/SAPS e o Departamento de Informática do SUS - DATASUS/SE, a fim de facilitar o acesso dos cidadãos aos serviços de Atenção Básica em todo o país. Dessa forma, foi realizado o desenvolvimento da ferramenta de Agenda Online no PEC e adequações no aplicativo "ConecteSUS Cidadão" para a efetivação desta funcionalidade.
+
+Este módulo está disponível para as equipes de Atenção Básica que utilizam o PEC do e-SUS APS, a partir da versão 3.1, e foi pensado considerando-se os avanços tecnológicos alcançados pela Estratégia e no aumento de acesso constante da população a aparelhos do tipo *smartphones*.
+
+O Agendamento Online consiste na disponibilização de horários da agenda dos profissionais da APS para esse tipo de agendamento, entendendo que esta não deve ser a forma principal ou preferencial de agendamento nas equipes, sendo assim, a equipe deve definir quais serão os horários disponíveis para esse tipo de agendamento, considerando os agendamentos para cuidado continuado e outros tipos de agendamento a serem realizados diretamente na Unidade de Saúde ou para consultas de retorno.
+
+Para uso desta funcionalidade, é necessário que a UBS tenha boa conectividade com a internet, pois utiliza-se um servidor nacional para troca de informação entre a UBS e os cidadãos que utilizam o aplicativo "ConecteSUS Cidadão".
+
+{: .atencao }
+A funcionalidade de agendamento de consulta na Atenção Básica por meio do aplicativo "ConecteSUS Cidadão" está disponível apenas para usuários que fazem parte do território de equipes de atenção básica. Para tanto é necessário que o cidadão esteja cadastrado no território da equipe através dos cadastros individual e domiciliar.
+
+{: .nota }
+A mudança de configuração da agenda pode ser realizada a qualquer momento, porém não altera os horários agendados previamente.
+
+{: .dica }
+Antes de realizar a configuração da Agenda Online realize uma conversa prévia com toda a equipe, para pactuação de estratégia de abertura desse formato de agendamento. A disponibilização de horários pode ser gradual. Atente-se para informar a população sobre essa possibilidade de agendamento.
+
+### 5.1.4.1 Sincronização com Agenda Online do e-SUS APS
 
 A visualização do agendamento, quando a instalação está com a sincronização com o Servidor de Agenda do e-SUS APS habilitado (ver Seção 3.1.10) apresentará um status de sincronização ![](media/pec_image289.png), como podemos ver na Figura 5.3.
 
@@ -191,7 +196,7 @@ Os *status* de sincronização possíveis são:
 
 - **Inelegível**: quando for um agendamento de Atenção Domiciliar ou reserva de horário.
 
-## 5.1.4 Cancelar agendamento
+## 5.1.5 Cancelar agendamento
 
 Para cancelar um agendamento, clique no ícone "Cancelar agendamento" ![](media/pec_image284.png).
 
@@ -214,11 +219,11 @@ Figura 5.7 - Visualizar detalhes do agendamento Cancelado
 
 Fonte: SAS/MS.
 
-## 5.1.5 Informar que o Cidadão faltou
+## 5.1.6 Informar que o Cidadão faltou
 
 Para informar a falta de um cidadão, clique no ícone "Clique para informar que o cidadão faltou" ![](media/pec_image293.png). Ele não poderá ser atendido e ficará com registro de falta no atendimento. O nome do cidadão será visualizado na agenda com a legenda "Não compareceu". Esse procedimento pode ser revertido somente no dia do atendimento ao clicar no ícone "Cidadão faltou". Em seguida, clique para indicar que o cidadão chegou" ![](media/pec_image294.png).
 
-## 5.1.6 Pesquisar por cidadão
+## 5.1.7 Pesquisar por cidadão
 
 Para identificar os agendamentos por cidadão, siga os passos:
 
@@ -240,7 +245,7 @@ para visualizar o histórico de agendamento, clique na opção "Mostrar agendame
 {: .dica }
 quando o profissional que estiver consultando os agendamentos do cidadão quiser visualizar apenas os da sua agenda, basta clicar na opção "somente os meus".
 
-## 5.1.7 Visualizar prontuário
+## 5.1.8 Visualizar prontuário
 
 Para visualizar o prontuário do cidadão, clique no ícone ![](media/pec_image285.png). Caso o profissional deseje **visualizar o prontuário** direto na agenda, é obrigatório o registro de uma justificativa para o acesso a estas informações clínicas fora do atendimento presencial, ou seja, na ausência do cidadão no momento da consulta. Esta justificativa fica gravada no banco de dados para posterior uso, no caso de auditoria, em relação ao sigilo dos dados clínicos sensíveis do cidadão, garantindo assim a sua privacidade e segurança. Para mais informações sobre o prontuário, veja o Capítulo 6.
 
