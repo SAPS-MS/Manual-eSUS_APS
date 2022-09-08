@@ -108,7 +108,7 @@ Para os horários configurados para agendamento online, não é possível realiz
 
 ## 5.1.1 Agendar atendimento fora da UBS
 
-Para utilizar o recurso de adicionar o cidadão na agenda para os atendimentos a serem realizados fora da UBS, basta seguir o passo a passo de agendar uma consulta, descrita no capítulo 5.1. Entretanto, para esta funcionalidade, deverá ser clicado no box \"Fora da UBS\" e selecionar o local de atendimento, observe a figura 5.2. Após salvar o agendamento apresentará a mensagem com a hora em que foi marcado, o nome do cidadão e a mensagem \"AGENDAMENTO FORA DA UBS\", conforme a figura abaixo.
+Para utilizar o recurso de adicionar o cidadão na agenda para os atendimentos a serem realizados fora da UBS, basta seguir o passo a passo de agendar uma consulta, descrita no capítulo 5.1. Entretanto, para esta funcionalidade, clique no box \"Atendimento fora da UBS\" e selecionar o local de atendimento, observe a figura 5.2. Após salvar o agendamento apresentará a mensagem com a hora em que foi marcado, o nome do cidadão e a mensagem \"AGENDAMENTO FORA DA UBS\", conforme a figura abaixo.
 
 Figura 5.3 - Agendamento fora da UBS
 
@@ -116,24 +116,26 @@ Figura 5.3 - Agendamento fora da UBS
 
 {: .dica }
 Quando o cidadão é colocado na agenda como agendamento fora da UBS, automaticamente aparecerá na lista de registro tardio de atendimento no dia agendado. Para saber mais sobre o registro tardio de atendimento consulte o capítulo 6.6.
+![](media/pec_image927.png)
 
 ## 5.1.2 Adicionar Cidadão na Lista de Atendimentos
 
 Para incluir o cidadão na lista de atendimentos, clique no ícone "Adicionar cidadão na lista de atendimentos" ![](media/pec_image282.png). O cidadão será incluído na lista, a legenda será "Cidadão presente na unidade".
 
 Para que seja possível realizar o atendimento deste cidadão, o profissional deve ir para o módulo "Atendimentos", onde será possível visualizar a lista dos pacientes agendados que estão presentes na unidade.
+![](media/pec_image928.png)
 
 ## 5.1.3 Visualizar Agendamento e Dados do Cidadão
 
 Para visualizar os detalhes do agendamento do cidadão e dados básicos do cidadão, clique sobre o nome do cidadão. Será apresentado o resumo do agendamento, inclusive, qual o profissional que registrou o agendamento conforme a Figura 5.2. Nesta visualização, é possível acessar o cadastro completo do cidadão por meio da opção \"Ver cadastro completo do cidadão\".
 
-￼￼Figura 5.4 - Visualizar detalhes do agendamento
+Figura 5.4 - Visualizar detalhes do agendamento
 
 ![](media/pec_image287.png)
 
 Fonte: SAS/MS.
 
-O agendamento apresenta a situação atual em que se encontra, por exemplo, como vemos na Figura 5.2 o *status* de "Agendado" ![](media/pec_image288.png). Os *status* disponíveis para o agendamento são:
+Através da agenda, é possível identificar a situação do agendamento:
 
 - **Agendado**: cidadão tem um agendamento;
 
