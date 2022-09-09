@@ -358,7 +358,7 @@ Para registrar uma vacina aplicada siga as seguintes etapas:
 
 1\. É possível visualizar o calendário vacinal de acordo com o ciclo de vida (criança, adolescente, adulto e idoso) ou pelo calendário nacional completo;
 
-2\. Clique sobre a "Dose" do imunobiológico que será administrado. Após será aberta uma nova tela "ADICIONAR VACINAÇÃO" conforme a figura 6.3.4:
+2\. Clique sobre a dose do imunobiológico que será administrado. Após será aberta uma nova tela "ADICIONAR VACINAÇÃO" conforme a figura 6.3.4:
 
 ![](media/pec_image348.png)
 
