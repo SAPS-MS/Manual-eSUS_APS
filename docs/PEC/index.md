@@ -22,7 +22,7 @@ MANUAL DE USO
 {: .text-center }
 <br>
 <br>
-(versão 4.3)
+(versão 5.0)
 {: .fs-6 }
 {: .text-center }
 <br>
