@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Atendimentos
-parent: Prontuário Eletrônico do Cidadão v4.3
+parent: Prontuário Eletrônico do Cidadão v5.0
 nav_order: 8
 has_children: false
 has_toc: true
-last_modified_date: "20/07/2021"
+last_modified_date: "09/09/2022"
 ---
 
 # CAPÍTULO 6 - Atendimentos
@@ -84,7 +84,7 @@ Fonte: SAPS/MS
 {: .nota }
 os **tipos de serviços** mostrados no filtro rápido são os que foram cadastrados, no momento da configuração, para a unidade de saúde. Para mais informações sobre tipo de serviço, ver seção 3.3.1.
 
-Se for preenchido mais de um campo para pesquisa, a lista de atendimento resultante conterá apenas os registros que contemplem todos os filtros simultaneamente. O sistema também apresenta em formato de *tags* identificando as opções utilizadas para a filtragem da lista de atendimento, como observado na figura a seguir:
+Se for preenchido mais de um campo para pesquisa, a lista de atendimento resultante conterá apenas os registros que contemplem todos os filtros simultaneamente. O sistema também apresenta as opções utilizadas para a filtragem da lista de atendimento, como observado na figura a seguir:
 
 ![](media/pec_image313.png)
 
@@ -94,8 +94,6 @@ Caso o profissional deseje retornar os filtros para o padrão, basta clicar no b
 a lista com os cidadãos para atendimento, por padrão, apresenta os atendimentos do dia, filtrando os cidadãos com *status* "Atendimento realizado" e ou que "Não aguardou o atendimento".
 
 A lista de atendimentos apresenta informações sobre a hora de chegada, nome do cidadão, profissional e tipo de serviço. A barra colorida no canto esquerdo da lista indica o *status* daquele atendimento, e as cores estão relacionadas com o quadro do "Status atendimento", que se encontra no ícone da pesquisa e filtro ![](media/pec_image309.png).
-
-![](media/pec_image314.png)
 
 Outra funcionalidade para auxiliar na organização do atendimento é o \"**Ordenar por**\", recurso que permite ao usuário a escolha da ordenação dos registros na lista.
 
@@ -141,7 +139,7 @@ ao imprimir a declaração de comparecimento do cidadão, certifique-se de que o
 
 ![](media/pec_image322.png) **Excluir**: excluir cidadão da lista de atendimento. Esta opção estará habilitada apenas se o registro não possuir referências, ou seja, se o atendimento já tiver sido iniciado, não será possível realizar a exclusão.
 
-## 6.1.1 Adicionar um Novo Atendimento à Lista
+## 6.1.1 Adicionar um Novo Cidadão à Listade Atendimentos
 
 Além dos atendimentos agendados para os profissionais da unidade de saúde, é possível a inclusão no sistema dos cidadãos, que procuram o serviço de saúde por demanda espontânea. Para mais informações sobre demanda espontânea, ver [**CAB 28 - Acolhimento à Demanda Espontânea Volume I**](http://aps.saude.gov.br/biblioteca/index).
 
@@ -153,7 +151,7 @@ Para adicionar um cidadão à lista de atendimento por demanda espontânea, siga
 
 Figura 6.1.6 - Adicionar cidadão na Lista de Atendimento
 
-![](media/pec_image324.png)
+![](media/pec_image306.png)
 
 Fonte: SAPS/MS
 
@@ -217,7 +215,7 @@ O perfil de escuta inicial poderá ser habilitado para os profissionais a depend
 {: .nota }
 Só é permitido realizar uma escuta para cada atendimento, e não é permitida a exclusão, nem a adição de informações após a finalização do atendimento.
 
-Ao clicar na opção ![](media/pec_image332.png) \"**Realizar escuta inicial**\", disponível na tela da lista de atendimentos, será exibida uma tela, conforme a Figura 6.1.11
+Ao clicar na opção ![](media/pec_image318.png) \"**Realizar escuta inicial**\", disponível na tela da lista de atendimentos, será exibida uma tela, conforme a Figura 6.1.11
 
 Figura 6.2 - Ferramentas para realizar escuta Inicial
 
@@ -228,7 +226,7 @@ Fonte: SAPS/MS.
 Na tela de escuta inicial, os campos "**Motivo da consulta (CIAP2)**", "**Classificação de risco/vulnerabilidade**" e "**Desfecho da escuta inicial**" são obrigatórios.
 
 {: .nota }
-a ferramenta de escuta inicial também permite o registro de "pré-atendimento" (opção ![](media/pec_image332.png) \"**Realizar pré-atendimento**\" na lista de atendimento) quando for uma consulta agendada, entretanto a funcionalidade "**Classificação de risco/vulnerabilidade**" não estará disponível.
+A ferramenta de escuta inicial também permite o registro de "pré-atendimento" (opção ![](media/pec_image318.png) \"**Realizar pré-atendimento**\" na lista de atendimento) quando for uma consulta agendada, entretanto a funcionalidade "**Classificação de risco/vulnerabilidade**" não estará disponível, pois consultas agendadas são consideradas como "não agudo".
 
 Para fazer o registro da escuta inicial, siga os passos:
 
@@ -244,7 +242,14 @@ Figura 6.2.1 - Antropometria, Sinais Vitais e Glicemia
 
 Fonte: SAPS/MS
 
-- Passo 4: Informe a classificação de risco/vulnerabilidade. Esta classificação permite aos profissionais a priorização dos casos mais urgentes ou que requerem atendimento imediato, permitindo a ordenação da lista por prioridade no atendimento;
+- Passo 4: Informe os procedimentos realizados na escuta inicial, caso algum procedimento complementar tenha sido executado;
+
+![](media/pec_image336.png)
+
+{: .nota }
+Se forem preenchidos os grupos **Antropometria**, no que se refere a peso e altura, **Sinais vitais** e **Glicemia**, os procedimentos que correspondem a essas ações serão inseridos no grupo **Procedimentos realizados** automaticamente.
+
+- Passo 5: Informe a classificação de risco/vulnerabilidade. Esta classificação permite aos profissionais a priorização dos casos mais urgentes ou que requerem atendimento imediato, permitindo a ordenação da lista por prioridade no atendimento;
 
 ![](media/pec_image335.png)
 
@@ -265,13 +270,6 @@ A classificação de risco/vulnerabilidade é um campo de preenchimento obrigat�
 {: .dica }
 Ao fazer a classificação de risco/vulnerabilidade e encaminhar o cidadão para atendimento no dia, o sistema exibe essa informação na lista de atendimento, após finalizar a escuta inicial, para auxiliar na organização e fluxo do atendimento.
 
-- Passo 5: Informe os procedimentos realizados na escuta inicial, caso algum procedimento complementar tenha sido executado;
-
-![](media/pec_image336.png)
-
-{: .nota }
-Se forem preenchidos os grupos **Antropometria**, no que se refere a peso e altura, **Sinais vitais** e **Glicemia**, os procedimentos que correspondem a essas ações serão inseridos no grupo **Procedimentos realizados** automaticamente.
-
 - Passo 6: Faça o Desfecho da Escuta Inicial do cidadão escolhendo uma das ações a seguir:
 
 - **liberar cidadão**: libera o cidadão da lista de atendimentos, para os casos em que o problema foi resolvido na própria escuta inicial ou nos casos em que se possa agendar uma consulta;
@@ -289,7 +287,7 @@ Caso o cidadão seja incluído na lista de atendimento para a aplicação de vac
 
 - **agendar consulta**: Para os casos em que o problema não foi resolvido na escuta inicial e há a necessidade de agendar uma consulta para um profissional, na data, turno e horário disponível. Na agenda do profissional, será adicionada esta nova consulta.
 
-Figura 6.2.3 - Desfecho da escuta inicial
+Figura 6.2.3 - Agendar Cidadão
 
 ![](media/pec_image338.png)
 

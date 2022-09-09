@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Cidadão
-parent: Prontuário Eletrônico do Cidadão v4.3
+parent: Prontuário Eletrônico do Cidadão v5.0
 nav_order: 6
 has_children: false
 has_toc: true
-last_modified_date: "02/02/2021"
+last_modified_date: "09/09/2022"
 ---
 
 
@@ -149,7 +149,7 @@ Figura 4.19 - Tela para justificar acesso ao prontuário
 
 ## 4.2.4 Ver agendamentos
 
-Na opção **Ver agendamentos** é possível visualizar a lista com as informações das vezes que o cidadão foi incluído na agenda da UBS, indicando data e hora do seu agendamento, nome do profissional, CBO e observações. Cada item é apresentado com uma indicação da situação do agendamento (Agendado, Não compareceu, Não aguardou e Atendimento realizado).
+Na opção **Ver agendamentos** é possível visualizar a lista com as informações das vezes que o cidadão foi incluído na agenda da UBS, indicando data e hora do seu agendamento, nome do profissional, CBO e observações. Neste bloco são apresentados os agendamentos futuros do cidadão, além da opção "ver somente os meus", onde são apresentados somente os agendamentos para o profissional que está realizando a ação.
 
 Figura 4.18 - Tela de Agendamentos do cidadão
 

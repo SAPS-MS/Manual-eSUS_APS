@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Instalação do Sistema
-parent: Prontuário Eletrônico do Cidadão v4.3
+parent: Prontuário Eletrônico do Cidadão v5.0
 nav_order: 4
 has_children: false
 has_toc: true
-last_modified_date: "05/07/2021"
+last_modified_date: "09/09/2022"
 ---
 
 # CAPÍTULO 2 - Instalação do Sistema
