@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Agenda
-parent: Prontuário Eletrônico do Cidadão v4.3
+parent: Prontuário Eletrônico do Cidadão v5.0
 nav_order: 7
 has_children: false
 has_toc: true
-last_modified_date: "02/02/2021"
+last_modified_date: "09/09/2022"
 ---
 
 
@@ -172,7 +172,7 @@ Antes de realizar a configuração da Agenda Online realize uma conversa prévia
 
 A visualização do agendamento, quando a instalação está com a sincronização com o Servidor de Agenda do e-SUS APS habilitado (ver Seção 3.1.10) apresentará um status de sincronização ![](media/pec_image289.png), como podemos ver na Figura 5.3.
 
-￼￼Figura 5.5 - Visualizar detalhes do agendamento com sincronização
+Figura 5.5 - Visualizar detalhes do agendamento com sincronização
 
 ![](media/pec_image290.png)
 
@@ -207,7 +207,7 @@ caso o horário marcado já tenha passado, não será possível excluir o agenda
 
 Para efetivar o cancelamento, é necessário preencher uma justificativa, conforme mostrado na Figura 5.4. Para concluir clique em "Salvar" ![](media/pec_image279.png).
 
-￼￼Figura 5.6 - Tela de justificativa para cancelar o agendamento
+Figura 5.6 - Tela de justificativa para cancelar o agendamento
 
 ![](media/pec_image291.png)
 
@@ -239,17 +239,14 @@ Para identificar os agendamentos por cidadão, siga os passos:
 
 - Passo 3. Serão apresentados os agendamentos realizados para o cidadão selecionado, com data e hora, nome do profissional, CBO e observações.
 
-![](media/pec_image297.png)
-
-{: .nota }
-para visualizar o histórico de agendamento, clique na opção "Mostrar agendamentos anteriores".
+![](media/pec_image290.png)
 
 {: .dica }
 quando o profissional que estiver consultando os agendamentos do cidadão quiser visualizar apenas os da sua agenda, basta clicar na opção "somente os meus".
 
 ## 5.1.8 Visualizar prontuário
 
-Para visualizar o prontuário do cidadão, clique no ícone ![](media/pec_image285.png). Caso o profissional deseje **visualizar o prontuário** direto na agenda, é obrigatório o registro de uma justificativa para o acesso a estas informações clínicas fora do atendimento presencial, ou seja, na ausência do cidadão no momento da consulta. Esta justificativa fica gravada no banco de dados para posterior uso, no caso de auditoria, em relação ao sigilo dos dados clínicos sensíveis do cidadão, garantindo assim a sua privacidade e segurança. Para mais informações sobre o prontuário, veja o Capítulo 6.
+Para visualizar o prontuário do cidadão, clique no ícone ![](media/pec_image282.png). Caso o profissional deseje **visualizar o prontuário** direto na agenda, é obrigatório o registro de uma justificativa para o acesso a estas informações clínicas fora do atendimento presencial, ou seja, na ausência do cidadão no momento da consulta. Esta justificativa fica gravada no banco de dados para posterior uso, no caso de auditoria, em relação ao sigilo dos dados clínicos sensíveis do cidadão, garantindo assim a sua privacidade e segurança. Para mais informações sobre o prontuário, veja o Capítulo 6.
 
 # 5.2 Reservar horários na agenda do profissional
 
@@ -264,7 +261,7 @@ Para fazer uma reserva de horário na agenda, siga os passos:
 
 - Passo 2. Clique no horário que deseja reservar. O sistema se apresentará de acordo com a Figura 3.8;
 
-Figura 5.8 - Visualizar detalhes da agenda
+Figura 5.8 - Realizar reserva na agenda
 
 ![](media/pec_image301.png)
 
@@ -292,7 +289,7 @@ Fonte: SAS/MS.
 
 # 5.3 Imprimir a Agenda do Profissional
 
-É possível realizar a impressão da agenda dos profissionais individualmente, para um determinado dia da agenda. Para isto basta selecionar a data do dia desejado, por meio do calendário, e clicar no botão "imprimir" ![](media/pec_image303.png). A impressão apresenta, além da identificação do profissional, a lista de agendamentos com o horário, e os dados de identificação dos cidadãos agendados. Também apresenta as informações em relação a reserva de agenda para atividades previstas.
+É possível realizar a impressão da agenda dos profissionais individualmente, para um determinado dia da agenda. Para isto basta selecionar a data desejada, por meio do calendário, e clicar no botão "imprimir" ![](media/pec_image183.png). A impressão apresenta, além da identificação do profissional, a lista de agendamentos com o horário, e os dados de identificação dos cidadãos agendados. Também apresenta as informações em relação a reserva de agenda para atividades previstas.
 
 Figura 5.10 - Impressão da agenda
 

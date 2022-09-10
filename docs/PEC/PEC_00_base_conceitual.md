@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Base Conceitual do Sistema
-parent: Prontuário Eletrônico do Cidadão v4.3
+parent: Prontuário Eletrônico do Cidadão v5.0
 nav_order: 2
 has_children: false
 has_toc: true
-last_modified_date: "02/07/2021"
+last_modified_date: "09/09/2022"
 ---
 
 
@@ -52,7 +52,7 @@ A estratégia é composta por dois grandes SIS, um para o armazenamento dos dado
 
 - Sistema com Prontuário Eletrônico do Cidadão (**PEC**), sistema com prontuário eletrônico (objeto deste manual), que tem como principal objetivo apoiar o processo de informatização das UBS.
 
-- Aplicativo e-SUS Território (**e-SUS Território**) e e-SUS Atividade Coletiva (**e-SUS AC**), aplicativos móveis e offline que auxiliam os profissionais na coleta de dados no território e na coleta de dados das atividades coletivas realizadas pela equipe fora da unidade básica de saúde, respectivamente.  
+- Aplicativo e-SUS Território (**e-SUS Território**) e e-SUS Atividade Coletiva (**e-SUS AC**), e-SUS Vacinação (**e-SUS Vacinação**) e Gestão e-SUS APS (**Gestão e-SUS APS**)aplicativos móveis que auxiliam os profissionais na coleta de dados em ações realizadas pela equipe fora da unidade básica de saúde, além de apresentar dados sincronizados com a base federal.  
 
 {: .nota }
 Para conhecer mais sobre os aplicativos consulte os Manuais destas aplicações.
@@ -85,7 +85,7 @@ Essas regras de versionamento permitem que os administradores do sistema e-SUS A
 
 - **Manutenções Corretivas** (C): proceder com a atualização **urgentemente**, a fim de manter o sistema *seguro* e com *correções de pequenas falhas de desenvolvimento* do sistema ou de alguma biblioteca;
 
-Considerando esta política de controle de versão, para identificar uma versão do Sistema e-SUS APS é possível fazê-lo usando apenas o primeiro e o segundo dígito, por exemplo, Sistema e-SUS APS versão 4.2. O último dígito pode ser omitido, pois não identifica nenhuma funcionalidade ou manutenção evolutiva. O terceiro dígito é útil quando for necessário identificar alguma versão específica e para identificar uma versão do sistema em uma solicitação de [suporte técnico](http://esusaps.bridge.ufsc.br/support/login).
+Considerando esta política de controle de versão, para identificar uma versão do Sistema e-SUS APS é possível fazê-lo usando apenas o primeiro e o segundo dígito, por exemplo, Sistema e-SUS APS versão 4.2. O último dígito pode ser omitido, pois não identifica nenhuma funcionalidade ou manutenção evolutiva. O terceiro dígito é útil quando for necessário identificar alguma versão específica e para identificar uma versão do sistema em uma solicitação de [suporte técnico](https://esusaps.freshdesk.com/support/login).
 
 # 3. Cadastro na Atenção Primária à Saúde
 
@@ -321,7 +321,7 @@ Ainda prevendo o acesso à saúde da população LGBT sem impedimentos no sistem
 
 O Termo de Uso e Condições Gerais do Sistema e-SUS APS, é um termo de aceitação obrigatória. Este tem como principal objetivo, esclarecer os direitos e obrigações entre usuário e fornecedor do software, além de, esclarecer alguns pontos importantes sobre a responsabilidade do profissional de saúde em relação a privacidade do cidadão. O texto do termo disponível no sistema está descrito a seguir:
 
-Este documento busca esclarecer os direitos e obrigações do fornecedor e do usuário do Sistema e-SUS Atenção Básica (e-SUS APS), bem como as condições da correta utilização do referido sistema.
+Este documento busca esclarecer os direitos e obrigações do fornecedor e do usuário do Sistema e-SUS Atenção Primária (e-SUS APS), bem como as condições da correta utilização do referido sistema.
 
 "Ao utilizar o e-SUS APS você se torna um **USUÁRIO**, e isso implica a aceitação plena e sem reserva de todos os itens do presente **TERMO**.
 
