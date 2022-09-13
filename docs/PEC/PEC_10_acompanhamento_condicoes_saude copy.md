@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Acompanhamento de condições de saúde
-parent: Prontuário Eletrônico do Cidadão v4.3
+parent: Prontuário Eletrônico do Cidadão v5.0
 nav_order: 12
 has_children: false
 has_toc: true
