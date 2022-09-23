@@ -8,7 +8,7 @@ has_toc: true
 last_modified_date: "09/09/2022"
 ---
 
-# CAPÍTULO 2 - Instalação do Sistema.
+# CAPÍTULO 2 - Instalação do Sistema
 {: .no_toc }
 
 Neste capítulo, abordaremos as questões pertinentes ao processo de instalação do Sistema e-SUS APS.
