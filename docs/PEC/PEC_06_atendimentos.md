@@ -642,23 +642,19 @@ Figura 6.4 - Tela do Prontuário Eletrônico do Cidadão
 
 Fonte: SAPS/MS
 
-É por meio do PEC que o profissional de saúde poderá efetuar o registro da consulta, utilizando principalmente, o modelo de Registro Clínico Orientado a Problemas (RCOP), sendo possível acessar as seguintes ferramentas:
+É por meio do PEC que o profissional de saúde poderá efetuar o registro da consulta, utilizando principalmente, o modelo de Registro Clínico Orientado a Problemas (RCOP), sendo possível acessar em diferentes abas as seguintes ferramentas:
 
-- ![](media/pec_image378.png) **Folha de Rosto**: ferramenta que permite visualizar um sumário clínico do paciente e que auxilia o profissional a ter acesso rápido aos dados mais relevantes de saúde e de cuidado do cidadão;
+- **Folha de Rosto**: ferramenta que permite visualizar um sumário clínico do paciente e que auxilia o profissional a ter acesso rápido aos dados mais relevantes de saúde e de cuidado do cidadão;
 
-- ![](media/pec_image379.png) **SOAP**: ferramenta que orienta a inserção de dados subjetivos, clínicos da saúde do cidadão, o estabelecimento de diagnósticos, o planejamento das ações ou intervenções, além da avaliação dos problemas e das condições de saúde detectadas no atendimento;
+- **SOAP**: ferramenta que orienta a inserção de dados subjetivos, clínicos da saúde do cidadão, o estabelecimento de diagnósticos, o planejamento das ações ou intervenções, além da avaliação dos problemas e das condições de saúde detectadas no atendimento;
 
-- ![](media/pec_image380.png) **Problemas/Condições e Alergias**: ferramenta que permite o registro e gestão da lista de problemas ou outras condições de saúde do cidadão, além do registro de história pregressa do cidadão relacionado a alergias e/ou a reação adversa;
+- **Vacinação**: ferramenta que permite visualizar o espelho da caderneta de vacinação do cidadão, com indicação de doses atrasadas, aplicadas, aprazadas e disponíveis.
 
-- ![](media/pec_image381.png) **Acompanhamento**: ferramenta que apresenta o resumo estruturado das informações importantes para o acompanhamento de determinados problemas ou condições de saúde do cidadão;
+- **Histórico**: ferramenta que possibilita visualizar com mais detalhes o histórico de atendimentos do cidadão;
 
-- ![](media/pec_image382.png) **Antecedentes**: ferramenta que permite fazer o registro da história familiar, de patologias pregressas e de saúde do cidadão; é integrada com a lista de problema;
+- **Cadastro do cidadão**: funcionalidade que permite o acesso rápido e a visualização do cadastro do cidadão;
 
-- ![](media/pec_image383.png) **Histórico**: ferramenta que possibilita visualizar com mais detalhes o histórico de atendimentos do cidadão;
-
-- ![](media/pec_image384.png) **Dados Cadastrais**: funcionalidade que permite o acesso rápido e a visualização do cadastro do cidadão;
-
-- ![](media/pec_image385.png) **Finalização do Atendimento**: funcionalidade de controle de finalização do atendimento.
+- **Agendamentos**: funcionalidade que permite a visualização de todos os atendimentos para o cidadão, anteriores ou futuros.
 
 - ![](media/pec_image894.png) **Acessar RNDS**: funcionalidade que permite ao profissional de saúde visualizar dados clínicos do cidadão que foram registrados em outros pontos de atenção à saúde e que foram enviados para a Rede Nacional de Dados em Saúde (RNDS). 
 
@@ -1519,8 +1515,7 @@ Figura 6.74 Antecedentes de Problemas/Condições
 Fonte: SAPS/MS
 
 
-{: .nota }
-A classificação Ativo e Latente no bloco de Antecedentes é feita na parte de Avaliação do SOAP no campo "Problemas e/ou condições avaliados neste atendimento". Quando adiciona-se uma condição na seção "Problemas e/ou condições avaliados" por meio da codificação CIAP2 ou CID 10, e seleciona-se a opção de "Incluir na lista de problemas/condições", imediatamente esta condicção é incluída nos antecedentes do cidadão, com status de ativo, latente ou resolvido. 
+{: .nota } A classificação Ativo e Latente no bloco de Antecedentes é feita na parte de Avaliação do SOAP no campo "Problemas e/ou condições avaliados neste atendimento". Quando adiciona-se uma condição na seção "Problemas e/ou condições avaliados" por meio da codificação CIAP2 ou CID 10, e seleciona-se a opção de "Incluir na lista de problemas/condições", imediatamente esta condicção é incluída nos antecedentes do cidadão, com status de ativo, latente ou resolvido. 
 
 Ao clicar para Adicionar problemas e condição anterior será exibida uma tela para adicionar o CIAP 2 ou CID 10, bem como o início e o fim da condição, que podem ser registrados com uma data específica ou com a idade do cidadão. O campo Observações do problema ou condição permite detalhamento caso o profissional de saúde julgue necessário. 
 
