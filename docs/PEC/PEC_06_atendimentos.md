@@ -731,7 +731,7 @@ A folha de rosto, por meio de um sumário clínico do cidadão, oferece acesso r
 
 Figura 6.4.6 - Prontuário do Cidadão - folha de rosto
 
-![](media/pec_image387.png)
+![](media/pec_image893.png)
 
 Fonte: SAPS/MS
 
@@ -741,29 +741,46 @@ Conforme podemos ver na Figura 6.4.6, a folha de rosto conta com os seguintes bl
 
 ![](media/pec_image390.png)
 
-- **Últimos contatos**: exibe os últimos três atendimentos do cidadão na unidade de saúde, permitindo saber quais os problemas/condições avaliadas e quando ocorreram. Caso haja necessidade de ver mais informações do histórico do cidadão é possível clicar no botão "Mais informações";
+- **Últimos contatos**: exibe os últimos atendimentos do cidadão na unidade de saúde, permitindo saber quais os problemas/condições avaliadas e quando ocorreram. Caso haja necessidade de ver mais informações do histórico do cidadão é possível clicar na guia "Histórico;
+
 
 ![](media/pec_image391.png)
 
-- **Problemas/condições**: exibe os problemas/condições ativos ou latentes do cidadão. **Não exibe os problemas/condições resolvidos** (estes poderão ser visualizados clicando no ícone "Lista de Problemas");
+- **Antecedentes**: são exibidas na parte de antecedentes informações obstétricas como Gestações prévias, partos e recém-nascidos com abortos, nascidos e nascidos vivos. Além disso, ficam exibidas as informações de antecedentes hospitalares do cidadão.
 
 ![](media/pec_image392.png)
 
-- **Alergias/Reações Adversas**: exibe a lista de alergias e as reações adversas do cidadão, identificando Agente Causador, Categoria, Criticidade e data de instalação. Caso haja necessidade de ver mais informações sobre alergias/reações adversas é possível clicar no botão "Mais informações".
+- **Medições**: são exibidas as últimas medições do cidadão de: peso, altura, IMC, perímetro cefálico, circunferência abdominal, perímetro de panturrilha, pressão arterial, frequência respiratória, frequência cardíaca, temperatura, saturação de O2 e glicemia capilar.
 
 ![](media/pec_image393.png)
 
-- **Vacinação**: apresenta informações em relação a situação vacinal do cidadão, última vacina aplicada, data da aplicação, se existem vacinas atrasadas ou aprazadas. Clicando no botão "Mais informações" é possível acessar o acompanhamento de vacinação do cidadão.
+- **Vacinação**: são exibidas as últimas vacinas aplicadas no cidadão e as próximas vacinas aprazadas. Será apresentado, no máximo, as 3 últimas aplicações ou aprazamentos realizados para o cidadão. Caso haja doses de vacinas atrasadas (independente de faixa etária), aparecerá uma  mensagem de alerta: "Existem vacinas atrasadas ou não registradas! Confira o cartão de vacinação do cidadão."
 
 ![](media/pec_image901.png)
 
-- **Medicamentos Ativos**: exibe as medicações em uso contínuo, data de início da prescrição e conclusão, se for o caso. Caso haja necessidade de ver mais informações sobre medicamentos ativos é possível clicar no botão "Mais informações".
+- **Problemas e condições autorreferidas**: exibidas as 
+condições autorreferidas pelo cidadão registradas em seu  cadastro individual mais recente.
 
 ![](media/pec_image395.png)
 
-- **Lembretes**: exibe os lembretes ativos criados pelo profissional ou por algum membro da equipe (veja como criar lembretes por meio do Plano do SOAP, na Seção 6.4.3.7).
+- **Lembretes**: exibe os lembretes ativos criados pelo profissional ou por algum membro da equipe.
+
+- **Alergias/Reações Adversas**: exibe a lista de alergias e as reações adversas do cidadão, identificando Agente Causador, Categoria, Tipo de reação e Criticidade. Ao clicar no card é possível ver o detalhamento de cada Alergia/Reação adversa com informações de data de início, manifestações e outras observações registradas. 
+
+- **Lista de Problemas/condições**: exibe os problemas/condições ativos ou latentes do cidadão. São exibidos no card os últimos cinco registros de problemas/condições com as informações: CID10/CIAP2; data de início do problema ou condição; idade do problema/condição, ou seja, há quanto tempo ele existe; e data da última atualização do problema/condição no PEC.
+ **Não exibe os problemas/condições resolvidos** (estes poderão ser visualizados em Antecedentes no SOAP);
+
+- **Resultados de exames**: o card exibe uma lista dos três últimos resultados de exames inseridos com as informações
+de nome do exame, data de realização e resultado do exame.
+
+- **Medicamentos Prescritos**: exibe as medicações com tratamento ativo ou concluído/interrompido nos últimos três meses. São exibidos no card o medicamento prescrito, a dose e o intervalo/frequência prescritos. Ao clicar no card são exibidas as informações se é uso contínuo, data de início da prescrição e conclusão, se for o caso, bem como as recomendações.
 
 ![](media/pec_image396.png)
+
+
+
+
+
 
 Figura 6.4.7 - Folha de Rosto com informações sumarizadas a partir de registros anteriores
 
@@ -1515,7 +1532,9 @@ Figura 6.74 Antecedentes de Problemas/Condições
 Fonte: SAPS/MS
 
 
-{: .nota } A classificação Ativo e Latente no bloco de Antecedentes é feita na parte de Avaliação do SOAP no campo "Problemas e/ou condições avaliados neste atendimento". Quando adiciona-se uma condição na seção "Problemas e/ou condições avaliados" por meio da codificação CIAP2 ou CID 10, e seleciona-se a opção de "Incluir na lista de problemas/condições", imediatamente esta condicção é incluída nos antecedentes do cidadão, com status de ativo, latente ou resolvido. 
+{: .nota } 
+A classificação Ativo e Latente no bloco de Antecedentes é feita na parte de Avaliação do SOAP no campo "Problemas e/ou condições avaliados neste atendimento". Quando adiciona-se uma condição na seção "Problemas e/ou condições avaliados" por meio da codificação CIAP2 ou CID 10, e seleciona-se a opção de "Incluir na lista de problemas/condições", imediatamente esta condicção é incluída nos antecedentes do cidadão, com status de ativo, latente ou resolvido. 
+
 
 Ao clicar para Adicionar problemas e condição anterior será exibida uma tela para adicionar o CIAP 2 ou CID 10, bem como o início e o fim da condição, que podem ser registrados com uma data específica ou com a idade do cidadão. O campo Observações do problema ou condição permite detalhamento caso o profissional de saúde julgue necessário. 
 
