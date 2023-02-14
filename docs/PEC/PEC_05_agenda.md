@@ -9,7 +9,7 @@ last_modified_date: "09/09/2022"
 ---
 
 
-# CAPÍTULO 5 - Agenda
+# CAPÍTULO 5 - AGenda
 {: .no_toc }
 
 O módulo de Agenda é usado para organizar a agenda dos profissionais das unidades básicas de saúde (UBS), e será a principal ferramenta utilizada pelos profissionais das recepções das UBS.
