@@ -45,26 +45,26 @@ MANUAL DE USO
 **MINISTÉRIO DA SAÚDE**<br>
 Secretaria de Atenção Primária à Saúde<br>
 Departamento de Saúde da Família<br>
-Esplanada dos Ministérios - Bloco G - 7º andar<br>
+Esplanada dos Ministérios - Edifício Anexo B - 4º andar<br>
 CEP: 70.058-900 – Brasília/DF<br>
 Tels.: (61) 3315-8090 / 3315-8044<br>
 Site: <http://sisaps.saude.gov.br/esus/><br>
-E-mail: <cgiap@saude.gov.br>
+E-mail: <lista.cgesf.desf@saude.gov.br>
 
 **Supervisor Geral**<br>
 Renata Maria de Oliveira Costa
 
 **Coordenação Técnica Geral**<br>
-Michael Luiz Diana de Oliveira 
+Marcelo Alves Miranda 
 
 **Organização**<br>
-Ana Claudia Cielo, Igor de Carvalho Gomes e João Geraldo de Oliveira Junior
+Ana Claudia Cielo, Janaína Guimarães, Elaine de Almeida, Willian Soares Lima.
 
 **Revisão Técnica**<br>
-Ana Claudia Cielo, Igor de Carvalho Gomes, André Cury Alves e João Geraldo de Oliveira Júnior
+Ana Claudia Cielo, Janaína Guimarães, Elaine de Almeida, Willian Soares Lima.
 
 **Elaboração de texto**<br>
-Ana Claudia Cielo, Igor de Carvalho Gomes e João Geraldo de Oliveira Júnior
+Ana Claudia Cielo, Janaína Guimarães, Elaine de Almeida, Willian Soares Lima.
 
 **Projeto Gráfico**<br>
 Alexandre Soares de Brito, Diogo Ferreira Gonçalves

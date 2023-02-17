@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Prontuário Eletrônico do Cidadão v5.0
+title: Prontuário Eletrônico do Cidadão v4.3
 nav_order: 2
 has_children: true
 description: "Manual e-SUS APS"
 permalink: /docs/PEC
-last_modified_date: "09/09/2022"
+last_modified_date: "12/11/2021"
 ---
 
 e-SUS Atenção Primária à Saúde (e-SUS APS)
@@ -22,7 +22,7 @@ MANUAL DE USO
 {: .text-center }
 <br>
 <br>
-(versão 5.0)
+(versão 4.3)
 {: .fs-6 }
 {: .text-center }
 <br>
@@ -51,19 +51,19 @@ Site: <http://sisaps.saude.gov.br/esus/><br>
 Suporte: <http://esusaps.bridge.ufsc.br/support/login>
 
 **Supervisor Geral**<br>
-Renata Maria de Oliveira Costa
+Nésio Fernandes de Medeiros Junior
 
 **Coordenação Técnica Geral**<br>
-Michael Luiz Diana de Oliveira
+Rodrigo Andre Cuevas Gaete
 
 **Organização**<br>
-Ana Claudia Cielo, Igor de Carvalho Gomes e João Geraldo de Oliveira Junior
+Ana Claúdia Cielo, Elaine de Almeida, Ingryd Isabelle Maia, Janaína Nogueira Guimarães, Willian Soares Lima.
 
 **Revisão Técnica**<br>
-André Cury Alves, Ana Claudia Cielo, Igor de Carvalho Gomes, João Geraldo de Oliveira Junior e Micael Macedo Pereira da Trindade.
+Ana Claúdia Cielo, Elaine de Almeida, Igor de Carvalho Gomes, Ingryd Isabelle Maia, Janaína Nogueira Guimarães, Marcelo Alves Miranda, Willian Soares Lima.
 
 **Elaboração de texto**<br>
-Adriana Kitajima, Allan Nuno Alves de Souza, Ana Claudia Cielo, André Cury Alves, Edson Lucena, Igor de Carvalho Gomes, João Geraldo de Oliveira Júnior, Janaína Nogueira Guimarães, Micael Macedo Pereira, da Trindade, Rodrigo André Cuevas Gaete, Thaís Alessa Leite, Vanessa Lora, Virgínia Fava,
+Ana Claúdia Cielo, Elaine de Almeida, Igor de Carvalho Gomes, Ingryd Isabelle Maia, Janaína Nogueira Guimarães, Willian Soares Lima.
 
 **Projeto Gráfico**<br>
 Alexandre Soares de Brito e Diogo Ferreira Gonçalves
@@ -75,7 +75,7 @@ Alexandre Soares de Brito e Diogo Ferreira Gonçalves
 {: .text-center }
 
 Brasil. Ministério da Saúde. Secretaria de Atenção Primária à Saúde.<br>
-e-SUS Atenção Primária à Saúde: Manual do Sistema com Prontuário Eletrônico do Cidadão PEC – Versão 5.0 [recurso eletrônico] / Ministério da Saúde, Secretaria de Atenção Primária à Saúde, Secretaria Executiva. – Brasília: Ministério da Saúde, 2021.<br>
+e-SUS Atenção Primária à Saúde: Manual do Sistema com Prontuário Eletrônico do Cidadão PEC – Versão 4.3 [recurso eletrônico] / Ministério da Saúde, Secretaria de Atenção Primária à Saúde, Secretaria Executiva. – Brasília: Ministério da Saúde, 2021.<br>
 <br>
 ISBN **Versão Preliminar**<br>
 Modo de acesso: <https://aps.saude.gov.br/ape/esus><br>

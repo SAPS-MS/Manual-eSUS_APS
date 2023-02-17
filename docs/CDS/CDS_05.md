@@ -113,7 +113,7 @@ disponível a partir da versão 3.0.
 |Novo campo -  a partir da versão 3.0 é possível identificar as ações do PSE, por meio do campo Programa Saúde na Escola. Esse campo deve ser assinalado quando forem realizadas atividades no âmbito do PSE. Assinalar o campo “educação” caso a atividade seja realizada pelos profissionais da escola e “saúde” caso a atividade seja realizada pelos profissionais da Atenção Básica em Saúde. Marque os campos “educação” e “saúde” quando a atividade for realizada em conjunto.<br> Campo Nº do INEP (ESCOLA/CRECHE) - Este campo deve ser preenchido obrigatoriamente e somente se a atividade for realizada no âmbito do PSE. Quando a atividade do PSE for realizada fora do ambiente escolar, deverá ser registrado o Nº do INEP (da escola de referência dos alunos público-alvo da atividade).|
 
 {: .nota }
-Para saber mais sobre o PSE, acesse http://aps.saude.gov.br/ape/pse.
+para saber mais sobre o PSE, acesse http://dab.saude.gov.br/portaldab/pse.php.
 
 ## 5.4 Tipos de atividade coletiva
 

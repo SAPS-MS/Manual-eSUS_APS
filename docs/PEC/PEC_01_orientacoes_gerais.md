@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Orientações Gerais sobre o Sistema
-parent: Prontuário Eletrônico do Cidadão v5.0
+parent: Prontuário Eletrônico do Cidadão v4.3
 nav_order: 3
 has_children: false
 has_toc: true
-last_modified_date: "09/09/2022"
+last_modified_date: "05/07/2021"
 ---
 
 # CAPÍTULO 1 - Orientações Gerais sobre o Sistema
@@ -21,7 +21,7 @@ Neste capítulo, abordaremos os conceitos e orientações iniciais para utiliza�
 
 # 1.1 Versão do Sistema Usada neste Manual
 
-Este manual foi elaborado usando como referência o Sistema com PEC em sua **versão 4.3**. O acesso às informações sobre o versionamento, versão de banco de dados, data de atualização e tipo de instalação (ver Capítulo 2) podem ser visualizados na opção "**Sobre**" (Figura 1.1), acessada no menu superior do sistema.
+Este manual foi elaborado usando como referência o Sistema com PEC em sua **versão 5.0**. O acesso às informações sobre o versionamento, versão de banco de dados, data de atualização e tipo de instalação (ver Capítulo 2) podem ser visualizados na opção "**Sobre**" (Figura 1.1), acessada no menu superior do sistema.
 
 Figura 1.1 - Versão do Sistema com PEC
 
