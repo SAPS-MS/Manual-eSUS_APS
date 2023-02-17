@@ -52,7 +52,7 @@ Michael Luiz Diana de Oliveira
 Ana Claudia Cielo, Igor de Carvalho Gomes e João Geraldo de Oliveira Júnior
 
 **Revisão Técnica**<br>
-Ana Claudia Cielo, André Cury Alves, Igor de Carvalho Gomes, João Geraldo de Oliveira e Micael Macedo Pereira da Trindade.
+Ana Claudia Cielo, André Cury Alves, Igor de Carvalho Gomes, João Geraldo de Oliveira, Micael Macedo Pereira da Trindade, Willian Soares Lima.
 
 **Colaboradores**<br>
 Adriana Kitajima, Allan Nuno Alves de Souza, Ana Claudia Cielo, André Cury Alves, Edson Lucena, Igor de Carvalho Gomes, João Geraldo de Oliveira Júnior, Janaína Nogueira Guimarães, Micael Macedo Pereira, da Trindade, Rodrigo André Cuevas Gaete, Thaís Alessa Leite, Vanessa Lora e Virgínia Fava.
@@ -67,7 +67,7 @@ Alexandre Soares de Brito, Diogo Ferreira Gonçalves
 {: .text-center }
 
 Brasil. Ministério da Saúde. Secretaria de Atenção Primária à Saúde.<br>
-e-SUS Atenção Primária à Saúde: Manual do Sistema com Prontuário Eletrônico do Cidadão PEC – Versão 5.0 [recurso eletrônico] / Ministério da Saúde, Secretaria de Atenção Primária à Saúde, Secretaria Executiva. – Brasília: Ministério da Saúde, 2022.<br>
+e-SUS Atenção Primária à Saúde: Manual do Sistema com Prontuário Eletrônico do Cidadão PEC – Versão 4.2 [recurso eletrônico] / Ministério da Saúde, Secretaria de Atenção Primária à Saúde, Secretaria Executiva. – Brasília: Ministério da Saúde, 2021.<br>
 <br>
 ISBN **Versão Preliminar**<br>
 Modo de acesso: <https://aps.saude.gov.br/ape/esus><br>
