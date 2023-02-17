@@ -5,7 +5,7 @@ parent: Prontuário Eletrônico do Cidadão v5.0
 nav_order: 7
 has_children: false
 has_toc: true
-last_modified_date: "02/02/2021"
+last_modified_date: "09/09/2022"
 ---
 
 
@@ -108,7 +108,7 @@ Para os horários configurados para agendamento online, não é possível realiz
 
 ## 5.1.1 Agendar atendimento fora da UBS
 
-Para utilizar o recurso de adicionar o cidadão na agenda para os atendimentos a serem realizados fora da UBS, basta seguir o passo a passo de agendar uma consulta, descrita no capítulo 5.1. Entretanto, para esta funcionalidade, deverá ser clicado no box \"Fora da UBS\" e selecionar o local de atendimento, observe a figura 5.2. Após salvar o agendamento apresentará a mensagem com a hora em que foi marcado, o nome do cidadão e a mensagem \"AGENDAMENTO FORA DA UBS\", conforme a figura abaixo.
+Para utilizar o recurso de adicionar o cidadão na agenda para os atendimentos a serem realizados fora da UBS, basta seguir o passo a passo de agendar uma consulta, descrita no capítulo 5.1. Entretanto, para esta funcionalidade, clique no box \"Atendimento fora da UBS\" e selecionar o local de atendimento, observe a figura 5.2. Após salvar o agendamento apresentará a mensagem com a hora em que foi marcado, o nome do cidadão e a mensagem \"AGENDAMENTO FORA DA UBS\", conforme a figura abaixo.
 
 Figura 5.3 - Agendamento fora da UBS
 
@@ -116,24 +116,26 @@ Figura 5.3 - Agendamento fora da UBS
 
 {: .dica }
 Quando o cidadão é colocado na agenda como agendamento fora da UBS, automaticamente aparecerá na lista de registro tardio de atendimento no dia agendado. Para saber mais sobre o registro tardio de atendimento consulte o capítulo 6.6.
+![](media/pec_image927.png)
 
 ## 5.1.2 Adicionar Cidadão na Lista de Atendimentos
 
 Para incluir o cidadão na lista de atendimentos, clique no ícone "Adicionar cidadão na lista de atendimentos" ![](media/pec_image282.png). O cidadão será incluído na lista, a legenda será "Cidadão presente na unidade".
 
 Para que seja possível realizar o atendimento deste cidadão, o profissional deve ir para o módulo "Atendimentos", onde será possível visualizar a lista dos pacientes agendados que estão presentes na unidade.
+![](media/pec_image928.png)
 
 ## 5.1.3 Visualizar Agendamento e Dados do Cidadão
 
 Para visualizar os detalhes do agendamento do cidadão e dados básicos do cidadão, clique sobre o nome do cidadão. Será apresentado o resumo do agendamento, inclusive, qual o profissional que registrou o agendamento conforme a Figura 5.2. Nesta visualização, é possível acessar o cadastro completo do cidadão por meio da opção \"Ver cadastro completo do cidadão\".
 
-￼￼Figura 5.4 - Visualizar detalhes do agendamento
+Figura 5.4 - Visualizar detalhes do agendamento
 
 ![](media/pec_image287.png)
 
 Fonte: SAS/MS.
 
-O agendamento apresenta a situação atual em que se encontra, por exemplo, como vemos na Figura 5.2 o *status* de "Agendado" ![](media/pec_image288.png). Os *status* disponíveis para o agendamento são:
+Através da agenda, é possível identificar a situação do agendamento:
 
 - **Agendado**: cidadão tem um agendamento;
 
@@ -170,7 +172,7 @@ Antes de realizar a configuração da Agenda Online realize uma conversa prévia
 
 A visualização do agendamento, quando a instalação está com a sincronização com o Servidor de Agenda do e-SUS APS habilitado (ver Seção 3.1.10) apresentará um status de sincronização ![](media/pec_image289.png), como podemos ver na Figura 5.3.
 
-￼￼Figura 5.5 - Visualizar detalhes do agendamento com sincronização
+Figura 5.5 - Visualizar detalhes do agendamento com sincronização
 
 ![](media/pec_image290.png)
 
@@ -205,8 +207,17 @@ caso o horário marcado já tenha passado, não será possível excluir o agenda
 
 Para efetivar o cancelamento, é necessário preencher uma justificativa, conforme mostrado na Figura 5.4. Para concluir clique em "Salvar" ![](media/pec_image279.png).
 
+Figura 5.6 - Tela de justificativa para cancelar o agendamento
 
+![](media/pec_image291.png)
 
+Fonte: SAS/MS.
+
+Após confirmar o Cancelamento, a visualização do agendamento será apresentado como na Figura 5.7.
+
+Figura 5.7 - Visualizar detalhes do agendamento Cancelado
+
+![](media/pec_image292.png)
 
 Fonte: SAS/MS.
 
@@ -228,17 +239,14 @@ Para identificar os agendamentos por cidadão, siga os passos:
 
 - Passo 3. Serão apresentados os agendamentos realizados para o cidadão selecionado, com data e hora, nome do profissional, CBO e observações.
 
-![](media/pec_image297.png)
-
-{: .nota }
-para visualizar o histórico de agendamento, clique na opção "Mostrar agendamentos anteriores".
+![](media/pec_image290.png)
 
 {: .dica }
 quando o profissional que estiver consultando os agendamentos do cidadão quiser visualizar apenas os da sua agenda, basta clicar na opção "somente os meus".
 
 ## 5.1.8 Visualizar prontuário
 
-Para visualizar o prontuário do cidadão, clique no ícone ![](media/pec_image285.png). Caso o profissional deseje **visualizar o prontuário** direto na agenda, é obrigatório o registro de uma justificativa para o acesso a estas informações clínicas fora do atendimento presencial, ou seja, na ausência do cidadão no momento da consulta. Esta justificativa fica gravada no banco de dados para posterior uso, no caso de auditoria, em relação ao sigilo dos dados clínicos sensíveis do cidadão, garantindo assim a sua privacidade e segurança. Para mais informações sobre o prontuário, veja o Capítulo 6.
+Para visualizar o prontuário do cidadão, clique no ícone ![](media/pec_image282.png). Caso o profissional deseje **visualizar o prontuário** direto na agenda, é obrigatório o registro de uma justificativa para o acesso a estas informações clínicas fora do atendimento presencial, ou seja, na ausência do cidadão no momento da consulta. Esta justificativa fica gravada no banco de dados para posterior uso, no caso de auditoria, em relação ao sigilo dos dados clínicos sensíveis do cidadão, garantindo assim a sua privacidade e segurança. Para mais informações sobre o prontuário, veja o Capítulo 6.
 
 # 5.2 Reservar horários na agenda do profissional
 
@@ -253,7 +261,7 @@ Para fazer uma reserva de horário na agenda, siga os passos:
 
 - Passo 2. Clique no horário que deseja reservar. O sistema se apresentará de acordo com a Figura 3.8;
 
-Figura 5.8 - Visualizar detalhes da agenda
+Figura 5.8 - Realizar reserva na agenda
 
 ![](media/pec_image301.png)
 
@@ -281,7 +289,7 @@ Fonte: SAS/MS.
 
 # 5.3 Imprimir a Agenda do Profissional
 
-É possível realizar a impressão da agenda dos profissionais individualmente, para um determinado dia da agenda. Para isto basta selecionar a data do dia desejado, por meio do calendário, e clicar no botão "imprimir" ![](media/pec_image303.png). A impressão apresenta, além da identificação do profissional, a lista de agendamentos com o horário, e os dados de identificação dos cidadãos agendados. Também apresenta as informações em relação a reserva de agenda para atividades previstas.
+É possível realizar a impressão da agenda dos profissionais individualmente, para um determinado dia da agenda. Para isto basta selecionar a data desejada, por meio do calendário, e clicar no botão "imprimir" ![](media/pec_image183.png). A impressão apresenta, além da identificação do profissional, a lista de agendamentos com o horário, e os dados de identificação dos cidadãos agendados. Também apresenta as informações em relação a reserva de agenda para atividades previstas.
 
 Figura 5.10 - Impressão da agenda
 

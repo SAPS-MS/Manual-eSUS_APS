@@ -7,7 +7,7 @@ description: "Manual e-SUS APS"
 permalink: /
 ---
 
-e-sus Atenção Primária à Saúde (e-SUS APS)
+e-SUS Atenção Primária à Saúde (e-SUS APS)
 {: .fs-10 }
 {: .fw-700 }
 {: .text-center }

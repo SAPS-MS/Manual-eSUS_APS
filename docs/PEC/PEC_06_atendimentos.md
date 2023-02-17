@@ -5,7 +5,7 @@ parent: Prontuário Eletrônico do Cidadão v5.0
 nav_order: 8
 has_children: false
 has_toc: true
-last_modified_date: "20/07/2021"
+last_modified_date: "09/09/2022"
 ---
 
 # CAPÍTULO 6 - Atendimentos
@@ -84,7 +84,7 @@ Fonte: SAPS/MS
 {: .nota }
 os **tipos de serviços** mostrados no filtro rápido são os que foram cadastrados, no momento da configuração, para a unidade de saúde. Para mais informações sobre tipo de serviço, ver seção 3.3.1.
 
-Se for preenchido mais de um campo para pesquisa, a lista de atendimento resultante conterá apenas os registros que contemplem todos os filtros simultaneamente. O sistema também apresenta em formato de *tags* identificando as opções utilizadas para a filtragem da lista de atendimento, como observado na figura a seguir:
+Se for preenchido mais de um campo para pesquisa, a lista de atendimento resultante conterá apenas os registros que contemplem todos os filtros simultaneamente. O sistema também apresenta as opções utilizadas para a filtragem da lista de atendimento, como observado na figura a seguir:
 
 ![](media/pec_image313.png)
 
@@ -94,8 +94,6 @@ Caso o profissional deseje retornar os filtros para o padrão, basta clicar no b
 a lista com os cidadãos para atendimento, por padrão, apresenta os atendimentos do dia, filtrando os cidadãos com *status* "Atendimento realizado" e ou que "Não aguardou o atendimento".
 
 A lista de atendimentos apresenta informações sobre a hora de chegada, nome do cidadão, profissional e tipo de serviço. A barra colorida no canto esquerdo da lista indica o *status* daquele atendimento, e as cores estão relacionadas com o quadro do "Status atendimento", que se encontra no ícone da pesquisa e filtro ![](media/pec_image309.png).
-
-![](media/pec_image314.png)
 
 Outra funcionalidade para auxiliar na organização do atendimento é o \"**Ordenar por**\", recurso que permite ao usuário a escolha da ordenação dos registros na lista.
 
@@ -141,7 +139,7 @@ ao imprimir a declaração de comparecimento do cidadão, certifique-se de que o
 
 ![](media/pec_image322.png) **Excluir**: excluir cidadão da lista de atendimento. Esta opção estará habilitada apenas se o registro não possuir referências, ou seja, se o atendimento já tiver sido iniciado, não será possível realizar a exclusão.
 
-## 6.1.1 Adicionar um Novo Atendimento à Lista
+## 6.1.1 Adicionar um Novo Cidadão à Listade Atendimentos
 
 Além dos atendimentos agendados para os profissionais da unidade de saúde, é possível a inclusão no sistema dos cidadãos, que procuram o serviço de saúde por demanda espontânea. Para mais informações sobre demanda espontânea, ver [**CAB 28 - Acolhimento à Demanda Espontânea Volume I**](http://aps.saude.gov.br/biblioteca/index).
 
@@ -153,7 +151,7 @@ Para adicionar um cidadão à lista de atendimento por demanda espontânea, siga
 
 Figura 6.1.6 - Adicionar cidadão na Lista de Atendimento
 
-![](media/pec_image324.png)
+![](media/pec_image306.png)
 
 Fonte: SAPS/MS
 
@@ -217,7 +215,7 @@ O perfil de escuta inicial poderá ser habilitado para os profissionais a depend
 {: .nota }
 Só é permitido realizar uma escuta para cada atendimento, e não é permitida a exclusão, nem a adição de informações após a finalização do atendimento.
 
-Ao clicar na opção ![](media/pec_image332.png) \"**Realizar escuta inicial**\", disponível na tela da lista de atendimentos, será exibida uma tela, conforme a Figura 6.1.11
+Ao clicar na opção ![](media/pec_image318.png) \"**Realizar escuta inicial**\", disponível na tela da lista de atendimentos, será exibida uma tela, conforme a Figura 6.1.11
 
 Figura 6.2 - Ferramentas para realizar escuta Inicial
 
@@ -228,7 +226,7 @@ Fonte: SAPS/MS.
 Na tela de escuta inicial, os campos "**Motivo da consulta (CIAP2)**", "**Classificação de risco/vulnerabilidade**" e "**Desfecho da escuta inicial**" são obrigatórios.
 
 {: .nota }
-a ferramenta de escuta inicial também permite o registro de "pré-atendimento" (opção ![](media/pec_image332.png) \"**Realizar pré-atendimento**\" na lista de atendimento) quando for uma consulta agendada, entretanto a funcionalidade "**Classificação de risco/vulnerabilidade**" não estará disponível.
+A ferramenta de escuta inicial também permite o registro de "pré-atendimento" (opção ![](media/pec_image318.png) \"**Realizar pré-atendimento**\" na lista de atendimento) quando for uma consulta agendada, entretanto a funcionalidade "**Classificação de risco/vulnerabilidade**" não estará disponível, pois consultas agendadas são consideradas como "não agudo".
 
 Para fazer o registro da escuta inicial, siga os passos:
 
@@ -244,7 +242,14 @@ Figura 6.2.1 - Antropometria, Sinais Vitais e Glicemia
 
 Fonte: SAPS/MS
 
-- Passo 4: Informe a classificação de risco/vulnerabilidade. Esta classificação permite aos profissionais a priorização dos casos mais urgentes ou que requerem atendimento imediato, permitindo a ordenação da lista por prioridade no atendimento;
+- Passo 4: Informe os procedimentos realizados na escuta inicial, caso algum procedimento complementar tenha sido executado;
+
+![](media/pec_image336.png)
+
+{: .nota }
+Se forem preenchidos os grupos **Antropometria**, no que se refere a peso e altura, **Sinais vitais** e **Glicemia**, os procedimentos que correspondem a essas ações serão inseridos no grupo **Procedimentos realizados** automaticamente.
+
+- Passo 5: Informe a classificação de risco/vulnerabilidade. Esta classificação permite aos profissionais a priorização dos casos mais urgentes ou que requerem atendimento imediato, permitindo a ordenação da lista por prioridade no atendimento;
 
 ![](media/pec_image335.png)
 
@@ -265,13 +270,6 @@ A classificação de risco/vulnerabilidade é um campo de preenchimento obrigat�
 {: .dica }
 Ao fazer a classificação de risco/vulnerabilidade e encaminhar o cidadão para atendimento no dia, o sistema exibe essa informação na lista de atendimento, após finalizar a escuta inicial, para auxiliar na organização e fluxo do atendimento.
 
-- Passo 5: Informe os procedimentos realizados na escuta inicial, caso algum procedimento complementar tenha sido executado;
-
-![](media/pec_image336.png)
-
-{: .nota }
-Se forem preenchidos os grupos **Antropometria**, no que se refere a peso e altura, **Sinais vitais** e **Glicemia**, os procedimentos que correspondem a essas ações serão inseridos no grupo **Procedimentos realizados** automaticamente.
-
 - Passo 6: Faça o Desfecho da Escuta Inicial do cidadão escolhendo uma das ações a seguir:
 
 - **liberar cidadão**: libera o cidadão da lista de atendimentos, para os casos em que o problema foi resolvido na própria escuta inicial ou nos casos em que se possa agendar uma consulta;
@@ -289,7 +287,7 @@ Caso o cidadão seja incluído na lista de atendimento para a aplicação de vac
 
 - **agendar consulta**: Para os casos em que o problema não foi resolvido na escuta inicial e há a necessidade de agendar uma consulta para um profissional, na data, turno e horário disponível. Na agenda do profissional, será adicionada esta nova consulta.
 
-Figura 6.2.3 - Desfecho da escuta inicial
+Figura 6.2.3 - Agendar Cidadão
 
 ![](media/pec_image338.png)
 
@@ -314,7 +312,7 @@ A partir da versão 4.1.17 o registro da vacina COVID-19 está disponível exclu
 
 O registro da vacina no fluxo de atendimento do PEC é ativado pela opção "Vacina" marcada na inclusão do cidadão na lista de atendimento ou nos blocos de desfecho da escuta inicial e atendimentos realizados na UBS como demonstrado nos tópicos anteriores. Caso esta opção seja selecionada o botão "Realizar Vacinação" estará disponível como mostra a figura a seguir:
 
-Figura 6.3.1 - Opção de registro da Vacinação
+Figura 6.3 - Opção de registro da Vacinação
 
 ![](media/pec_image341.png)
 
@@ -322,7 +320,7 @@ Fonte: SAPS/MS
 
 Após clicar em ![](media/pec_image342.png) realizar vacinação estará disponível o registro da vacinação no PEC.
 
-Figura 6.3.2 - Tela de registro da Vacinação
+Figura 6.3.1 - Tela de registro da Vacinação
 
 ![](media/pec_image343.png)
 
@@ -334,7 +332,7 @@ A tela para registrar a vacinação apresenta os seguintes Blocos de preenchimen
 
 Este bloco apresenta ao profissional as condições específicas relacionadas ao cidadão que será vacinado. As condições são "Gestante", "Puérpera" e "Viajante".
 
-Figura 6.3.3 - Bloco de Condições do Registro de Vacinação
+Figura 6.3.2 - Bloco de Condições do Registro de Vacinação
 
 ![](media/pec_image344.png)
 
@@ -344,7 +342,7 @@ Fonte: SAPS/MS
 
 Este bloco apresenta os recursos disponíveis para o registro da vacinação. O quadro de vacinação é apresentado conforme figura abaixo:
 
-Figura 6.3.4 - Quadro para o registro dos imunobiológicos
+Figura 6.3.3 - Quadro para o registro dos imunobiológicos
 
 ![](media/pec_image345.png)
 
@@ -360,17 +358,17 @@ Para registrar uma vacina aplicada siga as seguintes etapas:
 
 1\. É possível visualizar o calendário vacinal de acordo com o ciclo de vida (criança, adolescente, adulto e idoso) ou pelo calendário nacional completo;
 
-2\. Clique sobre a "Dose" do imunobiológico que será administrado. Após será aberta uma nova tela "ADICIONAR VACINAÇÃO" conforme a figura 6.3.5:
+2\. Clique sobre a dose do imunobiológico que será administrado. Após será aberta uma nova tela "ADICIONAR VACINAÇÃO" conforme a figura 6.3.4:
 
 ![](media/pec_image348.png)
 
-Figura 6.3.5 - Tela para adicionar vacinação
+Figura 6.3.4 - Tela para adicionar vacinação
 
 ![](media/pec_image349.png)
 
 3\. Se o registro for de uma dose da vacina administrada no momento, o botão permanece, por padrão, como "Não" ![](media/pec_image350.png). Caso seja para um registro de dose administrada em outro dia ou em outro local de atendimento, com a finalidade de atualizar a caderneta do cidadão no PEC, então deve-se mover o botão para "SIM" ![](media/pec_image351.png). Esta última funcionalidade será detalhada mais adiante.
 
-4\. Os campos para o registro do "Imunobiológico" e "dose" aparecerão conforme a seleção realizada pelo profissional de saúde na tela do quadro de vacinação (Figura 6.3.5), não sendo possível a sua alteração.
+4\. Os campos para o registro do "Imunobiológico" e "dose" aparecerão conforme a seleção realizada pelo profissional de saúde na tela do quadro de vacinação (Figura 6.3.4), não sendo possível a sua alteração.
 
 ![](media/pec_image352.png)
 
@@ -389,9 +387,9 @@ Figura 6.3.5 - Tela para adicionar vacinação
 {: .atencao }
 Os profissionais de saúde que realizam a administração de imunobiológicos deverão seguir as normas e procedimentos para a vacinação de acordo com o Programa Nacional de Imunização do Ministério da Saúde.
 
-9\. Ainda é possível verificar as informações sobre o registro ao clicar no quadro da dose da vacina administrada (Figura 6.3.6).
+9\. Ainda é possível verificar as informações sobre o registro ao clicar no quadro da dose da vacina administrada (Figura 6.3.5).
 
-Figura 6.3.6 - Visualização de Imunobiológico
+Figura 6.3.5 - Visualização de Imunobiológico
 
 ![](media/pec_image359.png)
 
@@ -400,7 +398,7 @@ Fonte: SAPS/MS
 {: .dica }
 Para aumentar a segurança na aplicação dos imunobiológicos o sistema emite alertas quando da tentativa de registro de uma dose que não seja recomendada para o cidadão (Figura 6.15).
 
-Figura 6.3.7 - Confirmação de registro de dose advertida
+Figura 6.3.6 - Confirmação de registro de dose advertida
 
 ![](media/pec_image360.png)
 
@@ -414,7 +412,7 @@ Caso o lote e o fabricante não estejam previamente cadastrado no sistema, como 
 
 Serão disponibilizados mais campos para a realização da operação conforme a figura a seguir:
 
-Figura 6.3.8
+Figura 6.3.6
 
 ![](media/pec_image355.png)
 
@@ -429,7 +427,7 @@ obrigatório.
 
 ![](media/pec_image357.png)
 
-## 6.3.1.2. Registrar dose anterior
+## 6.3.2. Registrar dose anterior
 
 Aproveitando a oportunidade do registro da dose aplicada no cidadão é recomendado também registrar as doses anteriores com a finalidade de atualizar o calendário vacinal no PEC. Para registrar uma dose anterior siga as seguintes etapas.
 
@@ -439,7 +437,7 @@ Aproveitando a oportunidade do registro da dose aplicada no cidadão é recomend
 
 3\. Mova o botão "É registro anterior?" até que apareça a palavra "Sim" ![](media/pec_image351.png). Após essa ação aparecerá a tela conforme a figura abaixo:
 
-Figura 6.3.9 - Tela para adicionar doses de vacinas aplicadas anteriormente
+Figura 6.3.7 - Tela para adicionar doses de vacinas aplicadas anteriormente
 
 ![](media/pec_image361.png)
 
@@ -644,23 +642,19 @@ Figura 6.4 - Tela do Prontuário Eletrônico do Cidadão
 
 Fonte: SAPS/MS
 
-É por meio do PEC que o profissional de saúde poderá efetuar o registro da consulta, utilizando principalmente, o modelo de Registro Clínico Orientado a Problemas (RCOP), sendo possível acessar as seguintes ferramentas:
+É por meio do PEC que o profissional de saúde poderá efetuar o registro da consulta, utilizando principalmente, o modelo de Registro Clínico Orientado a Problemas (RCOP), sendo possível acessar em diferentes abas as seguintes ferramentas:
 
-- ![](media/pec_image378.png) **Folha de Rosto**: ferramenta que permite visualizar um sumário clínico do paciente e que auxilia o profissional a ter acesso rápido aos dados mais relevantes de saúde e de cuidado do cidadão;
+- **Folha de Rosto**: ferramenta que permite visualizar um sumário clínico do paciente e que auxilia o profissional a ter acesso rápido aos dados mais relevantes de saúde e de cuidado do cidadão;
 
-- ![](media/pec_image379.png) **SOAP**: ferramenta que orienta a inserção de dados subjetivos, clínicos da saúde do cidadão, o estabelecimento de diagnósticos, o planejamento das ações ou intervenções, além da avaliação dos problemas e das condições de saúde detectadas no atendimento;
+- **SOAP**: ferramenta que orienta a inserção de dados subjetivos, clínicos da saúde do cidadão, o estabelecimento de diagnósticos, o planejamento das ações ou intervenções, além da avaliação dos problemas e das condições de saúde detectadas no atendimento;
 
-- ![](media/pec_image380.png) **Problemas/Condições e Alergias**: ferramenta que permite o registro e gestão da lista de problemas ou outras condições de saúde do cidadão, além do registro de história pregressa do cidadão relacionado a alergias e/ou a reação adversa;
+- **Vacinação**: ferramenta que permite visualizar o espelho da caderneta de vacinação do cidadão, com indicação de doses atrasadas, aplicadas, aprazadas e disponíveis.
 
-- ![](media/pec_image381.png) **Acompanhamento**: ferramenta que apresenta o resumo estruturado das informações importantes para o acompanhamento de determinados problemas ou condições de saúde do cidadão;
+- **Histórico**: ferramenta que possibilita visualizar com mais detalhes o histórico de atendimentos do cidadão;
 
-- ![](media/pec_image382.png) **Antecedentes**: ferramenta que permite fazer o registro da história familiar, de patologias pregressas e de saúde do cidadão; é integrada com a lista de problema;
+- **Cadastro do cidadão**: funcionalidade que permite o acesso rápido e a visualização do cadastro do cidadão;
 
-- ![](media/pec_image383.png) **Histórico**: ferramenta que possibilita visualizar com mais detalhes o histórico de atendimentos do cidadão;
-
-- ![](media/pec_image384.png) **Dados Cadastrais**: funcionalidade que permite o acesso rápido e a visualização do cadastro do cidadão;
-
-- ![](media/pec_image385.png) **Finalização do Atendimento**: funcionalidade de controle de finalização do atendimento.
+- **Agendamentos**: funcionalidade que permite a visualização de todos os atendimentos para o cidadão, anteriores ou futuros.
 
 - ![](media/pec_image894.png) **Acessar RNDS**: funcionalidade que permite ao profissional de saúde visualizar dados clínicos do cidadão que foram registrados em outros pontos de atenção à saúde e que foram enviados para a Rede Nacional de Dados em Saúde (RNDS). 
 
@@ -737,7 +731,7 @@ A folha de rosto, por meio de um sumário clínico do cidadão, oferece acesso r
 
 Figura 6.4.6 - Prontuário do Cidadão - folha de rosto
 
-![](media/pec_image387.png)
+![](media/pec_image893.png)
 
 Fonte: SAPS/MS
 
@@ -747,29 +741,46 @@ Conforme podemos ver na Figura 6.4.6, a folha de rosto conta com os seguintes bl
 
 ![](media/pec_image390.png)
 
-- **Últimos contatos**: exibe os últimos três atendimentos do cidadão na unidade de saúde, permitindo saber quais os problemas/condições avaliadas e quando ocorreram. Caso haja necessidade de ver mais informações do histórico do cidadão é possível clicar no botão "Mais informações";
+- **Últimos contatos**: exibe os últimos atendimentos do cidadão na unidade de saúde, permitindo saber quais os problemas/condições avaliadas e quando ocorreram. Caso haja necessidade de ver mais informações do histórico do cidadão é possível clicar na guia "Histórico;
+
 
 ![](media/pec_image391.png)
 
-- **Problemas/condições**: exibe os problemas/condições ativos ou latentes do cidadão. **Não exibe os problemas/condições resolvidos** (estes poderão ser visualizados clicando no ícone "Lista de Problemas");
+- **Antecedentes**: são exibidas na parte de antecedentes informações obstétricas como Gestações prévias, partos e recém-nascidos com abortos, nascidos e nascidos vivos. Além disso, ficam exibidas as informações de antecedentes hospitalares do cidadão.
 
 ![](media/pec_image392.png)
 
-- **Alergias/Reações Adversas**: exibe a lista de alergias e as reações adversas do cidadão, identificando Agente Causador, Categoria, Criticidade e data de instalação. Caso haja necessidade de ver mais informações sobre alergias/reações adversas é possível clicar no botão "Mais informações".
+- **Medições**: são exibidas as últimas medições do cidadão de: peso, altura, IMC, perímetro cefálico, circunferência abdominal, perímetro de panturrilha, pressão arterial, frequência respiratória, frequência cardíaca, temperatura, saturação de O2 e glicemia capilar.
 
 ![](media/pec_image393.png)
 
-- **Vacinação**: apresenta informações em relação a situação vacinal do cidadão, última vacina aplicada, data da aplicação, se existem vacinas atrasadas ou aprazadas. Clicando no botão "Mais informações" é possível acessar o acompanhamento de vacinação do cidadão.
+- **Vacinação**: são exibidas as últimas vacinas aplicadas no cidadão e as próximas vacinas aprazadas. Será apresentado, no máximo, as 3 últimas aplicações ou aprazamentos realizados para o cidadão. Caso haja doses de vacinas atrasadas (independente de faixa etária), aparecerá uma  mensagem de alerta: "Existem vacinas atrasadas ou não registradas! Confira o cartão de vacinação do cidadão."
 
 ![](media/pec_image901.png)
 
-- **Medicamentos Ativos**: exibe as medicações em uso contínuo, data de início da prescrição e conclusão, se for o caso. Caso haja necessidade de ver mais informações sobre medicamentos ativos é possível clicar no botão "Mais informações".
+- **Problemas e condições autorreferidas**: exibidas as 
+condições autorreferidas pelo cidadão registradas em seu  cadastro individual mais recente.
 
 ![](media/pec_image395.png)
 
-- **Lembretes**: exibe os lembretes ativos criados pelo profissional ou por algum membro da equipe (veja como criar lembretes por meio do Plano do SOAP, na Seção 6.4.3.7).
+- **Lembretes**: exibe os lembretes ativos criados pelo profissional ou por algum membro da equipe.
+
+- **Alergias/Reações Adversas**: exibe a lista de alergias e as reações adversas do cidadão, identificando Agente Causador, Categoria, Tipo de reação e Criticidade. Ao clicar no card é possível ver o detalhamento de cada Alergia/Reação adversa com informações de data de início, manifestações e outras observações registradas. 
+
+- **Lista de Problemas/condições**: exibe os problemas/condições ativos ou latentes do cidadão. São exibidos no card os últimos cinco registros de problemas/condições com as informações: CID10/CIAP2; data de início do problema ou condição; idade do problema/condição, ou seja, há quanto tempo ele existe; e data da última atualização do problema/condição no PEC.
+ **Não exibe os problemas/condições resolvidos** (estes poderão ser visualizados em Antecedentes no SOAP);
+
+- **Resultados de exames**: o card exibe uma lista dos três últimos resultados de exames inseridos com as informações
+de nome do exame, data de realização e resultado do exame.
+
+- **Medicamentos Prescritos**: exibe as medicações com tratamento ativo ou concluído/interrompido nos últimos três meses. São exibidos no card o medicamento prescrito, a dose e o intervalo/frequência prescritos. Ao clicar no card são exibidas as informações se é uso contínuo, data de início da prescrição e conclusão, se for o caso, bem como as recomendações.
 
 ![](media/pec_image396.png)
+
+
+
+
+
 
 Figura 6.4.7 - Folha de Rosto com informações sumarizadas a partir de registros anteriores
 
@@ -821,7 +832,7 @@ O registro da parte subjetiva pode ser realizado usando o campo texto e/ou por m
 
 Figura 6.4.9 - SOAP - Subjetivo (motivo da consulta)
 
-![](media/pec_image399.png)
+![](media/pec_image971.png)
 
 Fonte: SAPS/MS.
 
@@ -831,19 +842,21 @@ Para adicionar um motivo de consulta usando a CIAP2, siga os passos:
 
 ![](media/pec_image400.png)
 
-- Passo 2. Caso necessário, é possível complementar a informação com uma observação, conforme demosntrado na figura abaixo.
+- Passo 2. Caso necessário, é possível complementar a informação com uma nota explicativa.
 
-![](media/pec_image401.1.png)
+![](media/pec_image401.png)
 
-- Passo 3. Clique no botão ![](media/pec_image402.png) para excluir a inserção do código;
+- Passo 3. Clique no botão ![](media/pec_image402.png) para concluir a inserção do código;
 
+- Passo 4. Ao inserir o motivo da consulta, o sistema irá criar uma lista de motivos da consulta registrados. Caso queira editar ou  excluir o registro, clique, respectivamente, nos ícones ![](media/pec_image403.png) "Editar" e ![](media/pec_image404.png) "Excluir" na lista de motivos da consulta.
 
+![](media/pec_image405.png)
 
 ### 6.4.3.2 SOAP - Objetivo
 
 S **O** A P
 
-O registro do "Objetivo", conforme a Figura 6.4.9, pode ser realizado usando campo texto e/ou estruturado para anotar sinais e sintomas percebidos pelo profissional de saúde durante o atendimento. O sistema oferece um bloco de campos estruturados para facilitar o preenchimento das aferições mais frequentes na consulta. Os campos disponíveis são:
+O registro do "Objetivo", conforme a Figura 6.4.10, pode ser realizado usando campo texto e/ou estruturado para anotar sinais e sintomas percebidos pelo profissional de saúde durante o atendimento. O sistema oferece um bloco de campos estruturados para facilitar o preenchimento das aferições mais frequentes na consulta. Os campos disponíveis são:
 
 - **Antropometria**:
 
@@ -869,15 +882,15 @@ O registro do "Objetivo", conforme a Figura 6.4.9, pode ser realizado usando cam
 - **Glicemia**:
  - Glicemia capilar: registrar em miligramas por decilitro (mg/dL). É necessário informar se, no **momento da coleta**, o cidadão encontrava-se na situação de jejum, pré-prandial, pós-prandial ou não especificado.
 
-Figura 6.4.10 - SOAP - Objetivo
+Figura 6.4.9 - SOAP - Objetivo
 
-![](media/pec_image936.png)
+![](media/pec_image406.png)
 
 Fonte: SAPS/MS
 
-Para os casos em que o cidadão em atendimento é do sexo feminino, o bloco "Mulher" é disponibilizado, como mostra a Figura 6.4.11.
+Para os casos em que o cidadão em atendimento é do sexo feminino, o bloco "Mulher" é disponibilizado, como mostra a Figura 6.4.10.
 
-Figura 6.4.1 - SOAP - Objetivo - grupo mulher (sem DUM registrada)
+Figura 6.4.10 - SOAP - Objetivo - grupo mulher (sem DUM registrada)
 
 ![](media/pec_image407.png)
 
@@ -885,57 +898,70 @@ Fonte: SAPS/MS
 
 - **DUM (Data da Última Menstruação)**: neste campo, registra-se a data da última menstruação da mulher em atendimento, mesmo que não haja suspeita ou condição de gravidez. Após salvo o registro da DUM aparece a informação conforme figura abaixo.
 
-Figura 6.4.12 - SOAP - Objetivo - grupo mulher (com DUM registrada)
+Figura 6.4.11 - SOAP - Objetivo - grupo mulher (com DUM registrada)
 
-![](media/pec_image407.1.png)
+![](media/pec_image408.png)
 
 Fonte: SAPS/MS.
 
 #### 6.4.3.2.1 - Resultados de Exames
 
-No bloco "Objetivo", é possível gerenciar exames solicitados, avaliados e seus resultados. Itens solicitados por meio da ferramenta “Exames” do PEC são mostrados no grupo “Exames solicitados e/ou avaliados” no atendimento seguinte. Para mais detalhes sobre como solicitar exames pelo sistema, ver o tópico “Plano”, na Seção 6.4.3.4.2. Para visualizar o resultado de exames , siga os passos descritos abaixo:
+No bloco "Objetivo", é possível gerenciar exames solicitados, avaliados e seus resultados. Itens solicitados por meio da ferramenta "Exames" do PEC são mostrados no grupo "Exames solicitados e/ou avaliados" no atendimento seguinte. Para mais detalhes sobre como solicitar exames pelo sistema, ver o tópico "Plano", na Seção 6.5.2.4. A lista será exibida conforme a Figura 6.4.12
 
-- Passo 1. Clique no botão \"Adicionar resultados de exames\" ![](media/pec_image410.png) - o sistema apresentará uma tela, conforme a Figura abaixo;
+Figura 6.4.12 - SOAP - Objetivo - lista de exames
 
-
-![](media/pec_image408.2.png)
-
-- Passo 2. Descreva o exame desejado, será mostrado o nome do exame em questão, 
-
-- Passo 3. Na tela insira o resultado, a data de solicitação e realização do exame, conforme figura abaixo e clique em "Salvar".
-
-
-![](media/pec_image408.1.png)
+![](media/pec_image409.png)
 
 Fonte: SAPS/MS.
 
-Para facilitar o gerenciamento do resultado de exame no SOAP, no bloco "Objetivo" é possível visualizar o resumo, conforme figura abaixo;
+Para facilitar a busca dos exames solicitados ou avaliados o recurso de filtro ![](media/pec_image414.png) permite selecionar o período na qual se quer fazer a pesquisa e ainda exibir os exames com resultado e/ou sem resultado, conforme figura abaixo:
 
+![](media/pec_image415.png)
 
-![](media/pec_image408.3.png)
+Fonte: SAPS/MS
 
-Fonte: SAPS/MS.
+Para informar o resultado de um exame já solicitado, siga os passos descritos abaixo:
 
-É possível editar o resultado de exames em \" ![](media/pec_image410.png), o sistema apresentará uma tela, conforme figura abaixo.
+- Passo 1. Clique no botão \"Informar Resultado\" ![](media/pec_image410.png) do exame - o sistema apresentará uma tela, conforme a Figura 6.4.13;
 
+- Passo 2. o bloco "Solicitação", será mostrado o nome do exame em questão, a data da solicitação, os dados do profissional e UBS que realizou a solicitação;
 
-![](media/pec_image408.4.png)
+- Passo 3. No bloco "Resultados", informe a data de realização, a data do resultado e a descrição sobre o resultado do exame;
 
-Fonte: SAPS/MS.
+- Passo 4. No caso de ser um exame específico, algumas outras informações aparecerão no bloco \"Resultado de exame específico\" para serem preenchidas;
 
-Caso deseje excluir o exame clique em ![](media/pec_image402.png) e selecione "Excluir". O exame será excluído da tela inicial. 
+- Passo 5. Para concluir, clique em \"Salvar\".
 
-![](media/pec_image408.5.png)
+Figura 6.4.13 - SOAP - Objetivo - entrada de resultado de exame previamente solicitado via PEC
 
-Fonte: SAPS/MS.
+![](media/pec_image411.png)
 
+Fonte: SAPS/MS
+
+É possível registrar exames não solicitados por meio do PEC, mas que foram trazidos pelo cidadão em atendimento. Para isso, siga os passos abaixo:
+
+- Passo 1. Clique no botão \"Adicionar\" no bloco "Exames solicitados e/ou avaliados" - o sistema apresentará uma tela, conforme a Figura 6.4.14;
+
+- Passo 2. No bloco "Solicitação", informe o exame e a data que ele foi solicitado;
+
+- Passo 3. No bloco "Resultados", informe a data de realização, a data do resultado e a descrição referente ao resultado do exame;
+
+- Passo 4. Caso seja um exame específico, algumas outras informações aparecerão no bloco \"Resultado de exame específico\" para serem preenchidas;
+
+- Passo 5. Para concluir, clique em \"Salvar\".
+
+Figura 6.4.14 - SOAP - Objetivo - adicionar resultado de exame não solicitado via PEC
+
+![](media/pec_image412.png)
+
+Fonte: SAPS/MS
 
 Alguns exames requerem o registro de dados específicos dos resultados. Estes resultados são utilizados em outras seções do PEC. Um exemplo é o exame de dosagem de hemoglobina glicada, onde é possível registrar o resultado em percentil (%), como mostra a imagem abaixo:
 
-![](media/pec_image408.6.png)
+![](media/pec_image413.png)
 
 {: .atualizacao }
-A versão 5.0 amplia o escopo de exames que podem ter o preenchimento estruturado de resultados, ainda que de forma manual. São eles:
+A versão 4.2.1 amplia o escopo de exames que podem ter o preenchimento estruturado de resultados, ainda que de forma manual. São eles:
 
 |Código SIGTAP| Exame|
 |- |- |
@@ -952,7 +978,7 @@ S O **A** P
 
 Neste campo é registrado a avaliação do cidadão feito pelo profissional de saúde, considerando o raciocínio clínico baseado na análise dos blocos "Subjetivo" e "Objetivo". Na **Avaliação** podem ser registradas as hipóteses de diagnóstico e/ou diagnóstico codificado.
 
-O código do problema e/ou condição detectada ou avaliada durante o atendimento é de preenchimento obrigatório, sendo necessário informar pelo menos um código, CIAP2 ou CID10, conforme podemos ver na Figura 6.4.15.
+O código do problema e/ou condição detectada ou avaliada durante o atendimento é de preenchimento obrigatório, sendo necessário informar pelo menos um código, CIAP2 ou CID10. Caso seja necessário, também poderá ser incluída uma nota, conforme podemos ver na Figura 6.4.15.
 
 Figura 6.4.15 - SOAP - Avaliação
 
@@ -960,37 +986,22 @@ Figura 6.4.15 - SOAP - Avaliação
 
 Fonte: SAPS/MS
 
-Caso o profissional decida acompanhar o problema/condição avaliada, em consultas posteriores, é possível incluí-lo na Lista de Problemas/Condições, como situação "Ativo", conforme figura abaixo:
-
-![](media/pec_image927.png)
-
+Caso o profissional decida acompanhar o problema/condição avaliada, em consultas posteriores, é possível incluí-lo na Lista de Problemas/Condições como situação "Ativo".
 
 Para registrar uma condição ou problema detectado, siga os passos:
 
-- Passo 1. Informe o código CIAP2 ou CID10 e clique em "Adicionar" ![](media/pec_image931.png). Aparecerá na tela os problemas e condições avaliados neste atendimento, conforme figura abaixo:
+- Passo 1. Informe o código CIAP2;
 
-![](media/pec_image932.png)
+- Passo 2. Se informar o código CIAP2, para registros de profissional médico ou odontólogo, é possível marcar a opção "Filtro CID10 X CIAP2", que possibilita restringir a lista de códigos CID10 em relação a um código da CIAP2; logo depois, selecione o CID10;
 
+- Passo 3. Se necessário, registre alguma nota relacionada com o problema detectado;
 
-- Passo 2. Clique em ![](media/pec_image928.png) "Adicionar Observação" para registrar alguma observação relacionada com o problema detectado, caso necessário. Ao registrar aparecerá a seguinte tela:
+- Passo 4. Se houver necessidade de acompanhar este problema/condição, marque a opção "**Inserir na Lista de Problemas/Condições como ativo**";
 
+- Passo 5. Por último, clique no botão \"Confirmar\" para concluir.
 
-![](media/pec_image929.png)
-
-- Passo 3. Clique em  ![](media/pec_image930.png) "Salvar" para concluir.
-
-- Passo 4. Clique em  ![](media/pec_image933.png) "Editar" para realizar alguma edição/alteração na lista de problemas e condições e salve a edição feita.
-
-- Passo 5. Clique em  ![](media/pec_image402.png) "Excluir" para exclusão do CIAP2 registrado.
-
-
-Agora realcionado a alergia , em consultas posteriores, é possível incluí-lo na Lista de Problemas/Condições, como situação "Ativo", conforme figura abaixo
-
-{: .nota }
-Agora é possível inserir informações de Alergias e reações adversas pelo campo "Avaliação" no SOAP, conforme figura abaixo. Para maiores intruções de como preencher esse campo, observar o item 6.4.4.2 do manual e-SUS APS.
-
-![](media/pec_image937.png)
-
+{: .atencao }
+Não é possível registrar a mesma codificação CIAP2/CID10 no mesmo atendimento. Então, se não conseguir adicionar um problema/condição esteja atento a essa situação.
 
 ### 6.4.3.4 SOAP - Plano
 
@@ -1011,7 +1022,9 @@ O sistema ainda disponibiliza algumas ferramentas específicas para auxiliar no 
 
 - **Atestados**: ferramenta que ajuda o profissional na emissão e controle de atestados e de licença maternidade elaborados para o cidadão;
 
-- **Solicitação de exames**: ferramenta que auxilia o profissional na solicitação de exame comum e/ou de alto custo;
+- **Exames**: ferramenta que auxilia o profissional na solicitação de exame comum e/ou de alto custo;
+
+- **Lembretes**: ferramenta que auxilia o profissional a registrar lembretes para serem visualizados, por meio da folha de rosto, nas próximas consultas;
 
 - **Prescrição de medicamentos**: ferramenta que auxilia o profissional nas prescrições medicamentosas no atendimento ao cidadão, na visualização do histórico de prescrições e da lista de medicamentos, além da impressão dos receituários com as medicações prescritas no momento;
 
@@ -1026,29 +1039,46 @@ Será apresentada, nas próximas seções, cada uma dessas ferramentas com mais 
 O atestado é um documento de conteúdo informativo, redigido e assinado por exemplo por **médicos e odontólogos**, de acordo com a Lei nº 605/49, combinada com a Lei nº 5.081/66, como \"atestação\" da existência de certa obrigação ou de ato por ele praticado. Podendo o beneficiário do atestado requerer os direitos daquilo que foi declarado, como os abonos de faltas ao trabalho.
 
 Figura 6.41 - SOAP - Plano - Atestado
-
 ![](media/pec_image418.png)
-
 Fonte: SAPS/MS.
 
-Conforme podemos ver na Figura acima, para emitir um atestado, basta seguir os passos:
+Conforme podemos ver na Figura 6.35, para emitir um atestado, basta seguir os passos:
 
-- Passo 1. Clique na ferramenta "+ Gerar declaração de comparecimento";
+- Passo 1. Clique na ferramenta "Atestados";
 
-- Passo 2. Na tela que irá abrir escolha obrigatoriamente uma das opções para período: "Matutino", "Vespertino", "Noturno" e "Horário Personalizado".
+- Passo 2. Escolha uma das opções: "*Em branco*", "*Padrão*" ou "*Licença maternidade*"
 
-![](media/pec_image418.1.png)
+![](media/pec_image419.png)
 
-- Passo 3. Para "Horário Personalizao" escolha obrigatoriamente "horário de entrada" e "horário de saída"
+**Em Branco**: um campo para descrição livre será disponibilizado para o profissional preencher, conforme a necessidade do atendimento (Figura 6.36);
 
+Figura 6.42 - Ferramenta Atestado com a função Em branco
 
-![](media/pec_image418.2.png)
+![](media/pec_image420.png)
 
+ **Padrão**: um modelo de atestado será disponibilizado. O profissional deverá preencher os campos obrigatórios: data, hora e dias, além do campo CID10, este último não é obrigatório (Figura 6.37). Caso seja informado o CID 10, é possível escolher se esse código também será impresso no atestado. Para isso, selecione a opção "Imprimir CID10". Ao selecionar essa opção, o atestado impresso, também apresentará uma declaração para assinatura do cidadão autorizando o médico o registro e a apresentação do diagnóstico codificado (CID10) no atestado emitido;
 
-- Passo 4. Caso deseje incluir o nome do acompanhante, informe no campo "Incluir nome do acompanhante".
+Figura 6.43 - Ferramenta Atestado com a função Padrão
 
-- Passo 4. Para finalizar clique em "Gerar declaração".
+![](media/pec_image421.png)
 
+**Licença maternidade**: um modelo de licença- maternidade será disponibilizado com os dados do cidadão já preenchidos automaticamente. Caso ele não possua o CNS ou CPF cadastrados, poderá informar manualmente no atestado. Esta opção estará disponível apenas no atendimento de pessoas do sexo feminino e na condição de gravidez na Lista de Problemas/Condições com a situação Ativo (Figura 6.38);
+
+Figura 6.44 - Ferramenta Atestados com a função Licença Maternidade
+
+![](media/pec_image422.png)
+
+- Passo 3. Para concluir as emissões dos atestados clique em "Salvar".
+
+Ao criar um atestado, na listagem de atestados, aparecerão algumas opções por padrão. São elas:
+
+![](media/pec_image423.png) **Imprimir**: será apresentada a tela com o atestado em modo de impressão;
+
+![](media/pec_image424.png) **Visualizar**: os dados do atestado serão apresentados somente para visualização;
+
+![](media/pec_image425.png) **Excluir**: retirar um atestado da listagem. O sistema solicitará a confirmação da exclusão;
+
+![](media/pec_image426.png) **Editar**: apresentar os dados do atestado em modo de edição. Após as alterações, clique no botão "Salvar".
 
 #### 6.4.3.4.2 Ferramentas do Plano - Exames
 
@@ -1068,7 +1098,7 @@ Os exames que têm alta complexidade são classificados como exames de **alto cu
 
 Para criar uma solicitação de exame **Comum** basta seguir os passos a seguir:
 
-- Passo 1. Clique na opção \"Adicionar exame comum\" ![](media/pec_image428.png), conforme vimos na Figura 6.46;
+- Passo 1. Clique na opção \"Adicionar exame comum\" ![](media/pec_image428.png), conforme vimos na Figura 6.45;
 
 Figura 6.46 - Adicionar exames
 
@@ -1100,57 +1130,73 @@ Esta é uma alternativa que agiliza a requisição de exames, visto que são apr
 
 Para cadastrar a solicitação de um exame de "**Alto Custo**" é necessário adicionar o exame e justificar a solicitação, informando o CID10 e motivo do procedimento, de acordo com os passos a seguir:
 
-- Passo 1. Clique na opção \"Adicionar exame alto custo\" ![](media/pec_image433.png).
+- Passo 1. Clique na opção \"Adicionar exame alto custo\" ![](media/pec_image433.png), conforme vimos na Figura 6.39;
 
 Figura 6.48 - Adicionar exame de Alto Custo
 
 ![](media/pec_image434.png)
 
-- Passo 2. Para adicionar um exame de alto custo, utilize o campo de busca "Exames", digitando parte ou todo o nome do exame desejado, e selecione o item desejado por meio da lista que será exibida;
+- Passo 2. Para adicionar um exame de alto custo, utilize o campo de busca "Exame", digitando parte ou todo o nome do exame desejado, e selecione o item desejado por meio da lista que será exibida;
 
 - Passo 3. Preencha o código CID10 por meio do campo de busca "CID10". O CID10 deve ser aquele que justifica a solicitação do exame;
 
 - Passo 4. Preencha a "Justificativa do procedimento";
 
-- Passo 5. Caso deseje preencha em "Observações" alguma informação adicional sobre o exame solicitado.
+- Passo 5. Para concluir, clique no botão ![](media/pec_image432.png).
 
-- Passo 6. Para concluir, clique no botão ![](media/pec_image432.png).
-
-Figura 6.49 - SOAP - Plano - exames - Solicitações de exames. 
-
-Após cadastrar aparecerá uma lista de exames no bloco "Solicitação de exames", conforme exemplo da Figura 6.49.
-
-Figura 6.49 - SOAP - Solicitações de exames
-
+Figura 6.49 - SOAP - Plano - exames - solicitações do atendimento
 ![](media/pec_image435.png)
+
+Após cadastrar aparecerá uma lista de exames no bloco "Solicitações do atendimento", conforme exemplo da Figura 6.49.
+
+- Ao clicar no botão "Imprimir" será apresentada a tela com a solicitação de exame em modo de impressão;
+
+- Ao clicar no botão ![](media/pec_image425.png) excluirá uma solicitação de exames. O sistema solicitará a confirmação da exclusão;
+
+- Ao clicar sobre o nome do exame é possível editar algum dado da solicitação de exames. Após as alterações, clique no botão "Salvar".
+
+#### 6.4.3.4.3 Ferramentas do Plano - Lembrete
+
+Nesta ferramenta, é possível cadastrar lembretes para as próximas consultas, permitindo anotar informações importantes a respeito do atendimento e/ou do indivíduo que devam ser retomadas pelo profissional ou pela equipe.
+
+Figura 6.50 - SOAP - Plano - lembretes
+
+![](media/pec_image436.png)
 
 Fonte: SAPS/MS.
 
-- Ao selecionar a opção "Ver somente as minhas solicitações" ![](media/pec_image938.png) aparecerá somente as solicitações do profissional que realizou à solicitação de exames do atendimento. 
+Para adicionar um lembrete, siga os passos:
 
-- Ao clicar na opção "Imprimir" ![](media/pec_image938.png).  será apresentada a tela com a solicitação de exame em modo de impressão;
+- Passo 1. Clique no botão "Lembrete";
 
-- Ao clicar na opção "Mais opçoes" ![](media/pec_image940.png) terá a opção de editar ou excluir uma solicitação de exames. 
+- Passo 2. Clique no botão \"Adicionar\";
 
-- Para realizar exclusão de algum exame clique em "Excluir" ![](media/pec_image942.png). O sistema pedirá a confirmação da exclusão, conforme figura abaixo:
+- Passo 3. Antes do preenchimento o lembrete poderá ter visualização controlada ao selecionar \"Público\", dessa forma, o lembrete será visualizado por todos os profissionais. Ao selecionar \"Somente eu\", restringirá o acesso ao profissional que está adicionando o lembrete;
 
-![](media/pec_image943.png)
+Figura 6.51 - Adicionar lembrete
 
-- Para realizar edição de alguma "solicitação de exames" cique em "Editar"![](media/pec_image944.png). O sistema abrirá a tela conforme figura 6.50 abaixo. 
+![](media/pec_image437.png)
 
-![](media/pec_image945.png)
+- Passo 4. Escreva o lembrete e clique no botão "Salvar" para concluir;
 
-- Passo 1. Selecione o exame que deseja editar. 
+Os lembretes só poderão ser editados enquanto o atendimento em que eles foram adicionados não for finalizado. Os atendimentos anteriores, já finalizados, não poderão ser editados.
 
-- Passo 2. Caso deseje realizar alguma observação para o exame clique em " Observação" ![](media/pec_image946.png).
+Na listagem de lembretes, na primeira coluna (mais à esquerda), terá a opção "Ativo", conforme Figura 6.52. Cada registro tem uma caixa de seleção desta alternativa. Se selecionada, o lembrete estará ativo, portanto será visualizado na Folha de Rosto do prontuário do cidadão. Para mudar a situação basta clicar no checkbox "Ativo" desativando a visualização do lembrete.
 
-- Passo 3. Caso deseje excluir alguma exame clique em "Excluir" ![](media/pec_image941.png).
+Figura 6.52 - SOAP - Plano - lembretes
 
-Passo 4.  Após as alterações, clique no botão "Salvar" ![](media/pec_image930.png).
+![](media/pec_image438.png)
 
-#### 6.4.3.4.3 Ferramentas do Plano - Prescrição de Medicamentos
+Fonte: SAPS/MS.
 
-Esta ferramenta permite fazer a prescrição de medicamentos, contendo orientação de uso para o paciente, efetuada por profissional legalmente habilitado, podendo ser de lista padrão (pré- definida pelo CATMAT[^1]) ou descrição em texto livre (Registro Manual), conforme figura 6.53.
+{: .atencao }
+Lembretes desativados não poderão ter a descrição alterada e não aparecerá mais na folha de rosto do cidadão.
+
+#### 6.4.3.4.4 Ferramentas do Plano - Prescrição de Medicamentos
+
+Esta ferramenta permite fazer a prescrição de medicamentos, contendo orientação de uso para o paciente, efetuada por profissional legalmente habilitado, podendo ser de lista padrão (pré- definida pelo CATMAT[^1]) ou descrição em texto livre (Registro Manual).
+
+Como podemos ver na Figura 6.53, a ferramenta de prescrição de medicamentos inicia pela lista de medicamentos, possibilitando que o profissional observe os medicamentos que estão "Em uso" ![](media/pec_image439.png), ou os medicamento de "Uso contínuo" ![](media/pec_image440.png), ou os que tiveram o "Tratamento concluído" ![](media/pec_image441.png), mas que possam ter alguma influência no tratamento atual. É possível por meio do botão recomendações ![](media/pec_image442.png), visualizar as recomendações feitas para cada medicamento prescrito. Ainda, por meio do botão replicar ![](media/pec_image443.png), qualquer medicamento pode ser copiado para a prescrição atual.
 
 Figura 6.53 - SOAP - Plano - Prescrição de Medicamentos
 
@@ -1158,85 +1204,71 @@ Figura 6.53 - SOAP - Plano - Prescrição de Medicamentos
 
 Fonte: SAPS/MS.
 
-- Para realizar a prescrição de medicamentos, siga os passo a seguir:
+Na aba de \"Histórico de prescrições\", como podemos ver na Figura 6.54, visualiza- se o histórico dos medicamentos prescritos ao cidadão, organizados por prescritor e data da prescrição. Assim como na lista de medicamentos é possível replicar ![](media/pec_image443.png) ou visualizar as recomendações para uso do medicamento clicando no botão ![](media/pec_image442.png).
 
-- Passo 1. Clique em "+ Adicionar prescrição" ![](media/pec_image948.png). Abrirá a tela de prescrição, conforme figura 6.54:
+Figura 6.54 - SOAP - Plano - Prescrição de Medicamentos - Histórico de prescrições
 
-Figura 6.54 - Adicionar prescrição
+![](media/pec_image445.png)
 
-![](media/pec_image949.png)
+Fonte: SAPS/MS.
 
-fonte: SAPS/MS.
+Para criar uma receita, siga os passos:
 
-Para compor o receituário, observe que existem campos obrigatórios para preenchimento da prescrição de um medicamento. Os campos para prescrição são:
+- Passo 1. Clique em "Prescrição do Atendimento", em seguida no botão "adicionar" e exibirá uma tela para a criação da receita;
+
+Figura 6.55 - Adicionar medicamentos no receituário
+
+![](media/pec_image446.png)
+
+- Passo 2. Para compor o receituário, observe que existem campos obrigatórios para preenchimento da prescrição de um medicamento. Os campos para prescrição são:
 
  - Princípio Ativo/Medicamento
  - Via de administração
- - Dose [^2]:
- - Frequência da dose
- - Inicío do tratamento
- - Duração
- - Quantidade
+ - Posologia [^2]:
+ - Período de Tratamento
+ - Recomendações
+ - Fornecimento
 
- - Passo 2. Selecione qual o Princípio ativo/ medicamento.
 
-  **Princípio Ativo/Medicamento**: lista de medicamentos do CATMAT, controlado pela Anvisa e pelo DAF/SCTIE/MS. Os campos Concentração, Forma Farmacêutica e Tipo de Receita, já são preenchidos automaticamente a partir do medicamento selecionado;
-
-- Passe 3. Selecione a Via de administração.
+ **Princípio Ativo/Medicamento**: lista de medicamentos do CATMAT, controlado pela Anvisa e pelo DAF/SCTIE/MS. Os campos Concentração, Forma Farmacêutica e Tipo de Receita, já são preenchidos automaticamente a partir do medicamento selecionado;
 
 **Via de administração**: é a via de administração do medicamento;
 
-- Passo 4. Selecione a dose do medicamento.
+**Posologia[^2]**: descreve a dose do medicamento e a frequência na qual deve ser administrado. A frequência da dose pode ser definida por meio de Intervalo (em horas), Frequência (vezes dentro de um período) ou Turno (manhã, tarde ou noite). Utilize a opção "Dose única" ![](media/pec_image447.png) caso o medicamento seja administrado em dose única (Figura 6.56).
 
-**Dose**: é a dose do medicamento, refere-se à quantidade do princípio ativo do medicamento que possui em cada administração. Utilize a opção "Dose única" ![](media/pec_image447.png) caso o medicamento seja administrado em dose única.
+Figura 6.56 - Posologia e Frequência da dose
 
-- Passo 5. Selecione a Frequência da dose que compõem: "intervalo" (em horas), "Frequência" (vezes dentro de um período e frequência (Dia(s), semana)s) ou mês(es), "Turno" (manhã,tarde ou noite), conforme figuras abaixo:
+![](media/pec_image448.png)
 
+![](media/pec_image449.png)
 
-![](media/pec_image950.png)
+![](media/pec_image450.png)
 
-![](media/pec_image951.png)
+**Período de Tratamento**: define o período de início e fim do tratamento; Utilize a opção "Uso contínuo" ![](media/pec_image451.png) caso o medicamento seja para tratamento de condições crônicas ou cronificadas. Essa opção auxilia na gestão da prescrição de medicamentos, incluindo este na lista de medicamentos de uso contínuo.
 
-![](media/pec_image952.png)
-
-
-- Passo 6. Selecione o período do tratamento da medicação, inserindo o "início do tratamento" e "Duração", conforme figura abaixo: 
-
-![](media/pec_image953.png)
-
-**Período de Tratamento**: define o período de início e fim do tratamento. 
-Utilize a opção "Uso contínuo" ![](media/pec_image451.png) caso o medicamento seja para tratamento de condições crônicas ou cronificadas. Essa opção auxilia na gestão da prescrição de medicamentos, incluindo este na lista de medicamentos de uso contínuo.
-
-- Passo 7. Caso deseje incluir recomendações a respeito do medicamento clique em "Recomendações", conforme figura abaixo:. 
-
-![](media/pec_image453.png)
+![](media/pec_image452.png)
 
 **Recomendações**: as orientações sobre a forma de administração ou cuidados relacionados ao tratamento.
 
-- Passo 8. Insira a quantidade do medicamento a ser administrado/prescrito.
+![](media/pec_image453.png)
 
-
-**Quantidade**: onde se deve informar a quantidade de unidades ou apresentação da medicação a ser fornecida ao cidadão a partir da prescrição do tratamento;
+**Fornecimento**: onde se deve informar a quantidade de unidades ou apresentação da medicação a ser fornecida ao cidadão a partir da prescrição do tratamento;
 
 ![](media/pec_image454.png)
 
-- Passo 9. Para concluir, clique em "Salvar prescrição" ![](media/pec_image455.png);
+- Passo 3. Para concluir, clique em "Salvar" ![](media/pec_image455.png);
 
-- Passo 10. Para adicionar mais de um medicamento na receita, preencha novamente os campos da prescrição e clique em "Salvar prescrição", o sistema irá exibir uma lista lateral com os medicamento prescritos durante o atendimento, conforme figura 
-6.55.
+- Passo 4. Para adicionar mais de um medicamento na receita, preencha novamente os campos da prescrição e clique em "Salvar", o sistema irá exibir uma lista lateral com os medicamento prescritos durante o atendimento;
 
-![](media/pec_image954.png)
-
-
-- Passo 11. Para finalizar clique no botão "Salvar prescrição" ![](media/pec_image955.png).
+- Passo 5. Para finalizar clique no botão "Fechar" ![](media/pec_image456.png).
 
 {: .nota }
 as regras por medicamento, determinam o tipo de receita e consequentemente o tipo de impressão a ser gerada de acordo com o tipo de medicamento listado na receita. Caso existam medicamentos para tipos de receitas diferentes o sistema irá distribuí-los nos impressos adequados, automaticamente.
 
 {: .nota }
-caso seja necessário prescrever um medicamento que esteja fora da lista padrão, use a opção " Preencher manualmente. Medicamento não encontrado na lista" ![](media/pec_image457.png). Essa forma de prescrição não traz as informações de Princípio Ativo, Concentração, Forma Farmacêutica e Tipo de Receita, por padrão, sendo necessário o seu preenchimento.
+caso seja necessário prescrever um medicamento que esteja fora da lista padrão, use a opção "Registro manual" ![](media/pec_image457.png). Essa forma de prescrição não traz as informações de Princípio Ativo, Concentração, Forma Farmacêutica e Tipo de Receita, por padrão, sendo necessário o seu preenchimento.
 
-Caso a UBS utilize o Sistema Hórus para gestão da farmácia será possível realizar a consulta de disponibilidade do medicamento prescrito. A indicação de ativação da integração com o Hórus será apresentada com a informação de "Conexão com o servidor Hórus desabilitada" habilitada. Ao final da prescrição do medicamento será exibida a lista de estabelecimentos que tem o medicamento disponível, por meio da coluna "Disponibilidade".
+Caso a UBS utilize o Sistema Hórus para gestão da farmácia será possível realizar a consulta de disponibilidade do medicamento prescrito. A indicação de ativação da integração com o Hórus é representada pelo ícone ![](media/pec_image458.png) ativo, como vimos, anteriormente, no bloco de fornecimento. Ao final da prescrição do medicamento será exibida a lista de estabelecimentos que tem o medicamento disponível, por meio da coluna "Disponibilidade".
 
 Figura 6.57 - Exemplo de disponibilidade de medicamentos
 
@@ -1247,112 +1279,106 @@ Fonte: SAPS/MS.
 {: .nota }
 caso sua UBS tenha implantado o Sistema Hórus e o recurso não esteja disponível, é necessário verificar se o recurso está habilitado. Para mais detalhes ver Seção 3.1.7.
 
-- Passo 12. Por fim, para imprimir a prescrição dos medicamentos a serem entregues para o cidadão clique sobre o botão “Imprimir”. Em seguida, aparecerá a tela constando todos os medicamentos prescritos. Selecione o qual gostaria imprimir, conforme figura 6.58.Para utilizar as definições padrões, basta manter selecionado todos os medicamentos.
+- Passo 6. Para imprimir a receita elaborada na consulta, clique no botão \"Imprimir prescrições deste atendimento\" ![](media/pec_image460.png).
 
-Figura 6.58 - Imprimir Prescrição 
+Figura 6.58 - Prescrição do Atendimento
 
-![](media/pec_image956.png)
-
-Fonte: SAPS/MS.
-
-- Passo 13. Para imprimir o receituário clique em "imprimir". 
-
-Figura 6.59 - Modelo do Receituário Impresso no PEC 
-
-![](media/pec_image957.png)
+![](media/pec_image461.png)
 
 Fonte: SAPS/MS.
 
-#### 6.4.3.4.4 Ferramentas do Plano - Orientações
+O sistema exibirá uma tela onde será possível organizar os impressos conforme a necessidade, ver exemplo na Figura 6.59. Para utilizar as definições padrões, basta manter selecionado todos os medicamentos.
+
+Figura 6.59 - SOAP - Plano - Prescrição de Medicamentos
+
+![](media/pec_image462.png)
+
+Fonte: SAPS/MS.
+
+- Passo 7. Por fim, para imprimir a prescrição dos medicamentos a serem entregues para o cidadão clique sobre o botão "Imprimir". Em seguida, aparecerá a receita conforme a figura 6.60.
+
+Figura 6.60 - Modelo do Receituário Impresso no PEC
+
+![](media/pec_image463.png)
+
+#### 6.4.3.4.5 Ferramentas do Plano - Orientações
 
 Esta ferramenta permite ao profissional de saúde registrar orientações a serem entregues ao paciente. Por exemplo, podem ser escritas orientações alimentares ou sobre cuidados a sua saúde.
 
-Figura 6.60 - SOAP - Plano - orientações
+Figura 6.61 - SOAP - Plano - orientações
 
-![](media/pec_image958.png)
+![](media/pec_image464.png)
 
 Fonte: SAPS/MS.
 
-Para adicionar uma orientação siga os passos:
+Para adicionar uma orientação, siga os passos:
 
-- Passo 1. Clique em "Orientações", em seguida descreva no quadro em branco as oreintações ao cidadão e clique em "salvar";
+- Passo 1. Clique em "Orientações", em seguida Clique no botão \"Adicionar\";
 
-- Passo 2. Ao clicar em "Salvar" serão apresentadas as informações conforme a figura abaixo:
+- Passo 2. Registre as orientações a serem fornecidas no campo "Descrição" e, em seguida, clique no botão "Salvar" (Figura 6.62);
 
-Figura 6.61 - Tela com as orientações registradas no PEC
+Figura 6.62 - Campo para descrição das orientações
 
-![](media/pec_image959.png)
+![](media/pec_image465.png)
 
-- Passo 3. Para imprimir as "Orientações" clique em ![](media/pec_image960.png). Aparecerá a tela conforme figura 6.62 abaixo:
+- Passo 3. Ao clicar em "Salvar" serão apresentadas as informações conforme a figura abaixo:
 
-Figura 6.62 - Impressão das Orientações
+Figura 6.66 - Adicionar Orientações
 
-![](media/pec_image962.png)
+![](media/pec_image466.png)
 
-- Passo 4. Para editar as "Orientações" registradas clique em ![](media/pec_image961.png). Aparecerá a tela 6.63 conforme abaixo. Clique em "Salvar":
+- Passo 4. Para imprimir basta selecionar no botão ![](media/pec_image467.png) e em seguida aparecerá uma tela com as orientações prescritas.
 
+Figura 6.67 - Orientações
 
-Figura 6.63 - Edição das "Orientações" registradas
-
-![](media/pec_image963.png).
-
-- Passo 5. Para "Excluir" as "Orientações" registradas clique em ![](media/pec_image964.png).
+![](media/pec_image468.png)
 
 #### 6.4.3.4.6 Ferramentas do Plano - Encaminhamentos
 
 Esta ferramenta oferta aos profissionais a possibilidade de registrar e gerar a impressão da solicitação de encaminhamento para atendimento em serviços de atenção especializada.
 
-Figura 6.64 - Tela de Encaminhamentos
+Figura 6.68 - Tela de Encaminhamentos
 
-![](media/pec_image965.png)
+![](media/pec_image469.png)
 
 Fonte: SAPS/MS.
 
-Para adicionar um encaminhamento siga os passos:
+É possível visualizar todos os encaminhamentos solicitados para o cidadão em atendimento. O componente de filtro permite a busca pelo profissional solicitante, pela especialidade e pela data. Caso o profissional queira verificar apenas as suas solicitações, basta clicar na opção "somente os meus".
 
-Passo 1. Selecione qual "Encaminhamentos" deseja dentre as opções apresentadas. Caso seja um Encaminhamento para especialistas selecione a "Especialidade". Esse campo é obrigatório. 
+Para incluir nova solicitação, clique no botão "Adicionar".
 
-Também é necessário um código CIAP2 (a depender da categoria profissional que está solicitando o encaminhamento) relacionado a avaliação realizada durante a consulta e a necessidade do encaminhamento.
+Figura 6.69 - Tela de solicitação de Encaminhamento
+
+![](media/pec_image470.png)
+
+Para o registro do encaminhamento são necessárias as informações da especialidade a ser solicitada, opcionalmente, é possível incluir complemento à especialidade, por exemplo:
+
+![](media/pec_image471.png)
+
+Também é necessário um código CID10 ou CIAP2 (a depender da categoria profissional que está solicitando o encaminhamento) relacionado a avaliação realizada durante a consulta e a necessidade do encaminhamento.
 
 A classificação de risco também é um campo de preenchimento obrigatório, podendo ser: eletivo, prioritário, urgência ou emergência. A classificação utilizada nesta ferramenta obedece ao padrão determinado pelo **Sistema Nacional de Regulação (SISREG)**.
 
 Informações relacionadas ao "motivo do encaminhamento" e "observações" podem ser incluídas, porém sem obrigatoriedade.
 
-A ferramenta de encaminhamento permite visualizar cada solicitação em uma lista com as informações de classificação de risco, data da solicitação, especialidade e hipótese/diagnóstico, conforme figura 6.65 abaixo:
+A ferramenta de encaminhamento permite visualizar cada solicitação em uma lista com as informações de classificação de risco, data da solicitação, especialidade e hipótese/diagnóstico.
 
-Figura 6.65 - Lista de Encaminhamentos no PEC
-
-![](media/pec_image967.png)
-
+![](media/pec_image472.png)
 Fonte: SAPS/MS.
-
-Passo 2. Para "Salvar clique em ![](media/pec_image966.png).
-
-Passo 3. Para visualizar os detalhes do encaminhamento clique em ![](media/pec_image968.png). Aparecerá a tela com todos os dados do encaminhamento realizado, conforme figura 6.66 abaixo:
-
-Figura 6.66 - Lista de Encaminhamentos no PEC
-
-![](media/pec_image969.png)
-
-Fonte: SAPS/MS.
-
-Passo 4. Para imprimir o encaminhamento clique em ![](media/pec_image970.png).O padrão utilizado obedece às premissas do SISREG (Figura 6.59). A impressão, além dos dados da solicitação, traz o campo da contra referência, na qual pode ser preenchido pelo profissional de saúde do serviço referenciado, como forma de devolver à UBS as informações importantes sobre a situação de saúde do cidadão encaminhado;
-
-É possível visualizar todos os encaminhamentos solicitados para o cidadão em atendimento. O componente de "filtro" ![](media/pec_image971.png)  permite a busca pela data. Caso o profissional queira verificar apenas as suas solicitações, basta clicar na opção “ver somente os meus encaminhamentos” ![](media/pec_image972.png). 
 
 Para cada registro, é possível:
 
--  ![](media/pec_image970.png) **imprimir**: realizar a impressão da solicitação. O padrão utilizado obedece às premissas do SISREG (Figura 6.59). A impressão, além dos dados da solicitação, traz o campo da contra referência, na qual pode ser preenchido pelo profissional de saúde do serviço referenciado, como forma de devolver à UBS as informações importantes sobre a situação de saúde do cidadão encaminhado;
+-  ![](media/pec_image423.png) **imprimir**: realizar a impressão da solicitação. O padrão utilizado obedece às premissas do SISREG (Figura 6.60). A impressão, além dos dados da solicitação, traz o campo da contra referência, na qual pode ser preenchido pelo profissional de saúde do serviço referenciado, como forma de devolver à UBS as informações importantes sobre a situação de saúde do cidadão encaminhado;
 
 Figura 6.70 - Modelo de Guia de Encaminhamento
 
-![](media/pec_image973.png)
+![](media/pec_image473.png)
 
-- ![](media/pec_image976.png) **visualizar**: visualizar as informações da solicitação;
+- ![](media/pec_image424.png) **visualizar**: visualizar as informações da solicitação;
 
-- ![](media/pec_image974.png) **editar**: editar as informações da solicitação. Esta opção não estará mais disponível após a finalização do atendimento; Para realizar edição clique em ![](media/pec_image975.png).
+- ![](media/pec_image426.png) **editar**: editar as informações da solicitação. Esta opção não estará mais disponível após a finalização do atendimento;
 
-- ![](media/pec_image977.png) **excluir**: excluir a solicitação. Esta opção só estará disponível durante o próprio atendimento.
+- ![](media/pec_image425.png) **excluir**: excluir a solicitação. Esta opção só estará disponível durante o próprio atendimento.
 
 Além do SOAP e suas ferramentas, ainda é possível usar as outras ferramentas do prontuário, como seguem nas próximas seções.
 
@@ -1426,40 +1452,46 @@ Podemos ainda inserir um problema ou condição de saúde como **resolvido**, se
 
 ### 6.4.4.2 Alergias e Reações Adversas
 
-É possível inserir **alergias e reações adversas** seguindo os seguintes passos:
+Para inserir **Alergias e reações adversas** agora ficou mais fácil. Agora o registro pode ser feito dentro do campo Avaliação do SOAP. 
 
-- Passo 1. Clique no botão "Problemas/Condições e Alergias", à esquerda da tela;
+Clique na seta para baixo para abrir o módulo e realizar o registro ou pesquisar as alergias registradas anteriormente.
 
-- Passo 2. Clique no botão "Adicionar alergia/reação adversa +";
+Ao clicar na seta para baixo abrirá a tela de Alergias e reações adversas, como mostra a Figura  6.73.
 
+Figura 6.73 - Alergia / Reação Adversas
 ![](media/pec_image485.png)
 
-- Passo 3. Preencha as informações do bloco ALERGIA/REAÇÃO ADVERSA conforme necessário:
+**Pesquisar por Alergias e reações adversas:** este campo é para verificar e pesquisar as alergias registradas previamente no sistema. Ao clicar na seta aparecerão todas as alergias e reações adversas do cidadão, registradas em atendimentos anteriores.
 
-Figura 6.73 - Alergia / Reação Adversar
 ![](media/pec_image486.png)
 
-**Categoria do agente causador:** campo obrigatório, que pode ser: alimento, animal, ingrediente não ativo do medicamento, fármaco(s) presente(s) no medicamento ou contraste radiológico, outras substâncias ou produtos químicos, produto ambiental e outros;
+**Categoria do agente causador:** campo obrigatório em que podem ser selecionados as opções Alimento, Ambiente, Biológico e Medicamento.
 
 ![](media/pec_image487.png)
 
-**Agente/Substância específica:** campo obrigatório, de descrição livre e pré-cadastrada. O sistema irá consultar os registros anteriores em busca de algum registro similar, a fim de manter a relação histórica entre os registros;
+ **Agente/Substância específica:** Campo obrigatório que fica habilitado após o preenchimento do campo “Categoria do agente causador”. Vai exibir as opções de acordo com o agente causador selecionado. É um campo que permite a pesquisa pelo nome do Agente/Substância específica ou seus sinônimos.
 
 ![](media/pec_image488.png)
 
-**Manifestações:** informar as manifestações da reação adversa ou alergia em um campo para livre descrição;
-
-![](media/pec_image489.png)
+**Tipo de reação:**  nesse campo o profissional pode classificar se a reação é uma alergia ou é uma intolerância.
 
 **Criticidade:** classificar a Alergia/Reação Adversa como Alta ou Baixa;
 
+**Grau de certeza:** Neste campo podem ser selecionadas as opções confirmado, resolvido, refutado ou suspeito para o profissional classificar em que estágio está a reação adversa de alergia/intolerância.
+
+![](media/pec_image489.png)
+
+**Manifestações:** Campo para selecionar uma ou mais manifestações que aquela Alergia/Reação Adversa causa ao cidadão. É um campo que permite a pesquisa pelo nome da manifestação ou seus sinônimos.
+
 ![](media/pec_image490.png)
 
-**Data de instalação:** Digite a data da instalação dos sinais e sintomas, além da evolução do quadro alérgico ou da reação;
+**Início:** O registro de quando iniciou a manifestação da alergia/intolerância pode ser feito tanto com uma data específica quanto por idade do cidadão. Ao preencher uma das opções (Data ou Idade) a outra é automaticamente preenchida pelo sistema.
 
 ![](media/pec_image491.png)
 
-- Passo 4. Clique em "Salvar" para concluir.
+**Observações:** Campo para o profissional descrever impressões adicionais sobre a avaliação da alergia/reação adversa.
+
+Ao terminar a inserção das Alergias e Reações Adversas clique no botão Adicionar. Todas as alergias e intolerâncias ficarão dispostas em lista em que podem ser editadas ou removidas.
 
 ## 6.4.4 Acompanhamento
 
@@ -1482,44 +1514,59 @@ Futuramente será possível realizar o acompanhamento de outras condições impo
 ## 6.4.5 Antecedentes
 
 ![](media/pec_image493.png)
+Fonte: SAPS/MS
 
-A ferramenta "Antecedentes" permite o registro das histórias dos problemas e condições pregressas do cidadão e familiares. Esta ferramenta transitória dialoga diretamente com a seção "Problemas/condições e alergias".
+A ferramenta "Antecedentes" permite o registro das histórias dos problemas e condições pregressas do cidadão e familiares. Esta ferramenta transitória dialoga diretamente com a seção "Problemas/condições avaliadas".
 
-A tela de antecedentes é separada em blocos de informações:
+A tela de antecedentes é separada em dois grandes blocos de informações, o do Cidadão, para descrever a história pregressa daquele indivíduo, e o do Familiar, para descrever os problemas e condições que afetaram seus  familiares. O bloco do **Cidadão** ainda é dividido em partes:
 
-- **Pré-natal, parto e nascimento:** caso o cidadão tenha passado por uma consulta de acompanhamento do crescimento e desenvolvimento da criança / puericultura, serão apresentados os dados relacionados ao pré-natal, parto e nascimento como mostrado abaixo;
 
-![](media/pec_image494.png)
+- **Antecedentes resolvidos da Lista de Problemas e Condições:** onde é possível registrar os problemas resolvidos do cidadão. Eles serão automaticamente incluídos na Lista de Problemas/condições como resolvidos. Para incluir um problema, clique no ícone ![](media/pec_image494.png). 
 
-- **Geral:** onde é possível registrar algumas informações mais gerais do cidadão;
+A tela seguinte vai exibir o ícone para Adicionar problema/condição anterior, bem como exibirá a lista de problemas e condições do cidadão. Esta listagem é dividida em  problemas Ativos/Latentes e Resolvidos, como mostrado na Figura 6.74.
+
+
+Figura 6.74 Antecedentes de Problemas/Condições 
 
 ![](media/pec_image495.png)
+Fonte: SAPS/MS
 
-- **Pessoal:** onde é possível registrar os problemas resolvidos do cidadão. Eles serão automaticamente incluídos na Lista de Problemas como resolvidos. Para incluir um problema, use as opções rápidas por meio do ícone ![](media/pec_image496.png) associado às "Opções rápidas", ou por meio do campo CIAP2;
 
-![](media/pec_image497.png)
+{: .nota } 
+A classificação Ativo e Latente no bloco de Antecedentes é feita na parte de Avaliação do SOAP no campo "Problemas e/ou condições avaliados neste atendimento". Quando adiciona-se uma condição na seção "Problemas e/ou condições avaliados" por meio da codificação CIAP2 ou CID 10, e seleciona-se a opção de "Incluir na lista de problemas/condições", imediatamente esta condicção é incluída nos antecedentes do cidadão, com status de ativo, latente ou resolvido. 
 
-- **Familiares:** onde é possível registrar a história patológica dos antecedentes familiares do cidadão. Para incluir um problema, use as opções rápidas por meio do ícone ![]( media/pec_image496.png) associado às "Opções rápidas", ou por meio do campo CIAP2;
 
+Ao clicar para Adicionar problemas e condição anterior será exibida uma tela para adicionar o CIAP 2 ou CID 10, bem como o início e o fim da condição, que podem ser registrados com uma data específica ou com a idade do cidadão. O campo Observações do problema ou condição permite detalhamento caso o profissional de saúde julgue necessário. 
+
+![](media/pec_image496.png)
+Fonte: SAPS/MS
+
+É possível editar(![](media/pec_image426.png))  ou apagar (![](media/pec_image497.png)) os antecedentes com status "resolvido" somente se o problema foi adicionado ou atualizado durante o atendimento;
+
+
+- **Antecedentes hospitalares:** onde é possível registrar o histórico de cirurgia e/ou internação daquele cidadão. Ao clicar em Adicionar cirurgia e/ou internação vai abrir uma tela para descrição do episódio, conforme figura abaixo. O campo "Cirurgia e/ou internação" é obrigatório e aberto para descrição. Há ainda o campo data ou idade, quando um deles for preenchido o outro será preenchido de forma automática. Por fim o profissional pode detalhar o episódio no campo Observações, em seguida clicar em Adicionar.
+
+Figura 6.75: Lista de Antecedentes hospitalares.
 ![](media/pec_image498.png)
+Fonte: SAPS/MS
 
-Caso o cidadão for do **sexo feminino**, também será exibido os blocos de "Antecedentes Obstétricos", onde se podem registrar os dados de gravidezes anteriores, além de antecedentes obstétricos familiares.
 
-Figura 6.74 - Antecedentes Obstétricos
+- **Antecedentes sobre Parto e Nascimento:** Este bloco de informações está condicionado a idade e sexo ou identidade de gênero do cidadão.
+
+
+No caso do cidadão ser do sexo feminino ou se for homem transexual este bloco exibirá campos onde se podem registrar os dados de gravidezes anteriores.
 
 ![](media/pec_image499.png)
 
+
+No caso do cidadão ter menos de 19 anos ou já tiver realizado atendimento de puericultura o bloco exibirá campos para acompanhamento de antecedentes de puericultura, como demonstrado na figura abaixo. Após a idade de 19 anos, é possível apenas a visualização.
+
+![](media/pec_image500.png)
+
+
 Fonte: SAPS/MS.
 
-Os antecedentes pessoais são imediatamente incluídos na seção "Problemas/Condições e Alergias" por meio da codificação CIAP2. É possível editar ou atualizar a situação dos problemas/condições com status "resolvido" por meio das opções:
-
-- edição ![](media/pec_image426.png): disponível somente se o problema foi adicionado ou atualizado durante o atendimento;
-
-- atualização ![](media/pec_image500.png): disponível somente para problemas de atendimentos anteriores.
-
-Também serão mostrados nos antecedentes itens sem codificação que foram marcados como resolvidos na Lista de Problemas/Condições, como mostra a Figura 6.75.
-
-Figura 6.75 - Lista de problemas resolvidos com opções "editar", "atualizar" e problema sem codificação incluído por meio da Lista de Problemas/Condições.
+No bloco **Familiar** é possível registrar a história patológica dos antecedentes familiares do cidadão. Para incluir um problema deve-se pesquisar ou selecionar o CIAP 2 da patologia do familiar. O campo Observações é aberto para o profissional de saúde inserir informações relacionada aos antecedentes familiares
 
 ![](media/pec_image501.png)
 
@@ -1527,7 +1574,7 @@ Fonte: SAPS/MS.
 
 ## 6.4.6 Histórico
 
-![](media/pec_image979.png)
+![](media/pec_image502.png)
 
 A ferramenta "Histórico" possibilita visualizar com mais detalhes a história de atendimento do cidadão na unidade de saúde. Neste local, estarão disponíveis todos os registros anteriores ( escuta inicial, consultas, atendimento realizados pelo técnico de enfermagem, etc). Ao acessar esta funcionalidade, o sistema exibe uma tela dos atendimentos ao cidadão em ordem cronológica decrescente. É possível a utilização do filtro para buscar um atendimento pelo nome do profissional, categoria profissional (CBO), período de tempo ou por tipo de atendimento. O profissional de saúde ainda pode realizar a busca dos pacientes que foram atendidos por ele mesmo, por meio, do checkbox "somente os meus".
 
@@ -1535,14 +1582,13 @@ Para acessar o histórico, basta clicar no botão "Histórico". No menu à esque
 
 Figura 6.76 - Histórico de atendimento
 
-![](media/pec_image978.png)
+![](media/pec_image503.png)
 
 Fonte: SAPS/MS.
 
-Para imprimir o registro do atendimento selecione o atendimento que gostaria de imprimir clicando sobre o ícone "Imprimir selecionados" ![](media/pec_image980.png), localizado acima do cartão.
+É possível realizar a impressão do registro do atendimento clicando sobre o card do atendimento e após no ícone ![](media/pec_image504.png), localizado no final do *Cartão*.
 
-Para visualizar todo os dados do atendimento clique em ![](media/pec_image982.png)
-
+É possível visualizar no histórico também os atendimentos registrados por meio do CDS, apresentados por ordem de ocorrência, conforme Figura 6.76.
 
 Figura 6.77 - Tela de visualização do atendimento
 

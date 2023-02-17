@@ -14,7 +14,7 @@ last_modified_date: "05/07/2021"
 
 Este capítulo apresenta as funções de administração e configurações do sistema.
 
-## Sumário
+## Sumário:
 {: .no_toc .text-delta }
 
 - TOC
