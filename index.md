@@ -43,10 +43,10 @@ Tels.: (61) 3315-8090 / 3315-8044<br>
 Site: <http://sisaps.saude.gov.br/esus/><br>
 
 **Supervisor Geral**<br>
-Renata Maria de Oliveira Costa
+Nésio Fernandes de Medeiros Junior
 
 **Coordenação Técnica Geral**<br>
-Michael Luiz Diana de Oliveira
+Rodrigo André Cuevas Gaete
 
 **Organização**<br>
 Ana Claudia Cielo, Igor de Carvalho Gomes e João Geraldo de Oliveira Júnior
@@ -55,7 +55,7 @@ Ana Claudia Cielo, Igor de Carvalho Gomes e João Geraldo de Oliveira Júnior
 Ana Claudia Cielo, André Cury Alves, Igor de Carvalho Gomes, João Geraldo de Oliveira, Micael Macedo Pereira da Trindade, Willian Soares Lima.
 
 **Colaboradores**<br>
-Adriana Kitajima, Allan Nuno Alves de Souza, Ana Claudia Cielo, André Cury Alves, Edson Lucena, Igor de Carvalho Gomes, João Geraldo de Oliveira Júnior, Janaína Nogueira Guimarães, Micael Macedo Pereira, da Trindade, Rodrigo André Cuevas Gaete, Thaís Alessa Leite, Vanessa Lora e Virgínia Fava.
+Adriana Kitajima, Allan Nuno Alves de Souza, Ana Claudia Cielo, André Cury Alves, Edson Lucena, Igor de Carvalho Gomes, João Geraldo de Oliveira Júnior, Janaína Nogueira Guimarães, Micael Macedo Pereira, da Trindade, Rodrigo André Cuevas Gaete, Thaís Alessa Leite, Vanessa Lora e Virgínia Fava,Willian Soares Lima.
 
 **Projeto Gráfico**<br>
 Alexandre Soares de Brito, Diogo Ferreira Gonçalves
