@@ -314,7 +314,7 @@ A partir da versão 4.1.17 o registro da vacina COVID-19 está disponível exclu
 
 O registro da vacina no fluxo de atendimento do PEC é ativado pela opção "Vacina" marcada na inclusão do cidadão na lista de atendimento ou nos blocos de desfecho da escuta inicial e atendimentos realizados na UBS como demonstrado nos tópicos anteriores. Caso esta opção seja selecionada o botão "Realizar Vacinação" estará disponível como mostra a figura a seguir:
 
-Figura 6.3.1 - Opção de registro da Vacinação
+Figura 6.3 - Opção de registro da Vacinação
 
 ![](media/pec_image341.png)
 
@@ -322,7 +322,7 @@ Fonte: SAPS/MS
 
 Após clicar em ![](media/pec_image342.png) realizar vacinação estará disponível o registro da vacinação no PEC.
 
-Figura 6.3.2 - Tela de registro da Vacinação
+Figura 6.3.1 - Tela de registro da Vacinação
 
 ![](media/pec_image343.png)
 
@@ -334,7 +334,7 @@ A tela para registrar a vacinação apresenta os seguintes Blocos de preenchimen
 
 Este bloco apresenta ao profissional as condições específicas relacionadas ao cidadão que será vacinado. As condições são "Gestante", "Puérpera" e "Viajante".
 
-Figura 6.3.3 - Bloco de Condições do Registro de Vacinação
+Figura 6.3.2 - Bloco de Condições do Registro de Vacinação
 
 ![](media/pec_image344.png)
 
@@ -344,7 +344,7 @@ Fonte: SAPS/MS
 
 Este bloco apresenta os recursos disponíveis para o registro da vacinação. O quadro de vacinação é apresentado conforme figura abaixo:
 
-Figura 6.3.4 - Quadro para o registro dos imunobiológicos
+Figura 6.3.3 - Quadro para o registro dos imunobiológicos
 
 ![](media/pec_image345.png)
 
@@ -360,17 +360,17 @@ Para registrar uma vacina aplicada siga as seguintes etapas:
 
 1\. É possível visualizar o calendário vacinal de acordo com o ciclo de vida (criança, adolescente, adulto e idoso) ou pelo calendário nacional completo;
 
-2\. Clique sobre a "Dose" do imunobiológico que será administrado. Após será aberta uma nova tela "ADICIONAR VACINAÇÃO" conforme a figura 6.3.5:
+2\. Clique sobre a dose do imunobiológico que será administrado. Após será aberta uma nova tela "ADICIONAR VACINAÇÃO" conforme a figura 6.3.4:
 
 ![](media/pec_image348.png)
 
-Figura 6.3.5 - Tela para adicionar vacinação
+Figura 6.3.4 - Tela para adicionar vacinação
 
 ![](media/pec_image349.png)
 
 3\. Se o registro for de uma dose da vacina administrada no momento, o botão permanece, por padrão, como "Não" ![](media/pec_image350.png). Caso seja para um registro de dose administrada em outro dia ou em outro local de atendimento, com a finalidade de atualizar a caderneta do cidadão no PEC, então deve-se mover o botão para "SIM" ![](media/pec_image351.png). Esta última funcionalidade será detalhada mais adiante.
 
-4\. Os campos para o registro do "Imunobiológico" e "dose" aparecerão conforme a seleção realizada pelo profissional de saúde na tela do quadro de vacinação (Figura 6.3.5), não sendo possível a sua alteração.
+4\. Os campos para o registro do "Imunobiológico" e "dose" aparecerão conforme a seleção realizada pelo profissional de saúde na tela do quadro de vacinação (Figura 6.3.4), não sendo possível a sua alteração.
 
 ![](media/pec_image352.png)
 
@@ -389,9 +389,9 @@ Figura 6.3.5 - Tela para adicionar vacinação
 {: .atencao }
 Os profissionais de saúde que realizam a administração de imunobiológicos deverão seguir as normas e procedimentos para a vacinação de acordo com o Programa Nacional de Imunização do Ministério da Saúde.
 
-9\. Ainda é possível verificar as informações sobre o registro ao clicar no quadro da dose da vacina administrada (Figura 6.3.6).
+9\. Ainda é possível verificar as informações sobre o registro ao clicar no quadro da dose da vacina administrada (Figura 6.3.5).
 
-Figura 6.3.6 - Visualização de Imunobiológico
+Figura 6.3.5 - Visualização de Imunobiológico
 
 ![](media/pec_image359.png)
 
@@ -400,7 +400,7 @@ Fonte: SAPS/MS
 {: .dica }
 Para aumentar a segurança na aplicação dos imunobiológicos o sistema emite alertas quando da tentativa de registro de uma dose que não seja recomendada para o cidadão (Figura 6.15).
 
-Figura 6.3.7 - Confirmação de registro de dose advertida
+Figura 6.3.6 - Confirmação de registro de dose advertida
 
 ![](media/pec_image360.png)
 
@@ -414,7 +414,7 @@ Caso o lote e o fabricante não estejam previamente cadastrado no sistema, como 
 
 Serão disponibilizados mais campos para a realização da operação conforme a figura a seguir:
 
-Figura 6.3.8
+Figura 6.3.6
 
 ![](media/pec_image355.png)
 
@@ -429,7 +429,7 @@ obrigatório.
 
 ![](media/pec_image357.png)
 
-## 6.3.1.2. Registrar dose anterior
+## 6.3.2. Registrar dose anterior
 
 Aproveitando a oportunidade do registro da dose aplicada no cidadão é recomendado também registrar as doses anteriores com a finalidade de atualizar o calendário vacinal no PEC. Para registrar uma dose anterior siga as seguintes etapas.
 
@@ -439,7 +439,7 @@ Aproveitando a oportunidade do registro da dose aplicada no cidadão é recomend
 
 3\. Mova o botão "É registro anterior?" até que apareça a palavra "Sim" ![](media/pec_image351.png). Após essa ação aparecerá a tela conforme a figura abaixo:
 
-Figura 6.3.9 - Tela para adicionar doses de vacinas aplicadas anteriormente
+Figura 6.3.7 - Tela para adicionar doses de vacinas aplicadas anteriormente
 
 ![](media/pec_image361.png)
 
