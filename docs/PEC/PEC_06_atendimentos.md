@@ -883,9 +883,9 @@ Figura 6.4.10 - SOAP - Objetivo
 
 Fonte: SAPS/MS
 
-Para os casos em que o cidadão em atendimento é do sexo feminino, o bloco "Mulher" é disponibilizado, como mostra a Figura 6.4.11.
+Para os casos em que o cidadão em atendimento é do sexo feminino, o bloco "Mulher" é disponibilizado, como mostra a Figura 6.4.11
 
-Figura 6.4.1 - SOAP - Objetivo - grupo mulher (sem DUM registrada)
+Figura 6.4.11 - SOAP - Objetivo - grupo mulher (sem DUM registrada)
 
 ![](media/pec_image407.png)
 
@@ -895,7 +895,7 @@ Fonte: SAPS/MS
 
 Figura 6.4.12 - SOAP - Objetivo - grupo mulher (com DUM registrada)
 
-![](media/pec_image407.1.png)
+![](media/pec_image408.png)
 
 Fonte: SAPS/MS.
 
@@ -905,13 +905,11 @@ No bloco "Objetivo", é possível gerenciar exames solicitados, avaliados e seus
 
 - Passo 1. Clique no botão \"Adicionar resultados de exames\" ![](media/pec_image410.png) - o sistema apresentará uma tela, conforme a Figura abaixo;
 
-
 ![](media/pec_image408.2.png)
 
 - Passo 2. Descreva o exame desejado, será mostrado o nome do exame em questão, 
 
 - Passo 3. Na tela insira o resultado, a data de solicitação e realização do exame, conforme figura abaixo e clique em "Salvar".
-
 
 ![](media/pec_image408.1.png)
 
