@@ -931,7 +931,7 @@ Fonte: SAPS/MS.
 
 Caso deseje excluir o exame clique em ![](media/pec_image402.png) e selecione "Excluir". O exame será excluído da tela inicial. 
 
-![](media/pec_image408.5.png)
+![](media/pec_image408.5.PNG)
 
 Fonte: SAPS/MS.
 
