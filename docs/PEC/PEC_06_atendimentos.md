@@ -139,7 +139,7 @@ ao imprimir a declaração de comparecimento do cidadão, certifique-se de que o
 
 ![](media/pec_image322.png) **Excluir**: excluir cidadão da lista de atendimento. Esta opção estará habilitada apenas se o registro não possuir referências, ou seja, se o atendimento já tiver sido iniciado, não será possível realizar a exclusão.
 
-## 6.1.1 Adicionar um Novo Cidadão à Listade Atendimentos
+## 6.1.1 Adicionar um Novo Cidadão à Lista de Atendimentos
 
 Além dos atendimentos agendados para os profissionais da unidade de saúde, é possível a inclusão no sistema dos cidadãos, que procuram o serviço de saúde por demanda espontânea. Para mais informações sobre demanda espontânea, ver [**CAB 28 - Acolhimento à Demanda Espontânea Volume I**](http://aps.saude.gov.br/biblioteca/index).
 
@@ -879,7 +879,7 @@ O registro do "Objetivo", conforme a Figura 6.4.9, pode ser realizado usando cam
 
 Figura 6.4.10 - SOAP - Objetivo
 
-![](media/pec_image936.png)
+![](media/pec_image936.PNG)
 
 Fonte: SAPS/MS
 
