@@ -1463,40 +1463,46 @@ Podemos ainda inserir um problema ou condição de saúde como **resolvido**, se
 
 ### 6.4.4.2 Alergias e Reações Adversas
 
-É possível inserir **alergias e reações adversas** seguindo os seguintes passos:
+Para inserir **Alergias e reações adversas** agora ficou mais fácil. Agora o registro pode ser feito dentro do campo Avaliação do SOAP. 
 
-- Passo 1. Clique no botão "Problemas/Condições e Alergias", à esquerda da tela;
+Clique na seta para baixo para abrir o módulo e realizar o registro ou pesquisar as alergias registradas anteriormente.
 
-- Passo 2. Clique no botão "Adicionar alergia/reação adversa +";
+Ao clicar na seta para baixo abrirá a tela de Alergias e reações adversas, como mostra a Figura  6.73.
 
+Figura 6.73 - Alergia / Reação Adversas
 ![](media/pec_image485.png)
 
-- Passo 3. Preencha as informações do bloco ALERGIA/REAÇÃO ADVERSA conforme necessário:
+**Pesquisar por Alergias e reações adversas:** este campo é para verificar e pesquisar as alergias registradas previamente no sistema. Ao clicar na seta aparecerão todas as alergias e reações adversas do cidadão, registradas em atendimentos anteriores.
 
-Figura 6.73 - Alergia / Reação Adversar
 ![](media/pec_image486.png)
 
-**Categoria do agente causador:** campo obrigatório, que pode ser: alimento, animal, ingrediente não ativo do medicamento, fármaco(s) presente(s) no medicamento ou contraste radiológico, outras substâncias ou produtos químicos, produto ambiental e outros;
+**Categoria do agente causador:** campo obrigatório em que podem ser selecionados as opções Alimento, Ambiente, Biológico e Medicamento.
 
 ![](media/pec_image487.png)
 
-**Agente/Substância específica:** campo obrigatório, de descrição livre e pré-cadastrada. O sistema irá consultar os registros anteriores em busca de algum registro similar, a fim de manter a relação histórica entre os registros;
+ **Agente/Substância específica:** Campo obrigatório que fica habilitado após o preenchimento do campo “Categoria do agente causador”. Vai exibir as opções de acordo com o agente causador selecionado. É um campo que permite a pesquisa pelo nome do Agente/Substância específica ou seus sinônimos.
 
 ![](media/pec_image488.png)
 
-**Manifestações:** informar as manifestações da reação adversa ou alergia em um campo para livre descrição;
-
-![](media/pec_image489.png)
+**Tipo de reação:**  nesse campo o profissional pode classificar se a reação é uma alergia ou é uma intolerância.
 
 **Criticidade:** classificar a Alergia/Reação Adversa como Alta ou Baixa;
 
+**Grau de certeza:** Neste campo podem ser selecionadas as opções confirmado, resolvido, refutado ou suspeito para o profissional classificar em que estágio está a reação adversa de alergia/intolerância.
+
+![](media/pec_image489.png)
+
+**Manifestações:** Campo para selecionar uma ou mais manifestações que aquela Alergia/Reação Adversa causa ao cidadão. É um campo que permite a pesquisa pelo nome da manifestação ou seus sinônimos.
+
 ![](media/pec_image490.png)
 
-**Data de instalação:** Digite a data da instalação dos sinais e sintomas, além da evolução do quadro alérgico ou da reação;
+**Início:** O registro de quando iniciou a manifestação da alergia/intolerância pode ser feito tanto com uma data específica quanto por idade do cidadão. Ao preencher uma das opções (Data ou Idade) a outra é automaticamente preenchida pelo sistema.
 
 ![](media/pec_image491.png)
 
-- Passo 4. Clique em "Salvar" para concluir.
+**Observações:** Campo para o profissional descrever impressões adicionais sobre a avaliação da alergia/reação adversa.
+
+Ao terminar a inserção das Alergias e Reações Adversas clique no botão Adicionar. Todas as alergias e intolerâncias ficarão dispostas em lista em que podem ser editadas ou removidas.
 
 ## 6.4.4 Acompanhamento
 
@@ -1519,48 +1525,64 @@ Futuramente será possível realizar o acompanhamento de outras condições impo
 ## 6.4.5 Antecedentes
 
 ![](media/pec_image493.png)
+Fonte: SAPS/MS
 
-A ferramenta "Antecedentes" permite o registro das histórias dos problemas e condições pregressas do cidadão e familiares. Esta ferramenta transitória dialoga diretamente com a seção "Problemas/condições e alergias".
+A ferramenta "Antecedentes" permite o registro das histórias dos problemas e condições pregressas do cidadão e familiares. Esta ferramenta transitória dialoga diretamente com a seção "Problemas/condições avaliadas".
 
-A tela de antecedentes é separada em blocos de informações:
+A tela de antecedentes é separada em dois grandes blocos de informações, o do Cidadão, para descrever a história pregressa daquele indivíduo, e o do Familiar, para descrever os problemas e condições que afetaram seus  familiares. O bloco do **Cidadão** ainda é dividido em partes:
 
-- **Pré-natal, parto e nascimento:** caso o cidadão tenha passado por uma consulta de acompanhamento do crescimento e desenvolvimento da criança / puericultura, serão apresentados os dados relacionados ao pré-natal, parto e nascimento como mostrado abaixo;
 
-![](media/pec_image494.png)
+- **Antecedentes resolvidos da Lista de Problemas e Condições:** onde é possível registrar os problemas resolvidos do cidadão. Eles serão automaticamente incluídos na Lista de Problemas/condições como resolvidos. Para incluir um problema, clique no ícone ![](media/pec_image494.png). 
 
-- **Geral:** onde é possível registrar algumas informações mais gerais do cidadão;
+A tela seguinte vai exibir o ícone para Adicionar problema/condição anterior, bem como exibirá a lista de problemas e condições do cidadão. Esta listagem é dividida em  problemas Ativos/Latentes e Resolvidos, como mostrado na Figura 6.74.
+
+
+Figura 6.74 Antecedentes de Problemas/Condições 
 
 ![](media/pec_image495.png)
+Fonte: SAPS/MS
 
-- **Pessoal:** onde é possível registrar os problemas resolvidos do cidadão. Eles serão automaticamente incluídos na Lista de Problemas como resolvidos. Para incluir um problema, use as opções rápidas por meio do ícone ![](media/pec_image496.png) associado às "Opções rápidas", ou por meio do campo CIAP2;
 
-![](media/pec_image497.png)
+{: .nota } 
+A classificação Ativo e Latente no bloco de Antecedentes é feita na parte de Avaliação do SOAP no campo "Problemas e/ou condições avaliados neste atendimento". Quando adiciona-se uma condição na seção "Problemas e/ou condições avaliados" por meio da codificação CIAP2 ou CID 10, e seleciona-se a opção de "Incluir na lista de problemas/condições", imediatamente esta condicção é incluída nos antecedentes do cidadão, com status de ativo, latente ou resolvido. 
 
-- **Familiares:** onde é possível registrar a história patológica dos antecedentes familiares do cidadão. Para incluir um problema, use as opções rápidas por meio do ícone ![]( media/pec_image496.png) associado às "Opções rápidas", ou por meio do campo CIAP2;
 
+Ao clicar para Adicionar problemas e condição anterior será exibida uma tela para adicionar o CIAP 2 ou CID 10, bem como o início e o fim da condição, que podem ser registrados com uma data específica ou com a idade do cidadão. O campo Observações do problema ou condição permite detalhamento caso o profissional de saúde julgue necessário. 
+
+![](media/pec_image496.png)
+Fonte: SAPS/MS
+
+É possível editar(![](media/pec_image426.png))  ou apagar (![](media/pec_image497.png)) os antecedentes com status "resolvido" somente se o problema foi adicionado ou atualizado durante o atendimento;
+
+
+- **Antecedentes hospitalares:** onde é possível registrar o histórico de cirurgia e/ou internação daquele cidadão. Ao clicar em Adicionar cirurgia e/ou internação vai abrir uma tela para descrição do episódio, conforme figura abaixo. O campo "Cirurgia e/ou internação" é obrigatório e aberto para descrição. Há ainda o campo data ou idade, quando um deles for preenchido o outro será preenchido de forma automática. Por fim o profissional pode detalhar o episódio no campo Observações, em seguida clicar em Adicionar.
+
+Figura 6.75: Lista de Antecedentes hospitalares.
 ![](media/pec_image498.png)
+Fonte: SAPS/MS
 
-Caso o cidadão for do **sexo feminino**, também será exibido os blocos de "Antecedentes Obstétricos", onde se podem registrar os dados de gravidezes anteriores, além de antecedentes obstétricos familiares.
 
-Figura 6.74 - Antecedentes Obstétricos
+- **Antecedentes sobre Parto e Nascimento:** Este bloco de informações está condicionado a idade e sexo ou identidade de gênero do cidadão.
+
+
+No caso do cidadão ser do sexo feminino ou se for homem transexual este bloco exibirá campos onde se podem registrar os dados de gravidezes anteriores.
 
 ![](media/pec_image499.png)
 
+
+No caso do cidadão ter menos de 19 anos ou já tiver realizado atendimento de puericultura o bloco exibirá campos para acompanhamento de antecedentes de puericultura, como demonstrado na figura abaixo. Após a idade de 19 anos, é possível apenas a visualização.
+
+![](media/pec_image500.png)
+
+
 Fonte: SAPS/MS.
 
-Os antecedentes pessoais são imediatamente incluídos na seção "Problemas/Condições e Alergias" por meio da codificação CIAP2. É possível editar ou atualizar a situação dos problemas/condições com status "resolvido" por meio das opções:
-
-- edição ![](media/pec_image426.png): disponível somente se o problema foi adicionado ou atualizado durante o atendimento;
-
-- atualização ![](media/pec_image500.png): disponível somente para problemas de atendimentos anteriores.
-
-Também serão mostrados nos antecedentes itens sem codificação que foram marcados como resolvidos na Lista de Problemas/Condições, como mostra a Figura 6.75.
-
-Figura 6.75 - Lista de problemas resolvidos com opções "editar", "atualizar" e problema sem codificação incluído por meio da Lista de Problemas/Condições.
+No bloco **Familiar** é possível registrar a história patológica dos antecedentes familiares do cidadão. Para incluir um problema deve-se pesquisar ou selecionar o CIAP 2 da patologia do familiar. O campo Observações é aberto para o profissional de saúde inserir informações relacionada aos antecedentes familiares
 
 ![](media/pec_image501.png)
 
 Fonte: SAPS/MS.
+
 
 ## 6.4.6 Histórico
 
