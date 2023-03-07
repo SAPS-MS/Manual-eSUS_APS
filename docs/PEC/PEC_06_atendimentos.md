@@ -8,7 +8,7 @@ has_toc: true
 last_modified_date: "20/07/2021"
 ---
 
-# CAPÍTULO 6 - Atendimentos.
+# CAPÍTULO 6 - Atendimentos
 {: .no_toc }
 
 Neste capítulo serão apresentadas as funcionalidades que garantem a ordenação da maior parte dos fluxos de atendimento que ocorrem nos serviços de atenção primária.
@@ -84,7 +84,7 @@ Fonte: SAPS/MS
 {: .nota }
 os **tipos de serviços** mostrados no filtro rápido são os que foram cadastrados, no momento da configuração, para a unidade de saúde. Para mais informações sobre tipo de serviço, ver seção 3.3.1.
 
-Se for preenchido mais de um campo para pesquisa, a lista de atendimento resultante conterá apenas os registros que contemplem todos os filtros simultaneamente. O sistema também apresenta em formato de *tags* identificando as opções utilizadas para a filtragem da lista de atendimento, como observado na figura a seguir:
+Se for preenchido mais de um campo para pesquisa, a lista de atendimento resultante conterá apenas os registros que contemplem todos os filtros simultaneamente. O sistema também apresenta as opções utilizadas para a filtragem da lista de atendimento, como observado na figura a seguir:
 
 ![](media/pec_image313.png)
 
@@ -94,8 +94,6 @@ Caso o profissional deseje retornar os filtros para o padrão, basta clicar no b
 a lista com os cidadãos para atendimento, por padrão, apresenta os atendimentos do dia, filtrando os cidadãos com *status* "Atendimento realizado" e ou que "Não aguardou o atendimento".
 
 A lista de atendimentos apresenta informações sobre a hora de chegada, nome do cidadão, profissional e tipo de serviço. A barra colorida no canto esquerdo da lista indica o *status* daquele atendimento, e as cores estão relacionadas com o quadro do "Status atendimento", que se encontra no ícone da pesquisa e filtro ![](media/pec_image309.png).
-
-![](media/pec_image314.png)
 
 Outra funcionalidade para auxiliar na organização do atendimento é o \"**Ordenar por**\", recurso que permite ao usuário a escolha da ordenação dos registros na lista.
 
@@ -141,7 +139,7 @@ ao imprimir a declaração de comparecimento do cidadão, certifique-se de que o
 
 ![](media/pec_image322.png) **Excluir**: excluir cidadão da lista de atendimento. Esta opção estará habilitada apenas se o registro não possuir referências, ou seja, se o atendimento já tiver sido iniciado, não será possível realizar a exclusão.
 
-## 6.1.1 Adicionar um Novo Atendimento à Lista
+## 6.1.1 Adicionar um Novo Cidadão à Listade Atendimentos
 
 Além dos atendimentos agendados para os profissionais da unidade de saúde, é possível a inclusão no sistema dos cidadãos, que procuram o serviço de saúde por demanda espontânea. Para mais informações sobre demanda espontânea, ver [**CAB 28 - Acolhimento à Demanda Espontânea Volume I**](http://aps.saude.gov.br/biblioteca/index).
 
@@ -153,7 +151,7 @@ Para adicionar um cidadão à lista de atendimento por demanda espontânea, siga
 
 Figura 6.1.6 - Adicionar cidadão na Lista de Atendimento
 
-![](media/pec_image324.png)
+![](media/pec_image306.png)
 
 Fonte: SAPS/MS
 
@@ -217,7 +215,7 @@ O perfil de escuta inicial poderá ser habilitado para os profissionais a depend
 {: .nota }
 Só é permitido realizar uma escuta para cada atendimento, e não é permitida a exclusão, nem a adição de informações após a finalização do atendimento.
 
-Ao clicar na opção ![](media/pec_image332.png) \"**Realizar escuta inicial**\", disponível na tela da lista de atendimentos, será exibida uma tela, conforme a Figura 6.1.11
+Ao clicar na opção ![](media/pec_image318.png) \"**Realizar escuta inicial**\", disponível na tela da lista de atendimentos, será exibida uma tela, conforme a Figura 6.1.11
 
 Figura 6.2 - Ferramentas para realizar escuta Inicial
 
@@ -228,7 +226,7 @@ Fonte: SAPS/MS.
 Na tela de escuta inicial, os campos "**Motivo da consulta (CIAP2)**", "**Classificação de risco/vulnerabilidade**" e "**Desfecho da escuta inicial**" são obrigatórios.
 
 {: .nota }
-a ferramenta de escuta inicial também permite o registro de "pré-atendimento" (opção ![](media/pec_image332.png) \"**Realizar pré-atendimento**\" na lista de atendimento) quando for uma consulta agendada, entretanto a funcionalidade "**Classificação de risco/vulnerabilidade**" não estará disponível.
+A ferramenta de escuta inicial também permite o registro de "pré-atendimento" (opção ![](media/pec_image318.png) \"**Realizar pré-atendimento**\" na lista de atendimento) quando for uma consulta agendada, entretanto a funcionalidade "**Classificação de risco/vulnerabilidade**" não estará disponível, pois consultas agendadas são consideradas como "não agudo".
 
 Para fazer o registro da escuta inicial, siga os passos:
 
@@ -244,7 +242,14 @@ Figura 6.2.1 - Antropometria, Sinais Vitais e Glicemia
 
 Fonte: SAPS/MS
 
-- Passo 4: Informe a classificação de risco/vulnerabilidade. Esta classificação permite aos profissionais a priorização dos casos mais urgentes ou que requerem atendimento imediato, permitindo a ordenação da lista por prioridade no atendimento;
+- Passo 4: Informe os procedimentos realizados na escuta inicial, caso algum procedimento complementar tenha sido executado;
+
+![](media/pec_image336.png)
+
+{: .nota }
+Se forem preenchidos os grupos **Antropometria**, no que se refere a peso e altura, **Sinais vitais** e **Glicemia**, os procedimentos que correspondem a essas ações serão inseridos no grupo **Procedimentos realizados** automaticamente.
+
+- Passo 5: Informe a classificação de risco/vulnerabilidade. Esta classificação permite aos profissionais a priorização dos casos mais urgentes ou que requerem atendimento imediato, permitindo a ordenação da lista por prioridade no atendimento;
 
 ![](media/pec_image335.png)
 
@@ -265,13 +270,6 @@ A classificação de risco/vulnerabilidade é um campo de preenchimento obrigat�
 {: .dica }
 Ao fazer a classificação de risco/vulnerabilidade e encaminhar o cidadão para atendimento no dia, o sistema exibe essa informação na lista de atendimento, após finalizar a escuta inicial, para auxiliar na organização e fluxo do atendimento.
 
-- Passo 5: Informe os procedimentos realizados na escuta inicial, caso algum procedimento complementar tenha sido executado;
-
-![](media/pec_image336.png)
-
-{: .nota }
-Se forem preenchidos os grupos **Antropometria**, no que se refere a peso e altura, **Sinais vitais** e **Glicemia**, os procedimentos que correspondem a essas ações serão inseridos no grupo **Procedimentos realizados** automaticamente.
-
 - Passo 6: Faça o Desfecho da Escuta Inicial do cidadão escolhendo uma das ações a seguir:
 
 - **liberar cidadão**: libera o cidadão da lista de atendimentos, para os casos em que o problema foi resolvido na própria escuta inicial ou nos casos em que se possa agendar uma consulta;
@@ -289,7 +287,7 @@ Caso o cidadão seja incluído na lista de atendimento para a aplicação de vac
 
 - **agendar consulta**: Para os casos em que o problema não foi resolvido na escuta inicial e há a necessidade de agendar uma consulta para um profissional, na data, turno e horário disponível. Na agenda do profissional, será adicionada esta nova consulta.
 
-Figura 6.2.3 - Desfecho da escuta inicial
+Figura 6.2.3 - Agendar Cidadão
 
 ![](media/pec_image338.png)
 
@@ -644,23 +642,19 @@ Figura 6.4 - Tela do Prontuário Eletrônico do Cidadão
 
 Fonte: SAPS/MS
 
-É por meio do PEC que o profissional de saúde poderá efetuar o registro da consulta, utilizando principalmente, o modelo de Registro Clínico Orientado a Problemas (RCOP), sendo possível acessar as seguintes ferramentas:
+É por meio do PEC que o profissional de saúde poderá efetuar o registro da consulta, utilizando principalmente, o modelo de Registro Clínico Orientado a Problemas (RCOP), sendo possível acessar em diferentes abas as seguintes ferramentas:
 
-- ![](media/pec_image378.png) **Folha de Rosto**: ferramenta que permite visualizar um sumário clínico do paciente e que auxilia o profissional a ter acesso rápido aos dados mais relevantes de saúde e de cuidado do cidadão;
+- **Folha de Rosto**: ferramenta que permite visualizar um sumário clínico do paciente e que auxilia o profissional a ter acesso rápido aos dados mais relevantes de saúde e de cuidado do cidadão;
 
-- ![](media/pec_image379.png) **SOAP**: ferramenta que orienta a inserção de dados subjetivos, clínicos da saúde do cidadão, o estabelecimento de diagnósticos, o planejamento das ações ou intervenções, além da avaliação dos problemas e das condições de saúde detectadas no atendimento;
+- **SOAP**: ferramenta que orienta a inserção de dados subjetivos, clínicos da saúde do cidadão, o estabelecimento de diagnósticos, o planejamento das ações ou intervenções, além da avaliação dos problemas e das condições de saúde detectadas no atendimento;
 
-- ![](media/pec_image380.png) **Problemas/Condições e Alergias**: ferramenta que permite o registro e gestão da lista de problemas ou outras condições de saúde do cidadão, além do registro de história pregressa do cidadão relacionado a alergias e/ou a reação adversa;
+- **Vacinação**: ferramenta que permite visualizar o espelho da caderneta de vacinação do cidadão, com indicação de doses atrasadas, aplicadas, aprazadas e disponíveis.
 
-- ![](media/pec_image381.png) **Acompanhamento**: ferramenta que apresenta o resumo estruturado das informações importantes para o acompanhamento de determinados problemas ou condições de saúde do cidadão;
+- **Histórico**: ferramenta que possibilita visualizar com mais detalhes o histórico de atendimentos do cidadão;
 
-- ![](media/pec_image382.png) **Antecedentes**: ferramenta que permite fazer o registro da história familiar, de patologias pregressas e de saúde do cidadão; é integrada com a lista de problema;
+- **Cadastro do cidadão**: funcionalidade que permite o acesso rápido e a visualização do cadastro do cidadão;
 
-- ![](media/pec_image383.png) **Histórico**: ferramenta que possibilita visualizar com mais detalhes o histórico de atendimentos do cidadão;
-
-- ![](media/pec_image384.png) **Dados Cadastrais**: funcionalidade que permite o acesso rápido e a visualização do cadastro do cidadão;
-
-- ![](media/pec_image385.png) **Finalização do Atendimento**: funcionalidade de controle de finalização do atendimento.
+- **Agendamentos**: funcionalidade que permite a visualização de todos os atendimentos para o cidadão, anteriores ou futuros.
 
 - ![](media/pec_image894.png) **Acessar RNDS**: funcionalidade que permite ao profissional de saúde visualizar dados clínicos do cidadão que foram registrados em outros pontos de atenção à saúde e que foram enviados para a Rede Nacional de Dados em Saúde (RNDS). 
 
@@ -737,7 +731,7 @@ A folha de rosto, por meio de um sumário clínico do cidadão, oferece acesso r
 
 Figura 6.4.6 - Prontuário do Cidadão - folha de rosto
 
-![](media/pec_image387.png)
+![](media/pec_image893.png)
 
 Fonte: SAPS/MS
 
@@ -747,35 +741,49 @@ Conforme podemos ver na Figura 6.4.6, a folha de rosto conta com os seguintes bl
 
 ![](media/pec_image390.png)
 
-- **Últimos contatos**: exibe os últimos três atendimentos do cidadão na unidade de saúde, permitindo saber quais os problemas/condições avaliadas e quando ocorreram. Caso haja necessidade de ver mais informações do histórico do cidadão é possível clicar no botão "Mais informações";
+- **Últimos contatos**: exibe os últimos atendimentos do cidadão na unidade de saúde, permitindo saber quais os problemas/condições avaliadas e quando ocorreram. Caso haja necessidade de ver mais informações do histórico do cidadão é possível clicar na guia "Histórico;
+
 
 ![](media/pec_image391.png)
 
-- **Problemas/condições**: exibe os problemas/condições ativos ou latentes do cidadão. **Não exibe os problemas/condições resolvidos** (estes poderão ser visualizados clicando no ícone "Lista de Problemas");
+- **Antecedentes**: são exibidas na parte de antecedentes informações obstétricas como Gestações prévias, partos e recém-nascidos com abortos, nascidos e nascidos vivos. Além disso, ficam exibidas as informações de antecedentes hospitalares do cidadão.
 
 ![](media/pec_image392.png)
 
-- **Alergias/Reações Adversas**: exibe a lista de alergias e as reações adversas do cidadão, identificando Agente Causador, Categoria, Criticidade e data de instalação. Caso haja necessidade de ver mais informações sobre alergias/reações adversas é possível clicar no botão "Mais informações".
+- **Medições**: são exibidas as últimas medições do cidadão de: peso, altura, IMC, perímetro cefálico, circunferência abdominal, perímetro de panturrilha, pressão arterial, frequência respiratória, frequência cardíaca, temperatura, saturação de O2 e glicemia capilar.
 
 ![](media/pec_image393.png)
 
-- **Vacinação**: apresenta informações em relação a situação vacinal do cidadão, última vacina aplicada, data da aplicação, se existem vacinas atrasadas ou aprazadas. Clicando no botão "Mais informações" é possível acessar o acompanhamento de vacinação do cidadão.
+- **Vacinação**: são exibidas as últimas vacinas aplicadas no cidadão e as próximas vacinas aprazadas. Será apresentado, no máximo, as 3 últimas aplicações ou aprazamentos realizados para o cidadão. Caso haja doses de vacinas atrasadas (independente de faixa etária), aparecerá uma  mensagem de alerta: "Existem vacinas atrasadas ou não registradas! Confira o cartão de vacinação do cidadão."
 
 ![](media/pec_image901.png)
 
-- **Medicamentos Ativos**: exibe as medicações em uso contínuo, data de início da prescrição e conclusão, se for o caso. Caso haja necessidade de ver mais informações sobre medicamentos ativos é possível clicar no botão "Mais informações".
+- **Problemas e condições autorreferidas**: exibidas as 
+condições autorreferidas pelo cidadão registradas em seu  cadastro individual mais recente.
 
 ![](media/pec_image395.png)
 
-- **Lembretes**: exibe os lembretes ativos criados pelo profissional ou por algum membro da equipe (veja como criar lembretes por meio do Plano do SOAP, na Seção 6.4.3.7).
+- **Lembretes**: exibe os lembretes ativos criados pelo profissional ou por algum membro da equipe.
+
+- **Alergias/Reações Adversas**: exibe a lista de alergias e as reações adversas do cidadão, identificando Agente Causador, Categoria, Tipo de reação e Criticidade. Ao clicar no card é possível ver o detalhamento de cada Alergia/Reação adversa com informações de data de início, manifestações e outras observações registradas. 
+
+- **Lista de Problemas/condições**: exibe os problemas/condições ativos ou latentes do cidadão. São exibidos no card os últimos cinco registros de problemas/condições com as informações: CID10/CIAP2; data de início do problema ou condição; idade do problema/condição, ou seja, há quanto tempo ele existe; e data da última atualização do problema/condição no PEC.
+ **Não exibe os problemas/condições resolvidos** (estes poderão ser visualizados em Antecedentes no SOAP);
+
+- **Resultados de exames**: o card exibe uma lista dos três últimos resultados de exames inseridos com as informações
+de nome do exame, data de realização e resultado do exame.
+
+- **Medicamentos Prescritos**: exibe as medicações com tratamento ativo ou concluído/interrompido nos últimos três meses. São exibidos no card o medicamento prescrito, a dose e o intervalo/frequência prescritos. Ao clicar no card são exibidas as informações se é uso contínuo, data de início da prescrição e conclusão, se for o caso, bem como as recomendações.
 
 ![](media/pec_image396.png)
+
 
 Figura 6.4.7 - Folha de Rosto com informações sumarizadas a partir de registros anteriores
 
 ![](media/pec_image397.png)
 
 Fonte: SAPS/MS
+
 
 ## 6.4.3 SOAP
 
@@ -984,7 +992,9 @@ Para registrar uma condição ou problema detectado, siga os passos:
 - Passo 5. Clique em  ![](media/pec_image402.png) "Excluir" para exclusão do CIAP2 registrado.
 
 
-Agora realcionado a alergia , em consultas posteriores, é possível incluí-lo na Lista de Problemas/Condições, como situação "Ativo", conforme figura abaixo
+Agora relacionado a alergia , em consultas posteriores, é possível incluí-lo na Lista de Problemas/Condições, como situação "Ativo", conforme figura abaixo:
+
+
 
 {: .nota }
 Agora é possível inserir informações de Alergias e reações adversas pelo campo "Avaliação" no SOAP, conforme figura abaixo. Para maiores intruções de como preencher esse campo, observar o item 6.4.4.2 do manual e-SUS APS.
@@ -1096,7 +1106,7 @@ Esta é uma alternativa que agiliza a requisição de exames, visto que são apr
 
 - Passo 3. Para concluir, clique no botão ![](media/pec_image432.png).
 
-##### 6.4.3.4.2.2 Solicitar exames de **Alto Custo**
+### 6.4.3.4.2.2 Solicitar exames de **Alto Custo**
 
 Para cadastrar a solicitação de um exame de "**Alto Custo**" é necessário adicionar o exame e justificar a solicitação, informando o CID10 e motivo do procedimento, de acordo com os passos a seguir:
 
