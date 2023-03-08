@@ -312,7 +312,7 @@ A partir da versão 4.1.17 o registro da vacina COVID-19 está disponível exclu
 
 O registro da vacina no fluxo de atendimento do PEC é ativado pela opção "Vacina" marcada na inclusão do cidadão na lista de atendimento ou nos blocos de desfecho da escuta inicial e atendimentos realizados na UBS como demonstrado nos tópicos anteriores. Caso esta opção seja selecionada o botão "Realizar Vacinação" estará disponível como mostra a figura a seguir:
 
-Figura 6.3 - Opção de registro da Vacinação
+Figura 6.3.1 - Opção de registro da Vacinação
 
 ![](media/pec_image341.png)
 
@@ -320,7 +320,7 @@ Fonte: SAPS/MS
 
 Após clicar em ![](media/pec_image342.png) realizar vacinação estará disponível o registro da vacinação no PEC.
 
-Figura 6.3.1 - Tela de registro da Vacinação
+Figura 6.3.2 - Tela de registro da Vacinação
 
 ![](media/pec_image343.png)
 
@@ -332,7 +332,7 @@ A tela para registrar a vacinação apresenta os seguintes Blocos de preenchimen
 
 Este bloco apresenta ao profissional as condições específicas relacionadas ao cidadão que será vacinado. As condições são "Gestante", "Puérpera" e "Viajante".
 
-Figura 6.3.2 - Bloco de Condições do Registro de Vacinação
+Figura 6.3.3 - Bloco de Condições do Registro de Vacinação
 
 ![](media/pec_image344.png)
 
@@ -342,7 +342,7 @@ Fonte: SAPS/MS
 
 Este bloco apresenta os recursos disponíveis para o registro da vacinação. O quadro de vacinação é apresentado conforme figura abaixo:
 
-Figura 6.3.3 - Quadro para o registro dos imunobiológicos
+Figura 6.3.4 - Quadro para o registro dos imunobiológicos
 
 ![](media/pec_image345.png)
 
@@ -358,11 +358,11 @@ Para registrar uma vacina aplicada siga as seguintes etapas:
 
 1\. É possível visualizar o calendário vacinal de acordo com o ciclo de vida (criança, adolescente, adulto e idoso) ou pelo calendário nacional completo;
 
-2\. Clique sobre a dose do imunobiológico que será administrado. Após será aberta uma nova tela "ADICIONAR VACINAÇÃO" conforme a figura 6.3.4:
+2\. Clique sobre a dose do imunobiológico que será administrado. Após será aberta uma nova tela "ADICIONAR VACINAÇÃO" conforme a figura 6.3.5:
 
 ![](media/pec_image348.png)
 
-Figura 6.3.4 - Tela para adicionar vacinação
+Figura 6.3.5 - Tela para adicionar vacinação
 
 ![](media/pec_image349.png)
 
@@ -387,9 +387,9 @@ Figura 6.3.4 - Tela para adicionar vacinação
 {: .atencao }
 Os profissionais de saúde que realizam a administração de imunobiológicos deverão seguir as normas e procedimentos para a vacinação de acordo com o Programa Nacional de Imunização do Ministério da Saúde.
 
-9\. Ainda é possível verificar as informações sobre o registro ao clicar no quadro da dose da vacina administrada (Figura 6.3.5).
+9\. Ainda é possível verificar as informações sobre o registro ao clicar no quadro da dose da vacina administrada (Figura 6.3.4).
 
-Figura 6.3.5 - Visualização de Imunobiológico
+Figura 6.3.6 - Visualização de Imunobiológico
 
 ![](media/pec_image359.png)
 
@@ -398,7 +398,7 @@ Fonte: SAPS/MS
 {: .dica }
 Para aumentar a segurança na aplicação dos imunobiológicos o sistema emite alertas quando da tentativa de registro de uma dose que não seja recomendada para o cidadão (Figura 6.15).
 
-Figura 6.3.6 - Confirmação de registro de dose advertida
+Figura 6.3.7 - Confirmação de registro de dose advertida
 
 ![](media/pec_image360.png)
 
@@ -412,7 +412,7 @@ Caso o lote e o fabricante não estejam previamente cadastrado no sistema, como 
 
 Serão disponibilizados mais campos para a realização da operação conforme a figura a seguir:
 
-Figura 6.3.6
+Figura 6.3.8
 
 ![](media/pec_image355.png)
 
@@ -437,11 +437,11 @@ Aproveitando a oportunidade do registro da dose aplicada no cidadão é recomend
 
 3\. Mova o botão "É registro anterior?" até que apareça a palavra "Sim" ![](media/pec_image351.png). Após essa ação aparecerá a tela conforme a figura abaixo:
 
-Figura 6.3.7 - Tela para adicionar doses de vacinas aplicadas anteriormente
+Figura 6.3.9 - Tela para adicionar doses de vacinas aplicadas anteriormente
 
 ![](media/pec_image361.png)
 
-4\. Os campos para o registro do "Imunobiológico" e "dose" aparecerão conforme a seleção realizada pelo profissional de saúde na tela do quadro de vacinação (Figura 6.3.7), não sendo possível a sua alteração.
+4\. Os campos para o registro do "Imunobiológico" e "dose" aparecerão conforme a seleção realizada pelo profissional de saúde na tela do quadro de vacinação (Figura 6.3.4), não sendo possível a sua alteração.
 
 5\. Registrar a data de aplicação (campo obrigatório), o número do lote e do fabricante, se houver essa informação na caderneta apresentada pelo cidadão, além de observações, caso necessário, no campo específico para esse fim.
 
@@ -461,17 +461,17 @@ Para realizar o aprazamento siga as seguintes etapas:
 
 ![](media/pec_image363.png)
 
-4\. Ao finalizar o registro clique no botão "SALVAR" e o quadro de vacinação aparecerá com a dose aprazada para uma data futura, conforme figura 6.3.8
+4\. Ao finalizar o registro clique no botão "SALVAR" e o quadro de vacinação aparecerá com a dose aprazada para uma data futura, conforme figura 6.3.10
 
-Figura 6.3.8 - Calendário Vacinal com doses de vacinas aprazadas
+Figura 6.3.10 - Calendário Vacinal com doses de vacinas aprazadas
 
 ![](media/pec_image364.png)
 
 Fonte: SAPS/MS
 
-5\. Ainda é possível verificar as informações sobre o registro ao clicar no quadro da dose da vacina aprazada (Figura 6.3.9).
+5\. Ainda é possível verificar as informações sobre o registro ao clicar no quadro da dose da vacina aprazada (Figura 6.3.11).
 
-Figura 6.3.9 - Visualização de Imunobiológico
+Figura 6.3.11 - Visualização de Imunobiológico
 
 ![](media/pec_image365.png)
 
@@ -481,15 +481,15 @@ Fonte: SAPS/MS
 
 Caso o imunobiológico a ser administrado não faça parte do padrão de calendário nacional de vacinação preconizado pelo PNI há a possibilidade de registrar a dose por meio da aba "Outros imunobiológicos".
 
-Figura 6.3.10 - Adicionar outros imunobiológicos
+Figura 6.3.12 - Adicionar outros imunobiológicos
 
 ![](media/pec_image366.png)
 
 Fonte: SAPS/MS
 
-Ao clicar em "Adicionar dose" aparecerá a tela, de acordo com a Figura 6.3.11. Em seguida siga os mesmos passos conforme já descrito no subcapítulo 6.3.1 deste manual para a adição de doses de imunobiológico no sistema com PEC.
+Ao clicar em "Adicionar dose" aparecerá a tela, de acordo com a Figura 6.3.13. Em seguida siga os mesmos passos conforme já descrito no subcapítulo 6.3.1 deste manual para a adição de doses de imunobiológico no sistema com PEC.
 
-Figura 6.3.11 - Tela de adicionar vacinação
+Figura 6.3.13 - Tela de adicionar vacinação
 
 ![](media/pec_image367.png)
 
@@ -497,7 +497,7 @@ Fonte: SAPS/MS
 
 Ao clicar em "Salvar" aparecerá a dose aplicada e a dose aprazada, esta última se for o caso, na tela da aba "Outros imunobiológicos".
 
-Figura 3.3.12
+Figura 6.3.14
 
 ![](media/pec_image368.png)
 
@@ -511,7 +511,7 @@ Para finalizar o registro da(s) dose(s) da(s) vacina(s) aplicada(s) passaremos p
 
 Após registrar os dados da vacinação o profissional deve selecionar um desfecho, de modo semelhante ao passo 6 do módulo da "Escuta inicial", e em seguida, clicar em "Finalizar o Atendimento".
 
-Figura 6.3.13 - Bloco de Desfecho do Registro de Vacinação
+Figura 6.3.15 - Bloco de Desfecho do Registro de Vacinação
 
 ![](media/pec_image369.png)
 
@@ -519,7 +519,7 @@ Fonte: SAPS/MS
 
 Após finalizar o atendimento será possível visualizar os registros feitos para este cidadão na ferramenta "HISTÓRICO".
 
-Figura 6.3.14 - Visualização no Histórico do Registro de Vacinação
+Figura 6.3.16 - Visualização no Histórico do Registro de Vacinação
 
 ![](media/pec_image370.png)
 
@@ -527,7 +527,7 @@ Fonte: SAPS/MS
 
 Clicando em cada "card" apresentado no histórico é possível ver o detalhamento do registro clínico.
 
-Figura 6.3.15 - Registro de Vacinação no Histórico de Atendimento
+Figura 6.3.17 - Registro de Vacinação no Histórico de Atendimento
 
 ![](media/pec_image371.png)
 
@@ -539,7 +539,7 @@ No intuito de proporcionar aos profissionais de saúde o acompanhamento da situa
 
 O *Cartão* minimizado apresenta informações essenciais e objetivas ao acompanhamento da situação vacinal, tais como: Se a vacina está em dia, qual foi a última vacina aplicada e a data em que foi aplicada, conforme a figura abaixo.
 
-Figura 6.3.16 - Cartão de Vacinação
+Figura 6.3.18 - Cartão de Vacinação
 
 ![](media/pec_image372.png)
 
@@ -547,7 +547,7 @@ Fonte: SAPS/MS
 
 Ao clicar neste *Cartão* aparecem as vacinas recomendadas segundo o ciclo de vida do cidadão. Caso queira visualizar todas as vacinas do calendário clique em "Calendário nacional completo". Neste momento, o profissional de saúde poderá analisar a situação vacinal e indicar a atualização da caderneta de vacinação se existirem vacinas atrasadas ou disponíveis, conforme a figura abaixo.
 
-Figura 6.3.17 - Acompanhamento da situação do cartão vacinal
+Figura 6.3.19 - Acompanhamento da situação do cartão vacinal
 
 ![](media/pec_image373.png)
 
@@ -557,7 +557,7 @@ Fonte: SAPS/MS
 
 No módulo de acompanhamento da vacinação é possível atualizar a caderneta do cidadão no PEC incluindo as doses que estão na caderneta física de vacinação. Para registrar essas doses clique em ![](media pec_image374.png) e siga os passos do capítulo 6.3.2.
 
-Figura 6.3.18 - Adicionar doses anteriores
+Figura 6.3.20 - Adicionar doses anteriores
 
 ![](media/pec_image375.png)
 
@@ -571,7 +571,7 @@ Exclusivamente para esta vacina é **obrigatória** a identificação do cidadã
 
 Para iniciar o registro selecione a vacina de acordo com o fabricante como mostra a figura a seguir.
 
-Figura 6.3.19
+Figura 6.3.21
 
 ![](media/vacinacovid19-1.png)
 
@@ -597,7 +597,7 @@ Para realizar a exclusão da dose aplicada, após já ter sido salvo e finalizad
 
 * Acesse o histórico daquele atendimento, clicando no “cartão”
 
-Figura 6.3.20 Tela do Histórico
+Figura 6.3.22 Tela do Histórico
 
 ![](media/pec_image908.png)
 
@@ -605,7 +605,7 @@ Fonte: SAPS/MS
 
 * Clique na opção “Excluir atendimento”;
 
-Figura 6.3.21 Tela do Histórico expandida
+Figura 6.3.23 Tela do Histórico expandida
 
 ![](media/pec_image909.png)
 
@@ -613,7 +613,7 @@ Fonte: SAPS/MS
 
 * Leia com atenção a confirmação de exclusão, e clique em “Excluir atendimento”;
 
-Figura 6.3.22 Tela do Histórico expandida
+Figura 6.3.24 Exclusão da Tela do Histórico
 
 ![](media/pec_image910.png)
 
@@ -621,7 +621,7 @@ Fonte: SAPS/MS
 
 * Ao excluir o 'cartão' do histórico apresentará a mensagem "marcado para exclusão". Após o processamento dos dados no sistema, todas as informações desse histórico serão excluídas. 
 
-Figura 6.3.23 Tela do Histórico
+Figura 6.3.25 Tela do Histórico com exclusão
 
 ![](media/pec_image911.png)
 
@@ -1028,7 +1028,7 @@ Será apresentada, nas próximas seções, cada uma dessas ferramentas com mais 
 
 O atestado é um documento de conteúdo informativo, redigido e assinado por exemplo por **médicos e odontólogos**, de acordo com a Lei nº 605/49, combinada com a Lei nº 5.081/66, como \"atestação\" da existência de certa obrigação ou de ato por ele praticado. Podendo o beneficiário do atestado requerer os direitos daquilo que foi declarado, como os abonos de faltas ao trabalho.
 
-Figura 6.41 - SOAP - Plano - Atestado
+Figura 6.4.17 - SOAP - Plano - Atestado
 
 ![](media/pec_image418.png)
 
@@ -1059,7 +1059,7 @@ Nesta ferramenta, é possível solicitar exames para o cidadão em atendimento. 
 
 Como podemos ver na Figura 6.45, há duas opções para solicitação de exames:
 
-Figura 6.45 - SOAP - Plano - exames
+Figura 6.4.18 - SOAP - Plano - exames
 
 ![](media/pec_image427.png)
 
@@ -1087,7 +1087,7 @@ Figura 6.46 - Adicionar exames
 
 O sistema também oferece as "Opções rápidas".
 
-Figura 6.47 - Opções Rápidas
+Figura 6.4.19 - Opções Rápidas
 
 ![](media/pec_image430.png)
 
@@ -1105,7 +1105,7 @@ Para cadastrar a solicitação de um exame de "**Alto Custo**" é necessário ad
 
 - Passo 1. Clique na opção \"Adicionar exame alto custo\" ![](media/pec_image433.png).
 
-Figura 6.48 - Adicionar exame de Alto Custo
+Figura 6.4.20 - Adicionar exame de Alto Custo
 
 ![](media/pec_image434.png)
 
@@ -1119,11 +1119,9 @@ Figura 6.48 - Adicionar exame de Alto Custo
 
 - Passo 6. Para concluir, clique no botão ![](media/pec_image432.png).
 
-Figura 6.49 - SOAP - Plano - exames - Solicitações de exames. 
+Após cadastrar aparecerá uma lista de exames no bloco "Solicitação de exames", conforme exemplo da Figura 6.4.21.
 
-Após cadastrar aparecerá uma lista de exames no bloco "Solicitação de exames", conforme exemplo da Figura 6.49.
-
-Figura 6.49 - SOAP - Solicitações de exames
+Figura 6.4.21 - SOAP - Solicitações de exames
 
 ![](media/pec_image435.png)
 
@@ -1139,7 +1137,7 @@ Fonte: SAPS/MS.
 
 ![](media/pec_image943.png)
 
-- Para realizar edição de alguma "solicitação de exames" cique em "Editar"![](media/pec_image944.png). O sistema abrirá a tela conforme figura 6.50 abaixo. 
+- Para realizar edição de alguma "solicitação de exames" cique em "Editar"![](media/pec_image944.png). O sistema abrirá a tela conforme figura abaixo. 
 
 ![](media/pec_image945.png)
 
@@ -1153,9 +1151,9 @@ Passo 4.  Após as alterações, clique no botão "Salvar" ![](media/pec_image93
 
 #### 6.4.3.4.3 Ferramentas do Plano - Prescrição de Medicamentos
 
-Esta ferramenta permite fazer a prescrição de medicamentos, contendo orientação de uso para o paciente, efetuada por profissional legalmente habilitado, podendo ser de lista padrão (pré- definida pelo CATMAT[^1]) ou descrição em texto livre (Registro Manual), conforme figura 6.53.
+Esta ferramenta permite fazer a prescrição de medicamentos, contendo orientação de uso para o paciente, efetuada por profissional legalmente habilitado, podendo ser de lista padrão (pré- definida pelo CATMAT[^1]) ou descrição em texto livre (Registro Manual), conforme figura 6.4.22.
 
-Figura 6.53 - SOAP - Plano - Prescrição de Medicamentos
+Figura 6.4.22 - SOAP - Plano - Prescrição de Medicamentos
 
 ![](media/pec_image444.png)
 
@@ -1163,9 +1161,9 @@ Fonte: SAPS/MS.
 
 - Para realizar a prescrição de medicamentos, siga os passo a seguir:
 
-- Passo 1. Clique em "+ Adicionar prescrição" ![](media/pec_image948.png). Abrirá a tela de prescrição, conforme figura 6.54:
+- Passo 1. Clique em "+ Adicionar prescrição" ![](media/pec_image948.png). Abrirá a tela de prescrição, conforme figura 6.4.23:
 
-Figura 6.54 - Adicionar prescrição
+Figura 6.4.23 - Adicionar prescrição
 
 ![](media/pec_image949.png)
 
@@ -1241,7 +1239,7 @@ caso seja necessário prescrever um medicamento que esteja fora da lista padrão
 
 Caso a UBS utilize o Sistema Hórus para gestão da farmácia será possível realizar a consulta de disponibilidade do medicamento prescrito. A indicação de ativação da integração com o Hórus será apresentada com a informação de "Conexão com o servidor Hórus desabilitada" habilitada. Ao final da prescrição do medicamento será exibida a lista de estabelecimentos que tem o medicamento disponível, por meio da coluna "Disponibilidade".
 
-Figura 6.57 - Exemplo de disponibilidade de medicamentos
+Figura 6.4.24 - Exemplo de disponibilidade de medicamentos
 
 ![](media/pec_image459.png)
 
@@ -1250,9 +1248,9 @@ Fonte: SAPS/MS.
 {: .nota }
 caso sua UBS tenha implantado o Sistema Hórus e o recurso não esteja disponível, é necessário verificar se o recurso está habilitado. Para mais detalhes ver Seção 3.1.7.
 
-- Passo 12. Por fim, para imprimir a prescrição dos medicamentos a serem entregues para o cidadão clique sobre o botão “Imprimir”. Em seguida, aparecerá a tela constando todos os medicamentos prescritos. Selecione o qual gostaria imprimir, conforme figura 6.58.Para utilizar as definições padrões, basta manter selecionado todos os medicamentos.
+- Passo 12. Por fim, para imprimir a prescrição dos medicamentos a serem entregues para o cidadão clique sobre o botão “Imprimir”. Em seguida, aparecerá a tela constando todos os medicamentos prescritos. Selecione o qual gostaria imprimir, conforme figura 6.4.25.Para utilizar as definições padrões, basta manter selecionado todos os medicamentos.
 
-Figura 6.58 - Imprimir Prescrição 
+Figura 6.4.25 - Imprimir Prescrição 
 
 ![](media/pec_image956.png)
 
@@ -1260,7 +1258,7 @@ Fonte: SAPS/MS.
 
 - Passo 13. Para imprimir o receituário clique em "imprimir". 
 
-Figura 6.59 - Modelo do Receituário Impresso no PEC 
+Figura 6.4.26 - Modelo do Receituário Impresso no PEC 
 
 ![](media/pec_image957.png)
 
@@ -1270,7 +1268,7 @@ Fonte: SAPS/MS.
 
 Esta ferramenta permite ao profissional de saúde registrar orientações a serem entregues ao paciente. Por exemplo, podem ser escritas orientações alimentares ou sobre cuidados a sua saúde.
 
-Figura 6.60 - SOAP - Plano - orientações
+Figura 6.4.27 - SOAP - Plano - orientações
 
 ![](media/pec_image958.png)
 
@@ -1282,20 +1280,20 @@ Para adicionar uma orientação siga os passos:
 
 - Passo 2. Ao clicar em "Salvar" serão apresentadas as informações conforme a figura abaixo:
 
-Figura 6.61 - Tela com as orientações registradas no PEC
+Figura 6.4.28 - Tela com as orientações registradas no PEC
 
 ![](media/pec_image959.png)
 
-- Passo 3. Para imprimir as "Orientações" clique em ![](media/pec_image960.png). Aparecerá a tela conforme figura 6.62 abaixo:
+- Passo 3. Para imprimir as "Orientações" clique em ![](media/pec_image960.png). Aparecerá a tela conforme figura 6.4.29 abaixo:
 
-Figura 6.62 - Impressão das Orientações
+Figura 6.4.29 - Impressão das Orientações
 
 ![](media/pec_image962.png)
 
 - Passo 4. Para editar as "Orientações" registradas clique em ![](media/pec_image961.png). Aparecerá a tela 6.63 conforme abaixo. Clique em "Salvar":
 
 
-Figura 6.63 - Edição das "Orientações" registradas
+Figura 6.4.30 - Edição das "Orientações" registradas
 
 ![](media/pec_image963.png).
 
@@ -1305,7 +1303,7 @@ Figura 6.63 - Edição das "Orientações" registradas
 
 Esta ferramenta oferta aos profissionais a possibilidade de registrar e gerar a impressão da solicitação de encaminhamento para atendimento em serviços de atenção especializada.
 
-Figura 6.64 - Tela de Encaminhamentos
+Figura 6.4.31 - Tela de Encaminhamentos
 
 ![](media/pec_image965.png)
 
@@ -1323,7 +1321,7 @@ Informações relacionadas ao "motivo do encaminhamento" e "observações" podem
 
 A ferramenta de encaminhamento permite visualizar cada solicitação em uma lista com as informações de classificação de risco, data da solicitação, especialidade e hipótese/diagnóstico, conforme figura 6.65 abaixo:
 
-Figura 6.67 - Lista de Encaminhamentos no PEC
+Figura 6.4.32 - Lista de Encaminhamentos no PEC
 
 ![](media/pec_image967.png)
 
@@ -1333,31 +1331,19 @@ Passo 2. Para "Salvar clique em ![](media/pec_image966.png).
 
 Passo 3. Para visualizar os detalhes do encaminhamento clique em ![](media/pec_image968.png). Aparecerá a tela com todos os dados do encaminhamento realizado, conforme figura 6.68 abaixo:
 
-Figura 6.68 - Lista de Encaminhamentos no PEC
+Figura 6.4.33 - Lista de Encaminhamentos no PEC
 
 ![](media/pec_image969.png)
 
 Fonte: SAPS/MS.
 
-Passo 4. Para imprimir o encaminhamento clique em ![](media/pec_image970.png).O padrão utilizado obedece às premissas do SISREG (Figura 6.59). A impressão, além dos dados da solicitação, traz o campo da contra referência, na qual pode ser preenchido pelo profissional de saúde do serviço referenciado, como forma de devolver à UBS as informações importantes sobre a situação de saúde do cidadão encaminhado;
+Passo 4. Para imprimir o encaminhamento clique em ![](media/pec_image970.png).O padrão utilizado obedece às premissas do SISREG. A impressão, além dos dados da solicitação, traz o campo da contra referência, na qual pode ser preenchido pelo profissional de saúde do serviço referenciado, como forma de devolver à UBS as informações importantes sobre a situação de saúde do cidadão encaminhado;
 
+É possível visualizar todos os encaminhamentos solicitados para o cidadão em atendimento. O componente de filtro permite a busca pelo profissional solicitante, pela especialidade e pela data. Caso o profissional queira verificar apenas as suas solicitações, basta clicar na opção “ver somente os meus encaminhamentos”, conforme figura 6.4.34 abaixo:
 
-
-
-É possível visualizar todos os encaminhamentos solicitados para o cidadão em atendimento. O componente de filtro permite a busca pelo profissional solicitante, pela especialidade e pela data. Caso o profissional queira verificar apenas as suas solicitações, basta clicar na opção “ver somente os meus encaminhamentos”, conforme figura 6.65 abaixo:
-
-
-
-
-
-
-
-
-Figura 6.69 - Tela de solicitação de Encaminhamento
+Figura 6.4.34 - Tela de solicitação de Encaminhamento
 
 ![](media/pec_image470.png)
-
-
 
 Também é necessário um código CID10 ou CIAP2 (a depender da categoria profissional que está solicitando o encaminhamento) relacionado a avaliação realizada durante a consulta e a necessidade do encaminhamento.
 
@@ -1368,13 +1354,14 @@ Informações relacionadas ao "motivo do encaminhamento" e "observações" podem
 A ferramenta de encaminhamento permite visualizar cada solicitação em uma lista com as informações de classificação de risco, data da solicitação, especialidade e hipótese/diagnóstico.
 
 ![](media/pec_image472.png)
+
 Fonte: SAPS/MS.
 
 Para cada registro, é possível:
 
 -  ![](media/pec_image423.png) **imprimir**: realizar a impressão da solicitação. O padrão utilizado obedece às premissas do SISREG (Figura 6.60). A impressão, além dos dados da solicitação, traz o campo da contra referência, na qual pode ser preenchido pelo profissional de saúde do serviço referenciado, como forma de devolver à UBS as informações importantes sobre a situação de saúde do cidadão encaminhado;
 
-Figura 6.70 - Modelo de Guia de Encaminhamento
+Figura 6.4.35 - Modelo de Guia de Encaminhamento
 
 ![](media/pec_image473.png)
 
@@ -1396,7 +1383,7 @@ A ferramenta "Problemas/Condições e Alergias" auxilia o profissional de saúde
 
 Ao acessar esta funcionalidade, o sistema exibe uma tela com a lista de problemas do indivíduo, que podem estar ativos, latentes ou resolvidos. Segundo Weed (1968, apud CANTALE), um problema clínico é tudo aquilo que requeira diagnóstico e manejo posterior, ou aquilo que interfira com a qualidade de vida, de acordo com a percepção da própria pessoa. Como exemplos de problemas e condições a serem incluídos nessa ferramenta, tem-se: diagnósticos, deficiências, sintomas, sinais, fatores de risco e condições socioeconômicas.
 
-Figura 6.71 - Problemas/Condições e Alergias
+Figura 6.4.36 - Problemas/Condições e Alergias
 
 ![](media/pec_image475.png)
 
