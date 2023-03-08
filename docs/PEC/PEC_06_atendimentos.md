@@ -634,9 +634,9 @@ Quando esta opção "excluir atendimento" for selecionada, **TODAS** as informa�
 
 # 6.4 Atender - Prontuário do Cidadão
 
-Ao clicar na opção ![](media/pec_image376.png) \"Atender\" da lista de atendimentos, o sistema exibirá uma tela com as funcionalidades do PEC (Figura 6.4).
+Ao clicar na opção ![](media/pec_image376.png) \"Atender\" da lista de atendimentos, o sistema exibirá uma tela com as funcionalidades do PEC (Figura 6.4.1).
 
-Figura 6.4 - Tela do Prontuário Eletrônico do Cidadão
+Figura 6.4.1 - Tela do Prontuário Eletrônico do Cidadão
 
 ![](media/pec_image893.png)
 
@@ -677,21 +677,21 @@ Para que o profissional de saúde, logado no PEC, consiga visualizar os dados cl
 
 1\) Na tela de atendimento do PEC clique no botão "Acessar RNDS";
 
-Figura 6.4.1 - Tela de Atendimento PEC
+Figura 6.4.2 - Tela de Atendimento PEC
 
 ![](media/pec_image895.png)
 
 Fonte: SAPS/MS
 
-2\) Após clicar no botão "Acessar RNDS" abrirá o portal **gov.br**. Acesse sua conta com  **CPF** e **senha** cadastrada neste portal (Figura 6.4.2 e Figura 6.4.3). Caso não possua uma conta ativa, crie uma clicando no botão "Crie sua conta gov.br". 
+2\) Após clicar no botão "Acessar RNDS" abrirá o portal **gov.br**. Acesse sua conta com  **CPF** e **senha** cadastrada neste portal (Figura 6.4.3 e Figura 6.4.4). Caso não possua uma conta ativa, crie uma clicando no botão "Crie sua conta gov.br". 
 
-Figura 6.4.2
+Figura 6.4.3
 
 ![](media/pec_image897.png)
 
 Fonte: SAPS/MS
 
-Figura 6.4.3
+Figura 6.4.4
 
 ![](media/pec_image898.png)
 
@@ -705,13 +705,13 @@ Para conseguir acessar a RNDS o profissional de saúde deve ter o selo de confia
 
 3\) Uma vez realizado o acesso via login e senha no site **gov.br**, o profissional de saúde acessará o portal **Conecte SUS Profissional**. Após ler e aceitar os termos de responsabilidades no compartilhamento de dados (Figura 6.4.4) terá acesso as informações disponíveis, tais como: resultado de exame laboratorial, vacinas, medicações dispensadas, alergias registradas pelo cidadão, além dos atendimentos e as internações hospitalares (Figura 6.4.5).
 
-Figura 6.4.4 - Nota Informativa - Termo de Responsabilidade de acesso a RNDS
+Figura 6.4.5 - Nota Informativa - Termo de Responsabilidade de acesso a RNDS
 
 ![](media/pec_image899.png)
 
 Fonte: DATASUS/MS
 
-Figura 6.4.5 - Portal Conecte SUS Profissional
+Figura 6.4.6 - Portal Conecte SUS Profissional
 
 ![](media/pec_image900.png)
 
@@ -729,7 +729,7 @@ Mais informações sobre o Conecte SUS Profissional e/ou a RNDS acesse o [Portal
 
 A folha de rosto, por meio de um sumário clínico do cidadão, oferece acesso rápido a um conjunto de informações importantes do cidadão.
 
-Figura 6.4.6 - Prontuário do Cidadão - folha de rosto
+Figura 6.4.7 - Prontuário do Cidadão - folha de rosto
 
 ![](media/pec_image893.png)
 
@@ -778,7 +778,7 @@ de nome do exame, data de realização e resultado do exame.
 ![](media/pec_image396.png)
 
 
-Figura 6.4.7 - Folha de Rosto com informações sumarizadas a partir de registros anteriores
+Figura 6.4.8 - Folha de Rosto com informações sumarizadas a partir de registros anteriores
 
 ![](media/pec_image397.png)
 
@@ -804,9 +804,9 @@ A sigla SOAP corresponde a quatro blocos de informações detalhadas a seguir:
 > **(P) plano**: conjunto de funcionalidades que permite registrar o plano de cuidado ao cidadão em relação ao(s) problema(s) e condição(ões) de saúde identificado(s).
 
 {: .nota }
-O campo **motivo da consulta** no Subjetivo, **problema detectado** na Avaliação e **intervenção-procedimento** no Plano existe a possibilidade de coleta de dados padronizados por meio do uso da Classificação Internacional de Atenção Primária - 2ª edição (CIAP2), seguindo a metodologia desta classificação conforme podemos ver no diagrama da Figura 6.4.8
+O campo **motivo da consulta** no Subjetivo, **problema detectado** na Avaliação e **intervenção-procedimento** no Plano existe a possibilidade de coleta de dados padronizados por meio do uso da Classificação Internacional de Atenção Primária - 2ª edição (CIAP2), seguindo a metodologia desta classificação conforme podemos ver no diagrama da Figura 6.4.9
 
-Figura 6.4.8 - Uso da CIAP2 no registro do atendimento
+Figura 6.4.9- Uso da CIAP2 no registro do atendimento
 
 ![](media/pec_image7.png)
 
@@ -827,7 +827,7 @@ para mais informações sobre como utilizar a CIAP2, acesse o [Guia Rápido](htt
 
 O registro da parte subjetiva pode ser realizado usando o campo texto e/ou por meio de codificação do motivo da consulta usando a terminologia CIAP2, e ainda registrar notas, se necessário. 
 
-Figura 6.4.9 - SOAP - Subjetivo (motivo da consulta)
+Figura 6.4.10 - SOAP - Subjetivo (motivo da consulta)
 
 ![](media/pec_image399.png)
 
@@ -877,15 +877,15 @@ O registro do "Objetivo", conforme a Figura 6.4.9, pode ser realizado usando cam
 - **Glicemia**:
  - Glicemia capilar: registrar em miligramas por decilitro (mg/dL). É necessário informar se, no **momento da coleta**, o cidadão encontrava-se na situação de jejum, pré-prandial, pós-prandial ou não especificado.
 
-Figura 6.4.10 - SOAP - Objetivo
+Figura 6.4.11 - SOAP - Objetivo
 
 ![](media/pec_image936.PNG)
 
 Fonte: SAPS/MS
 
-Para os casos em que o cidadão em atendimento é do sexo feminino, o bloco "Mulher" é disponibilizado, como mostra a Figura 6.4.11
+Para os casos em que o cidadão em atendimento é do sexo feminino, o bloco "Mulher" é disponibilizado, como mostra a Figura 6.4.12
 
-Figura 6.4.11 - SOAP - Objetivo - grupo mulher (sem DUM registrada)
+Figura 6.4.12 - SOAP - Objetivo - grupo mulher (sem DUM registrada)
 
 ![](media/pec_image407.png)
 
@@ -893,7 +893,7 @@ Fonte: SAPS/MS
 
 - **DUM (Data da Última Menstruação)**: neste campo, registra-se a data da última menstruação da mulher em atendimento, mesmo que não haja suspeita ou condição de gravidez. Após salvo o registro da DUM aparece a informação conforme figura abaixo.
 
-Figura 6.4.12 - SOAP - Objetivo - grupo mulher (com DUM registrada)
+Figura 6.4.13 - SOAP - Objetivo - grupo mulher (com DUM registrada)
 
 ![](media/pec_image408.png)
 
@@ -959,7 +959,7 @@ Neste campo é registrado a avaliação do cidadão feito pelo profissional de s
 
 O código do problema e/ou condição detectada ou avaliada durante o atendimento é de preenchimento obrigatório, sendo necessário informar pelo menos um código, CIAP2 ou CID10, conforme podemos ver na Figura 6.4.15.
 
-Figura 6.4.15 - SOAP - Avaliação
+Figura 6.4.14 - SOAP - Avaliação
 
 ![](media/pec_image902.png)
 
@@ -999,12 +999,12 @@ Agora é possível inserir informações de Alergias e reações adversas pelo c
 
 S O A **P**
 
-Após identificar os problemas/condições de saúde do cidadão que está demandando cuidados, a última parte do SOAP possibilita o registro das informações do plano de cuidado. O sistema oferece uma estrutura que permite registro rápido do plano por meio de um campo de texto e/ou usando códigos para o registro de procedimentos e intervenções, conforme Figura 6.4.16.
+Após identificar os problemas/condições de saúde do cidadão que está demandando cuidados, a última parte do SOAP possibilita o registro das informações do plano de cuidado. O sistema oferece uma estrutura que permite registro rápido do plano por meio de um campo de texto e/ou usando códigos para o registro de procedimentos e intervenções, conforme Figura 6.4.15.
 
 {: .atualizacao }
 A partir da versão 3.2 o profissional pode realizar o registro de procedimentos clínicos realizados utilizando duas classificações: a Tabela de Procedimentos do SUS (SIGTAP) e o Capítulo de procedimentos da CIAP2. Este campo novo apresenta apenas procedimentos clínicos, ou seja, procedimentos que podem ser executados diretamente no cuidado ao cidadão.
 
-Figura 6.4.16 - SOAP - Plano
+Figura 6.4.15 - SOAP - Plano
 
 ![](media/pec_image417.png)
 
@@ -1028,7 +1028,7 @@ Será apresentada, nas próximas seções, cada uma dessas ferramentas com mais 
 
 O atestado é um documento de conteúdo informativo, redigido e assinado por exemplo por **médicos e odontólogos**, de acordo com a Lei nº 605/49, combinada com a Lei nº 5.081/66, como \"atestação\" da existência de certa obrigação ou de ato por ele praticado. Podendo o beneficiário do atestado requerer os direitos daquilo que foi declarado, como os abonos de faltas ao trabalho.
 
-Figura 6.4.17 - SOAP - Plano - Atestado
+Figura 6.4.16 - SOAP - Plano - Atestado
 
 ![](media/pec_image418.png)
 
@@ -1059,7 +1059,7 @@ Nesta ferramenta, é possível solicitar exames para o cidadão em atendimento. 
 
 Como podemos ver na Figura 6.45, há duas opções para solicitação de exames:
 
-Figura 6.4.18 - SOAP - Plano - exames
+Figura 6.4.17 - SOAP - Plano - exames
 
 ![](media/pec_image427.png)
 
@@ -1071,9 +1071,9 @@ Os exames que têm alta complexidade são classificados como exames de **alto cu
 
 Para criar uma solicitação de exame **Comum** basta seguir os passos a seguir:
 
-- Passo 1. Clique na opção \"Adicionar exame comum\" ![](media/pec_image428.png), conforme vimos na Figura 6.46;
+- Passo 1. Clique na opção \"Adicionar exame comum\" ![](media/pec_image428.png), conforme vimos na Figura 6.4.18;
 
-Figura 6.46 - Adicionar exames
+Figura 6.18 - Adicionar exames
 
 ![](media/pec_image429.png)
 
@@ -1224,7 +1224,7 @@ Utilize a opção "Uso contínuo" ![](media/pec_image451.png) caso o medicamento
 - Passo 9. Para concluir, clique em "Salvar prescrição" ![](media/pec_image455.png);
 
 - Passo 10. Para adicionar mais de um medicamento na receita, preencha novamente os campos da prescrição e clique em "Salvar prescrição", o sistema irá exibir uma lista lateral com os medicamento prescritos durante o atendimento, conforme figura 
-6.55.
+6.4.23.
 
 ![](media/pec_image954.png)
 
@@ -1248,7 +1248,7 @@ Fonte: SAPS/MS.
 {: .nota }
 caso sua UBS tenha implantado o Sistema Hórus e o recurso não esteja disponível, é necessário verificar se o recurso está habilitado. Para mais detalhes ver Seção 3.1.7.
 
-- Passo 12. Por fim, para imprimir a prescrição dos medicamentos a serem entregues para o cidadão clique sobre o botão “Imprimir”. Em seguida, aparecerá a tela constando todos os medicamentos prescritos. Selecione o qual gostaria imprimir, conforme figura 6.4.25.Para utilizar as definições padrões, basta manter selecionado todos os medicamentos.
+- Passo 12. Por fim, para imprimir a prescrição dos medicamentos a serem entregues para o cidadão clique sobre o botão “Imprimir”. Em seguida, aparecerá a tela constando todos os medicamentos prescritos. Selecione o qual gostaria imprimir, conforme figura 6.4.25. Para utilizar as definições padrões, basta manter selecionado todos os medicamentos.
 
 Figura 6.4.25 - Imprimir Prescrição 
 
@@ -1319,7 +1319,7 @@ A classificação de risco também é um campo de preenchimento obrigatório, po
 
 Informações relacionadas ao "motivo do encaminhamento" e "observações" podem ser incluídas, porém sem obrigatoriedade.
 
-A ferramenta de encaminhamento permite visualizar cada solicitação em uma lista com as informações de classificação de risco, data da solicitação, especialidade e hipótese/diagnóstico, conforme figura 6.65 abaixo:
+A ferramenta de encaminhamento permite visualizar cada solicitação em uma lista com as informações de classificação de risco, data da solicitação, especialidade e hipótese/diagnóstico, conforme figura 6.4.32 abaixo:
 
 Figura 6.4.32 - Lista de Encaminhamentos no PEC
 
@@ -1329,7 +1329,7 @@ Fonte: SAPS/MS.
 
 Passo 2. Para "Salvar clique em ![](media/pec_image966.png).
 
-Passo 3. Para visualizar os detalhes do encaminhamento clique em ![](media/pec_image968.png). Aparecerá a tela com todos os dados do encaminhamento realizado, conforme figura 6.68 abaixo:
+Passo 3. Para visualizar os detalhes do encaminhamento clique em ![](media/pec_image968.png). Aparecerá a tela com todos os dados do encaminhamento realizado, conforme figura 6.4.33 abaixo:
 
 Figura 6.4.33 - Lista de Encaminhamentos no PEC
 
@@ -1359,7 +1359,7 @@ Fonte: SAPS/MS.
 
 Para cada registro, é possível:
 
--  ![](media/pec_image423.png) **imprimir**: realizar a impressão da solicitação. O padrão utilizado obedece às premissas do SISREG (Figura 6.60). A impressão, além dos dados da solicitação, traz o campo da contra referência, na qual pode ser preenchido pelo profissional de saúde do serviço referenciado, como forma de devolver à UBS as informações importantes sobre a situação de saúde do cidadão encaminhado;
+-  ![](media/pec_image423.png) **imprimir**: realizar a impressão da solicitação. O padrão utilizado obedece às premissas do SISREG (Figura 6.4.31). A impressão, além dos dados da solicitação, traz o campo da contra referência, na qual pode ser preenchido pelo profissional de saúde do serviço referenciado, como forma de devolver à UBS as informações importantes sobre a situação de saúde do cidadão encaminhado;
 
 Figura 6.4.35 - Modelo de Guia de Encaminhamento
 
