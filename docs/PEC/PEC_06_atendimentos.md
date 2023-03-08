@@ -905,7 +905,7 @@ No bloco "Objetivo", é possível gerenciar exames solicitados, avaliados e seus
 
 - Passo 1. Clique no botão \"Adicionar resultados de exames\" ![](media/pec_image410.png) - o sistema apresentará uma tela, conforme a Figura abaixo;
 
-![](media/pec_image408.2.png)
+![](media/pec_image408.2.PNG)
 
 - Passo 2. Descreva o exame desejado, será mostrado o nome do exame em questão, 
 
