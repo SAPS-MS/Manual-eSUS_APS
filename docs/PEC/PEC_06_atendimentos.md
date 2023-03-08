@@ -396,7 +396,7 @@ Figura 6.3.6 - Visualização de Imunobiológico
 Fonte: SAPS/MS
 
 {: .dica }
-Para aumentar a segurança na aplicação dos imunobiológicos o sistema emite alertas quando da tentativa de registro de uma dose que não seja recomendada para o cidadão (Figura 6.15).
+Para aumentar a segurança na aplicação dos imunobiológicos o sistema emite alertas quando da tentativa de registro de uma dose que não seja recomendada para o cidadão (Figura 6.3.7).
 
 Figura 6.3.7 - Confirmação de registro de dose advertida
 
@@ -427,13 +427,13 @@ obrigatório.
 
 ![](media/pec_image357.png)
 
-## 6.3.2. Registrar dose anterior
+## 6.3.2. Transcrição de Caderneta
 
 Aproveitando a oportunidade do registro da dose aplicada no cidadão é recomendado também registrar as doses anteriores com a finalidade de atualizar o calendário vacinal no PEC. Para registrar uma dose anterior siga as seguintes etapas.
 
 1\. É possível visualizar o calendário vacinal de acordo com o ciclo de vida (criança, adolescente, adulto e idoso) ou pelo calendário nacional completo;
 
-2\. Clique sobre a "Dose" do imunobiológico que será administrado. Após será aberta uma nova tela "ADICIONAR VACINAÇÃO" conforme a figura 6.9, visto anteriormente.
+2\. Clique sobre a "Dose" do imunobiológico que será administrado. Após será aberta uma nova tela "ADICIONAR VACINAÇÃO" conforme a figura 6.3.5, visto anteriormente.
 
 3\. Mova o botão "É registro anterior?" até que apareça a palavra "Sim" ![](media/pec_image351.png). Após essa ação aparecerá a tela conforme a figura abaixo:
 
@@ -455,9 +455,9 @@ Para realizar o aprazamento siga as seguintes etapas:
 
 1\. Visualize o calendário vacinal de acordo com o ciclo de vida (criança, adolescente, adulto e idoso) ou pelo calendário nacional completo;
 
-2\. Clique sobre a "Dose" do imunobiológico que será registrado e aprazado. Após será aberta a tela "ADICIONAR VACINAÇÃO" conforme a figura 6.3.7, visto anteriormente.
+2\. Clique sobre a "Dose" do imunobiológico que será registrado e aprazado. Após será aberta a tela "ADICIONAR VACINAÇÃO" conforme a figura 6.3.5, visto anteriormente.
 
-3\. O aprazamento poderá ser feito por meio da aba "Aprazamento" ![](media/pec_image362.png), ou simplesmente por meio do campo "Aprazamento" (6.3.6), quando for registrar uma dose aplicada. Em ambos os casos, digite a data que o cidadão deverá retornar para receber a dose.
+3\. O aprazamento poderá ser feito por meio da aba "Aprazamento" ![](media/pec_image362.png), ou simplesmente por meio do campo "Aprazamento", quando for registrar uma dose aplicada. Em ambos os casos, digite a data que o cidadão deverá retornar para receber a dose.
 
 ![](media/pec_image363.png)
 
@@ -487,7 +487,7 @@ Figura 6.3.12 - Adicionar outros imunobiológicos
 
 Fonte: SAPS/MS
 
-Ao clicar em "Adicionar dose" aparecerá a tela, de acordo com a Figura 6.3.13. Em seguida siga os mesmos passos conforme já descrito no subcapítulo 6.3.1 deste manual para a adição de doses de imunobiológico no sistema com PEC.
+Ao clicar em "Adicionar dose" aparecerá a tela, de acordo com a Figura 6.3.12. Em seguida siga os mesmos passos conforme já descrito no subcapítulo 6.3.1 deste manual para a adição de doses de imunobiológico no sistema com PEC.
 
 Figura 6.3.13 - Tela de adicionar vacinação
 
@@ -555,7 +555,7 @@ Fonte: SAPS/MS
 
 ### 6.3.6.1 Adicionar doses anteriores
 
-No módulo de acompanhamento da vacinação é possível atualizar a caderneta do cidadão no PEC incluindo as doses que estão na caderneta física de vacinação. Para registrar essas doses clique em ![](media pec_image374.png) e siga os passos do capítulo 6.3.2.
+No módulo de acompanhamento da vacinação é possível atualizar a caderneta do cidadão no PEC incluindo as doses que estão na caderneta física de vacinação. Para registrar essas doses clique em ![](media/pec_image374.png) e siga os passos do capítulo 6.3.2.
 
 Figura 6.3.20 - Adicionar doses anteriores
 
