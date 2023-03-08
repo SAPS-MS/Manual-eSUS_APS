@@ -915,17 +915,16 @@ No bloco "Objetivo", é possível gerenciar exames solicitados, avaliados e seus
 
 Fonte: SAPS/MS.
 
-Para facilitar o gerenciamento do resultado de exame no SOAP, no bloco "Objetivo" é possível visualizar o resumo, conforme figura abaixo;
+Para facilitar o gerenciamento do resultado de exame no SOAP, no bloco "Objetivo" é possível visualizar o resumo, conforme figura abaixo:
 
-
-![](media/pec_image408.3.png)
+![](media/pec_image408.3.PNG)
 
 Fonte: SAPS/MS.
 
 É possível editar o resultado de exames em \" ![](media/pec_image410.png), o sistema apresentará uma tela, conforme figura abaixo.
 
 
-![](media/pec_image408.4.png)
+![](media/pec_image408.4.PNG)
 
 Fonte: SAPS/MS.
 
@@ -975,13 +974,12 @@ Para registrar uma condição ou problema detectado, siga os passos:
 
 - Passo 1. Informe o código CIAP2 ou CID10 e clique em "Adicionar" ![](media/pec_image931.png). Aparecerá na tela os problemas e condições avaliados neste atendimento, conforme figura abaixo:
 
-![](media/pec_image932.png)
+![](media/pec_image932.PNG)
 
 
 - Passo 2. Clique em ![](media/pec_image928.png) "Adicionar Observação" para registrar alguma observação relacionada com o problema detectado, caso necessário. Ao registrar aparecerá a seguinte tela:
 
-
-![](media/pec_image929.png)
+![](media/pec_image929.PNG)
 
 - Passo 3. Clique em  ![](media/pec_image930.png) "Salvar" para concluir.
 
@@ -992,13 +990,10 @@ Para registrar uma condição ou problema detectado, siga os passos:
 
 Agora relacionado a alergia , em consultas posteriores, é possível incluí-lo na Lista de Problemas/Condições, como situação "Ativo", conforme figura abaixo:
 
-
+![](media/pec_image937.PNG)
 
 {: .nota }
 Agora é possível inserir informações de Alergias e reações adversas pelo campo "Avaliação" no SOAP, conforme figura abaixo. Para maiores intruções de como preencher esse campo, observar o item 6.4.4.2 do manual e-SUS APS.
-
-![](media/pec_image937.png)
-
 
 ### 6.4.3.4 SOAP - Plano
 
