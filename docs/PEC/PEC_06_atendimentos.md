@@ -215,9 +215,9 @@ O perfil de escuta inicial poderá ser habilitado para os profissionais a depend
 {: .nota }
 Só é permitido realizar uma escuta para cada atendimento, e não é permitida a exclusão, nem a adição de informações após a finalização do atendimento.
 
-Ao clicar na opção ![](media/pec_image318.png) \"**Realizar escuta inicial**\", disponível na tela da lista de atendimentos, será exibida uma tela, conforme a Figura 6.1.11
+Ao clicar na opção ![](media/pec_image318.png) \"**Realizar escuta inicial**\", disponível na tela da lista de atendimentos, será exibida uma tela, conforme a Figura 6.2.1
 
-Figura 6.2 - Ferramentas para realizar escuta Inicial
+Figura 6.2.1 - Ferramentas para realizar escuta Inicial
 
 ![](media/pec_image333.png)
 
@@ -236,7 +236,7 @@ Para fazer o registro da escuta inicial, siga os passos:
 
 - Passo 3: Registre dados de antropometria, sinais vitais e glicemia, de acordo com as necessidades observadas no atendimento;
 
-Figura 6.2.1 - Antropometria, Sinais Vitais e Glicemia
+Figura 6.2.2 - Antropometria, Sinais Vitais e Glicemia
 
 ![](media/pec_image334.png)
 
@@ -276,7 +276,7 @@ Ao fazer a classificação de risco/vulnerabilidade e encaminhar o cidadão para
 
 - **adicionar na lista de atendimento**: para os casos em que o cidadão precisa de outro atendimento e/ou serviço na unidade de saúde no mesmo dia, o cidadão será reinserido na lista de atendimento e permanece com a situação "Aguardando atendimento" para que ele possa ser atendido/consultado por outro profissional;
 
-Figura 6.2.2 - Desfecho da escuta inicial
+Figura 6.2.3 - Desfecho da escuta inicial
 
 ![](media/pec_image337.png)
 
@@ -287,7 +287,7 @@ Caso o cidadão seja incluído na lista de atendimento para a aplicação de vac
 
 - **agendar consulta**: Para os casos em que o problema não foi resolvido na escuta inicial e há a necessidade de agendar uma consulta para um profissional, na data, turno e horário disponível. Na agenda do profissional, será adicionada esta nova consulta.
 
-Figura 6.2.3 - Agendar Cidadão
+Figura 6.2.4 - Agendar Cidadão
 
 ![](media/pec_image338.png)
 
