@@ -851,7 +851,7 @@ Para adicionar um motivo de consulta usando a CIAP2, siga os passos:
 
 S **O** A P
 
-O registro do "Objetivo", conforme a Figura 6.4.9, pode ser realizado usando campo texto e/ou estruturado para anotar sinais e sintomas percebidos pelo profissional de saúde durante o atendimento. O sistema oferece um bloco de campos estruturados para facilitar o preenchimento das aferições mais frequentes na consulta. Os campos disponíveis são:
+O registro do "Objetivo", conforme a Figura 6.4.11, pode ser realizado usando campo texto e/ou estruturado para anotar sinais e sintomas percebidos pelo profissional de saúde durante o atendimento. O sistema oferece um bloco de campos estruturados para facilitar o preenchimento das aferições mais frequentes na consulta. Os campos disponíveis são:
 
 - **Antropometria**:
 
@@ -907,6 +907,8 @@ No bloco "Objetivo", é possível gerenciar exames solicitados, avaliados e seus
 
 ![](media/pec_image408.2.PNG)
 
+Fonte: SAPS/MS.
+
 - Passo 2. Descreva o exame desejado, será mostrado o nome do exame em questão, 
 
 - Passo 3. Na tela insira o resultado, a data de solicitação e realização do exame, conforme figura abaixo e clique em "Salvar".
@@ -939,6 +941,8 @@ Alguns exames requerem o registro de dados específicos dos resultados. Estes re
 
 ![](media/pec_image408.6.png)
 
+Fonte: SAPS/MS
+
 {: .atualizacao }
 A versão 5.0 amplia o escopo de exames que podem ter o preenchimento estruturado de resultados, ainda que de forma manual. São eles:
 
@@ -957,13 +961,11 @@ S O **A** P
 
 Neste campo é registrado a avaliação do cidadão feito pelo profissional de saúde, considerando o raciocínio clínico baseado na análise dos blocos "Subjetivo" e "Objetivo". Na **Avaliação** podem ser registradas as hipóteses de diagnóstico e/ou diagnóstico codificado.
 
-O código do problema e/ou condição detectada ou avaliada durante o atendimento é de preenchimento obrigatório, sendo necessário informar pelo menos um código, CIAP2 ou CID10, conforme podemos ver na Figura 6.4.15.
+O código do problema e/ou condição detectada ou avaliada durante o atendimento é de preenchimento obrigatório, sendo necessário informar pelo menos um código, CIAP2 ou CID10, conforme podemos ver na Figura 6.4.14.
 
 Figura 6.4.14 - SOAP - Avaliação
 
 ![](media/pec_image902.png)
-
-Fonte: SAPS/MS
 
 Caso o profissional decida acompanhar o problema/condição avaliada, em consultas posteriores, é possível incluí-lo na Lista de Problemas/Condições, como situação "Ativo", conforme figura abaixo:
 
@@ -991,6 +993,8 @@ Para registrar uma condição ou problema detectado, siga os passos:
 Agora relacionado a alergia , em consultas posteriores, é possível incluí-lo na Lista de Problemas/Condições, como situação "Ativo", conforme figura abaixo:
 
 ![](media/pec_image937.PNG)
+
+Fonte: SAPS/MS.
 
 {: .nota }
 Agora é possível inserir informações de Alergias e reações adversas pelo campo "Avaliação" no SOAP, conforme figura abaixo. Para maiores intruções de como preencher esse campo, observar o item 6.4.4.2 do manual e-SUS APS.
@@ -1042,6 +1046,8 @@ Conforme podemos ver na Figura acima, para emitir um atestado, basta seguir os p
 
 ![](media/pec_image418.1.png)
 
+Fonte: SAPS/MS
+
 - Passo 3. Para "Horário Personalizao" escolha obrigatoriamente "horário de entrada" e "horário de saída"
 
 
@@ -1067,15 +1073,17 @@ Fonte: SAPS/MS.
 
 Os exames que têm alta complexidade são classificados como exames de **alto custo**. Os exames que têm menor custo e baixa densidade tecnológica são classificados como exames **comuns** e não precisam de detalhamento maior, apenas os dados clínicos do cidadão.
 
-##### 6.4.3.4.2.1 Solicitar um exame **Comum**:
+#### 6.4.3.4.2.1 Solicitar um exame **Comum**:
 
 Para criar uma solicitação de exame **Comum** basta seguir os passos a seguir:
 
 - Passo 1. Clique na opção \"Adicionar exame comum\" ![](media/pec_image428.png), conforme vimos na Figura 6.4.18;
 
-Figura 6.18 - Adicionar exames
+Figura 6.4.18 - Adicionar exames
 
 ![](media/pec_image429.png)
+
+Fonte: SAPS/MS.
 
 - Passo 2. Para adicionar um exame, utilize o campo "Exame", digitando parte ou todo o nome do exame desejado, e selecione o exame por meio da lista que será exibida;
 
@@ -1090,6 +1098,9 @@ O sistema também oferece as "Opções rápidas".
 Figura 6.4.19 - Opções Rápidas
 
 ![](media/pec_image430.png)
+
+Fonte: SAPS/MS.
+
 
 Esta é uma alternativa que agiliza a requisição de exames, visto que são apresentados combos de exames previamente selecionados para cada condição (gestante 1º, 2º e 3º trimestre, além dos exames de risco cardiovascular). Clique na opção ![](media/pec_image431.png) \"Adicionar\" para incluir um grupo de exames, ao clicar aparecerá uma lista de exames. Em seguida siga os passos:
 
@@ -1108,6 +1119,10 @@ Para cadastrar a solicitação de um exame de "**Alto Custo**" é necessário ad
 Figura 6.4.20 - Adicionar exame de Alto Custo
 
 ![](media/pec_image434.png)
+
+Fonte: SAPS/MS.
+
+
 
 - Passo 2. Para adicionar um exame de alto custo, utilize o campo de busca "Exames", digitando parte ou todo o nome do exame desejado, e selecione o item desejado por meio da lista que será exibida;
 
@@ -1137,9 +1152,15 @@ Fonte: SAPS/MS.
 
 ![](media/pec_image943.png)
 
+Fonte: SAPS/MS.
+
+
+
 - Para realizar edição de alguma "solicitação de exames" cique em "Editar"![](media/pec_image944.png). O sistema abrirá a tela conforme figura abaixo. 
 
 ![](media/pec_image945.png)
+
+Fonte: SAPS/MS.
 
 - Passo 1. Selecione o exame que deseja editar. 
 
@@ -1228,6 +1249,7 @@ Utilize a opção "Uso contínuo" ![](media/pec_image451.png) caso o medicamento
 
 ![](media/pec_image954.png)
 
+Fonte: SAPS/MS.
 
 - Passo 11. Para finalizar clique no botão "Salvar prescrição" ![](media/pec_image955.png).
 
@@ -1290,12 +1312,14 @@ Figura 6.4.29 - Impressão das Orientações
 
 ![](media/pec_image962.png)
 
-- Passo 4. Para editar as "Orientações" registradas clique em ![](media/pec_image961.png). Aparecerá a tela 6.63 conforme abaixo. Clique em "Salvar":
+- Passo 4. Para editar as "Orientações" registradas clique em ![](media/pec_image961.png). Aparecerá a tela 6.4.30 conforme abaixo. Clique em "Salvar":
 
 
 Figura 6.4.30 - Edição das "Orientações" registradas
 
 ![](media/pec_image963.png).
+
+Fonte: SAPS/MS.
 
 - Passo 5. Para "Excluir" as "Orientações" registradas clique em ![](media/pec_image964.png).
 
@@ -1319,7 +1343,7 @@ A classificação de risco também é um campo de preenchimento obrigatório, po
 
 Informações relacionadas ao "motivo do encaminhamento" e "observações" podem ser incluídas, porém sem obrigatoriedade.
 
-A ferramenta de encaminhamento permite visualizar cada solicitação em uma lista com as informações de classificação de risco, data da solicitação, especialidade e hipótese/diagnóstico, conforme figura 6.4.32 abaixo:
+A ferramenta de encaminhamento permite visualizar cada solicitação em uma lista com as informações de data da solicitação, especialidade e hipótese/diagnóstico, conforme figura 6.4.32 abaixo:
 
 Figura 6.4.32 - Lista de Encaminhamentos no PEC
 
@@ -1331,7 +1355,7 @@ Passo 2. Para "Salvar clique em ![](media/pec_image966.png).
 
 Passo 3. Para visualizar os detalhes do encaminhamento clique em ![](media/pec_image968.png). Aparecerá a tela com todos os dados do encaminhamento realizado, conforme figura 6.4.33 abaixo:
 
-Figura 6.4.33 - Lista de Encaminhamentos no PEC
+Figura 6.4.33 - Lista de Visualização de Encaminhamento
 
 ![](media/pec_image969.png)
 
@@ -1341,35 +1365,17 @@ Passo 4. Para imprimir o encaminhamento clique em ![](media/pec_image970.png).O 
 
 É possível visualizar todos os encaminhamentos solicitados para o cidadão em atendimento. O componente de filtro permite a busca pelo profissional solicitante, pela especialidade e pela data. Caso o profissional queira verificar apenas as suas solicitações, basta clicar na opção “ver somente os meus encaminhamentos”, conforme figura 6.4.34 abaixo:
 
-Figura 6.4.34 - Tela de solicitação de Encaminhamento
+Figura 6.4.34 - Tela de Visualização dos meus Encaminhamentos
 
 ![](media/pec_image470.png)
 
-Também é necessário um código CID10 ou CIAP2 (a depender da categoria profissional que está solicitando o encaminhamento) relacionado a avaliação realizada durante a consulta e a necessidade do encaminhamento.
-
-A classificação de risco também é um campo de preenchimento obrigatório, podendo ser: eletivo, prioritário, urgência ou emergência. A classificação utilizada nesta ferramenta obedece ao padrão determinado pelo **Sistema Nacional de Regulação (SISREG)**.
-
-Informações relacionadas ao "motivo do encaminhamento" e "observações" podem ser incluídas, porém sem obrigatoriedade.
-
-A ferramenta de encaminhamento permite visualizar cada solicitação em uma lista com as informações de classificação de risco, data da solicitação, especialidade e hipótese/diagnóstico.
-
-![](media/pec_image472.png)
-
 Fonte: SAPS/MS.
-
-Para cada registro, é possível:
-
--  ![](media/pec_image423.png) **imprimir**: realizar a impressão da solicitação. O padrão utilizado obedece às premissas do SISREG (Figura 6.4.31). A impressão, além dos dados da solicitação, traz o campo da contra referência, na qual pode ser preenchido pelo profissional de saúde do serviço referenciado, como forma de devolver à UBS as informações importantes sobre a situação de saúde do cidadão encaminhado;
 
 Figura 6.4.35 - Modelo de Guia de Encaminhamento
 
 ![](media/pec_image473.png)
 
-- ![](media/pec_image424.png) **visualizar**: visualizar as informações da solicitação;
-
-- ![](media/pec_image426.png) **editar**: editar as informações da solicitação. Esta opção não estará mais disponível após a finalização do atendimento;
-
-- ![](media/pec_image425.png) **excluir**: excluir a solicitação. Esta opção só estará disponível durante o próprio atendimento.
+Fonte: SAPS/MS.
 
 Além do SOAP e suas ferramentas, ainda é possível usar as outras ferramentas do prontuário, como seguem nas próximas seções.
 
@@ -1717,7 +1723,7 @@ Como vimos na seção anterior, as funcionalidades do prontuário estão organiz
 
 Consiste em um campo aberto que possibilita o registro da parte subjetiva da anamnese da consulta, ou seja, os dados trazidos pelo cidadão, que incluem a descrição do motivo da consulta com percepções do indivíduo em relação ao seu processo saúde- doença.
 
-Figura 6.82 - SOAP - Subjetivo
+Figura 6.5.1 - SOAP - Subjetivo
 
 ![](media/pec_image527.png)
 
@@ -1727,7 +1733,7 @@ Fonte: SAPS/MS.
 
 Este bloco traz um campo de texto livre e um conjunto de campos estruturados. O campo de texto livre possibilita o registro das observações do profissional de saúde durante o atendimento, como a percepção geral, dados do exame físico (intra e extra bucal) e exames complementares, incluindo os laboratoriais.
 
-Figura 6.83 - SOAP - Objetivo
+Figura 6.5.2 - SOAP - Objetivo
 
 ![](media/pec_image528.png)
 
@@ -1741,7 +1747,7 @@ Vale ressaltar que, segundo o Caderno de Atenção Básica nº 17, Saúde Bucal 
 
 Os problemas ou condições detectadas/avaliadas na consulta odontológica devem ser registrados na parte de avaliação. O registro pode ser realizado usando campo aberto e/ou por meio de codificação dos problemas avaliados, usando a Classificação Internacional Atenção Primária (CIAP2) ou a Classificação Internacional de Doenças (CID10), além de algumas notas.
 
-Figura 6.84 - SOAP - Avaliação
+Figura 6.5.3 - SOAP - Avaliação
 
 ![](media/pec_image529.png)
 
@@ -1753,7 +1759,7 @@ Fonte: SAPS/MS.
 
 Inserido ao campo SOAP - "Avaliação", o campo "Vigilância em saúde bucal" visa subsidiar a observação do processo saúde- doença bucal, em âmbito populacional, e mostra- se um instrumento fundamental para a elaboração de políticas e ações de cuidados mais resolutivas. Este campo é composto por *checkbox* que permite múltipla escolha das opções.
 
-Figura 6.85 - SOAP - Avaliação - vigilância em saúde bucal
+Figura 6.5.4 - SOAP - Avaliação - vigilância em saúde bucal
 
 ![](media/pec_image530.png)
 
@@ -1780,7 +1786,7 @@ quando identificada a presença de **fendas ou fissuras labiopalatais** ou **flu
 
 Este campo tem como finalidade sinalizar a necessidade de prótese dentária para o cidadão, marcando "sim" ou "não". Para os casos em que for marcada a opção "sim", as especificações acerca da prótese, com o detalhamento se será parcial ou total, superior e/ou inferior, serão preenchidas no campo SOAP - "Plano ".
 
-Figura 6.86 - SOAP - Avaliação - prótese dentária superior/inferior
+Figura 6.5.5 - SOAP - Avaliação - prótese dentária superior/inferior
 
 ![](media/pec_image531.png)
 
@@ -1790,7 +1796,7 @@ Fonte: SAPS/MS.
 
 Esta funcionalidade permite o registro do plano de cuidado ao cidadão em relação ao(s) problema(s) avaliado(s), especificando a conduta e desfecho do atendimento. O SOAP - Plano, é composto pelo bloco de intervenções/procedimentos, odontograma, pelos campos de sinalização de uso da prótese dentária total superior e/ou inferior e também pelas ferramentas para emissão de atestados, exames, lembretes, prescrição de medicamentos, orientações, encaminhamentos e evoluções odontológicas.
 
-Figura 6.87 - SOAP - Plano
+Figura 6.5.6 - SOAP - Plano
 
 ![](media/pec_image532.png)
 
@@ -1814,7 +1820,7 @@ Ao marcar a opção \"prótese total superior\" e/ou \"prótese total inferior\"
 
 - apresenta o *hint* \"prótese total\" ao passar o *mouse* sobre qualquer dente da arcada.
 
-Figura 6.88 - Odontograma - prótese total superior e inferior
+Figura 6.5.7 - Odontograma - prótese total superior e inferior
 
 ![](media/pec_image533.png)
 
@@ -1836,7 +1842,7 @@ Para registrar avaliação ou problema detectado na coroa do dente, siga os pass
 
 - clique com o botão **esquerdo** sobre a coroa do dente e aparecerá uma lista de problemas que poderá estar relacionado com o dente em questão;
 
-Figura 6.89 - Lista de problemas (Odontograma)
+Figura 6.5.8 - Lista de problemas (Odontograma)
 
 ![](media/pec_image534.png)
 
@@ -1844,13 +1850,13 @@ Figura 6.89 - Lista de problemas (Odontograma)
 
 - selecionando a opção, aparecerá o resultado na coroa do dente selecionada (Figura 6.91);
 
-Figura 6.90 - Problema identificado e confirmado na coroa do dente
+Figura 6.5.9 - Problema identificado e confirmado na coroa do dente
 
 ![](media/pec_image535.png)
 
 - é importante registrar em qual face (mesial/distal/palatina/lingual/vestibular) da coroa do dente que tem a alteração identificada. Para isso, clique com o botão esquerdo do mouse, sobre a face desejada e marque com a cor rosa o local que está cariado.
 
-Figura 6.91. Odontograma e bloco de problemas identificados/avaliados na coroa dentária
+Figura 6.5.10. Odontograma e bloco de problemas identificados/avaliados na coroa dentária
 
 ![](media/pec_image536.png)
 
@@ -1878,25 +1884,25 @@ Ao realizar o procedimento na coroa do dente, clique com o botão **esquerdo** s
 
 ![](media/pec_image540.png)
 
-Figura 6.92 - SOAP - Plano - evolução odontológica - dente
+Figura 6.5.11 - SOAP - Plano - evolução odontológica - dente
 
 ![](media/pec_image541.png)
 
 Fonte: SAPS/MS.
 
-Figura 6.93 - SOAP - Plano - evolução odontológica - sextante
+Figura 6.5.12 - SOAP - Plano - evolução odontológica - sextante
 
 ![](media/pec_image542.png)
 
 Fonte: SAPS/MS.
 
-Figura 6.94 - SOAP - Plano - evolução odontológica - arcada
+Figura 6.5.13 - SOAP - Plano - evolução odontológica - arcada
 
 ![](media/pec_image543.png)
 
 Fonte: SAPS/MS.
 
-Figura 6.95 - SOAP - Plano - evolução odontológica - outro
+Figura 6.5.14 - SOAP - Plano - evolução odontológica - outro
 
 ![](media/pec_image544.png)
 
@@ -1910,7 +1916,7 @@ Ao cadastrar e salvar a(s) evolução(ões) odontológica(s), aparecerão alguma
 
 - clique no botão "Excluir" ![](media/pec_image425.png) para apagar uma solicitação de procedimento.
 
-Figura 6.96 - Evoluções Odontológicas
+Figura 6.5.15 - Evoluções Odontológicas
 
 ![](media/pec_image545.png)
 
@@ -1938,7 +1944,7 @@ Dessa forma, a marcação na raiz do dente mudará de cor para a azul, informand
 
 Observação: casos de "Lesão de furca\" somente podem ser registrados para os dentes: 14, 15, 16, 17, 18, 24, 25, 26, 27, 28, 34, 35, 36, 37, 38, 44, 45, 46, 47 e 48.
 
-Figura 6.97 - SOAP - Plano - odontograma e bloco de problemas identificados/avaliados na raiz
+Figura 6.5.16 - SOAP - Plano - odontograma e bloco de problemas identificados/avaliados na raiz
 
 ![](media/pec_image550.png)
 
@@ -2046,10 +2052,12 @@ Outra forma de realizar esse registro é a inclusão de algum dos códigos na se
 
 Dependendo do problema e ou condição detectada, a gestação pode ser classificada em dois tipos: "alto risco" e "risco habitual", também conhecida como baixo risco. Esta situação pode ser modificada ao longo do acompanhamento da gestação por meio de entradas tanto pela avaliação quanto pela Lista de Problemas/Condições e Alergias. Sempre que o registro mais atual for diferente dos códigos W78 e Z34 e houver qualquer outro da lista anterior, a gestação será considerada de "alto risco" e será mostrada no Cartão de Acompanhamento.
 
-Caso o primeiro registro da gravidez seja realizado por profissional médico ou enfermeiro, na seção "Avaliação" do SOAP, será mostrado o bloco "Pré-Natal - Primeira Consulta" (Figura 6.98).
+Caso o primeiro registro da gravidez seja realizado por profissional médico ou enfermeiro, na seção "Avaliação" do SOAP, será mostrado o bloco "Pré-Natal - Primeira Consulta" (Figura 6.5.17).
 
-Figura 6.98 - Pré-Natal - Primeira consulta
+Figura 6.5.17 - Pré-Natal - Primeira consulta
 ![](media/pec_image557.png)
+
+Fonte: SAPS/MS.
 
 Nele, é possível realizar os registros de:
 
@@ -2073,7 +2081,7 @@ caso os antecedentes obstétricos estejam desatualizados, o sistema mostrará a 
 
 A partir da segunda consulta de pré-natal, os dados do bloco "Pré-Natal - Primeira Consulta" serão transferidos da seção "Avaliação" para a seção "Objetivo" do SOAP.
 
-Figura 6.99 - SOAP - Objetivo - grupo pré-natal
+Figura 6.5.18 - SOAP - Objetivo - grupo pré-natal
 
 ![](media/pec_image558.png)
 
@@ -2093,7 +2101,7 @@ Alguns exames requerem o registro de dados específicos dos resultados. Estes re
 
 Para os resultados de ultrassonografias realizadas durante o pré- natal, é possível registrar a idade gestacional (IG ecográfica) em semanas e dias, além da data provável do parto (DPP ecográfica), como mostra a pec_imagem abaixo:
 
-Figura 6.100 - Campos específicos do resultado da Ultrassonografia obstétrica
+Figura 6.5.19 - Campos específicos do resultado da Ultrassonografia obstétrica
 
 ![](media/pec_image559.png)
 
@@ -2116,17 +2124,17 @@ Quadro 6: Códigos CIAP2 e CID10 que encerram uma gestação
 
 Fonte: SAPS/MS.
 
-O desfecho pode ser informado por meio da inclusão de um desses itens na seção "Avaliação" do SOAP, por meio do bloco "Problema e/ou condição detectada". Em caso de identificação de algum desses códigos, o sistema mostrará o campo "Data de desfecho da gestação" dentro do bloco "Pré-Natal", conforme Figura 6.88. Irá também atualizar a condição de gravidez na Lista de Problemas\\Condições e Alergias automaticamente e registrar a data do desfecho como a data da resolução da condição.
+O desfecho pode ser informado por meio da inclusão de um desses itens na seção "Avaliação" do SOAP, por meio do bloco "Problema e/ou condição detectada". Em caso de identificação de algum desses códigos, o sistema mostrará o campo "Data de desfecho da gestação" dentro do bloco "Pré-Natal", conforme Figura 6.5.20. Irá também atualizar a condição de gravidez na Lista de Problemas\\Condições e Alergias automaticamente e registrar a data do desfecho como a data da resolução da condição.
 
-Figura 6.101 - Avaliação - Registro do desfecho da Gestação
+Figura 6.5.20 - Avaliação - Registro do desfecho da Gestação
 
 ![](media/pec_image560.png)
 
 Fonte: SAPS/MS.
 
-Se o registro do desfecho da gestação for realizado por meio da Lista de Problema\\ Condições e Alergias, é possível marcar a condição de gravidez (W78) como **resolvida**, como pode ser visto na Figura 6.102. Neste caso, o campo "Data final" torna- se obrigatório, e passa a ser considerada como a "Data de desfecho da gestação".
+Se o registro do desfecho da gestação for realizado por meio da Lista de Problema\\ Condições e Alergias, é possível marcar a condição de gravidez (W78) como **resolvida**, como pode ser visto na Figura 6.5.21. Neste caso, o campo "Data final" torna- se obrigatório, e passa a ser considerada como a "Data de desfecho da gestação".
 
-Figura 6.102 - Registro da Gestação na Lista de Problemas
+Figura 6.5.21 - Registro da Gestação na Lista de Problemas
 
 ![](media/pec_image561.png)
 
@@ -2136,15 +2144,15 @@ Fonte: SAPS/MS.
 
 O *Cartão* minimizado apresenta informações essenciais e objetivas ao acompanhamento da gestante como: o risco (habitual ou alto risco); a data da última menstruação (DUM); a idade gestacional (IG) cronológica e data provável do parto (DPP) calculadas a partir da DUM, a IG e DPP baseadas nos registros dos exames de pec_imagem, além disso, apresenta a data da última consulta de pré-natal e o profissional que realizou a última consulta como mostra a pec_imagem a seguir.
 
-Figura 6.103 - Cartão do Acompanhamento do Pré-natal
+Figura 6.5.22 - Cartão do Acompanhamento do Pré-natal
 
 ![](media/pec_image562.png)
 
 Fonte: SAPS/MS.
 
-Clicando no *Cartão* é possível verificar o conjunto de informações completas relacionadas ao acompanhamento do pré-natal. Existem três blocos de informações principais sendo eles "Lista de problemas condições ativas", "Medições da gestação" e "histórico da condição" (Figura 6.104).
+Clicando no *Cartão* é possível verificar o conjunto de informações completas relacionadas ao acompanhamento do pré-natal. Existem três blocos de informações principais sendo eles "Lista de problemas condições ativas", "Medições da gestação" e "histórico da condição" (Figura 6.5.23).
 
-Figura 6.104 - Acompanhamento do Pré-Natal
+Figura 6.5.23 - Acompanhamento do Pré-Natal
 
 ![](media/pec_image563.png)
 
@@ -2152,7 +2160,7 @@ Figura 6.104 - Acompanhamento do Pré-Natal
 
 Este bloco disponibiliza as condições que estão com status "Ativo" na seção "Problemas/Condições e Alergias", informando qual o problema/condição e a idade de início do mesmo, durante o período da gestação, como vemos a seguir.
 
-Figura 6.105 - Bloco de Lista de problemas do Acompanhamento do Pré-natal
+Figura 6.5.24 - Bloco de Lista de problemas do Acompanhamento do Pré-natal
 
 ![](media/pec_image564.png)
 
@@ -2162,25 +2170,31 @@ Fonte: SAPS/MS.
 
 Este bloco apresenta aos profissionais as informações das medições realizadas durante as consultas de pré- natal. Cada consulta é identificada em sua sequência pela coluna "Consulta" seguida da data da consulta, IG, peso e IMC calculado, classificação do edema, pressão arterial (PA), altura uterina, batimento cardíaco fetal (BCF) e presença de movimento fetal como mostra a pec_imagem a seguir.
 
-Figura 6.106 - Bloco de Medições da Gestação
+Figura 6.5.25 - Bloco de Medições da Gestação
 
 ![](media/pec_image565.png)
+
+Fonte: SAPS/MS.
 
 Neste bloco ainda é possível verificar os gráficos de acompanhamento da evolução de alguns indicadores da saúde da gestante como o Índice de Massa Corporal (IMC), a Glicemia capilar, a Pressão Arterial (PA) e a Altura Uterina (AU). Basta clicar nas abas IMC, Glicemia, PA ou AU, respectivamente.
 
 ![](media/pec_image566.png)
 
-Abaixo o modelo do gráfico do IMC (Figura 6.107).
+Fonte: SAPS/MS.
 
-Figura 6.107 - Gráfico do IMC - Índice de Massa Corporal
+Abaixo o modelo do gráfico do IMC (Figura 6.5.26).
+
+Figura 6.5.26 - Gráfico do IMC - Índice de Massa Corporal
 
 ![](media/pec_image567.png)
+
+Fonte: SAPS/MS.
 
 #### 6.5.2.2.3 Histórico da condição
 
 Neste bloco é possível acompanhar a evolução da condição gravídica por meio da Lista de Problemas/Condições ativas. Caso haja atualização em relação a esta condição ou nova informação no campo de observação será possível acompanhar por meio do botão ![](media/pec_image568.png).
 
-Figura 6.108 - Bloco de Histórico da condição
+Figura 6.5.27 - Bloco de Histórico da condição
 
 ![](media/pec_image569.png)
 
@@ -2188,15 +2202,15 @@ Fonte: SAPS/MS.
 
 #### 6.5.2.2.4 Impressão do acompanhamento da gestante
 
-Caso o profissional deseje realizar a impressão do acompanhamento da gestante, seja para arquivamento físico, seja para entregar à gestante, basta clicar no botão ![](media/pec_image570.png). Em seguida aparecerá uma tela onde é possível selecionar os itens que deseja imprimir (Figura 6.019).
+Caso o profissional deseje realizar a impressão do acompanhamento da gestante, seja para arquivamento físico, seja para entregar à gestante, basta clicar no botão ![](media/pec_image570.png). Em seguida aparecerá uma tela onde é possível selecionar os itens que deseja imprimir (Figura 6.5.28).
 
-Figura 6.109 - Imprimir Acompanhamento da Gestação
+Figura 6.5.28 - Imprimir Acompanhamento da Gestação
 
 ![](media/pec_image571.png)
 
 Abaixo um exemplo da impressão do acompanhamento da gestante.
 
-Figura 6.110 - Modelo de impresso do Acompanhamento do Pré-natal apenas com Dados do acompanhamento
+Figura 6.5.29 - Modelo de impresso do Acompanhamento do Pré-natal apenas com Dados do acompanhamento
 
 ![](media/pec_image572.png)
 
@@ -2210,7 +2224,7 @@ Uma das principais fases do crescimento e do desenvolvimento humano é a infânc
 
 Em atendimento no qual o cidadão esteja na faixa etária para a realização da puericultura, será ofertada ao profissional a opção de ativar o "registro do atendimento de puericultura", com objetivo de acompanhar o crescimento e desenvolvimento da criança.
 
-Figura 6.111 - Opção na seção "Objetivo" do SOAP para habilitar campos da puericultura
+Figura 6.5.30 - Opção na seção "Objetivo" do SOAP para habilitar campos da puericultura
 
 ![](media/pec_image573.png)
 
@@ -2218,11 +2232,11 @@ Fonte: SAPS/MS.
 
 Após a primeira ativação da puericultura, será ofertado ao profissional a possibilidade de registrar informações clínicas em relação ao pré-natal, parto e nascimento, além do acompanhamento do crescimento e desenvolvimento da criança.
 
-Figura 6.112 - Campos da Puericultura
+Figura 6.5.31 - Campos da Puericultura
 
 ![](media/pec_image574.png)
 
-Fonte: SAS/MS
+Fonte: SAPS/MS
 
 No bloco pré-natal, parto e puerpério, o profissional de saúde pode registrar os dados que apoiam o cuidado da criança provenientes tanto do cartão de pré-natal quanto da caderneta da criança, tais como o tipo de gravidez, tipo de parto, idade gestacional ao nascer, avaliação do apgar e os dados antropométricos ao nascer relativo ao peso, altura e perímetro cefálico.
 
@@ -2244,9 +2258,11 @@ Para registrar o crescimento da criança com a finalidade de avaliar o estado nu
 {: .dica }
 Para o acompanhamento adequado da criança é importante que o profissional de saúde registre em todas as consultas de puericultura os dados antropométricos. Estes dados comporão as tabelas e gráficos no módulo de "Acompanhamento" da Puericultura. Neste módulo é possível analisar a curva de crescimento da criança, mais informações no capítulo ***6.5.3.2. Acompanhamento da Puericultura***.
 
-Figura 6.113 - Bloco Antropometria
+Figura 6.5.32 - Bloco Antropometria
 
 ![](media/pec_image575.png)
+
+Fonte: SAPS/MS.
 
 ### 6.5.3.3 Registrando o desenvolvimento da criança
 
@@ -2254,36 +2270,44 @@ Com a finalidade de avaliar as etapas de evolução da criança de acordo com a 
 
 Neste Bloco, o profissional de saúde que realiza a puericultura, registra os dados referentes às alterações fenotípicas presentes na criança, os fatores de riscos sociais, ambientais, de condições de saúde e parto que podem indicar perigo para o desenvolvimento na infância, além de registrar os marcos do desenvolvimento, de acordo com a idade e segundo a Caderneta da Criança 2019. No marco do desenvolvimento também é possível registrar os reflexos primitivos que são esperados nos primeiros 15 dias de vida do recém- nascido.
 
-Figura 6.114 - Bloco de avaliação do Desenvolvimento da criança
+Figura 6.5.33 - Bloco de avaliação do Desenvolvimento da criança
 
 ![](media/pec_image576.png)
 
+Fonte: SAPS/MS
+
 Para avaliar as alterações fenotípicas clique no botão "Avaliar" e em seguida será aberta uma tela conforme a figura abaixo. Neste momento clique sobre "Ausente" ou "Presente" em cada condição a ser observada.
 
-Figura 6.115 - Avaliação das Alterações Fenotípicas
+Figura 6.5.34 - Avaliação das Alterações Fenotípicas
 
 ![](media/pec_image577.png)
 
+Fonte: SAPS/MS
+
 Se for selecionado alguma condição com o status "Presente" ao clicar em "Salvar", será aberto uma caixa de diálogo, solicitando a confirmação se realmente a alteração fenotípica está presente na criança, pois ao finalizar o atendimento essa informação **não** poderá ser modificada.
 
-Figura 6.116 - Confirmação de status "Presente" para a alteração fenotípica
+Figura 6.5.35 - Confirmação de status "Presente" para a alteração fenotípica
 
 ![](media/pec_image578.png)
+
+Fonte: SAPS/MS
 
 {: .atencao }
 Atente para a caixa de diálogo solicitando a confirmação da alteração fenotípica na criança. Após a finalização do atendimento não será possível alterar o status. Se o profissional de saúde finalizar o atendimento com o status "presente" de forma errônea, o sistema emitirá alerta relacionado ao desenvolvimento que não condiz com a realidade da criança. Por isso, fique atento às boas práticas do registro em prontuários.
 
 Para iniciar a avaliação dos fatores de risco clique no botão "Avaliar" e em seguida será aberta uma tela conforme a figura abaixo. Neste momento clique sobre "Ausente" ou "Presente" em cada condição a ser observada.
 
-Figura 6.117 - Avaliação dos Fatores de Risco
+Figura 6.5.36 - Avaliação dos Fatores de Risco
 
 ![](media/pec_image579.png)
 
+Fonte: SAPS/MS
+
 Após selecionar os fatores de riscos com os status de "Ausente" ou "Presente" clique em "Salvar" para finalizar a avaliação.
 
-Ao finalizar as avaliações das ***Alterações fenotípicas*** e dos ***Fatores de risco,*** as condições que foram avaliadas como "Presente", aparecerão no bloco do Desenvolvimento da criança, conforme a figura 6.118.
+Ao finalizar as avaliações das ***Alterações fenotípicas*** e dos ***Fatores de risco,*** as condições que foram avaliadas como "Presente", aparecerão no bloco do Desenvolvimento da criança, conforme a figura 6.5.37.
 
-Figura 6.118 - Desenvolvimento da criança
+Figura 6.5.37 - Desenvolvimento da criança
 
 ![](media/pec_image580.png)
 
@@ -2295,32 +2319,36 @@ Neste bloco também é possível registrar os reflexos primitivos presentes no r
 
 Após clicar neste bloco será apresentada uma tela com os reflexos esperados na faixa etária dos 15 (quinze) primeiros dias de vida da criança. Em cada reflexo o profissional deverá selecionar o status como "Ausente" ou "Presente". Ao concluir a avaliação clique em "Salvar".
 
-Figura 6.119 - Avaliação dos Marcos de Desenvolvimento
+Figura 6.5.38 - Avaliação dos Marcos de Desenvolvimento
 
 ![](media/pec_image582.png)
 
-Caso um ou mais reflexos neurológicos não sejam alcançados e registrado como "Ausente" no bloco "15 primeiros dias de vida" o sistema irá exibir a mensagem com a quantidade e quais foram os reflexos que não foram alcançados, conforme a figura 6.124.
+Caso um ou mais reflexos neurológicos não sejam alcançados e registrado como "Ausente" no bloco "15 primeiros dias de vida" o sistema irá exibir a mensagem com a quantidade e quais foram os reflexos que não foram alcançados, conforme a figura 6.5.43.
 
 Para avaliar os marcos das demais faixas etárias, siga conforme a orientação para o registro dos reflexos primitivos, clicando sobre o "bloco" da idade que será avaliada.
 
-Figura 6.120 - Avaliação dos Marcos de desenvolvimento
+Figura 6.5.39 - Avaliação dos Marcos de desenvolvimento
 
 ![](media/pec_image583.png)
 
-Ao clicar no bloco de uma das faixas etárias a ser avaliada abrirá a tela com os marcos esperados para aquela faixa, conforme podemos observar na avaliação dos marcos da faixa etária do 1º mês (Figura 6.121).
+Ao clicar no bloco de uma das faixas etárias a ser avaliada abrirá a tela com os marcos esperados para aquela faixa, conforme podemos observar na avaliação dos marcos da faixa etária do 1º mês (Figura 6.5.40).
 
-Figura 6.121 - Avaliação dos Marcos de Desenvolvimento do 1º mês de vida
+Figura 6.5.40 - Avaliação dos Marcos de Desenvolvimento do 1º mês de vida
 
 ![](media/pec_image584.png)
 
-Ao selecionar o marco com os status de "Presente" o profissional de saúde que está fazendo a puericultura deverá registrar a idade em que o mesmo foi alcançado (Figura 6.122).
+Ao selecionar o marco com os status de "Presente" o profissional de saúde que está fazendo a puericultura deverá registrar a idade em que o mesmo foi alcançado (Figura 6.5.41).
 
-Figura 6.122 - Avaliação dos Marcos de Desenvolvimento
+Figura 6.5.41 - Avaliação dos Marcos de Desenvolvimento
 
 ![](media/pec_image585.png)
 
 {: .dica }
-No bloco de avaliação dos marcos de desenvolvimento ao clicar no símbolo da seta para baixo ![](media/pec_image586.png) aparece as informações relacionadas aos significados ou comportamentos esperados na avaliação do marco, com a finalidade de orientar o profissional que irá realizar a averiguação e o registro do mesmo (Figura 6.122).
+No bloco de avaliação dos marcos de desenvolvimento ao clicar no símbolo da seta para baixo 
+
+![](media/pec_image586.png) 
+
+aparece as informações relacionadas aos significados ou comportamentos esperados na avaliação do marco, com a finalidade de orientar o profissional que irá realizar a averiguação e o registro do mesmo.
 
 Ao finalizar a avaliação do marco do desenvolvimento, o bloco apresentará o status de cada marco, de acordo com o encontrado no momento da avaliação. Os status apresentados são os seguintes:
 
@@ -2332,11 +2360,13 @@ Ao finalizar a avaliação do marco do desenvolvimento, o bloco apresentará o s
 
 ![](media/pec_image590.png) **Não Avaliado:** quando o profissional não registra no sistema se o marco está presente ou ausente, ou simplesmente, ainda não foi avaliado por não estar no período de avaliação.
 
-Figura 6.123 - Marcos de Desenvolvimento
+Figura 6.5.42 - Marcos de Desenvolvimento
 
 ![](media/pec_image591.png)
 
-Caso nenhuma avaliação tenha sido registrada no bloco de Desenvolvimento da criança não será apresentada nenhuma informação sobre a classificação do desenvolvimento integral da criança. No entanto, caso o profissional tenha realizado e registrado as informações referentes ao desenvolvimento, então será apresentada as mensagens, conforme os critérios para a classificação (Figura 6.124). As classificações estão de acordo com a caderneta da criança do Ministério da Saúde e são as seguintes:
+Fonte: SAPS/MS
+
+Caso nenhuma avaliação tenha sido registrada no bloco de Desenvolvimento da criança não será apresentada nenhuma informação sobre a classificação do desenvolvimento integral da criança. No entanto, caso o profissional tenha realizado e registrado as informações referentes ao desenvolvimento, então será apresentada as mensagens, conforme os critérios para a classificação (Figura 6.5.43). As classificações estão de acordo com a caderneta da criança do Ministério da Saúde e são as seguintes:
 
  - **Provável atraso no desenvolvimento:** quando o perímetro cefálico é \< - 2 Z escores ou \> +2 Z escores ou presença de 3 ou mais alterações fenotípicas ou ausência de 1 ou mais reflexos/posturas habilidades para a faixa etária anterior;
 
@@ -2344,9 +2374,11 @@ Caso nenhuma avaliação tenha sido registrada no bloco de Desenvolvimento da cr
 
 - **Desenvolvimento normal:** todos os reflexos/posturas/habilidades presentes para a faixa etária.
 
-Figura 6.124 - Desenvolvimento da criança
+Figura 6.5.43 - Desenvolvimento da criança
 
 ![](media/pec_image592.png)
+
+Fonte: SAPS/MS
 
 > **LEMBRETE:** Além de registrar as informações sobre o crescimento e desenvolvimento da criança no sistema e-SUS APS com PEC é importante também que se registre os dados coletados na consulta na caderneta da criança, pois este é um instrumento de acompanhamento do crescimento e desenvolvimento da criança pelos pais. Quando o profissional faz este registro nesta caderneta fortalece o vínculo e a co responsabilidade pelo cuidado da criança.
 
@@ -2384,7 +2416,7 @@ Todas estas informações compõem o cartão de acompanhamento da criança que v
 
 O *Cartão* minimizado apresenta informações sobre a situação vacinal, tipo de aleitamento materno, estado nutricional, data da última consulta de puericultura e o profissional que realizou a última consulta como mostra a pec_imagem abaixo.
 
-Figura 6.125 - Cartão do Acompanhamento da Puericultura
+Figura 6.5.44 - Cartão do Acompanhamento da Puericultura
 
 ![](media/pec_image595.png)
 
@@ -2392,9 +2424,11 @@ Fonte: SAPS/MS.
 
 Clicando em cima do *Cartão* é possível verificar o conjunto de informações completas relacionadas ao acompanhamento do crescimento e desenvolvimento da criança. Existem três blocos de informações principais, sendo eles: "Pré- natal, parto e nascimento", "Medições da criança", "Desenvolvimento da criança" e "Lista de problemas/condições ativas".
 
-Figura 6.126 - Tela com informações do acompanhamento da criança
+Figura 6.5.45 - Tela com informações do acompanhamento da criança
 
 ![](media/pec_image596.png)
+
+Fonte: SAPS/MS
 
 Verificaremos cada bloco das informações sobre o acompanhamento da saúde da criança a seguir.
 
@@ -2402,7 +2436,7 @@ Verificaremos cada bloco das informações sobre o acompanhamento da saúde da c
 
 O bloco **Pré-natal, parto e nascimento** oferta aos profissionais informações importantes relacionadas ao pré-natal, parto e nascimento da criança como o tipo de gravidez, o tipo de parto, a idade gestacional de nascimento e as notas Apgar no 1º, 5º e 10º minutos como mostra a pec_imagem abaixo:
 
-Figura 6.127 - Bloco de Pré-natal, parto e nascimento do acompanhamento
+Figura 6.5.46 - Bloco de Pré-natal, parto e nascimento do acompanhamento
 
 ![](media/pec_image597.png)
 
@@ -2412,7 +2446,7 @@ Fonte: SAPS/MS.
 
 Abaixo, o bloco **Medições da criança** apresenta os dados de medições realizadas durante as consultas. Estão representadas em forma de tabela e gráficos. A tabela mostra os dados da data da consulta, a idade da criança naquela data, o peso, estatura, perímetro cefálico e o índice de massa corporal (IMC) calculado para aquela data.
 
-Figura 6.128 - Medições da criança para Acompanhamento da Puericultura
+Figura 6.5.47 - Medições da criança para Acompanhamento da Puericultura
 
 ![](media/pec_image598.png)
 
@@ -2420,25 +2454,25 @@ Fonte: SAPS/MS.
 
 As outras abas trazem os gráficos montados pelo sistema a partir dos dados registrados durante as consultas e mostrados na tabela anterior. Estão disponíveis os gráficos de peso por idade, estatura por idade, IMC e perímetro cefálico por idade. Os dados são agrupados nas faixas etárias 0 a 2 anos e de 2 a 5 anos de idade. Foram utilizados como base os padrões utilizados pela Caderneta de Saúde da Criança do ano de 2013 nas versões "Menina" e "Menino". Da mesma forma que a caderneta da criança, é possível navegar entre o tipos de gráficos e entre as faixas etárias.
 
-Figura 6.129 - Gráfico de Peso por idade
+Figura 6.5.48 - Gráfico de Peso por idade
 
 ![](media/pec_image599.png)
 
 Fonte: SAPS/MS.
 
-Figura 6.130 - Gráfico de Estatura por idade
+Figura 6.5.49 - Gráfico de Estatura por idade
 
 ![](media/pec_image600.png)
 
 Fonte: SAPS/MS.
 
-Figura 6.131 - Gráfico de Perímetro Cefálico por Idade
+Figura 6.5.50 - Gráfico de Perímetro Cefálico por Idade
 
 ![](media/pec_image601.png)
 
 Fonte: SAPS/MS.
 
-Figura 6.132 - Gráfico do IMC
+Figura 6.5.51 - Gráfico do IMC
 
 ![](media/pec_image602.png)
 
@@ -2452,7 +2486,7 @@ O bloco **Desenvolvimento da criança** apresenta as informações das Alteraç�
 
 O último bloco do acompanhamento da criança é a Lista de problemas/condições ativas que disponibiliza as condições que estão com status "Ativo" na seção Problemas/Condições e Alergias, informando qual o problema e a idade de início do problema como vemos a seguir.
 
-Figura 6.133 - Bloco de Lista de problemas do Acompanhamento da Puericultura
+Figura 6.5.52 - Bloco de Lista de problemas do Acompanhamento da Puericultura
 
 ![](media/pec_image604.png)
 
@@ -2472,7 +2506,7 @@ Na parte Objetiva registram- se as observações importantes do exame físico, o
 
 Na parte da Avaliação utiliza-se o CIAP-2 ou CID-10 para a classificação do problema ou condição detectada. Para o acompanhamento dos problemas/condições e alergias/reações adversas presente na pessoa idosa, deve- se registrar no módulo "Problemas/Condições e Alergias" e informar como "Ativo", conforme descrito no capítulo 6.4.3. Para registrar apenas os problemas e condições de saúde, outra alternativa é clicar no box "inserir na lista de problema/condição como ativo", conforme figura abaixo.
 
-Figura 6.134 - Problema e / ou condição detectada
+Figura 6.5.53 - Problema e / ou condição detectada
 
 ![](media/pec_image605.png)
 
@@ -2482,13 +2516,13 @@ Na bloco **Plano** registra-se o plano de cuidados ou condutas a serem tomadas e
 
 O *Cartão* minimizado apresenta informações sobre o estado nutricional e se a pessoa idosa faz uso de 5 ou mais medicamentos como mostra a pec_imagem abaixo.
 
-Figura 6.135 - Cartão da pessoa idosa
+Figura 6.5.54 - Cartão da pessoa idosa
 
 ![](media/pec_image606.png)
 
 Clicando em cima do *Cartão* é possível verificar o conjunto de informações completas relacionadas ao acompanhamento da pessoa idosa. Existem quatro blocos de informações principais, sendo eles: "Medicamentos ativos", "Problemas/Condições", "Gráficos e medições" e "Alergias/Reações Adversas".
 
-Figura 6.136 - Cartão da pessoa idosa
+Figura 6.5.55 - Cartão da pessoa idosa
 
 ![](media/pec_image607.png)
 
@@ -2498,13 +2532,13 @@ Cada bloco das informações sobre o acompanhamento da pessoa idosa serão detal
 
 O bloco Medicamentos ativos oferta aos profissionais de saúde informações importantes relacionadas aos medicamentos em uso contínuo pela pessoa idosa, conforme mostra a pec_imagem abaixo:
 
-Figura 6.137 - Medicamentos ativos
+Figura 6.5.56 - Medicamentos ativos
 
 ![](media/pec_image608.png)
 
 Neste bloco também é possível verificar se há prescrições de medicações sujeitos a controle especial conforme o tipo de prescrição.
 
-Figura 6.138 - Medicamentos ativos
+Figura 6.5.57 - Medicamentos ativos
 
 ![](media/pec_image609.png)
 
@@ -2512,7 +2546,7 @@ Figura 6.138 - Medicamentos ativos
 
 O bloco do acompanhamento da pessoa idosa apresenta a Lista de problemas/condições ativas ou latentes, informando qual a situação, o problema/condição, a idade de início do problema e a última atualização, conforme vemos a seguir.
 
-Figura 6.139 - Problemas/Condições
+Figura 6.5.58 - Problemas/Condições
 
 ![](media/pec_image610.png)
 
@@ -2520,7 +2554,7 @@ Figura 6.139 - Problemas/Condições
 
 Abaixo, o bloco Gráficos e medições da pessoa idosa apresenta os dados de medições registradas durante as consultas. Estão representadas em forma de tabela e gráficos. A tabela mostra os dados da data da consulta, a idade da pessoa idosa naquela data, o peso, estatura, o IMC calculado para aquela data, o perímetro da panturrilha, a pressão arterial e a glicemia capilar.
 
-Figura 6.140 - Gráficos e medições
+Figura 6.5.59 - Gráficos e medições
 
 ![](media/pec_image611.png)
 
@@ -2528,11 +2562,11 @@ As outras abas trazem os gráficos montados pelo sistema a partir dos dados regi
 
 Os dados são agrupados em faixas etárias, numa escala de 05 em 05 anos, a partir dos 60 anos até a faixa etária atual da pessoa idosa. Foram utilizados como base os padrões utilizados pela Caderneta de Saúde da Pessoa Idosa de 2017.
 
-Figura 6. 141 - Gráfico com dados de IMC
+Figura 6.5.60 - Gráfico com dados de IMC
 
 ![](media/pec_image612.png)
 
-Figura 6.142 - Gráficos com dados do perímetro da panturrilha
+Figura 6.5.61 - Gráficos com dados do perímetro da panturrilha
 
 ![](media/pec_image613.png)
 
@@ -2540,7 +2574,7 @@ Figura 6.142 - Gráficos com dados do perímetro da panturrilha
 
 O último bloco do acompanhamento da pessoa idosa é a lista de Alergias/Reações adversas, informando qual é a alergia, a data da instalação do problema e o nível de criticidade, conforme a figura abaixo.
 
-Figura 6.143 - Alergias/Reações adversas
+Figura 6.5.62 - Alergias/Reações adversas
 
 ![](media/pec_image614.png)
 
