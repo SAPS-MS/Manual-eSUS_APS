@@ -563,7 +563,7 @@ Figura 6.3.20 - Adicionar doses anteriores
 
 Fonte: SAPS/MS
 
-## 6.3.7 Registro de doses para vacinação contra COVID-19
+## 6.3.7 Registro de doses para vacinação contra COVID-19.
 
 Exclusivamente para atendimento à situação nacional de Emergência em Saúde Pública está disponível o registro das doses aplicadas da vacina COVID-19, além da possibilidade de registro de doses anteriores, se for o caso.
 
