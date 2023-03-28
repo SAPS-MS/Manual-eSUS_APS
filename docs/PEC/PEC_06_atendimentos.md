@@ -963,7 +963,7 @@ Neste campo é registrado a avaliação do cidadão feito pelo profissional de s
 
 O código do problema e/ou condição detectada ou avaliada durante o atendimento é de preenchimento obrigatório, sendo necessário informar pelo menos um código, CIAP2 ou CID10, conforme podemos ver na Figura 6.4.14.
 
-Figura 6.4.14 - SOAP - Avaliação
+Figura 6.4.15 - SOAP - Avaliação
 
 ![](media/pec_image902.png)
 
@@ -1063,7 +1063,7 @@ Fonte: SAPS/MS
 
 Nesta ferramenta, é possível solicitar exames para o cidadão em atendimento. Exames cadastrados neste módulo irão ser incluídos no bloco "Objetivo" do registro de atendimento do SOAP, na parte de exames solicitados e/ou avaliados, após a finalização da consulta em que eles foram inseridos.
 
-Como podemos ver na Figura 6.45, há duas opções para solicitação de exames:
+Como podemos ver na Figura 6.4.17, há duas opções para solicitação de exames:
 
 Figura 6.4.17 - SOAP - Plano - exames
 
@@ -1073,7 +1073,7 @@ Fonte: SAPS/MS.
 
 Os exames que têm alta complexidade são classificados como exames de **alto custo**. Os exames que têm menor custo e baixa densidade tecnológica são classificados como exames **comuns** e não precisam de detalhamento maior, apenas os dados clínicos do cidadão.
 
-#### 6.4.3.4.2.1 Solicitar um exame **Comum**:
+6.4.3.4.2.1 Solicitar um exame **Comum**:
 
 Para criar uma solicitação de exame **Comum** basta seguir os passos a seguir:
 
