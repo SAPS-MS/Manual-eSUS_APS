@@ -1144,7 +1144,7 @@ Fonte: SAPS/MS.
 
 - Ao selecionar a opção "Ver somente as minhas solicitações" ![](media/pec_image938.png) aparecerá somente as solicitações do profissional que realizou à solicitação de exames do atendimento. 
 
-- Ao clicar na opção "Imprimir" ![](media/pec_image938.png).  será apresentada a tela com a solicitação de exame em modo de impressão;
+- Ao clicar na opção "Imprimir" ![](media/pec_image938.1.PNG).  será apresentada a tela com a solicitação de exame em modo de impressão;
 
 - Ao clicar na opção "Mais opçoes" ![](media/pec_image940.png) terá a opção de editar ou excluir uma solicitação de exames. 
 
