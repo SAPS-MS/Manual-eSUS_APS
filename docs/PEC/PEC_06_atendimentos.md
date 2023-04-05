@@ -963,7 +963,7 @@ Neste campo é registrado a avaliação do cidadão feito pelo profissional de s
 
 O código do problema e/ou condição detectada ou avaliada durante o atendimento é de preenchimento obrigatório, sendo necessário informar pelo menos um código, CIAP2 ou CID10, conforme podemos ver na Figura 6.4.14.
 
-Figura 6.4.15 - SOAP - Avaliação
+Figura 6.4.14 - SOAP - Avaliação
 
 ![](media/pec_image902.png)
 
@@ -1063,7 +1063,7 @@ Fonte: SAPS/MS
 
 Nesta ferramenta, é possível solicitar exames para o cidadão em atendimento. Exames cadastrados neste módulo irão ser incluídos no bloco "Objetivo" do registro de atendimento do SOAP, na parte de exames solicitados e/ou avaliados, após a finalização da consulta em que eles foram inseridos.
 
-Como podemos ver na Figura 6.4.17, há duas opções para solicitação de exames:
+Como podemos ver na Figura 6.45, há duas opções para solicitação de exames:
 
 Figura 6.4.17 - SOAP - Plano - exames
 
@@ -1073,7 +1073,7 @@ Fonte: SAPS/MS.
 
 Os exames que têm alta complexidade são classificados como exames de **alto custo**. Os exames que têm menor custo e baixa densidade tecnológica são classificados como exames **comuns** e não precisam de detalhamento maior, apenas os dados clínicos do cidadão.
 
-6.4.3.4.2.1 Solicitar um exame **Comum**:
+#### 6.4.3.4.2.1 Solicitar um exame **Comum**:
 
 Para criar uma solicitação de exame **Comum** basta seguir os passos a seguir:
 
@@ -1144,7 +1144,7 @@ Fonte: SAPS/MS.
 
 - Ao selecionar a opção "Ver somente as minhas solicitações" ![](media/pec_image938.png) aparecerá somente as solicitações do profissional que realizou à solicitação de exames do atendimento. 
 
-- Ao clicar na opção "Imprimir" ![](media/pec_image938.1.PNG).  será apresentada a tela com a solicitação de exame em modo de impressão;
+- Ao clicar na opção "Imprimir" ![](media/pec_image938.png).  será apresentada a tela com a solicitação de exame em modo de impressão;
 
 - Ao clicar na opção "Mais opçoes" ![](media/pec_image940.png) terá a opção de editar ou excluir uma solicitação de exames. 
 
@@ -1572,7 +1572,7 @@ Fonte: SAPS/MS.
 
 ## 6.4.6 Histórico
 
-![](media/pec_image502.png)
+![](media/pec_image971.png)
 
 A ferramenta "Histórico" possibilita visualizar com mais detalhes a história de atendimento do cidadão na unidade de saúde. Neste local, estarão disponíveis todos os registros anteriores ( escuta inicial, consultas, atendimento realizados pelo técnico de enfermagem, etc). Ao acessar esta funcionalidade, o sistema exibe uma tela dos atendimentos ao cidadão em ordem cronológica decrescente. É possível a utilização do filtro para buscar um atendimento pelo nome do profissional, categoria profissional (CBO), período de tempo ou por tipo de atendimento. O profissional de saúde ainda pode realizar a busca dos pacientes que foram atendidos por ele mesmo, por meio, do checkbox "somente os meus".
 
@@ -1580,17 +1580,17 @@ Para acessar o histórico, basta clicar no botão "Histórico". No menu à esque
 
 Figura 6.76 - Histórico de atendimento
 
-![](media/pec_image503.png)
+![](media/pec_image972.png)
 
 Fonte: SAPS/MS.
 
-É possível realizar a impressão do registro do atendimento clicando sobre o card do atendimento e após no ícone ![](media/pec_image504.png), localizado no final do *Cartão*.
+É possível realizar a impressão do registro do atendimento clicando sobre o card do atendimento e após no ícone ![](media/pec_image973.png), localizado no final do *Cartão*.
 
-É possível visualizar no histórico também os atendimentos registrados por meio do CDS, apresentados por ordem de ocorrência, conforme Figura 6.76.
+É possível imprimir no histórico todos os atendimentos registrados, selecione os que desejar a impressão e  clique no ícone ![](media/pec_image974.png).
 
 Figura 6.77 - Tela de visualização do atendimento
 
-![](media/pec_image505.png)
+![](media/pec_image975.png)
 
 Fonte: SAPS/MS.
 
@@ -1599,7 +1599,7 @@ os procedimentos apresentados no detalhamento do atendimento do cidadão, por me
 
 ## 6.4.7 Dados Cadastrais
 
-![](media/pec_image506.png)
+![](media/pec_image976.png)
 
 Esta ferramenta permite fazer acesso rápido aos dados de cadastro do cidadão, exibindo a tela de cadastro, como vimos na Seção 4.2.
 
@@ -1611,15 +1611,15 @@ Esta ferramenta não está mais presente a partir da versão 3.1. Agora é poss�
 
 ## 6.4.9 Finalizar Atendimento
 
-![](media/pec_image508.png)
+![](media/pec_image977.png)
 
-Após o preenchimento dos dados de atendimento, clique no botão ![](media/pec_image509.png) no fim da página, ou clique na opção \"Finalização do atendimento\", no menu à esquerda. Cabe lembrar, que o atendimento só será finalizado, caso nenhum campo obrigatório no SOAP não tenha ficado em branco.
+Após o preenchimento dos dados de atendimento, clique no botão ![](media/pec_image978.png) no fim da página, ou clique na opção \"Finalização do atendimento\", no menu à esquerda. Cabe lembrar, que o atendimento só será finalizado, caso nenhum campo obrigatório no SOAP não tenha ficado em branco.
 
 Será apresentada uma tela, conforme a Figura 6.78, que irá permitir adicionar informações complementares em relação ao atendimento realizado.
 
 Figura 6.78 - Finalização do atendimento
 
-![](media/pec_image510.png)
+![](media/pec_image979.png)
 
 Fonte: SAPS/MS.
 
@@ -1629,7 +1629,7 @@ Para concluir o atendimento, na tela de finalização do atendimento, informe:
 
 - **consulta no dia ou de urgência**, disponível nos casos em que  o cidadão entra por demanda espontânea na lista de atendimento;
 
-![](media/pec_image511.png)
+![](media/pec_image980.png)
 
 - **Consulta (agendada) ou Consulta programada/cuidado continuado**, disponível nos casos em que o cidadão é atendido via um agendamento prévio no módulo "Agenda".
 
