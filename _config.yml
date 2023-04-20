@@ -12,8 +12,8 @@ permalink: pretty
 exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile", "docs/tests/"]
 
 # Indica qual o tema externo a ser utilizado na página. Neste caso estamos utilizando o tema "Just the Docs"
-remote_theme: just-the-docs/just-the-docs
-# remote_theme: pmarsceill/just-the-docs
+# remote_theme: just-the-docs/just-the-docs
+remote_theme: pmarsceill/just-the-docs
 
 # Indica o esquema de cores customizado definido em /_sass/color_schemes/nomedoarquivo.scss
 color_scheme: SAPS
