@@ -1,0 +1,95 @@
+# Título da página
+title: "Pilotos"
+# Descrição da página
+description: "Manual do e-SUS APS"
+# o subcaminho de seu site, por exemplo /blog
+baseurl: "/Pilotos"
+# o nome do host e protocolo base para seu site, por exemplo, http://example.com
+url: "https://cgiap-saps.github.io"
+#
+permalink: pretty
+#
+exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile", "docs/tests/"]
+
+# Indica qual o tema externo a ser utilizado na página. Neste caso estamos utilizando o tema "Just the Docs"
+remote_theme: just-the-docs/just-the-docs
+# remote_theme: pmarsceill/just-the-docs
+
+# Indica o esquema de cores customizado definido em /_sass/color_schemes/nomedoarquivo.scss
+color_scheme: SAPS
+# Defina um caminho / url para um logotipo que será exibido em vez do título. Indica o local da logomarca a ser utilizada no canto superior esquerdo da página.
+logo: "/assets/media/logoesusaps.png"
+# Habilita a busca na página
+search_enabled: true
+# Configurações da busca
+search:
+  # Divida as páginas em seções que podem ser pesquisadas individualmente
+  # Suporta 1 - 6, padrão: 2
+  heading_level: 4
+  # Quantidade máxima de visualizações por resultado de pesquisa
+  # Default: 3
+  previews: 3
+  # Quantidade máxima de palavras a serem exibidas antes de uma palavra correspondente na visualização
+  # Default: 5
+  preview_words_before: 5
+  # Quantidade máxima de palavras a serem exibidas após uma palavra correspondida na visualização
+  # Default: 10
+  preview_words_after: 10
+  # Defina o separador de token de pesquisa
+  # Default: /[\s\-/]+/
+  # Exemplo: habilitar suporte para palavras de pesquisa hifenizadas
+  tokenizer_separator: /[\s/]+/
+  # Exibir o url relativo nos resultados da pesquisa
+  # Suporta true (padrão) ou false
+  rel_url: true
+  # Habilite ou desabilite o botão de pesquisa que aparece no canto inferior direito de cada página
+  # Suporta true (padrão) ou false
+  button: false
+
+# Para ativar ou desativar âncoras título
+heading_anchors: true
+
+# Callouts
+callouts:
+  atencao:
+    title: Atenção
+    color: red
+  atualizacao:
+    title: Atualização
+    color: blue
+  nota:
+    title: Nota
+    color: grey-dk
+  dica:
+    title: Dica
+    color: green
+  cuidado:
+    title: Cuidado
+    color: yellow
+  novidade:
+    title: Novidade
+    color: purple
+
+# Texto que aparece na parte inferior do conteúdo principal de cada página
+footer_content: "2021 Ministério da Saúde. Todos os direitos reservados. É permitida a reprodução parcial ou total desta obra, desde que citada a fonte e que não seja para venda ou qualquer fim comercial. Venda proibida. Distribuição gratuita. A responsabilidade pelos direitos autorais de textos e imagens desta obra é da área técnica. A coleção institucional do Ministério da Saúde pode ser acessada na íntegra na Biblioteca Virtual em Saúde do Ministério da Saúde: http://www.saude.gov.br/bvs."
+
+last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
+last_edit_time_format: "%d/%m/%Y" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
+
+date_format: "%d/%m/%Y"
+
+# Links auxiliares para a navegação superior direita
+aux_links:
+  "Suporte e-SUS APS":
+    - "//esusaps.bridge.ufsc.br/support/login"
+
+# Faz com que os links auxiliares abram em uma nova guia. O padrão é "false"
+aux_links_new_tab: true
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Voltar ao topo"
+
+# Google Analytics Tracking (optional)
+ga_tracking: G-J2CX11K46E
+ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true/nil by default)
