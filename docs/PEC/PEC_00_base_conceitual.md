@@ -20,7 +20,7 @@ Neste capítulo, abordaremos, de forma resumida, os conceitos básicos que orien
 - TOC
 {:toc}
 
-# 1. Estratégia e-SUS Atenção Primária à Saúde (APS)
+# 1. Estratégia e-SUS Atenção Primária à Saúde (APS).
 
 O e-SUS APS é uma estratégia do Departamento de Saúde da Família (DESF) para reestruturar as informações da Atenção Primária à Saúde (APS) em nível nacional. Esta ação está alinhada com a proposta mais geral de reestruturação dos Sistemas de Informação em Saúde (SIS) do Ministério da Saúde (MS), entendendo que a qualificação da gestão da informação é fundamental para ampliar a qualidade no atendimento à população.
 
