@@ -40,7 +40,7 @@ O Sistema e-SUS APS oferece suporte a alguns tipos de banco de dados. Por padrã
 
 **PostgreSQL** - a partir da versão 2.0, este banco vem configurado por padrão na instalação do sistema. Pode ser utilizado em UBS com servidor local ou para instalações centralizadas. **É recomendado para qualquer tipo de instalação**.
 
-O banco de dados PostgreSQL é um *software* livre, portanto, sem custo de licença ou aquisição. Para mais informações acesse: http://www.postgresql.org/. É recomendado o uso da **versão 9.3 ou superior**.
+O banco de dados PostgreSQL é um *software* livre, portanto, sem custo de licença ou aquisição. Para mais informações acesse: http://www.postgresql.org/. É recomendado o uso da **versão 9.6 ou superior**.
 
 {: .atencao }
 **Banco H2** - desde a versão 2.0, o suporte ao Banco de Dados **H2** foi **descontinuado** para instalações do Sistema e-SUS APS com **PEC**, estando disponível apenas para o Sistema com CDS (Offline).
