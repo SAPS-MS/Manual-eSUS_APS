@@ -387,7 +387,7 @@ Figura 6.3.5 - Tela para adicionar vacinação
 {: .atencao }
 Os profissionais de saúde que realizam a administração de imunobiológicos deverão seguir as normas e procedimentos para a vacinação de acordo com o Programa Nacional de Imunização do Ministério da Saúde.
 
-9\. Ainda é possível verificar as informações sobre o registro ao clicar no quadro da dose da vacina administrada (Figura 6.3.4).
+9\. Ainda é possível verificar as informações sobre o registro ao clicar no quadro da dose da vacina administrada (Figura 6.3.6).
 
 Figura 6.3.6 - Visualização de Imunobiológico
 
