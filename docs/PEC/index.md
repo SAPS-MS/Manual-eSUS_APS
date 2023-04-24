@@ -63,7 +63,7 @@ Ana Claúdia Cielo, Elaine de Almeida, Ingryd Isabelle Maia, Janaína Nogueira G
 Ana Claúdia Cielo, Elaine de Almeida, Igor de Carvalho Gomes, Ingryd Isabelle Maia, Janaína Nogueira Guimarães, Marcelo Alves Miranda, Willian Soares Lima.
 
 **Elaboração de texto**<br>
-Ana Claúdia Cielo, Elaine de Almeida, Igor de Carvalho Gomes, Ingryd Isabelle Maia, Janaína Nogueira Guimarães, Willian Soares Lima.
+Ana Claúdia Cielo, Elaine de Almeida, Igor de Carvalho Gomes, Ingryd Isabelle Maia, Janaína Nogueira Guimarães, Romário Rocha, Willian Soares Lima.
 
 **Projeto Gráfico**<br>
 Alexandre Soares de Brito e Diogo Ferreira Gonçalves
