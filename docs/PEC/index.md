@@ -54,16 +54,16 @@ Suporte: <http://esusaps.bridge.ufsc.br/support/login>
 Nésio Fernandes de Medeiros Junior
 
 **Coordenação Técnica Geral**<br>
-Rodrigo Andre Cuevas Gaete
+Rodrigo André Cuevas Gaete
 
 **Organização**<br>
-Ana Claúdia Cielo, Elaine de Almeida, Ingryd Isabelle Maia, Janaína Nogueira Guimarães, Willian Soares Lima.
+Ana Claúdia Cielo, Elaine de Almeida, Ingryd Isabelle Maia de Souza, Janaína Nogueira Guimarães, Viviane Loiola Lacerda, Willian Soares Lima.
 
 **Revisão Técnica**<br>
-Ana Claúdia Cielo, Elaine de Almeida, Igor de Carvalho Gomes, Ingryd Isabelle Maia, Janaína Nogueira Guimarães, Marcelo Alves Miranda, Willian Soares Lima.
+Ana Claúdia Cielo, Elaine de Almeida, Igor de Carvalho Gomes, Ingryd Isabelle Maia de Souza, Janaína Nogueira Guimarães, Marcelo Alves Miranda, Romario Araujo Matias Rocha, Viviane Loiola Lacerda, Willian Soares Lima.
 
 **Elaboração de texto**<br>
-Ana Claúdia Cielo, Elaine de Almeida, Igor de Carvalho Gomes, Ingryd Isabelle Maia, Janaína Nogueira Guimarães, Romário Rocha, Willian Soares Lima.
+Ana Claúdia Cielo, Elaine de Almeida, Igor de Carvalho Gomes, Ingryd Isabelle Maia de Souza, Janaína Nogueira Guimarães, Romario Araujo Matias Rocha, Viviane Loiola Lacerda, Willian Soares Lima.
 
 **Projeto Gráfico**<br>
 Alexandre Soares de Brito e Diogo Ferreira Gonçalves
