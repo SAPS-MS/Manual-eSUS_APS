@@ -16,7 +16,7 @@ e-SUS Atenção Primária à Saúde (e-SUS APS)
 PRONTUÁRIO ELETRÔNICO DO CIDADÃO (PEC)
 {: .fs-8 }
 {: .text-center }
-MANUAL DE USO.
+MANUAL DE USO
 {: .fs-8 }
 {: .text-center }
 <br>
