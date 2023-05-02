@@ -119,3 +119,28 @@ Após selecionar todos os filtros desejados, clique no botão ![](media/pec_imag
 Ainda, será apresentado o botão ![](media/pec_image843.png) para gerar os relatórios operacionais já existentes no sistema, a saber: "Relatório operacional de Crianças menores de 5 anos", "Relatório operacional de Gestante/Puérpera" e "Relatório operacional de Risco cardiovascular\'\'. Estes serão gerados utilizando as regras já existentes, como núcleo familiar consistido, dentre outros. Veja a pec_imagem abaixo:
 
 ![](media/pec_image844.png)
+
+##  Acompanhamentos dos cidadãos vinculados
+
+Uma das atividades da Atenção Primária à Saúde é realizar o acompanhamento das condições de saúde dos cidadãos vinculados às Equipes da APS. Esta ação é importante e demanda muita organização por parte da equipe. Uma forma facilitada de realizar o acompanhamento das situações de saúde é por meio de relatórios ou listas de cidadãos que possuem determinada condição de saúde, extraídos a partir do sistema de informação utilizado pela equipe.
+
+Figura 10.2 - Tela do Relatórios exibida 
+![](media/pec_image983.png)
+Fonte: SAPS/MS.
+
+O painel de Acompanhamento de condições de saúde busca apresentar de forma clara a lista de cidadão vinculados à equipe de APS que possuem determinada situação de saúde.
+
+{: .nota }
+Somente são apresentados neste painel cidadãos que estão vinculados à equipe de APS. A busca retorna apenas cidadãos que possuem todas as condições selecionadas e ativas na lista de problemas ou avaliadas no SOAP e na ficha de atendimento individual.
+
+# 10.1 Filtro de microárea
+
+Nesta funcionalidade apresenta-se filtro de microárea, para apoiar a busca de cidadãos no território. Como ocorre nos relatórios do sistema, neste módulo também existe hierarquia de acesso, o gerente da unidade pode escolher a UBS ou a equipe que deseja visualizar o painel, já os profissionais das equipes, conseguem visualizar os cidadãos vinculados pela Ficha de cadastro individual, ficha de cadastro domiciliar e territorial e cadastros do módulo cidadão do PEC.
+
+Figura 10.2 - Tela do Relatórios exibida 
+![](media/pec_image983.png)
+
+
+Após selecionar o filtros, clique no botão ![](media/pec_image841.png), e serão listados os cidadão vinculados à equipe, conforme imagem abaixo:
+
+![](media/pec_image984.png)
