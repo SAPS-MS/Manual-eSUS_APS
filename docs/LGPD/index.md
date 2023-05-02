@@ -9,16 +9,16 @@ description: "Lei Geral de Proteção de Dados - LGPD"
 permalink: /docs/LGPD
 ---
 
-e-SUS Atenção Primária à Saúde
+CONTEÚDO:
 {: .fs-10 }
 {: .fw-700 }
 {: .text-center }
 <br>
 <br>
-e-SUS VACINAÇÃO
+LEI GERAL DE PROTEÇÃO DE DADOS
 {: .fs-8 }
 {: .text-center }
-MANUAL DE USO
+LGPD
 {: .fs-8 }
 {: .text-center }
 <br>
