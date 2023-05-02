@@ -137,10 +137,6 @@ Somente são apresentados neste painel cidadãos que estão vinculados à equipe
 
 Nesta funcionalidade apresenta-se filtro de microárea, para apoiar a busca de cidadãos no território. Como ocorre nos relatórios do sistema, neste módulo também existe hierarquia de acesso, o gerente da unidade pode escolher a UBS ou a equipe que deseja visualizar o painel, já os profissionais das equipes, conseguem visualizar os cidadãos vinculados pela Ficha de cadastro individual, ficha de cadastro domiciliar e territorial e cadastros do módulo cidadão do PEC.
 
-Figura 10.2 - Tela do Relatórios exibida 
-![](media/pec_image983.png)
-
-
 Após selecionar o filtros, clique no botão ![](media/pec_image841.png), e serão listados os cidadão vinculados à equipe, conforme imagem abaixo:
 
 ![](media/pec_image984.png)
