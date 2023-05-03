@@ -58,10 +58,10 @@ Rodrigo André Cuevas Gaete
 Ana Claudia Cielo, Igor de Carvalho Gomes e João Geraldo de Oliveira Júnior
 
 **Revisão Técnica**<br>
-Ana Claudia Cielo, André Cury Alves, Igor de Carvalho Gomes, João Geraldo de Oliveira, Micael Macedo Pereira da Trindade, Willian Soares Lima.
+Ana Claudia Cielo, André Cury Alves, Igor de Carvalho Gomes, João Geraldo de Oliveira, Micael Macedo Pereira da Trindade, Willian Soares Lima
 
 **Colaboradores**<br>
-Adriana Kitajima, Allan Nuno Alves de Souza, Ana Claudia Cielo, André Cury Alves, Edson Lucena, Igor de Carvalho Gomes, João Geraldo de Oliveira Júnior, Janaína Nogueira Guimarães, Micael Macedo Pereira, da Trindade, Rodrigo André Cuevas Gaete, Thaís Alessa Leite, Vanessa Lora e Virgínia Fava,Willian Soares Lima.
+Adriana Kitajima, Allan Nuno Alves de Souza, Ana Claudia Cielo, André Cury Alves, Edson Lucena, Igor de Carvalho Gomes, João Geraldo de Oliveira Júnior, Janaína Nogueira Guimarães, Micael Macedo Pereira, da Trindade, Rodrigo André Cuevas Gaete, Thaís Alessa Leite, Vanessa Lora e Virgínia Fava,Willian Soares Lima
 
 **Projeto Gráfico**<br>
 Alexandre Soares de Brito, Diogo Ferreira Gonçalves
