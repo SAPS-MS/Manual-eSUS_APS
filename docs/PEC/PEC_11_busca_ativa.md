@@ -9,7 +9,7 @@ last_modified_date: "02/05/2023"
 ---
 
 
-# CAPÍTULO 11 - Busca Ativa
+# CAPÍTULO 11 - Busca Ativa.
 {: .no_toc }
 
 Este módulo visa proporcionar aos gestores de UBS e profissionais de saúde uma ferramenta que traz, de forma consolidada, relatórios da população acompanhadas pelas equipes de atenção primária à saúde, para apoia-los a fazer busca ativa no território adstrito.
