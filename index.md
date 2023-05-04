@@ -21,7 +21,7 @@ MANUAL DE USO
 {: .text-center }
 <br>
 <br>
-(versão 5.1).
+(versão 5.1)
 {: .fs-6 }
 {: .text-center }
 <br>
