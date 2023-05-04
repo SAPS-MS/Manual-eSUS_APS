@@ -870,16 +870,23 @@ O registro do "Objetivo", conforme a Figura 6.4.11, pode ser realizado usando ca
  - Saturação O2: saturação do oxigênio no sangue, registrar em percentual (%);
 
 
-- **Vacinação**:
 
- - Vacinação em dia: campo destinado a informar se a vacinação do cidadão está atualizada ou não, de acordo com as normas preconizadas pelo Programa Nacional de Imunização (PNI) do Ministério da Saúde (MS) sobre o calendário vacinal nacional.
 
 - **Glicemia**:
  - Glicemia capilar: registrar em miligramas por decilitro (mg/dL). É necessário informar se, no **momento da coleta**, o cidadão encontrava-se na situação de jejum, pré-prandial, pós-prandial ou não especificado.
 
+- **Marcadores de consumo alimentar**
+
+- O preenchimento dos campos permite realizar a avaliação do consumo alimentar. Todas as fases do curso da vida (criança, adolescente, adulto, idoso e gestante) devem ser abrangidas pelas ações de vigilância alimentar e nutricional. Dessa forma conforme a data de nascimento do cidadão no sistema exibirá as questões para preenchimento.
+Todas as questões do bloco são de preenchimento obrigatório, respeitando- se os casos de opção de múltipla escolha.
+
 Figura 6.4.11 - SOAP - Objetivo
 
-![](media/pec_image936.PNG)
+![](media/pec_image936.1.jpg)
+
+- **Vacinação**:
+
+ - Vacinação em dia: campo destinado a informar se a vacinação do cidadão está atualizada ou não, de acordo com as normas preconizadas pelo Programa Nacional de Imunização (PNI) do Ministério da Saúde (MS) sobre o calendário vacinal nacional.
 
 Fonte: SAPS/MS
 
@@ -2578,7 +2585,45 @@ Figura 6.5.62 - Alergias/Reações adversas
 
 ![](media/pec_image614.png)
 
-# 6.6 Registro Tardio de Atendimento
+# 6.6 Atendimentos Realizados Por Estagiário
+
+Esta funcionalidade tem o objetivo de permitir que estagiários visualizem informações do prontuário e realizem atendimentos de forma validada pelo supervisor. O estagiário poderá realizar atendimentos de acordo com o CBO de sua área de formação. Sendo assim, são passíveis de realização por um estagiário os atendimentos:
+
+•	Atendimento individual
+
+•	Escuta Inicial/Pré-Atendimento
+
+•	Atendimento de Procedimentos
+
+•	Atendimento de vacinação
+
+•	Atendimento Odontológico
+
+## 6.6.1 - Cadastro de lotação de estagiário
+
+No acesso de “Gerentes de serviços de saúde” deve-se cadastrar a lotação do estagiário por meio do módulo “Profissionais” como está ilustrado na Figura 6.6.1
+
+Figura 6.6.1 - Cadastro de lotação de estagiário
+
+![](media/Estagi%C3%A1rio/estagi%C3%A1rio1.png)
+
+## 6.6.2 - Atendimentos
+
+Uma vez cadastrado, o estagiário poderá realizar seus atendimentos normalmente. Como exemplo, ao final de um atendimento individual (realizado pelo estagiário) aparecerá o botão “Enviar para revisão” (Figura 6.6.2) O supervisor, por sua vez, deverá revisitar o atendimento registrado pelo estagiário (Figura 6.6.3), realizar as devidas correções caso julgue necessário e “Aprovar e finalizar o atendimento” (Figura 6.6.4).
+
+Figura 6.6.2
+
+![](media/Estagiário/estagiário2.png)
+
+Figura 6.6.3
+
+![](media/Estagiário//estagiario3.jpg)
+
+Figura 6.6.4
+
+![](media/Estagiário/estagiario4.jpg)
+
+# 6.7 Registro Tardio de Atendimento
 
 O registro tardio de atendimento possibilita ao profissional de saúde a transcrição dos atendimentos que não foram registrados no momento em que de fato ocorreu a consulta, como por exemplo, os atendimentos individuais realizados fora da UBS ou naqueles em que o sistema e-SUS APS com PEC estava indisponível por qualquer motivo.
 
@@ -2586,7 +2631,7 @@ Figura 6.144 - Registro Tardio de Atendimento
 
 ![](media/pec_image615.png)
 
-## 6.6.1 - Registrar o atendimento
+## 6.7.1 - Registrar o atendimento
 
 Para iniciar o registro tardio do atendimento clique sobre o módulo "Registro tardio de atendimento"
 

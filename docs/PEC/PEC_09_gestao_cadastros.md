@@ -102,3 +102,18 @@ A escolha do cadastro como principal interfere apenas nos dados demográficos, c
 Nas próximas buscas os cadastros unificados sempre serão identificados com uma marcação, como mostra a pec_imagem a seguir:
 
 ![](media/pec_image831.png)
+
+# 9.3 - Reterritorialização
+
+A funcionalidade de reterritorialização tem como objetivo fornecer ao profissional a possibilidade de atualizar as fichas de cadastros de usuarios residentes do seu território adstrito.
+
+Figura: 9.12.1 Módulo Reterritorialização
+![](media/pec_image985.jpg)
+
+Ao realizar a busca de imóveis a tela apresentará opções de campos (Unidade de Saúde, Equipe, Profissional, Microárea) que poderão ser alterados sendo possível atualizar os cadastros a partir da mudança de endereço do usuário. 
+
+Figura 9.12.2 Opções de campos
+
+![](media/pec_image986.jpg)
+
+FONTE: SAPS/MS
