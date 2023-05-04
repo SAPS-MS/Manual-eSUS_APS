@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Busca ativa de vacinação
+title: Busca ativa
 parent: Prontuário Eletrônico do Cidadão v5.0
 nav_order: 13
 has_children: false
