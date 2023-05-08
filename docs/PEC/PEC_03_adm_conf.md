@@ -1360,19 +1360,3 @@ Fonte: SAPS/MS
 
 Após habilitado o acesso à RNDS, caso seja necessário desabilitá-lo, basta clicar no botão "Desabilitar", conforme a figura 3.12.8. Ao desabilitar o certificado digital o botão de acesso a RNDS na tela de atendimento do PEC (Figura 3.12.7) não será mais apresentado.
 
-## 3.13 Visualização dos registros enviados à RNDS
-
-Esta funcionalidade tem o objetivo de apoiar o gestor municipal com informações a respeito dos registros enviados à Rede Nacional de Dados em Saúde (RNDS), mostrando informações a respeito da quantidade de registros enviados e não enviados. As informações são exibidas por tipo de registro.
-
-Figura 3.13.1: Status do último envio
-![](media/RNDS/pec_image992.PNG)
-
-A Figura 3.13.1 mostra como fica a label de Status do último envio. As mensagens possíveis nesse campo são: Conexão bem-sucedida; Sem conexão;
-Certificado expirado; ou Falha no certificado.
-
-### 3.13.1 Status de envio dos registros de vacinação
-
-Para o status dos registros de vacinação enviados para RNDS haverá a informação do total de registros realizados. Essa informação abrirá em duas classficações: Total de enviados e Iotal de não enviados, como mostra a Figura 3.13.2.
-
-Figura 3.13.2: Status de envio da vacinação
-![](media/RNDS/pec_image993.PNG)
