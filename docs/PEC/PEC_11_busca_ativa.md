@@ -21,7 +21,7 @@ Este módulo visa proporcionar aos gestores de UBS e profissionais de saúde uma
 - TOC
 {:toc}
 
-![](media/pec_image987.png)
+![](media/pec_image987.PNG)
 
 A busca ativa é uma das atividades da Estratégia de Saúde da Família. Ela é uma ação que pode ser realizada por todos os membros da equipe em seu território de referência, tendo o Agente Comunitário de Saúde protagonismo nessa atividade por seu vínculo com esse território.
 
@@ -31,7 +31,7 @@ No PEC, a partir da versão 5.1, está disponível o módulo de busca ativa, que
 
 Figura 11.1 - Tipos de relatórios de busca ativa 
 
-![](media/pec_image988.png)
+![](media/pec_image988.PNG)
 
 {: .nota }
 A Busca ativa mostrará apenas os usuários cadastrados na equipe, pois são pessoas do território, as quais a equipe tem vínculo e possibilidade de fazer intervenções de saúde.
@@ -44,7 +44,7 @@ Nessa perspectiva, este módulo instrumentaliza as equipes atuantes na APS com r
 A Figura 11.2 mostra a tela inicial da Busca Ativa de Vacinação. Este módulo pode ser acessado por todos os profissionais da equipe atuante na APS.
 
 Figura 11.2 - Tela de Busca Ativa
-![](media/pec_image989.png)
+![](media/pec_image989.PNG)
 Fonte: SAPS/MS.
 
 Os profissionais da equipe que acessam este módulo podem fazer o filtro por Microárea. Quando o gerente da unidade acessar o módulo, ele poderá fazer o filtro tanto por equipe quanto por microárea.
@@ -53,7 +53,7 @@ Há dois tipos de visualização: Calendário Vacinal (que mostra as vacinas de 
 
 Figura 11.3 - Tipos de Visualização
 
-![](media/pec_image990.png)
+![](media/pec_image990.PNG)
 
 Fonte: SAPS/MS.
 
@@ -61,7 +61,7 @@ Em seguida há o campo obrigatório Grupo-Alvo em que podem ser selecionadas as 
 
 Figura 11.4 - Grupos Alvo
 
-![](media/pec_image991.png)
+![](media/pec_image991.PNG)
 
 Fonte: SAPS/MS.
 
@@ -73,7 +73,7 @@ No campo obrigatório "Status da Vacina", quando o Tipo de visualização (Figur
 
 Figura 11.5 - Status da Vacina
 
-![](media/pec_image992.png)
+![](media/pec_image992.PNG)
 
 Fonte: SAPS/MS.
 
