@@ -33,6 +33,8 @@ A inserção de dados no módulo de Gestão da garantia do acesso pode ser feita
 Figura 12.1 Tela módulo da garantia do acesso
 
 ![](media/pec_image1000.PNG)
+Fonte: SAPS/MS.
+
 
 
 {: .atencao }
@@ -49,6 +51,8 @@ O campo "Tipo de atendimento" traz três tipos de atendimento como opção, são
 
 Figura 12.2 Tipos de atendimento buscados pelo cidadão
 ![](media/pec_image1002.PNG)
+Fonte: SAPS/MS.
+
 
 O Campo "Motivo da consulta" também é obrigatório e é um campo aberto para inserir as informações do motivo que o cidadão buscou consulta na unidade.
 
@@ -60,6 +64,22 @@ Por exemplo, uma mulher que foi buscar a realização de um exame citopatológic
 O campo "Equipe" não é obrigatório, então pode ser selecionada a equipe que o cidadão é vinculado ou não direcionar para nenhuma equipe no momento de inserção de dados na lista. Serão mostradas as equipes vinculadas aquela UBS.
 
 ![](media/pec_image1004.PNG)
+
+
+Ao adicionar todas as informações clique em ![](media/pec_image1005.PNG) para que o cidadão entre na lista. 
+
+A lista é exibida com as informações: Data, Cidadão (Nome, idade, CPF/CNS), telefone, equipe e tipo de atendimento, como mostra a Figura 12.3
+
+Figura 12.3 Lista de cidadão inseridos no módulo Gestão de garantia do acesso
+
+![](media/pec_image1006.PNG)
+Fonte: SAPS/MS.
+
+
+
+
+
+
 
 
 A busca ativa é uma das atividades da Estratégia de Saúde da Família. Ela é uma ação que pode ser realizada por todos os membros da equipe em seu território de referência, tendo o Agente Comunitário de Saúde protagonismo nessa atividade por seu vínculo com esse território.
