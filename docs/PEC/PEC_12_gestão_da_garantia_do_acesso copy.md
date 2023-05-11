@@ -9,10 +9,14 @@ last_modified_date: "02/05/2023"
 ---
 
 
-# CAPÍTULO 11 - Busca Ativa.
+# CAPÍTULO 12 - Gestão da Garantia do Acesso
 {: .no_toc }
 
-Este módulo visa proporcionar aos gestores de UBS e profissionais de saúde uma ferramenta que traz, de forma consolidada, relatórios da população acompanhadas pelas equipes de atenção primária à saúde, para apoia-los a fazer busca ativa no território adstrito.
+Este módulo tem como objetivo instrumentalizar os gestores locais e municipais a gerir o acesso do cidadão na Unidade Básica de Saúde.
+
+
+
+
 
 
 ## Sumário
@@ -21,7 +25,42 @@ Este módulo visa proporcionar aos gestores de UBS e profissionais de saúde uma
 - TOC
 {:toc}
 
-![](media/pec_image987.PNG)
+![](media/pec_image999.PNG)
+
+
+A inserção de dados no módulo de Gestão da garantia do acesso pode ser feita no momento de acolhimento do cidadão, que não tem uma demanda urgente no momento da ida ao serviço, e que não é possível atender o caso naquele momento.
+
+Figura 12.1 Tela módulo da garantia do acesso
+
+![](media/pec_image1000.PNG)
+
+
+{: .atencao }
+O cidadão que procurar a unidade com demanda urgente não pode ter seu atendimento adiado.
+
+
+A inserção dos dados de um cidadão nesta lista pode ser feita por qualquer profissional da Unidade Básica. Ela deve ser feita quando, considerando o motivo da procura pelo serviço do cidadão, não for possível atender naquele momento, nem for possível o agendamento. 
+
+As informações necessárias para incluir o cidadão nesta lista é o nome completo, CPF ou CNS do cidadão. Caso ele não seja cadastrado, deve-se fazer o cadastro simplificado ou completo. Este é um campo obrigatório.
+
+![](media/pec_image1001.PNG)
+
+O campo "Tipo de atendimento" traz três tipos de atendimento como opção, são eles: consulta de enfermagem, consulta médica e consulta odontológica, conforme mostra a Figura 12.2. Este campo deve ser escolhido a partir do que o cidadão foi buscar na unidade naquele momento, porém não conseguiu ter acesso. 
+
+Figura 12.2 Tipos de atendimento buscados pelo cidadão
+![](media/pec_image1002.PNG)
+
+O Campo "Motivo da consulta" também é obrigatório e é um campo aberto para inserir as informações do motivo que o cidadão buscou consulta na unidade.
+
+![](media/pec_image1003.PNG)
+
+
+Por exemplo, uma mulher que foi buscar a realização de um exame citopatológico, mas não é possível naquele momento, e não é possível fazer o agendamento, o registro deve ser feito no módulo como consulta de enfermagem ou médica em "Tipo de atendimento" e deve-se descrever em "Motivo da consulta" que a busca é para a realização de coleta do exame citopatológico. 
+
+O campo "Equipe" não é obrigatório, então pode ser selecionada a equipe que o cidadão é vinculado ou não direcionar para nenhuma equipe no momento de inserção de dados na lista. Serão mostradas as equipes vinculadas aquela UBS.
+
+![](media/pec_image1004.PNG)
+
 
 A busca ativa é uma das atividades da Estratégia de Saúde da Família. Ela é uma ação que pode ser realizada por todos os membros da equipe em seu território de referência, tendo o Agente Comunitário de Saúde protagonismo nessa atividade por seu vínculo com esse território.
 
