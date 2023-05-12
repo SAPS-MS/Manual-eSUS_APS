@@ -15,14 +15,7 @@ permalink: /
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+
 *Elaboração, distribuição e informações*<br>
 
 **MINISTÉRIO DA SAÚDE**<br>
