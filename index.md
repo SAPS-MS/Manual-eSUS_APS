@@ -7,23 +7,8 @@ description: "Manual e-SUS APS"
 permalink: /
 ---
 
-e-SUS Atenção Primária à Saúde (e-SUS APS)
-{: .fs-10 }
-{: .fw-700 }
-{: .text-center }
-<br>
-<br>
-PRONTUÁRIO ELETRÔNICO DO CIDADÃO (PEC)
-{: .fs-8 }
-{: .text-center }
-MANUAL DE USO
-{: .fs-8 }
-{: .text-center }
-<br>
-<br>
-(versão 5.1)
-{: .fs-6 }
-{: .text-center }
+
+<img src="./index.png">
 <br>
 <br>
 <br>
