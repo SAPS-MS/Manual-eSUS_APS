@@ -210,11 +210,15 @@ Segue passo a passo para geração da contra chave:
 
 ![](media/pec_image70.png)
 
-- Passo 2. Informe a chave apresentada na tela do PEC e clique em ![](media/pec_image71.png) para gerar a contra chave de instalação.
+- Passo 2. Informe o token (código de liberação) gerado no CNPJ do Fundo Municipal de Saúde (FMS):
+
+![](media/pec_image70.1.png)
+
+- Passo 3. Informe a chave apresentada na tela do PEC e clique em ![](media/pec_image71.png) para gerar a contra chave de instalação.
 
 ![](media/pec_image72.png)
 
-- Passo 3. Será gerado o código da contra chave, o qual deverá ser informado na tela do PEC;
+- Passo 4. Será gerado o código da contra chave, o qual deverá ser informado na tela do PEC;
 
 ![](media/pec_image73.png)
 
