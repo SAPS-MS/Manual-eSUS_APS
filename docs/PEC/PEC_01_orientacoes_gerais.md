@@ -149,7 +149,7 @@ Fonte: SAPS/MS
 
 O sistema possui um número máximo de tentativas consecutivas de login com autenticação inválida, por padrão, 10 (dez) tentativas é o número máximo, entretanto, o administrador do sistema poderá alterar essa quantidade. Ao atingir o número máximo o seu acesso estará bloqueado.
 
-Quando o usuário, por qualquer motivo, esquecer a senha de acesso, deve solicitar ao administrador do sistema ou ao coordenador da UBS que a redefina. Ao redefiní-la, ela voltará a ser a **senha padrão** do sistema (CNS do profissional mais a palavra "esus"). Para redefinir a senha, o administrador ou o coordenador devem executar os seguintes passos:
+Quando o usuário, por qualquer motivo, esquecer a senha de acesso, deve solicitar ao administrador do sistema ou ao coordenador da UBS que a redefina. Ao redefiní-la, um link e QR CODE serão gerados para que o próprio profissional possa cadastrar nova senha e/ou o gestor responsável poderá fazê-lo de forma **provisória**, até que seja redefinida no primeiro acesso pelo profissional responsável. Para redefinir a senha, o administrador ou o coordenador devem executar os seguintes passos:
 
 - Passo 1. Acessar o Módulo de Administração, clicando no botão "Administração";
 
@@ -169,13 +169,15 @@ Fonte: SAPS/MS.
 
 - Passo 4. Após clicar em "Redefinir Senha" será solicitada a confirmação da redefinição da **senha** para o número do **CNS** (senha padrão).
 
-![](media/pec_image46.png)
+- Passo 5. Ao clicar no botão "Redefinir senha", o gestor poderá compartilhar o link ou QR CODE para que o próprio profisisonal possa cadastrá-la por conta própria:
 
-- Passo 5. Clicar no botão "Redefinir senha"
+![](media/pec_image1001.png)
 
-![](media/pec_image47.png) para concluir.
+Caso deseje, poderá cadastrar **senha provisória** e repassar ao profissonal para alterá-la no primeiro acesso:
 
-Após a conclusão destes passos o usuário que teve a senha bloqueada deverá acessar o sistema utilizando o número do seu CNS acrescido da palavra "esus", como senha inicial. No primeiro acesso o sistema solicitará ao usuário que troque a senha padrão por uma senha pessoal.
+![](media/pec_image1002.png)
+
+Após a conclusão destes passos o usuário que teve a senha bloqueada deverá acessar o sistema utilizando a senha provisória repassada pelo gestor ou acessar o link ou QR CODE informados. No primeiro acesso o sistema solicitará ao usuário que troque a senha padrão por uma senha pessoal.
 
 ## 1.3.3 Autenticação via gov.br
 
