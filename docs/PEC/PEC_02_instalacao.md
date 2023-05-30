@@ -217,7 +217,7 @@ Segue passo a passo para geração da contra chave:
 ![](media/pec_image1010.png)
 <br>
 <br>
-- Passo 3. Informe a chave apresentada na tela do PEC e clique em ![](media/pec_image71.png) para gerar a contra chave de instalação.
+- Passo 3. Informe a chave apresentada na tela do PEC e clique em <mark>eSUSAB</mark> para gerar a contra chave de instalação.
 
 ![](media/pec_image72.png)
 
