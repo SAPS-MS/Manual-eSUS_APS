@@ -245,16 +245,7 @@ As principais funcionalidades do centralizador são:
 
 - relatórios: com dados compatíveis ao usuário gestor, onde as informações ficam agregadas desde a equipe até o consolidado municipal.
 
-## 2.5.2 Instalação Tipo Multimunicipal
-
-A instalação multimunicipal atende a situações onde Municípios, Distrito Federal ou o Estado tem capacidade de compartilhar uma instalação para outros Municípios (necessidade de boa conectividade).
-
-{: .atencao }
-Na instalação multimunicipal, o PEC é configurado para ser utilizado na modalidade de prontuário, permitindo que o administrador municipal utilize o sistema conforme a sua necessidade e com total autonomia.
-
-Esse tipo de instalação permite o compartilhamento de cadastros e prontuários clínicos de usuários entre os diferentes Municípios, facilitando a identificação do paciente e sua localização, reduzindo a necessidade de novo cadastro no território de abrangência. Sua única função é cadastrar profissionais responsáveis pela utilização da aplicação, conhecidos como "Administrador da Instalação". Cada administrador da instalação (seja ele do município, Estado, distrito ou região) deve estar devidamente cadastrado no Sistema e-GestorAB.
-
-## 2.5.3 Instalação Tipo Prontuário
+## 2.5.2 Instalação Tipo Prontuário
 
 A instalação Prontuário Eletrônico do Cidadão pode ser utilizada em servidor nas UBS ou a partir de um servidor único no Município funcionando como a instância única de prontuário no ambiente municipal. Possibilita a importação de dados de outros sistemas, como o CDS, e os transmite para outros pontos, entre eles, por padrão, ao SISAB.
 
