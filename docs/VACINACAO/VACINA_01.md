@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Introdução
-parent: e-SUS Vacinação v1.0
+parent: e-SUS Vacinação v3.0
 nav_order: 1
 has_children: false
-last_modified_date: "29/10/2021"
+last_modified_date: "30/05/2023"
 has_toc: true
 ---
 
@@ -19,7 +19,7 @@ Este capítulo apresenta os conceitos e as orientações para utilização do Ap
 - TOC
 {:toc}
 
-O Departamento de Saúde da Família (DESF) está disponibilizando o aplicativo móvel para o registro das doses de vacinas aplicadas nas unidades de saúde e que utilzam o sistema e-SUS APS com Prontuário Eletrônico do Cidadão. O objetivo do aplicativo é facilitar e agilizar o registro dos dados de vacinação durante as campanhas de vacinação que são realizadas nas unidades de saúde ou até mesmo extra-muros. 
+A Secretaria de Atenção Primária (SAPS) está disponibilizando o aplicativo móvel para o registro das doses de vacinas aplicadas nas unidades de saúde e que utilzam o sistema e-SUS APS com Prontuário Eletrônico do Cidadão. O objetivo do aplicativo é facilitar e agilizar o registro dos dados de vacinação durante as campanhas de vacinação que são realizadas nas unidades de saúde ou até mesmo extra-muros. 
 
 O aplicativo **e-SUS Vacinação** é integrado ao **Sistema e-SUS APS com Prontuário Eletrônico do Cidadão (PEC)** ampliando a capacidade da captação das informações nos serviços de saúde. Nesse contexto, o quarto aplicativo desenvolvido para a Estratégia e-SUS APS priorizou as ações realizadas pelos profissionais que atuam nas campanhas de imunização do país. O aplicativo **e-SUS Vacinação** pode ser utilizado em dispositivos do tipo tablet e smartphones, levando em conta aspectos relacionados ao conforto, à segurança e à usabilidade da ferramenta dentro do processo de trabalho destes profissionais. Na Seção 2.2 serão oferecidas especificações do tablet e do smartphone que melhor se adequam ao aplicativo.
 
@@ -34,7 +34,7 @@ Este manual foi elaborado usando como referência a **versão 0.1.0** do Aplicat
 
 ## 1.2 A Estratégia e-SUS Atenção Primária à Saúde
 
-O DESF assumiu o compromisso de reestruturar o sistema de informação da atenção primária, com o objetivo de melhorar a qualidade da informação em saúde e de otimizar o uso dessas informações pelos gestores, profissionais de saúde e cidadãos. Essa reestruturação chamada de Estratégia e-SUS APS preconiza:
+A SAPS assumiu o compromisso de reestruturar o sistema de informação da atenção primária, com o objetivo de melhorar a qualidade da informação em saúde e de otimizar o uso dessas informações pelos gestores, profissionais de saúde e cidadãos. Essa reestruturação chamada de Estratégia e-SUS APS preconiza:
 
 1.  o registro individualizado das informações em saúde, para o acompanhamento dos atendimentos aos cidadãos;
 
@@ -63,7 +63,7 @@ Entretanto, para que possamos mensurar a cobertura vacinal é fundamental o regi
 
 Entende-se que não só o registro de boa qualidade é importante para produzir relatórios consistentes que auxiliem na tomada de decisão, mas também são fundamentais outros fatores, como disponibilidade de insumos e vacinas, organização do processo de trabalho, equipes treinadas, uso de intrumentos e ferramentas que facilitem os registros dos profissionais que atuam na sala de vacina, entre outros. 
 
-Pensando no uso de ferramentas que facilitem e agilizem o trabalho dos profissionais que atuam nas salas de vacina dos serviços de saúde, o DESF por meio da Estratégia e-SUS APS, está lançando o aplicativo ***e-SUS Vacinação***, objetivando tornar mais prático o preenchimento dos dados de imunização durante as campanhas de vacinação.  O *e-SUS Vacinação* funciona também de forma offline, permitindo que o registro dos dados das ações de imunizações também possam acontecer fora da unidade de saúde, ou seja, em local onde for mais oportuno para a efetividade dessa ação. Por fim, nesse primeiro momento, o aplicativo estará focado na estratégia de campanhas de vacinação, na qual conciliar o ato de vacinar e registrar os dados em um sistema, quase que ao mesmo tempo, é um desafio. Esperamos que essa aplicação traga boas experiências de usabilidade para os usuários e estamos sempre a disposição para receber sugestões e melhorias para atender a real necessidade dos trabalhadores de saúde. 
+Pensando no uso de ferramentas que facilitem e agilizem o trabalho dos profissionais que atuam nas salas de vacina dos serviços de saúde, a SAPS por meio da Estratégia e-SUS APS, está lançando o aplicativo ***e-SUS Vacinação***, objetivando tornar mais prático o preenchimento dos dados de imunização durante as campanhas de vacinação.  O *e-SUS Vacinação* funciona também de forma offline, permitindo que o registro dos dados das ações de imunizações também possam acontecer fora da unidade de saúde, ou seja, em local onde for mais oportuno para a efetividade dessa ação. Num primeiro momento, o aplicativo esteve focado na estratégia de campanhas de vacinação, na qual conciliar o ato de vacinar e registrar os dados em um sistema, quase que ao mesmo tempo, é um desafio. Porém, a partir da versão 3.0 deste aplicativo, as estratégias de rotina passaram a integrar as informações possíveis de registro no aplicativo. Esperamos que essa aplicação traga boas experiências de usabilidade para os usuários e estamos sempre a disposição para receber sugestões e melhorias para atender a real necessidade dos trabalhadores de saúde. 
 
 Esperamos que façam bom proveito dessa solução! 
 

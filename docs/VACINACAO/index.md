@@ -1,10 +1,10 @@
 ---
 layout: default
-title: e-SUS Vacinação v1.0
+title: e-SUS Vacinação v3.0
 nav_order: 6
 nav_exclude: false
 has_children: true
-last_modified_date: "27/10/2021"
+last_modified_date: "30/05/2023"
 description: "Manual do aplicativo e-SUS Vacinação"
 permalink: /docs/VACINACAO
 ---
@@ -23,7 +23,7 @@ MANUAL DE USO
 {: .text-center }
 <br>
 <br>
-(versão 1.0)
+(versão 3.0)
 {: .fs-6 }
 {: .text-center }
 <br>
@@ -52,19 +52,19 @@ Site: <http://sisaps.saude.gov.br/esus/><br>
 E-mail: <cgiap@saude.gov.br>
 
 **Supervisor Geral**<br>
-Renata Maria de Oliveira Costa
+Nésio Fernandes de Medeiros Junior
 
 **Coordenação Técnica Geral**<br>
-Michael Luiz Diana de Oliveira 
+Rodrigo André Cuevas Gaete 
 
 **Organização**<br>
-Ana Claudia Cielo, João Geraldo de Oliveira Junior e Viviane Loiola Lacerda
+Igor de Carvalho Gomes, Ingryd Isabelle Maia de Souza e Janaína Nogueira Guimarães
 
 **Revisão Técnica**<br>
-Ana Claudia Cielo, André Cury Alves, Bruno Costa Mariani Maciel, João Geraldo de Oliveira Júnior, Viviane Loiola Lacerda e Willian Soares Lima
+Ana Claudia Cielo, André Cury Alves, Bruno Costa Mariani Maciel, Francy Webster de Andrade Pereira, Igor de Carvalho Gomes, Ingryd Isabelle Maia de Souza, Janaína Nogueira Guimarães, João Geraldo de Oliveira Júnior, Viviane Loiola Lacerda e Willian Soares Lima
 
 **Elaboração de texto**<br>
-Ana Claudia Cielo e João Geraldo de Oliveira Júnior
+Ana Claudia Cielo, Janaína Nogueira Guimarães e João Geraldo de Oliveira Júnior
 
 **Projeto Gráfico**<br>
 Alexandre Soares de Brito e Diogo Ferreira Gonçalves
@@ -76,7 +76,7 @@ Alexandre Soares de Brito e Diogo Ferreira Gonçalves
 {: .text-center }
 
 Brasil. Ministério da Saúde. Secretaria de Atenção Primária à Saúde.<br>
-e-SUS Atenção Primária à Saúde: Manual do aplicativo e-SUS Vacinação – Versão 1.0 [recurso eletrônico] / Ministério da Saúde, Secretaria de Atenção Primária à Saúde, Secretaria Executiva. – Brasília: Ministério da Saúde, 2021.<br>
+e-SUS Atenção Primária à Saúde: Manual do aplicativo e-SUS Vacinação – Versão 3.0 [recurso eletrônico] / Ministério da Saúde, Secretaria de Atenção Primária à Saúde, Secretaria Executiva. – Brasília: Ministério da Saúde, 2023.<br>
 <br>
 ISBN **Versão Preliminar**<br>
 Modo de acesso: <https://aps.saude.gov.br/ape/esus><br>
