@@ -294,7 +294,7 @@ Fonte: SAPS/MS
 
 Fonte: SAPS/MS
 
-4. Caso o novo responsável pela instalação já esteja presente na base de cadastro do CNES o sistema irá apresentar seus dados como mostra a imagem a seguir. Se desejar redefinir a senha marque a opção "Redefinir a senha atual para a padrão".
+4. Caso o novo responsável pela instalação já esteja presente na base de cadastro do CNES o sistema irá apresentar seus dados como mostra a imagem a seguir. Se desejar redefinir a senha marque a opção "Redefinir a senha atual".
 
 ![](media/pec_image54.png)
 
