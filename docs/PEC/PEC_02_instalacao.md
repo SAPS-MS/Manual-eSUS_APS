@@ -210,7 +210,7 @@ Segue passo a passo para geração da contra chave:
 
 ![](media/pec_image70.png)
 
-- Passo 2. Informe o token (código de liberação) gerado no CNPJ do Fundo Municipal de Saúde (FMS):
+- Passo 2. Para a geração da contra-chave solicite ao Gestor de seu municipio que acesse o e-Gestor com o CNPJ e senha do FMS. Na opcao "Instalação/Atualização PEC e-SUS APS" é necessário selecionar o usuário autorizado a gerar a contra-chave. Um código de autenticação (token) será gerado e este código precisa ser informado no campo abaixo:
 
 ![](media/pec_image1010.png)
 
@@ -339,7 +339,7 @@ Figura 2.2 - Detalhe da tela de configuração do horário de funcionamento.
 
 ![](media/pec_image80.png)
 
-- passo 3: o administrador da instalação deve importar o XML/CNES do município, disponível no portal [[http://cnes.datasus.gov.br/]](http://cnes.datasus.gov.br/), para inserir os profissionais e unidades básicas na aplicação;
+- passo 3: o administrador da instalação deverá importar o XML/CNES do município, disponível no portal e-GESTOR AB [[https://egestorab.saude.gov.br/]](https://egestorab.saude.gov.br/), para inserir os profissionais e unidades básicas na aplicação;
 
 ![](media/pec_image81.png)
 
