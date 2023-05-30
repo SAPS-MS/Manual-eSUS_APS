@@ -253,17 +253,7 @@ Fonte: SAPS/MS
 {: .nota }
 Para mais informações sobre como **solicitar nova contrachave**, ver Seção 2.4.
 
-5. após inserir a contra chave e clicar "Salvar" o sistema apresentará uma caixa de diálogo de confirmação da alteração da senha do instalador como mostra a imagem abaixo:
-
-![](media/pec_image50.png)
-
-6. Feito isso o sistema irá confirmar a operação como mostra a imagem a seguir:
-
-![](media/pec_image51.png)
-
-Fonte: SAPS/MS
-
-7. Após informar a senha padrão do instalador "nº CNS + esus" será possível criar a nova senha nos campos "Nova senha" e "Confirmar nova senha", seguindo as instruções abaixo:
+5. após inserir a contra chave e clicar "Salvar" o sistema apresentará uma caixa de diálogo solicitando a criação da nova senha nos campos "Nova senha" e "Confirmar nova senha", seguindo as instruções abaixo:
 
 - A nova senha não pode ser igual a senha anterior.
 
@@ -277,6 +267,14 @@ Fonte: SAPS/MS
 
 {: .atencao }
 Não é possível definir uma senha fora do padrão mínimo de segurança estabelecido.
+
+![](media/pec_image1002.png)
+
+6. Feito isso o sistema irá confirmar a operação como mostra a imagem a seguir:
+
+![](media/pec_image51.png)
+
+Fonte: SAPS/MS
 
 ## 1.3.5 Preciso definir um novo responsável pela instalação, o que devo fazer?
 
