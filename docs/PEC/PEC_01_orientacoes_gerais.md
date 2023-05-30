@@ -90,10 +90,20 @@ Fonte: SAPS/MS
 
 A identificação para acesso (***login***) será controlada pelo próprio sistema, usando como padrão, o número do **CPF do profissional** cadastrado no PEC ou importado do sistema de Cadastro Nacional de Estabelecimentos de Saúde (CNES) (ver Seção 3.2). **O *login* é pessoal e intransferível**, pois busca garantir que os registros feitos no sistema sejam identificados pelo número do Cartão Nacional de Saúde (CNS) do profissional.
 
-O controle da **senha** é pessoal, **iniciada** no sistema por padrão, com o número do **CNS do profissional adicionando a palavra "esus"**. Exemplo: CNSesus (123456789123456esus). Ao realizar acesso ao sistema pela primeira vez, será solicitado ao usuário que altere sua senha. Neste instante, crie uma senha pessoal.
+O controle da **senha** é pessoal e desde a **versão 4.0** foi reformulada para melhor atender a premissas de segurança e limitar o acesso não autorizado ao sistema! Para criação da senha, o gestor responsável deverá entrar na guia ![](media/pec_image999.png), localizar o profissional desejado informando o nome completo, CPF ou nº de CNS e clicar nos três pontos para redefinir a senha, conforme ilustração abaixo:
+
+![](media/pec_image1000.png)
 
 {: .nota }
-A **senha padrão** para o primeiro acesso ao sistema mudou, agora é o número do CNS do profissional mais a palavra "esus".
+A **senha padrão** para o primeiro acesso ao sistema mudou, NÃO sendo mais o nº do CNS e a palavra esus no final! Ex.: 210301884580006esus
+
+Ao clicar em "Redefinir senha", o gestor poderá compartilhar o link ou QR CODE para que o próprio profisisonal possa cadastrá-la por conta própria:
+
+![](media/pec_image1001.png)
+
+Caso deseje, poderá cadastrar **senha provisória** e repassar ao profissonal para alterá-la no primeiro acesso:
+
+![](media/pec_image1002.png)
 
 Caso o usuário possua mais de um perfil serão exibidas as opções de acesso pelos perfis disponíveis.
 
@@ -123,7 +133,7 @@ Fonte: SAPS/MS
 
 Para proceder à alteração da senha, conforme a Figura 1.5, siga os passos:
 
-1.**[digite a senha atual]:** no primeiro acesso a senha é o número do CNS do profissional acrescida da palavra "esus" ( Ex: 898989898989esus);
+1.**[digite a senha atual]:** informe a senha redefinida no primeiro acesso; 
 
 2.**[digite a nova senha]:** defina a nova senha para uso pessoal, devendo ser diferente da senha anterior, conter somente letras e números (ao menos uma letra e um número), no mínimo de 08 (OITO) e máximo de 20 (VINTE) dígitos. Letras maiúsculas e minúsculas são diferenciadas. Esta será a senha utilizada a cada *login* no sistema, devendo ser mantida em sigilo;
 
@@ -139,7 +149,7 @@ Fonte: SAPS/MS
 
 O sistema possui um número máximo de tentativas consecutivas de login com autenticação inválida, por padrão, 10 (dez) tentativas é o número máximo, entretanto, o administrador do sistema poderá alterar essa quantidade. Ao atingir o número máximo o seu acesso estará bloqueado.
 
-Quando o usuário, por qualquer motivo, esquecer a senha de acesso, deve solicitar ao administrador do sistema ou ao coordenador da UBS que a redefina. Ao redefiní-la, ela voltará a ser a **senha padrão** do sistema (CNS do profissional mais a palavra "esus"). Para redefinir a senha, o administrador ou o coordenador devem executar os seguintes passos:
+Quando o usuário, por qualquer motivo, esquecer a senha de acesso, deve solicitar ao administrador do sistema ou ao coordenador da UBS que a redefina. Ao redefiní-la, um link e QR CODE serão gerados para que o próprio profissional possa cadastrar nova senha e/ou o gestor responsável poderá fazê-lo de forma **provisória**, até que seja redefinida no primeiro acesso pelo profissional responsável. Para redefinir a senha, o administrador ou o coordenador devem executar os seguintes passos:
 
 - Passo 1. Acessar o Módulo de Administração, clicando no botão "Administração";
 
@@ -159,13 +169,15 @@ Fonte: SAPS/MS.
 
 - Passo 4. Após clicar em "Redefinir Senha" será solicitada a confirmação da redefinição da **senha** para o número do **CNS** (senha padrão).
 
-![](media/pec_image46.png)
+- Passo 5. Ao clicar no botão "Redefinir senha", o gestor poderá compartilhar o link ou QR CODE para que o próprio profisisonal possa cadastrá-la por conta própria:
 
-- Passo 5. Clicar no botão "Redefinir senha"
+![](media/pec_image1001.png)
 
-![](media/pec_image47.png) para concluir.
+Caso deseje, poderá cadastrar **senha provisória** e repassar ao profissonal para alterá-la no primeiro acesso:
 
-Após a conclusão destes passos o usuário que teve a senha bloqueada deverá acessar o sistema utilizando o número do seu CNS acrescido da palavra "esus", como senha inicial. No primeiro acesso o sistema solicitará ao usuário que troque a senha padrão por uma senha pessoal.
+![](media/pec_image1002.png)
+
+Após a conclusão destes passos o usuário que teve a senha bloqueada deverá acessar o sistema utilizando a senha provisória repassada pelo gestor ou acessar o link ou QR CODE informados. No primeiro acesso o sistema solicitará ao usuário que troque a senha padrão por uma senha pessoal.
 
 ## 1.3.3 Autenticação via gov.br
 
@@ -241,17 +253,7 @@ Fonte: SAPS/MS
 {: .nota }
 Para mais informações sobre como **solicitar nova contrachave**, ver Seção 2.4.
 
-5. após inserir a contra chave e clicar "Salvar" o sistema apresentará uma caixa de diálogo de confirmação da alteração da senha do instalador como mostra a imagem abaixo:
-
-![](media/pec_image50.png)
-
-6. Feito isso o sistema irá confirmar a operação como mostra a imagem a seguir:
-
-![](media/pec_image51.png)
-
-Fonte: SAPS/MS
-
-7. Após informar a senha padrão do instalador "nº CNS + esus" será possível criar a nova senha nos campos "Nova senha" e "Confirmar nova senha", seguindo as instruções abaixo:
+5. após inserir a contra chave e clicar "Salvar" o sistema apresentará uma caixa de diálogo solicitando a criação da nova senha nos campos "Nova senha" e "Confirmar nova senha", seguindo as instruções abaixo:
 
 - A nova senha não pode ser igual a senha anterior.
 
@@ -265,6 +267,14 @@ Fonte: SAPS/MS
 
 {: .atencao }
 Não é possível definir uma senha fora do padrão mínimo de segurança estabelecido.
+
+![](media/pec_image1002.png)
+
+6. Feito isso o sistema irá confirmar a operação como mostra a imagem a seguir:
+
+![](media/pec_image51.png)
+
+Fonte: SAPS/MS
 
 ## 1.3.5 Preciso definir um novo responsável pela instalação, o que devo fazer?
 
@@ -284,7 +294,7 @@ Fonte: SAPS/MS
 
 Fonte: SAPS/MS
 
-4. Caso o novo responsável pela instalação já esteja presente na base de cadastro do CNES o sistema irá apresentar seus dados como mostra a imagem a seguir. Se desejar redefinir a senha marque a opção "Redefinir a senha atual para a padrão".
+4. Caso o novo responsável pela instalação já esteja presente na base de cadastro do CNES o sistema irá apresentar seus dados como mostra a imagem a seguir. Se desejar redefinir a senha marque a opção "Redefinir a senha atual".
 
 ![](media/pec_image54.png)
 
