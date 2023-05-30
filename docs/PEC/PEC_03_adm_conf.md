@@ -313,27 +313,23 @@ Desde a versão 5.0 do Prontuário Eletrônico do Cidadão (PEC), a geração do
 {: .atencao }
 Toda vez que houver uma atualização dos dados no SCNES, deve-se gerar um novo arquivo para importação no sistema e-SUS APS.
 
-1\. acesse o site [https://egestorab.saude.gov.br](https://egestorab.saude.gov.br/) ;
+1\. Acessar o e-GESTOR AB no seguinte endereço eletrônico: [https://egestorab.saude.gov.br](https://egestorab.saude.gov.br/). O Gestor Municipal deverá se autenticar utilizando suas credenciais GOV.BR, para acesso ao serviço:
 
-2\. No item do menu "**Serviços"**, vá até "Gestores" e, após, clique em "Recebimento Arquivos (Download)";
+<img src="https://raw.githubusercontent.com/SAPS-MS/Pilotos/main/docs/Apoio%20a%20Implantacao/media/egestor_ab.PNG">
 
-![](media/pec_image124.png)
+2\. No painel "Gestor Municipal", o responsável deverá clicar em "XML-ESUS-APS" e em seguida, escolher um dos dois tipos de XML disponíveis: <b>XML v.2.1 e XML v.3.0.</b> A versão 3.0 é compatível apenas com versões iguais ou superiores ao PEC 5.0:
 
-Fonte: DATASUS/MS
+  <img src="https://raw.githubusercontent.com/SAPS-MS/Pilotos/main/docs/Apoio%20a%20Implantacao/media/egestor_ab_1.PNG">
 
-3\. Agora, acesse o sistema do CNES com suas respectivas informações;
+Fonte: SAPS/MS
 
-![](media/pec_image125.png)
+3\. Na animação abaixo, é possível visualizar a geração do XML para PEC:
 
-Fonte: DATASUS/MS
+<img src="https://raw.githubusercontent.com/SAPS-MS/Pilotos/main/docs/Apoio%20a%20Implantacao/media/gerar_xml.gif">
 
-4\. Clique no nome do arquivo "XMLPARAESUS_XXXXXX.ZIP", onde XXXXXX corresponde ao número do IBGE do município, e escolha um local para salvá-lo.
+Fonte: SAPS/MS
 
-![](media/pec_image126.png)
-
-Fonte: DATASUS/MS
-
-Após carregar (*download*) o arquivo XML gerado CNESNet, é possível importá-lo por meio dos seguintes passos:
+Após carregar (*download*) o arquivo XML gerado no e-GESTOR AB, é possível importá-lo por meio dos seguintes passos:
 
 1\. na tela inicial, clique na opção "CNES" ![](media/pec_image123.png);
 
@@ -349,7 +345,7 @@ Após carregar (*download*) o arquivo XML gerado CNESNet, é possível importá-
 
 5\. Ao concluir a importação, a mensagem de \"Importação Concluída\" será exibida no sistema. Basta clicar OK para finalizar.
 
-Ao carregar os dados do arquivo XML do CNESNet no Sistema e-SUS APS, todas as informações de profissionais, unidades e equipes serão salvas no sistema. Com a importação do arquivo concluída, o sistema disponibiliza, por meio da opção "Histórico de Importações", um relatório sintético sobre os itens importados, similar à Figura 3.2.3, para cada importação feita no sistema. O relatório pode ser acessado clicando no botão ![](media/pec_image130.png) "Visualizar", correspondente à data da importação, como podemos ver na Figura 3.5.
+Ao carregar os dados do arquivo XML no Sistema e-SUS APS, todas as informações de profissionais, unidades e equipes serão salvas no sistema. Com a importação do arquivo concluída, o sistema disponibiliza, por meio da opção "Histórico de Importações", um relatório sintético sobre os itens importados, similar à Figura 3.2.3, para cada importação feita no sistema. O relatório pode ser acessado clicando no botão ![](media/pec_image130.png) "Visualizar", correspondente à data da importação, como podemos ver na Figura 3.5.
 
 Figura 3.2.1 - Tela de importação do CNES
 
@@ -515,10 +511,16 @@ Para redefinir a senha de um usuário, siga os passos:
 
 ![](media/pec_image147.png)
 
-3\. a senha será redefinida para o número do CNS do profissional acrescido da palavra esus (Ex: 267207490990000esus), clique no botão "Redefinir senha" para concluir.
+3\. Será exibida a tela abaixo, para que o gestor possa compartilhar o link ou QR CODE, para que o profissional possa cadastrar uma nova senha:
+
+![](media/pec_image1001.png)
 
 {: .dica }
 Evite utilizar esta funcionalidade sem que o profissional solicite, pois isso poderá gerar insegurança no uso do sistema.
+
+Caso necessário, o gestor poderá cadastrar senha temporária para que o profissional possa alterá-la no primeiro acesso:
+
+![](media/pec_image1002.png)
 
 ## 3.5.3 Lotar um Profissional
 
