@@ -226,13 +226,10 @@ Segue passo a passo para geração da contra chave:
 
 # 2.5 Tipos de Instalação do Sistema
 
-O sistema de *software* e-SUS APS com PEC pode ser instalado de (03) três maneiras distintas, como veremos na Seção 2.6.4, conforme for a necessidade local, a saber:
+O sistema de *software* e-SUS APS com PEC pode ser instalado de (02) duas maneiras distintas, como veremos na Seção 2.6.4, conforme for a necessidade local, a saber:
 
-- centralizador;
-
-- multimunicipal; ou
-
-- prontuário.
+- Centralizador;
+- Prontuário.
 
 Nesta seção, será descrito cada tipo de instalação e como devem ser utilizadas para melhor forma de troca de dados entre as instalações do município.
 
