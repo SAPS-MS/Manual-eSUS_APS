@@ -32,7 +32,7 @@ Atualmente, são desenvolvidos instaladores para as seguintes plataformas:
 
 - Microsoft Windows.
 
-A instalação na plataforma Microsoft Windows vem com pacote Java embutido, caso seja necessária uma instalação personalizada deve ser realizada a instalação do pacote <a href="https://www.oracle.com/java/technologies/downloads/#java8">Java 7</a>. Para plataformas Linux recomenda-se seguir as instruções do arquivo "LEIA-ME" incluso no arquivo (compactado) de instalação.
+A instalação na plataforma Microsoft Windows vem com pacote Java embutido, caso seja necessária uma instalação personalizada deve ser realizada a instalação do pacote <a href="https://www.oracle.com/java/technologies/downloads/#java8" target="_blank">Java 7</a>. Para plataformas Linux recomenda-se seguir as instruções do arquivo "LEIA-ME" incluso no arquivo (compactado) de instalação.
 
 # 2.2 Banco de Dados
 
@@ -79,63 +79,33 @@ O Sistema com CDS, na versão *stand-alone*, tem como requisitos mínimos para d
 
 Para a instalação do Sistema com PEC, é necessário avaliar a quantidade de pessoas ou máquinas (prontuário ou centralizador), que estarão acessando ao mesmo tempo, o que deve influenciar na necessidade de memória RAM e do uso de processamento desse servidor. Portanto, abaixo seguem alguns exemplos de configurações, sugerindo o mínimo/recomendado:
 
-**Exemplo 1** - Servidor para **até 40** usuários:
+**Exemplo 1** - **Centralizadores Municipais:**
 
-- **Ambiente**: Servidor único para aplicação e banco de dados - Dedicado ao sistema;
+![](media/pec_image1003.png)
 
-- **Memória RAM**: 8GB - Barramento DDR4 - Mínimo 1600MHz;
+**Exemplo 2** - **Centralizadores Estaduais:**
 
-- **Processador**: Quad Core 2.20 GHz - Pontuação mínima de 2500 pontos no PassMark/CPUBenchmark https://www.cpubenchmark.net/;
+![](media/pec_image1004.png)
 
-- **Disco**: 100 GB - Velocidade de escrita mínima 80 MB/seg - Velocidade de leitura mínima 350 MB/sec;
+**Exemplo 3** - Servidor para **até 40** usuários:
 
-**Exemplo 2**: Servidor para **até 100** usuários;
+![](media/pec_image1005.png)
 
-- **Ambiente**: 2 servidores (aplicação e banco de dados);
+**Exemplo 4**: Servidor para **até 100** usuários;
 
-- **Sistema Operacional**: Ubuntu Server 64 bits ou Windows Server 64 bits;
+![](media/pec_image1006.png)
 
-- **Memória RAM**: 8GB - Barramento DDR4 - Mínimo 1600MHz;
+**Exemplo 5**: Servidor para **até 1.000** usuários:
 
-- **Processador**: Quad Core 2.20 GHz - Pontuação mínima de 5000 pontos no PassMark/CPUBenchmark (https://www.cpubenchmark.net/);
+![](media/pec_image1007.png)
 
-- **Disco:** 100 GB - Velocidade de escrita mínima 200 MB/seg - Velocidade de leitura mínima 350 MB/sec;
+**Exemplo 6**: Servidor para **até 2500** usuários:
 
-- **Parametrização PostgreSQL**: https://www.pgconfig.org;
+![](media/pec_image1008.png)
 
-- **Parametrização Java/Jboss**: - Xms2g - Xmx4g - XX:MaxPermSize=1g - XX:PermSize=512m - XX:ReservedCodeCacheSize=300m.
+**Exemplo 7**: Servidor para **até 4000** usuários:
 
-**Exemplo 3**: Servidor para **até 1.000** usuários:
-
-- **Ambiente:**: 2 servidores (aplicação e banco de dados);
-
-- **Sistema Operacional**: Ubuntu Server 64 bits ou Windows Server 64 bits;
-
-- **Memória RAM**: 16GB - Barramento DDR4 - Mínimo 2133MHz;
-
-- **Processador**: Octa Core 2.20 GHz - Pontuação mínima de 10000 pontos no PassMark/CPUBenchmark (https://www.cpubenchmark.net/);
-
-- **Disco**: 250 GB - Velocidade de escrita mínima 400 MB/seg - Velocidade de leitura mínima 700 MB/sec;
-
-- **Parametrização PostgreSQL**: https://www.pgconfig.org;
-
-- **Parametrização Java/Jboss**: - Xms4g - Xmx10g - XX:MaxPermSize=1g - XX:PermSize=512m - XX:ReservedCodeCacheSize=300m;
-
-**Exemplo 4**: Servidor para **até 2500** usuários:
-
-- **Ambiente**: 2 servidores (aplicação e banco de dados);
-
-- **Sistema Operacional**: Ubuntu Server 64 bits ou Windows Server 64 bits;
-
-- **Memória RAM**: 16GB - Barramento DDR4 - Mínimo 2133MHz;
-
-- **Processador**: Octa Core 2.20 GHz - Pontuação mínima de 13000 pontos no PassMark/CPUBenchmark (https://www.cpubenchmark.net/);
-
-- **Disco**: 500 GB - Velocidade de escrita mínima 700 MB/seg - Velocidade de leitura mínima 1000 MB/sec;
-
-- **Parametrização PostgreSQL**: https://www.pgconfig.org;
-
-- **Parametrização Java/Jboss**: - Xms4g - Xmx10g - XX:MaxPermSize=1g - XX:PermSize=512m - XX:ReservedCodeCacheSize=300m.
+![](media/pec_image1009.png)
 
 # 2.4 SISAB e o e-Gestor AB
 
