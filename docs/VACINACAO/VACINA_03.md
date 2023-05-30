@@ -82,6 +82,7 @@ O registro de doses aplicadas pode ser de todos os imunobiológicos cadastrados 
 
 
 Figura 3.4 - Tela de cadastro do Cidadão
+
 ![](media/image_7.png)
 
 Fonte: SAPS/MS
@@ -117,3 +118,93 @@ As boas práticas dos registros de informação em saúde requer que a cada aten
 
 ---
 
+## 3.3 Outros recursos do Aplicativo
+
+### 3.3.1 Edição e Exclusão de registros
+
+Os dados registrados no aplicativo e-SUS Vacinação poderão ser excluídos ou editados enquanto não forem enviados para o sistema e-SUS APS.  
+
+Para editar ou excluir esses dados acesse o ícone ![](media/image_10.png) nas telas 'Vacinações' e 'Doses aplicadas' (Figuras 3.6, 3.7 e 3.8). 
+
+Figura 3.6 - Tela Vacinações
+
+![](media/image_11.jpeg)
+
+Fonte: SAPS/MS
+
+
+Figura 3.7 - Tela Doses
+
+![](media/image_12.png)
+
+Fonte: SAPS/MS
+
+Figura 3.8 - Tela Detalhes do cidadão vacinado
+
+![](media/image_13.png)
+
+Fonte: SAPS/MS
+
+{: .nota }
+Para excluir a vacina cadastrada não deve haver nenhum cidadão cadastrado no mesmo. 
+
+### 3.3.2 Menu
+
+Na tela inicial do aplicativo é possível acessar um menu. Ao clicar sobre o ícone ![](media/image_11.png) aparecerão os seguintes recursos (Figura 3.6):
+
+Figura 3.6 - Tela do Menu
+
+![](media/image_14.png)
+
+Fonte: SAPS/MS
+
+{: .nota }
+Ao lado de "Enviar fichas" terá o total de fichas que estão no aplicativo e que já poderão ser enviadas.
+
+#### 3.3.2.1 Enviar fichas 
+
+Esta seção é fundamental para o envio dos registros realizados no aplicativo, ao clicar sobre a palavra 'enviar fichas', abrirá uma mensagem informando a quantidade de fichas que há para enviar e as opções "Enviar" e "Cancelar". Os dados são enviados para o servidor PEC registrado na URL inserida na autenticação do aplicativo. Ao final do envio, os dados registrados da vacinação aparecerão com status 'Enviadas'. (Figura 3.7)
+
+Figura 3.7 - Tela de Envio
+
+![](media/image_15.jpeg)
+
+Fonte: SAPS/MS
+
+Figura 3.8 - lista de 'Enviadas'
+
+![](media/image_16.png)
+
+Fonte: SAPS/MS
+
+{: .nota }
+Os registros que apresentarem inconsistências nas informações não serão enviados ao sistema e-SUS APS com PEC e serão identificadas com o símbolo ![](media/image_17.png). Essas inconsistências significam que os dados foram rejeitados e os erros indicados [apresentados em uma lista] deverão ser corrigidos para que os dados sejam enviados novamente. Se o problema persistir, realize o registro por meio do sistema e-SUS APS com Coleta de Dados em Saúde (CDS). 
+
+
+#### 3.3.2.2 Trocar acesso 
+
+Se o profissional possuir mais de uma lotação, esta seção permitirá a escolha de qual lotação acessar para inserir os dados. 
+
+#### 3.3.2.3 Obter ajuda
+
+Nesta seção é possível obter ajuda por meio de alguns materiais de apoio e do suporte do e-SUS APS. Para acessar os materiais e o suporte é necessário o acesso a internet (Figura 3.8)
+
+Figura 3.8 - Tela 'Obter Ajuda'
+
+![](media/image_14.jpg)
+
+Fonte: SAPS/MS
+
+#### 3.3.2.4 Sobre
+
+Esta seção apresenta principalmente a versão do aplicativo. Os usuários do sistema e-SUS APS devem sempre estar atento as atualizações das versões para utilizarem a versão mais atual.
+
+Figura 3.9 - Tela 'Sobre"
+
+![](media/image_15.png)
+
+Fonte: SAPS/MS
+
+#### 3.3.2.5 Sair 
+
+Esta seção permite ao usuário deslogar do aplicativo e sair com segurança da aplicação.  
