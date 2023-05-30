@@ -90,7 +90,7 @@ Fonte: SAPS/MS
 
 A identificação para acesso (***login***) será controlada pelo próprio sistema, usando como padrão, o número do **CPF do profissional** cadastrado no PEC ou importado do sistema de Cadastro Nacional de Estabelecimentos de Saúde (CNES) (ver Seção 3.2). **O *login* é pessoal e intransferível**, pois busca garantir que os registros feitos no sistema sejam identificados pelo número do Cartão Nacional de Saúde (CNS) do profissional.
 
-O controle da **senha** é pessoal e instransverível! Desde a **versão 4.0** foi reformulada para melhor atender a premissas de segurança e limitar o acesso não autorizado ao sistema! Para criação da senha, o gestor responsável deverá entrar na guia ![](media/pec_image999.png), localizar o profissional desejado informando o nome completo, CPF ou nº de CNS e clicar nos três pontos para redefinir a senha, conforme ilustração abaixo:
+O controle da **senha** é pessoal e desde a **versão 4.0** foi reformulada para melhor atender a premissas de segurança e limitar o acesso não autorizado ao sistema! Para criação da senha, o gestor responsável deverá entrar na guia ![](media/pec_image999.png), localizar o profissional desejado informando o nome completo, CPF ou nº de CNS e clicar nos três pontos para redefinir a senha, conforme ilustração abaixo:
 
 ![](media/pec_image1000.png)
 
