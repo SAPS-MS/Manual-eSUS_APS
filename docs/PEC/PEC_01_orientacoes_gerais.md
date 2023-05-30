@@ -133,7 +133,7 @@ Fonte: SAPS/MS
 
 Para proceder à alteração da senha, conforme a Figura 1.5, siga os passos:
 
-1.**[digite a senha atual]:** no primeiro acesso a senha é o número do CNS do profissional acrescida da palavra "esus" ( Ex: 898989898989esus);
+1.**[digite a senha atual]:** informe a senha redefinida no primeiro acesso; 
 
 2.**[digite a nova senha]:** defina a nova senha para uso pessoal, devendo ser diferente da senha anterior, conter somente letras e números (ao menos uma letra e um número), no mínimo de 08 (OITO) e máximo de 20 (VINTE) dígitos. Letras maiúsculas e minúsculas são diferenciadas. Esta será a senha utilizada a cada *login* no sistema, devendo ser mantida em sigilo;
 
