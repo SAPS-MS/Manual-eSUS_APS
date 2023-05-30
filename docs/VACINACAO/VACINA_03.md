@@ -19,6 +19,88 @@ Neste capítulo abordaremos sobre o passo a passo para tirar maior proveito do a
 - TOC
 {:toc}
 
+## 3.1 Cadastrar Vacinação
+
+Após a autenticação no aplicativo e a escolha da lotação do vacinador, agora é o momento de cadastrar uma nova vacinação ao clicar sobre o ícone com o sinal de "+", conforme a figura 3.1.
+
+Figura 3.1 - Tela Vacinações
+
+![](media/image_3.jpeg)
+
+Fonte: SAPS/MS
+
+
+Ao clicar no ícone será aberto outra tela em que todos os campos são **obrigatórios**. 
+
+![](media/image_4.jpeg)
+
+Inicialmente deve-se cadastrar o Local de atendimento, ou seja, o local que a vacinação irá ocorrer. As opções a serem selecionadas são: 
+- Domicílio
+- Escola/creche
+- Instituição/abrigo
+- Outros 
+- Polo (Academia da Saúde)
+- Rua
+- UBS
+- Unidade Móvel
+- Unidade prisional ou congêneres
+- Unidade socioeducativa
+
+Em seguida deve-se cadastrar os imunobiológicos e respectivas estratégias das vacinas que serão aplicadas no local selecionado anteriormente, conforme mostra Figura 3.2. Os dados para cadastro são obrigatórios e contam com os campos:
+1. **Imunobiológico:** Informar a vacina que será administrada. Este campo possui as opções de imunobiológicos do Programa Nacional de Imunização (PNI);
+2.**Fabricante:** Informar o fabricante da vacina que está sendo administrada;
+3. **Lote**: Informar o número do Lote do fabricante da vacina;
+4. **Estratégia**: Informar a estratégia de vacinação conforme orientação do PNI. Este campo exibe as opções conforme o imunobiológico selecionado.
+
+Figura 3.2 - Tela de cadastro de Imunobiológico e Estratégia
+
+![](media/image_5.jpeg)
+
+Fonte: SAPS/MS
+
+Ao finalizar, clique em "Salvar e cadastrar outro" quando mais de um imunobiológico será aplicado naquele instante, no local indicado. Ou clique em "salvar" quando todos os imunobiológicos que serão aplicados já estão cadastrados.
+
+Após este cadastro, todos os locais com os respectivos imunobológicos e estratégias cadastrados, ficam listados para inserção posterior dos dados do cidadão vacinado. Como mostra a Figura 3.3.
+
+Figura 3.3 - Lista com locais e respectivos imunobiológicos e estratégias cadastrados
+![](media/image_6.jpeg)
+
+Fonte: SAPS/MS
+
+
+{: .dica } 
+Antes de começar a campanha ou qualquer estratégia de vacinação faça o cadastro prévio de todas as vacinas que serão administradas no dia, assim o usuário do aplicativo agiliza o processo de registro das doses aplicadas. 
+
+{: .nota } 
+Após o cadastro do imunobiológico e estratégia, todos os locais de vacinação cadastrados serão listados para posterior cadastro dos cidadão que receberão a vacina(Vide figura 3.2). 
+
+## 3.2 Cadastrar Cidadão
+
+Ao selecionar o local de vacinação, clique no ícone com o sinal de "+" para registrar os dados do cidadão e a dose do imunobiológico que será administrado.
+
+O registro de 
+
+O cidadão pode receber todos os imunobiológicos cadastrados na primeira etapa ou 
+
+
+Figura 3.4 - Tela de cadastro do Cidadão
+![](media/image_7.jpeg)
+
+Fonte: SAPS/MS
+
+Ao cadastrar o local de atendimento e o imunológico/estratégica é possível clicar na mesma tela em "Salvar e informar o cidadão". Será aberto a tela de inserção de dados do cidadão, como mostra a Figura 3.4.
+
+
+
+
+O registro do cidadão conta com os seguintes campos:
+
+- Data: este dado é inserido automaticamente e não é possível a edição, por este motivo é importante conferir se o dispositivo está configurado com "data automática" nas configurações de Data e Hora.
+- CPF/CNS do cidadão: este dado é obrigatório.
+- Data de Nascimento: este dado é obrigatório.
+- Sexo:
+
+
 ## 3.1 Cadastrar imunobiológico
 
 Após a autenticação no aplicativo e a escolha da lotação do vacinador, agora é o momento de cadastrar as vacinas que serão utilizadas na campanha. Nesta etapa basta clicar sobre o ícone com o sinal de "+" conforme a figura 3.0.
