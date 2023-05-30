@@ -163,7 +163,7 @@ Ao lado de "Enviar fichas" terá o total de fichas que estão no aplicativo e qu
 
 #### 3.3.2.1 Enviar fichas 
 
-Esta seção é fundamental para o envio dos registros realizados no aplicativo, ao clicar sobre a palavra 'enviar fichas', abrirá uma mensagem informando a quantidade de fichas que há para enviar e as opções "Enviar" e "Cancelar". Os dados são enviados para o servidor PEC registrado na URL inserida na autenticação do aplicativo. Ao final do envio, os dados registrados da vacinação aparecerão com status 'Enviadas'. (Figura 3.7)
+Esta seção é fundamental para o envio dos registros realizados no aplicativo, ao clicar sobre a palavra 'enviar fichas', abrirá uma mensagem informando a quantidade de fichas que há para enviar e as opções "Enviar" e "Cancelar". Os dados são enviados para o servidor PEC registrado na URL inserida na autenticação do aplicativo. Ao final do envio, os dados registrados da vacinação aparecerão com status 'Enviadas' (Figura 3.7 e 3.8)
 
 Figura 3.7 - Tela de Envio
 
@@ -177,8 +177,22 @@ Figura 3.8 - lista de 'Enviadas'
 
 Fonte: SAPS/MS
 
-{: .nota }
-Os registros que apresentarem inconsistências nas informações não serão enviados ao sistema e-SUS APS com PEC e serão identificadas com o símbolo ![](media/image_17.png). Essas inconsistências significam que os dados foram rejeitados e os erros indicados [apresentados em uma lista] deverão ser corrigidos para que os dados sejam enviados novamente. Se o problema persistir, realize o registro por meio do sistema e-SUS APS com Coleta de Dados em Saúde (CDS). 
+Os registros que apresentarem inconsistências nas informações não serão enviados ao sistema e-SUS APS com PEC e serão identificadas com o símbolo ![](media/image_17.png). Essas inconsistências significam que os dados foram rejeitados e será exibida a mensagem de que "Não pôde ser enviado", como mostra a Figura 3.9.
+
+Figura 3.9 - lista de 'Enviadas'
+
+![](media/image_18.png)
+
+Fonte: SAPS/MS
+
+Essas inconsistências significam que os dados foram rejeitados e os erros indicados [apresentados em uma lista, como mostra a Figura 3.10] deverão ser corrigidos para que os dados sejam enviados novamente. Se o problema persistir, realize o registro por meio do sistema e-SUS APS com Coleta de Dados em Saúde (CDS). 
+
+Figura 3.10 - Fichas rejeitadas
+
+![](media/image_19.png)
+
+Fonte: SAPS/MS
+
 
 
 #### 3.3.2.2 Trocar acesso 
@@ -187,11 +201,11 @@ Se o profissional possuir mais de uma lotação, esta seção permitirá a escol
 
 #### 3.3.2.3 Obter ajuda
 
-Nesta seção é possível obter ajuda por meio de alguns materiais de apoio e do suporte do e-SUS APS. Para acessar os materiais e o suporte é necessário o acesso a internet (Figura 3.8)
+Nesta seção é possível obter ajuda por meio de alguns materiais de apoio e do suporte do e-SUS APS. Para acessar os materiais e o suporte é necessário o acesso a internet (Figura 3.11)
 
-Figura 3.8 - Tela 'Obter Ajuda'
+Figura 3.11 - Tela 'Obter Ajuda'
 
-![](media/image_14.jpg)
+![](media/image_20.jpeg)
 
 Fonte: SAPS/MS
 
@@ -201,7 +215,7 @@ Esta seção apresenta principalmente a versão do aplicativo. Os usuários do s
 
 Figura 3.9 - Tela 'Sobre"
 
-![](media/image_15.png)
+![](media/image_21.jpeg)
 
 Fonte: SAPS/MS
 
