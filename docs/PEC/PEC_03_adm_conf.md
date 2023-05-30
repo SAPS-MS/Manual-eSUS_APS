@@ -306,14 +306,14 @@ Para editar algum CBO, siga os passos:
 
 ![](media/pec_image123.png)
 
-Esta funcionalidade permite tanto para importar os dados do Sistema de Cadastro Nacional de Estabelecimentos de Saúde (SCNES), por meio do arquivo XML, disponibilizado na área do gestor no site do CNES [http:// cnes2.datasus.gov.br/](http://cnes2.datasus.gov.br/). Tanto o **administrador da instalação** quanto o **administrador municipal** podem importar o arquivo CNES no sistema.
+Esta funcionalidade permite a importação dos dados do Sistema de Cadastro Nacional de Estabelecimentos de Saúde (SCNES), por meio do arquivo XML, disponibilizado na área do gestor no site do e-GESTOR AB [https://egestorab.saude.gov.br/](https://egestorab.saude.gov.br/). Tanto o **administrador da instalação** quanto o **administrador municipal** podem importar o arquivo CNES no sistema.
+
+Desde a versão 5.0 do Prontuário Eletrônico do Cidadão (PEC), a geração do XML para importação no PEC, não é mais feita via <b>Portal CNES</b>, devendo ser feita exclusivamente via e-GESTOR AB, utilizando o perfil de Gestor Municipal de Saúde, conforme seguem as etapas abaixo:
 
 {: .atencao }
 Toda vez que houver uma atualização dos dados no SCNES, deve-se gerar um novo arquivo para importação no sistema e-SUS APS.
 
-Para fazer download do arquivo do SCNES, siga os passos:
-
-1\. acesse o site [http://cnes2.datasus.gov.br/](http://cnes2.datasus.gov.br/);
+1\. acesse o site [https://egestorab.saude.gov.br](https://egestorab.saude.gov.br/) ;
 
 2\. No item do menu "**Serviços"**, vá até "Gestores" e, após, clique em "Recebimento Arquivos (Download)";
 
