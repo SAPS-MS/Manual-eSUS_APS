@@ -178,7 +178,7 @@ Por fim, o Gestor do SISAB cadastrado terá seu acesso criado de forma automáti
 
 ## 2.4.3 Cadastro do Gestor Técnico (Técnico Responsável pela instalação do sistema e-SUS APS com PEC)
 
-O Gestor do SISAB deve acessar o e-GestorAB com o CPF e a senha recebida por e- mail e cadastrar o Gestor Técnico (Técnico Responsável pela instalação do e-SUS APS PEC). O Gestor Técnico terá acesso **apenas para gerar a contra chave** do sistema e-SUS APS com PEC.
+O Gestor do SISAB deve acessar o e-Gestor AB com o CPF e a senha recebida por e- mail e cadastrar o Gestor Técnico (Técnico Responsável pela instalação do e-SUS APS PEC). O Gestor Técnico terá acesso **apenas para gerar a contra chave** do sistema e-SUS APS com PEC.
 
 Segue passo a passo para realizar o cadastro do Gestor Técnico:
 
