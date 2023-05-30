@@ -211,6 +211,8 @@ Segue passo a passo para geração da contra chave:
 ![](media/pec_image70.png)
 
 - Passo 2. Para a geração da contra-chave solicite ao Gestor de seu municipio que acesse o e-Gestor com o CNPJ e senha do FMS. Na opcao "Instalação/Atualização PEC e-SUS APS" é necessário selecionar o usuário autorizado a gerar a contra-chave. Um código de autenticação (token) será gerado e este código precisa ser informado no campo abaixo:
+<br>
+<br>
 
 ![](media/pec_image1010.png)
 
