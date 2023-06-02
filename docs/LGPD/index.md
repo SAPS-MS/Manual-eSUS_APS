@@ -10,9 +10,13 @@ permalink: /docs/LGPD
 ---
 
 # Privacidade e Segurança da Informação
+{: .no_toc }
 
 ## Sumário
 {: .no_toc .text-delta }
+
+- TOC
+{:toc}
 
 ## ESCOPO:
 
