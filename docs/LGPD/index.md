@@ -62,13 +62,13 @@ Os gestores de saúde devem estar cientes das responsabilidades envolvendo o com
 Além disso, há um processo a ser observado quando houver o compartilhamento de dados, conforme a ANPD:
 
 #### 1.3.1.Formalização e registro
-</br>
+<br>
 O uso compartilhado de dados pessoais pelo Poder Público deve ser formalizado. Para tanto, recomenda-se a instauração de processo administrativo, do qual constem os documentos e as informações pertinentes, incluindo análise técnica e jurídica, conforme o caso, que exponham a motivação para a realização do compartilhamento e a sua aderência à legislação em vigor.
 
 Além disso, recomenda-se que o compartilhamento seja estabelecido em ato formal, a exemplo de contratos, convênios ou instrumentos congêneres firmados entre as partes.
 
 #### 1.3.2.Objeto e finalidade
-</br>
+<br>
 Os dados pessoais, objeto de compartilhamento, devem ser indicados de forma objetiva e detalhada, limitando-se ao que for estritamente necessário para as finalidades do tratamento, em conformidade com o princípio da necessidade.
 
 A finalidade, por sua vez, deve ser específica, com a indicação precisa, por exemplo, de qual iniciativa, ação ou programa será executado ou, ainda, de qual atribuição legal será cumprida mediante o compartilhamento dos dados pessoais.
@@ -78,7 +78,7 @@ Deve ficar claro, em suma, quais dados pessoais serão compartilhados, bem como 
 Ademais, em qualquer hipótese, deve ser avaliada a compatibilidade entre a finalidade original da coleta e a finalidade do compartilhamento dos dados.
 
 #### 1.3.3.Base legal
-</br>
+<br>
 É indispensável que haja definição da base legal, conforme art. 7º ou, no caso de dados sensíveis, art. 11 da LGPD, nos termos das orientações apresentadas pela ANPD. Recomenda-se, nesse sentido, que o ato que autoriza ou formaliza o compartilhamento contenha expressa indicação da base legal utilizada. Por exemplo: execução de políticas públicas em saúde (citando leis, atos normativos, etc. que especificam quais políticas são essas).
 
 #### 1.3.4.Duração do tratamento
@@ -86,13 +86,13 @@ Ademais, em qualquer hipótese, deve ser avaliada a compatibilidade entre a fina
 O instrumento que autoriza ou formaliza o compartilhamento deve estabelecer, de forma expressa, o período de duração do uso compartilhado dos dados, além de esclarecer, conforme o caso, se há a possibilidade de conservação ou se os dados devem ser eliminados após o término do tratamento.
 
 #### 1.3.5.Transparência e direitos dos titulares
-</br>
+<br>
 Os atos que regem e autorizam o compartilhamento de dados pessoais devem prever as formas de atendimento ao princípio da transparência (art. 6º, VI), assegurando a disponibilização de informações claras, precisas e facilmente acessíveis aos titulares sobre a realização do compartilhamento e sobre como exercer seus direitos.
 
 Adicionalmente, recomenda-se que sejam delimitadas as obrigações das partes no que se refere: (i) à divulgação das informações exigidas pela LGPD; e (ii) às responsabilidades e aos procedimentos a serem observados visando ao atendimento de solicitações apresentadas pelos titulares.
 
 #### 1.3.6.Prevenção e segurança
-</br>
+<br>
 Também é importante que sejam estabelecidas as medidas de segurança, técnicas e administrativas, que serão adotadas para proteger os dados pessoais de acessos não autorizados e de situações acidentais ou ilícitas de destruição, perda, alteração, comunicação ou difusão. Estas medidas, que devem ser proporcionais aos riscos às liberdades civis e aos direitos fundamentais dos cidadãos envolvidos no caso concreto, deverão estar previstas nos atos que regem e autorizam
 o compartilhamento dos dados.
 
@@ -103,7 +103,7 @@ Para que o PEC opere em sua integralidade de forma correta e promova todas as be
 ### 2.1.Credenciais de Acesso
 
 #### 2.1.1.Gestão
-</br>
+<br>
 O Sistema e-SUS APS controla o acesso dos usuários do PEC por meio de credenciais de uso pessoal: um identificador (login) e uma senha. Desta forma, cada profissional terá seu acesso, controle de permissões e controle de auditoria vinculados a seu login.
 
 De acordo com o princípio da necessidade, art. 6.º, III da Lei 13.709/2018, o tratamento de dados deve ser limitado ao mínimo necessário para a realização de suas finalidades. Neste sentido, para além da minimização da coleta de dados é preciso que as unidades de saúde que utilizam o PEC mantenham sistemas de gestão de contas, perfis e permissões de acesso pautados pela necessidade de uso da informação.
@@ -111,7 +111,7 @@ De acordo com o princípio da necessidade, art. 6.º, III da Lei 13.709/2018, o 
 O PEC dispõe do módulo “Profissionais”, reservado aos perfis de administrador da instalação e administrador municipal, como uma ferramenta capaz de gerenciar profissionais e usuários do sistema, bem como as permissões de acesso. Recomenda-se, neste sentido, o uso integrado dessa ferramenta com políticas de gestão de acessos que definam os momentos de exclusão de acesso ou alteração de permissões conforme as particularidades de cada unidade.
 
 #### 2.1.2.Uso
-</br>
+<br>
 As credenciais de acesso são pessoais e intransferíveis visando garantir que os registros feitos no sistema sejam identificados pelo número do Cartão Nacional de Saúde (CNS) do profissional.
 
 A senha padrão deve ser alterada no primeiro acesso ao sistema. Cada profissional tem o dever de zelar pela confidencialidade de suas credenciais. Para tanto, alguns cuidados podem ser tomados:
