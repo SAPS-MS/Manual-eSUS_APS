@@ -18,7 +18,7 @@ permalink: /docs/LGPD
 - TOC
 {:toc}
 
-## ESCOPO:
+## Escopo:
 
 Dentro da estratégia de saúde digital 2020-2028, há diversas prioridades que englobam o PEC. E, somado a isso, diversas estratégias que contemplam a proteção dos dados. Assim, o escopo deste item integrar o Manual do PEC é não só orientar os profissionais a tirarem o melhor proveito da ferramenta, mas também garantirem a segurança dos cidadãos. Dessa forma, é essencial que os princípios da privacidade e da segurança da informação integrem os processos da saúde
 pública.
