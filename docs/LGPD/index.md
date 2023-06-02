@@ -82,7 +82,7 @@ Ademais, em qualquer hipótese, deve ser avaliada a compatibilidade entre a fina
 É indispensável que haja definição da base legal, conforme art. 7º ou, no caso de dados sensíveis, art. 11 da LGPD, nos termos das orientações apresentadas pela ANPD. Recomenda-se, nesse sentido, que o ato que autoriza ou formaliza o compartilhamento contenha expressa indicação da base legal utilizada. Por exemplo: execução de políticas públicas em saúde (citando leis, atos normativos, etc. que especificam quais políticas são essas).
 
 #### 1.3.4.Duração do tratamento
-</br>
+<br>
 O instrumento que autoriza ou formaliza o compartilhamento deve estabelecer, de forma expressa, o período de duração do uso compartilhado dos dados, além de esclarecer, conforme o caso, se há a possibilidade de conservação ou se os dados devem ser eliminados após o término do tratamento.
 
 #### 1.3.5.Transparência e direitos dos titulares
