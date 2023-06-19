@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Como Utilizar o Aplicativo
-parent: e-SUS Vacinação v1.0
+parent: e-SUS Vacinação v3.0
 nav_order: 3
 has_children: false
 last_modified_date: "10/11/2021"
