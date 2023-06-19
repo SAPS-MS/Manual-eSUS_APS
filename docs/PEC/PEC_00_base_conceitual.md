@@ -46,13 +46,13 @@ A estratégia é composta por dois grandes SIS, um para o armazenamento dos dado
 
 - **SISAB**, sistema de informação nacional vigente para o processamento e a disseminação de dados e informações relacionadas a APS, com a finalidade de construção do conhecimento e tomada de decisão para as três esferas de gestão. Além disso, corrobora para fins de financiamento e de adesão aos programas e estratégias da Política Nacional de Atenção Básica (PNAB), e
 
-- **Sistema e-SUS APS**, composto por dois softwares e dois aplicativos para coleta dos dados:
+- **Sistema e-SUS APS**, composto por dois softwares e quatro aplicativos para coleta dos dados:
 
 - Sistema com Coleta de Dados Simplificada (**CDS**), sistema de transição/contingência, que apoia o processo de coleta de dados por meio de fichas e um sistema de digitação;
 
 - Sistema com Prontuário Eletrônico do Cidadão (**PEC**), sistema com prontuário eletrônico (objeto deste manual), que tem como principal objetivo apoiar o processo de informatização das UBS.
 
-- Aplicativo e-SUS Território (**e-SUS Território**) e e-SUS Atividade Coletiva (**e-SUS AC**), aplicativos móveis e offline que auxiliam os profissionais na coleta de dados no território e na coleta de dados das atividades coletivas realizadas pela equipe fora da unidade básica de saúde, respectivamente.  
+- Aplicativo e-SUS Território (**e-SUS Território**),  e-SUS Atividade Coletiva (**e-SUS AC**) e **e-SUS Vacinação** aplicativos móveis e offline que auxiliam os profissionais na coleta de dados no território,  na coleta de dados das atividades coletivas, na coleta de dados de vacinas aplicadas realizadas pela equipe fora da unidade básica de saúde, respectivamente. Há ainda o **e-SUS Gestão** que subsidia o gestor municipal e local com as informações das atividades realizadas pelas equipes  
 
 {: .nota }
 Para conhecer mais sobre os aplicativos consulte os Manuais destas aplicações.
