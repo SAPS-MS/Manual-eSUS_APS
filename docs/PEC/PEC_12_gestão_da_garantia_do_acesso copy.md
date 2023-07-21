@@ -68,7 +68,7 @@ O campo "Equipe" não é obrigatório, então pode ser selecionada a equipe que 
 
 Ao adicionar todas as informações clique em ![](media/pec_image1005.PNG) para que o cidadão entre na lista. 
 
-A lista é exibida com as informações: Data, Cidadão (Nome, idade, CPF/CNS), telefone, equipe e tipo de atendimento, como mostra a Figura 12.3
+A lista é exibida com as informações: Data, Cidadão (Nome, idade, CPF/CNS), telefone, equipe e tipo de atendimento, como mostra a Figura 12.3.
 
 Figura 12.3 Lista de cidadão inseridos no módulo Gestão de garantia do acesso
 
@@ -76,6 +76,27 @@ Figura 12.3 Lista de cidadão inseridos no módulo Gestão de garantia do acesso
 Fonte: SAPS/MS.
 
 
+Ao inserir o cidadão na listagem do módulo da gestão da garantia do acesso é possível visualizar quantas vezes ele foi inserido na listagem e o último motivo da procura.
+
+![](media/pec_image1007.PNG)
+
+
+Para retirar o cidadão da lista deve-se clicar no ícone ![](media/pec_image1008.PNG) e em seguida aparecerá na tela a Figura 12.4.
+
+Figura 12.4 Lista de cidadão inseridos no módulo Gestão de garantia do acesso
+
+![](media/pec_image1009.PNG)
+Fonte: SAPS/MS.
+
+A remoção do registro na lista abre as seguintes opções:
+
+**Atendido em outro estabelecimento:** usado quando o cidadão conseguiu o atendimento que pretendia na unidade em outro serviço, seja na atenção especializada, em serviços particulares, ou até mesmo em outra unidade básica, do mesmo município ou de outro. É recomendado colocar qual o outro lugar no campo Observações para que seja possível um diagnóstico situacional no futuro.
+
+**Atendimento agendado:** usado quando o cidadão for agendado na unidade que buscou atendimento.
+
+**Não respondeu à tentativas de contato:** usado para indicar quantas vezes foi feito contato com o cidadão. Esta opção abre o campo obrigatório "Número de tentativas de contato" feitas com o cidadão e é possível descrever quais foram os meios de comunicação utilizados. 
+
+**Mudou-se do território:**
 
 
 
