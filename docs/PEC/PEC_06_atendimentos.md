@@ -2217,17 +2217,41 @@ Figura 6.5.27 - Bloco de Histórico da condição
 
 Fonte: SAPS/MS.
 
-#### 6.5.2.2.4 Impressão do acompanhamento da gestante
+#### 6.5.2.2.4 Agendamento de consultas do pré-natal 
 
-Caso o profissional deseje realizar a impressão do acompanhamento da gestante, seja para arquivamento físico, seja para entregar à gestante, basta clicar no botão ![](media/pec_image570.png). Em seguida aparecerá uma tela onde é possível selecionar os itens que deseja imprimir (Figura 6.5.28).
+A partir da versão 5.2 está disponível a projeção de agendamentos de consultas pré-natal para a mulher até o fim da gestação.
 
-Figura 6.5.28 - Imprimir Acompanhamento da Gestação
+Esta projeção de agendamentos aparece após ser ativado um CIAP-2 ou CID-10 de gestação e após a inserção da DUM. A partir destas informações são calculadas quantas consultas são necessárias na gestação da mulher atendida até a data provável do parto. 
+
+As consultas, por padrão, seguem o preconizado no Caderno de Atenção Básica nº 32,  por isso são alternadas entre o profissional médico e o enfermeiro da equipe a qual a cidadã é cadastrada. Já as consultas odontológicas são programadas para uma vez a cada trimestre da gestação. A Figura 6.5.28 mostra como é exibido estes agendamentos.
+
+A exibição desta nova funcionalidade ocorre após o desfecho do atendimento, dentro do módulo "Agendar Consulta". 
+
+Figura 6.5.28 - Agendamentos de Consultas pré-natal
+
+![](media/pec_image1012.png)
+
+Fonte: SAPS/MS.
+
+Quando clicar em ![](media/pec_image1013.png) é possível editar o agendamento pré-programado, como mostra a Figura 5.2.29. Dessa forma pode-se alterar o profissional que realizará a consulta e/ou a data de agendamento e/ou o horário de agendamento.
+
+Figura 6.5.29 - Edição de agendamentos de consultas pré-natal
+
+![](media/pec_image1014.png)
+
+Fonte: SAPS/MS.
+
+#### 6.5.2.2.5 Impressão do acompanhamento da gestante
+
+Caso o profissional deseje realizar a impressão do acompanhamento da gestante, seja para arquivamento físico, seja para entregar à gestante, basta clicar no botão ![](media/pec_image570.png). Em seguida aparecerá uma tela onde é possível selecionar os itens que deseja imprimir (Figura 6.5.30).
+
+Figura 6.5.30 - Imprimir Acompanhamento da Gestação
 
 ![](media/pec_image571.png)
 
 Abaixo um exemplo da impressão do acompanhamento da gestante.
 
-Figura 6.5.29 - Modelo de impresso do Acompanhamento do Pré-natal apenas com Dados do acompanhamento
+Figura 6.5.31 - Modelo de impresso do Acompanhamento do Pré-natal apenas com Dados do acompanhamento
 
 ![](media/pec_image572.png)
 
@@ -2241,7 +2265,7 @@ Uma das principais fases do crescimento e do desenvolvimento humano é a infânc
 
 Em atendimento no qual o cidadão esteja na faixa etária para a realização da puericultura, será ofertada ao profissional a opção de ativar o "registro do atendimento de puericultura", com objetivo de acompanhar o crescimento e desenvolvimento da criança.
 
-Figura 6.5.30 - Opção na seção "Objetivo" do SOAP para habilitar campos da puericultura
+Figura 6.5.32 - Opção na seção "Objetivo" do SOAP para habilitar campos da puericultura
 
 ![](media/pec_image573.png)
 
@@ -2249,7 +2273,7 @@ Fonte: SAPS/MS.
 
 Após a primeira ativação da puericultura, será ofertado ao profissional a possibilidade de registrar informações clínicas em relação ao pré-natal, parto e nascimento, além do acompanhamento do crescimento e desenvolvimento da criança.
 
-Figura 6.5.31 - Campos da Puericultura
+Figura 6.5.33 - Campos da Puericultura
 
 ![](media/pec_image574.png)
 
@@ -2275,7 +2299,7 @@ Para registrar o crescimento da criança com a finalidade de avaliar o estado nu
 {: .dica }
 Para o acompanhamento adequado da criança é importante que o profissional de saúde registre em todas as consultas de puericultura os dados antropométricos. Estes dados comporão as tabelas e gráficos no módulo de "Acompanhamento" da Puericultura. Neste módulo é possível analisar a curva de crescimento da criança, mais informações no capítulo ***6.5.3.2. Acompanhamento da Puericultura***.
 
-Figura 6.5.32 - Bloco Antropometria
+Figura 6.5.34 - Bloco Antropometria
 
 ![](media/pec_image575.png)
 
@@ -2287,7 +2311,7 @@ Com a finalidade de avaliar as etapas de evolução da criança de acordo com a 
 
 Neste Bloco, o profissional de saúde que realiza a puericultura, registra os dados referentes às alterações fenotípicas presentes na criança, os fatores de riscos sociais, ambientais, de condições de saúde e parto que podem indicar perigo para o desenvolvimento na infância, além de registrar os marcos do desenvolvimento, de acordo com a idade e segundo a Caderneta da Criança 2019. No marco do desenvolvimento também é possível registrar os reflexos primitivos que são esperados nos primeiros 15 dias de vida do recém- nascido.
 
-Figura 6.5.33 - Bloco de avaliação do Desenvolvimento da criança
+Figura 6.5.35 - Bloco de avaliação do Desenvolvimento da criança
 
 ![](media/pec_image576.png)
 
@@ -2295,7 +2319,7 @@ Fonte: SAPS/MS
 
 Para avaliar as alterações fenotípicas clique no botão "Avaliar" e em seguida será aberta uma tela conforme a figura abaixo. Neste momento clique sobre "Ausente" ou "Presente" em cada condição a ser observada.
 
-Figura 6.5.34 - Avaliação das Alterações Fenotípicas
+Figura 6.5.36 - Avaliação das Alterações Fenotípicas
 
 ![](media/pec_image577.png)
 
@@ -2303,7 +2327,7 @@ Fonte: SAPS/MS
 
 Se for selecionado alguma condição com o status "Presente" ao clicar em "Salvar", será aberto uma caixa de diálogo, solicitando a confirmação se realmente a alteração fenotípica está presente na criança, pois ao finalizar o atendimento essa informação **não** poderá ser modificada.
 
-Figura 6.5.35 - Confirmação de status "Presente" para a alteração fenotípica
+Figura 6.5.37 - Confirmação de status "Presente" para a alteração fenotípica
 
 ![](media/pec_image578.png)
 
@@ -2314,7 +2338,7 @@ Atente para a caixa de diálogo solicitando a confirmação da alteração fenot
 
 Para iniciar a avaliação dos fatores de risco clique no botão "Avaliar" e em seguida será aberta uma tela conforme a figura abaixo. Neste momento clique sobre "Ausente" ou "Presente" em cada condição a ser observada.
 
-Figura 6.5.36 - Avaliação dos Fatores de Risco
+Figura 6.5.38 - Avaliação dos Fatores de Risco
 
 ![](media/pec_image579.png)
 
@@ -2322,9 +2346,9 @@ Fonte: SAPS/MS
 
 Após selecionar os fatores de riscos com os status de "Ausente" ou "Presente" clique em "Salvar" para finalizar a avaliação.
 
-Ao finalizar as avaliações das ***Alterações fenotípicas*** e dos ***Fatores de risco,*** as condições que foram avaliadas como "Presente", aparecerão no bloco do Desenvolvimento da criança, conforme a figura 6.5.37.
+Ao finalizar as avaliações das ***Alterações fenotípicas*** e dos ***Fatores de risco,*** as condições que foram avaliadas como "Presente", aparecerão no bloco do Desenvolvimento da criança, conforme a figura 6.5.41.
 
-Figura 6.5.37 - Desenvolvimento da criança
+Figura 6.5.39 - Desenvolvimento da criança
 
 ![](media/pec_image580.png)
 
@@ -2336,7 +2360,7 @@ Neste bloco também é possível registrar os reflexos primitivos presentes no r
 
 Após clicar neste bloco será apresentada uma tela com os reflexos esperados na faixa etária dos 15 (quinze) primeiros dias de vida da criança. Em cada reflexo o profissional deverá selecionar o status como "Ausente" ou "Presente". Ao concluir a avaliação clique em "Salvar".
 
-Figura 6.5.38 - Avaliação dos Marcos de Desenvolvimento
+Figura 6.5.40 - Avaliação dos Marcos de Desenvolvimento
 
 ![](media/pec_image582.png)
 
@@ -2344,19 +2368,19 @@ Caso um ou mais reflexos neurológicos não sejam alcançados e registrado como 
 
 Para avaliar os marcos das demais faixas etárias, siga conforme a orientação para o registro dos reflexos primitivos, clicando sobre o "bloco" da idade que será avaliada.
 
-Figura 6.5.39 - Avaliação dos Marcos de desenvolvimento
+Figura 6.5.41 - Avaliação dos Marcos de desenvolvimento
 
 ![](media/pec_image583.png)
 
-Ao clicar no bloco de uma das faixas etárias a ser avaliada abrirá a tela com os marcos esperados para aquela faixa, conforme podemos observar na avaliação dos marcos da faixa etária do 1º mês (Figura 6.5.40).
+Ao clicar no bloco de uma das faixas etárias a ser avaliada abrirá a tela com os marcos esperados para aquela faixa, conforme podemos observar na avaliação dos marcos da faixa etária do 1º mês (Figura 6.5.42).
 
-Figura 6.5.40 - Avaliação dos Marcos de Desenvolvimento do 1º mês de vida
+Figura 6.5.42 - Avaliação dos Marcos de Desenvolvimento do 1º mês de vida
 
 ![](media/pec_image584.png)
 
-Ao selecionar o marco com os status de "Presente" o profissional de saúde que está fazendo a puericultura deverá registrar a idade em que o mesmo foi alcançado (Figura 6.5.41).
+Ao selecionar o marco com os status de "Presente" o profissional de saúde que está fazendo a puericultura deverá registrar a idade em que o mesmo foi alcançado (Figura 6.5.42).
 
-Figura 6.5.41 - Avaliação dos Marcos de Desenvolvimento
+Figura 6.5.43 - Avaliação dos Marcos de Desenvolvimento
 
 ![](media/pec_image585.png)
 
@@ -2377,7 +2401,7 @@ Ao finalizar a avaliação do marco do desenvolvimento, o bloco apresentará o s
 
 ![](media/pec_image590.png) **Não Avaliado:** quando o profissional não registra no sistema se o marco está presente ou ausente, ou simplesmente, ainda não foi avaliado por não estar no período de avaliação.
 
-Figura 6.5.42 - Marcos de Desenvolvimento
+Figura 6.5.44 - Marcos de Desenvolvimento
 
 ![](media/pec_image591.png)
 
@@ -2391,7 +2415,7 @@ Caso nenhuma avaliação tenha sido registrada no bloco de Desenvolvimento da cr
 
 - **Desenvolvimento normal:** todos os reflexos/posturas/habilidades presentes para a faixa etária.
 
-Figura 6.5.43 - Desenvolvimento da criança
+Figura 6.5.45 - Desenvolvimento da criança
 
 ![](media/pec_image592.png)
 
@@ -2433,7 +2457,7 @@ Todas estas informações compõem o cartão de acompanhamento da criança que v
 
 O *Cartão* minimizado apresenta informações sobre a situação vacinal, tipo de aleitamento materno, estado nutricional, data da última consulta de puericultura e o profissional que realizou a última consulta como mostra a pec_imagem abaixo.
 
-Figura 6.5.44 - Cartão do Acompanhamento da Puericultura
+Figura 6.5.46 - Cartão do Acompanhamento da Puericultura
 
 ![](media/pec_image595.png)
 
@@ -2441,7 +2465,7 @@ Fonte: SAPS/MS.
 
 Clicando em cima do *Cartão* é possível verificar o conjunto de informações completas relacionadas ao acompanhamento do crescimento e desenvolvimento da criança. Existem três blocos de informações principais, sendo eles: "Pré- natal, parto e nascimento", "Medições da criança", "Desenvolvimento da criança" e "Lista de problemas/condições ativas".
 
-Figura 6.5.45 - Tela com informações do acompanhamento da criança
+Figura 6.5.47 - Tela com informações do acompanhamento da criança
 
 ![](media/pec_image596.png)
 
@@ -2453,7 +2477,7 @@ Verificaremos cada bloco das informações sobre o acompanhamento da saúde da c
 
 O bloco **Pré-natal, parto e nascimento** oferta aos profissionais informações importantes relacionadas ao pré-natal, parto e nascimento da criança como o tipo de gravidez, o tipo de parto, a idade gestacional de nascimento e as notas Apgar no 1º, 5º e 10º minutos como mostra a pec_imagem abaixo:
 
-Figura 6.5.46 - Bloco de Pré-natal, parto e nascimento do acompanhamento
+Figura 6.5.48 - Bloco de Pré-natal, parto e nascimento do acompanhamento
 
 ![](media/pec_image597.png)
 
@@ -2463,7 +2487,7 @@ Fonte: SAPS/MS.
 
 Abaixo, o bloco **Medições da criança** apresenta os dados de medições realizadas durante as consultas. Estão representadas em forma de tabela e gráficos. A tabela mostra os dados da data da consulta, a idade da criança naquela data, o peso, estatura, perímetro cefálico e o índice de massa corporal (IMC) calculado para aquela data.
 
-Figura 6.5.47 - Medições da criança para Acompanhamento da Puericultura
+Figura 6.5.49 - Medições da criança para Acompanhamento da Puericultura
 
 ![](media/pec_image598.png)
 
@@ -2471,25 +2495,25 @@ Fonte: SAPS/MS.
 
 As outras abas trazem os gráficos montados pelo sistema a partir dos dados registrados durante as consultas e mostrados na tabela anterior. Estão disponíveis os gráficos de peso por idade, estatura por idade, IMC e perímetro cefálico por idade. Os dados são agrupados nas faixas etárias 0 a 2 anos e de 2 a 5 anos de idade. Foram utilizados como base os padrões utilizados pela Caderneta de Saúde da Criança do ano de 2013 nas versões "Menina" e "Menino". Da mesma forma que a caderneta da criança, é possível navegar entre o tipos de gráficos e entre as faixas etárias.
 
-Figura 6.5.48 - Gráfico de Peso por idade
+Figura 6.5.50 - Gráfico de Peso por idade
 
 ![](media/pec_image599.png)
 
 Fonte: SAPS/MS.
 
-Figura 6.5.49 - Gráfico de Estatura por idade
+Figura 6.5.51 - Gráfico de Estatura por idade
 
 ![](media/pec_image600.png)
 
 Fonte: SAPS/MS.
 
-Figura 6.5.50 - Gráfico de Perímetro Cefálico por Idade
+Figura 6.5.52 - Gráfico de Perímetro Cefálico por Idade
 
 ![](media/pec_image601.png)
 
 Fonte: SAPS/MS.
 
-Figura 6.5.51 - Gráfico do IMC
+Figura 6.5.53 - Gráfico do IMC
 
 ![](media/pec_image602.png)
 
@@ -2503,7 +2527,7 @@ O bloco **Desenvolvimento da criança** apresenta as informações das Alteraç�
 
 O último bloco do acompanhamento da criança é a Lista de problemas/condições ativas que disponibiliza as condições que estão com status "Ativo" na seção Problemas/Condições e Alergias, informando qual o problema e a idade de início do problema como vemos a seguir.
 
-Figura 6.5.52 - Bloco de Lista de problemas do Acompanhamento da Puericultura
+Figura 6.5.54 - Bloco de Lista de problemas do Acompanhamento da Puericultura
 
 ![](media/pec_image604.png)
 
@@ -2523,7 +2547,7 @@ Na parte Objetiva registram- se as observações importantes do exame físico, o
 
 Na parte da Avaliação utiliza-se o CIAP-2 ou CID-10 para a classificação do problema ou condição detectada. Para o acompanhamento dos problemas/condições e alergias/reações adversas presente na pessoa idosa, deve- se registrar no módulo "Problemas/Condições e Alergias" e informar como "Ativo", conforme descrito no capítulo 6.4.3. Para registrar apenas os problemas e condições de saúde, outra alternativa é clicar no box "inserir na lista de problema/condição como ativo", conforme figura abaixo.
 
-Figura 6.5.53 - Problema e / ou condição detectada
+Figura 6.5.55 - Problema e / ou condição detectada
 
 ![](media/pec_image605.png)
 
@@ -2533,13 +2557,13 @@ Na bloco **Plano** registra-se o plano de cuidados ou condutas a serem tomadas e
 
 O *Cartão* minimizado apresenta informações sobre o estado nutricional e se a pessoa idosa faz uso de 5 ou mais medicamentos como mostra a pec_imagem abaixo.
 
-Figura 6.5.54 - Cartão da pessoa idosa
+Figura 6.5.56 - Cartão da pessoa idosa
 
 ![](media/pec_image606.png)
 
 Clicando em cima do *Cartão* é possível verificar o conjunto de informações completas relacionadas ao acompanhamento da pessoa idosa. Existem quatro blocos de informações principais, sendo eles: "Medicamentos ativos", "Problemas/Condições", "Gráficos e medições" e "Alergias/Reações Adversas".
 
-Figura 6.5.55 - Cartão da pessoa idosa
+Figura 6.5.57 - Cartão da pessoa idosa
 
 ![](media/pec_image607.png)
 
@@ -2549,13 +2573,13 @@ Cada bloco das informações sobre o acompanhamento da pessoa idosa serão detal
 
 O bloco Medicamentos ativos oferta aos profissionais de saúde informações importantes relacionadas aos medicamentos em uso contínuo pela pessoa idosa, conforme mostra a pec_imagem abaixo:
 
-Figura 6.5.56 - Medicamentos ativos
+Figura 6.5.58 - Medicamentos ativos
 
 ![](media/pec_image608.png)
 
 Neste bloco também é possível verificar se há prescrições de medicações sujeitos a controle especial conforme o tipo de prescrição.
 
-Figura 6.5.57 - Medicamentos ativos
+Figura 6.5.59 - Medicamentos ativos
 
 ![](media/pec_image609.png)
 
@@ -2563,7 +2587,7 @@ Figura 6.5.57 - Medicamentos ativos
 
 O bloco do acompanhamento da pessoa idosa apresenta a Lista de problemas/condições ativas ou latentes, informando qual a situação, o problema/condição, a idade de início do problema e a última atualização, conforme vemos a seguir.
 
-Figura 6.5.58 - Problemas/Condições
+Figura 6.5.60 - Problemas/Condições
 
 ![](media/pec_image610.png)
 
@@ -2571,7 +2595,7 @@ Figura 6.5.58 - Problemas/Condições
 
 Abaixo, o bloco Gráficos e medições da pessoa idosa apresenta os dados de medições registradas durante as consultas. Estão representadas em forma de tabela e gráficos. A tabela mostra os dados da data da consulta, a idade da pessoa idosa naquela data, o peso, estatura, o IMC calculado para aquela data, o perímetro da panturrilha, a pressão arterial e a glicemia capilar.
 
-Figura 6.5.59 - Gráficos e medições
+Figura 6.5.61 - Gráficos e medições
 
 ![](media/pec_image611.png)
 
@@ -2579,11 +2603,11 @@ As outras abas trazem os gráficos montados pelo sistema a partir dos dados regi
 
 Os dados são agrupados em faixas etárias, numa escala de 05 em 05 anos, a partir dos 60 anos até a faixa etária atual da pessoa idosa. Foram utilizados como base os padrões utilizados pela Caderneta de Saúde da Pessoa Idosa de 2017.
 
-Figura 6.5.60 - Gráfico com dados de IMC
+Figura 6.5.62 - Gráfico com dados de IMC
 
 ![](media/pec_image612.png)
 
-Figura 6.5.61 - Gráficos com dados do perímetro da panturrilha
+Figura 6.5.63 - Gráficos com dados do perímetro da panturrilha
 
 ![](media/pec_image613.png)
 
@@ -2591,7 +2615,7 @@ Figura 6.5.61 - Gráficos com dados do perímetro da panturrilha
 
 O último bloco do acompanhamento da pessoa idosa é a lista de Alergias/Reações adversas, informando qual é a alergia, a data da instalação do problema e o nível de criticidade, conforme a figura abaixo.
 
-Figura 6.5.62 - Alergias/Reações adversas
+Figura 6.5.64 - Alergias/Reações adversas
 
 ![](media/pec_image614.png)
 
