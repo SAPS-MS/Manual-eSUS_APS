@@ -20,6 +20,8 @@ Será criado um link de acesso para o profissional com quem se deseja realizar a
 
 Nesta funcionalidade é possível realizar teleinterconsultas diretamente no PEC através do novo módulo Videochamadas.
 
+![](media/pec_image1026.png)
+
 Para iniciar a telechamada, primeiro o profissional que estiver realizando o atendimento deve sinalizar se o cidadão participará presencialmente da teleinterconsulta.
 
 Figura 11.2 Tela inicial do módulo Teleinterconsulta
