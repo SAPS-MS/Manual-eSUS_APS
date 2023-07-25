@@ -38,7 +38,7 @@ Fonte: SAPS/MS.
 
 Após a confirmação se o cidadão estará participando da Teleinterconsulta, o profissional deverá habilitar microfone e câmera e clicar em (Criar chamada).
 
-# 11.3 Termo de Responsabiliade Profissional de Saúde
+## 11.3 Termo de Responsabiliade Profissional de Saúde
 
 Após clicar em "Criar chamada", será gerado um Termo de Responsabilidade para o profissional estar ciente das informações descritas no termo.
 
@@ -49,7 +49,7 @@ O Termo de Responsabilidade do Profissional da Saúde, é o documento que inform
 
 Ao relaizar a leitura do termo, clicar em "Continuar" para gerar o Termo de Consentimento Livre e Esclarecido do Cidadão.
 
-# 11.4 Termo de Consentimento Livre e Esclarecido Cidadão
+## 11.4 Termo de Consentimento Livre e Esclarecido Cidadão
 
 O Termo de Consentimento Livre e Esclarecido do Cidadão estará disponível para o cidadão presente na consulta que participará da Teleinterconsulta na companhia do profissional.
 
