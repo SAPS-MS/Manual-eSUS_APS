@@ -1330,15 +1330,15 @@ FLUXO DA PRESCRIÇÃO DIGITAL
 
 Prescritor prescreve medicamentos (com exceção de controlados) no módulo de prescrição normalmente. Posteriormente, escolhe se deseja imprimir a receita em papel ou gerar uma prescrição digital. Ao escolher pelo formato digital, será necessário confirmar o dado de e-mail do cidadão. Caso o e-mail esteja incorreto, o profissional poderá na própria tela alterar essa informação.
 
-![](media/pec_image987.jpg)
+![](media/pec_image1020.jpg)
 
 Ao clicar no botão "Gerar" o profissional será direcionado para uma tela de assinatura digital. Este deverá selecionar o tipo de provedor de assinatura e concluir este processo.
 
-![](media/pec_image988.png)
+![](media/pec_image1021.PNG)
 
 Após assinar o documento, o cidadão receberá no e-mail informado um link para acessar o QR code, o código da receita ou até mesmo fazer o download do documento em PDF.  
 
-![](media/pec_image989.png)
+![](media/pec_image1022.PNG)
 
 FLUXO FARMÁCIA/DISPENSÁRIO
 
@@ -1351,13 +1351,12 @@ Este link:  https://prescricaodigital.esusaps.ufsc.br/login será utilizado de f
 
 Para verificar a validade da prescrição, será necessário logar nesta plataforma por meio do gov.br. Após o login, o farmacêutico ou responsável pela dispensação deverá inserir o código de acesso apresentado pelo cidadão. Caso aquela receita esteja valida, será possível visualizar os dados da mesma na tela:  
 
-![](media/pec_image990.jpg)
+![](media/pec_image1023.jpg)
 
 Ao final deste processo, o botão registrar medicamento deverá ser acionado a fim de garantir o registro dessa dispensação.
 
 {: .nota }
 esse fluxo não invalida a necessidade de realizar os controles internos de estoque/dispensação das farmácias ou dispensários. 
-
 
 
 #### 6.4.3.4.5 Ferramentas do Plano - Orientações
@@ -2731,11 +2730,11 @@ Com esta funcionalidade será possível registrar no PEC o período em que um ci
 
 Para acionar este recurso, o profissional precisará ativá-lo no campo “Plano” do SOAP. Neste caso, somente profissionais com CBO de Médico ou Enfermeiro podem iniciar um atendimento de observação. 
 
-![](media/pec_image991.png)
+![](media/pec_image1024.PNG)
 
 Os cidadãos que forem submetidos à observação, ficarão em uma seção separada na lista de atendimentos de modo a facilitar a visualização dos mesmos. O profissional que iniciou a observação é considerado o profissional responsável, portanto este será o único que poderá finalizar este atendimento de observação. 
 
-![](media/pec_image992.png)
+![](media/pec_image1025.PNG)
 
 Os demais profissionais que contribuírem para este período de cuidado, serão considerados auxiliares. Neste caso, o foco desses profissionais é estabilizar o cidadão de acordo com o plano de cuidado prescrito pelo profissional responsável. Somente profissionais com CBO de médico, enfermeiro, auxiliar ou técnico de enfermagem poderão realizar registro de observação.
 
@@ -2747,18 +2746,7 @@ Os atendimentos dos profissionais auxiliares terão o mesmo formato que um atend
 
 • Nos atendimentos do profissional responsável todas as informações se mantêm, sendo possível realizar mais de uma medição, além de adicionar o histórico de plano de cuidados no Plano do SOAP
 
-![](media/pec_image993.png)
-
-
-
-
-
-
-
-
-
-
-
+![](media/pec_image1026.png)
 
 
 # ANEXOS
