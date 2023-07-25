@@ -32,7 +32,7 @@ Atualmente, são desenvolvidos instaladores para as seguintes plataformas:
 
 - Microsoft Windows.
 
-A instalação na plataforma Microsoft Windows vem com pacote Java embutido, caso seja necessária uma instalação personalizada deve ser realizada a instalação do pacote Java 7. Para plataformas Linux recomenda-se seguir as instruções do arquivo "LEIA-ME" incluso no arquivo (compactado) de instalação.
+A instalação na plataforma Microsoft Windows vem com pacote Java embutido, caso seja necessária uma instalação personalizada deve ser realizada a instalação do pacote <a href="https://www.oracle.com/java/technologies/downloads/#java8" target="_blank">Java 7</a>. Para plataformas Linux recomenda-se seguir as instruções do arquivo "LEIA-ME" incluso no arquivo (compactado) de instalação.
 
 # 2.2 Banco de Dados
 
@@ -79,63 +79,33 @@ O Sistema com CDS, na versão *stand-alone*, tem como requisitos mínimos para d
 
 Para a instalação do Sistema com PEC, é necessário avaliar a quantidade de pessoas ou máquinas (prontuário ou centralizador), que estarão acessando ao mesmo tempo, o que deve influenciar na necessidade de memória RAM e do uso de processamento desse servidor. Portanto, abaixo seguem alguns exemplos de configurações, sugerindo o mínimo/recomendado:
 
-**Exemplo 1** - Servidor para **até 40** usuários:
+**Exemplo 1** - **Centralizadores Municipais:**
 
-- **Ambiente**: Servidor único para aplicação e banco de dados - Dedicado ao sistema;
+![](media/pec_image1003.png)
 
-- **Memória RAM**: 8GB - Barramento DDR4 - Mínimo 1600MHz;
+**Exemplo 2** - **Centralizadores Estaduais:**
 
-- **Processador**: Quad Core 2.20 GHz - Pontuação mínima de 2500 pontos no PassMark/CPUBenchmark https://www.cpubenchmark.net/;
+![](media/pec_image1004.png)
 
-- **Disco**: 100 GB - Velocidade de escrita mínima 80 MB/seg - Velocidade de leitura mínima 350 MB/sec;
+**Exemplo 3** - Servidor para **até 40** usuários:
 
-**Exemplo 2**: Servidor para **até 100** usuários;
+![](media/pec_image1005.png)
 
-- **Ambiente**: 2 servidores (aplicação e banco de dados);
+**Exemplo 4**: Servidor para **até 100** usuários;
 
-- **Sistema Operacional**: Ubuntu Server 64 bits ou Windows Server 64 bits;
+![](media/pec_image1006.png)
 
-- **Memória RAM**: 8GB - Barramento DDR4 - Mínimo 1600MHz;
+**Exemplo 5**: Servidor para **até 1.000** usuários:
 
-- **Processador**: Quad Core 2.20 GHz - Pontuação mínima de 5000 pontos no PassMark/CPUBenchmark (https://www.cpubenchmark.net/);
+![](media/pec_image1007.png)
 
-- **Disco:** 100 GB - Velocidade de escrita mínima 200 MB/seg - Velocidade de leitura mínima 350 MB/sec;
+**Exemplo 6**: Servidor para **até 2500** usuários:
 
-- **Parametrização PostgreSQL**: https://www.pgconfig.org;
+![](media/pec_image1008.png)
 
-- **Parametrização Java/Jboss**: - Xms2g - Xmx4g - XX:MaxPermSize=1g - XX:PermSize=512m - XX:ReservedCodeCacheSize=300m.
+**Exemplo 7**: Servidor para **até 4000** usuários:
 
-**Exemplo 3**: Servidor para **até 1.000** usuários:
-
-- **Ambiente:**: 2 servidores (aplicação e banco de dados);
-
-- **Sistema Operacional**: Ubuntu Server 64 bits ou Windows Server 64 bits;
-
-- **Memória RAM**: 16GB - Barramento DDR4 - Mínimo 2133MHz;
-
-- **Processador**: Octa Core 2.20 GHz - Pontuação mínima de 10000 pontos no PassMark/CPUBenchmark (https://www.cpubenchmark.net/);
-
-- **Disco**: 250 GB - Velocidade de escrita mínima 400 MB/seg - Velocidade de leitura mínima 700 MB/sec;
-
-- **Parametrização PostgreSQL**: https://www.pgconfig.org;
-
-- **Parametrização Java/Jboss**: - Xms4g - Xmx10g - XX:MaxPermSize=1g - XX:PermSize=512m - XX:ReservedCodeCacheSize=300m;
-
-**Exemplo 4**: Servidor para **até 2500** usuários:
-
-- **Ambiente**: 2 servidores (aplicação e banco de dados);
-
-- **Sistema Operacional**: Ubuntu Server 64 bits ou Windows Server 64 bits;
-
-- **Memória RAM**: 16GB - Barramento DDR4 - Mínimo 2133MHz;
-
-- **Processador**: Octa Core 2.20 GHz - Pontuação mínima de 13000 pontos no PassMark/CPUBenchmark (https://www.cpubenchmark.net/);
-
-- **Disco**: 500 GB - Velocidade de escrita mínima 700 MB/seg - Velocidade de leitura mínima 1000 MB/sec;
-
-- **Parametrização PostgreSQL**: https://www.pgconfig.org;
-
-- **Parametrização Java/Jboss**: - Xms4g - Xmx10g - XX:MaxPermSize=1g - XX:PermSize=512m - XX:ReservedCodeCacheSize=300m.
+![](media/pec_image1009.png)
 
 # 2.4 SISAB e o e-Gestor AB
 
@@ -208,7 +178,7 @@ Por fim, o Gestor do SISAB cadastrado terá seu acesso criado de forma automáti
 
 ## 2.4.3 Cadastro do Gestor Técnico (Técnico Responsável pela instalação do sistema e-SUS APS com PEC)
 
-O Gestor do SISAB deve acessar o e-GestorAB com o CPF e a senha recebida por e- mail e cadastrar o Gestor Técnico (Técnico Responsável pela instalação do e-SUS APS PEC). O Gestor Técnico terá acesso **apenas para gerar a contra chave** do sistema e-SUS APS com PEC.
+O Gestor do SISAB deve acessar o e-Gestor AB com o CPF e a senha recebida por e- mail e cadastrar o Gestor Técnico (Técnico Responsável pela instalação do e-SUS APS PEC). O Gestor Técnico terá acesso **apenas para gerar a contra chave** do sistema e-SUS APS com PEC.
 
 Segue passo a passo para realizar o cadastro do Gestor Técnico:
 
@@ -240,11 +210,18 @@ Segue passo a passo para geração da contra chave:
 
 ![](media/pec_image70.png)
 
-- Passo 2. Informe a chave apresentada na tela do PEC e clique em ![](media/pec_image71.png) para gerar a contra chave de instalação.
+- Passo 2. Para a geração da contra-chave solicite ao Gestor de seu municipio que acesse o e-Gestor com o CNPJ e senha do FMS. Na opcao "Instalação/Atualização PEC e-SUS APS" é necessário selecionar o usuário autorizado a gerar a contra-chave. Um código de autenticação (token) será gerado e este código precisa ser informado no campo abaixo:
+<br>
+<br>
+
+![](media/pec_image1010.png)
+<br>
+<br>
+- Passo 3. Informe a chave apresentada na tela do PEC e clique em <mark>eSUSAB</mark> para gerar a contra chave de instalação.
 
 ![](media/pec_image72.png)
 
-- Passo 3. Será gerado o código da contra chave, o qual deverá ser informado na tela do PEC;
+- Passo 4. Será gerado o código da contra chave, o qual deverá ser informado na tela do PEC;
 
 ![](media/pec_image73.png)
 
@@ -252,13 +229,10 @@ Segue passo a passo para geração da contra chave:
 
 # 2.5 Tipos de Instalação do Sistema
 
-O sistema de *software* e-SUS APS com PEC pode ser instalado de (03) três maneiras distintas, como veremos na Seção 2.6.4, conforme for a necessidade local, a saber:
+O sistema de *software* e-SUS APS com PEC pode ser instalado de (02) duas maneiras distintas, como veremos na Seção 2.6.4, conforme for a necessidade local, a saber:
 
-- centralizador;
-
-- multimunicipal; ou
-
-- prontuário.
+- Centralizador;
+- Prontuário.
 
 Nesta seção, será descrito cada tipo de instalação e como devem ser utilizadas para melhor forma de troca de dados entre as instalações do município.
 
@@ -274,16 +248,7 @@ As principais funcionalidades do centralizador são:
 
 - relatórios: com dados compatíveis ao usuário gestor, onde as informações ficam agregadas desde a equipe até o consolidado municipal.
 
-## 2.5.2 Instalação Tipo Multimunicipal
-
-A instalação multimunicipal atende a situações onde Municípios, Distrito Federal ou o Estado tem capacidade de compartilhar uma instalação para outros Municípios (necessidade de boa conectividade).
-
-{: .atencao }
-Na instalação multimunicipal, o PEC é configurado para ser utilizado na modalidade de prontuário, permitindo que o administrador municipal utilize o sistema conforme a sua necessidade e com total autonomia.
-
-Esse tipo de instalação permite o compartilhamento de cadastros e prontuários clínicos de usuários entre os diferentes Municípios, facilitando a identificação do paciente e sua localização, reduzindo a necessidade de novo cadastro no território de abrangência. Sua única função é cadastrar profissionais responsáveis pela utilização da aplicação, conhecidos como "Administrador da Instalação". Cada administrador da instalação (seja ele do município, Estado, distrito ou região) deve estar devidamente cadastrado no Sistema e-GestorAB.
-
-## 2.5.3 Instalação Tipo Prontuário
+## 2.5.2 Instalação Tipo Prontuário
 
 A instalação Prontuário Eletrônico do Cidadão pode ser utilizada em servidor nas UBS ou a partir de um servidor único no Município funcionando como a instância única de prontuário no ambiente municipal. Possibilita a importação de dados de outros sistemas, como o CDS, e os transmite para outros pontos, entre eles, por padrão, ao SISAB.
 
@@ -377,7 +342,7 @@ Figura 2.2 - Detalhe da tela de configuração do horário de funcionamento.
 
 ![](media/pec_image80.png)
 
-- passo 3: o administrador da instalação deve importar o XML/CNES do município, disponível no portal [[http://cnes.datasus.gov.br/]](http://cnes.datasus.gov.br/), para inserir os profissionais e unidades básicas na aplicação;
+- passo 3: o administrador da instalação deverá importar o XML/CNES do município, disponível no portal e-GESTOR AB [[https://egestorab.saude.gov.br/]](https://egestorab.saude.gov.br/), para inserir os profissionais e unidades básicas na aplicação;
 
 ![](media/pec_image81.png)
 
