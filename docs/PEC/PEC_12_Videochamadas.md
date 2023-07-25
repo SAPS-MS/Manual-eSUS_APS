@@ -1,3 +1,13 @@
+---
+layout: default
+title: Vídeochamadas
+parent: Prontuário Eletrônico do Cidadão v5.0
+nav_order: 14
+has_children: false
+has_toc: true
+last_modified_date: "25/07/2023"
+---
+
 # CAPÍTULO 12 - Videochamadas
 {: .no_toc }
 
@@ -19,8 +29,6 @@ Será criado um link de acesso para o profissional com quem se deseja realizar a
 ##  11.2 Módulo Videochamada e-SUS APS
 
 Nesta funcionalidade é possível realizar teleinterconsultas diretamente no PEC através do novo módulo Videochamadas.
-
-![](media/pec_image1026.png)
 
 Para iniciar a telechamada, primeiro o profissional que estiver realizando o atendimento deve sinalizar se o cidadão participará presencialmente da teleinterconsulta.
 
