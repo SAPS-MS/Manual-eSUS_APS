@@ -839,7 +839,7 @@ Para adicionar um motivo de consulta usando a CIAP2, siga os passos:
 
 ![](media/pec_image400.png)
 
-- Passo 2. Caso necessário, é possível complementar a informação com uma observação, conforme demosntrado na figura abaixo.
+- Passo 2. Caso necessário, é possível complementar a informação com uma observação, conforme demonstrado na figura abaixo.
 
 ![](media/pec_image401.1.png)
 
