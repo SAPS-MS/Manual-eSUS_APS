@@ -1343,7 +1343,10 @@ FLUXO FARMÁCIA/DISPENSÁRIO
 
 Com o QR CODE/Código de acesso na tela do celular, ou até mesmo impresso, o cidadão irá se dirigir à uma farmácia pública ou privada a fim de obter o fornecimento do medicamento ou até mesmo comprá-lo.
 
-Quando o cidadão apresentar esse QR code ou código na farmácia, o responsável pela dispensação do medicamento deverá acessar a seguinte plataforma de prescrição digital:
+Quando o cidadão apresentar esse QR code ou código na farmácia, o responsável pela dispensação do medicamento deverá acessar a seguinte plataforma de prescrição digital: https://prescricaodigital.esusaps.ufsc.br/login
+
+{: .atencao }
+Este link:  https://prescricaodigital.esusaps.ufsc.br/login será utilizado de forma provisória.
 
 Para verificar a validade da prescrição, será necessário logar nesta plataforma por meio do gov.br. Após o login, o farmacêutico ou responsável pela dispensação deverá inserir o código de acesso apresentado pelo cidadão. Caso aquela receita esteja valida, será possível visualizar os dados da mesma na tela:  
 
