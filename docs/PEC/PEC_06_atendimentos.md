@@ -2766,7 +2766,7 @@ Esse modelo de informação quando usado pelos diversos níveis de atenção via
 
 O envio do RAC à RNDS é feito ao finalizar o atendimento individual.
 
-# ANEXOS!!
+# ANEXOS
 
 Lista de Notificações SINAN disponíveis
 
