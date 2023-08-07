@@ -579,7 +579,17 @@ Fonte: SAPS/MS
 
 O comportamento do sistema durante o registro da dose aplicada das vacinas COVID-19, assim como o seu aprazamento, seguem o mesmo padrão das vacinas de rotina. Idem para o processo de registro de doses anteriores como mostra a seção 6.3.2.
 
-## 6.3.8 Exclusão de registros de doses aplicadas de vacina após finalizado o atendimento
+## 6.3.8 Envio de vacinação para Rede Nacional de Dados em Saúde (RNDS)
+
+{: .novidade } A partir da versão 5.1 o PEC recebeu a funcionalidade de envio dos Registros de Vacinação diretamente para a RNDS, que irá disponibilizar a visualização de todas as doses no Conecte SUS profissional e no Conecte SUS cidadão.
+
+Ao finalizar o atendimento de vacinação no PEC será gerado o Registro de Imunobiológico Administrado em Campanha (RIA-C) e o Registro de Imunobiológico Administrado em Rotina (RIA-R). O envio é feito por imunobiológico e não por atendimento de vacinação.
+
+As trascrições de caderneta registradas durante um atendimento de vacinação ou durante um atendimento individual também serão enviadas para a RNDS.
+
+Para saber a respeito da verificação do status de envio dos imunobiológicos para a RNDS consulte o item 3.13.
+
+## 6.3.9 Exclusão de registros de doses aplicadas de vacina após finalizado o atendimento
 
 {: .novidade }
 A partir da versão 4.3 o sistema e-SUS APS disponibiliza a funcionalidade de exclusão do registro de dose aplicada de vacina que já estava salvo no PEC
@@ -2746,6 +2756,15 @@ Os atendimentos dos profissionais auxiliares terão o mesmo formato que um atend
 •	Nos atendimentos do profissional responsável todas as informações se mantêm, sendo possível realizar mais de uma medição, além de adicionar o histórico de plano de cuidados no Plano do SOAP
 
 ![](media/pec_image993.png)
+
+
+# 6.9 Envio de atendimento individual para Rede Nacional de Dados em Saúde (RNDS)
+
+O modelo de informação do Registro de Atendimento Clínico (RAC) foi instituído pela [PORTARIA Nº 234, DE 18 DE JULHO DE 2022](https://www.in.gov.br/en/web/dou/-/portaria-n-234-de-18-de-julho-de-2022-416506215) a qual determina que o RAC é "o registro de dados essenciais de uma consulta realizada a um indivíduo no âmbito da atenção básica, especializada ou domiciliar (atendimento diário). Apresenta informações relacionadas ao acompanhamento do indivíduo como medições, diagnósticos e/ou problemas avaliados, exames, procedimentos, pequenas cirurgias e desfecho".
+
+Esse modelo de informação quando usado pelos diversos níveis de atenção viabilizam que todos enviem dados de forma padronizada para a RNDS. Logo, quando os profissionais de saúde acessarem o Conecte SUS profissional terão acesso às informações clínicas do cidadão nos vários pontos da Rede de Atenção à Saúde. Isso auxiliará os profissionais de saúde da APS a fazerem a coordenação do cuidado e a terem um olhar longitudinal da saúde do cidadão.
+
+O envio do RAC à RNDS é feito ao finalizar o atendimento individual.
 
 # ANEXOS
 
