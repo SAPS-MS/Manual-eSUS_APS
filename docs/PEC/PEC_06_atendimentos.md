@@ -1303,7 +1303,71 @@ Figura 6.4.26 - Modelo do Receituário Impresso no PEC
 
 Fonte: SAPS/MS.
 
-#### 6.4.3.4.4 Ferramentas do Plano - Orientações
+#### 6.4.3.4.4 Ferramentas do Plano - Prescrição Digital
+
+Essa funcionalidade permitirá que os profissionais prescritores do PEC possam optar por emitir e assinar suas receitas de forma digital por meio de certificados e chaves da Infraestrutura de Chaves Públicas Brasileira – ICP-Brasil. Esse novo recurso proporciona uma série de vantagens como: 
+
+•	Dispensar a utilização de papel
+
+•	Evitar falsificações 
+
+•	Evitar perda de receituários de papel
+
+•	Reduzir erros de interpretação 
+
+•	Apoiar o processo da Telessaúde
+
+•	Contribuir com a Estratégia de Saúde Digital (ESD) 2020-2028.
+
+Para habilitar a prescrição digital, a instalação local irá precisar atender aos seguintes requisitos:
+
+•	Possuir o HTTPS configurado (para garantir a segurança da navegação)
+
+•	Ter em sua instalação local um servidor de SMTP (para envio de e-mails)
+
+{: .nota }
+para acessar o serviço de prescrição digital, será necessário abrir um chamado em nosso canal de suporte https://esusaps.freshdesk.com/support/login de modo provisório, até que seja definido um novo fluxo.
+
+Quanto aos profissionais prescritores, estes deverão possuir um certificado digital em nuvem para que possam assinar este documento de forma digital e qualificada. 
+
+{: .nota }
+para medicamentos que não exigem a retenção da receita, estes poderão ser assinados por meio do GOV.BR (conta nível prata ou ouro) e não exigirão uma assinatura qualificada por meio de certificados digitais em nuvem. 
+
+Neste momento, o sistema de prescrição digital ainda não está habilitado para emissão de receituários que contenham medicamentos que exijam a retenção de receita. Quando essa opção for liberada dentro do sistema, a assinatura digital de receituários que contenham esse tipo de medicamento será indispensável o emprego do uso dos certificados digitais em nuvem. Exemplo: Vidas, RemoteID, NeoID, BirdID, Vidas, Serasa.
+
+FLUXO DA PRESCRIÇÃO DIGITAL 
+
+Prescritor prescreve medicamentos (com exceção de controlados) no módulo de prescrição normalmente. Posteriormente, escolhe se deseja imprimir a receita em papel ou gerar uma prescrição digital. Ao escolher pelo formato digital, será necessário confirmar o dado de e-mail do cidadão. Caso o e-mail esteja incorreto, o profissional poderá na própria tela alterar essa informação.
+
+![](media/pec_image987.jpg)
+
+Ao clicar no botão "Gerar" o profissional será direcionado para uma tela de assinatura digital. Este deverá selecionar o tipo de provedor de assinatura e concluir este processo.
+
+![](media/pec_image988.png)
+
+Após assinar o documento, o cidadão receberá no e-mail informado um link para acessar o QR code, o código da receita ou até mesmo fazer o download do documento em PDF.  
+
+![](media/pec_image989.png)
+
+FLUXO FARMÁCIA/DISPENSÁRIO
+
+Com o QR CODE/Código de acesso na tela do celular, ou até mesmo impresso, o cidadão irá se dirigir à uma farmácia pública ou privada a fim de obter o fornecimento do medicamento ou até mesmo comprá-lo.
+
+Quando o cidadão apresentar esse QR code ou código na farmácia, o responsável pela dispensação do medicamento deverá acessar a seguinte plataforma de prescrição digital: https://prescricaodigital.esusaps.ufsc.br/login
+
+{: .atencao }
+Este link:  https://prescricaodigital.esusaps.ufsc.br/login será utilizado de forma provisória.
+
+Para verificar a validade da prescrição, será necessário logar nesta plataforma por meio do gov.br. Após o login, o farmacêutico ou responsável pela dispensação deverá inserir o código de acesso apresentado pelo cidadão. Caso aquela receita esteja valida, será possível visualizar os dados da mesma na tela:  
+
+![](media/pec_image990.jpg)
+
+Ao final deste processo, o botão registrar medicamento deverá ser acionado a fim de garantir o registro dessa dispensação.
+
+{: .nota }
+esse fluxo não invalida a necessidade de realizar os controles internos de estoque/dispensação das farmácias ou dispensários. 
+
+#### 6.4.3.4.5 Ferramentas do Plano - Orientações
 
 Esta ferramenta permite ao profissional de saúde registrar orientações a serem entregues ao paciente. Por exemplo, podem ser escritas orientações alimentares ou sobre cuidados a sua saúde.
 
@@ -2692,8 +2756,33 @@ Figura 6.147 - Lista registro tardio de atendimento
 {: .dica }
 Atendimentos realizados fora da UBS podem ser agendados ao selecionar na agenda a opção \"Fora da UBS\". Os registros agendados são automaticamente inseridos na lista de registro tardio. Para saber mais como agendar um cidadão para o atendimento fora da UBS, consulte o capítulo 5.1.1.
 
+# 6.8 Obervação do cidadão
 
-# 6.8 Envio de atendimento individual para Rede Nacional de Dados em Saúde (RNDS)
+Com esta funcionalidade será possível registrar no PEC o período em que um cidadão ficou em observação dentro da UBS ou até mesmo em outro tipo de estabelecimento em que o e-sus esteja sendo utilizado.
+
+Para acionar este recurso, o profissional precisará ativá-lo no campo “Plano” do SOAP. Neste caso, somente profissionais com CBO de Médico ou Enfermeiro podem iniciar um atendimento de observação. 
+
+![](media/pec_image991.png)
+
+
+Os cidadãos que forem submetidos à observação, ficarão em uma seção separada na lista de atendimentos de modo a facilitar a visualização dos mesmos. O profissional que iniciou a observação é considerado o profissional responsável, portanto este será o único que poderá finalizar este atendimento de observação. 
+
+![](media/pec_image992.png)
+
+Os demais profissionais que contribuírem para este período de cuidado, serão considerados auxiliares. Neste caso, o foco desses profissionais é estabilizar o cidadão de acordo com o plano de cuidado prescrito pelo profissional responsável. Somente profissionais com CBO de médico, enfermeiro, auxiliar ou técnico de enfermagem poderão realizar registro de observação.
+
+Os atendimentos dos profissionais auxiliares terão o mesmo formato que um atendimento de procedimentos com as seguintes mudanças:
+
+•	A cada ponto de contato que o profissional tiver com o cidadão dentro de uma observação deve ser possível registrar uma medição
+
+•	O histórico de plano de cuidados deve ser exibido no Plano do SOAP, contendo todos os planos de cuidado realizados pelos profissionais da saúde para aquele atendimento de observação
+
+•	Nos atendimentos do profissional responsável todas as informações se mantêm, sendo possível realizar mais de uma medição, além de adicionar o histórico de plano de cuidados no Plano do SOAP
+
+![](media/pec_image993.png)
+
+
+# 6.9 Envio de atendimento individual para Rede Nacional de Dados em Saúde (RNDS)
 
 O modelo de informação do Registro de Atendimento Clínico (RAC) foi instituído pela [PORTARIA Nº 234, DE 18 DE JULHO DE 2022](https://www.in.gov.br/en/web/dou/-/portaria-n-234-de-18-de-julho-de-2022-416506215) a qual determina que o RAC é "o registro de dados essenciais de uma consulta realizada a um indivíduo no âmbito da atenção básica, especializada ou domiciliar (atendimento diário). Apresenta informações relacionadas ao acompanhamento do indivíduo como medições, diagnósticos e/ou problemas avaliados, exames, procedimentos, pequenas cirurgias e desfecho".
 
