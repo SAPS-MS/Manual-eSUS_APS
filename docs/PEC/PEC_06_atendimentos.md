@@ -1043,6 +1043,8 @@ O sistema ainda disponibiliza algumas ferramentas específicas para auxiliar no 
 
 - **Encaminhamentos**: ferramenta de registro e geração de impressão da guia de referência e contra referência para atendimento em outros níveis de atenção à saúde.
 
+- **Compartilhamento do cuidado**: ferramenta para compartilhar o cuidado com outro profissional de uma equipe multiprofissional. Esta funcionalidade está disponível a partir da versão 5.2.10.
+
 Será apresentada, nas próximas seções, cada uma dessas ferramentas com mais detalhes.
 
 #### 6.4.3.4.1 Ferramentas do Plano - Atestado
@@ -1459,6 +1461,33 @@ Figura 6.4.35 - Modelo de Guia de Encaminhamento
 Fonte: SAPS/MS.
 
 Além do SOAP e suas ferramentas, ainda é possível usar as outras ferramentas do prontuário, como seguem nas próximas seções.
+
+#### 6.4.3.4.7 Ferramentas do Plano - Compartilhamento do Cuidado
+
+Esta ferramenta permite que os profissionais que estão atendendo o cidadão compartilhem o cuidado, ao observar que é necessária a intervenção de outro profissional da equipe multiprofissional ou especialistas.
+
+O compartilhamento do cuidado está disponível a partir da versão 5.2.10 para o compartilhamento das eSF e das e-multi. 
+
+Figura 6.4.36 - Tela de Compartilhamento do Cuidado
+
+![](media/pec_atend_1.png)
+
+Fonte: SAPS/MS.
+
+O CBO não é um campo obrigatório, porém ele serve como filtro ao selecionar a categoria profissional que será acionada no compartilhamento do cuidado. Já o campo profissional é obrigatório. Neste campo aparecerão os profissionais da equipe multiprofissional ou especialistas para serem selecionados e quem vai receber o caso para discussões de forma assíncrona, ou para outras intervenções.
+
+![](media/pec_atend_2.png)
+
+O campo "problemas/condições" deve ser preenchido com a hipótese diagnóstica do profissional que está solicitando o apoio no caso. Este campo é obrigatório. Os profissionais médicos e cirurgiões dentistas podem optar por preencher o campo CIAP 2 ou CID 10.
+
+![](media/pec_atend_3.png)
+
+A classificação da prioridade também é um campo obrigatório e pode ser Baixa, Média, Alta e Muito Alta.
+
+![](media/pec_atend_4.png)
+
+No campo Discussão de Caso Clínico o profissional que está solicitando apoio deve fazer uma descrição
+
 
 ## 6.4.4 Problemas / Condições e Alergias
 
