@@ -44,7 +44,7 @@ Nessa perspectiva, este módulo instrumentaliza as equipes atuantes na APS com r
 A Figura 11.2 mostra a tela inicial da Busca Ativa de Vacinação. Este módulo pode ser acessado por todos os profissionais da equipe atuante na APS.
 
 Figura 11.2 - Tela de Busca Ativa
-![](media/busca_ativa/pec_image989.PNG)
+![](media/busca_ativa/pec_image989.png)
 Fonte: SAPS/MS.
 
 Os profissionais da equipe que acessam este módulo podem fazer o filtro por Microárea. Quando o gerente da unidade acessar o módulo, ele poderá fazer o filtro tanto por equipe quanto por microárea.
@@ -61,7 +61,7 @@ Em seguida há o campo obrigatório Grupo-Alvo em que podem ser selecionadas as 
 
 Figura 11.4 - Grupos Alvo
 
-![](media/busca_ativa/pec_image991.PNG)
+![](media/busca_ativa/pec_image991.png)
 
 Fonte: SAPS/MS.
 
@@ -73,7 +73,7 @@ No campo obrigatório "Status da Vacina", quando o Tipo de visualização (Figur
 
 Figura 11.5 - Status da Vacina
 
-![](media/busca_ativa/pec_image992.PNG)
+![](media/busca_ativa/pec_image992.png)
 
 Fonte: SAPS/MS.
 
