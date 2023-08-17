@@ -1486,7 +1486,11 @@ A classificação da prioridade também é um campo obrigatório e pode ser Baix
 
 ![](media/pec_atend_4.png)
 
-No campo Discussão de Caso Clínico o profissional que está solicitando apoio deve fazer uma descrição
+No campo Discussão de Caso Clínico o profissional que está solicitando apoio deve fazer uma descrição do caso de forma objetiva, com a descrição das informações relevantes e o que motivou a hipótese diagnóstica.
+
+Em seguida há o campo perguntando se o cidadão concorda em ter atendimentos com a equipe multiprofissional mediado por tecnologia. Este campo é obrigatório e deve ser marcado "Sim" ou "Não".
+
+Ao clicar em 
 
 
 ## 6.4.4 Problemas / Condições e Alergias
