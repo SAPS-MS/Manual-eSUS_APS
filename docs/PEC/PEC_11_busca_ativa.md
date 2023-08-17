@@ -21,7 +21,7 @@ Este módulo visa proporcionar aos gestores de UBS e profissionais de saúde uma
 - TOC
 {:toc}
 
-![](media/pec_image987.PNG)
+![](media/busca_ativa/pec_image987.PNG)
 
 A busca ativa é uma das atividades da Estratégia de Saúde da Família. Ela é uma ação que pode ser realizada por todos os membros da equipe em seu território de referência, tendo o Agente Comunitário de Saúde protagonismo nessa atividade por seu vínculo com esse território.
 
@@ -31,7 +31,7 @@ No PEC, a partir da versão 5.1, está disponível o módulo de busca ativa, que
 
 Figura 11.1 - Tipos de relatórios de busca ativa 
 
-![](media/pec_image988.PNG)
+![](media/busca_ativa/pec_image988.png)
 
 {: .nota }
 A Busca ativa mostrará apenas os usuários cadastrados na equipe, pois são pessoas do território, as quais a equipe tem vínculo e possibilidade de fazer intervenções de saúde.
@@ -44,7 +44,7 @@ Nessa perspectiva, este módulo instrumentaliza as equipes atuantes na APS com r
 A Figura 11.2 mostra a tela inicial da Busca Ativa de Vacinação. Este módulo pode ser acessado por todos os profissionais da equipe atuante na APS.
 
 Figura 11.2 - Tela de Busca Ativa
-![](media/pec_image989.PNG)
+![](media/busca_ativa/pec_image989.PNG)
 Fonte: SAPS/MS.
 
 Os profissionais da equipe que acessam este módulo podem fazer o filtro por Microárea. Quando o gerente da unidade acessar o módulo, ele poderá fazer o filtro tanto por equipe quanto por microárea.
@@ -53,15 +53,15 @@ Há dois tipos de visualização: Calendário Vacinal (que mostra as vacinas de 
 
 Figura 11.3 - Tipos de Visualização
 
-![](media/pec_image990.PNG)
+![](media/busca_ativa/pec_image990.PNG)
 
 Fonte: SAPS/MS.
 
-Em seguida há o campo obrigatório Grupo-Alvo em que podem ser selecionadas as opções Criança (0 a 9 anos) e Adolescentes (10 a 19 anos), como mostra a Figura 11.4.
+Em seguida há o campo obrigatório Grupo-Alvo em que podem ser selecionadas as opções Criança (0 a 9 anos), Adolescentes (10 a 19 anos) e Gestantes como mostra a Figura 11.4. No grupo gestantes ficam gestantes e puérperas.
 
 Figura 11.4 - Grupos Alvo
 
-![](media/pec_image991.PNG)
+![](media/busca_ativa/pec_image991.PNG)
 
 Fonte: SAPS/MS.
 
@@ -73,7 +73,7 @@ No campo obrigatório "Status da Vacina", quando o Tipo de visualização (Figur
 
 Figura 11.5 - Status da Vacina
 
-![](media/pec_image992.PNG)
+![](media/busca_ativa/pec_image992.PNG)
 
 Fonte: SAPS/MS.
 
@@ -87,7 +87,7 @@ Há disponível alguns Filtros avançados nesse módulo, conforme mostra a Figur
 
 Figura 11.6 - Filtros Avançados
 
-![](media/pec_image993.png)
+![](media/busca_ativa/pec_image993.png)
 
 Fonte: SAPS/MS.
 
@@ -96,25 +96,25 @@ No filtro "Imunobiológico" é possível selecionar um ou mais imunobiológicos 
 {: .atencao }
 Ao selecionar um imunobiológico ou dose no campo Filtros avançados, o relatório mostrará todos os cidadãos com o imunobiológico e/ou dose selecionadas no filtro. Porém, como o relatório é exibido por cidadão, as outras doses atrasadas ou no prazo desse cidadão continuarão a ser exibidas. Isto é, apenas cidadãos que não tiverem os imunobiológico e/ou doses no status de vacina selecionado, deixarão de ser exibidos.
 
-Após a seleção dos campos do módulo deve-se clicar em ![](media/pec_image994.jpg) para exibir em tela os cidadão naquelas condições, como mostra a Figura 11.7.
+Após a seleção dos campos do módulo deve-se clicar em ![](media/busca_ativa/pec_image994.jpg) para exibir em tela os cidadão naquelas condições, como mostra a Figura 11.7.
 
 Figura 11.7 - Exibição em tela da listagem da Busca Ativa
 
 (A) Relatório de Vacinas do Calendário Vacinal
 
-![](media/pec_image995.png)
+![](media/busca_ativa/pec_image995.png)
 
 (B) Relatório de Vacinas de Covid-19
 
-![](media/pec_image996.png)
+![](media/busca_ativa/pec_image996.png)
 
 Fonte: SAPS/MS.
 
-É possível gerar relatório em planilha ao clicar em ![](media/pec_image997.png). Nesse formato será exibido a listagem de cidadãos, data de nascimento, idade, CPF, CNS, Telefones de contato e endereço, bem como status da vacina, imunobiológicos e doses. O Formato desse relatório pode ser visualizado na Figura 11.8.
+É possível gerar relatório em planilha ao clicar em ![](media/busca_ativa/pec_image997.png). Nesse formato será exibido a listagem de cidadãos, data de nascimento, idade, CPF, CNS, Telefones de contato e endereço, bem como status da vacina, imunobiológicos e doses. O Formato desse relatório pode ser visualizado na Figura 11.8.
 
 Figura 11.8 - Relatório em CSV
 
-![](media/pec_image998.png)
+![](media/busca_ativa/pec_image998.png)
 
 Fonte: SAPS/MS.
 
