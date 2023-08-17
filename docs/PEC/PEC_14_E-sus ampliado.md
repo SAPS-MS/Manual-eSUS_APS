@@ -1,3 +1,14 @@
+---
+layout: default
+title: Busca ativa
+parent: Prontuário Eletrônico do Cidadão v5.0
+nav_order: 16
+has_children: false
+has_toc: true
+last_modified_date: "02/05/2023"
+---
+
+
 # CAPÍTULO 14 - E-sus ampliado
 {: .no_toc }
 
