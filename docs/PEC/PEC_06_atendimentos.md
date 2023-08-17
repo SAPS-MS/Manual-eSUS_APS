@@ -1490,8 +1490,17 @@ No campo Discussão de Caso Clínico o profissional que está solicitando apoio 
 
 Em seguida há o campo perguntando se o cidadão concorda em ter atendimentos com a equipe multiprofissional mediado por tecnologia. Este campo é obrigatório e deve ser marcado "Sim" ou "Não".
 
-Ao clicar em 
+Ao clicar em ![](media/pec_atend_5.png) gera um novo compartilhamento do cuidado na lista de todos os compartilhamentos que o cidadão teve ao longo do acompanhamento dele.
 
+Figura 6.4.37 - Lista de cuidados compartilhados do cidadão
+
+![](media/pec_atend_6.png)
+
+Fonte: SAPS/MS.
+
+A lista de cuidados compartilhados do cidadão mostra a lista de todos os compartilhamentos feitos com o nome do profissional que foi solicitado a participar do cuidado, a prioridade definida no momento do atendimento individual e a data que ocorreu. 
+
+Ao clicar para abrir ao lado esquerdo da data há o resumo do que foi colocado no momento do compartilhamento: problemas/condições que trazem a hipótese diagnóstica; o relato de caso mostra o que foi descrito na discussão de caso para começar a comunicação entre profissionais; a opção do cidadão sobre a possibilidade de uso de tecnologia para o atendimento e o profissional que solicitou esse compartilhamento.
 
 ## 6.4.4 Problemas / Condições e Alergias
 
