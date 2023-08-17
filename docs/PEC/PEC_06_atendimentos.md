@@ -2819,6 +2819,55 @@ Esse modelo de informação quando usado pelos diversos níveis de atenção via
 
 O envio do RAC à RNDS é feito ao finalizar o atendimento individual.
 
+# 6.10 E-sus ampliado
+
+Essa funcionalidade permite que o PEC seja instalado e utilizado em outros níveis de atenção à saúde, que não sejam da Atenção Primária à Saúde.
+
+
+Serão reconhecidos como estabelecimentos passíveis da utilização do e-sus ampliado:
+
+•	Policlínicas (CNES do tipo 04)
+
+•	Pronto atendimentos (CNES do tipo 73 e subtipo 001, 002 ou 003)
+
+## 6.10.1 Policlínica
+
+### 6.10.1.1 Procedimentos automáticos
+
+Para este tipo de estabelecimento serão utilizados os seguintes procedimentos automáticos no PEC:
+
+Atendimentos individuais
+
+![](media/esusamp1.png)
+
+Atendimentos odontológicos
+
+![](media/esusamp2.png)
+
+## 6.10.2 Pronto Atendimento
+
+### 6.10.2.1 Procedimentos automáticos
+
+Para este tipo de estabelecimento serão utilizados os seguintes procedimentos automáticos no PEC:
+
+Atendimentos individuais 
+
+![](media/esusamp3.png)
+
+Atendimentos odontológicos
+
+![](media/esusamp4.png)
+
+Escuta inicial 
+
+Procedimento: "03.01.06.011-8 - ACOLHIMENTO COM CLASSIFICAÇÃO DE RISCO" 
+
+### 6.10.2.2 Demais regras
+
+• A lista de atendimento deve mostrar a data e a hora em que o cidadão foi inserido caso o cidadão tenha sido inserido em datas anteriores a hoje.
+
+•	Na primeira vez que um usuário entrar no módulo de Lista de atendimento o sistema deve aplicar os filtros de "Em atendimento", "Em escuta inicial" e "Aguardando atendimento" e que foram inseridos nas últimas 24 horas.
+
 # ANEXOS
 
 Lista de Notificações SINAN disponíveis
