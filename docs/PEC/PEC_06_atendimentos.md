@@ -1512,7 +1512,7 @@ A ferramenta "Problemas/Condições e Alergias" auxilia o profissional de saúde
 
 Ao acessar esta funcionalidade, o sistema exibe uma tela com a lista de problemas do indivíduo, que podem estar ativos, latentes ou resolvidos. Segundo Weed (1968, apud CANTALE), um problema clínico é tudo aquilo que requeira diagnóstico e manejo posterior, ou aquilo que interfira com a qualidade de vida, de acordo com a percepção da própria pessoa. Como exemplos de problemas e condições a serem incluídos nessa ferramenta, tem-se: diagnósticos, deficiências, sintomas, sinais, fatores de risco e condições socioeconômicas.
 
-Figura 6.4.36 - Problemas/Condições e Alergias
+Figura 6.4.38 - Problemas/Condições e Alergias
 
 ![](media/pec_image475.png)
 
