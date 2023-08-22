@@ -1349,7 +1349,7 @@ Ao clicar em "Confirmar e avançar", será realizada a conclusão de solicitaç�
 
 ![](media/pec_image1042.png)
 
-Na tela de credenciais geradas, será possível ter acesso ao ID do solicitante e ao certificado que deverá ser importate no PEC, conforme item 3.2.14.
+Na tela de credenciais geradas, será possível ter acesso ao ID do solicitante e ao certificado que deverá ser informado no PEC, conforme item 3.2.14.
 
 ![](media/pec_image1043.png)
 
