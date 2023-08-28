@@ -1396,4 +1396,3 @@ Figura 3.12.8 - Configuração RNDS
 Fonte: SAPS/MS
 
 Após habilitado o acesso à RNDS, caso seja necessário desabilitá-lo, basta clicar no botão "Desabilitar", conforme a figura 3.12.8. Ao desabilitar o certificado digital o botão de acesso a RNDS na tela de atendimento do PEC (Figura 3.12.7) não será mais apresentado.
-
