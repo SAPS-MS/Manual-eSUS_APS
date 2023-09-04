@@ -9,7 +9,7 @@ last_modified_date: "02/05/2023"
 ---
 
 
-# CAPÍTULO 12 - Videochamadas
+# CAPÍTULO 13 - Videochamadas
 {: .no_toc }
 
 Este módulo permite que os profissionais do PEC realizem teleinterconsultas com profissionais internos ou externos a unidade, assim essa modalidade de consulta entre dois profissionais pode agora ser feita através de um canal oficial de comunicação, com ou sem a presença do cidadão em questão.
@@ -20,11 +20,11 @@ Este módulo permite que os profissionais do PEC realizem teleinterconsultas com
 Para utilizar essa nova funcionalidade, é necessário que o acesso à instalação seja feito utilizando o protocolo HTTPS e que o Administrador da Instalação habilite as videochamadas nas configurações de internet:
 
 Figura 11.1 Configurações de Intalação
-![](media/pec_imagevideochamada1.png)
+![](media/video1.png)
 
 Após realizar habilitação para videochamadas no pec eSUS APS, será criada uma nova chamada no módulo Videochamadas
 
-![](media/v%C3%ADdeochamada.png)
+![](media/video2.png)
 
 Será criado um link de acesso para o profissional com quem se deseja realizar a teleinterconsulta, seja ele usuário do PEC ou não. O profissional que receber o link consegue então acessar a teleinterconsulta após preencher seus dados.
 
@@ -36,7 +36,7 @@ Para iniciar a telechamada, primeiro o profissional que estiver realizando o ate
 
 
 Figura 11.2 Tela inicial do módulo Teleinterconsulta
-![](media/pec_imagevideochamada2.png)
+![](media/video3.png)
 Fonte: SAPS/MS.
 
 Após a confirmação se o cidadão estará participando da Teleinterconsulta, o profissional deverá habilitar microfone e câmera e clicar em (Criar chamada).
@@ -46,7 +46,7 @@ Após a confirmação se o cidadão estará participando da Teleinterconsulta, o
 Após clicar em "Criar chamada", será gerado um Termo de Responsabilidade para o profissional estar ciente das informações descritas no termo.
 
 Figura 11.3: Termo de Responsabilidade Profissional da Saúde
-![](media/pec_imagevideochamada3.png)
+![](media/video4.png)
 
 O Termo de Responsabilidade do Profissional da Saúde, é o documento que informa tópicos necessários que o profissional precisa estar ciente antes de iniciar o atendimento, além de trazer informações relevantes a respeito dessa aplicação.
 
@@ -58,7 +58,7 @@ Ao relaizar a leitura do termo, clicar em "Continuar" para gerar o Termo de Cons
 O Termo de Consentimento Livre e Esclarecido do Cidadão estará disponível para o cidadão presente na consulta que participará da Teleinterconsulta na companhia do profissional.
 
 Figura 11.4 Termo de Consentimento Livre e Eclarecido Cidadão
-![](media/pec_imagevideochamada4.png)
+![](media/video5.png)
 
 É dever do profissional que está presente com o cidadão, realizar a leitura do Termo de Consentimento para o mesmo e pergunta-lo se há consentimento. 
 
