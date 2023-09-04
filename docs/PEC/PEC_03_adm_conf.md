@@ -158,6 +158,18 @@ Ao ativar a Agenda Online o sistema irá sincronizar as informações de agendam
 
 Para desabilitar a sincronização com o Servidor de Agenda Online basta clicar no botão "Desabilitar".
 
+### 3.1.1.3 Teleinterconsulta
+
+
+
+
+
+
+
+
+
+
+
 ## 3.1.2 Segurança
 
 Na aba "Segurança", o **administrador da instalação** poderá configurar itens para a segurança do sistema, tais como:
