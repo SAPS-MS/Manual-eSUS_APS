@@ -5,7 +5,7 @@ parent: Prontuário Eletrônico do Cidadão v5.0
 nav_order: 16
 has_children: false
 has_toc: true
-last_modified_date: "02/05/2023"
+last_modified_date: "18/08/2023"
 ---
 
 
@@ -15,53 +15,37 @@ last_modified_date: "02/05/2023"
 Este módulo permite que os profissionais acessem os casos em que foi necessário compartilhar o cuidado do cidadão com uma outra equipe. 
 
 
-## 14.1 
+## 14.1 Começando o Compartilhamento do cuidado
 
-Para utilizar essa nova funcionalidade, é necessário que o acesso à instalação seja feito utilizando o protocolo HTTPS e que o Administrador da Instalação habilite as videochamadas nas configurações de internet:
-
-Figura 11.1 Configurações de Intalação
-![](media/pec_imagevideochamada1.png)
-
-Após realizar habilitação para videochamadas no pec eSUS APS, será criada uma nova chamada no módulo Videochamadas
-
-![](media/v%C3%ADdeochamada.png)
-
-Será criado um link de acesso para o profissional com quem se deseja realizar a teleinterconsulta, seja ele usuário do PEC ou não. O profissional que receber o link consegue então acessar a teleinterconsulta após preencher seus dados.
-
-##  11.2 Módulo Videochamada e-SUS APS
-
-Nesta funcionalidade é possível realizar teleinterconsultas diretamente no PEC através do novo módulo Videochamadas.
-
-Para iniciar a telechamada, primeiro o profissional que estiver realizando o atendimento deve sinalizar se o cidadão participará presencialmente da teleinterconsulta.
+O Compartilhamento do Cuidado é iniciado na parte de Plano do SOAP no momento do um atendimento individual realizado por um profissional de nível superior. A descrição desta ferramenta no Atendimento Individual está disponível no item 6.4.3.4.7 Ferramentas do Plano - Compartilhamento do Cuidado.
 
 
-Figura 11.2 Tela inicial do módulo Teleinterconsulta
-![](media/pec_imagevideochamada2.png)
+## 14.2 Módulo Compartilhamento do Cuidado
+
+Após o profissional Compartilhar o Cuidado no momento do Atendimento Individual, o caso passará a fazer parte de uma lista de casos num módulo específico do Compartilhamento do Cuidado. Para acessar esta lista de casos deve-se acessar no menu lateral esquerdo do PEC, em Gestão de filas, a parte do Cuidados Compartilhados. 
+
+![](media/comp_cuidado/pec_image1.png)
+
+Ao clicar neste módulo vai aparecer a listagem de todos os cidadãos que estão com casos compartilhados entre equipes.
+
+Figura 14.1 - Tela de Cuidados compartilhados 
+
+![](media/comp_cuidado/pec_image2.png)
+
 Fonte: SAPS/MS.
 
-Após a confirmação se o cidadão estará participando da Teleinterconsulta, o profissional deverá habilitar microfone e câmera e clicar em (Criar chamada).
+Este relatório é dividido em duas listas:
 
-# 11.3 Termo de Responsabiliade Profissional de Saúde
+**Solicitados por mim:** São todos os casos que são solicitados pelo profissional que está visualizando a listagem. Ou seja, todos os casos que aquele profissional que está visualizando sentiu necessidade de compartilhar com profissional da equipe multiprofissional.
 
-Após clicar em "Criar chamada", será gerado um Termo de Responsabilidade para o profissional estar ciente das informações descritas no termo.
+**Compartilhados comigo:** São todos os casos que um profissional de outra equipe solicitou ajuda do profissional que está visualizando.
 
-Figura 11.3: Termo de Responsabilidade Profissional da Saúde
-![](media/pec_imagevideochamada3.png)
+As listas têm informação de:
+- Data de início: Data que o caso foi compartilhado em um atendimento individual e iniciou o processo. 
 
-O Termo de Responsabilidade do Profissional da Saúde, é o documento que informa tópicos necessários que o profissional precisa estar ciente antes de iniciar o atendimento, além de trazer informações relevantes a respeito dessa aplicação.
+- Prioridade: Classificação do caso compartilhado feita pelo profissional no momento do atendimento individual que iniciou o processo.
 
-Ao relaizar a leitura do termo, clicar em "Continuar" para gerar o Termo de Consentimento Livre e Esclarecido do Cidadão.
+- Solicitante: Profissional que iniciou o processo de compartilhamento do cuidado no atendimento individual.
 
+- Executante: Profissional que foi selecionado para ajudar na condução do caso clínico compartilhado.
 
-# 11.4 Termo de Consentimento Livre e Esclarecido Cidadão
-
-O Termo de Consentimento Livre e Esclarecido do Cidadão estará disponível para o cidadão presente na consulta que participará da Teleinterconsulta na companhia do profissional.
-
-Figura 11.4 Termo de Consentimento Livre e Eclarecido Cidadão
-![](media/pec_imagevideochamada4.png)
-
-É dever do profissional que está presente com o cidadão, realizar a leitura do Termo de Consentimento para o mesmo e pergunta-lo se há consentimento. 
-
-Após leitura e concordancia do cidadão, clicar em " Cidadão está ciente e concorda com a realização da teleinterconsulta" e a chamada será iniciada. 
-
-Nota: Atualmente este módulo não gera produção para agregar nos relatórios de atendimentos das equipes. Portanto faz-se necessário o registro do atendimento individual por meio da Ficha de Atendimento Individual (FAI). 
