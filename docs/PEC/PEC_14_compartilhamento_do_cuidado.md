@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Busca ativa
+title: Compartilhamento do cuidado
 parent: Prontuário Eletrônico do Cidadão v5.0
 nav_order: 16
 has_children: false
 has_toc: true
-last_modified_date: "18/08/2023"
+last_modified_date: "04/09/2023"
 ---
 
 
