@@ -15,7 +15,7 @@ last_modified_date: "02/05/2023"
 Este módulo permite que os profissionais do PEC realizem teleinterconsultas com profissionais internos ou externos a unidade, assim essa modalidade de consulta entre dois profissionais pode agora ser feita através de um canal oficial de comunicação, com ou sem a presença do cidadão em questão.
 
 
-## 11.1 Configurações de Instalação.
+## 11.1 Configurações de Instalação
 
 Para utilizar essa nova funcionalidade, é necessário que o acesso à instalação seja feito utilizando o protocolo HTTPS e que o Administrador da Instalação habilite as videochamadas nas configurações de internet:
 
