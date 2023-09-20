@@ -9,7 +9,7 @@ last_modified_date: "05/07/2021"
 ---
 
 
-# CAPÍTULO 3 - Administração e Configurações do Sistema.
+# CAPÍTULO 3 - Administração e Configurações do Sistema
 {: .no_toc }
 
 Este capítulo apresenta as funções de administração e configurações do sistema.
