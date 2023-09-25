@@ -212,7 +212,9 @@ Em condições excepcionais, é possível solicitar a redefinição de senhas de
 
 Esta funcionalidade permite que o **administrador da instalação** configure o servidor da sua instalação e um servidor SMTP para disponibilizar a opção de \"Esqueci minha senha\" na tela de login. Esta opção permite que os profissionais redefinam suas senhas via e-mail.
 
-Para configurar o servidor da instalação do sistmea e-SUS APS com PEC, siga os passos abaixo:
+### 3.1.3.1 Servidor da instalação do PEC
+
+Para configurar o servidor da instalação do sistema e-SUS APS com PEC, siga os passos abaixo:
 
 ![](media/pec_image102.png)
 
@@ -221,6 +223,8 @@ Para configurar o servidor da instalação do sistmea e-SUS APS com PEC, siga os
 2\. No campo "Link da instalação", informe o endereço ou IP de acesso do servidor PEC que está disponível para acesso via internet. Se a porta não for informada no link, o sistema utilizará a porta padrão (80); e
 
 3\. Clique em "Salvar" para concluir.
+
+### 3.1.3.2 Servidor SMTP
 
 Para configurar o servidor SMTP para envio de e-mail, siga os passos abaixo:
 
