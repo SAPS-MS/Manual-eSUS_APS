@@ -1321,12 +1321,6 @@ Essa funcionalidade permitirá que os profissionais prescritores do PEC possam o
 
 •	Contribuir com a Estratégia de Saúde Digital (ESD) 2020-2028.
 
-Para habilitar a prescrição digital, a instalação local irá precisar atender aos seguintes requisitos:
-
-•	Possuir o HTTPS configurado (para garantir a segurança da navegação)
-
-•	Ter em sua instalação local um servidor de SMTP (para envio de e-mails)
-
 {: .nota }
 para acessar o serviço de prescrição digital, será necessário abrir um chamado em nosso canal de suporte https://esusaps.freshdesk.com/support/login de modo provisório, até que seja definido um novo fluxo.
 
