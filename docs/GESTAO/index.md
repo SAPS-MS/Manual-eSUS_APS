@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Gestão e-SUS APS v1.0
+title: Gestão e-SUS APS
 nav_order: 5
 nav_exclude: false
 has_children: true
-last_modified_date: "01/02/2021"
+last_modified_date: "25/09/2023"
 description: "Manual do aplicativo Gestão e-SUS APS"
 permalink: /docs/GESTAO
 ---
@@ -52,13 +52,13 @@ Site: <http://sisaps.saude.gov.br/esus/><br>
 E-mail: <lista.cgesf.desf@saude.gov.br>
 
 **Supervisor Geral**<br>
-Renata Maria de Oliveira Costa
+Nésio Fernandes de Medeiros Junior
 
 **Coordenação Técnica Geral**<br>
-Marcelo Alves Miranda 
+Rodrigo André Cuevas Gaete
 
 **Organização**<br>
-Ana Claudia Cielo, Janaína Guimarães, Elaine de Almeida, Willian Soares Lima.
+Elaine de Almeida, Igor de Carvalho Gomes, Ingryd Isabelle Maia de Souza, Janaína Nogueira Guimarães, Romario Araujo Matias Rocha, Willian Soares Lima.
 
 **Revisão Técnica**<br>
 Ana Claudia Cielo, Janaína Guimarães, Elaine de Almeida, Willian Soares Lima.

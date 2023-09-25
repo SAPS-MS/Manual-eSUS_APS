@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Coleta de Dados Simplificada (CDS)
-parent: Prontuário Eletrônico do Cidadão v5.0
+parent: Prontuário Eletrônico do Cidadão
 nav_order: 9
 has_children: false
 has_toc: true
-last_modified_date: "03/02/2021"
+last_modified_date: "25/09/2023"
 ---
 
 # CAPÍTULO 7 - Coleta de Dados Simplificada (CDS)

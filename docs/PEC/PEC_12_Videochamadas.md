@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Vídeochamadas
-parent: Prontuário Eletrônico do Cidadão v5.0
+parent: Prontuário Eletrônico do Cidadão
 nav_order: 14
 has_children: false
 has_toc: true
-last_modified_date: "25/07/2023"
+last_modified_date: "25/09/2023"
 ---
 
 # CAPÍTULO 12 - Videochamadas

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Introdução
-parent: e-SUS Vacinação v3.0
+parent: e-SUS Vacinação
 nav_order: 1
 has_children: false
 last_modified_date: "30/05/2023"

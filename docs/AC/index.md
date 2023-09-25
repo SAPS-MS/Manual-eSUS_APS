@@ -1,10 +1,10 @@
 ---
 layout: default
-title: e-SUS Atividade Coletiva v1.3
+title: e-SUS Atividade Coletiva
 nav_order: 5
 nav_exclude: false
 has_children: true
-last_modified_date: "01/02/2021"
+last_modified_date: "25/09/2023"
 description: "Manual e-SUS APS"
 permalink: /docs/ac
 ---
@@ -52,13 +52,13 @@ Site: <http://sisaps.saude.gov.br/esus/><br>
 E-mail: <cgiap@saude.gov.br>
 
 **Supervisor Geral**<br>
-Renata Maria de Oliveira Costa
+Nésio Fernandes de Medeiros Junior
 
 **Coordenação Técnica Geral**<br>
-João Geraldo de Oliveira Júnior
+Rodrigo André Cuevas Gaete
 
 **Organização**<br>
-Ana Claudia Cielo, Igor de Carvalho Gomes
+Elaine de Almeida, Igor de Carvalho Gomes, Ingryd Isabelle Maia de Souza, Janaína Nogueira Guimarães, Romario Araujo Matias Rocha, Willian Soares Lima.
 
 **Revisão Técnica**<br>
 Ana Claudia Cielo, Igor de Carvalho Gomes, Micael Macedo Pereira da Trindade, André Cury Alves, João Geraldo de Oliveira Júnior

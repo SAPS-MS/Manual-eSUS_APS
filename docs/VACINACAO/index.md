@@ -1,6 +1,6 @@
 ---
 layout: default
-title: e-SUS Vacinação v3.0
+title: e-SUS Vacinação
 nav_order: 6
 nav_exclude: false
 has_children: true
@@ -55,10 +55,10 @@ E-mail: <cgiap@saude.gov.br>
 Nésio Fernandes de Medeiros Junior
 
 **Coordenação Técnica Geral**<br>
-Rodrigo André Cuevas Gaete 
+Rodrigo André Cuevas Gaete
 
 **Organização**<br>
-Igor de Carvalho Gomes, Ingryd Isabelle Maia de Souza e Janaína Nogueira Guimarães
+Elaine de Almeida, Igor de Carvalho Gomes, Ingryd Isabelle Maia de Souza, Janaína Nogueira Guimarães, Romario Araujo Matias Rocha, Willian Soares Lima.
 
 **Revisão Técnica**<br>
 Ana Claudia Cielo, André Cury Alves, Bruno Costa Mariani Maciel, Francy Webster de Andrade Pereira, Igor de Carvalho Gomes, Ingryd Isabelle Maia de Souza, Janaína Nogueira Guimarães, João Geraldo de Oliveira Júnior, Viviane Loiola Lacerda e Willian Soares Lima

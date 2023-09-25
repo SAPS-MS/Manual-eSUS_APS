@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Atendimentos
-parent: Prontuário Eletrônico do Cidadão v5.0
+parent: Prontuário Eletrônico do Cidadão
 nav_order: 8
 has_children: false
 has_toc: true
-last_modified_date: "20/07/2021"
+last_modified_date: "25/09/2023"
 ---
 
 # CAPÍTULO 6 - Atendimentos.

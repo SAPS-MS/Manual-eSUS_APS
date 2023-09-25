@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Prontuário Eletrônico do Cidadão v5.1
+title: Prontuário Eletrônico do Cidadão
 nav_order: 2
 has_children: true
 description: "Manual e-SUS APS"
