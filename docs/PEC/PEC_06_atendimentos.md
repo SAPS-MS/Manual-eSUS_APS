@@ -1081,7 +1081,7 @@ Fonte: SAPS/MS.
 
 Os exames que têm alta complexidade são classificados como exames de **alto custo**. Os exames que têm menor custo e baixa densidade tecnológica são classificados como exames **comuns** e não precisam de detalhamento maior, apenas os dados clínicos do cidadão.
 
-#### 6.4.3.4.2.1 Solicitar um exame **Comum**:
+##### 6.4.3.4.2.1 Solicitar um exame **Comum**:
 
 Para criar uma solicitação de exame **Comum** basta seguir os passos a seguir:
 
@@ -1118,7 +1118,7 @@ Esta é uma alternativa que agiliza a requisição de exames, visto que são apr
 
 - Passo 3. Para concluir, clique no botão ![](media/pec_image432.png).
 
-### 6.4.3.4.2.2 Solicitar exames de **Alto Custo**
+##### 6.4.3.4.2.2 Solicitar exames de **Alto Custo**
 
 Para cadastrar a solicitação de um exame de "**Alto Custo**" é necessário adicionar o exame e justificar a solicitação, informando o CID10 e motivo do procedimento, de acordo com os passos a seguir:
 
@@ -1294,7 +1294,7 @@ Figura 6.4.26 - Modelo do Receituário Impresso no PEC
 
 Fonte: SAPS/MS.
 
-#### 6.4.3.4.4 Ferramentas do Plano - Prescrição Digital
+##### 6.4.3.4.3.1 Ferramentas do Plano - Prescrição Digital
 
 Essa funcionalidade permitirá que os profissionais prescritores do PEC possam optar por emitir e assinar suas receitas de forma digital por meio de certificados e chaves da Infraestrutura de Chaves Públicas Brasileira – ICP-Brasil. Esse novo recurso proporciona uma série de vantagens como: 
 
@@ -1359,7 +1359,7 @@ Ao final deste processo, o botão registrar medicamento deverá ser acionado a f
 esse fluxo não invalida a necessidade de realizar os controles internos de estoque/dispensação das farmácias ou dispensários. 
 
 
-#### 6.4.3.4.5 Ferramentas do Plano - Orientações
+#### 6.4.3.4.4 Ferramentas do Plano - Orientações
 
 Esta ferramenta permite ao profissional de saúde registrar orientações a serem entregues ao paciente. Por exemplo, podem ser escritas orientações alimentares ou sobre cuidados a sua saúde.
 
@@ -1396,7 +1396,7 @@ Fonte: SAPS/MS.
 
 - Passo 5. Para "Excluir" as "Orientações" registradas clique em ![](media/pec_image964.png).
 
-#### 6.4.3.4.6 Ferramentas do Plano - Encaminhamentos
+#### 6.4.3.4.5 Ferramentas do Plano - Encaminhamentos
 
 Esta ferramenta oferta aos profissionais a possibilidade de registrar e gerar a impressão da solicitação de encaminhamento para atendimento em serviços de atenção especializada.
 
