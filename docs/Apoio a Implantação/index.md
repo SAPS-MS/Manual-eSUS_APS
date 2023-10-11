@@ -6,7 +6,7 @@ nav_exclude: false
 has_children: true
 last_modified_date: "02/06/2023"
 description: "Lei Geral de Proteção de Dados - LGPD"
-permalink: /docs/LGPD
+permalink: /docs/Apoio a Implantação
 ---
 
 # CAPÍTULO 15 - Apoio a Implantação
