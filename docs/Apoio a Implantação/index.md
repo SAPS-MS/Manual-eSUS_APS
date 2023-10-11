@@ -1,11 +1,12 @@
 ---
 layout: default
-title: Apoio a Implantação
-parent: Prontuário Eletrônico do Cidadão
+title: LGPD
 nav_order: 7
-has_children: false
-has_toc: true
-last_modified_date: "11/10/2023"
+nav_exclude: false
+has_children: true
+last_modified_date: "02/06/2023"
+description: "Lei Geral de Proteção de Dados - LGPD"
+permalink: /docs/LGPD
 ---
 
 # CAPÍTULO 15 - Apoio a Implantação
