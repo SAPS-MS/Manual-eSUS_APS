@@ -1,6 +1,6 @@
 ---
 layout: default
-title: LGPD
+title: Apoio a Implantação
 nav_order: 7
 nav_exclude: false
 has_children: true
