@@ -14,7 +14,7 @@ last_modified_date: "02/05/2023"
 
 Este módulo permite que os profissionais do PEC realizem teleinterconsultas com profissionais internos ou externos à UBS, por meio de videochamada. Neste caso, o cidadão poderá ou não estar presente na chamada e a mesma será conduzida através de um canal oficial de comunicação garantindo a segurança desta ação.
 
-#  11.1 Módulo Videochamada e-SUS APS
+#  13.1 Módulo Videochamada e-SUS APS
 
 Após realizar habilitação para videochamadas no pec e-SUS APS, será criada uma nova chamada no módulo Videochamadas
 
@@ -27,7 +27,7 @@ Fonte: SAPS/MS.
 
 Após a confirmação se o cidadão estará participando da Teleinterconsulta, o profissional deverá habilitar microfone e câmera e clicar em (Criar chamada).
 
-# 11.2 Termo de Responsabiliade Profissional de Saúde
+# 13.2 Termo de Responsabiliade Profissional de Saúde
 
 Após clicar em "Criar chamada", será gerado um Termo de Responsabilidade para o profissional estar ciente das informações descritas no termo.
 
@@ -38,7 +38,7 @@ O Termo de Responsabilidade do Profissional da Saúde, é o documento que inform
 Ao relaizar a leitura do termo, clicar em "Continuar" para gerar o Termo de Consentimento Livre e Esclarecido do Cidadão.
 
 
-# 11.3 Termo de Consentimento Livre e Esclarecido Cidadão
+# 13.3 Termo de Consentimento Livre e Esclarecido Cidadão
 
 O Termo de Consentimento Livre e Esclarecido do Cidadão estará disponível para o cidadão presente na consulta que participará da Teleinterconsulta na companhia do profissional.
 
@@ -51,23 +51,23 @@ Após leitura e concordancia do cidadão, clicar em " Cidadão está ciente e co
 {: .nota }
 Atualmente este módulo não gera produção para agregar nos relatórios de atendimentos das equipes. Portanto faz-se necessário o registro do atendimento individual por meio da Ficha de Atendimento Individual (FAI).
 
-# 11.4 Compartilhamento da chamada
+# 13.4 Compartilhamento da chamada
 
 Após o aceite dos termos, a videochamada será iniciada. Sendo assim, um link de acesso estará disponível para envio. Esse link pode ser acessado por usuários que não estejam logados em uma instalação do PEC. 
 
 Para compartilhar o link com o outro participante, basta acionar o ícone ![](media/video9.png) clicar em "Compartilhar chamada" e escolher se deseja copiar o link e enviar em local oportuno ou até mesmo enviar via e-mail.
 
-Figura 11.4.1- Compartilhando a chamada
+Figura 13.4.1- Compartilhando a chamada
 
 ![](media/video14.png)
 
 O profissional que receber o link consegue então acessar a teleinterconsulta após preencher seus dados.
 
-# 11.5 Recursos da ferramenta 
+# 13.5 Recursos da ferramenta 
 
 O módulo de videchamadas dispõe de recursos que facilitam a comunicação durante seu uso.
 
-## 11.5.1 Compartilhamento de tela
+## 13.5.1 Compartilhamento de tela
 
 Ao clicar no ícone ![](media/video6.png) irá aparecer as seguintes opções de compartilhamento de tela: 
 
@@ -75,25 +75,25 @@ Ao clicar no ícone ![](media/video6.png) irá aparecer as seguintes opções de
 
 Após escolher a opção desejada, sua tela será compartilhada com o outro participante da chamada e ambos poderão visualizar a tela. Esse recurso auxilia por exemplo em casos onde o profissional gostaria de compartilhar o prontuário do cidadão com o outro profissional de saúde participante.
 
-Figura 11.5.1.1 - Tela sendo compartilhada em videochamada
+Figura 13.5.1.1 - Tela sendo compartilhada em videochamada
 
 ![](media/video8.png)
 
-## 11.5.2 Picture-in-picture
+## 13.5.2 Picture-in-picture
 
 Esse recurso permite a visualização da videochama em uma "pequena janela" simultaneamente à navegação do usuário em qualquer local de seu computador, seja no navegador, na área de trabalho, ou até mesmo durante o uso do PEC. 
 
 Para ativar o picture-in-picture basta clicar neste ícone ![](media/video9.png) e clicar na opção "Iniciar picture-in-picture" : ![](media/video10.png)
 
-Figura 11.5.2.1 - Picture-in-picture ativado
+Figura 13.5.2.1 - Picture-in-picture ativado
 
 ![](media/video11.png)
 
-## 11.5.3 Chat para envio de mensagens 
+## 13.5.3 Chat para envio de mensagens 
 
 Para utilizar o chat basta clicar em ![](media/video12.png) e um box de mensagens abrirá na lateral direita da videochamada. Dessa forma, os participantes da chamada também poderão se comunicar por meio da escrita.
 
-Figura 11.5.3.1 - Chat 
+Figura 13.5.3.1 - Chat 
 
 ![](media/video13.png)
 
