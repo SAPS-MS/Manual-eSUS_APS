@@ -12,7 +12,10 @@ last_modified_date: "02/05/2023"
 # CAPÍTULO 13 - Videochamadas
 {: .no_toc }
 
-Este módulo permite que os profissionais do PEC realizem teleinterconsultas com profissionais internos ou externos à UBS, por meio de videochamada. Neste caso, o cidadão poderá ou não estar presente na chamada e a mesma será conduzida através de um canal oficial de comunicação garantindo a segurança desta ação.
+Este módulo permite que os profissionais do PEC realizem videochamadas com profissionais internos ou externos à UBS ou outro estabelecimento de saúde que tenha o PEC instalado. Neste caso, o cidadão poderá ou não estar presente na chamada e a mesma será conduzida através de um canal oficial de comunicação garantindo a segurança desta ação.
+
+{: .nota }
+Uma das possíveis modalidades de uso desse módulo é a realização de Teleinterconsultas. 
 
 #  13.1 Módulo Videochamada e-SUS APS
 
@@ -20,14 +23,14 @@ Após realizar habilitação para videochamadas no pec e-SUS APS, será criada u
 
 ![](media/video2.png)
 
-Para iniciar a telechamada, primeiro o profissional que estiver realizando o atendimento deve sinalizar se o cidadão participará presencialmente da teleinterconsulta.
+Para iniciar a telechamada, inicialmente o profissional que estiver realizando o atendimento deve sinalizar se o cidadão participará presencialmente da videochamada. 
 
 ![](media/video3.png)
 Fonte: SAPS/MS.
 
-Após a confirmação se o cidadão estará participando da Teleinterconsulta, o profissional deverá habilitar microfone e câmera e clicar em (Criar chamada).
+Confirmada ou não a participação presencial do cidadão, o profissional deverá habilitar microfone e câmera e clicar em (Criar chamada).
 
-# 13.2 Termo de Responsabiliade Profissional de Saúde
+# 13.2 Termo de Responsabiliade - Profissional de Saúde
 
 Após clicar em "Criar chamada", será gerado um Termo de Responsabilidade para o profissional estar ciente das informações descritas no termo.
 
@@ -38,15 +41,15 @@ O Termo de Responsabilidade do Profissional da Saúde, é o documento que inform
 Ao relaizar a leitura do termo, clicar em "Continuar" para gerar o Termo de Consentimento Livre e Esclarecido do Cidadão.
 
 
-# 13.3 Termo de Consentimento Livre e Esclarecido Cidadão
+# 13.3 Termo de Consentimento Livre e Esclarecido - Cidadão
 
-O Termo de Consentimento Livre e Esclarecido do Cidadão estará disponível para o cidadão presente na consulta que participará da Teleinterconsulta na companhia do profissional.
+O Termo de Consentimento Livre e Esclarecido do Cidadão estará disponível para o cidadão que participará de forma presencial da videochamada na companhia do profissional.
 
 ![](media/video5.png)
 
 É dever do profissional que está presente com o cidadão, realizar a leitura do Termo de Consentimento para o mesmo e pergunta-lo se há consentimento. 
 
-Após leitura e concordancia do cidadão, clicar em " Cidadão está ciente e concorda com a realização da teleinterconsulta" e a chamada será iniciada. 
+Após leitura e concordancia do cidadão, clicar em " Cidadão está ciente e concorda com a realização da videochamada" e a chamada será iniciada. 
 
 {: .nota }
 Atualmente este módulo não gera produção para agregar nos relatórios de atendimentos das equipes. Portanto faz-se necessário o registro do atendimento individual por meio da Ficha de Atendimento Individual (FAI).
@@ -61,7 +64,7 @@ Figura 13.4.1- Compartilhando a chamada
 
 ![](media/video14.png)
 
-O profissional que receber o link consegue então acessar a teleinterconsulta após preencher seus dados.
+O profissional que receber o link consegue então acessar a videochamada após preencher seus dados.
 
 # 13.5 Recursos da ferramenta 
 
