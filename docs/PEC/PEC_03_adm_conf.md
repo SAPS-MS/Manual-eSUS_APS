@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Administração e Configurações do Sistema
-parent: Prontuário Eletrônico do Cidadão v5.0
+parent: Prontuário Eletrônico do Cidadão v5.2
 nav_order: 5
 has_children: false
 has_toc: true

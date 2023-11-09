@@ -44,27 +44,26 @@ LGPD
 
 **MINISTÉRIO DA SAÚDE**<br>
 Secretaria de Atenção Primária à Saúde<br>
-Departamento de Saúde da Família<br>
 Esplanada dos Ministérios - Bloco G - 7º andar<br>
 CEP: 70.058-900 – Brasília/DF<br>
 Tels.: (61) 3315-8090 / 3315-8044<br>
 Site: <http://sisaps.saude.gov.br/esus/><br>
-E-mail: <cgiap@saude.gov.br>
+Suporte: <http://esusaps.bridge.ufsc.br/support/login>
 
 **Supervisor Geral**<br>
-Renata Maria de Oliveira Costa
+Nésio Fernandes de Medeiros Junior
 
 **Coordenação Técnica Geral**<br>
-Michael Luiz Diana de Oliveira 
+Rodrigo André Cuevas Gaete
 
 **Organização**<br>
-Ana Claudia Cielo, João Geraldo de Oliveira Junior e Viviane Loiola Lacerda
+Francy Webster Pereira, Igor de Carvalho Gomes, Janaína Nogueira Guimarães, Willian Soares Lima.
 
 **Revisão Técnica**<br>
-Ana Claudia Cielo, André Cury Alves, Bruno Costa Mariani Maciel, João Geraldo de Oliveira Júnior, Viviane Loiola Lacerda e Willian Soares Lima
+Elaine de Almeida, Igor de Carvalho Gomes, Ingryd Isabelle Maia de Souza, Janaína Nogueira Guimarães, Marcelo Alves Miranda, Romario Araujo Matias Rocha, Viviane Loiola Lacerda, Willian Soares Lima.
 
 **Elaboração de texto**<br>
-Ana Claudia Cielo e João Geraldo de Oliveira Júnior
+Elaine de Almeida, Igor de Carvalho Gomes, Ingryd Isabelle Maia de Souza, Janaína Nogueira Guimarães, Romario Araujo Matias Rocha, Viviane Loiola Lacerda, Willian Soares Lima.
 
 **Projeto Gráfico**<br>
 Alexandre Soares de Brito e Diogo Ferreira Gonçalves
@@ -76,10 +75,10 @@ Alexandre Soares de Brito e Diogo Ferreira Gonçalves
 {: .text-center }
 
 Brasil. Ministério da Saúde. Secretaria de Atenção Primária à Saúde.<br>
-e-SUS Atenção Primária à Saúde: Manual do aplicativo e-SUS Vacinação – Versão 1.0 [recurso eletrônico] / Ministério da Saúde, Secretaria de Atenção Primária à Saúde, Secretaria Executiva. – Brasília: Ministério da Saúde, 2021.<br>
+e-SUS Atenção Primária à Saúde: Manual do Sistema com Prontuário Eletrônico do Cidadão PEC – Versão 5.2 [recurso eletrônico] / Ministério da Saúde, Secretaria de Atenção Primária à Saúde, Secretaria Executiva. – Brasília: Ministério da Saúde, 2023.<br>
 <br>
 ISBN **Versão Preliminar**<br>
 Modo de acesso: <https://aps.saude.gov.br/ape/esus><br>
 CDU 614<br>
 
-Catalogação na fonte – Coordenação-Geral de Documentação e Informação – Editora MS – OS 2021.
+Catalogação na fonte – Coordenação-Geral de Documentação e Informação – Editora MS – OS 2023.
