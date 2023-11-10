@@ -106,25 +106,30 @@ Figura 3.1.2
 
 Fonte: SAPS/MS
 
+A partir da versão 5.1.14 do e-SUS APS PEC é necessária a habilitação de alguns fatores dentro do PEC para que o CADSUS passe a funcionar em sua aplicação. Para verificar como realizar a habilitação dos serviços, siga o passo a passo na seção 3.1.13 - 
+"Acessando ao CADSUS por meio do PEC". 
+
+
+
 ### 3.1.1.2 Hórus
 
 Por meio dessa funcionalidade, desde a versão 2.1, o **administrador da instalação** pode ativar a integração com o Sistema Hórus. Para habilitar o recurso, a instalação precisa estar conectada à internet.
 
 Na opção "Hórus", o **administrador da instalação** poderá habilitar ou desabilitar o serviço Hórus, quando houver necessidade.
 
-Figura 3.1.3
+Figura 3.1.4
 
 ![](media/pec_image95.png)
 
 Fonte: SAPS/MS
 
-Figura 3.1.4
+Figura 3.1.5
 
 ![](media/pec_image96.png)
 
 Fonte: SAPS/MS
 
-Para desabilitar a conexão com o serviço do Hórus, conforme a Figura 3.1.3, siga os passos abaixo:
+Para desabilitar a conexão com o serviço do Hórus, conforme a Figura 3.1.1, siga os passos abaixo:
 
 1\. No combo box "Desabilitar durante", selecione uma das opções:
 
@@ -132,7 +137,7 @@ Para desabilitar a conexão com o serviço do Hórus, conforme a Figura 3.1.3, s
 
 2\. Clique no botão "Desabilitar" para concluir.
 
-Para habilitar a conexão com o HÓRUS clique no botão "Habilitar", conforme a Figura 3.1.4.
+Para habilitar a conexão com o HÓRUS clique no botão "Habilitar", conforme a Figura 3.1.2.
 
 ### 3.1.1.3 Agenda Online
 
@@ -143,7 +148,7 @@ Esta funcionalidade permite, desde a versão 3.0, que o **administrador do siste
 
 Para habilitar a sincronização, acesse a funcionalidade de Agenda Online nas opções de configuração do sistema, conforme pode ser visto na Figura 3.1.5.
 
-Figura 3.1.5 - Tela para habilitar a Agenda Online
+Figura 3.1.6 - Tela para habilitar a Agenda Online
 
 ![](media/pec_image97.png)
 
@@ -170,7 +175,7 @@ Na aba "Segurança", o **administrador da instalação** poderá configurar iten
 
 - Solicitação manual para redefinição das senhas de todos os usuários do sistema.
 
-Figura 3.1.6. - Tela de configuração de opções de segurança
+Figura 3.1.7. - Tela de configuração de opções de segurança
 
 ![](media/pec_image100.png)
 
@@ -242,7 +247,7 @@ O Distrito Federal ou os Municípios ativos na instalação compartilham apenas 
 
 Para adicionar responsáveis municipais/distrital (**administradores municipais**), selecione no campo "Município" o distrito federal/município e no campo "Responsável" um profissional da base local, conforme a Figura 3.1.7:
 
-Figura 3.1.7 - Lista de responsáveis (administradores municipais)
+Figura 3.1.8 - Lista de responsáveis (administradores municipais)
 
 ![](media/pec_image104.png)
 
@@ -257,7 +262,7 @@ Só é possível habilitar um responsável municipal para cada município/distri
 
 Na aba "Configurações avançadas", o **administrador da instalação** pode alterar o número de requisições simultâneas que podem ser processadas pelo sistema, conforme figura 3.1.8. Essa opção é utilizada para gerenciar a performance do sistema em casos peculiares.
 
-Figura 3.1.8 - Performance - Número de requisições simultâneas processadas
+Figura 3.1.9 - Performance - Número de requisições simultâneas processadas
 
 ![](media/pec_image105.png)
 
@@ -1396,3 +1401,41 @@ Figura 3.12.8 - Configuração RNDS
 Fonte: SAPS/MS
 
 Após habilitado o acesso à RNDS, caso seja necessário desabilitá-lo, basta clicar no botão "Desabilitar", conforme a figura 3.12.8. Ao desabilitar o certificado digital o botão de acesso a RNDS na tela de atendimento do PEC (Figura 3.12.7) não será mais apresentado.
+
+## 3.13 Acessando ao CADSUS por meio do PEC
+
+Esta seção visa orientar os gestores e técnicos responsáveis pela Estratégia e-SUS APS a habilitarem consulta ao CADSUS dentro do PEC.
+
+A partir da versão 5.1.14 do e-SUS APS PEC, é necessário a habilitação de três principais fatores para que o CADSUS passe a funcionar em sua aplicação. 
+
+ Estes procedimentos devem ser realizados para garantir a segurança na atualização das informações dos cidadãos delimitadas pelo Ministério da Saúde e DATASUS. Sendo assim, você precisará realizar a configuração dos tópicos:
+
+- Cadastramento de Certificado Digital;
+- Habilitação de certificado SSL/HTTPS no e-SUS APS PEC;
+- Habilitação do GOV.BR no e-SUS APS PEC;
+
+Passo 1  - Cadastramento do Certificado Digital:
+
+O primeiro procedimento necessário é a parametrização do Certificado Digital no e-SUS APS PEC, para isso, siga o passo a passo disponibilizado na seção 3.12.1 e 3.12.2.  Para este cenário, ao realizar a habilitação do Certificado Digital, você deverá selecionar tanto o habilitação da RNDS quanto para os processos de PIX e PDQ (consulta e alterações) no CADSUS).
+
+    Após a habilitação do Certificado através do e-Gestor, você precisará inserir o Certificado no e-SUS APS PEC. Neste caso, acesse com o perfil de Administrador Municipal, na aba de "Certificados" e selecione o módulo de CADSUS. Assim, você poderá selecionar tanto a RNDS quanto o CADSUS para habilita-los:
+
+Figura 3.1.3
+
+![](media/pec_image1044.png)
+SAPS/MS
+
+Passo 2  - Habilitação de certificado SSL/HTTPS no e-SUS APS PEC:
+
+A  habilitação do certificado SSL/HTTPS no PEC, deverá ser realizada seguindo as instruções da seção YYYYYYYYYYYYY, dependendo do seu sistema operacional. 
+
+Disponibilizamos também um vídeo com o passo a passo para a inclusão do certificado utilizando o sistema operacional Windows, com o objetivo de facilitar a compreensão.:
+
+
+
+
+Passo 3 - Habilitação do GOV.BR no e-SUS APS PEC:
+Após concluída inserção do HTTPS/SSL, para habilitação do GOV.BR no seu PEC, você precisará seguir todo o passo a passo disponibilizado na seção YYYYYYYYY para Ativação do login via GOV.BR. 
+
+
+{: .atencao } Este é um procedimento determinado pelo DATASUS em prol da segurança na atualização dos dados no CADWEB. Todo o processo de segurança é necessário, visto que o PEC, além de realizar pesquisas no CADSUS, também realiza alterações.
