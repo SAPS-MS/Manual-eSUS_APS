@@ -23,7 +23,7 @@ MANUAL DE USO
 {: .text-center }
 <br>
 <br>
-(versão 5.1)
+(Histórico de versões do PEC)
 {: .fs-6 }
 {: .text-center }
 <br>
