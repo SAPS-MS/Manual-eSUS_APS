@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Busca ativa
+title: Gestão da Garantia do Acesso
 parent: Prontuário Eletrônico do Cidadão v5.2
 nav_order: 14
 has_children: false
