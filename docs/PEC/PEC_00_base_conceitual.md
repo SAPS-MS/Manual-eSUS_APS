@@ -9,7 +9,7 @@ last_modified_date: "25/09/2023"
 ---
 
 
-# CAPÍTULO INTRODUTÓRIO - Base Conceitual do Sistema
+# CAPÍTULO INTRODUTÓRIO - Base Conceitual do Sistema.
 {: .no_toc }
 
 Neste capítulo, abordaremos, de forma resumida, os conceitos básicos que orientam o Sistema e-SUS Atenção Primária à Saúde (e-SUS APS) e o funcionamento das ferramentas do sistema.
