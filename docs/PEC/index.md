@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Prontuário Eletrônico do Cidadão
+title: Prontuário Eletrônico do Cidadão v5.2
 nav_order: 2
 has_children: true
 description: "Manual e-SUS APS"
 permalink: /docs/PEC
-last_modified_date: "25/09/2023"
+last_modified_date: "09/11/2023"
 ---
 
 e-SUS Atenção Primária à Saúde (e-SUS APS)
@@ -22,7 +22,7 @@ MANUAL DE USO
 {: .text-center }
 <br>
 <br>
-(versão 5.1)
+(versão 5.2)
 {: .fs-6 }
 {: .text-center }
 <br>
@@ -43,7 +43,6 @@ MANUAL DE USO
 
 **MINISTÉRIO DA SAÚDE**<br>
 Secretaria de Atenção Primária à Saúde<br>
-Departamento de Saúde da Família<br>
 Esplanada dos Ministérios - Bloco G - 7º andar<br>
 CEP: 70.058-900 – Brasília/DF<br>
 Tels.: (61) 3315-8090 / 3315-8044<br>
@@ -57,7 +56,7 @@ Nésio Fernandes de Medeiros Junior
 Rodrigo André Cuevas Gaete
 
 **Organização**<br>
-Elaine de Almeida, Igor de Carvalho Gomes, Ingryd Isabelle Maia de Souza, Janaína Nogueira Guimarães, Romario Araujo Matias Rocha, Willian Soares Lima.
+Elaine de Almeida, Francy Webster Pereira, Igor de Carvalho Gomes, Ingryd Isabelle Maia de Souza, Janaína Nogueira Guimarães, Romario Araujo Matias Rocha, Willian Soares Lima.
 
 **Revisão Técnica**<br>
 Elaine de Almeida, Igor de Carvalho Gomes, Ingryd Isabelle Maia de Souza, Janaína Nogueira Guimarães, Marcelo Alves Miranda, Romario Araujo Matias Rocha, Viviane Loiola Lacerda, Willian Soares Lima.
@@ -75,7 +74,7 @@ Alexandre Soares de Brito e Diogo Ferreira Gonçalves
 {: .text-center }
 
 Brasil. Ministério da Saúde. Secretaria de Atenção Primária à Saúde.<br>
-e-SUS Atenção Primária à Saúde: Manual do Sistema com Prontuário Eletrônico do Cidadão PEC – Versão 5.1 [recurso eletrônico] / Ministério da Saúde, Secretaria de Atenção Primária à Saúde, Secretaria Executiva. – Brasília: Ministério da Saúde, 2023.<br>
+e-SUS Atenção Primária à Saúde: Manual do Sistema com Prontuário Eletrônico do Cidadão PEC – Versão 5.2 [recurso eletrônico] / Ministério da Saúde, Secretaria de Atenção Primária à Saúde, Secretaria Executiva. – Brasília: Ministério da Saúde, 2023.<br>
 <br>
 ISBN **Versão Preliminar**<br>
 Modo de acesso: <https://aps.saude.gov.br/ape/esus><br>
