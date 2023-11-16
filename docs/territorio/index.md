@@ -1,12 +1,12 @@
 ---
 layout: default
-title: e-SUS Território v3.4
+title: e-SUS Território
 nav_order: 4
 nav_exclude: false
 has_children: true
 description: "Manual e-SUS APS"
 permalink: /docs/territorio
-last_modified_date: "07/02/2022"
+last_modified_date: "25/09/2023"
 ---
 
 e-SUS Atenção Primária à Saúde
@@ -23,7 +23,7 @@ MANUAL DE USO
 {: .text-center }
 <br>
 <br>
-(versão 3.4)
+(versão 4.0)
 {: .fs-6 }
 {: .text-center }
 <br>
@@ -51,14 +51,14 @@ Tels.: (61) 3315-8090 / 3315-8044<br>
 Site: <http://sisaps.saude.gov.br/esus/><br>
 E-mail: <cgiap@saude.gov.br>
 
-**Supervisora Geral**<br>
-Renata Maria de Oliveira Costa
+**Supervisor Geral**<br>
+Nésio Fernandes de Medeiros Junior
 
 **Coordenação Técnica Geral**<br>
-João Geraldo de Oliveira Júnior
+Rodrigo André Cuevas Gaete
 
 **Organização**<br>
-Ana Claudia Cielo, Igor de Carvalho Gomes e João Geraldo de Oliveira Júnior
+Elaine de Almeida, Igor de Carvalho Gomes, Ingryd Isabelle Maia de Souza, Janaína Nogueira Guimarães, Romario Araujo Matias Rocha, Willian Soares Lima.
 
 **Revisão Técnica**<br>
 Ana Claudia Cielo, André Cury Alves, Igor de Carvalho Gomes, Micael Macedo Pereira da Trindade e João Geraldo de Oliveira Júnior
@@ -76,10 +76,10 @@ Alexandre Soares de Brito, Diogo Ferreira Gonçalves
 {: .text-center }
 
 Brasil. Ministério da Saúde. Secretaria de Atenção Primária à Saúde.<br>
-e-SUS Atenção Primária à Saúde: Manual do aplicativo e-SUS Território – Versão 3.4 [recurso eletrônico] / Ministério da Saúde, Secretaria de Atenção Primária à Saúde, Secretaria Executiva. – Brasília: Ministério da Saúde, 2022.<br>
+e-SUS Atenção Primária à Saúde: Manual do aplicativo e-SUS Território – Versão 4.0 [recurso eletrônico] / Ministério da Saúde, Secretaria de Atenção Primária à Saúde, Secretaria Executiva. – Brasília: Ministério da Saúde, 2022.<br>
 <br>
 ISBN **Versão Preliminar**<br>
 Modo de acesso: <https://aps.saude.gov.br/ape/esus><br>
 CDU 614<br>
 
-Catalogação na fonte – Coordenação-Geral de Documentação e Informação – Editora MS – OS 2022.
+Catalogação na fonte – Coordenação-Geral de Documentação e Informação – Editora MS – OS 2023.

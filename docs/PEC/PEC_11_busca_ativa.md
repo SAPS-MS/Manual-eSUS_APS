@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Busca ativa
-parent: Prontuário Eletrônico do Cidadão v5.0
+parent: Prontuário Eletrônico do Cidadão v5.2
 nav_order: 13
 has_children: false
 has_toc: true
-last_modified_date: "02/05/2023"
+last_modified_date: "25/09/2023"
 ---
 
 
@@ -21,7 +21,7 @@ Este módulo visa proporcionar aos gestores de UBS e profissionais de saúde uma
 - TOC
 {:toc}
 
-![](media/Busca_ativa/pec_image987.PNG)
+![](media/Busca_ativa/pec_image987.png)
 
 A busca ativa é uma das atividades da Estratégia de Saúde da Família. Ela é uma ação que pode ser realizada por todos os membros da equipe em seu território de referência, tendo o Agente Comunitário de Saúde protagonismo nessa atividade por seu vínculo com esse território.
 
@@ -53,7 +53,7 @@ Há dois tipos de visualização: Calendário Vacinal (que mostra as vacinas de 
 
 Figura 11.3 - Tipos de Visualização
 
-![](media/Busca_ativa/pec_image990.PNG)
+![](media/Busca_ativa/pec_image990.png)
 
 Fonte: SAPS/MS.
 
@@ -96,7 +96,7 @@ No filtro "Imunobiológico" é possível selecionar um ou mais imunobiológicos 
 {: .atencao }
 Ao selecionar um imunobiológico ou dose no campo Filtros avançados, o relatório mostrará todos os cidadãos com o imunobiológico e/ou dose selecionadas no filtro. Porém, como o relatório é exibido por cidadão, as outras doses atrasadas ou no prazo desse cidadão continuarão a ser exibidas. Isto é, apenas cidadãos que não tiverem os imunobiológico e/ou doses no status de vacina selecionado, deixarão de ser exibidos.
 
-Após a seleção dos campos do módulo deve-se clicar em ![](media/busca_ativa/pec_image994.jpg) para exibir em tela os cidadão naquelas condições, como mostra a Figura 11.7.
+Após a seleção dos campos do módulo deve-se clicar em ![](media/Busca_ativa/pec_image994.jpg) para exibir em tela os cidadão naquelas condições, como mostra a Figura 11.7.
 
 Figura 11.7 - Exibição em tela da listagem da Busca Ativa
 
@@ -110,7 +110,7 @@ Figura 11.7 - Exibição em tela da listagem da Busca Ativa
 
 Fonte: SAPS/MS.
 
-É possível gerar relatório em planilha ao clicar em ![](media/busca_ativa/pec_image997.png). Nesse formato será exibido a listagem de cidadãos, data de nascimento, idade, CPF, CNS, Telefones de contato e endereço, bem como status da vacina, imunobiológicos e doses. O Formato desse relatório pode ser visualizado na Figura 11.8.
+É possível gerar relatório em planilha ao clicar em ![](media/Busca_ativa/pec_image997.png). Nesse formato será exibido a listagem de cidadãos, data de nascimento, idade, CPF, CNS, Telefones de contato e endereço, bem como status da vacina, imunobiológicos e doses. O Formato desse relatório pode ser visualizado na Figura 11.8.
 
 Figura 11.8 - Relatório em CSV
 

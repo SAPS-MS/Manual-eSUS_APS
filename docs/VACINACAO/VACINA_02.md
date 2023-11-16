@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Instalação
-parent: e-SUS Vacinação v3.0
+parent: e-SUS Vacinação
 nav_order: 2
 has_children: false
 last_modified_date: "05/11/2021"

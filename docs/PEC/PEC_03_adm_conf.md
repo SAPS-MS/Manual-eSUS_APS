@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Administração e Configurações do Sistema
-parent: Prontuário Eletrônico do Cidadão v5.0
+parent: Prontuário Eletrônico do Cidadão v5.2
 nav_order: 5
 has_children: false
 has_toc: true
-last_modified_date: "05/07/2021"
+last_modified_date: "25/09/2023"
 ---
 
 
@@ -161,6 +161,57 @@ Ao ativar a Agenda Online o sistema irá sincronizar as informações de agendam
 
 Para desabilitar a sincronização com o Servidor de Agenda Online basta clicar no botão "Desabilitar".
 
+### 3.1.1.3 Teleinterconsulta
+
+Para utilizar essa nova funcionalidade, é necessário que o acesso à instalação seja feito utilizando o protocolo HTTPS na instalação local do PEC e que o Administrador da Instalação habilite as videochamadas nas configurações da instalação, conforme animação abaixo:
+
+![](media/5-2_videochamadas_habilitar.gif)
+
+### 3.1.1.3 Prescrição Digital
+
+Para utização desta nova funcionalidade, é necessário o cumprimento das seguintes premissas, conforme ilustração abaixo:
+
+- Habilitar o SMTP no PEC;
+- Habilitar o protocolo HTTPs;
+- Ter um certificado digital;
+- Estar utilizando versão igual ou superior ao PEC 5.2.6.
+
+![](media/premissas_prescricao_digital.PNG)
+
+#### 3.1.1.3.4 Habilitar o SMTP:
+
+Para que as prescrições digitais sejam enviadas ao e-mail do cidadão, é necessário configurar um Servidor SMTP nas configurações da instalação, que é um serviço que faz o envio dos e-mails gerados pelo PEC aos destinatários. 
+
+Para tal, abra as configurações da instalação utilizando o perfil de administrador da instalação e informe os parâmetros de SMTP para habilitar a funcionialidade, conforme ilustração abaixo:
+
+![](media/pec_image1016.PNG)
+
+#### 3.1.1.3.5 Habilitar o HTTPs:
+
+Para que a comunicação do PEC com o serviço de prescrição digital ocorra com segurança, é necessário que a instalação utilize o protocolo HTTPS.
+
+#### 3.1.1.3.6 Solicitação de ativação da prescrição digital:
+
+- A solicitação de ativação deverá ser feita através de um ticket de suporte que deverá ser criado pela equipe responsável pela instalação na Plataforma de suporte https://esusaps.freshdesk.com. A URL da instalação deverá ser enviada unto da solicitação;
+
+- A partir da URL da instalação, serão geradas as credenciais (login e senha) para ativar a prescrição digital. Elas serão enviadas como resposta do ticket de suporte;
+
+- O administrador da instalação deverá incluir as credenciais nas configurações da instalação e clicar em "Habilitar".
+
+![](media/pec_image1017.PNG)
+
+Após a ativação da prescrição digital:
+
+![](media/pec_image1018.PNG)
+
+#### 3.1.1.3.7 Certificado digital:
+
+Ter um certificado digital válido, da cadeia ICP Brasil.
+
+#### 3.1.1.3.8 Fazer download do PEC:
+
+Realizar o download da última versão do Prontuário Eletrônico do Cidadão (PEC), no Portal da Atenção Primária à Saúde (APS). Deverá ser uma versão igual ou superior ao PEC 5.2.6.
+
 ## 3.1.2 Segurança
 
 Na aba "Segurança", o **administrador da instalação** poderá configurar itens para a segurança do sistema, tais como:
@@ -215,7 +266,7 @@ Em condições excepcionais, é possível solicitar a redefinição de senhas de
 
 Esta funcionalidade permite que o **administrador da instalação** configure o servidor da sua instalação e um servidor SMTP para disponibilizar a opção de \"Esqueci minha senha\" na tela de login. Esta opção permite que os profissionais redefinam suas senhas via e-mail.
 
-3.1.3.1 Servidor da instalação do PEC
+### 3.1.3.1 Servidor da instalação do PEC
 
 Para configurar o servidor da instalação do sistema e-SUS APS com PEC, siga os passos abaixo:
 
@@ -227,7 +278,7 @@ Para configurar o servidor da instalação do sistema e-SUS APS com PEC, siga os
 
 3\. Clique em "Salvar" para concluir.
 
-3.1.3.2 Servidor SMTP
+### 3.1.3.2 Servidor SMTP
 
 Para configurar o servidor SMTP para envio de e-mail, siga os passos abaixo:
 

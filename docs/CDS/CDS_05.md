@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Ficha de Atividade Coletiva
-parent: Coleta de Dados Simplificada v3.2
+parent: Coleta de Dados Simplificada
 nav_order: 6
 has_children: false
 has_toc: true
-last_modified_date: "05/02/2021"
+last_modified_date: "25/09/2023"
 ---
 
 # CAPÍTULO 5 - Ficha de Atividade Coletiva

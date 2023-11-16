@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Atendimentos
-parent: Prontuário Eletrônico do Cidadão v5.0
+parent: Prontuário Eletrônico do Cidadão v5.2
 nav_order: 8
 has_children: false
 has_toc: true
-last_modified_date: "20/07/2021"
+last_modified_date: "09/11/2023"
 ---
 
 # CAPÍTULO 6 - Atendimentos.
@@ -1034,6 +1034,8 @@ O sistema ainda disponibiliza algumas ferramentas específicas para auxiliar no 
 
 - **Encaminhamentos**: ferramenta de registro e geração de impressão da guia de referência e contra referência para atendimento em outros níveis de atenção à saúde.
 
+- **Compartilhamento do cuidado**: ferramenta para compartilhar o cuidado com outro profissional de uma equipe multiprofissional. Esta funcionalidade está disponível a partir da versão 5.2.10.
+
 Será apresentada, nas próximas seções, cada uma dessas ferramentas com mais detalhes.
 
 #### 6.4.3.4.1 Ferramentas do Plano - Atestado
@@ -1081,7 +1083,7 @@ Fonte: SAPS/MS.
 
 Os exames que têm alta complexidade são classificados como exames de **alto custo**. Os exames que têm menor custo e baixa densidade tecnológica são classificados como exames **comuns** e não precisam de detalhamento maior, apenas os dados clínicos do cidadão.
 
-#### 6.4.3.4.2.1 Solicitar um exame **Comum**:
+##### 6.4.3.4.2.1 Solicitar um exame **Comum**:
 
 Para criar uma solicitação de exame **Comum** basta seguir os passos a seguir:
 
@@ -1118,7 +1120,7 @@ Esta é uma alternativa que agiliza a requisição de exames, visto que são apr
 
 - Passo 3. Para concluir, clique no botão ![](media/pec_image432.png).
 
-### 6.4.3.4.2.2 Solicitar exames de **Alto Custo**
+##### 6.4.3.4.2.2 Solicitar exames de **Alto Custo**
 
 Para cadastrar a solicitação de um exame de "**Alto Custo**" é necessário adicionar o exame e justificar a solicitação, informando o CID10 e motivo do procedimento, de acordo com os passos a seguir:
 
@@ -1298,23 +1300,17 @@ Fonte: SAPS/MS.
 
 Essa funcionalidade permitirá que os profissionais prescritores do PEC possam optar por emitir e assinar suas receitas de forma digital por meio de certificados e chaves da Infraestrutura de Chaves Públicas Brasileira – ICP-Brasil. Esse novo recurso proporciona uma série de vantagens como: 
 
-• Dispensar a utilização de papel
+•	Dispensar a utilização de papel
 
-• Evitar falsificações 
+•	Evitar falsificações 
 
-• Evitar perda de receituários de papel
+•	Evitar perda de receituários de papel
 
-• Reduzir erros de interpretação 
+•	Reduzir erros de interpretação 
 
-• Apoiar o processo da Telessaúde
+•	Apoiar o processo da Telessaúde
 
-• Contribuir com a Estratégia de Saúde Digital (ESD) 2020-2028.
-
-Para habilitar a prescrição digital, a instalação local irá precisar atender aos seguintes requisitos:
-
-• Possuir o HTTPS configurado (para garantir a segurança da navegação)
-
-• Ter em sua instalação local um servidor de SMTP (para envio de e-mails)
+•	Contribuir com a Estratégia de Saúde Digital (ESD) 2020-2028.
 
 {: .nota }
 para acessar o serviço de prescrição digital, será necessário abrir um chamado em nosso canal de suporte https://esusaps.freshdesk.com/support/login de modo provisório, até que seja definido um novo fluxo.
@@ -1330,15 +1326,15 @@ FLUXO DA PRESCRIÇÃO DIGITAL
 
 Prescritor prescreve medicamentos (com exceção de controlados) no módulo de prescrição normalmente. Posteriormente, escolhe se deseja imprimir a receita em papel ou gerar uma prescrição digital. Ao escolher pelo formato digital, será necessário confirmar o dado de e-mail do cidadão. Caso o e-mail esteja incorreto, o profissional poderá na própria tela alterar essa informação.
 
-![](media/pec_image1020.jpg)
+![](media/prescricaodigital1.png)
 
 Ao clicar no botão "Gerar" o profissional será direcionado para uma tela de assinatura digital. Este deverá selecionar o tipo de provedor de assinatura e concluir este processo.
 
-![](media/pec_image1021.PNG)
+![](media/prescricaodigital2.png)
 
 Após assinar o documento, o cidadão receberá no e-mail informado um link para acessar o QR code, o código da receita ou até mesmo fazer o download do documento em PDF.  
 
-![](media/pec_image1022.PNG)
+![](media/prescricaodigital3.png)
 
 FLUXO FARMÁCIA/DISPENSÁRIO
 
@@ -1351,13 +1347,12 @@ Este link:  https://prescricaodigital.esusaps.ufsc.br/login será utilizado de f
 
 Para verificar a validade da prescrição, será necessário logar nesta plataforma por meio do gov.br. Após o login, o farmacêutico ou responsável pela dispensação deverá inserir o código de acesso apresentado pelo cidadão. Caso aquela receita esteja valida, será possível visualizar os dados da mesma na tela:  
 
-![](media/pec_image1023.jpg)
+![](media/prescricaodigital4.png)
 
 Ao final deste processo, o botão registrar medicamento deverá ser acionado a fim de garantir o registro dessa dispensação.
 
 {: .nota }
 esse fluxo não invalida a necessidade de realizar os controles internos de estoque/dispensação das farmácias ou dispensários. 
-
 
 #### 6.4.3.4.5 Ferramentas do Plano - Orientações
 
@@ -1396,7 +1391,7 @@ Fonte: SAPS/MS.
 
 - Passo 5. Para "Excluir" as "Orientações" registradas clique em ![](media/pec_image964.png).
 
-#### 6.4.3.4.6 Ferramentas do Plano - Encaminhamentos
+#### 6.4.3.4.5 Ferramentas do Plano - Encaminhamentos
 
 Esta ferramenta oferta aos profissionais a possibilidade de registrar e gerar a impressão da solicitação de encaminhamento para atendimento em serviços de atenção especializada.
 
@@ -1452,6 +1447,46 @@ Fonte: SAPS/MS.
 
 Além do SOAP e suas ferramentas, ainda é possível usar as outras ferramentas do prontuário, como seguem nas próximas seções.
 
+#### 6.4.3.4.7 Ferramentas do Plano - Compartilhamento do Cuidado
+
+Esta ferramenta permite que os profissionais que estão atendendo o cidadão compartilhem o cuidado, ao observar que é necessária a intervenção de outro profissional da equipe multiprofissional ou especialistas.
+
+O compartilhamento do cuidado está disponível a partir da versão 5.2.10 para o compartilhamento das eSF e das e-multi. 
+
+Figura 6.4.36 - Tela de Compartilhamento do Cuidado
+
+![](media/pec_atend_1.png)
+
+Fonte: SAPS/MS.
+
+O CBO não é um campo obrigatório, porém ele serve como filtro ao selecionar a categoria profissional que será acionada no compartilhamento do cuidado. Já o campo profissional é obrigatório. Neste campo aparecerão os profissionais da equipe multiprofissional ou especialistas para serem selecionados e quem vai receber o caso para discussões de forma assíncrona, ou para outras intervenções.
+
+![](media/pec_atend_2.png)
+
+O campo "problemas/condições" deve ser preenchido com a hipótese diagnóstica do profissional que está solicitando o apoio no caso. Este campo é obrigatório. Os profissionais médicos e cirurgiões dentistas podem optar por preencher o campo CIAP 2 ou CID 10.
+
+![](media/pec_atend_3.png)
+
+A classificação da prioridade também é um campo obrigatório e pode ser Baixa, Média, Alta e Muito Alta.
+
+![](media/pec_atend_4.png)
+
+No campo Discussão de Caso Clínico o profissional que está solicitando apoio deve fazer uma descrição do caso de forma objetiva, com a descrição das informações relevantes e o que motivou a hipótese diagnóstica.
+
+Em seguida há o campo perguntando se o cidadão concorda em ter atendimentos com a equipe multiprofissional mediado por tecnologia. Este campo é obrigatório e deve ser marcado "Sim" ou "Não".
+
+Ao clicar em ![](media/pec_atend_5.png) gera um novo compartilhamento do cuidado na lista de todos os compartilhamentos que o cidadão teve ao longo do acompanhamento dele.
+
+Figura 6.4.37 - Lista de cuidados compartilhados do cidadão
+
+![](media/pec_atend_6.png)
+
+Fonte: SAPS/MS.
+
+A lista de cuidados compartilhados do cidadão mostra a lista de todos os compartilhamentos feitos com o nome do profissional que foi solicitado a participar do cuidado, a prioridade definida no momento do atendimento individual e a data que ocorreu. 
+
+Ao clicar para abrir ao lado esquerdo da data há o resumo do que foi colocado no momento do compartilhamento: problemas/condições que trazem a hipótese diagnóstica; o relato de caso mostra o que foi descrito na discussão de caso para começar a comunicação entre profissionais; a opção do cidadão sobre a possibilidade de uso de tecnologia para o atendimento e o profissional que solicitou esse compartilhamento.
+
 ## 6.4.4 Problemas / Condições e Alergias
 
 ![](media/pec_image474.png)
@@ -1462,7 +1497,7 @@ A ferramenta "Problemas/Condições e Alergias" auxilia o profissional de saúde
 
 Ao acessar esta funcionalidade, o sistema exibe uma tela com a lista de problemas do indivíduo, que podem estar ativos, latentes ou resolvidos. Segundo Weed (1968, apud CANTALE), um problema clínico é tudo aquilo que requeira diagnóstico e manejo posterior, ou aquilo que interfira com a qualidade de vida, de acordo com a percepção da própria pessoa. Como exemplos de problemas e condições a serem incluídos nessa ferramenta, tem-se: diagnósticos, deficiências, sintomas, sinais, fatores de risco e condições socioeconômicas.
 
-Figura 6.4.36 - Problemas/Condições e Alergias
+Figura 6.4.38 - Problemas/Condições e Alergias
 
 ![](media/pec_image475.png)
 
@@ -2273,17 +2308,41 @@ Figura 6.5.27 - Bloco de Histórico da condição
 
 Fonte: SAPS/MS.
 
-#### 6.5.2.2.4 Impressão do acompanhamento da gestante
+#### 6.5.2.2.4 Agendamento de consultas do pré-natal 
 
-Caso o profissional deseje realizar a impressão do acompanhamento da gestante, seja para arquivamento físico, seja para entregar à gestante, basta clicar no botão ![](media/pec_image570.png). Em seguida aparecerá uma tela onde é possível selecionar os itens que deseja imprimir (Figura 6.5.28).
+A partir da versão 5.2 está disponível a projeção de agendamentos de consultas pré-natal para a mulher até o fim da gestação.
 
-Figura 6.5.28 - Imprimir Acompanhamento da Gestação
+Esta projeção de agendamentos aparece após ser ativado um CIAP-2 ou CID-10 de gestação e após a inserção da DUM. A partir destas informações são calculadas quantas consultas são necessárias na gestação da mulher atendida até a data provável do parto. 
+
+As consultas, por padrão, seguem o preconizado no Caderno de Atenção Básica nº 32,  por isso são alternadas entre o profissional médico e o enfermeiro da equipe a qual a cidadã é cadastrada. Já as consultas odontológicas são programadas para uma vez a cada trimestre da gestação. A Figura 6.5.28 mostra como é exibido estes agendamentos.
+
+A exibição desta nova funcionalidade ocorre após o desfecho do atendimento, dentro do módulo "Agendar Consulta". 
+
+Figura 6.5.28 - Agendamentos de Consultas pré-natal
+
+![](media/pec_image1012.png)
+
+Fonte: SAPS/MS.
+
+Quando clicar em ![](media/pec_image1013.png) é possível editar o agendamento pré-programado, como mostra a Figura 5.2.29. Dessa forma pode-se alterar o profissional que realizará a consulta e/ou a data de agendamento e/ou o horário de agendamento.
+
+Figura 6.5.29 - Edição de agendamentos de consultas pré-natal
+
+![](media/pec_image1014.png)
+
+Fonte: SAPS/MS.
+
+#### 6.5.2.2.5 Impressão do acompanhamento da gestante
+
+Caso o profissional deseje realizar a impressão do acompanhamento da gestante, seja para arquivamento físico, seja para entregar à gestante, basta clicar no botão ![](media/pec_image570.png). Em seguida aparecerá uma tela onde é possível selecionar os itens que deseja imprimir (Figura 6.5.30).
+
+Figura 6.5.30 - Imprimir Acompanhamento da Gestação
 
 ![](media/pec_image571.png)
 
 Abaixo um exemplo da impressão do acompanhamento da gestante.
 
-Figura 6.5.29 - Modelo de impresso do Acompanhamento do Pré-natal apenas com Dados do acompanhamento
+Figura 6.5.31 - Modelo de impresso do Acompanhamento do Pré-natal apenas com Dados do acompanhamento
 
 ![](media/pec_image572.png)
 
@@ -2297,7 +2356,7 @@ Uma das principais fases do crescimento e do desenvolvimento humano é a infânc
 
 Em atendimento no qual o cidadão esteja na faixa etária para a realização da puericultura, será ofertada ao profissional a opção de ativar o "registro do atendimento de puericultura", com objetivo de acompanhar o crescimento e desenvolvimento da criança.
 
-Figura 6.5.30 - Opção na seção "Objetivo" do SOAP para habilitar campos da puericultura
+Figura 6.5.32 - Opção na seção "Objetivo" do SOAP para habilitar campos da puericultura
 
 ![](media/pec_image573.png)
 
@@ -2305,7 +2364,7 @@ Fonte: SAPS/MS.
 
 Após a primeira ativação da puericultura, será ofertado ao profissional a possibilidade de registrar informações clínicas em relação ao pré-natal, parto e nascimento, além do acompanhamento do crescimento e desenvolvimento da criança.
 
-Figura 6.5.31 - Campos da Puericultura
+Figura 6.5.33 - Campos da Puericultura
 
 ![](media/pec_image574.png)
 
@@ -2331,7 +2390,7 @@ Para registrar o crescimento da criança com a finalidade de avaliar o estado nu
 {: .dica }
 Para o acompanhamento adequado da criança é importante que o profissional de saúde registre em todas as consultas de puericultura os dados antropométricos. Estes dados comporão as tabelas e gráficos no módulo de "Acompanhamento" da Puericultura. Neste módulo é possível analisar a curva de crescimento da criança, mais informações no capítulo ***6.5.3.2. Acompanhamento da Puericultura***.
 
-Figura 6.5.32 - Bloco Antropometria
+Figura 6.5.34 - Bloco Antropometria
 
 ![](media/pec_image575.png)
 
@@ -2343,7 +2402,7 @@ Com a finalidade de avaliar as etapas de evolução da criança de acordo com a 
 
 Neste Bloco, o profissional de saúde que realiza a puericultura, registra os dados referentes às alterações fenotípicas presentes na criança, os fatores de riscos sociais, ambientais, de condições de saúde e parto que podem indicar perigo para o desenvolvimento na infância, além de registrar os marcos do desenvolvimento, de acordo com a idade e segundo a Caderneta da Criança 2019. No marco do desenvolvimento também é possível registrar os reflexos primitivos que são esperados nos primeiros 15 dias de vida do recém- nascido.
 
-Figura 6.5.33 - Bloco de avaliação do Desenvolvimento da criança
+Figura 6.5.35 - Bloco de avaliação do Desenvolvimento da criança
 
 ![](media/pec_image576.png)
 
@@ -2351,7 +2410,7 @@ Fonte: SAPS/MS
 
 Para avaliar as alterações fenotípicas clique no botão "Avaliar" e em seguida será aberta uma tela conforme a figura abaixo. Neste momento clique sobre "Ausente" ou "Presente" em cada condição a ser observada.
 
-Figura 6.5.34 - Avaliação das Alterações Fenotípicas
+Figura 6.5.36 - Avaliação das Alterações Fenotípicas
 
 ![](media/pec_image577.png)
 
@@ -2359,7 +2418,7 @@ Fonte: SAPS/MS
 
 Se for selecionado alguma condição com o status "Presente" ao clicar em "Salvar", será aberto uma caixa de diálogo, solicitando a confirmação se realmente a alteração fenotípica está presente na criança, pois ao finalizar o atendimento essa informação **não** poderá ser modificada.
 
-Figura 6.5.35 - Confirmação de status "Presente" para a alteração fenotípica
+Figura 6.5.37 - Confirmação de status "Presente" para a alteração fenotípica
 
 ![](media/pec_image578.png)
 
@@ -2370,7 +2429,7 @@ Atente para a caixa de diálogo solicitando a confirmação da alteração fenot
 
 Para iniciar a avaliação dos fatores de risco clique no botão "Avaliar" e em seguida será aberta uma tela conforme a figura abaixo. Neste momento clique sobre "Ausente" ou "Presente" em cada condição a ser observada.
 
-Figura 6.5.36 - Avaliação dos Fatores de Risco
+Figura 6.5.38 - Avaliação dos Fatores de Risco
 
 ![](media/pec_image579.png)
 
@@ -2378,9 +2437,9 @@ Fonte: SAPS/MS
 
 Após selecionar os fatores de riscos com os status de "Ausente" ou "Presente" clique em "Salvar" para finalizar a avaliação.
 
-Ao finalizar as avaliações das ***Alterações fenotípicas*** e dos ***Fatores de risco,*** as condições que foram avaliadas como "Presente", aparecerão no bloco do Desenvolvimento da criança, conforme a figura 6.5.37.
+Ao finalizar as avaliações das ***Alterações fenotípicas*** e dos ***Fatores de risco,*** as condições que foram avaliadas como "Presente", aparecerão no bloco do Desenvolvimento da criança, conforme a figura 6.5.41.
 
-Figura 6.5.37 - Desenvolvimento da criança
+Figura 6.5.39 - Desenvolvimento da criança
 
 ![](media/pec_image580.png)
 
@@ -2392,7 +2451,7 @@ Neste bloco também é possível registrar os reflexos primitivos presentes no r
 
 Após clicar neste bloco será apresentada uma tela com os reflexos esperados na faixa etária dos 15 (quinze) primeiros dias de vida da criança. Em cada reflexo o profissional deverá selecionar o status como "Ausente" ou "Presente". Ao concluir a avaliação clique em "Salvar".
 
-Figura 6.5.38 - Avaliação dos Marcos de Desenvolvimento
+Figura 6.5.40 - Avaliação dos Marcos de Desenvolvimento
 
 ![](media/pec_image582.png)
 
@@ -2400,19 +2459,19 @@ Caso um ou mais reflexos neurológicos não sejam alcançados e registrado como 
 
 Para avaliar os marcos das demais faixas etárias, siga conforme a orientação para o registro dos reflexos primitivos, clicando sobre o "bloco" da idade que será avaliada.
 
-Figura 6.5.39 - Avaliação dos Marcos de desenvolvimento
+Figura 6.5.41 - Avaliação dos Marcos de desenvolvimento
 
 ![](media/pec_image583.png)
 
-Ao clicar no bloco de uma das faixas etárias a ser avaliada abrirá a tela com os marcos esperados para aquela faixa, conforme podemos observar na avaliação dos marcos da faixa etária do 1º mês (Figura 6.5.40).
+Ao clicar no bloco de uma das faixas etárias a ser avaliada abrirá a tela com os marcos esperados para aquela faixa, conforme podemos observar na avaliação dos marcos da faixa etária do 1º mês (Figura 6.5.42).
 
-Figura 6.5.40 - Avaliação dos Marcos de Desenvolvimento do 1º mês de vida
+Figura 6.5.42 - Avaliação dos Marcos de Desenvolvimento do 1º mês de vida
 
 ![](media/pec_image584.png)
 
-Ao selecionar o marco com os status de "Presente" o profissional de saúde que está fazendo a puericultura deverá registrar a idade em que o mesmo foi alcançado (Figura 6.5.41).
+Ao selecionar o marco com os status de "Presente" o profissional de saúde que está fazendo a puericultura deverá registrar a idade em que o mesmo foi alcançado (Figura 6.5.42).
 
-Figura 6.5.41 - Avaliação dos Marcos de Desenvolvimento
+Figura 6.5.43 - Avaliação dos Marcos de Desenvolvimento
 
 ![](media/pec_image585.png)
 
@@ -2433,7 +2492,7 @@ Ao finalizar a avaliação do marco do desenvolvimento, o bloco apresentará o s
 
 ![](media/pec_image590.png) **Não Avaliado:** quando o profissional não registra no sistema se o marco está presente ou ausente, ou simplesmente, ainda não foi avaliado por não estar no período de avaliação.
 
-Figura 6.5.42 - Marcos de Desenvolvimento
+Figura 6.5.44 - Marcos de Desenvolvimento
 
 ![](media/pec_image591.png)
 
@@ -2447,7 +2506,7 @@ Caso nenhuma avaliação tenha sido registrada no bloco de Desenvolvimento da cr
 
 - **Desenvolvimento normal:** todos os reflexos/posturas/habilidades presentes para a faixa etária.
 
-Figura 6.5.43 - Desenvolvimento da criança
+Figura 6.5.45 - Desenvolvimento da criança
 
 ![](media/pec_image592.png)
 
@@ -2489,7 +2548,7 @@ Todas estas informações compõem o cartão de acompanhamento da criança que v
 
 O *Cartão* minimizado apresenta informações sobre a situação vacinal, tipo de aleitamento materno, estado nutricional, data da última consulta de puericultura e o profissional que realizou a última consulta como mostra a pec_imagem abaixo.
 
-Figura 6.5.44 - Cartão do Acompanhamento da Puericultura
+Figura 6.5.46 - Cartão do Acompanhamento da Puericultura
 
 ![](media/pec_image595.png)
 
@@ -2497,7 +2556,7 @@ Fonte: SAPS/MS.
 
 Clicando em cima do *Cartão* é possível verificar o conjunto de informações completas relacionadas ao acompanhamento do crescimento e desenvolvimento da criança. Existem três blocos de informações principais, sendo eles: "Pré- natal, parto e nascimento", "Medições da criança", "Desenvolvimento da criança" e "Lista de problemas/condições ativas".
 
-Figura 6.5.45 - Tela com informações do acompanhamento da criança
+Figura 6.5.47 - Tela com informações do acompanhamento da criança
 
 ![](media/pec_image596.png)
 
@@ -2509,7 +2568,7 @@ Verificaremos cada bloco das informações sobre o acompanhamento da saúde da c
 
 O bloco **Pré-natal, parto e nascimento** oferta aos profissionais informações importantes relacionadas ao pré-natal, parto e nascimento da criança como o tipo de gravidez, o tipo de parto, a idade gestacional de nascimento e as notas Apgar no 1º, 5º e 10º minutos como mostra a pec_imagem abaixo:
 
-Figura 6.5.46 - Bloco de Pré-natal, parto e nascimento do acompanhamento
+Figura 6.5.48 - Bloco de Pré-natal, parto e nascimento do acompanhamento
 
 ![](media/pec_image597.png)
 
@@ -2519,7 +2578,7 @@ Fonte: SAPS/MS.
 
 Abaixo, o bloco **Medições da criança** apresenta os dados de medições realizadas durante as consultas. Estão representadas em forma de tabela e gráficos. A tabela mostra os dados da data da consulta, a idade da criança naquela data, o peso, estatura, perímetro cefálico e o índice de massa corporal (IMC) calculado para aquela data.
 
-Figura 6.5.47 - Medições da criança para Acompanhamento da Puericultura
+Figura 6.5.49 - Medições da criança para Acompanhamento da Puericultura
 
 ![](media/pec_image598.png)
 
@@ -2527,25 +2586,25 @@ Fonte: SAPS/MS.
 
 As outras abas trazem os gráficos montados pelo sistema a partir dos dados registrados durante as consultas e mostrados na tabela anterior. Estão disponíveis os gráficos de peso por idade, estatura por idade, IMC e perímetro cefálico por idade. Os dados são agrupados nas faixas etárias 0 a 2 anos e de 2 a 5 anos de idade. Foram utilizados como base os padrões utilizados pela Caderneta de Saúde da Criança do ano de 2013 nas versões "Menina" e "Menino". Da mesma forma que a caderneta da criança, é possível navegar entre o tipos de gráficos e entre as faixas etárias.
 
-Figura 6.5.48 - Gráfico de Peso por idade
+Figura 6.5.50 - Gráfico de Peso por idade
 
 ![](media/pec_image599.png)
 
 Fonte: SAPS/MS.
 
-Figura 6.5.49 - Gráfico de Estatura por idade
+Figura 6.5.51 - Gráfico de Estatura por idade
 
 ![](media/pec_image600.png)
 
 Fonte: SAPS/MS.
 
-Figura 6.5.50 - Gráfico de Perímetro Cefálico por Idade
+Figura 6.5.52 - Gráfico de Perímetro Cefálico por Idade
 
 ![](media/pec_image601.png)
 
 Fonte: SAPS/MS.
 
-Figura 6.5.51 - Gráfico do IMC
+Figura 6.5.53 - Gráfico do IMC
 
 ![](media/pec_image602.png)
 
@@ -2559,7 +2618,7 @@ O bloco **Desenvolvimento da criança** apresenta as informações das Alteraç�
 
 O último bloco do acompanhamento da criança é a Lista de problemas/condições ativas que disponibiliza as condições que estão com status "Ativo" na seção Problemas/Condições e Alergias, informando qual o problema e a idade de início do problema como vemos a seguir.
 
-Figura 6.5.52 - Bloco de Lista de problemas do Acompanhamento da Puericultura
+Figura 6.5.54 - Bloco de Lista de problemas do Acompanhamento da Puericultura
 
 ![](media/pec_image604.png)
 
@@ -2579,7 +2638,7 @@ Na parte Objetiva registram- se as observações importantes do exame físico, o
 
 Na parte da Avaliação utiliza-se o CIAP-2 ou CID-10 para a classificação do problema ou condição detectada. Para o acompanhamento dos problemas/condições e alergias/reações adversas presente na pessoa idosa, deve- se registrar no módulo "Problemas/Condições e Alergias" e informar como "Ativo", conforme descrito no capítulo 6.4.3. Para registrar apenas os problemas e condições de saúde, outra alternativa é clicar no box "inserir na lista de problema/condição como ativo", conforme figura abaixo.
 
-Figura 6.5.53 - Problema e / ou condição detectada
+Figura 6.5.55 - Problema e / ou condição detectada
 
 ![](media/pec_image605.png)
 
@@ -2589,13 +2648,13 @@ Na bloco **Plano** registra-se o plano de cuidados ou condutas a serem tomadas e
 
 O *Cartão* minimizado apresenta informações sobre o estado nutricional e se a pessoa idosa faz uso de 5 ou mais medicamentos como mostra a pec_imagem abaixo.
 
-Figura 6.5.54 - Cartão da pessoa idosa
+Figura 6.5.56 - Cartão da pessoa idosa
 
 ![](media/pec_image606.png)
 
 Clicando em cima do *Cartão* é possível verificar o conjunto de informações completas relacionadas ao acompanhamento da pessoa idosa. Existem quatro blocos de informações principais, sendo eles: "Medicamentos ativos", "Problemas/Condições", "Gráficos e medições" e "Alergias/Reações Adversas".
 
-Figura 6.5.55 - Cartão da pessoa idosa
+Figura 6.5.57 - Cartão da pessoa idosa
 
 ![](media/pec_image607.png)
 
@@ -2605,13 +2664,13 @@ Cada bloco das informações sobre o acompanhamento da pessoa idosa serão detal
 
 O bloco Medicamentos ativos oferta aos profissionais de saúde informações importantes relacionadas aos medicamentos em uso contínuo pela pessoa idosa, conforme mostra a pec_imagem abaixo:
 
-Figura 6.5.56 - Medicamentos ativos
+Figura 6.5.58 - Medicamentos ativos
 
 ![](media/pec_image608.png)
 
 Neste bloco também é possível verificar se há prescrições de medicações sujeitos a controle especial conforme o tipo de prescrição.
 
-Figura 6.5.57 - Medicamentos ativos
+Figura 6.5.59 - Medicamentos ativos
 
 ![](media/pec_image609.png)
 
@@ -2619,7 +2678,7 @@ Figura 6.5.57 - Medicamentos ativos
 
 O bloco do acompanhamento da pessoa idosa apresenta a Lista de problemas/condições ativas ou latentes, informando qual a situação, o problema/condição, a idade de início do problema e a última atualização, conforme vemos a seguir.
 
-Figura 6.5.58 - Problemas/Condições
+Figura 6.5.60 - Problemas/Condições
 
 ![](media/pec_image610.png)
 
@@ -2627,7 +2686,7 @@ Figura 6.5.58 - Problemas/Condições
 
 Abaixo, o bloco Gráficos e medições da pessoa idosa apresenta os dados de medições registradas durante as consultas. Estão representadas em forma de tabela e gráficos. A tabela mostra os dados da data da consulta, a idade da pessoa idosa naquela data, o peso, estatura, o IMC calculado para aquela data, o perímetro da panturrilha, a pressão arterial e a glicemia capilar.
 
-Figura 6.5.59 - Gráficos e medições
+Figura 6.5.61 - Gráficos e medições
 
 ![](media/pec_image611.png)
 
@@ -2635,11 +2694,11 @@ As outras abas trazem os gráficos montados pelo sistema a partir dos dados regi
 
 Os dados são agrupados em faixas etárias, numa escala de 05 em 05 anos, a partir dos 60 anos até a faixa etária atual da pessoa idosa. Foram utilizados como base os padrões utilizados pela Caderneta de Saúde da Pessoa Idosa de 2017.
 
-Figura 6.5.60 - Gráfico com dados de IMC
+Figura 6.5.62 - Gráfico com dados de IMC
 
 ![](media/pec_image612.png)
 
-Figura 6.5.61 - Gráficos com dados do perímetro da panturrilha
+Figura 6.5.63 - Gráficos com dados do perímetro da panturrilha
 
 ![](media/pec_image613.png)
 
@@ -2647,7 +2706,7 @@ Figura 6.5.61 - Gráficos com dados do perímetro da panturrilha
 
 O último bloco do acompanhamento da pessoa idosa é a lista de Alergias/Reações adversas, informando qual é a alergia, a data da instalação do problema e o nível de criticidade, conforme a figura abaixo.
 
-Figura 6.5.62 - Alergias/Reações adversas
+Figura 6.5.64 - Alergias/Reações adversas
 
 ![](media/pec_image614.png)
 
@@ -2730,24 +2789,82 @@ Com esta funcionalidade será possível registrar no PEC o período em que um ci
 
 Para acionar este recurso, o profissional precisará ativá-lo no campo “Plano” do SOAP. Neste caso, somente profissionais com CBO de Médico ou Enfermeiro podem iniciar um atendimento de observação. 
 
-![](media/pec_image1024.PNG)
+![](media/obscidadao1.png)
+
 
 Os cidadãos que forem submetidos à observação, ficarão em uma seção separada na lista de atendimentos de modo a facilitar a visualização dos mesmos. O profissional que iniciou a observação é considerado o profissional responsável, portanto este será o único que poderá finalizar este atendimento de observação. 
 
-![](media/pec_image1025.PNG)
+![](media/obscidadao2.png)
 
 Os demais profissionais que contribuírem para este período de cuidado, serão considerados auxiliares. Neste caso, o foco desses profissionais é estabilizar o cidadão de acordo com o plano de cuidado prescrito pelo profissional responsável. Somente profissionais com CBO de médico, enfermeiro, auxiliar ou técnico de enfermagem poderão realizar registro de observação.
 
 Os atendimentos dos profissionais auxiliares terão o mesmo formato que um atendimento de procedimentos com as seguintes mudanças:
 
-• A cada ponto de contato que o profissional tiver com o cidadão dentro de uma observação deve ser possível registrar uma medição
+•	A cada ponto de contato que o profissional tiver com o cidadão dentro de uma observação deve ser possível registrar uma medição
 
-• O histórico de plano de cuidados deve ser exibido no Plano do SOAP, contendo todos os planos de cuidado realizados pelos profissionais da saúde para aquele atendimento de observação
+•	O histórico de plano de cuidados deve ser exibido no Plano do SOAP, contendo todos os planos de cuidado realizados pelos profissionais da saúde para aquele atendimento de observação
 
-• Nos atendimentos do profissional responsável todas as informações se mantêm, sendo possível realizar mais de uma medição, além de adicionar o histórico de plano de cuidados no Plano do SOAP
+•	Nos atendimentos do profissional responsável todas as informações se mantêm, sendo possível realizar mais de uma medição, além de adicionar o histórico de plano de cuidados no Plano do SOAP
 
-![](media/pec_image1026.png)
+![](media/obscidadao3.png)
 
+
+# 6.9 Envio de atendimento individual para Rede Nacional de Dados em Saúde (RNDS)
+
+O modelo de informação do Registro de Atendimento Clínico (RAC) foi instituído pela [PORTARIA Nº 234, DE 18 DE JULHO DE 2022](https://www.in.gov.br/en/web/dou/-/portaria-n-234-de-18-de-julho-de-2022-416506215) a qual determina que o RAC é "o registro de dados essenciais de uma consulta realizada a um indivíduo no âmbito da atenção básica, especializada ou domiciliar (atendimento diário). Apresenta informações relacionadas ao acompanhamento do indivíduo como medições, diagnósticos e/ou problemas avaliados, exames, procedimentos, pequenas cirurgias e desfecho".
+
+Esse modelo de informação quando usado pelos diversos níveis de atenção viabilizam que todos enviem dados de forma padronizada para a RNDS. Logo, quando os profissionais de saúde acessarem o Conecte SUS profissional terão acesso às informações clínicas do cidadão nos vários pontos da Rede de Atenção à Saúde. Isso auxiliará os profissionais de saúde da APS a fazerem a coordenação do cuidado e a terem um olhar longitudinal da saúde do cidadão.
+
+O envio do RAC à RNDS é feito ao finalizar o atendimento individual.
+
+# 6.10 E-sus ampliado
+
+Essa funcionalidade permite que o PEC seja instalado e utilizado em outros níveis de atenção à saúde, que não sejam da Atenção Primária à Saúde.
+
+
+Serão reconhecidos como estabelecimentos passíveis da utilização do e-sus ampliado:
+
+•	Policlínicas (CNES do tipo 04)
+
+•	Pronto atendimentos (CNES do tipo 73 e subtipo 001, 002 ou 003)
+
+## 6.10.1 Policlínica
+
+### 6.10.1.1 Procedimentos automáticos
+
+Para este tipo de estabelecimento serão utilizados os seguintes procedimentos automáticos no PEC:
+
+Atendimentos individuais
+
+![](media/esusamp1.png)
+
+Atendimentos odontológicos
+
+![](media/esusamp2.png)
+
+## 6.10.2 Pronto Atendimento
+
+### 6.10.2.1 Procedimentos automáticos
+
+Para este tipo de estabelecimento serão utilizados os seguintes procedimentos automáticos no PEC:
+
+Atendimentos individuais 
+
+![](media/esusamp3.png)
+
+Atendimentos odontológicos
+
+![](media/esusamp4.png)
+
+Escuta inicial 
+
+Procedimento: "03.01.06.011-8 - ACOLHIMENTO COM CLASSIFICAÇÃO DE RISCO" 
+
+### 6.10.2.2 Demais regras
+
+• A lista de atendimento deve mostrar a data e a hora em que o cidadão foi inserido caso o cidadão tenha sido inserido em datas anteriores a hoje.
+
+•	Na primeira vez que um usuário entrar no módulo de Lista de atendimento o sistema deve aplicar os filtros de "Em atendimento", "Em escuta inicial" e "Aguardando atendimento" e que foram inseridos nas últimas 24 horas.
 
 # ANEXOS
 

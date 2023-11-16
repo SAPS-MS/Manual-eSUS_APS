@@ -1,15 +1,16 @@
 ---
 layout: default
 title: Base Conceitual do Sistema
-parent: Prontuário Eletrônico do Cidadão v5.0
+parent: Prontuário Eletrônico do Cidadão v5.2
 nav_order: 2
 has_children: false
 has_toc: true
-last_modified_date: "02/07/2021"
+last_modified_date: "25/09/2023"
 ---
 
 
-# CAPÍTULO INTRODUTÓRIO - Base Conceitual do Sistema
+
+# CAPÍTULO INTRODUTÓRIO - Base Conceitual do Sistema.
 {: .no_toc }
 
 Neste capítulo, abordaremos, de forma resumida, os conceitos básicos que orientam o Sistema e-SUS Atenção Primária à Saúde (e-SUS APS) e o funcionamento das ferramentas do sistema.

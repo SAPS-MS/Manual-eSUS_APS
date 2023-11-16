@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Relatórios
-parent: Gestão e-SUS APS v1.0
+parent: Gestão e-SUS APS
 nav_order: 3
 has_children: false
-last_modified_date: "03/08/2021"
+last_modified_date: "25/09/2023"
 has_toc: true
 ---
 

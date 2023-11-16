@@ -33,13 +33,13 @@ Nésio Fernandes de Medeiros Junior
 Rodrigo André Cuevas Gaete
 
 **Organização**<br>
-Ana Claudia Cielo, Igor de Carvalho Gomes e João Geraldo de Oliveira Júnior
+Elaine de Almeida, Igor de Carvalho Gomes, Ingryd Isabelle Maia de Souza, Janaína Nogueira Guimarães, Romario Araujo Matias Rocha, Willian Soares Lima.
 
 **Revisão Técnica**<br>
-Ana Claudia Cielo, André Cury Alves, Igor de Carvalho Gomes, João Geraldo de Oliveira, Micael Macedo Pereira da Trindade, Willian Soares Lima
+Elaine de Almeida, Igor de Carvalho Gomes, Ingryd Isabelle Maia de Souza, Janaína Nogueira Guimarães, Marcelo Alves Miranda, Romario Araujo Matias Rocha, Viviane Loiola Lacerda, Willian Soares Lima.
 
 **Colaboradores**<br>
-Adriana Kitajima, Allan Nuno Alves de Souza, Ana Claudia Cielo, André Cury Alves, Edson Lucena, Igor de Carvalho Gomes, João Geraldo de Oliveira Júnior, Janaína Nogueira Guimarães, Micael Macedo Pereira, da Trindade, Rodrigo André Cuevas Gaete, Thaís Alessa Leite, Vanessa Lora e Virgínia Fava,Willian Soares Lima
+Adriana Kitajima, Allan Nuno Alves de Souza, Ana Claudia Cielo, André Cury Alves, Edson Lucena, Elaine de Almeida, Igor de Carvalho Gomes, Ingryd Isabelle Maia de Souza, João Geraldo de Oliveira Júnior, Janaína Nogueira Guimarães, Marcelo Alves Miranda, Micael Macedo Pereira da Trindade, Rodrigo André Cuevas Gaete, Romario Araujo Matias Rocha, Thaís Alessa Leite, Vanessa Lora, Virgínia Fava, Viviane Loiola Lacerda, Willian Soares Lima.
 
 **Projeto Gráfico**<br>
 Alexandre Soares de Brito, Diogo Ferreira Gonçalves
@@ -51,10 +51,10 @@ Alexandre Soares de Brito, Diogo Ferreira Gonçalves
 {: .text-center }
 
 Brasil. Ministério da Saúde. Secretaria de Atenção Primária à Saúde.<br>
-e-SUS Atenção Primária à Saúde: Manual do Sistema com Prontuário Eletrônico do Cidadão PEC – Versão 4.2 [recurso eletrônico] / Ministério da Saúde, Secretaria de Atenção Primária à Saúde, Secretaria Executiva. – Brasília: Ministério da Saúde, 2021.<br>
+e-SUS Atenção Primária à Saúde: Manual do Sistema com Prontuário Eletrônico do Cidadão PEC – Versão 5.1 [recurso eletrônico] / Ministério da Saúde, Secretaria de Atenção Primária à Saúde, Secretaria Executiva. – Brasília: Ministério da Saúde, 2023.<br>
 <br>
 ISBN **Versão Preliminar**<br>
 Modo de acesso: <https://aps.saude.gov.br/ape/esus><br>
 CDU 614<br>
 
-Catalogação na fonte – Coordenação-Geral de Documentação e Informação – Editora MS – OS 2021.
+Catalogação na fonte – Coordenação-Geral de Documentação e Informação – Editora MS – OS 2023.

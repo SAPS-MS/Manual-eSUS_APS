@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Cadastro da Atenção Básica
-parent: Coleta de Dados Simplificada v3.2
+parent: Coleta de Dados Simplificada
 nav_order: 3
 has_children: false
 has_toc: true
-last_modified_date: "01/02/2021"
+last_modified_date: "25/09/2023"
 ---
 
 # CAPÍTULO 2 - Cadastro da Atenção Básica

@@ -13,7 +13,7 @@ MANUAL DE USO<br>
 
 O conteúdo deste manual foi elaborado utilizando Markdown. Orientações em relação a utilização deste método de escrita pode ser acessado em [Markdown Guide](https://www.markdownguide.org/basic-syntax/).
 
-O template utilizado neste manual é o [Just the Docs](https://pmarsceill.github.io/just-the-docs/). Para maiores informações e customização, acesse o repositório no GitHub [Just the Docs](https://github.com/pmarsceill/just-the-docs).
+O template utilizado neste manual é o [Just the Docs](https://github.com/just-the-docs/just-the-docs). Para maiores informações e customização, acesse o repositório no GitHub [Just the Docs](https://github.com/just-the-docs/just-the-docs).
 
 ## Estrutura
 
@@ -26,7 +26,7 @@ Os arquivos de imagem devem ser gravados na pasta `\media\` de cada manual, de p
 
 ## Atualizações
 
-As atualizações dos manuais do e-SUS APS devem observar as seguintes premissas, observando o funcionamento da [Política de Controle de Versão do Sistema e-SUS APS](https://cgiap-saps.github.io/e-SUS-APS-v.4.1/00_base_conceitual/#2-pol%C3%ADtica-de-controle-de-vers%C3%A3o-do-sistema-e-sus-aps).
+As atualizações dos manuais do e-SUS APS devem observar as seguintes premissas, observando o funcionamento da [Política de Controle de Versão do Sistema e-SUS APS](https://saps-ms.github.io/Manual-eSUS_APS/docs/PEC/PEC_00_base_conceitual/#2-pol%C3%ADtica-de-controle-de-vers%C3%A3o-do-sistema-e-sus-aps).
 
 - **Versões de manutenção correção (*revision*):** Em caso de atualização de conteúdo em versões de correção, manter a atualização no projeto de manual da versão de melhorias atual.
 
