@@ -217,7 +217,7 @@ Esta funcionalidade permite que o **administrador da instalação** configure o 
 
 3.1.3.1 Servidor da instalação do PEC
 
-Para configurar o servidor da instalação do sistmea e-SUS APS com PEC, siga os passos abaixo:
+Para configurar o servidor da instalação do sistema e-SUS APS com PEC, siga os passos abaixo:
 
 ![](media/pec_image102.png)
 
