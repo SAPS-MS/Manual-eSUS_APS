@@ -26,8 +26,6 @@ last_modified_date: "20/11/2023"
 * Unificação de cadastros
 * Vínculo entre equipes do PEC
 
-<br/>
-
 ![](./media/18.png)
 
 * A versão 5.2 permite visualizar os cadastros sob responsabilidade da sua equipe de forma mais intuitiva, facilitando a gestão do seu território adscrito e a formação de núcleos familiares. Basta acessar a aba "Território" na seção Acompanhamentos e conferir as novidades.
@@ -37,8 +35,6 @@ last_modified_date: "20/11/2023"
 ![](./media/19.gif)
 
 * Além disso, é possível corrigir eventuais divergências de cadastro através da edição de logradouro, que cria automaticamente atualizações para os imóveis do mesmo, possibilitando a higienização da sua base de cadastros.
-
-<br/>
 
 ![](./media/20.png)
 
@@ -54,7 +50,6 @@ last_modified_date: "20/11/2023"
 
 ![](./media/22.gif)
 
-</br>
 
 ![](./media/23.png)
 
@@ -82,8 +77,6 @@ Figura 3:
 * "Compartilhados comigo" que exibe todos os cuidados compartilhados com o usuário e com a equipe do usuário.
 * As colunas das tabelas são iguais em ambas as listagens, sendo que todas as linhas possuem um status ("Respondido" e "Aguardando") e duas ações possíveis ("Visualizar discussão" e "Discutir caso"). As seguintes regras serão aplicadas:
 
-</br>
-
 * Na aba "Solicitados por mim" o usuário só poderá clicar em "Discutir caso" caso tenha solicitado aquele compartilhamento e caso o status seja "Respondido";
 
 * Na aba "Compartilhados comigo" o usuário só poderá clicar em "Discutir caso" caso aquele compartilhamento tenha sido compartilhado com ele e caso o status seja "Aguardando";
@@ -102,7 +95,6 @@ Figura 3:
 
     * Alterar a ordenação da lista por classificação de prioridade ou status.
 
-</br>
 
 * Ao acessar o módulo de "Discutir caso" o sistema exibirá três abas: "Folha de rosto", "Histórico" e "Discussão do caso". As duas primeiras abas são idênticas às abas de um atendimento. A aba de "Discussão de caso" conta com:
 
@@ -139,7 +131,6 @@ Figura 2:
 
 * O e-SUS APS Ampliado passará a reconhecer alguns novos estabelecimentos no sistema.
 
-</br>
 
 ![](./media/28.png)
 
