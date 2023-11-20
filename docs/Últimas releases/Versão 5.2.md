@@ -38,15 +38,15 @@ last_modified_date: "20/11/2023"
 
 ![](./media/20.png)
 
-* Inclusão do Grupo-alvo de Gestantes/puérperas para Vacinas da Covid-19;
-* Inclusão do Grupo-alvo de Gestantes para Vacinas do calendário vacinal;
-* Inclusão do Grupo-alvo de Idosos para Vacinas do calendário vacinal;
-* Inclusão do filtro por Faixa etária em cada grupo-alvo disponível para Vacinas do calendário vacinal e Vacinas de Covid-19;
-* Inclusão do filtro por Grupo de atendimento para Vacinas da Covid-19;
+* Inclusão do Grupo-alvo de **Gestantes/puérperas** para Vacinas da Covid-19;
+* Inclusão do Grupo-alvo de **Gestantes** para Vacinas do calendário vacinal;
+* Inclusão do Grupo-alvo de **Idosos** para Vacinas do calendário vacinal;
+* Inclusão do filtro por **Faixa etária** em cada grupo-alvo disponível para Vacinas do calendário vacinal e Vacinas de Covid-19;
+* Inclusão do filtro por **Grupo de atendimento** para Vacinas da Covid-19;
 
 ![](./media/21.gif)
 
-* Exportação do relatório da busca ativa no formato PDF para impressão e download das Vacinas do calendário vacinal e Vacinas da Covid-19.
+* Exportação do relatório da busca ativa no formato **PDF** para impressão e download das **Vacinas do calendário vacinal e Vacinas da Covid-19.**
 
 ![](./media/22.gif)
 
@@ -134,7 +134,7 @@ Figura 2:
 
 ![](./media/28.png)
 
-Com a nova funcionalidade de agendamentos, durante um atendimento de pré-natal, será possível realizar o agendamento da próxima consulta para acompanhamento de pré-natal e a consulta odontológica de pré-natal. O PEC irá sugerir a data e lotação de profissional, sendo que a pessoa responsável pelo atendimento tem liberdade para alterar essas informações conforme disponibilidade das partes envolvidas.
+Com a nova funcionalidade de agendamentos, durante um atendimento de pré-natal, será possível realizar o **agendamento da próxima consulta para acompanhamento de pré-natal e a consulta odontológica de pré-natal.** O PEC irá **sugerir a data e lotação de profissional**, sendo que a pessoa responsável pelo atendimento tem liberdade para alterar essas informações conforme disponibilidade das partes envolvidas.
 
 * Para o acompanhamento de pré-natal, a data da próxima consulta é sugerida conforme a idade gestacional, respeitando as cadências estipuladas na caderneta da gestante, enquanto a lotação de profissional alterna entre profissionais com CBO de médico e enfermeiro.
 
@@ -142,7 +142,7 @@ Com a nova funcionalidade de agendamentos, durante um atendimento de pré-natal,
 
 ![](./media/29.gif)
 
-* Ainda durante os atendimentos de pré-natal, serão apresentadas as sugestões de quais serão todas as datas que deverão ocorrer os próximos acompanhamentos de pré-natal, bem como um atendimento odontológico a cada trimestre da gestação.
+* Ainda durante os atendimentos de pré-natal, serão apresentadas as **sugestões de quais serão todas as datas** que deverão ocorrer os **próximos acompanhamentos de pré-natal**, bem como um **atendimento odontológico** a cada trimestre da gestação.
 
 ![](./media/30.png)
 
@@ -185,27 +185,27 @@ Dentre as principais funcionalidades e implementações realizadas no novo módu
 
 * Com objetivo de qualificar os dados do PEC, a informação da dose na prescrição de medicamentos foi dividida em dois campos:
 
-    * Quantidade da dose: Quantidade da dose prescrita. Para doses fracionadas, utilize vírgula ou barra. Exemplos: "0,5", "1/2", etc.
+    * **Quantidade da dose:** Quantidade da dose prescrita. Para doses fracionadas, utilize vírgula ou barra. Exemplos: "0,5", "1/2", etc.
 
-    * Unidade de medida: Unidade de medida para consumo do medicamento prescrito. Exemplos: "comprimido", "ml", "sachê", etc.
+    * **Unidade de medida:** Unidade de medida para consumo do medicamento prescrito. Exemplos: "comprimido", "ml", "sachê", etc.
 
 ![](./media/38.gif)
 
-* Lembre-se de utilizar o campo "Recomendações" para inserir demais informações relevantes na utilização do medicamento.
+* Lembre-se de utilizar o campo **"Recomendações"** para inserir demais informações relevantes na utilização do medicamento.
 
-* Para replicar prescrição ou replicar medicamento, é necessário atualizar a informação da dose nos novos campos. A informação original será exibida no alerta da prescrição.
+* Para **replicar prescrição** ou **replicar medicamento**, é necessário atualizar a informação da dose nos novos campos. A informação original será exibida no alerta da prescrição.
 
 ![](./media/39.gif)
 
 ![](./media/40.png)
 
-* Ao encaminhar a prescrição de medicamentos para o cidadão, será possível optar por realizar a impressão ou gerar uma prescrição digital através da opção “Prescrição digital”, caso a instalação esteja habilitada para gerar prescrições digitais. O documento da prescrição digital será gerado no formato PDF e enviado ao cidadão, que poderá utilizá-lo para retirar medicamentos. Na farmácia, será possível registrar que os medicamentos da prescrição foram fornecidos. Para utilizar a funcionalidade é necessário ativar a integração com o servidor de Prescrição digital.
+* Ao encaminhar a prescrição de medicamentos para o cidadão, será possível optar por realizar a impressão ou **gerar uma prescrição digital** através da opção “Prescrição digital”, caso a instalação esteja habilitada para gerar prescrições digitais. O documento da prescrição digital será gerado no formato **PDF** e enviado ao cidadão, que poderá utilizá-lo para retirar medicamentos. Na farmácia, será possível registrar que os medicamentos da prescrição foram fornecidos. Para utilizar a funcionalidade é necessário ativar a integração com o servidor de Prescrição digital.
 
-* A prescrição digital será encaminhada ao cidadão via e-mail. É possível editar o endereço de e-mail do cidadão antes de encaminhar clicando no ícone de edição ao lado do campo.
+* A prescrição digital será encaminhada ao cidadão via **e-mail.** É possível editar o endereço de e-mail do cidadão antes de encaminhar clicando no ícone de edição ao lado do campo.
 
 ![](./media/41.gif)
 
-* Para gerar a prescrição digital, é necessário realizar uma assinatura eletrônica do documento. O PEC irá abrir uma nova janela para o processo de assinatura.
+* Para gerar a prescrição digital, é necessário realizar uma **assinatura eletrônica** do documento. O PEC irá abrir uma nova janela para o processo de assinatura.
 
 ![](./media/42.gif)
 
@@ -213,9 +213,9 @@ Dentre as principais funcionalidades e implementações realizadas no novo módu
 
 * Para as instalações com a RNDS configurada, os seguintes registros serão enviados à Rede Nacional de Dados em Saúde (RNDS):
 
-    * Vacinação: Envio ao finalizar o atendimento de vacinação. As transcrições de caderneta também serão enviadas, tanto as cadastradas no atendimento de vacinação quanto no atendimento individual.
+    * **Vacinação:** Envio ao finalizar o atendimento de vacinação. As transcrições de caderneta também serão enviadas, tanto as cadastradas no atendimento de vacinação quanto no atendimento individual.
 
-    * Atendimentos individuais: Envio ao finalizar o atendimento individual. Atendimentos em que o cidadão ficou em observação também serão enviados após sua finalização.
+    * **Atendimentos individuais:** Envio ao finalizar o atendimento individual. Atendimentos em que o cidadão ficou em observação também serão enviados após sua finalização.
 
 * Nova página para visualização da quantidade de registros enviados, localizada no módulo de "Gestão municipal", aba "RNDS". A página exibe informações sobre os envios dos registros de vacinação e atendimentos individuais.
 
@@ -223,11 +223,11 @@ Dentre as principais funcionalidades e implementações realizadas no novo módu
 
 ![](./media/44.png)
 
-A partir desta atualização, é possível realizar videochamadas diretamente no PEC através do novo módulo Videochamadas e-SUS APS que oferece um canal oficial de comunicação aos usuários! A ferramenta conta com a possibilidade de conexão entre duas pessoas, compartilhamento de tela, picture-in-picture e chat.
+A partir desta atualização, é possível realizar **videochamadas** diretamente no PEC através do novo módulo **Videochamadas e-SUS APS** que oferece um canal oficial de comunicação aos usuários! A ferramenta conta com a possibilidade de conexão entre duas pessoas, compartilhamento de tela, picture-in-picture e chat.
 
 ![](./media/45.png)
 
-Para utilizar essa nova funcionalidade, é necessário que o acesso à instalação seja feito utilizando o protocolo HTTPS e que o Administrador da Instalação habilite as videochamadas nas configurações de internet:
+Para utilizar essa nova funcionalidade, é necessário que o acesso à instalação seja feito utilizando o protocolo HTTPS e que o **Administrador da Instalação** habilite as videochamadas nas configurações de internet:
 
 ![](./media/46.gif)
 
@@ -243,7 +243,7 @@ Figura 2:
 
 ![](./media/48.png)
 
-* Com a nova funcionalidade de Exportar cadastros duplicados, agora é possível exportar relatórios no formato CSV com os prováveis cadastros de cidadãos duplicados.
+* Com a nova funcionalidade de **Exportar cadastros duplicados**, agora é possível exportar relatórios no formato CSV com os prováveis cadastros de cidadãos duplicados.
 
 ![](./media/49.png)
 
