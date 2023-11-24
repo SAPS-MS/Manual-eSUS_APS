@@ -5,7 +5,7 @@ parent: Últimas releases
 nav_order: 2
 has_children: false
 has_toc: true
-last_modified_date: "20/11/2023"
+last_modified_date: "24/11/2023"
 ---
 
 # Versão 5.2
