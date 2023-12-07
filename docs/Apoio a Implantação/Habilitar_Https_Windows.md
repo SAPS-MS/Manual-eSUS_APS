@@ -13,7 +13,7 @@ last_modified_date: "25/09/2023"
 
 Vídeo de apresentação: <br>
 
-<video width="800" height="520" controls="controls" autoplay="autoplay" poster="capa.png">
+<video width="800" height="520" controls="controls" autoplay="autoplay" poster="capa_windows.png">
   <source src="https://saps-ms.github.io/Manual-eSUS_APS/windows.mp4" type="video/mp4">
 </video>
 
