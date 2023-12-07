@@ -12,7 +12,7 @@ last_modified_date: "25/09/2023"
 {: .no_toc }
 
 Arquivo .PDF do Tutorial: <br><br>
-<a href="Configuração_Linux.pdf" target="_blank">Configuração https no Linux</a>
+<a href="https://saps-ms.github.io/Manual-eSUS_APS/Configuração_Linux.pdf" target="_blank">Configuração https no Linux</a>
 
 Vídeo de apresentação: <br><br>
 
