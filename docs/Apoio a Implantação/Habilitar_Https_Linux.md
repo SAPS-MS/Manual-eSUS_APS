@@ -14,7 +14,7 @@ last_modified_date: "25/09/2023"
 Arquivo .PDF do Tutorial: <br><br>
 <a href="https://saps-ms.github.io/Manual-eSUS_APS/Configuração_Linux.pdf" target="_blank">Configuração https no Linux</a>
 
-Vídeo de apresentação: <br><br>
+Vídeo de apresentação: <br>
 
 <video width="800" height="520" controls="controls" autoplay="autoplay" poster="capa.png">
   <source src="https://saps-ms.github.io/Manual-eSUS_APS/linux.mp4" type="video/mp4">
