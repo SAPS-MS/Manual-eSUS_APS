@@ -16,7 +16,7 @@ Arquivo .PDF do Tutorial: <br><br>
 
 Vídeo de apresentação: <br><br>
 
-<video width="800" height="520">
+<video width="800" height="520" autoplay poster="capa.png">
   <source src="linux.mp4" type="video/mp4">
 </video>
 
