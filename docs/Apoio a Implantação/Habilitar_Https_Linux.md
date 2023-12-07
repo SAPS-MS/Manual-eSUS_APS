@@ -36,11 +36,11 @@ Como o PEC vem configurado para o protocolo HTTP na porta 8080 por padrão e o C
  
 Em PASTA_DE_INSTALACAO_eSUS/webserver/config, modifique o arquivo application.properties para adicionar a seguinte linha: 
 
-**server.port=80**
+    server.port=80
 
 Após a inclusão, é necessário que o serviço do e-SUS APS seja reiniciado:
 
-**systemctl stop e-SUS-PEC.servicesystemctl start e-SUS-PEC.service**
+    systemctl stop e-SUS-PEC.servicesystemctl start e-SUS-PEC.service
 
  É preciso ter o snapd instalado, caso ainda não o possua. Ele vem pré-instalado no Ubuntu 18, 20 e 21, e no Manjaro, dentre outros. Porém, se você utiliza ArchLinux, Debian ou Fedora, por exemplo, será necessário instalá-lo. A lista completa de distribuições que vêm ou não com snapd pré-instalado pode ser encontrada aqui. Neste link você também encontra as instruções para instalação em cada caso.
 
@@ -50,23 +50,23 @@ Após a inclusão, é necessário que o serviço do e-SUS APS seja reiniciado:
 
  Se você tiver algum pacote do Certbot instalado através de um gerenciador de pacotes do sistema (como apt, dnf ou yum), você deve removê-lo antes de prosseguir. O comando exato para fazer isso depende da sua distribuição Linux, mas exemplos comuns são:
 
-•	sudo apt-get remove certbot
-•	sudo dnf remove certbot
-•	sudo yum remove certbot
+    •	sudo apt-get remove certbot
+    •	sudo dnf remove certbot
+    •	sudo yum remove certbot
 
 Se você já usou o Certbot no passado por meio do script certbot-auto, você também deve remover sua instalação seguindo as instruções desta página.
 
  Finalmente, instale o Certbot executando o comando abaixo:
 
- **sudo snap install --classic certbot**
+    sudo snap install --classic certbot
 
  E então rode o comando a seguir para garantir que o Certbot poderá ser executado:
 
- **sudo ln -s /snap/bin/certbot /usr/bin/certbot**
+    sudo ln -s /snap/bin/certbot /usr/bin/certbot
 
 Por fim, execute-o por meio do comando e preencha as informações solicitadas:
 
-**sudo certbot certonly --webroot**
+    sudo certbot certonly --webroot
 
 Obs: Através deste comando, solicitará o domínio que você gostaria de inserir o protocolo, neste caso, é válido ressaltar que o Let's Encrypt não emite certificados para endereços IP simples, apenas nomes de domínio. Para estes casos, você precisará registrar um nome de domínio para obter um certificado Let's Encrypt ou encontrar alguma outra certificadora que emita para endereços de IP simples.
 
@@ -84,18 +84,18 @@ E então use o comando abaixo para importar o certificado e criar a keystore, su
 
 - "SENHA" pela senha que deseja utilizar para proteger a keystore.
 
-**keytool -import -alias esusaps -file CAMINHO_COMPLETO/CERTIFICADO.crt -keystore esusa**
+        keytool -import -alias esusaps -file CAMINHO_COMPLETO/CERTIFICADO.crt -keystore esus
 
 Parametrizando no PEC
 
 Agora, é necessário fazer com que o e-SUS APS utilize o certificado salvo na keystore. Em PASTA_DE_INSTALACAO_eSUS/webserver/config, modifique o arquivo application.properties, copiando as seguintes propriedades para o final do arquivo:
 
-server.port=443   
-server.ssl.key-store-type=PKCS12  #OPCIONAL! Depende do tipo de certificado a ser utilizado.
-server.ssl.key-store=
-server.ssl.key-store-password=
-server.ssl.key-alias=
-security.require-ssl=true   #Sempre deve ser passado verdadeiro para habilitar o uso de SSL.
+    server.port=443   
+    server.ssl.key-store-type=PKCS12  #OPCIONAL! Depende do tipo de certificado a ser utilizado.
+    server.ssl.key-store=
+    server.ssl.key-store-password=
+    server.ssl.key-alias=
+    security.require-ssl=true   #Sempre deve ser passado verdadeiro para habilitar o uso de SSL.
 
 O significado de cada propriedade pode ser observado a seguir:
 
@@ -113,7 +113,7 @@ O significado de cada propriedade pode ser observado a seguir:
 
 Após incluir essas propriedades no arquivo e salvá-lo, é necessário reiniciar o serviço do servidor:
 
-**systemctl stop e-SUS-PEC.servicesystemctl start e-SUS-PEC.service**
+    systemctl stop e-SUS-PEC.servicesystemctl start e-SUS-PEC.service
 
 Pronto, o certificado SSL já deve ter sido incluído na sua instalação do e-SUS APS! Para confirmar que o processo funcionou, acesse a URL da instalação em seu navegador e procure pelo ícone de cadeado na barra de endereço.
 
