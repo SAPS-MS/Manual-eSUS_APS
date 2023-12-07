@@ -17,7 +17,7 @@ Arquivo .PDF do Tutorial: <br><br>
 Vídeo de apresentação: <br><br>
 
 <video width="800" height="520" autoplay poster="capa.png">
-  <source src="linux.mp4" type="video/mp4">
+  <source src="https://saps-ms.github.io/Manual-eSUS_APS/linux.mp4" type="video/mp4">
 </video>
 
 Um certificado SSL é um certificado digital que autentica a identidade de um site e permite uma conexão criptografada. SSL significa Secure Sockets Layer, um protocolo de segurança que cria um link criptografado entre um servidor web e um navegador web.
