@@ -11,6 +11,16 @@ last_modified_date: "25/09/2023"
 # CAPÍTULO 15 - Como incluir um certificado SSL (HTTPS) no e-SUS APS [LINUX]
 {: .no_toc }
 
+Arquivo .PDF do Tutorial: <br><br>
+<a href="Configuração_Linux.pdf" target="_blank">Configuração https no Linux</a>
+
+Vídeo de apresentação: <br><br>
+
+<video poster="capa.png">
+  <video src="Configuração_Linux.mp4" type="video/mp4">
+</video>
+
+
 Um certificado SSL é um certificado digital que autentica a identidade de um site e permite uma conexão criptografada. SSL significa Secure Sockets Layer, um protocolo de segurança que cria um link criptografado entre um servidor web e um navegador web.
 
 Neste artigo, apresentaremos o passo-a-passo para inclusão de um certificado SSL no e-SUS APS (no Linux) e garantir ainda mais segurança no acesso à sua instalação. É válido ressaltar que o Let's Encrypt não emite certificados para endereços IP simples, apenas nomes de domínio. Para estes casos, você precisará registrar um nome de domínio para obter um certificado Let's Encrypt ou encontrar alguma outra certificadora que emita para endereços de IP simples.
