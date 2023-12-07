@@ -17,7 +17,7 @@ Arquivo .PDF do Tutorial: <br><br>
 Vídeo de apresentação: <br><br>
 
 <video poster="capa.png">
-  <video src="Configuração_Linux.mp4" type="video/mp4">
+  <video src="https://youtu.be/afDiMcXunvs" type="video/mp4">
 </video>
 
 
