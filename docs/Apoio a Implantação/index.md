@@ -5,7 +5,7 @@ nav_order: 7
 nav_exclude: false
 has_children: true
 last_modified_date: "02/06/2023"
-description: "Lei Geral de Proteção de Dados - LGPD"
+description: "Apoio a Implantação"
 permalink: /docs/Apoio a Implantação
 ---
 
