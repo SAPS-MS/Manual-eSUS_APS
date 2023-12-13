@@ -8,8 +8,9 @@ has_toc: true
 last_modified_date: "25/09/2023"
 ---
 
-# CAPÍTULO 7 - Coleta de Dados Simplificada (CDS)_
+# CAPÍTULO 7 - Coleta de Dados Simplificada (CDS) 
 {: .no_toc }
+
 
 Este capítulo apresenta informações para a utilização do Módulo CDS, agregado ao Sistema com PEC, considerando o processo de digitação das fichas previamente preenchidas. Todas as orientações que constam neste manual se aplicam ao Sistema com CDS (*standalone*). Para mais informações sobre o Sistema com CDS, em especial sobre a forma de preenchimento das fichas, consulte o Manual do Sistema com Coleta de Dados Simplificada, disponível por meio do endereço eletrônico [http://dab.saude.gov.br/portaldab/esus.php](http://dab.saude.gov.br/portaldab/esus.php).
 
