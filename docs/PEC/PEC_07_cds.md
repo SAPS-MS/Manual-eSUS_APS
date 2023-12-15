@@ -187,7 +187,7 @@ c.Caso o trabalhador tenha mais de um vínculo, o sistema mostrará as opções 
 ![](media/pec_image643.png)
 
 #### 7.2.1.1.4 Informações socioeconômicas - Triagem para Risco de Insegurança Alimentar (TRIA)
-5.Faça as duas perguntas do TRIA para o cidadão e registre a resposta com uma das opções: "sim" ou "não". Essas informações são importantes para rastrear o Risco de insegurança alimentar da família.
+4.Faça as duas perguntas do TRIA para o cidadão e registre a resposta com uma das opções: "sim" ou "não". Essas informações são importantes para rastrear o Risco de insegurança alimentar da família.
 
 ![](media/pec_image643_tria.png)
 
