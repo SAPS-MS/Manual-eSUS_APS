@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Administração e Configurações do Sistema
-parent: Prontuário Eletrônico do Cidadão v5.2
+parent: Prontuário Eletrônico do Cidadão v5.0
 nav_order: 5
 has_children: false
 has_toc: true
-last_modified_date: "25/09/2023"
+last_modified_date: "05/07/2021"
 ---
 
 
@@ -106,28 +106,25 @@ Figura 3.1.2
 
 Fonte: SAPS/MS
 
-A partir da versão 5.1.14 do e-SUS APS é necessário habilitação de alguns fatores dentro do PEC para que o CADSUS passe a funcionar em sua aplicação. Para verificar como realizar habilitação dos serviços, siga o passo a passo na seção 3.1.13 - 
-"Acessando ao CADSUS por meio do PEC". 
-
 ### 3.1.1.2 Hórus
 
 Por meio dessa funcionalidade, desde a versão 2.1, o **administrador da instalação** pode ativar a integração com o Sistema Hórus. Para habilitar o recurso, a instalação precisa estar conectada à internet.
 
 Na opção "Hórus", o **administrador da instalação** poderá habilitar ou desabilitar o serviço Hórus, quando houver necessidade.
 
-Figura 3.1.4
+Figura 3.1.3
 
 ![](media/pec_image95.png)
 
 Fonte: SAPS/MS
 
-Figura 3.1.5
+Figura 3.1.4
 
 ![](media/pec_image96.png)
 
 Fonte: SAPS/MS
 
-Para desabilitar a conexão com o serviço do Hórus, conforme a Figura 3.1.1, siga os passos abaixo:
+Para desabilitar a conexão com o serviço do Hórus, conforme a Figura 3.1.3, siga os passos abaixo:
 
 1\. No combo box "Desabilitar durante", selecione uma das opções:
 
@@ -135,7 +132,7 @@ Para desabilitar a conexão com o serviço do Hórus, conforme a Figura 3.1.1, s
 
 2\. Clique no botão "Desabilitar" para concluir.
 
-Para habilitar a conexão com o HÓRUS clique no botão "Habilitar", conforme a Figura 3.1.2.
+Para habilitar a conexão com o HÓRUS clique no botão "Habilitar", conforme a Figura 3.1.4.
 
 ### 3.1.1.3 Agenda Online
 
@@ -146,7 +143,7 @@ Esta funcionalidade permite, desde a versão 3.0, que o **administrador do siste
 
 Para habilitar a sincronização, acesse a funcionalidade de Agenda Online nas opções de configuração do sistema, conforme pode ser visto na Figura 3.1.5.
 
-Figura 3.1.6 - Tela para habilitar a Agenda Online
+Figura 3.1.5 - Tela para habilitar a Agenda Online
 
 ![](media/pec_image97.png)
 
@@ -161,57 +158,6 @@ Ao ativar a Agenda Online o sistema irá sincronizar as informações de agendam
 
 Para desabilitar a sincronização com o Servidor de Agenda Online basta clicar no botão "Desabilitar".
 
-### 3.1.1.3 Teleinterconsulta
-
-Para utilizar essa nova funcionalidade, é necessário que o acesso à instalação seja feito utilizando o protocolo HTTPS na instalação local do PEC e que o Administrador da Instalação habilite as videochamadas nas configurações da instalação, conforme animação abaixo:
-
-![](media/5-2_videochamadas_habilitar.gif)
-
-### 3.1.1.3 Prescrição Digital
-
-Para utização desta nova funcionalidade, é necessário o cumprimento das seguintes premissas, conforme ilustração abaixo:
-
-- Habilitar o SMTP no PEC;
-- Habilitar o protocolo HTTPs;
-- Ter um certificado digital;
-- Estar utilizando versão igual ou superior ao PEC 5.2.6.
-
-![](media/premissas_prescricao_digital.PNG)
-
-#### 3.1.1.3.4 Habilitar o SMTP:
-
-Para que as prescrições digitais sejam enviadas ao e-mail do cidadão, é necessário configurar um Servidor SMTP nas configurações da instalação, que é um serviço que faz o envio dos e-mails gerados pelo PEC aos destinatários. 
-
-Para tal, abra as configurações da instalação utilizando o perfil de administrador da instalação e informe os parâmetros de SMTP para habilitar a funcionialidade, conforme ilustração abaixo:
-
-![](media/pec_image1016.PNG)
-
-#### 3.1.1.3.5 Habilitar o HTTPs:
-
-Para que a comunicação do PEC com o serviço de prescrição digital ocorra com segurança, é necessário que a instalação utilize o protocolo HTTPS.
-
-#### 3.1.1.3.6 Solicitação de ativação da prescrição digital:
-
-- A solicitação de ativação deverá ser feita através de um ticket de suporte que deverá ser criado pela equipe responsável pela instalação na Plataforma de suporte https://esusaps.freshdesk.com. A URL da instalação deverá ser enviada unto da solicitação;
-
-- A partir da URL da instalação, serão geradas as credenciais (login e senha) para ativar a prescrição digital. Elas serão enviadas como resposta do ticket de suporte;
-
-- O administrador da instalação deverá incluir as credenciais nas configurações da instalação e clicar em "Habilitar".
-
-![](media/pec_image1017.PNG)
-
-Após a ativação da prescrição digital:
-
-![](media/pec_image1018.PNG)
-
-#### 3.1.1.3.7 Certificado digital:
-
-Ter um certificado digital válido, da cadeia ICP Brasil.
-
-#### 3.1.1.3.8 Fazer download do PEC:
-
-Realizar o download da última versão do Prontuário Eletrônico do Cidadão (PEC), no Portal da Atenção Primária à Saúde (APS). Deverá ser uma versão igual ou superior ao PEC 5.2.6.
-
 ## 3.1.2 Segurança
 
 Na aba "Segurança", o **administrador da instalação** poderá configurar itens para a segurança do sistema, tais como:
@@ -224,7 +170,7 @@ Na aba "Segurança", o **administrador da instalação** poderá configurar iten
 
 - Solicitação manual para redefinição das senhas de todos os usuários do sistema.
 
-Figura 3.1.7. - Tela de configuração de opções de segurança
+Figura 3.1.6. - Tela de configuração de opções de segurança
 
 ![](media/pec_image100.png)
 
@@ -266,9 +212,7 @@ Em condições excepcionais, é possível solicitar a redefinição de senhas de
 
 Esta funcionalidade permite que o **administrador da instalação** configure o servidor da sua instalação e um servidor SMTP para disponibilizar a opção de \"Esqueci minha senha\" na tela de login. Esta opção permite que os profissionais redefinam suas senhas via e-mail.
 
-### 3.1.3.1 Servidor da instalação do PEC
-
-Para configurar o servidor da instalação do sistema e-SUS APS com PEC, siga os passos abaixo:
+Para configurar o servidor da instalação do sistmea e-SUS APS com PEC, siga os passos abaixo:
 
 ![](media/pec_image102.png)
 
@@ -277,8 +221,6 @@ Para configurar o servidor da instalação do sistema e-SUS APS com PEC, siga os
 2\. No campo "Link da instalação", informe o endereço ou IP de acesso do servidor PEC que está disponível para acesso via internet. Se a porta não for informada no link, o sistema utilizará a porta padrão (80); e
 
 3\. Clique em "Salvar" para concluir.
-
-### 3.1.3.2 Servidor SMTP
 
 Para configurar o servidor SMTP para envio de e-mail, siga os passos abaixo:
 
@@ -292,249 +234,6 @@ Para configurar o servidor SMTP para envio de e-mail, siga os passos abaixo:
 
 4\. Clique em "Habilitar" para concluir, se a conexão for "Bem sucedida". É possível desabilitar o serviço a qualquer momento por meio do botão "Desabilitar".
 
-3.1.3.3 Habilitação de certificado SSL/HTTPS no e-SUS APS PEC:
-
-A  habilitação do certificado SSL/HTTPS no PEC, deverá ser realizada seguindo as instruções abaixo, dependendo do seu sistema operacional. 
-
-3.1.3.3.1 Como incluir um certificado SSL (HTTPS) no e-SUS APS [LINUX]
-
-Um certificado SSL é um certificado digital que autentica a identidade de um site e permite uma conexão criptografada. SSL significa Secure Sockets Layer, um protocolo de segurança que cria um link criptografado entre um servidor web e um navegador web.
-
-3.1.3.3.1.1 Gerando certificado SSL no LINUX
-
-Caso ainda não possua um certificado SSL, mostraremos como obtê-lo usando o Certbot do Let's Encrypt, uma Autoridade Certificadora gratuita, automatizada e aberta, que fornece certificados digitais necessários para habilitar HTTPS em websites. O processo abaixo é destinado para instalações LINUX, porém, você poderá gerar por qualquer outra certificadora para utilização em Windows.
-
-
-        Caso já possua um certificado SSL, basta pular esta seção e ir para "Instalando o certificado SSL".
-
-Como o PEC vem configurado para o protocolo HTTP na porta 8080 por padrão e o Certbot precisa que o servidor esteja rodando na porta 80 para funcionar, será necessário alterar essa configuração do e-SUS APS. Em PASTA_DE_INSTALACAO_eSUS/webserver/config, modifique o arquivo application.properties para adicionar a seguinte linha:
-
-![](media/pec_image1045.png)
-
-Após a inclusão, é necessário que o serviço do e-SUS APS seja reiniciado:
-![](media/pec_image1046.png)
-
- É preciso ter o snapd instalado, caso ainda não o possua. Ele vem pré-instalado no Ubuntu 18, 20 e 21, e no Manjaro, dentre outros. Porém, se você utiliza ArchLinux, Debian ou Fedora, por exemplo, será necessário instalá-lo. A lista completa de distribuições que vêm ou não com snapd pré-instalado pode ser encontrada https://snapcraft.io/docs/installing-snapd. Neste link você também encontra as instruções para instalação em cada caso.
-
-Com o snapd instalado, execute o comando abaixo:
-![](media/pec_image1047.png)
-
-Se tiver algum pacote do Certbot instalado através de um gerenciador de pacotes do sistema (como apt, dnf ou yum), deverá removê-lo antes de prosseguir. O comando exato para fazer isso depende da sua distribuição Linux, mas exemplos comuns são:
-
-- sudo apt-get remove certbot
-- sudo dnf remove certbot
-- sudo yum remove certbot
-
-Se você já usou o Certbot no passado por meio do script certbot-auto, você também deve remover sua instalação seguindo as instruções na página https://certbot.eff.org/docs/uninstall.html.
-   
-Finalmente, instale o Certbot executando o comando abaixo:
-![](media/pec_image1048.png)
-
-E então rode o comando a seguir para garantir que o Certbot poderá ser executado:
-![](media/pec_image1049.png)
-
-Por fim, execute-o por meio do comando e preencha as informações solicitadas:
-![](media/pec_image1050.png)
-
-Obs: Através deste comando, solicitará o domínio que gostaria de inserir o protocolo, neste caso, é válido ressaltar que o Let's Encrypt não emite certificados para endereços IP simples, apenas nomes de domínio. Para estes casos, precisará registrar um nome de domínio para obter um certificado Let's Encrypt ou encontrar alguma outra certificadora que emita para endereços de IP simples.
-
-3.1.3.3.1.2 Instalando o certificado SSL no LINUX
-
-Uma vez que você já possui um certificado SSL, vamos armazená-lo em uma keystore. Primeiramente, navegue até a pasta de configuração do e-SUS APS:
-![](media/pec_image1051.png)
-
-E então use o comando abaixo para importar o certificado e criar a keystore, substituindo:
-
-- "CAMINHO_COMPLETO" pelo caminho completo até a pasta onde se encontra o certificado (/etc/letsencrypt se você criou o certificado seguindo este tutorial);
-
-- "CERTIFICADO" pelo nome do arquivo; e
-
-- "SENHA" pela senha que deseja utilizar para proteger a keystore.
-![](media/pec_image1052.png)
-
-3.1.3.3.1.3 Parametrizando o certificado SSL (LINUX) no e-SUS APS
-
-Agora, é necessário fazer com que o e-SUS APS utilize o certificado salvo na keystore. Em PASTA_DE_INSTALACAO_eSUS/webserver/config, modifique o arquivo application.properties, copiando as seguintes propriedades para o final do arquivo:
-
-![](media/pec_image1053.png)
-
-O significado de cada propriedade pode ser observado a seguir:
-
-- server.port: A porta que representa o protocolo HTTPS; utiliza-se como padrão a porta 443. Também é possível utilizar a porta 8443 (para sinalizar desenvolvimento ou homologação).
-
-- server.ssl.key-store-type: Indica o tipo de Key Store. Caso o tipo seja .p12 (como neste tutorial), é necessário manter esta propriedade e após o = indicar que é PKCS12. Mas, se o tipo for JKS, essa propriedade pode ser omitida.
-
-- server.ssl.key-store: Este é o caminho relativo ao .jar da aplicação (pec-bundle.jar) de onde se encontra a Key Store. Por exemplo, se a Key Store estiver dentro da pasta config como sugerido nos últimos passos, utilizar: server.ssl.key-store=config/esusaps.p12
-
-- server.ssl.key-store-password: Senha indicada no momento da criação da Key Store.
-
-- server.ssl.key-alias: "Apelido" indicado no momento da criação da Key Store.
-
-- security.require-ssl: Propriedade que indica ao Spring se desejamos fazer uso do protocolo SSL.
-
-Após incluir essas propriedades no arquivo e salvá-lo, é necessário reiniciar o serviço do servidor:
-
-![](media/pec_image1054.png)
-
-Agora, o certificado SSL já deve ter sido incluído na sua instalação do e-SUS APS! Para confirmar que o processo funcionou, acesse a URL da instalação em seu navegador e procure pelo ícone de cadeado na barra de endereço.
-
-3.1.3.3.2 Como incluir um certificado SSL (HTTPS) no e-SUS APS [WINDOWS]
-
-Neste caso, para que possamos gerar um certificado SSL através do próprio Let's Encrypt, precisamos nos atentar quanto:
-
-- Necessidade de um DOMÍNIO, exemplo: www.municipio.esus.gov.br;
-- Necessidade de um sistema operacional Windows 10, Windows Server 2019 (versão 1709) ou superiores;
-- Liberação das portas 80 e 443;
-
- Caso você já possua uma certificadora, passe para a 
- seção 3.1.3.3.2.3 "Parametrizando o certificado SSL no e-SUS APS" no manual.
-
-3.1.3.3.2.1 Gerando certificado SSL no WINDOWS
-
-Caso ainda não possua um certificado SSL, mostraremos como obtê-lo usando o Certbot do Let's Encrypt, uma Autoridade Certificadora gratuita, automatizada e aberta, que fornece certificados digitais necessários para habilitar HTTPS em websites. O processo abaixo é destinado para instalações WINDOWS, porém, você poderá seguir o artigo Como incluir um certificado SSL (HTTPS) no e-SUS APS [LINUX] para instalações do tipo LINUX.
-
-Caso já possua um certificado SSL, basta pular esta seção e ir para o item 3.1.3.3.2.2 "Instalando certificado SSL no WINDOWS".
-
-Como o PEC vem configurado para o protocolo HTTP na porta 8080 por padrão e o Certbot precisa que o servidor esteja rodando na porta 80 para funcionar, será necessário alterar essa configuração do e-SUS APS. Em PASTA_DE_INSTALACAO_eSUS/webserver/config, modifique o arquivo application.properties para adicionar a seguinte linha:
-
-![](media/pec_image1055.png)
-
-Após a inclusão, é necessário que o serviço do e-SUS APS seja reiniciado:
-
-Figura 3.1.8 - Tela dos serviços do Windows para reinicio da aplicação
-
-![](media/pec_image1056.png)
-
-SAPS/MS
-
-Será necessário os seguintes pré-requisitos:
-
-- Computador com Windows 10 ou superior instalado;
-- e-SUS APS PEC rodando na porta 80, conforme informado anteriormente;
-- e-SUS APS PEC com um domínio parametrizado, exemplo: esus.municipio.gov.br;
-
-3.1.3.3.2.2 Instalando o Certbot
-
-O primeiro passo é instalar o CertBot no Windows (https://certbot.eff.org/instructions?ws=other&os=windows), que faremos através do próprio GitHub do CertBot. 
-
-
-1. Poderá fazer o download acessando https://github.com/certbot/certbot/releases/latest/download/certbot-beta-installer-win_amd64_signed.exe.
-
-2. Execute o instalador baixado, clique em NEXT, selecione o diretório de instalação e prossiga até finalizar;
-
-3. Após a instalação do CertBot, pare o serviço do e-SUS APS PEC acessando a parte de "serviços" do Windows:
-
-Figura 3.1.9 - Tela dos serviços do Windows
-
-![](media/pec_image1057.png)
-SAPS/MS
-
-4. Abra o PowerShell do Windows em modo Administrador:
-
-Figura 3.1.10 - Tela do menu de pesquisa do Windows para abertura do PowerShell
-
-![](media/pec_image1058.png)
-SAPs/MS
-
-5. No console do PowerShell, você digitará a seguinte informação:
-
-![](media/pec_image1059.png)
-
-- Após a execução, ele solicitará para que você coloque um e-mail que será o responsável pela parametrização.
-- Será solicitado o aceite dos termos do Certbot, bastando pressionar "Y" para yes;
-
-6. Após as parametrizações acima, ele questionará qual o nome do seu domínio, exemplo: "esus.bridge.ufsc.br";
-
-Figura 3.1.11 - Tela do PowerShell para inserir o dominio que deseja colocar o SSL/HTTPS
-
-![](media/pec_image1060.png)
-SAPS/MS
-
-7. Após a inserção do domínio, caso dê sucesso, aparecerá a seguinte mensagem:
-
-    • Qualquer tipo de problema identificado nessa parte, verifique as portas de conexão do seu servidor (80, 8080, 8443, 443);
-
-Figura 3.1.12 - Tela do PowerShell informando sucesso ao gerar certificados
-
-![](media/pec_image1061.png)
-SAPS/MS
-
-8. Ele gerará 4 arquivos no diretório abaixo:
-
-![](media/pec_image1062.png)
-
-![](media/pec_image1063.png)
-
-9. Ainda no PowerShell, execute o comando abaixo:
-
-![](media/pec_image1064.png)
-
-- Caso apareça "RESTRICTED", você deveria ter rodado o seguinte comando:
-
-![](media/pec_image1065.png)
-
-10. Após os comandos acima, instale o "chocolatey" através do seguinte comando:
-
-![](media/pec_image1066.png)
-
-Figura 3.1.13 - Tela do PowerShell com o comando para instalar o Chocolatey
-
-![](media/pec_image1067.png)
-SAPS/MS
-
-
-11. Instalado o "chocolatey", instalaremos o openssl através do seguinte comando:
-
-![](media/pec_image1068.png)
-
-12. Depois de finalizar a instalação do openssl, você deverá fechar o PowerShell e abrir novamente em modo Administrador.
-
-13. Navegue, pelas linhas de comando, até a pasta que seus arquivos .pem estão, neste caso, podendo utilizar o seguinte comando:
-
-![](media/pec_image1069.png)
-
-• Lembre-se de trocar a última pasta para aquela de seu domínio;
-
-14. Já dentro da pasta, você digitará o comando para gerar a sua keystore através dos arquivos .pem:
-
-![](media/pec_image1070.png)
-
-15. Após digitar, aparecerá a informação de "OpenSSL >". Insira então a seguinte linha:
-
-![](media/pec_image1071.png)
-
-16. Insira uma senha, anote-a que você utilizará posteriormente.
-
-17. O certificado .p12 será criado na mesma pasta do Certbot. Copie o arquivo .p12 e coloque na pasta "config" do e-SUS APS PEC.
-
-18. Após inserir o arquivo na pasta config, abra o arquivo application.properties novamente para parametrizarmos no PEC.
-
-3.1.3.3.2.3  Parametrizando o certificado SSL (WINDOWS) no e-SUS APS
-
-Uma vez que você já possui o arquivo .p12 armazenado em uma keystore, agora, é necessário fazer com que o e-SUS APS utilize o certificado salvo na keystore. Em C:\Program Files\e-SUS\webserver\config\, modifique o arquivo application.properties, copiando as seguintes propriedades para o final do arquivo:
-
-![](media/pec_image1072.png)
-
-É válido lembrar que você deverá colocar a SENHA parametrizada no passo 14 do openssl. Lembre de alterar também a porta do servidor que parametrizamos no início, de 80 para 443:
-
-![](media/pec_image1073.png)
-
-O significado de cada propriedade pode ser observado a seguir:
-
-- server.port: A porta que representa o protocolo HTTPS; utiliza-se como padrão a porta 443. Também é possível utilizar a porta 8443 (para sinalizar desenvolvimento ou homologação).
-
-- server.ssl.key-store-type: Indica o tipo de Key Store. Caso o tipo seja .p12 (como neste tutorial), é necessário manter esta propriedade e após o = indicar que é PKCS12. Mas, se o tipo for JKS, essa propriedade pode ser omitida.
-
-- server.ssl.key-store: Este é o caminho relativo ao .jar da aplicação (pec-bundle.jar) de onde se encontra a Key Store. Por exemplo, se a Key Store estiver dentro da pasta config como sugerido nos últimos passos, utilizar: server.ssl.key-store=config/esusaps.p12
-
-- server.ssl.key-store-password: Senha indicada no momento da criação da Key Store.
-
-- server.ssl.key-alias: "Apelido" indicado no momento da criação da Key Store.
-
-- security.require-ssl: Propriedade que indica ao Spring se desejamos fazer uso do protocolo SSL.
-
-Após incluir essas propriedades no arquivo e salvá-lo, é necessário reiniciar o serviço do servidor. Pronto, o certificado SSL já deve ter sido incluído na sua instalação do e-SUS APS! Para confirmar que o processo funcionou, acesse a URL da instalação em seu navegador e procure pelo ícone de cadeado na barra de endereço.
-
 ## 3.1.4 Municípios e Responsáveis
 
 Desde a versão 4.0 do sistema e-SUS APS com PEC, o **administrador da instalação** pode configurar a instalação para ser utilizada por mais de um município ou com o distrito federal. Para adicionar outros municípios ou o distrito federal é necessário incluir um responsável municipal/distrital, que deverá ativar a instalação do seu município/distrito federal.
@@ -543,7 +242,7 @@ O Distrito Federal ou os Municípios ativos na instalação compartilham apenas 
 
 Para adicionar responsáveis municipais/distrital (**administradores municipais**), selecione no campo "Município" o distrito federal/município e no campo "Responsável" um profissional da base local, conforme a Figura 3.1.7:
 
-Figura 3.1.9 - Lista de responsáveis (administradores municipais)
+Figura 3.1.7 - Lista de responsáveis (administradores municipais)
 
 ![](media/pec_image104.png)
 
@@ -556,9 +255,9 @@ Só é possível habilitar um responsável municipal para cada município/distri
 
 ## 3.1.5 Configurações Avançadas
 
-Na aba "Configurações avançadas", o **administrador da instalação** pode alterar o número de requisições simultâneas que podem ser processadas pelo sistema, conforme figura 3.1.10. Essa opção é utilizada para gerenciar a performance do sistema em casos peculiares.
+Na aba "Configurações avançadas", o **administrador da instalação** pode alterar o número de requisições simultâneas que podem ser processadas pelo sistema, conforme figura 3.1.8. Essa opção é utilizada para gerenciar a performance do sistema em casos peculiares.
 
-Figura 3.1.10 - Performance - Número de requisições simultâneas processadas
+Figura 3.1.8 - Performance - Número de requisições simultâneas processadas
 
 ![](media/pec_image105.png)
 
@@ -1697,39 +1396,3 @@ Figura 3.12.8 - Configuração RNDS
 Fonte: SAPS/MS
 
 Após habilitado o acesso à RNDS, caso seja necessário desabilitá-lo, basta clicar no botão "Desabilitar", conforme a figura 3.12.8. Ao desabilitar o certificado digital o botão de acesso a RNDS na tela de atendimento do PEC (Figura 3.12.7) não será mais apresentado.
-
-## 3.13 Acessando ao CADSUS por meio do PEC
-
-Esta seção visa orientar os gestores e técnicos responsáveis pela Estratégia e-SUS APS a habilitarem consulta ao CADSUS dentro do PEC.
-
-A partir da versão 5.1.14 do e-SUS APS PEC, é necessário a habilitação de três principais fatores para que o CADSUS passe a funcionar em sua aplicação. 
-
- Estes procedimentos devem ser realizados para garantir a segurança na atualização das informações dos cidadãos delimitadas pelo Ministério da Saúde e DATASUS. Sendo assim, você precisará realizar a configuração dos tópicos:
-
-- Cadastramento de Certificado Digital de sistema fornecido pelo e-gestor AB;
-- Habilitação de certificado SSL/HTTPS no e-SUS APS PEC;
-- Habilitação do GOV.BR no e-SUS APS PEC;
-
-Passo 1  - Cadastramento do Certificado Digital:
-
-O primeiro procedimento necessário é a parametrização do Certificado Digital no e-SUS APS PEC, para isso, siga o passo a passo disponibilizado na seção 3.12.1 e 3.12.2.  Para este cenário, ao realizar a habilitação do Certificado Digital, você deverá selecionar tanto o habilitação da RNDS quanto para os processos de PIX e PDQ (consulta e alterações) no CADSUS.
-
-    Após a habilitação do Certificado através do e-Gestor, você precisará inserir o Certificado no e-SUS APS PEC. Neste caso, acesse com o perfil de Administrador Municipal, na aba de "Certificados" e selecione o módulo de CADSUS. Assim, você poderá selecionar tanto a RNDS quanto o CADSUS para habilita-los:
-
-Figura 3.13.1
-
-![](media/pec_image1044.png)
-SAPS/MS
-
-Passo 2  - Habilitação de certificado SSL/HTTPS no e-SUS APS PEC:
-
-A  habilitação do certificado SSL/HTTPS no PEC, deverá ser realizada seguindo as instruções da seção 3.1.1.3.5, dependendo do seu sistema operacional. 
-
-**ATENÇÃO** 
-Disponibilizamos também um vídeo com o passo a passo para a inclusão do certificado utilizando o sistema operacional Windows, com o objetivo de facilitar a compreensão no menu "Apoio a Implantação" no Manual e-SUS APS
-
-Passo 3 - Habilitação do GOV.BR no e-SUS APS PEC:
-Após concluída inserção do HTTPS/SSL, para habilitação do GOV.BR no seu PEC, você precisará seguir todo o passo a passo disponibilizado na seção 1.3.3 para Ativação do login via GOV.BR. 
-
-
-{: .atencao } Este é um procedimento determinado pelo DATASUS em prol da segurança na atualização dos dados no CADWEB. Todo o processo de segurança é necessário, visto que o PEC, além de realizar pesquisas no CADSUS, também realiza alterações.

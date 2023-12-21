@@ -266,7 +266,11 @@ Em condições excepcionais, é possível solicitar a redefinição de senhas de
 
 Esta funcionalidade permite que o **administrador da instalação** configure o servidor da sua instalação e um servidor SMTP para disponibilizar a opção de \"Esqueci minha senha\" na tela de login. Esta opção permite que os profissionais redefinam suas senhas via e-mail.
 
+<<<<<<< HEAD
+3.1.3.1 Servidor da instalação do PEC
+=======
 ### 3.1.3.1 Servidor da instalação do PEC
+>>>>>>> cfa82446ace1ccab1df70c1ffc8e0bce94c764be
 
 Para configurar o servidor da instalação do sistema e-SUS APS com PEC, siga os passos abaixo:
 
@@ -278,7 +282,11 @@ Para configurar o servidor da instalação do sistema e-SUS APS com PEC, siga os
 
 3\. Clique em "Salvar" para concluir.
 
+<<<<<<< HEAD
+3.1.3.2 Servidor SMTP
+=======
 ### 3.1.3.2 Servidor SMTP
+>>>>>>> cfa82446ace1ccab1df70c1ffc8e0bce94c764be
 
 Para configurar o servidor SMTP para envio de e-mail, siga os passos abaixo:
 
@@ -1723,10 +1731,11 @@ SAPS/MS
 
 Passo 2  - Habilitação de certificado SSL/HTTPS no e-SUS APS PEC:
 
-A  habilitação do certificado SSL/HTTPS no PEC, deverá ser realizada seguindo as instruções da seção 3.1.1.3.5, dependendo do seu sistema operacional. 
+A  habilitação do certificado SSL/HTTPS no PEC, deverá ser realizada seguindo as instruções da seção YYYYYYYYYYYYY, dependendo do seu sistema operacional. 
 
 **ATENÇÃO** 
-Disponibilizamos também um vídeo com o passo a passo para a inclusão do certificado utilizando o sistema operacional Windows, com o objetivo de facilitar a compreensão no menu "Apoio a Implantação" no Manual e-SUS APS
+Disponibilizamos também um vídeo com o passo a passo para a inclusão do certificado utilizando o sistema operacional Windows, com o objetivo de facilitar a compreensão.:
+
 
 Passo 3 - Habilitação do GOV.BR no e-SUS APS PEC:
 Após concluída inserção do HTTPS/SSL, para habilitação do GOV.BR no seu PEC, você precisará seguir todo o passo a passo disponibilizado na seção 1.3.3 para Ativação do login via GOV.BR. 
