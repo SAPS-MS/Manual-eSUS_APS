@@ -27,7 +27,7 @@ O módulo de Agenda é usado para organizar a agenda dos profissionais das unida
 Para começar a utilizá-la, é necessário configurar com informações referentes ao horário de trabalho dos profissionais. Quando o profissional apresenta apenas um vínculo no CNES, a agenda virá com uma formatação padrão de atendimentos (dias e horário de trabalho) que pode ser alterada. A configuração da agenda está disponível unicamente para os profissionais com **perfil de coordenação**. No Capítulo 3, você encontra mais informações sobre a configuração da agenda do profissional.
 
 {: .nota }
-Antes de utilizar a agenda, é necessário que o coordenador se cerifique sobre a configuração da agenda dos profissionais (ver seção 3.4.5), e realize a adequação, caso necessário.
+Antes de utilizar a agenda, é necessário que o coordenador se certifique sobre a configuração da agenda dos profissionais (ver seção 3.5.5 "Definir Agenda dos Profissionais), e realize a adequação, caso necessário.
 
 Para o profissional utilizar a agenda para gestão dos atendimentos, deverá primeiramente clicar na opção "Agenda", após o sistema exibirá a tela da agenda, conforme a Figura 5.1, abrindo na data atual do acesso.
 
