@@ -56,10 +56,10 @@ Nésio Fernandes de Medeiros Junior
 Rodrigo André Cuevas Gaete
 
 **Organização**<br>
-Elaine de Almeida, Francy Webster Pereira, Igor de Carvalho Gomes, Ingryd Isabelle Maia de Souza, Janaína Nogueira Guimarães, Romario Araujo Matias Rocha, Willian Soares Lima.
+Adriene dos Santos Sá, Elaine de Almeida, Francy Webster Pereira, Igor de Carvalho Gomes, Ingryd Isabelle Maia de Souza, Janaína Nogueira Guimarães, Romario Araujo Matias Rocha, Willian Soares Lima.
 
 **Revisão Técnica**<br>
-Elaine de Almeida, Igor de Carvalho Gomes, Ingryd Isabelle Maia de Souza, Janaína Nogueira Guimarães, Marcelo Alves Miranda, Romario Araujo Matias Rocha, Viviane Loiola Lacerda, Willian Soares Lima.
+Adriene dos Santos Sá, Elaine de Almeida, Igor de Carvalho Gomes, Ingryd Isabelle Maia de Souza, Janaína Nogueira Guimarães, Marcelo Alves Miranda, Romario Araujo Matias Rocha, Viviane Loiola Lacerda, Willian Soares Lima.
 
 **Elaboração de texto**<br>
 Elaine de Almeida, Igor de Carvalho Gomes, Ingryd Isabelle Maia de Souza, Janaína Nogueira Guimarães, Romario Araujo Matias Rocha, Viviane Loiola Lacerda, Willian Soares Lima.
