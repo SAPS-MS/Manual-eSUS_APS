@@ -39,7 +39,7 @@ Adriene dos Santos Sá, Elaine de Almeida, Igor de Carvalho Gomes, Ingryd Isabel
 Adriene dos Santos Sá, Elaine de Almeida, Igor de Carvalho Gomes, Ingryd Isabelle Maia de Souza, Janaína Nogueira Guimarães, Marcelo Alves Miranda, Romario Araujo Matias Rocha, Viviane Loiola Lacerda, Willian Soares Lima.
 
 **Colaboradores**<br>
-Adriana Kitajima, Adriene dos Santos Sá, Allan Nuno Alves de Souza, Ana Claudia Cielo, André Cury Alves, Edson Lucena, Elaine de Almeida, Igor de Carvalho Gomes, Ingryd Isabelle Maia de Souza, João Geraldo de Oliveira Júnior, Janaína Nogueira Guimarães, Marcelo Alves Miranda, Micael Macedo Pereira da Trindade, Rodrigo André Cuevas Gaete, Romario Araujo Matias Rocha, Thaís Alessa Leite, Vanessa Lora, Virgínia Fava, Viviane Loiola Lacerda, Willian Soares Lima.
+Adriene dos Santos Sá, Adriana Kitajima, Adriene dos Santos Sá, Allan Nuno Alves de Souza, Ana Claudia Cielo, André Cury Alves, Edson Lucena, Elaine de Almeida, Igor de Carvalho Gomes, Ingryd Isabelle Maia de Souza, João Geraldo de Oliveira Júnior, Janaína Nogueira Guimarães, Marcelo Alves Miranda, Micael Macedo Pereira da Trindade, Rodrigo André Cuevas Gaete, Romario Araujo Matias Rocha, Thaís Alessa Leite, Vanessa Lora, Virgínia Fava, Viviane Loiola Lacerda, Willian Soares Lima.
 
 **Projeto Gráfico**<br>
 Alexandre Soares de Brito, Diogo Ferreira Gonçalves
@@ -51,7 +51,7 @@ Alexandre Soares de Brito, Diogo Ferreira Gonçalves
 {: .text-center }
 
 Brasil. Ministério da Saúde. Secretaria de Atenção Primária à Saúde.<br>
-e-SUS Atenção Primária à Saúde: Manual do Sistema com Prontuário Eletrônico do Cidadão PEC – Versão 5.1 [recurso eletrônico] / Ministério da Saúde, Secretaria de Atenção Primária à Saúde, Secretaria Executiva. – Brasília: Ministério da Saúde, 2023.<br>
+e-SUS Atenção Primária à Saúde: Manual do Sistema com Prontuário Eletrônico do Cidadão PEC – Versão 5.2 [recurso eletrônico] / Ministério da Saúde, Secretaria de Atenção Primária à Saúde, Secretaria Executiva. – Brasília: Ministério da Saúde, 2023.<br>
 <br>
 ISBN **Versão Preliminar**<br>
 Modo de acesso: <https://aps.saude.gov.br/ape/esus><br>
