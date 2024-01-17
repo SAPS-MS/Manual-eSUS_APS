@@ -5,7 +5,7 @@ parent: Prontuário Eletrônico do Cidadão v5.2
 nav_order: 9
 has_children: false
 has_toc: true
-last_modified_date: "25/09/2023"
+last_modified_date: "15/12/2023"
 ---
 
 # CAPÍTULO 7 - Coleta de Dados Simplificada (CDS) 
@@ -186,19 +186,24 @@ c.Caso o trabalhador tenha mais de um vínculo, o sistema mostrará as opções 
 
 ![](media/pec_image643.png)
 
-#### 7.2.1.1.4 Questionário autorreferido de condições/situações de saúde
+#### 7.2.1.1.4 Informações socioeconômicas - Triagem para Risco de Insegurança Alimentar (TRIA)
+4.Faça as duas perguntas do TRIA para o cidadão e registre a resposta com uma das opções: "sim" ou "não". Essas informações são importantes para rastrear o Risco de insegurança alimentar da família.
 
-4.Preencha as informações de "Condições/situações de saúde gerais" do cidadão de acordo com os dados da ficha. Observe que algumas perguntas devem ser especificadas caso a resposta seja "Sim";
+![](media/pec_image643_tria.png)
+
+#### 7.2.1.1.5 Questionário autorreferido de condições/situações de saúde
+
+5.Preencha as informações de "Condições/situações de saúde gerais" do cidadão de acordo com os dados da ficha. Observe que algumas perguntas devem ser especificadas caso a resposta seja "Sim";
 
 ![](media/pec_image644.png)
 
-#### 7.2.1.1.5 Cidadão em situação de rua
+#### 7.2.1.1.6 Cidadão em situação de rua
 
-5.Preencha as informações de "Em situação de rua" de acordo com as informações registradas na ficha. Observe que a pergunta "Está em situação de rua" é obrigatória;
+6.Preencha as informações de "Em situação de rua" de acordo com as informações registradas na ficha. Observe que a pergunta "Está em situação de rua" é obrigatória;
 
 ![](media/pec_image645.png)
 
-6.Após a digitação dos dados, clique no botão ![](media/pec_image646.png) e, caso haja alguma inconsistência, o sistema mostrará mensagem na tela indicando os campos que deverão ser corrigidos. Se não houver inconsistência, o sistema salvará os dados e voltará para a tela anterior.
+7.Após a digitação dos dados, clique no botão ![](media/pec_image646.png) e, caso haja alguma inconsistência, o sistema mostrará mensagem na tela indicando os campos que deverão ser corrigidos. Se não houver inconsistência, o sistema salvará os dados e voltará para a tela anterior.
 
 ### 7.2.1.2 Adicionar Cadastro Individual com Termo de Recusa
 
