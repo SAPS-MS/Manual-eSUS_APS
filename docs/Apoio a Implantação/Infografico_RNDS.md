@@ -13,5 +13,9 @@ last_modified_date: "12/01/2024"
 
 <br>
 
+<video width="800" height="520" controls="controls" autoplay="autoplay" poster="capa_linux.png">
+  <source src="https://saps-ms.github.io/Manual-eSUS_APS/certificado.mp4" type="video/mp4">
+</video>
+
 <iframe src="https://saps-ms.github.io/Manual-eSUS_APS/infografico.pdf" width="890px" height="900px"></iframe>
 
