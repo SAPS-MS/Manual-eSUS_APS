@@ -8,7 +8,7 @@ has_toc: true
 last_modified_date: "12/01/2024"
 ---
 
-# Passo a passo de integração do PEC a RNDS:
+# Habilitação do PEC a RNDS e CADSUS:
 
 <br>
 
