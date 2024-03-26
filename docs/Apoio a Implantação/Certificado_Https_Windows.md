@@ -20,26 +20,24 @@ Um certificado SSL é um certificado digital que autentica a identidade de um si
 
 Caso o município já possua um certificado SSL em formato P12 ou JKS, compatível com o e-SUS APS, pule para a **Etapa 6 - Parametrizando o certificado SSL na aplicação do e-SUS APS**. 
 
-Neste artigo, apresentaremos o passo a passo para inclusão de um certificado SSL no e-SUS APS (no Windows) e garantir ainda mais segurança no acesso à sua instalação. É válido ressaltar que o Let’s Encrypt/Certbot não emite certificados para endereços IP simples, apenas nomes de domínio.  
-
-É válido ressaltar que os passos abaixo de geração de certificado através do Certbot e OpenSSL são apenas sugestões, podendo o município utilizar a certificadora que desejar para geração. 
+Neste artigo, apresentaremos o passo a passo para inclusão de um certificado SSL no e-SUS APS em servidores Windows e garantir ainda mais segurança no acesso à sua instalação. **É válido ressaltar que este processo não emite certificados para endereços IP simples, apenas nomes de domínio,** e os passos abaixo de geração de certificado através do **Let’s Encrypt/Certbot** e **OpenSSL** são apenas sugestões, podendo o município utilizar a certificadora que desejar para geração. 
 
 Assim sendo, para que possamos gerar um certificado SSL através do próprio Let’s Encrypt/Certbot, precisamos nos atentar aos seguintes requisitos obrigatórios: 
 
 - Sistema operacional Windows 10 (ou superior) ou Windows Server 2019 (versão 1709 ou superior) na sua instalação do e-SUS APS; 
 
-- Sua Instalação do e-SUS APS já deve possuir IP público para acesso externo; 
+- Sua Instalação do e-SUS APS já deve possuir **IP público** para acesso externo; 
 
-- Deve ser disponibilizado um domínio apontando para o IP público de acesso à sua Instalação do e-SUS APS, sem indicar nenhuma porta, somente o IP. Observação: se o seu município já tem o domínio próprio, basta solicitar que seja criado o subdomínio para sua Instalação. Exemplo que será utilizado nesse tutorial: esus.municipio.uf.gov.br; 
+- Deve ser disponibilizado um domínio apontando para o IP público de acesso à sua Instalação do e-SUS APS, sem indicar nenhuma porta, somente o IP. Se o seu município já tem o domínio próprio, basta solicitar que seja criado o subdomínio para sua Instalação. Exemplo que será utilizado nesse tutorial: **esus.municipio.uf.gov.br**; 
 
-- Assim como está a porta 8080 configurada, as portas de entrada 80 e 443 também devem ser liberadas pelo provedor. Também é necessário que estar mesmas portas sejam redirecionadas no roteador de borda para o IP na rede local da sua Instalação do e-SUS APS; 
+- Assim como está a porta **8080** configurada, as portas de entrada **80** e **443** também devem ser liberadas pelo provedor. Também é necessário que estar mesmas portas sejam redirecionadas no roteador de borda para o IP na rede local da sua Instalação do e-SUS APS; 
 
-> **Observação**: verifique se o acesso remoto à administração do seu roteador está ativado, pois em muitos roteadores, esse acesso se dá pela porta padrão 80, dando assim conflito durante o processo de geração do certificado na Etapa 3 deste tutorial, que utiliza esta mesma porta. Recomenda-se que a porta de acesso remoto do roteador seja alterada (desde que não seja as opções 8080 e 443) ou o acesso seja desativado se não for possível alterá-la. 
+- Verifique se o acesso remoto à administração do seu roteador está ativado, pois em muitos roteadores, esse acesso se dá pela porta padrão 80, dando assim conflito durante o processo de geração do certificado na Etapa 3 deste tutorial, que utiliza esta mesma porta. Recomenda-se que a porta de acesso remoto do roteador seja alterada (desde que não seja as opções 8080 e 443) ou o acesso seja desativado se não for possível alterá-la. 
  
 
 ## Etapa 2 – Preparando o ambiente para habilitação do protocolo HTTPS 
 
-Inicialmente, é necessário realizar este processo de configuração em um horário que não haja profissionais utilizando o e-SUS APS, pois será necessário reiniciar algumas vezes o serviço do sistema e, após conclusão, o novo endereço de acesso se tornará o domínio do servidor antecedido do padrão **https://**. 
+Inicialmente, é necessário realizar este processo de configuração em um horário que não haja profissionais utilizando o e-SUS APS, pois será necessário reiniciar algumas vezes o serviço do sistema e, após conclusão, o novo endereço de acesso se tornará o domínio do servidor antecedido do padrão HTTPS, exemplo https://esus.municipio.uf.gov.br.
 
 1º Passo: iniciaremos todo o processo habilitando as portas de entrada 80 e 443 no Windows. Para isso, procure pelo termo “firewall” no menu Iniciar e selecione o ícone a seguir: 
 
@@ -79,7 +77,7 @@ Inicialmente, é necessário realizar este processo de configuração em um hor�
 
 7º Passo: insira a seguinte linha ao fim do conteúdo e salve o arquivo: 
 
-`server.port=443`
+### `server.port=443`
 
 Exemplo: 
 
@@ -106,7 +104,7 @@ A iniciativa Let’s Encrypt, com seu programa Certbot, é uma autoridade certif
 
 1º Passo: baixe aqui o Certbot para Windows: https://certbot.eff.org/instructions?ws=other&os=windows
 
-> Link direto do download: https://github.com/certbot/certbot/releases/latest/download/certbot-beta-installer-win_amd64_signed.exe 
+> Link direto do download: https://github.com/certbot/certbot/releases/latest/download/certbot-beta-installer-win_amd64_signed.exe
 
 2º Passo: instale o programa, de preferência, no diretório “C:\Certbot”. 
 
@@ -115,7 +113,7 @@ A iniciativa Let’s Encrypt, com seu programa Certbot, é uma autoridade certif
 
 4º Passo: digite o comando abaixo e tecle ENTER:  
 
-`certbot certonly --standalone`
+### `certbot certonly --standalone`
 
 5º Passo: será solicitado que seja informado um e-mail do responsável técnico pelo certificado. Digite o e-mail e tecle ENTER. 
 
@@ -131,7 +129,7 @@ Nesse momento, em caso de sucesso, a mensagem “Successfully received certifica
 
 > Atenção: Em caso de qualquer outra mensagem de erro neste passo, provavelmente relacionado a porta 80 não estar devidamente configurada, que é a porta padrão do Certbot para geração do certificado, você poderá reiniciar o processo a partir do 4º Passo e realizar o seguinte comando, gerando o certificado pela porta 8080 e assim dar andamento no processo:  
 
-`certbot certonly --standalone --http-01-port 8080` 
+### `certbot certonly --standalone --http-01-port 8080` 
 
 > Observação: os certificados no formato PEM criados pelo Certbot tem duração de 90 dias, porém, o próprio Certbot cria uma tarefa automática no Windows para realizar sua renovação em tempo oportuno, mas, para que isso ocorra, a porta pela qual o certificado foi gerado deve permanecer devidamente configurada, conforme já explicado anteriormente. 
 
@@ -196,7 +194,7 @@ Observações importantes:
 
 4º Passo:  em PROCURAR, encontre o arquivo "certificado.bat" criado, selecione-o e clique em AVANÇAR. Seguindo este tutorial, ele tem seu caminho em "C:\OpenSSL\certificado.bat". 
 
- 5º Passo: selecione a opção "Abrir a caixa Propriedades da tarefa depois de clicar em Concluir" e clique em CONCLUIR. 
+5º Passo: selecione a opção "Abrir a caixa Propriedades da tarefa depois de clicar em Concluir" e clique em CONCLUIR. 
 
 6º Passo: na tela de Propriedades, selecione a opção "Executar estando o usuário conectado ou não", selecione também a opção "Executar com privilégios mais altos" e clique em OK. Observação: Neste momento, se sua conta de usuário do Windows possui senha, será necessário confirmar esta senha para concluir o processo. 
 
@@ -223,7 +221,7 @@ server.ssl.key-store-password=SUA-SENHA-PARA-O-CERTIFICADO
 server.ssl.key-alias=esus
 ```
 
-5º Passo: onde há no comando “SUA-SENHA-PARA-O-CERTIFICADO", substitua pela senha criada no 4º passo da Etapa 4 - Instalando o OpenSSL e criando o certificado P12.Salve as alterações do arquivo. 
+5º Passo: onde há no comando “SUA-SENHA-PARA-O-CERTIFICADO", substitua pela senha criada no 4º passo da **Etapa 4 - Instalando o OpenSSL e criando o certificado P12** e salve as alterações do arquivo. 
 
 > Explicação de cada propriedade:  
 > - **security.require-ssl**: Propriedade que indica ao Spring se desejamos fazer uso do protocolo SSL. 
@@ -250,10 +248,10 @@ No fim do conteúdo do arquivo, adicione a seguinte linha e salve o arquivo:
 
 `127.0.0.1  esus.municipio.uf.gov.br`
 
+> Observação: onde há **esus.municipio.uf.gov.br**, substitua pelo seu domínio da Instalação sem o https:// como prefixo. 
+
 Exemplo:
 ![alt text](media/033.png)
-
-> Observação: onde há esus.municipio.uf.gov.br, substitua pelo seu domínio da Instalação sem o https:// como prefixo. 
 
 Assim você já poderá alterar o “Link da Instalação” no servidor da Instalação e acessar o domínio neste mesmo computador. 
 
@@ -265,10 +263,10 @@ No fim do conteúdo do arquivo, adicione a seguinte linha e salve o arquivo:
 
 `IP-LOCAL-DO-SERVIDOR	esus.municipio.uf.gov.br` 
 
+> Observação: onde há **IP-LOCAL-DO-SERVIDOR** substitua pelo endereço de IP local, ou de rede, do seu servidor da Instalação (não é o IP público); onde há **esus.municipio.uf.gov.br**, substitua pelo seu domínio da Instalação sem o https:// como prefixo.
+
 Exemplo:
 ![alt text](media/034.png)
-
-> Observação: onde há IP-LOCAL-DO-SERVIDOR substitua pelo endereço de IP local, ou de rede, do seu servidor da Instalação (não é o IP público); onde há esus.municipio.uf.gov.br, substitua pelo seu domínio da Instalação sem o https:// como prefixo. 
 
 Assim você já poderá acessar o e-SUS APS pelo domínio com HTTPS nos computadores da mesma rede do servidor. 
 
