@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Credencial GOV.BR
+title: Login GOV.BR
 parent: Apoio a Implantação
 nav_order: 5
 has_children: false

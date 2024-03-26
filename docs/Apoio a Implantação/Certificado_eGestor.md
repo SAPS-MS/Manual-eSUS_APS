@@ -1,12 +1,22 @@
 ---
 layout: default
-title: Credenciamento e-GESTOR AB
+title: Certificado RNDS/CADSUS
 parent: Apoio a Implantação
-nav_order: 4
+nav_order: 2
 has_children: false
 has_toc: true
-last_modified_date: "25/09/2023"
+last_modified_date: "12/01/2024"
 ---
+
+# Fluxo de geração do certificado digital no e-Gestor AB para o e-SUS APS:
+
+<video width="800" height="520" controls="controls" autoplay="off" poster="capa_RNDS.png">
+  <source src="https://saps-ms.github.io/Manual-eSUS_APS/certificado.mp4" type="video/mp4">
+</video>
+
+<a href="https://saps-ms.github.io/Manual-eSUS_APS/infografico.pdf">Download Infográfico</a>
+
+<br>
 
 # Geração do certificado digital e-GESTOR AB:
 
@@ -108,5 +118,3 @@ Ao clicar em "Confirmar e avançar", será realizada a conclusão de solicitaç�
 Na tela de credenciais geradas, será possível ter acesso ao ID do solicitante e ao certificado que deverá ser informado no PEC, conforme item 3.12.4.
 
 ![](../PEC/media/pec_image1043.png)
-
-
