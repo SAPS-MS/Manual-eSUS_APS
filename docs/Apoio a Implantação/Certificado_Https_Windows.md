@@ -77,7 +77,7 @@ Inicialmente, é necessário realizar este processo de configuração em um hor�
 
 7º Passo: insira a seguinte linha ao fim do conteúdo e salve o arquivo: 
 
-### `server.port=443`
+`server.port=443`
 
 Exemplo: 
 
@@ -113,7 +113,7 @@ A iniciativa Let’s Encrypt, com seu programa Certbot, é uma autoridade certif
 
 4º Passo: digite o comando abaixo e tecle ENTER:  
 
-### `certbot certonly --standalone`
+`certbot certonly --standalone`
 
 5º Passo: será solicitado que seja informado um e-mail do responsável técnico pelo certificado. Digite o e-mail e tecle ENTER. 
 
@@ -129,7 +129,7 @@ Nesse momento, em caso de sucesso, a mensagem “Successfully received certifica
 
 > Atenção: Em caso de qualquer outra mensagem de erro neste passo, provavelmente relacionado a porta 80 não estar devidamente configurada, que é a porta padrão do Certbot para geração do certificado, você poderá reiniciar o processo a partir do 4º Passo e realizar o seguinte comando, gerando o certificado pela porta 8080 e assim dar andamento no processo:  
 
-### `certbot certonly --standalone --http-01-port 8080` 
+`certbot certonly --standalone --http-01-port 8080` 
 
 > Observação: os certificados no formato PEM criados pelo Certbot tem duração de 90 dias, porém, o próprio Certbot cria uma tarefa automática no Windows para realizar sua renovação em tempo oportuno, mas, para que isso ocorra, a porta pela qual o certificado foi gerado deve permanecer devidamente configurada, conforme já explicado anteriormente. 
 
