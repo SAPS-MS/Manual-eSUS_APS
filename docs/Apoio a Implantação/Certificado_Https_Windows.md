@@ -44,21 +44,21 @@ Inicialmente, é necessário realizar este processo de configuração em um hor�
 
 2º Passo: no menu esquerdo, seleciona e opção “Regras de entrada” e clique em “Nova Regra...”. 
 
- 
+ ![alt text](media/015.png)
 
 3º Passo: habilite a porta “80” para entrada, utilizando os seguintes parâmetros: 
 
 - Em “Tipo de Regra”, marcar a opção “Porta” e clique em AVANÇAR. 
 
- 
+ ![alt text](media/016.png)
 
 - Em “Protocolos e Porta”, marcar a opção “TCP” e abaixo definir em “Portas locais específicas” a porta “80” e clique em AVANÇAR. 
 
- 
+ ![alt text](media/017.png)
 
 - Em ”Ação”, marcar a opção ”Permitir a conexão” e clique em AVANÇAR. 
 
- 
+ ![alt text](media/018.png)
 
 - Em “Perfil”, selecione todos os tipos possíveis e clique em AVANÇAR. 
 
