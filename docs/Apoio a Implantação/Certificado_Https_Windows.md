@@ -282,4 +282,4 @@ Informe o novo link de acesso da sua Instalação à todas as suas unidades que 
 
 **FIM** 
 
-1ª versão. Atualizado em 26 de março de 2024. 
+2ª versão. Atualizado em 1 de abril de 2024. 
