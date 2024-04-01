@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Certificado HTTPS Windows
-parent: 
+parent: Apoio a Implantação
 nav_order: 3
 has_children: false
 has_toc: true
@@ -140,9 +140,7 @@ Nesse momento, em caso de sucesso, a mensagem “Successfully received certifica
 
 O Certbot gera certificados SSL no formato PEM, que não são reconhecidos para parametrização no e-SUS APS. Assim sendo, trazemos o OpenSSL como alternativa, outro sistema gratuito, que converte certificados no formato P12 a partir do PEM, formato este que será permitido para parametrização. 
 
-1º Passo: baixe o OpenSSL para Windows, obrigatoriamente na versão 1.1 mais recente disponível, Win64 executável (EXE): https://slproweb.com/products/Win32OpenSSL.html 
-
-![alt text](media/029.png)
+1º Passo: baixe o OpenSSL para Windows, obrigatoriamente na versão 1.1, Win64 executável (EXE): [DOWNLOAD](../../Win64OpenSSL-1_1_1w.exe)
 
 2º Passo: instale o OpenSSL, de preferência, no diretório “C:\OpenSSL”. 
 
