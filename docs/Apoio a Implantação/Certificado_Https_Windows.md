@@ -278,8 +278,6 @@ Assim você já poderá acessar o e-SUS APS pelo domínio com HTTPS nos computad
 
 Informe o novo link de acesso da sua Instalação à todas as suas unidades que utilizam o e-SUS APS e reconfigure todos os aplicativos da estratégia e-SUS APS em celulares e tablets com este novo link para sincronização (e-SUS Território, e-SUS AD, e-SUS Atividade Coletiva, e-SUS Vacinação, Gestão e-SUS APS).   
 
-> Importante: após a habilitação do protocolo HTTPS, por motivos padrão de segurança do Android, é importante ressaltar que apenas os aplicativos da estratégia e-SUS APS instalados em Android versão 5.0 ou superior conseguirão realizar sincronização com a Instalação. 
-
 **FIM** 
 
 2ª versão. Atualizado em 1 de abril de 2024. 
