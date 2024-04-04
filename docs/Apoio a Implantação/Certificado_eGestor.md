@@ -124,3 +124,44 @@ Ao clicar em "Confirmar e avançar", será realizada a conclusão de solicitaç�
 Na tela de credenciais geradas, será possível ter acesso ao ID do solicitante e ao certificado que deverá ser informado no PEC.
 
 ![](../PEC/media/pec_image1043.png)
+
+### Criando a pasta de "chaves" no sistema
+
+A partir do momento que o Certificado Digital foi gerado no e-Gestor, será necessário que o Administrador da Instalação, de posse do certificado (.pfx ou .p12), cadastre na aplicação. Será necessário criar a pasta “chaves” e incluir o arquivo (.pfx ou .p12) nesta pasta. A depender do sistema operacional o administrador da instalação deverá proceder da seguinte forma:
+
+Se o sistema operacional for **Windows** - Acesse a pasta:
+
+C:\ProgramFiles\e-SUS\webserver\chaves
+
+Inclua o arquivo (.pfx ou .p12) na pasta “chaves”.
+
+![](../Apoio%20a%20Implantação/media/cert_05.png)
+
+Se o sistema operacional for **Linux** - Acesse o repositório com o comando:
+
+cd /opt/e-SUS/webserver/
+
+Crie a pasta “chaves” utilizado o comando:
+
+sudo mkdir chaves
+
+Inclua o arquivo (.pfx ou .p12) na pasta “chaves”.
+
+![](../Apoio%20a%20Implantação/media/cert_06.png)
+
+### Cadastrando o Certificado Digital no e-SUS APS PEC
+
+Nesta etapa o administrador municipal acessa a instalação PEC com login e senha para habilitar o acesso do PEC à RNDS por meio do módulo “Gestão Municipal”. Neste módulo, na aba “Configuração RNDS”, o administrador municipal selecionará o certificado - previamente inserido pelo administrador da instalação na pasta “chaves” da instalação PEC - informará a senha do certificado e o identificador do solicitante obtido no e-GESTOR, no momento em que a solicitação de credenciamento é homologada para o acesso a RNDS.
+
+![](../Apoio%20a%20Implantação/media/cert_07.png)
+
+Após a habilitação, poderão ser observados os registros enviados a RNDS em Gestão Municipal, RNDS.
+
+![](../Apoio%20a%20Implantação/media/cert_09.png)
+
+Na tela de atendimento do cidadão, realizado por profissional de nível superior no PEC, será apresentado o novo botão **SUS Digital Profissional** com link de acesso a RNDS externamente ao PEC, conforme a imagem abaixo:
+
+![](../Apoio%20a%20Implantação/media/cert_08.png)
+
+Vale destacar que para acessar ao prontuário do Cidadão na RNDS, o profissional deve possuir seu login gov.br no nível **prata** ou **ouro**.
+
