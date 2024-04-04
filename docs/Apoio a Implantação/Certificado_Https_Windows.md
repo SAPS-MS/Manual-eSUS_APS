@@ -290,7 +290,7 @@ Para as unidades que acessam a Instalação do e-SUS APS externamente à rede lo
 Informe o novo link de acesso da sua Instalação à todas as suas unidades que utilizam o e-SUS APS e reconfigure todos os aplicativos da estratégia e-SUS APS em celulares e tablets com este novo link para sincronização (e-SUS Território, e-SUS AD, e-SUS Atividade Coletiva, e-SUS Vacinação, Gestão e-SUS APS).   
 
 {: .atencao }
-Após a habilitação do protocolo HTTPS, por motivos padrão de segurança do Android, é importante ressaltar que apenas os aplicativos da estratégia e-SUS APS instalados em Android versão 7.1.2 ou superior conseguirão realizar sincronização com a Instalação.
+Após a habilitação do protocolo HTTPS, por motivos de compatibilidade entre o sistema operacional Android e o Let's Encrypt/Certbot, é importante ressaltar que apenas os aplicativos da estratégia e-SUS APS instalados em Android versão 7.1.2 ou superior conseguirão realizar sincronização com a Instalação.
 
 **FIM** 
 
