@@ -89,13 +89,15 @@ Exemplo:
 
 9º Passo: após reinício do serviço e aguardando o tempo de inicialização, que dependendo das configurações da sua instalação pode demorar alguns minutos, verifique se a instalação já pode ser acessada, digitando no navegador o caminho “localhost:443”. Se sua Instalação foi acessada, a porta 443 está devidamente configurada. 
 
-> Observação: Se surgir uma mensagem indicando que seu site é inseguro ou "Sua conexão não é particular" conforme imagem abaixo. Clique em "Avançado" e logo em seguida, "Ir para http://localhost:443 (não seguro)". 
+{: .nota }
+Se surgir uma mensagem indicando que seu site é inseguro ou "Sua conexão não é particular" conforme imagem abaixo. Clique em "Avançado" e logo em seguida, "Ir para http://localhost:443 (não seguro)". 
 
 ![alt text](media/023.png)
 
 10º Passo: acesse agora a sua Instalação, em um outro computador fora da rede local da Instalação, para testar se a porta 443 está corretamente configurada, da seguinte maneira “SEU-IP-PUBLICO:443”. Se a mesma mensagem acima surgir, faça o mesmo processo para acessar sua Instalação. 
 
-> Observação: Se aqui houver algum problema, entre em contato com seu provedor ou referência técnica da rede local para que seja conferido o processo de liberação e configuração de portas no roteador. Até que o problema de acesso pela porta 443 seja resolvido, indica-se que seja apagada a linha "server.port=443" inserida anteriormente no arquivo "application.properties" e se reinicie o serviço “e-SUS-PEC" para que a instalação volte a ficar acessível pela porta 8080, evitando assim prejuízos quanto ao registro das unidades.  
+{: .nota }
+Se aqui houver algum problema, entre em contato com seu provedor ou referência técnica da rede local para que seja conferido o processo de liberação e configuração de portas no roteador. Até que o problema de acesso pela porta 443 seja resolvido, indica-se que seja apagada a linha "server.port=443" inserida anteriormente no arquivo "application.properties" e se reinicie o serviço “e-SUS-PEC" para que a instalação volte a ficar acessível pela porta 8080, evitando assim prejuízos quanto ao registro das unidades.  
  
 
 ## Etapa 3 - Instalando o Certbot e criando o certificado PEM  
@@ -127,11 +129,13 @@ Nesse momento, em caso de sucesso, a mensagem “Successfully received certifica
 
 ![alt text](media/027.png)
 
-> Atenção: Em caso de qualquer outra mensagem de erro neste passo, provavelmente relacionado a porta 80 não estar devidamente configurada, que é a porta padrão do Certbot para geração do certificado, você poderá reiniciar o processo a partir do 4º Passo e realizar o seguinte comando, gerando o certificado pela porta 8080 e assim dar andamento no processo:  
+{: .atencao }
+Em caso de qualquer outra mensagem de erro neste passo, provavelmente relacionado a porta 80 não estar devidamente configurada, que é a porta padrão do Certbot para geração do certificado, você poderá reiniciar o processo a partir do 4º Passo e realizar o seguinte comando, gerando o certificado pela porta 8080 e assim dar andamento no processo:  
 
 `certbot certonly --standalone --http-01-port 8080` 
 
-> Observação: os certificados no formato PEM criados pelo Certbot tem duração de 90 dias, porém, o próprio Certbot cria uma tarefa automática no Windows para realizar sua renovação em tempo oportuno, mas, para que isso ocorra, a porta pela qual o certificado foi gerado deve permanecer devidamente configurada, conforme já explicado anteriormente. 
+{: .nota }
+Os certificados no formato PEM criados pelo Certbot tem duração de 90 dias, porém, o próprio Certbot cria uma tarefa automática no Windows para realizar sua renovação em tempo oportuno, mas, para que isso ocorra, a porta pela qual o certificado foi gerado deve permanecer devidamente configurada, conforme já explicado anteriormente. 
 
 ![alt text](media/028.png)
 
@@ -146,13 +150,14 @@ O Certbot gera certificados SSL no formato PEM, que não são reconhecidos para 
 
 3º Passo: abra o diretório de instalação do OpenSSL, “C:\OpenSSL”, e aqui vamos criar um arquivo ".bat".  
 
-> Observação: arquivo com a extensão ".bat" é um arquivo de lote (batch file) usado principalmente no sistema operacional Windows. Ele contém um conjunto de comandos que são executados sequencialmente quando o arquivo é aberto ou quando é chamado através do prompt de comando do Windows.  
+{: .nota }
+Arquivo com a extensão ".bat" é um arquivo de lote (batch file) usado principalmente no sistema operacional Windows. Ele contém um conjunto de comandos que são executados sequencialmente quando o arquivo é aberto ou quando é chamado através do prompt de comando do Windows.  
 
 4º Passo: dentro do diretório do OpenSSL, “C:\OpenSSL”, crie um bloco de notas e salve-o como "certificado.bat", e no seu conteúdo os seguintes comandos: 
 
 ```
 @echo off
-certbot renew
+certbot renew --force-renewal
 C:\OpenSSL
 @set PATH=%PATH%;%~dp0bin
 cd C:\Certbot\live\esus.municipio.uf.gov.br
@@ -171,7 +176,8 @@ Observações importantes:
 
 6º Passo: verifique se o arquivo "esusaps.p12" foi criado no diretório "C:\Program Files\e-SUS\webserver\config". 
 
- > Observação: se o arquivo foi criado, o processo foi concluído com êxito. Se não foi criado ou o serviço "e-SUS-PEC" não se mantem em execução, verifique se os passos desta etapa foram rigorosamente seguidos.  
+{: .nota }
+Se o arquivo foi criado, o processo foi concluído com êxito. Se não foi criado ou o serviço "e-SUS-PEC" não se mantem em execução, verifique se os passos desta etapa foram rigorosamente seguidos.  
 
 
 ## Etapa 5 - Automatizando a renovação dos certificados PEM e P12 
@@ -200,7 +206,8 @@ Observações importantes:
 
 7º Passo: por fim, clique com o botão direito na tarefa criada e selecione a opção "Executar" para criar seu certificado P12 no diretório "C:\Program Files\e-SUS\webserver\config" com o nome "esusaps.p12". Abra esse diretório e confira se o arquivo foi criado com data e horário que você executou a tarefa para conferir se a automatização do processo foi concluída com êxito.  
 
-> Observação: se por alguma razão os certificados vencerem e sua Instalação não se tornar acessível corretamente pelo protocolo HTTPS, como será observado na próxima etapa, volte ao “Agendador de Tarefas” do Windows e execute esta tarefa criada para renová-lo manualmente. 
+{: .nota }
+Se por alguma razão os certificados vencerem e sua Instalação não se tornar acessível corretamente pelo protocolo HTTPS, como será observado na próxima etapa, volte ao “Agendador de Tarefas” do Windows e execute esta tarefa criada para renová-lo manualmente. 
   
 
 ## Etapa 6 - Parametrizando o certificado SSL na aplicação do e-SUS APS 
@@ -234,7 +241,8 @@ server.ssl.key-alias=esus
 
 ![alt text](media/032.png)
 
-> Observação: Se a Instalação não está sendo acessada, verifique se o serviço "e-SUS-PEC" está se mantendo em execução. Se o serviço não se mantenha ativo, reveja se o processo dessa etapa foi seguido na sua integridade. 
+{: .nota }
+Se a Instalação não está sendo acessada, verifique se o serviço "e-SUS-PEC" está se mantendo em execução. Se o serviço não se mantenha ativo, reveja se o processo dessa etapa foi seguido na sua integridade. 
 
 8º Passo: é muito comum que, após a habilitação do protocolo HTTPS, o município não consiga alterar o “Link da Instalação” e nem consiga acessar o e-SUS APS pelo domínio no próprio servidor da Instalação ou em sua rede local, conseguindo acessar somente com o endereço https://localhost (no próprio servidor da instalação) e https://IP-LOCAL-DO-SERVIDOR (exemplo: https://192.168.1.13) nos computadores da mesma rede.  Assim sendo, apresentamos a seguinte solução. 
 
@@ -246,7 +254,8 @@ No fim do conteúdo do arquivo, adicione a seguinte linha e salve o arquivo:
 
 `127.0.0.1  esus.municipio.uf.gov.br`
 
-> Observação: onde há **esus.municipio.uf.gov.br**, substitua pelo seu domínio da Instalação sem o https:// como prefixo. 
+{: .nota }
+Onde há **esus.municipio.uf.gov.br**, substitua pelo seu domínio da Instalação sem o https:// como prefixo. 
 
 Exemplo:
 ![alt text](media/033.png)
@@ -261,14 +270,16 @@ No fim do conteúdo do arquivo, adicione a seguinte linha e salve o arquivo:
 
 `IP-LOCAL-DO-SERVIDOR	esus.municipio.uf.gov.br` 
 
-> Observação: onde há **IP-LOCAL-DO-SERVIDOR** substitua pelo endereço de IP local, ou de rede, do seu servidor da Instalação (não é o IP público); onde há **esus.municipio.uf.gov.br**, substitua pelo seu domínio da Instalação sem o https:// como prefixo.
+{: .nota }
+Onde há **IP-LOCAL-DO-SERVIDOR** substitua pelo endereço de IP local, ou de rede, do seu servidor da Instalação (não é o IP público); onde há **esus.municipio.uf.gov.br**, substitua pelo seu domínio da Instalação sem o https:// como prefixo.
 
 Exemplo:
 ![alt text](media/034.png)
 
 Assim você já poderá acessar o e-SUS APS pelo domínio com HTTPS nos computadores da mesma rede do servidor. 
 
-> Observação: para as unidades que acessam a Instalação do e-SUS APS externamente à rede local do servidor, nenhuma ação de configurações do arquivo “hosts” é necessária. 
+{: .nota }
+Para as unidades que acessam a Instalação do e-SUS APS externamente à rede local do servidor, nenhuma ação de configurações do arquivo “hosts” é necessária. 
 
 9º Passo: faça login no e-SUS APS com o acesso do Administrador da Instalação, vá em “Configurações da Instalação”, aba “Servidores” e altere o “Link da instalação” para o seu novo domínio com HTTPS.  
 
@@ -278,6 +289,9 @@ Assim você já poderá acessar o e-SUS APS pelo domínio com HTTPS nos computad
 
 Informe o novo link de acesso da sua Instalação à todas as suas unidades que utilizam o e-SUS APS e reconfigure todos os aplicativos da estratégia e-SUS APS em celulares e tablets com este novo link para sincronização (e-SUS Território, e-SUS AD, e-SUS Atividade Coletiva, e-SUS Vacinação, Gestão e-SUS APS).   
 
+{: .atencao }
+Após a habilitação do protocolo HTTPS, por motivos padrão de segurança do Android, é importante ressaltar que apenas os aplicativos da estratégia e-SUS APS instalados em Android versão 7.1.2 ou superior conseguirão realizar sincronização com a Instalação.
+
 **FIM** 
 
-2ª versão. Atualizado em 1 de abril de 2024. 
+3ª versão. Atualizado em 4 de abril de 2024. 
