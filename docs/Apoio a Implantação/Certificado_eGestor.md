@@ -28,31 +28,31 @@ Vale ressaltar que para habilitar por completo a interoperabilidade entre o e-SU
 
 Quando o município ou Distrito Federal que utilizam o PEC não possuir certificado digital do tipo A1, o **Administrador Municipal** da instalação PEC deverá seguir os seguintes passos:
 
-1º\) Acessar o ambiente restrito do portal [e-Gestor Atenção Básica](https://egestorab.saude.gov.br/paginas/login.xhtml/) com Login e Senha do **gestor municipal**;
+Acessar o ambiente restrito do portal [e-Gestor Atenção Básica](https://egestorab.saude.gov.br/paginas/login.xhtml/) com Login e Senha do **gestor municipal**;
 
 ![](../PEC/media/pec_image885.png)
 
-2º) No perfil **Gestor da Atenção Básica**, vá em **Gerencias Usuários**;
+No perfil **Gestor da Atenção Básica**, vá em **Gerencias Usuários**;
 
 ![alt text](media/cert_01.png)
 
-3º) No nome do **Gestor da Atenção Básica** ou da **Referência Técnica do e-SUS APS**, vá em **Adicionar perfil**;
+No nome do **Gestor da Atenção Básica** ou da **Referência Técnica do e-SUS APS**, vá em **Adicionar perfil**;
 
 ![alt text](media/cert_02.png)
 
-4º) Em **Perfis de acesso**, selecione o programa **Implantação e-SUS APS** e o perfil de acesso **Gestor do Programa Municial**
+Em **Perfis de acesso**, selecione o programa **Implantação e-SUS APS** e o perfil de acesso **Gestor do Programa Municial**
 
 ![alt text](media/cert_03.png)
 
-5º\) Agora, faremos login novamente na área restrita do e-Gestor AB, mas com o acesso do Fundo Municipal de Saúde, com CNPJ e senha.
+Agora, faremos login novamente na área restrita do e-Gestor AB, mas com o acesso do Fundo Municipal de Saúde, com CNPJ e senha.
 
 ![alt text](media/cert_04.png)
 
-6º) Selecione o perfil "TOKEN PARA IMPLANTAÇÃO e-SUS APS";
+Selecione o perfil "TOKEN PARA IMPLANTAÇÃO e-SUS APS";
 
 ![](../PEC/media/pec_image886.png)
 
-7º\) Preencha o Formulário (Figura 3.12.3) com os dados do usuário responsável pela geração do token (CPF e Nome) e selecione o Estabelecimento de saúde onde o token será utilizado para autenticação, em seguida clique em "Gerar Token". Todos os tokens gerados serão exibidos na aba "Tokens gerados".
+Preencha o formulário com os dados do usuário responsável pela geração do token (CPF e Nome) e selecione o Estabelecimento de saúde onde o token será utilizado para autenticação, em seguida clique em "Gerar Token". Todos os tokens gerados serão exibidos na aba "Tokens gerados".
 
 ![](../PEC/media/pec_image887.png)
 
@@ -62,11 +62,11 @@ Quando o município ou Distrito Federal que utilizam o PEC não possuir certific
 {: .nota }
 O responsável (CPF) por gerar o token no e-Gestor AB deverá ser o mesmo a realizar a solicitação de credenciamento no e-GESTOR AB.
 
-8º\) Após obter o **Token** copie a **Contra Chave** no sistema e-SUS APS com PEC no módulo "Gestão Municipal" na aba "Configuração RNDS, conforme a figura 3.11.4.
+Após obter o **Token** copie a **Contra Chave** no sistema e-SUS APS com PEC no módulo "Gestão Municipal" na aba "Configuração RNDS, conforme a figura 3.11.4.
 
-9º\) De posse do **token** gerado no sistema e-Gestor AB e a **Contra Chave** copiada no sistema e-SUS APS com PEC, proceda na solicitação de credenciamento no e-GESTOR AB, para obter permissão de acesso a RNDS e APROVAÇÃO para produção. 
+De posse do **token** gerado no sistema e-Gestor AB e a **Contra Chave** copiada no sistema e-SUS APS com PEC, proceda na solicitação de credenciamento no e-GESTOR AB, para obter permissão de acesso a RNDS e APROVAÇÃO para produção. 
 
-10º\) Após realizar o credenciamento faça o download do certificado gerado.
+Após realizar o credenciamento faça o download do certificado gerado.
 
 ### Municípios que POSSUEM certificado digital A1
 
