@@ -5,7 +5,7 @@ parent: Apoio a Implantação
 nav_order: 2
 has_children: false
 has_toc: true
-last_modified_date: "12/01/2024"
+last_modified_date: "04/04/2024"
 ---
 
 # Fluxo de geração do certificado digital no e-Gestor AB para o e-SUS APS:
@@ -32,7 +32,7 @@ Acessar o ambiente restrito do portal [e-Gestor Atenção Básica](https://egest
 
 ![](../PEC/media/pec_image885.png)
 
-No perfil **Gestor da Atenção Básica**, vá em **Gerencias Usuários**;
+No perfil **Gestor da Atenção Básica**, vá em **Gerenciar Usuários**;
 
 ![alt text](media/cert_01.png)
 
@@ -40,11 +40,11 @@ No nome do **Gestor da Atenção Básica** ou da **Referência Técnica do e-SUS
 
 ![alt text](media/cert_02.png)
 
-Em **Perfis de acesso**, selecione o programa **Implantação e-SUS APS** e o perfil de acesso **Gestor do Programa Municial**
+Em **Perfis de acesso**, selecione o programa **Implantação e-SUS APS** e o perfil de acesso **Gestor do Programa Municipal**;
 
 ![alt text](media/cert_03.png)
 
-Agora, faremos login novamente na área restrita do e-Gestor AB, mas com o acesso do Fundo Municipal de Saúde, com CNPJ e senha.
+Agora, faremos login novamente na área restrita do e-Gestor AB, mas com o acesso do Fundo Municipal de Saúde (FMS), com CNPJ e senha;
 
 ![alt text](media/cert_04.png)
 
