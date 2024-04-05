@@ -8,7 +8,7 @@ has_toc: true
 last_modified_date: "25/09/2023"
 ---
 
-# CAPÍTULO 15 - Apoio a Implantação
+# Apoio a Implantação
 {: .no_toc }
 
 <style>
