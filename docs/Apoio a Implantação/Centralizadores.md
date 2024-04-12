@@ -34,6 +34,13 @@ O Sistema e-SUS APS com PEC ainda apresenta a função de centralizador de infor
 
 O tipo de instalação centralizador tem a função de reunir os dados de transmissão das instalações PEC e CDS do distrito federal, município, Estado ou região de saúde, fortalecendo uma organização hierárquica no fluxo da informação na esfera distrital/municipal/estadual e da produção de relatórios.
 
+Fluxo do envio dos dados para o Centralizadro Estadual (CE):
+
+![Alt ou título da imagem](media/039.png)
+<caption><b>Imagem:</b> Fluxo do envio dos dados para o Centralizador Estadual</caption>
+
+</br>
+
 As principais funcionalidades do centralizador são:
 
 * Enviar dados: configuração de link para envio de dados para a base federal fica como padrão
