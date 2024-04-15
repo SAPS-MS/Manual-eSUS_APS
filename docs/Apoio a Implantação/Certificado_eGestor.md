@@ -11,7 +11,7 @@ last_modified_date: "04/04/2024"
 # Fluxo de geração do certificado digital no e-Gestor AB para o e-SUS APS:
 
 <video width="800" height="520" controls="controls" poster="capa_RNDS.png">
-  <source src="https://docs.pipz.com/central-de-ajuda/learning-center/guia-basico-de-markdown#open" type="video/mp4">
+  <source src="https://www.youtube.com/embed/mSKdCUyE5TY?si=RBgjU_UlurqFB6_X%22" type="video/mp4">
 </video>
 
 <a href="https://saps-ms.github.io/Manual-eSUS_APS/infografico.pdf">Download Infográfico</a>
