@@ -10,8 +10,7 @@ last_modified_date: "04/04/2024"
 
 # Fluxo de geração do certificado digital no e-Gestor AB para o e-SUS APS:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mSKdCUyE5TY?si=RBgjU_UlurqFB6_X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
+<iframe width="800" height="520" src="https://www.youtube.com/embed/mSKdCUyE5TY?si=RBgjU_UlurqFB6_X" title="Fluxo de geração do certificado digital no e-Gestor AB para o e-SUS APS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <a href="https://saps-ms.github.io/Manual-eSUS_APS/infografico.pdf">Download Infográfico</a>
 
