@@ -800,7 +800,7 @@ A sigla SOAP corresponde a quatro blocos de informações detalhadas a seguir:
 
 > **(O) objetivo**: conjunto de campos que possibilita o registro do exame físico, como os sinais e sintomas detectados, além do registro de resultados de exames realizados;
 
-> **(A) avaliação**: conjunto de campos que possibilita o registro da conclusão feita pelo profissional de saúde a partir dos dados coletados nos itens anteriores.
+> **(A) avaliação**: conjunto de campos que possibilita o registro da conclusão feita pelo profissional de saúde a partir dos dados coletados nos itens anteriores. Neste campo, também é possível verificar as condições de saúde latentes do indivíduo, bem como a classificação com CIAP 2/ CID10.
 
 > **(P) plano**: conjunto de funcionalidades que permite registrar o plano de cuidado ao cidadão em relação ao(s) problema(s) e condição(ões) de saúde identificado(s).
 
