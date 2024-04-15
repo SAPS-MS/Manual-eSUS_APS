@@ -8,7 +8,7 @@ has_toc: true
 last_modified_date: "09/11/2023"
 ---
 
-# CAPÍTULO 6 - Atendimentos.
+# CAPÍTULO 6 - Atendimentos
 {: .no_toc }
 
 Neste capítulo serão apresentadas as funcionalidades que garantem a ordenação da maior parte dos fluxos de atendimento que ocorrem nos serviços de atenção primária.
