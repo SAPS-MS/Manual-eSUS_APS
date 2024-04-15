@@ -8,7 +8,11 @@ has_toc: true
 last_modified_date: "19/01/2024"
 ---
 
-
+<head>
+    <style>
+        p{text-align:justify};
+    </style>
+</head>
 
 # CAPÍTULO INTRODUTÓRIO - Base Conceitual do Sistema.
 {: .no_toc }
@@ -307,7 +311,7 @@ para mais informações sobre como utilizar a CIAP 2, acesse o material disponí
 
 ## 5.3 Racionalidades em saúde
 
-As racionalidades em saúde é baseado no termo *Racionalidades Médicas*, que é todo o sistema médico complexo construído sobre seis dimensões: morfologia humana, dinâmica vital, doutrina médica (o que é estar doente ou ter saúde), sistema diagnóstico, cosmologia e sistema terapêutico, o termo Racionalidade em Saúde propõe uma ampliação desse conceito para uma abordagem multiprofissional de cuidado em saúde incluindo as práticas tradicionais/populares, ancestrais e ou alternativas.
+<p>As racionalidades em saúde é baseado no termo *Racionalidades Médicas*, que é todo o sistema médico complexo construído sobre seis dimensões: morfologia humana, dinâmica vital, doutrina médica (o que é estar doente ou ter saúde), sistema diagnóstico, cosmologia e sistema terapêutico, o termo Racionalidade em Saúde propõe uma ampliação desse conceito para uma abordagem multiprofissional de cuidado em saúde incluindo as práticas tradicionais/populares, ancestrais e ou alternativas.</p>
 
 {: .nota }
 para mais informações sobre este tema consulte a Política Nacional de Práticas Integrativas e Complementares (PNPICS) no SUS, por meio do endereço: [[http://bvsms.saude.gov.br/bvs/publicacoes/politica_nacional_praticas_integrativas_complementares_2ed.pdf]](http://bvsms.saude.gov.br/bvs/publicacoes/politica_nacional_praticas_integrativas_complementares_2ed.pdf)
