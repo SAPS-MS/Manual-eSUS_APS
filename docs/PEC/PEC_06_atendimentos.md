@@ -82,7 +82,7 @@ Figura 6.1.4 - Tipo de Serviço
 Fonte: SAPS/MS
 
 {: .nota }
-os **tipos de serviços** mostrados no filtro rápido são os que foram cadastrados, no momento da configuração, para a unidade de saúde. Para mais informações sobre tipo de serviço, ver seção 3.3.1.
+os **tipos de serviços** mostrados no filtro rápido são os que foram cadastrados, no momento da configuração, para a unidade de saúde. 
 
 Se for preenchido mais de um campo para pesquisa, a lista de atendimento resultante conterá apenas os registros que contemplem todos os filtros simultaneamente. O sistema também apresenta as opções utilizadas para a filtragem da lista de atendimento, como observado na figura a seguir:
 
