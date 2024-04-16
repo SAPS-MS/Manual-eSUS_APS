@@ -1436,11 +1436,11 @@ A ferramenta de encaminhamento permite visualizar cada solicitação em uma list
 
 Figura 6.4.32 - Lista de Encaminhamentos no PEC
 
-![](media/pec_image1090.png)
+![](media/pec_image1091.png)
 
 Fonte: SAPS/MS.
 
-Passo 2. Para "Salvar clique em ![](media/pec_image966.png).
+Passo 2. Para "Salvar clique em Adicionar.
 
 Passo 3. Para visualizar os detalhes do encaminhamento clique em ![](media/pec_image968.png). Aparecerá a tela com todos os dados do encaminhamento realizado, conforme figura 6.4.33 abaixo:
 
@@ -1507,6 +1507,19 @@ Fonte: SAPS/MS.
 A lista de cuidados compartilhados do cidadão mostra a lista de todos os compartilhamentos feitos com o nome do profissional que foi solicitado a participar do cuidado, a prioridade definida no momento do atendimento individual e a data que ocorreu. 
 
 Ao clicar para abrir ao lado esquerdo da data há o resumo do que foi colocado no momento do compartilhamento: problemas/condições que trazem a hipótese diagnóstica; o relato de caso mostra o que foi descrito na discussão de caso para começar a comunicação entre profissionais; a opção do cidadão sobre a possibilidade de uso de tecnologia para o atendimento e o profissional que solicitou esse compartilhamento.
+
+#### Exemplos Práticos de Compartilhamento do Cuidado
+
+#### Exemplo 1:
+
+A profissional cirurgiã dentista da APS, atendeu uma gestante no 7º mês de gestação com uma infecção odontológica grave, ela é alérgica a penicilina, considerando o quadro clínico, o profissional decidiu compartilhar o cuidado com a médica ginecologista da equipe e-multi. Desta forma, ele explicou a paciente sobre a importância desse compartilhamento do cuidado e consentiu.  
+
+A cirurgiã dentista descreveu o caso e compartilhou com a médica ginecologista. A médica ao acessar a aba do compartilhamento do cuidado, verificou que tinha um caso para sua análise, ao ler o caso e verificar as outras informações constantes no prontuário, respondeu a melhor conduta para a paciente. A cirurgiã dentista atendeu novamente a gestante, prescreveu e explicou sobre o uso da medicação adequada. 
+
+#### Exemplo 2:
+
+O médico está atendendo uma criança de 4 anos que está com dificuldade na fala e precisa compartilhar o cuidado com a fonoaudióloga, ele explicou o caso à mãe que concordou com o compartilhamento do cuidado. O médico explicou o caso e compartilhou com a fonoaudióloga. A fonoaudióloga ao acessar o compartilhamento do cuidado e realizar a leitura do caso, pode recomendar orientações para a família e solicitar um agendamento para avaliação com a profissional. 
+
 
 ## 6.4.4 Problemas / Condições e Alergias
 
@@ -1748,7 +1761,7 @@ Será apresentada uma tela, conforme a Figura 6.78, que irá permitir adicionar 
 
 Figura 6.78 - Finalização do atendimento
 
-![](media/pec_image979.png)
+![](media/pec_image1092.png)
 
 Fonte: SAPS/MS.
 
@@ -1768,7 +1781,7 @@ Para concluir o atendimento, na tela de finalização do atendimento, informe:
 
 ![](media/pec_image513.png)
 
-- **Procedimentos:** A partir da versão 3.2 os procedimentos são divididos em clínicos e administrativos. Esta alteração visa organizar a informação no PEC e melhorar a qualidade do registro pelos profissionais de saúde.
+- **Procedimentos:** A partir da versão 3.2 os procedimentos são divididos em clínicos e administrativos. Esta alteração visa organizar a informação no PEC e melhorar a qualidade do registro pelos profissionais de saúde. Os procedimentos clínicos estão inseridos no contexto do PLANO e os administrativos em finalização do atendimento.
 
 - **procedimentos administrativos:** neste bloco são apresentados  procedimentos administrativos que já são mapeados pelas ações  realizadas durante o atendimento e são preenchidos  automaticamente, como por exemplo os procedimentos de consulta. Caso necessário o profissional poderá adicionar outro procedimento que tenha realizado ou alterar o procedimento  automático, caso não esteja adequado. Os procedimentos são  apresentados indicando o tipo de classificação utilizada (AB,  CIAP2 ou SIGTAP), o respectivo código e sua descrição;
 
@@ -1798,47 +1811,35 @@ O PEC gera apenas a notificação no formato SINAN que deve ser enviado à Secre
 
 - **Conduta:** este bloco lista as principais condutas durante a finalização do atendimento, padronizado com a Ficha de Atendimento Individual da Coleta de Dados Simplificada (CDS).
 
-![](media/pec_image519.png)
+![](media/pec_image1093.png)
 
-- **Desfecho do atendimento:** para finalizar o atendimento, ainda deverá ser selecionado o desfecho do atendimento. Neste bloco é possível: liberar o cidadão ou retornar o cidadão à lista de atendimento. Adicionalmente nas duas opções é possível agendar uma consulta.
+- **Desfecho do atendimento:** para finalizar o atendimento, ainda deverá ser selecionado o desfecho do atendimento. Neste bloco é possível: liberar o cidadão ou manter o cidadão na lista de atendimento. Adicionalmente nas duas opções é possível agendar uma consulta.
 
 - **liberar o cidadão:** esta opção deve ser selecionada quando o indivíduo não receberá outro atendimento pela equipe/UBS;
 
-![](media/pec_image520.png)
+![](media/pec_image1094.png)
 
-- **retornar à lista de atendimento:** é possível realizar o encaminhamento do cidadão para um profissional/serviço específico, no mesmo dia. Para isso, clique na opção "retornar à lista de atendimento" e selecione o profissional que irá atendê- lo ou tipo de serviço que o cidadão ainda irá precisar. Caso o cidadão tenha agendamentos para aquele dia a opção "Agendada" estará habilitada e mostrará uma listagem desses agendamentos, permitindo dessa forma encaminhar o cidadão para a consulta agendada e mantendo o cidadão no fluxo de atendimento da UBS. Caso o atendimento não esteja agendado, este será caracterizado como uma demanda espontânea.
+- **manter cidadão na lista de atendimento:** é possível manter o cidadão na lista de atendimento, e realizar o encaminhamento do cidadão para um profissional/serviço específico, no mesmo dia. Para isso, clique na opção “manter o cidadão na lista de atendimento” e selecione o profissional que irá atendê- lo ou tipo de serviço que o cidadão ainda irá precisar. Caso o cidadão tenha agendamentos para aquele dia a opção "Agendada" estará habilitada e mostrará uma listagem desses agendamentos, permitindo dessa forma encaminhar o cidadão para a consulta agendada e mantendo o cidadão no fluxo de atendimento da UBS. Caso o atendimento não esteja agendado, este será caracterizado como uma demanda espontânea.
 
-![](media/pec_image521.png)
+![](media/pec_image1095.png)
 
-- **agendar uma consulta:** é possível agendar uma consulta para o cidadão. Para isso, selecione o profissional, a data e o horário do agendamento em que a consulta será realizada. O sistema finalizará o agendamento após concluído o atendimento, apresentando uma mensagem:
+- **agendar uma consulta:** é possível agendar uma consulta para o cidadão. Para isso, selecione o profissional, a data e o horário do agendamento em que a consulta será realizada, também é possível adicionar observações necessárias. O sistema finalizará o agendamento após concluído o atendimento, apresentando uma mensagem:
 
-![](media/pec_image522.png)
+![](media/pec_image1096.png)
 
-No "Desfecho do atendimento" também é possível imprimir a declaração de comparecimento à consulta para o cidadão. Caso exista a necessidade de incluir o acompanhante deve ser preenchido o campo "nome do acompanhante".
+No "Desfecho do atendimento" também é possível selecionar a opção imprimir o atendimento ao finalizar.  
 
-Figura 6.79 - Opção para impressão da Declaração de Comparecimento
+Figura 6.79 - Opção para impressão do atendimento ao finalizar
 
-![](media/pec_image523.png)
-
-Fonte: SAPS/MS.
-
-Figura 6.80 - Modelo de Impressão da Declaração de Comparecimento
-
-![](media/pec_image524.png)
+![](media/pec_image1097.png)
 
 Fonte: SAPS/MS.
 
-Por último clique no botão "Finalizar atendimento" ![](media/pec_image525.png), para encerrar o atendimento. Quando for o caso, se o profissional quiser cancelar o atendimento em curso, basta clicar no botão "Cancelar atendimento" ![](media pec_image525.png), todo o registro será cancelado e o cidadão retornará à lista de atendimentos. Cabe lembrar que nesta seção, se houver algum campo obrigatório não preenchido, o atendimento não poderá ser finalizado.
 
-Após finalizar o atendimento, antes de voltar para a lista de atendimento, o sistema ofertará ao profissional a impressão do atendimento realizado.
+Por último clique no botão "Finalizar atendimento individual" ![](media/pec_image1098.png), para encerrar o atendimento. Quando for o caso, se o profissional quiser cancelar o atendimento em curso, basta clicar no botão "Cancelar atendimento individual" , todo o registro será cancelado e o cidadão retornará à lista de atendimentos. Cabe lembrar que nesta seção, se houver algum campo obrigatório não preenchido, o atendimento não poderá ser finalizado.
 
-Figura 6.81 - Tela de confirmação para imprimir o atendimento
+Após finalizar o atendimento, caso o profissional tenha selecionado "Imprimir atendimento ao finalizar" será realizado o download automático do arquivo para impressão. O profissional deverá abrir o arquivo e imprimir. 
 
-![](media/pec_image526.png)
-
-Fonte: SAPS/MS.
-
-Clicando no "Sim", o sistema apresentará a impressão do atendimento (que pode ser enviada para a impressora ou ser salva em formato ".PDF") e voltará para a lista de atendimento. Clicando na opção "Não", o sistema irá logo para a lista de atendimento. Caso necessário, as impressões dos atendimentos podem ser realizadas por meio da ferramenta "**Histórico**".
 
 # 6.5 Atendimento / Acompanhamento Específico
 
