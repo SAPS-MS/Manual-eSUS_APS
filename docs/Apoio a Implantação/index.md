@@ -51,7 +51,7 @@ Site: <http://sisaps.saude.gov.br/esus/><br>
 Suporte: <http://esusaps.bridge.ufsc.br/support/login>
 
 **Supervisor Geral**<br>
-Nésio Fernandes de Medeiros Junior
+Felipe Proenço
 
 **Coordenação Técnica Geral**<br>
 Rodrigo André Cuevas Gaete
