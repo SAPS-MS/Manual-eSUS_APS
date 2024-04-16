@@ -1216,7 +1216,7 @@ Fonte: SAPS/MS.
 
 Figura 6.4.23 - Adicionar prescrição
 
-![](media/pec_image949.png)
+![](media/pec_image1086.png)
 
 fonte: SAPS/MS.
 
@@ -1226,9 +1226,10 @@ Para compor o receituário, observe que existem campos obrigatórios para preenc
  - Via de administração
  - Dose [^2]:
  - Frequência da dose
+ - Posologia
  - Inicío do tratamento
  - Duração
- - Quantidade
+ - Quantidade Solicitada
 
  - Passo 2. Selecione qual o Princípio ativo/ medicamento.
 
@@ -1238,7 +1239,7 @@ Para compor o receituário, observe que existem campos obrigatórios para preenc
 
 **Via de administração**: é a via de administração do medicamento;
 
-- Passo 4. Selecione a dose do medicamento.
+- Passo 4. Selecione a dose do medicamento;
 
 **Dose**: é a dose do medicamento, refere-se à quantidade do princípio ativo do medicamento que possui em cada administração. Utilize a opção "Dose única" ![](media/pec_image447.png) caso o medicamento seja administrado em dose única.
 
@@ -1386,7 +1387,7 @@ Fonte: SAPS/MS.
 
 Para adicionar uma orientação siga os passos:
 
-- Passo 1. Clique em "Orientações", em seguida descreva no quadro em branco as oreintações ao cidadão e clique em "salvar";
+- Passo 1. Clique em "Orientações", em seguida descreva no quadro em branco as orientações ao cidadão e clique em "salvar";
 
 - Passo 2. Ao clicar em "Salvar" serão apresentadas as informações conforme a figura abaixo:
 
@@ -1417,7 +1418,7 @@ Esta ferramenta oferta aos profissionais a possibilidade de registrar e gerar a 
 
 Figura 6.4.31 - Tela de Encaminhamentos
 
-![](media/pec_image965.png)
+![](media/pec_image1089.png)
 
 Fonte: SAPS/MS.
 
@@ -1435,7 +1436,7 @@ A ferramenta de encaminhamento permite visualizar cada solicitação em uma list
 
 Figura 6.4.32 - Lista de Encaminhamentos no PEC
 
-![](media/pec_image967.png)
+![](media/pec_image1090.png)
 
 Fonte: SAPS/MS.
 
