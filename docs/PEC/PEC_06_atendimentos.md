@@ -1869,7 +1869,7 @@ Figura 6.5.2 - SOAP - Objetivo
 
 Fonte: SAPS/MS.
 
-Abaixo do campo de texto livre do "Objetivo", existe o campo *checkbox* específico "**Paciente com necessidades especiais**", para informar se o paciente atendido é considerado como necessidade especial em odontologia. O registro dessa informação possui valor de uso significativo, que orienta o cuidado em saúde e gera subsídios para a gestão, no que se refere ao monitoramento da produção e do planejamento das ações em saúde.
+Abaixo de Antropometria, e marcadores de consumo alimentar existe o campo *checkbox* específico "**Paciente com necessidades especiais**", para informar se o paciente atendido é considerado como necessidade especial em odontologia. O registro dessa informação possui valor de uso significativo, que orienta o cuidado em saúde e gera subsídios para a gestão, no que se refere ao monitoramento da produção e do planejamento das ações em saúde.
 
 Vale ressaltar que, segundo o Caderno de Atenção Básica nº 17, Saúde Bucal na odontologia, é considerado paciente com necessidades especiais, todo usuário que apresente uma ou mais limitações, temporárias ou permanentes, de ordem mental, física, sensorial, emocional, de crescimento ou médica, que o impeça de ser submetido a uma situação odontológica convencional. As razões das necessidades especiais são inúmeras e vão desde doenças hereditárias, defeitos congênitos, até as alterações que ocorrem durante a vida, como moléstias sistêmicas, alterações comportamentais, envelhecimento, etc. Esse conceito é amplo e abrange, entre os diversos casos que requerem atenção diferenciada, pessoas com deficiência visual, auditiva, física ou múltipla (conforme definidas nos Decretos de nº 3.296 99 e nº 5.296/04) que eventualmente precisam ser submetidas à atenção odontológica especial.
 
@@ -1879,11 +1879,13 @@ Os problemas ou condições detectadas/avaliadas na consulta odontológica devem
 
 Figura 6.5.3 - SOAP - Avaliação
 
-![](media/pec_image529.png)
+![](media/pec_image1100.png)
 
 Fonte: SAPS/MS.
 
 É possível informar quantos CIAP2/CID10 forem necessários. Porém o sistema não aceita o cadastro de códigos repetidos, então, se não conseguir adicionar um CIAP2/CID10, é porque ele já foi cadastrado neste atendimento.
+
+Logo abaixo é possível incluir alergias e/ou reações adversas existentes. 
 
 #### 6.5.1.3.1 Vigilância em Saúde Bucal
 
@@ -1891,7 +1893,7 @@ Inserido ao campo SOAP - "Avaliação", o campo "Vigilância em saúde bucal" vi
 
 Figura 6.5.4 - SOAP - Avaliação - vigilância em saúde bucal
 
-![](media/pec_image530.png)
+![](media/pec_image1101.png)
 
 Fonte: SAPS/MS.
 
@@ -1918,17 +1920,17 @@ Este campo tem como finalidade sinalizar a necessidade de prótese dentária par
 
 Figura 6.5.5 - SOAP - Avaliação - prótese dentária superior/inferior
 
-![](media/pec_image531.png)
+![](media/pec_image1102.png)
 
 Fonte: SAPS/MS.
 
 ### 6.5.1.4 SOAP - Plano (Odontologia)
 
-Esta funcionalidade permite o registro do plano de cuidado ao cidadão em relação ao(s) problema(s) avaliado(s), especificando a conduta e desfecho do atendimento. O SOAP - Plano, é composto pelo bloco de intervenções/procedimentos, odontograma, pelos campos de sinalização de uso da prótese dentária total superior e/ou inferior e também pelas ferramentas para emissão de atestados, exames, lembretes, prescrição de medicamentos, orientações, encaminhamentos e evoluções odontológicas.
+Esta funcionalidade permite o registro do plano de cuidado ao cidadão em relação ao(s) problema(s) avaliado(s), especificando a conduta e desfecho do atendimento. O SOAP - Plano, é composto pelo bloco de intervenções/procedimentos, odontograma, pelos campos de sinalização de uso da prótese dentária total superior e/ou inferior, uso de aparelho, uso de contenção e também pelas ferramentas para emissão de atestados, exames, lembretes, prescrição de medicamentos, orientações, encaminhamentos, evoluções odontológicas e compartilhamento do cuidado. Também é possível visualizar o odontograma por dentes, arcadas ou outro e selecionar a opção de mostrar dentes decíduos. 
 
 Figura 6.5.6 - SOAP - Plano
 
-![](media/pec_image532.png)
+![](media/pec_image1103.png)
 
 Fonte: SAPS/MS.
 
