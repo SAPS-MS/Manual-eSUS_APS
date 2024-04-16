@@ -52,7 +52,7 @@ Site: <http://sisaps.saude.gov.br/esus/><br>
 E-mail: <lista.cgesf.desf@saude.gov.br>
 
 **Supervisor Geral**<br>
-Nésio Fernandes de Medeiros Junior
+Felipe Proenço
 
 **Coordenação Técnica Geral**<br>
 Rodrigo André Cuevas Gaete
