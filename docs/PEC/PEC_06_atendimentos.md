@@ -1916,7 +1916,7 @@ quando identificada a presença de **fendas ou fissuras labiopalatais** ou **flu
 
 #### 6.5.1.3.2 Prótese Dentária Superior/Inferior
 
-Este campo tem como finalidade sinalizar a necessidade de prótese dentária para o cidadão, marcando "sim" ou "não". Para os casos em que for marcada a opção "sim", as especificações acerca da prótese, com o detalhamento se será parcial ou total, superior e/ou inferior, serão preenchidas no campo SOAP - "Plano ".
+Este campo tem como finalidade sinalizar a necessidade de prótese dentária para o cidadão, marcando "não avaliado", "sim" ou "não". Para os casos em que for marcada a opção "sim", as especificações acerca da prótese, com o detalhamento se será parcial ou total, superior e/ou inferior, serão preenchidas no campo SOAP - "Plano ".
 
 Figura 6.5.5 - SOAP - Avaliação - prótese dentária superior/inferior
 
@@ -1942,7 +1942,7 @@ Este bloco se destina ao registro de procedimentos realizados durante a consulta
 
 A pec_imagem do odontograma é composta por todos os dentes (coroa e raiz), inclusive os decíduos e as faces de cada coroa, estando separada em arcadas superior e inferior.  O campo de seleção "Odontograma" permite a visualização de todos os atendimentos realizados no usuário, por meio de data (dia/mês/ano). Para cidadãos avaliados pela primeira vez, aparecerá somente a opção de "Odontograma Atual".
 
-Com relação às duas opções de *checkbox*, são para informar/registrar se o usuário usa prótese dentária total superior e/ou prótese dentária total inferior.
+Com relação às opções de *checkbox*, são para informar/registrar se o usuário usa prótese dentária total superior e/ou prótese dentária total inferior, contenção ou aparelho.
 
 Ao marcar a opção \"prótese total superior\" e/ou \"prótese total inferior\", o sistema:
 
@@ -1954,7 +1954,7 @@ Ao marcar a opção \"prótese total superior\" e/ou \"prótese total inferior\"
 
 Figura 6.5.7 - Odontograma - prótese total superior e inferior
 
-![](media/pec_image533.png)
+![](media/pec_image1105.png)
 
 Fonte: SAPS/MS.
 
