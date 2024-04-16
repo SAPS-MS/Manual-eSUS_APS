@@ -1093,7 +1093,7 @@ Fonte: SAPS/MS.
 
 Nesta ferramenta, é possível solicitar exames para o cidadão em atendimento. Exames cadastrados neste módulo irão ser incluídos no bloco "Objetivo" do registro de atendimento do SOAP, na parte de exames solicitados e/ou avaliados, após a finalização da consulta em que eles foram inseridos.
 
-Como podemos ver na Figura 6.45, há duas opções para solicitação de exames:
+Como podemos ver na Figura 6.4.17 há duas opções para solicitação de exames:
 
 Figura 6.4.17 - SOAP - Plano - exames
 
