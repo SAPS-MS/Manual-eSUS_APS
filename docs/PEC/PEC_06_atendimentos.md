@@ -1026,7 +1026,7 @@ Fonte: SAPS/MS.
 
 O sistema ainda disponibiliza algumas ferramentas específicas para auxiliar no registro e acompanhamento do plano de cuidado, como vemos a seguir:
 
-- **Atestados**: ferramenta que ajuda o profissional na emissão e controle de atestados e de licença maternidade elaborados para o cidadão;
+- **Atestados**: ferramenta que ajuda o profissional na emissão e controle de atestados e de licença maternidade elaborados para o cidadão; Nesta opção, também há a disponibilidade de Declaração de Comparecimento: ferramenta que permite ao colaborador e paciente comprovar comparecimento ao atendimento em saúde. 
 
 - **Solicitação de exames**: ferramenta que auxilia o profissional na solicitação de exame comum e/ou de alto custo;
 
@@ -1040,32 +1040,54 @@ O sistema ainda disponibiliza algumas ferramentas específicas para auxiliar no 
 
 Será apresentada, nas próximas seções, cada uma dessas ferramentas com mais detalhes.
 
-#### 6.4.3.4.1 Ferramentas do Plano - Atestado
+#### 6.4.3.4.1 Ferramentas do Plano - Atestado e Declaração de Comparecimento
 
-O atestado é um documento de conteúdo informativo, redigido e assinado por exemplo por **médicos e odontólogos**, de acordo com a Lei nº 605/49, combinada com a Lei nº 5.081/66, como \"atestação\" da existência de certa obrigação ou de ato por ele praticado. Podendo o beneficiário do atestado requerer os direitos daquilo que foi declarado, como os abonos de faltas ao trabalho.
+O atestado é um documento de conteúdo informativo, redigido e assinado por exemplo por **médicos e odontólogos**, de acordo com a Lei nº 605/49, combinada com a Lei nº 5.081/66, como \"atestação\" da existência de certa obrigação ou de ato por ele praticado. Podendo o beneficiário do atestado requerer os direitos daquilo que foi declarado, como os abonos de faltas ao trabalho. 
 
 Figura 6.4.16 - SOAP - Plano - Atestado
 
 ![](media/pec_image1079.png)
+Fonte: SAPS/MS
 
-
-Fonte: SAPS/MS.
 
 Conforme podemos ver na Figura acima, para emitir um atestado, basta seguir os passos:
 
 - Passo 1. Clique na ferramenta "Atestado";
 
-- Passo 2. Na tela que irá abrir, obrigatoriamente escolha o Modelo a ser utilizado, sendo eles: “Padrão", "Em branco" e "Licença Maternidade”, também deverá incluir a data, hora e dias.
+- Passo 2. Na tela que irá abrir, obrigatoriamente escolha o Modelo a ser utilizado, sendo eles: “Padrão", "Em branco" e "Licença Maternidade”, também deverá incluir a data, hora e dias;
 
+- Passo 3. Caso o profissional deseje, poderá incluir o CID10 no atestado;
 
-- Passo 3. Caso o profissional deseje, poderá incluir o CID10 no atestado. 
-
-- Passo 4. Para finalizar clique em  "Salvar atestado", ao salvar, aparecerá o atestado abaixo, com a opção de impressão, conforme figura abaixo. 
+- Passo 4. Para finalizar clique em  "Salvar atestado", ao salvar, aparecerá o atestado abaixo, com a opção de impressão, conforme figura.
 
 ![](media/pec_image1080.png)
+Fonte: SAPS/MS.
 
 ##### Modelo de Atestado para Impressão
 ![](media/pec_image1081.png)
+Fonte: SAPS/MS.
+
+#### Declaração de Comparecimento
+
+Para emitir uma declaração de comparecimento, basta seguir os passos:
+
+Passo 1. Clique na ferramenta “+ Gerar declaração de comparecimento”;
+
+Passo 2. Na tela que irá abrir escolha obrigatoriamente uma das opções para período: “Matutino”, “Vespertino”, “Noturno” e “Horário Personalizado”;
+
+Passo 3. Para “Horário Personalizado” escolha obrigatoriamente “horário de entrada” e “horário de saída”;
+
+Passo 4. Caso deseje incluir o nome do acompanhante, informe no campo “Incluir nome do acompanhante”;
+
+Passo 5. Para finalizar clique em “Gerar declaração”.
+
+![](media/pec_image1082.png)
+Fonte: SAPS/MS.
+
+#### Modelo de Declaração de Comparecimento para impressão
+
+![](media/pec_image1083.png)
+Fonte: SAPS/MS.
 
 #### 6.4.3.4.2 Ferramentas do Plano - Exames
 
@@ -1075,7 +1097,7 @@ Como podemos ver na Figura 6.45, há duas opções para solicitação de exames:
 
 Figura 6.4.17 - SOAP - Plano - exames
 
-![](media/pec_image427.png)
+![](media/pec_image1084.png)
 
 Fonte: SAPS/MS.
 
@@ -1184,7 +1206,7 @@ Esta ferramenta permite fazer a prescrição de medicamentos, contendo orientaç
 
 Figura 6.4.22 - SOAP - Plano - Prescrição de Medicamentos
 
-![](media/pec_image444.png)
+![](media/pec_image1085.png)
 
 Fonte: SAPS/MS.
 
