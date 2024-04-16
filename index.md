@@ -27,7 +27,7 @@ Tels.: (61) 3315-8090 / 3315-8044<br>
 Site: <http://sisaps.saude.gov.br/esus/><br>
 
 **Supervisor Geral**<br>
-Nésio Fernandes de Medeiros Junior
+Felipe Proenço
 
 **Coordenação Técnica Geral**<br>
 Rodrigo André Cuevas Gaete
