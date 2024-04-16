@@ -798,9 +798,9 @@ A sigla SOAP corresponde a quatro blocos de informações detalhadas a seguir:
 
 > **(S) subjetivo**: conjunto de campos que possibilita o registro da parte subjetiva da anamnese da consulta, ou seja, os dados dos sentimentos e percepções do cidadão em relação à sua saúde;
 
-> **(O) objetivo**: conjunto de campos que possibilita o registro do exame físico, como os sinais e sintomas detectados, além do registro de resultados de exames realizados;
+> **(O) objetivo**: conjunto de campos que possibilita o registro do exame físico, como os sinais e sintomas detectados, além do registro de resultados de exames realizados, marcadores de consumo alimentar e condição da vacinação. 
 
-> **(A) avaliação**: conjunto de campos que possibilita o registro da conclusão feita pelo profissional de saúde a partir dos dados coletados nos itens anteriores. Neste campo, também é possível verificar as condições de saúde latentes do indivíduo, bem como a classificação com CIAP 2/ CID10.
+> **(A) avaliação**: conjunto de campos que possibilita o registro da conclusão feita pelo profissional de saúde a partir dos dados coletados nos itens anteriores. Neste campo, também é possível verificar as condições de saúde latentes do indivíduo, bem como a classificação com CIAP2/ CID10.
 
 > **(P) plano**: conjunto de funcionalidades que permite registrar o plano de cuidado ao cidadão em relação ao(s) problema(s) e condição(ões) de saúde identificado(s).
 
@@ -997,6 +997,8 @@ Para registrar uma condição ou problema detectado, siga os passos:
 
 - Passo 5. Clique em  ![](media/pec_image402.png) "Excluir" para exclusão do CIAP2 registrado.
 
+O problema inserido, poderá ser classificado em “Ativo”, “Latente” ou “Resolvido”.
+
 
 Agora relacionado a alergia , em consultas posteriores, é possível incluí-lo na Lista de Problemas/Condições, como situação "Ativo", conforme figura abaixo:
 
@@ -1044,30 +1046,26 @@ O atestado é um documento de conteúdo informativo, redigido e assinado por exe
 
 Figura 6.4.16 - SOAP - Plano - Atestado
 
-![](media/pec_image418.png)
+![](media/pec_image1079.png)
+
 
 Fonte: SAPS/MS.
 
 Conforme podemos ver na Figura acima, para emitir um atestado, basta seguir os passos:
 
-- Passo 1. Clique na ferramenta "+ Gerar declaração de comparecimento";
+- Passo 1. Clique na ferramenta "Atestado";
 
-- Passo 2. Na tela que irá abrir escolha obrigatoriamente uma das opções para período: "Matutino", "Vespertino", "Noturno" e "Horário Personalizado".
-
-![](media/pec_image418.1.png)
-
-Fonte: SAPS/MS
-
-- Passo 3. Para "Horário Personalizao" escolha obrigatoriamente "horário de entrada" e "horário de saída"
+- Passo 2. Na tela que irá abrir, obrigatoriamente escolha o Modelo a ser utilizado, sendo eles: “Padrão", "Em branco" e "Licença Maternidade”, também deverá incluir a data, hora e dias.
 
 
-![](media/pec_image418.2.png)
+- Passo 3. Caso o profissional deseje, poderá incluir o CID10 no atestado. 
 
+- Passo 4. Para finalizar clique em  "Salvar atestado", ao salvar, aparecerá o atestado abaixo, com a opção de impressão, conforme figura abaixo. 
 
-- Passo 4. Caso deseje incluir o nome do acompanhante, informe no campo "Incluir nome do acompanhante".
+![](media/pec_image1080.png)
 
-- Passo 4. Para finalizar clique em "Gerar declaração".
-
+##### Modelo de Atestado para Impressão
+![](media/pec_image1081.png)
 
 #### 6.4.3.4.2 Ferramentas do Plano - Exames
 
