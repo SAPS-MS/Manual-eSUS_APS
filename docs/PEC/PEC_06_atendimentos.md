@@ -1865,7 +1865,7 @@ Este bloco traz um campo de texto livre e um conjunto de campos estruturados. O 
 
 Figura 6.5.2 - SOAP - Objetivo
 
-![](media/pec_image528.png)
+![](media/pec_image1099.png)
 
 Fonte: SAPS/MS.
 
