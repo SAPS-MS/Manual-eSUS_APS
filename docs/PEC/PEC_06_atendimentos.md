@@ -1855,7 +1855,7 @@ Consiste em um campo aberto que possibilita o registro da parte subjetiva da ana
 
 Figura 6.5.1 - SOAP - Subjetivo
 
-![](media/pec_image527.png)
+![](media/pec_image1104.png)
 
 Fonte: SAPS/MS.
 
