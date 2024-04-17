@@ -191,6 +191,8 @@ c.Caso o trabalhador tenha mais de um vínculo, o sistema mostrará as opções 
 
 ![](media/pec_image643_tria.png)
 
+Para mais informações sobre a TRIA, acesse o link do [Instrutivo de Insegurança Alimentar](http://189.28.128.100/dab/docs/portaldab/publicacoes/instrutivo_inseguranca_alimentar_aps.pdf).
+
 #### 7.2.1.1.5 Questionário autorreferido de condições/situações de saúde
 
 5.Preencha as informações de "Condições/situações de saúde gerais" do cidadão de acordo com os dados da ficha. Observe que algumas perguntas devem ser especificadas caso a resposta seja "Sim";
