@@ -61,10 +61,10 @@ Rodrigo André Cuevas Gaete
 Elaine de Almeida, Igor de Carvalho Gomes, Ingryd Isabelle Maia de Souza, Janaína Nogueira Guimarães, Romario Araujo Matias Rocha, Willian Soares Lima.
 
 **Revisão Técnica**<br>
-Ana Claudia Cielo, Janaína Guimarães, Elaine de Almeida, Willian Soares Lima.
+Ana Claudia Cielo, Jacqueline Aedinet Pruner Polidoro,Janaína Guimarães, Elaine de Almeida, Willian Soares Lima, 
 
 **Elaboração de texto**<br>
-Ana Claudia Cielo, Janaína Guimarães, Elaine de Almeida, Willian Soares Lima.
+Ana Claudia Cielo, Janaína Guimarães, Elaine de Almeida, Willian Soares Lima, Jacqueline Aedinet Pruner Polidoro, Walter Augusto Alcantara Vieira. 
 
 **Projeto Gráfico**<br>
 Alexandre Soares de Brito, Diogo Ferreira Gonçalves

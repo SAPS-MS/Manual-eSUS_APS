@@ -280,8 +280,8 @@ Deseja informar a identidade de gênero? em caso afirmativo, marque "Sim" para a
 *Fonte: SAS/MS.*
 
 ### 2.1.5 Informações socioeconômicas
-##### TRIAGEM PARA RISCO DE INSEGURANÇA ALIMENTAR (TRIA)
 
+#### Triagem para Risco de Insegurança Alimentar (TRIA)
 Faça as duas perguntas da TRIA para o cidadão e registre a resposta com uma das opções: “sim” ou “não”. 
 Essas informações são importantes para rastrear o Risco de insegurança alimentar da família.
 
