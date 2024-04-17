@@ -20,7 +20,7 @@ last_modified_date: "25/09/2023"
 
 ## Anexo A - FICHAS DE COLETA DE DADOS SIMPLIFICADA
 
-A1 [Cadastro Individual](http://189.28.128.100/dab/docs/portaldab/documentos/esus/ficha_cadastro_individual_v3_2.pdf)
+A1 [Cadastro Individual](https://sisaps.saude.gov.br/esus/upload/docs/ficha_cadastro_individual_v5_2.pdf)
 
 A2 [Cadastro Domiciliar e Territorial](http://189.28.128.100/dab/docs/portaldab/documentos/esus/ficha_cadastro_domiciliar_territorial_v3_2.pdf)
 
