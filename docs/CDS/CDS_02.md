@@ -279,7 +279,19 @@ Deseja informar a identidade de gênero? em caso afirmativo, marque "Sim" para a
 
 *Fonte: SAS/MS.*
 
-### 2.1.4 Saída do cidadão do cadastro
+### 2.1.5 Informações socioeconômicas
+##### TRIAGEM PARA RISCO DE INSEGURANÇA ALIMENTAR (TRIA)
+
+Faça as duas perguntas da TRIA para o cidadão e registre a resposta com uma das opções: “sim” ou “não”. 
+Essas informações são importantes para rastrear o Risco de insegurança alimentar da família.
+
+![](media/cds_image108.png)
+
+Fonte: SAPS/MS.
+
+Para mais informações sobre a TRIA, acesse o link do [Manual de Triagem de Insegurança Alimentar](http://189.28.128.100/dab/docs/portaldab/publicacoes/instrutivo_inseguranca_alimentar_aps.pdf).
+
+### 2.1.6 Saída do cidadão do cadastro
 
 Este bloco de campos servirá para que os ACS possam apontar o motivo da saída do cidadão do território. Para tanto, o profissional assinala com um "x" em uma das opções apresentadas:
 
@@ -291,7 +303,7 @@ Caso o motivo de saída do cidadão do cadastro seja por óbito, registrar ainda
 -   Data do óbito, este é um campo de preenchimento obrigatório nessa situação; e
 -   Número de Declaração de Óbito (D.O.)
 
-### 2.1.5 Termo de recusa do cadastro individual da Atenção Básica
+### 2.1.7 Termo de recusa do cadastro individual da Atenção Básica
 
 Este bloco é preenchido quando o cidadão se recusa a fornecer os dados para preenchimento do seu cadastro. Quando isso acontece, é solicitado ao entrevistado que assine o termo de recusa para assegurar que ele está ciente.
 Em situações em que o cidadão se recuse também a assinar o termo, a validação dessa informação deve ser discutida com o profissional responsável pela supervisão e/ou coordenação desta equipe.
@@ -302,11 +314,11 @@ para que a recusa seja efetivada, é necessário que o ACS preencha alguns campo
 {: .atencao }
 a recusa do cidadão ao cadastro, seja ele individual ou domiciliar / territorial, não implicará o não atendimento deste na unidade de saúde, bem como quaisquer outras formas de discriminação.
 
-### 2.1.6 Questionário Autorreferido de Condições/Situações de Saúde
+### 2.1.8 Questionário Autorreferido de Condições/Situações de Saúde
 
 Este questionário possibilita que, no momento do cadastro do cidadão, os problemas/condições de saúde referidos sinalizem para a equipe a necessidade de acompanhamento e qual a prioridade dele. Para o profissional que estiver realizando o cadastro, é uma oportunidade para orientações quanto aos cuidados necessários e apresentação das ofertas da unidade de saúde para cada problema/condição, como, fluxo para marcação de consultas, realização de exames, participação em grupos, entre outros.
 
-#### 2.1.6.1 Condições/situações de saúde gerais
+#### 2.1.8.1 Condições/situações de saúde gerais
 
 Este bloco deverá ser preenchido com informações oferecidas pelo usuário e coletadas pelo profissional de saúde no momento do cadastro.
 
@@ -352,7 +364,7 @@ Este bloco deverá ser preenchido com informações oferecidas pelo usuário e c
 
 \** *Campo obrigatório condicionado à pergunta anterior**
 
-#### 2.1.6.2 Cidadão em situação de rua
+#### 2.1.8.2 Cidadão em situação de rua
 
 Este bloco deverá ser preenchido pelo agente de ação social das equipes de Consultório na Rua (eCR) ou pelo agente comunitário de saúde (ACS), quando este desenvolver suas atividades junto a elas. Nos casos em que o agente de ação social não participar da composição das eCR ou quando estas não possuírem nenhum ACS agregado à sua formação mínima, esta ficha poderá ser preenchida por qualquer profissional da eCR. O bloco também poderá ser preenchido pelo ACS ou outro componente da equipe de Atenção Básica nos casos em que existirem usuários em situação de rua no território adscrito da UBS, mas se não tiver nenhuma equipe de Consultório na Rua vinculada.
 
@@ -726,7 +738,7 @@ o bloco de identificação de famílias/núcleos familiares deve ser preenchido 
 {: .atencao }
 mesmo que um cidadão tenha mais de um cadastro no território, para fins de vinculação de um núcleo familiar, o **cidadão não poderá ser Responsável Familiar em mais de um domicílio**.
 
-### 2.2.7 Termo de Recusa do Cadastro Domiciliar da Atenção Básica
+### 2.2.9 Termo de Recusa do Cadastro Domiciliar da Atenção Básica
 
 Este bloco é preenchido quando as pessoas do domicílio se recusam a fornecer os dados para preenchimento do cadastro. Nesse caso, o profissional solicita ao entrevistado que assine o termo de recusa, de forma a assegurar que ele recusou o cadastro e está ciente de que esse fato não impede o atendimento do usuário e sua família na UBS. Em situações em que o cidadão se recuse também a assinar o termo, a validação desta informação deve ser discutida com o profissional responsável pela supervisão e/ou coordenação desta equipe.
 
@@ -742,7 +754,7 @@ Básica
 
 *Fonte: SAS/MS.*
 
-### 2.2.8 Instituição de Permanência
+### 2.2.10 Instituição de Permanência
 
 Neste bloco, será possível cadastrar instituições de permanência, como escolas, creches, abrigos, ou instituições de longa permanência para idosos. Escreva o nome da instituição de permanência no campo aberto. Depois marque com um X a opção referente a se existem outros profissionais de saúde vinculados à instituição, neste campo não devem ser incluídos profissionais da rede pública de saúde.
 
@@ -772,7 +784,7 @@ permanência
 
 *Fonte: SAS/MS.*
 
-### 2.2.9 Termo de Recusa da instituição de Permanência
+### 2.2.11 Termo de Recusa da instituição de Permanência
 
 Este bloco é preenchido quando o responsável técnico da instituição de permanência não deseja fornecer estes dados para a realização do cadastro. Nesse caso, o profissional solicita ao entrevistado que assine o termo de recusa, de forma a assegurar que ele recusou o cadastro e está ciente de que esse fato não impede o atendimento na UBS dos cidadãos vinculados à instituição de permanência. Em situações em que o técnico responsável se recuse também a assinar o termo, a validação desta informação deve ser discutida com o profissional responsável pela supervisão e/ou coordenação desta equipe.
 

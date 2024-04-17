@@ -62,7 +62,7 @@ Adriene dos Santos Sá, Elaine de Almeida, Francy Webster Pereira, Igor de Carva
 Adriene dos Santos Sá, Elaine de Almeida, Igor de Carvalho Gomes, Ingryd Isabelle Maia de Souza, Janaína Nogueira Guimarães, Marcelo Alves Miranda, Romario Araujo Matias Rocha, Viviane Loiola Lacerda, Willian Soares Lima, Jacqueline Aedinet Pruner Polidoro, Walter Augusto Alcantara Vieira. 
 
 **Elaboração de texto**<br>
-Elaine de Almeida, Igor de Carvalho Gomes, Ingryd Isabelle Maia de Souza, Janaína Nogueira Guimarães, Romario Araujo Matias Rocha, Viviane Loiola Lacerda, Willian Soares Lima.Jacqueline Aedinet Pruner Polidoro.
+Elaine de Almeida, Igor de Carvalho Gomes, Ingryd Isabelle Maia de Souza, Janaína Nogueira Guimarães, Romario Araujo Matias Rocha, Viviane Loiola Lacerda, Willian Soares Lima,Jacqueline Aedinet Pruner Polidoro.
 
 **Projeto Gráfico**<br>
 Alexandre Soares de Brito e Diogo Ferreira Gonçalves
