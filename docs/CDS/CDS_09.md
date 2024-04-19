@@ -442,6 +442,8 @@ Quadro 9.14 -- Conduta/desfecho
 
 *Fonte: SAS/MS.*
 
+Quando o paciente é hospitalizado se faz necessário lançar na produção o desfecho de encaminhamento para serviço de internação hospitalar ou campo similar. Após o retorno deverá ser realizada nova avaliação. 
+
 ### 9.2.8 Visitas pós-óbito
 
 Uma situação muito frequente na AD é a necessidade de acompanhar a família ou cuidador(es) no processo inicial de luto após o óbito do cidadão que estava em acompanhamento, fomentando inclusive o vínculo com a Atenção Básica, quando este não estiver bem estabelecido, ou encaminhando para outros serviços, quando necessário.  Para esse acompanhamento, existe o campo de visita pós-óbito na ficha de atendimento, que nesta versão foi modificado para facilitar o uso e qualificar as informações que poderão ser obtidas. A seguir são apresentadas orientações específicas para o preenchimento da ficha no caso de visita pós-óbito, caso em que o cidadão atendido será o familiar/cuidador:
