@@ -51,7 +51,7 @@ Site: <http://sisaps.saude.gov.br/esus/><br>
 Suporte: <http://esusaps.bridge.ufsc.br/support/login>
 
 **Supervisor Geral**<br>
-Felipe Proenço
+Felipe Proenço de Oliveira
 
 **Coordenação Técnica Geral**<br>
 Rodrigo André Cuevas Gaete
