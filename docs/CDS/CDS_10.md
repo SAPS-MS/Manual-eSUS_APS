@@ -254,3 +254,31 @@ O campo `Estratégia` já vem pré-preenchido com a opção "5-Campanha". O camp
 
 {: .atencao }
 É importante prestar muita atenção tanto ao processo de preparação e aplicação da vacina quanto o registro da vacinação no e-SUS APS, pois não pode haver aplicação cruzada de vacinas. Desta forma o registro correto da vacinação é importante para que não ocorram erros na execução da 2ª dose da vacina.
+
+##10.6 Retificação de vacinas enviadas
+
+Após o envio da vacina, é possível que este envio seja retificado.
+
+Para retificar um registro de vacina, o profissional deverá entrar na tela do CDS - Vacinação.
+
+![](media/cds_image109.png)
+
+Fonte: SAPS/MS.
+
+Após, deverá realizar a busca pelo CNS do profissional. Na tela aparecerá as doses realizadas, sendo possível ao clicar em ![](media/cds_image111.png) selecionar o Retificar.
+
+Tela de visualização vacina para retificação:
+![](media/cds_image112.png)
+Fonte: SAPS/MS.
+
+Para continuar o processo de retificação/cancelamento, aparecerá um aviso de que o atendimento daquela ficha será excluído do PEC e da base nacional. Sendo necessária, a confirmação da exclusão. O usuário deverá selecionar "Excluir ficha e iniciar a retificação".
+
+![](media/cds_image113.png)
+Fonte: SAPS/MS.
+
+Após este procedimento, a ficha ficará em rascunho, sendo necessária a retificação ou cancelamento. Após a edição o usuário deverá selecionar em "Confirmar" para realizar o envio.
+
+![](media/cds_image114.png)
+Fonte: SAPS/MS.
+
+Os atendimentos removidos poderão ser visualizados na Trilha de Auditoria do PEC e-SUS APS.

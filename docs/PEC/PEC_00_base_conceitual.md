@@ -78,7 +78,7 @@ c. o **último dígito** para indicar apenas manutenção corretiva do sistema (
 
 Figura 1 - Política de Controle de Versões do Sistema e-SUS APS
 
-![](media/pec_image2.png)
+![](media/pec_image2.png) 
 
 Fonte: SAPS/MS.
 
