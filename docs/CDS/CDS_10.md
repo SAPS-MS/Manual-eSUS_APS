@@ -255,7 +255,7 @@ O campo `Estratégia` já vem pré-preenchido com a opção "5-Campanha". O camp
 {: .atencao }
 É importante prestar muita atenção tanto ao processo de preparação e aplicação da vacina quanto o registro da vacinação no e-SUS APS, pois não pode haver aplicação cruzada de vacinas. Desta forma o registro correto da vacinação é importante para que não ocorram erros na execução da 2ª dose da vacina.
 
-##10.6 Retificação de vacinas enviadas
+## 10.6 Retificação de vacinas enviadas
 
 Após o envio da vacina, é possível que este envio seja retificado.
 
