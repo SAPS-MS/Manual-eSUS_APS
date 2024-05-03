@@ -104,9 +104,7 @@ Se aqui houver algum problema, entre em contato com seu provedor ou referência 
 
 A iniciativa Let’s Encrypt, com seu programa Certbot, é uma autoridade certificadora gratuita que fornece certificados digitais necessários para habilitar HTTPS em serviços web.   
 
-1º Passo: baixe aqui o Certbot para Windows: https://certbot.eff.org/instructions?ws=other&os=windows
-
-> Link direto do download: https://github.com/certbot/certbot/releases/latest/download/certbot-beta-installer-win_amd64_signed.exe
+1º Passo: baixe aqui o Certbot para Windows: [DOWNLOAD](../../certbot-beta-installer-win_amd64_signed.exe)
 
 2º Passo: instale o programa, de preferência, no diretório “C:\Certbot”. 
 
