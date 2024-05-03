@@ -1381,7 +1381,7 @@ Esta ferramenta permite ao profissional de saúde registrar orientações a sere
 
 Figura 6.4.27 - SOAP - Plano - orientações
 
-![](media/pec_image958.png)
+![](media/pec_image1106.png)
 
 Fonte: SAPS/MS.
 
