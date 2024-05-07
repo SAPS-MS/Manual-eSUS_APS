@@ -1836,7 +1836,7 @@ Figura 6.79 - Opção para impressão do atendimento ao finalizar
 Fonte: SAPS/MS.
 
 
-Por último clique no botão "Finalizar atendimento individual" ![](media/pec_image1098.png), para encerrar o atendimento. Quando for o caso, se o profissional quiser cancelar o atendimento em curso, basta clicar no botão "Cancelar atendimento individual" , todo o registro será cancelado e o cidadão retornará à lista de atendimentos. Cabe lembrar que nesta seção, se houver algum campo obrigatório não preenchido, o atendimento não poderá ser finalizado.
+Por último clique no botão "Finalizar atendimento individual", para encerrar o atendimento. Quando for o caso, se o profissional quiser cancelar o atendimento em curso, basta clicar no botão "Cancelar atendimento individual" , todo o registro será cancelado e o cidadão retornará à lista de atendimentos. Cabe lembrar que nesta seção, se houver algum campo obrigatório não preenchido, o atendimento não poderá ser finalizado.
 
 Após finalizar o atendimento, caso o profissional tenha selecionado "Imprimir atendimento ao finalizar" será realizado o download automático do arquivo para impressão. O profissional deverá abrir o arquivo e imprimir. 
 
