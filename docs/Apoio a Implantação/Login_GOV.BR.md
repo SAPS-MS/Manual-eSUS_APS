@@ -8,7 +8,7 @@ has_toc: true
 last_modified_date: "25/09/2023"
 ---
 
-# Fluxo para solicitação de Adesão ao GOV.BR*:
+# Fluxo para solicitação de Adesão ao GOV.BR:
 
 Caso seu município não faça parte da Rede GOV.BR ainda, o prefeito precisará realizar a adesão através da Plataforma Rede GOV.BR, seguindo os passos abaixo:
 
