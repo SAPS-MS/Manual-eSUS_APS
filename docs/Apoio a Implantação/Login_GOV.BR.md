@@ -10,7 +10,8 @@ last_modified_date: "10/05/2024"
 
 # Habilitação do login GOV.BR no PEC e-SUS APS 
 
-{: .nota } Saiba mais sobre o que é o acesso GOV.BR: [LINK](https://www.gov.br/governodigital/pt-br/identidade/conta-gov-br)
+{: .nota }
+Saiba mais sobre o que é o acesso GOV.BR: [LINK](https://www.gov.br/governodigital/pt-br/identidade/conta-gov-br)
 
 ![alt text](media/gov00.png)
 
@@ -24,7 +25,8 @@ Neste tutorial, explicaremos os passos necessários para habilitação da autent
 
 - Durante a edição de um cadastro, será possível sincronizar o cadastro da base local com a base nacional do CADSUS para correção de dados digitados de maneira equivocada antes da integração com o login GOV.BR, como por exemplo, nome e data de nascimento. 
 
-{: .atencao } Antes de iniciar as etapas deste tutorial, vale destacar que para habilitação da autenticação via login único GOV.BR no PEC e-SUS APS, são obrigatórias duas habilitações anteriores. Verifique se já foram cumpridos os seguintes requisitos na sua Instalação do PEC e-SUS APS: 
+{: .atencao }
+Antes de iniciar as etapas deste tutorial, vale destacar que para habilitação da autenticação via login único GOV.BR no PEC e-SUS APS, são obrigatórias duas habilitações anteriores. Verifique se já foram cumpridos os seguintes requisitos na sua Instalação do PEC e-SUS APS: 
 
 *1º - Habilitação do certificado digital do e-Gestor AB com a opção CADSUS ativa*
 
@@ -40,7 +42,8 @@ Tutorial desta habilitação: Servidores WINDOWS: [LINK](https://saps-ms.github.
 
 ## Etapa 1 - Adesão à Rede Nacional do Governo Digital 
 
-{: .nota } Saiba o que é a Rede Nacional do Governo Digital: [LINK](https://www.gov.br/governodigital/pt-br/estrategias-e-governanca-digital/rede-nacional-de-governo-digital) 
+{: .nota }
+Saiba o que é a Rede Nacional do Governo Digital: [LINK](https://www.gov.br/governodigital/pt-br/estrategias-e-governanca-digital/rede-nacional-de-governo-digital) 
 
 Inicialmente, verifique se seu município já realizou adesão à Rede Nacional do Governo Digital aqui: [LINK](https://www.gov.br/governodigital/pt-br/estrategias-e-governanca-digital/rede-nacional-de-governo-digital/adesoes-a-rede-nacional-de-governo-digital) 
 
@@ -52,7 +55,7 @@ Para municípios que não se encontram listados, é necessário que o Prefeito(a
 
 ![alt text](media/gov03.png)
 
-{: .nota }  
+{: .nota }
 - No passo 5, o “Ponto Focal” deverá ser um agente público municipal (preferencialmente um servidor público ou cargo comissionado) que atue na gestão da temática de Transformação Digital no município. Este agente público será o ponto de contato entre a Rede Nacional de Governo Digital e o município em caso de contatos futuros. 
 - No passo 6, caso haja dificuldade no processo de assinatura digital do termo, veja este tutorial: [LINK](https://bit.ly/AssinaturaDigitalGov). Destacamos que só poderão assinar os usuários com nível de conta GOV.BR prata ou ouro. Para subir o nível da sua conta, veja este tutorial: [LINK](https://bit.ly/44satdh).
 
