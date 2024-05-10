@@ -2,7 +2,7 @@
 layout: default
 title: Versão 5.1
 parent: Últimas releases
-nav_order: 3
+nav_order: 1
 has_children: false
 has_toc: true
 last_modified_date: "19/10/2023"
