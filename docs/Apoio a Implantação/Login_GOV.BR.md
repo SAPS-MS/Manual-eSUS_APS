@@ -119,6 +119,7 @@ Destacamos que todos os passos dos formulários a seguir deverão ser realizadas
 ![alt text](media/gov11.png)
 
 > Observações:
+
 - Em “Chave Pública PGP do Responsável Técnico”, siga este tutorial ([LINK](https://acesso.gov.br/roteiro-tecnico/chavepgp.html#como-criar-um-par-de-chaves-pgp)) na primeira parte “Como criar um par de chaves PGP”, gere a chave com os dados do Responsável Técnico e anexe o arquivo *.asc neste campo. 
 
 - Em “URL”(s) do retorno Homologação”, digite a seguinte informação, substituindo “SEU-DOMINIO” pelo domínio de acesso à sua Instalação do e-SUS APS, exemplo: 
