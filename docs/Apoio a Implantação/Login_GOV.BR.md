@@ -28,13 +28,13 @@ Neste tutorial, explicaremos os passos necessários para habilitação da autent
 {: .atencao }
 Antes de iniciar as etapas deste tutorial, vale destacar que para habilitação da autenticação via login único GOV.BR no PEC e-SUS APS, são obrigatórias duas habilitações anteriores. Verifique se já foram cumpridos os seguintes requisitos na sua Instalação do PEC e-SUS APS: 
 
-*1º - Habilitação do certificado digital do e-Gestor AB com a opção CADSUS ativa*
+**1º - Habilitação do certificado digital do e-Gestor AB com a opção CADSUS ativa**
 
 Tutorial desta habilitação: [LINK](https://saps-ms.github.io/Manual-eSUS_APS/docs/Apoio%20a%20Implanta%C3%A7%C3%A3o/Certificado_eGestor/)
 
 ![alt text](media/gov01.png)
 
-*2 - Acesso ao PEC e-SUS APS por endereço de domínio via protocolo HTTPS*
+**2º - Acesso ao PEC e-SUS APS por endereço de domínio via protocolo HTTPS**
 
 Tutorial desta habilitação: Servidores WINDOWS: [LINK](https://saps-ms.github.io/Manual-eSUS_APS/docs/Apoio%20a%20Implanta%C3%A7%C3%A3o/Certificado_Https_Windows/) / Servidores LINUX: [LINK](https://saps-ms.github.io/Manual-eSUS_APS/docs/Apoio%20a%20Implanta%C3%A7%C3%A3o/Certificado_Https_Linux/)
 
@@ -65,7 +65,7 @@ Com a adesão realizada, já é possível iniciar imediatamente a realização d
 
 Destacamos que todos os passos dos formulários a seguir deverão ser realizadas por um agente público municipal (preferencialmente um servidor público ou cargo comissionado) que atue na gestão da temática de Saúde Digital no município, de preferência a Referência Técnica responsável pela habilitação do login GOV.BR no PEC e-SUS APS. 
 
-1º Passo: entre no site de solicitação do Serviço de Integração aos Produtos de Identidade Digital GOV.BR: https://www.gov.br/governodigital/integrarprodutoid 
+1º Passo: entre no site de solicitação do Serviço de Integração aos Produtos de Identidade Digital GOV.BR: **https://www.gov.br/governodigital/integrarprodutoid** 
 
 2º Passo: clique no botão “Iniciar”; 
 ![alt text](media/gov04.png)
