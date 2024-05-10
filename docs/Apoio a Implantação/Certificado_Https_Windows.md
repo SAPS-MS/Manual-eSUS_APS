@@ -7,6 +7,11 @@ has_children: false
 has_toc: true
 last_modified_date: "26/03/2024"
 ---
+<head>
+    <style>
+        p{text-align:justify};
+    </style>
+</head>
 
 # Criando gratuitamente um certificado SSL e habilitando o protocolo HTTPS no e-SUS APS em servidores Windows
 {: .no_toc }
