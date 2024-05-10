@@ -7,6 +7,11 @@ has_children: false
 has_toc: true
 last_modified_date: "10/05/2024"
 ---
+<head>
+    <style>
+        p{text-align:justify};
+    </style>
+</head>
 
 # Habilitação do login GOV.BR no PEC e-SUS APS 
 
