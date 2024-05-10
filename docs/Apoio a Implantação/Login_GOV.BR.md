@@ -118,12 +118,24 @@ Destacamos que todos os passos dos formulários a seguir deverão ser realizadas
 
 ![alt text](media/gov11.png)
 
-> Observações: 
-
+> Observações:
 - Em “Chave Pública PGP do Responsável Técnico”, siga este tutorial ([LINK](https://acesso.gov.br/roteiro-tecnico/chavepgp.html#como-criar-um-par-de-chaves-pgp)) na primeira parte “Como criar um par de chaves PGP”, gere a chave com os dados do Responsável Técnico e anexe o arquivo *.asc neste campo. 
-- Em “URL”(s) do retorno Homologação”, digite a seguinte informação, substituindo “SEU-DOMINIO” pelo domínio de acesso à sua Instalação do e-SUS APS, exemplo: **https://SEU-DOMINIO/oauth2/authorization/govbr**
-- Em “URL única para página inicial do sistema Homologação”, digite o domínio de acesso à sua Instalação do e-SUS APS, substituindo “SEU-DOMINIO” pelo domínio de acesso à sua Instalação do e-SUS APS exemplo: **https://SEU-DOMINIO**
-- Em “URL(s) de Log Out (Homologação), digite seu domínio de acesso à sua Instalação do e-SUS APS com /logout ao fim, substituindo “SEU-DOMINIO” pelo domínio de acesso à sua Instalação do e-SUS APS exemplo: **https://SEU-DOMINIO/logout**
+
+- Em “URL”(s) do retorno Homologação”, digite a seguinte informação, substituindo “SEU-DOMINIO” pelo domínio de acesso à sua Instalação do e-SUS APS, exemplo: 
+```
+https://SEU-DOMINIO/oauth2/authorization/govbr
+```
+
+- Em “URL única para página inicial do sistema Homologação”, digite o domínio de acesso à sua Instalação do e-SUS APS, substituindo “SEU-DOMINIO” pelo domínio de acesso à sua Instalação do e-SUS APS exemplo:
+```
+https://SEU-DOMINIO
+```
+
+- Em “URL(s) de Log Out (Homologação), digite seu domínio de acesso à sua Instalação do e-SUS APS com /logout ao fim, substituindo “SEU-DOMINIO” pelo domínio de acesso à sua Instalação do e-SUS APS exemplo: 
+```
+https://SEU-DOMINIO/logout
+```
+
 - Nas três datas previstas ao fim da imagem, estime o tempo da disponibilização do login gov.br para os profissionais que acessar a sua instalação do e-SUS APS, exemplo:  **Início do desenvolvimento**: data atual do preenchimento do formulário / **Homologação**: 10 dias após o preenchimento do formulário / **Disponibilização para a sociedade**: 20 dias após o preenchimento do formulário
 
 11º Passo: aceite os termos e clique em “Enviar solicitação”, aguardando o prazo de até 10 dias úteis para retorno deste primeiro formulário, onde seu processo ficará com o status “(3) Análise/Aprovação”: 
@@ -196,11 +208,30 @@ sudo systemctl restart e-SUS-PEC
 ![alt text](media/gov21.png)
 
 > Observações: 
-- Em “URL(s) do retorno Produção” cole o endereço que você copiou no passo anterior, exemplo: **https://SEU-DOMINIO/oauth2/authorization/govbr**
-- Em “URL única para página inicial do sistema produção” digite o domínio de acesso da sua instalação do e-SUS APS, substituindo “SEU-DOMINIO” pelo domínio de acesso à sua Instalação do e-SUS APS, exemplo: **https://SEU-DOMINIO** 
-- Em “URL(s) de Log Out (Produção)” digite seu domínio de acesso à sua Instalação do e-SUS APS com /logout ao fim, substituindo “SEU-DOMINIO” pelo domínio de acesso à sua Instalação do e-SUS APS exemplo: **https://SEU-DOMINIO/logout** 
+- Em “URL(s) do retorno Produção” cole o endereço que você copiou no passo anterior, exemplo:
+```
+https://SEU-DOMINIO/oauth2/authorization/govbr
+```
+
+- Em “URL única para página inicial do sistema produção” digite o domínio de acesso da sua instalação do e-SUS APS, substituindo “SEU-DOMINIO” pelo domínio de acesso à sua Instalação do e-SUS APS, exemplo:
+```
+https://SEU-DOMINIO
+```
+
+- Em “URL(s) de Log Out (Produção)” digite seu domínio de acesso à sua Instalação do e-SUS APS com /logout ao fim, substituindo “SEU-DOMINIO” pelo domínio de acesso à sua Instalação do e-SUS APS exemplo:
+```
+https://SEU-DOMINIO/logout
+```
+
 - Caso necessário, altere as datas possíveis 
-- Anexe um vídeo que demonstre a integração do login GOV.BR à sua Instalação do e-SUS APS seguindo as seguintes instruções: (1) Abra sua Instalação do e-SUS APS no navegador / (2) Clique no botão “Entrar com gov.br” / (3) Faça login no sistema através da conta de qualquer usuário que tenha conta gov.br e acesso ao sistema / (4) Faça logout do sistema (sair da conta de usuário)
+
+- Anexe um vídeo que demonstre a integração do login GOV.BR à sua Instalação do e-SUS APS seguindo as seguintes instruções:
+```
+(1) Abra sua Instalação do e-SUS APS no navegador
+(2) Clique no botão “Entrar com gov.br”
+(3) Faça login no sistema através da conta de qualquer usuário que tenha conta gov.br e acesso ao sistema
+(4) Faça logout do sistema (sair da conta de usuário)
+```
 
 24º Passo: procure a sessão “Produto(s) de Identidade Digital de interesse” e digite em “Nome do Sistema (Produção): e-SUS APS, conforme imagem abaixo: 
 
