@@ -104,16 +104,16 @@ Destacamos que todos os passos dos formulários a seguir deverão ser realizadas
 > Observações: 
 
 - Em “Chave Pública PGP do Responsável Técnico”, siga este tutorial ([LINK](https://acesso.gov.br/roteiro-tecnico/chavepgp.html#como-criar-um-par-de-chaves-pgp)) na primeira parte “Como criar um par de chaves PGP”, gere a chave com os dados do Responsável Técnico e anexe o arquivo *.asc neste campo. 
-- Em “URL”(s) do retorno Homologação”, digite a seguinte informação, substituindo “SEU-DOMINIO” pelo domínio de acesso à sua Instalação do e-SUS APS, exemplo: https://SEU-DOMINIO/oauth2/authorization/govbr 
-- Em “URL única para página inicial do sistema Homologação”, digite o domínio de acesso à sua Instalação do e-SUS APS, substituindo “SEU-DOMINIO” pelo domínio de acesso à sua Instalação do e-SUS APS exemplo: https://SEU-DOMINIO 
-- Em “URL(s) de Log Out (Homologação), digite seu domínio de acesso à sua Instalação do e-SUS APS com /logout ao fim, substituindo “SEU-DOMINIO” pelo domínio de acesso à sua Instalação do e-SUS APS exemplo: https://SEU-DOMINIO/logout 
+- Em “URL”(s) do retorno Homologação”, digite a seguinte informação, substituindo “SEU-DOMINIO” pelo domínio de acesso à sua Instalação do e-SUS APS, exemplo: **https://SEU-DOMINIO/oauth2/authorization/govbr**
+- Em “URL única para página inicial do sistema Homologação”, digite o domínio de acesso à sua Instalação do e-SUS APS, substituindo “SEU-DOMINIO” pelo domínio de acesso à sua Instalação do e-SUS APS exemplo: **https://SEU-DOMINIO**
+- Em “URL(s) de Log Out (Homologação), digite seu domínio de acesso à sua Instalação do e-SUS APS com /logout ao fim, substituindo “SEU-DOMINIO” pelo domínio de acesso à sua Instalação do e-SUS APS exemplo: **https://SEU-DOMINIO/logout**
 - Nas três datas previstas ao fim da imagem, estime o tempo da disponibilização do login gov.br para os profissionais que acessar a sua instalação do e-SUS APS, exemplo:  **Início do desenvolvimento**: data atual do preenchimento do formulário / **Homologação**: 10 dias após o preenchimento do formulário / **Disponibilização para a sociedade**: 20 dias após o preenchimento do formulário
 
 11º Passo: aceite os termos e clique em “Enviar solicitação”, aguardando o prazo de até 10 dias úteis para retorno deste primeiro formulário, onde seu processo ficará com o status “(3) Análise/Aprovação”: 
 ![alt text](media/gov12.png)
 ![alt text](media/gov13.png)
 
-12º Passo: após conclusão do passo anterior, recomendamos que seja verificado nos próximos dias (pois o processo pode não demorar até 10 dias úteis) se o status do processo foi alterado. Para isso, entre no site de solicitação do Serviço de Integração aos Produtos de Identidade Digital GOV.BR: https://www.gov.br/governodigital/integrarprodutoid 
+12º Passo: após conclusão do passo anterior, recomendamos que seja verificado nos próximos dias (pois o processo pode não demorar até 10 dias úteis) se o status do processo foi alterado. Para isso, entre no site de solicitação do Serviço de Integração aos Produtos de Identidade Digital GOV.BR: **https://www.gov.br/governodigital/integrarprodutoid**
 
 13º Passo: clique no botão “Acompanhamento”; 
 ![alt text](media/gov14.png)
@@ -131,7 +131,7 @@ Destacamos que todos os passos dos formulários a seguir deverão ser realizadas
 
 18º Passo: no servidor da sua Instalação do e-SUS APS, vá no diretório indicado e edite o arquivo “application.properties”: 
 
-- Servidor WINDOWS: C:\Program Files\e-SUS\webserver\config\ 
+- Servidor WINDOWS: C:\Program Files\e-SUS\webserver\config\
 
 - Servidor LINUX: /opt/e-SUS/webserver/config/ 
 
@@ -169,9 +169,9 @@ sudo systemctl restart e-SUS-PEC
 ![alt text](media/gov21.png)
 
 > Observações: 
-- Em “URL(s) do retorno Produção” cole o endereço que você copiou no passo anterior, exemplo: https://SEU-DOMINIO/oauth2/authorization/govbr 
-- Em “URL única para página inicial do sistema produção” digite o domínio de acesso da sua instalação do e-SUS APS, substituindo “SEU-DOMINIO” pelo domínio de acesso à sua Instalação do e-SUS APS, exemplo: https://SEU-DOMINIO 
-- Em “URL(s) de Log Out (Produção)” digite seu domínio de acesso à sua Instalação do e-SUS APS com /logout ao fim, substituindo “SEU-DOMINIO” pelo domínio de acesso à sua Instalação do e-SUS APS exemplo: https://SEU-DOMINIO/logout 
+- Em “URL(s) do retorno Produção” cole o endereço que você copiou no passo anterior, exemplo: **https://SEU-DOMINIO/oauth2/authorization/govbr**
+- Em “URL única para página inicial do sistema produção” digite o domínio de acesso da sua instalação do e-SUS APS, substituindo “SEU-DOMINIO” pelo domínio de acesso à sua Instalação do e-SUS APS, exemplo: **https://SEU-DOMINIO** 
+- Em “URL(s) de Log Out (Produção)” digite seu domínio de acesso à sua Instalação do e-SUS APS com /logout ao fim, substituindo “SEU-DOMINIO” pelo domínio de acesso à sua Instalação do e-SUS APS exemplo: **https://SEU-DOMINIO/logout** 
 - Caso necessário, altere as datas possíveis 
 - Anexe um vídeo que demonstre a integração do login GOV.BR à sua Instalação do e-SUS APS seguindo as seguintes instruções: (1) Abra sua Instalação do e-SUS APS no navegador / (2) Clique no botão “Entrar com gov.br” / (3) Faça login no sistema através da conta de qualquer usuário que tenha conta gov.br e acesso ao sistema / (4) Faça logout do sistema (sair da conta de usuário)
 
@@ -190,11 +190,11 @@ sudo systemctl restart e-SUS-PEC
 
 - Caso algum dado de produção foi preenchido de maneira equivocada, você receberá um retorno nos e-mails cadastrados no formulário para correção do problema. 
 
-- Qualquer dúvida sobre este tutorial, abra um ticket em nosso canal de suporte do e-SUS APS: https://esusaps.freshdesk.com 
+- Qualquer dúvida sobre este tutorial, abra um ticket em nosso canal de suporte do e-SUS APS: **https://esusaps.freshdesk.com** 
 
-- Se seu processo de solicitação da credencial de login único do GOV.BR paralisou em alguma de suas etapas ou passou-se o prazo de 10 dias úteis e você não obteve retorno nem observou alteração de status no processo, entre em contato pelo seguinte e-mail: integracaoid@economia.gov.br, apresentando o número da sua solicitação e explicando detalhes do questionamento para a equipe responsável por este suporte. 
+- Se seu processo de solicitação da credencial de login único do GOV.BR paralisou em alguma de suas etapas ou passou-se o prazo de 10 dias úteis e você não obteve retorno nem observou alteração de status no processo, entre em contato pelo seguinte e-mail: **integracaoid@economia.gov.br**, apresentando o número da sua solicitação e explicando detalhes do questionamento para a equipe responsável por este suporte. 
 
-- Para dúvidas técnicas sobre o preenchimento de alguma etapa do formulário que nosso tutorial não contemplou, enviar para o seguinte e-mail: integracao-acesso-govbr@economia.gov.br
+- Para dúvidas técnicas sobre o preenchimento de alguma etapa do formulário que nosso tutorial não contemplou, enviar para o seguinte e-mail: **integracao-acesso-govbr@economia.gov.br**
 
 
 
