@@ -73,31 +73,41 @@ Destacamos que todos os passos dos formulários a seguir deverão ser realizadas
 1º Passo: entre no site de solicitação do Serviço de Integração aos Produtos de Identidade Digital GOV.BR: **https://www.gov.br/governodigital/integrarprodutoid** 
 
 2º Passo: clique no botão “Iniciar”; 
+
 ![alt text](media/gov04.png)
 
 3º Passo: faça login com a conta GOV.BR do agente público municipal (preferencialmente um servidor público ou cargo comissionado) que atue na gestão da temática de Saúde Digital no município, de preferência a Referência Técnica responsável pela habilitação do login GOV.BR no PEC e-SUS APS; 
 
 4º Passo: preencha os dados do solicitante e da Secretaria Municipal/Estadual de Saúde em “Dados do Órgão e do Solicitante”; 
+
 ![alt text](media/gov05.png)
+
 > Observação: no campo ”CNPJ do órgão/entidade pública”, deve-se utilizar preferencialmente o CNPJ do município ou do Estado.
 
 5º Passo: preencha dos dados do Responsável Negocial e do Responsável Técnico em “Dados Funcionais”;
+
 ![alt text](media/gov06.png)
+
 > Observações:
 - Marque a opção ”Responsável Negocial” se o processo está sendo realizado por um agente público municipal que não seja o Responsável Técnico pela habilitação ou marque a opção “Responsável Técnico” se o processo está sendo realizado pela Referência Técnica responsável pela habilitação; 
 - Os números de “matrícula de ligação à administração pública” podem ser adquiridos, geralmente, pelos portais de transparência dos municípios/estados na sessão de servidores ou via contato direto com o setor de Recursos Humanos/Departamento Pessoal da administração local.
 
 6º Passo: preencha o “Questionário” conforme imagem abaixo: 
+
 ![alt text](media/gov07.png)
 
 7º Passo: em “Produto(s) de Identidade Digital de interesse”, preencha conforme imagem abaixo: 
+
 ![alt text](media/gov08.png)
 
 8º Passo: em sequência, preencha os dados a seguir e clique em “adicionar dados na tabela”: 
+
 ![alt text](media/gov09.png)
 
 9º Passo: preencha os campos abaixo conforme indicação: 
+
 ![alt text](media/gov10.png)
+
 > Observações: 
 - Em “Lista de IPs dos servidores”, digite o IP público da instalação do e-SUS APS 
 - Em “Justificativa de acesso” digite por exemplo: “De acordo com sua categoria profissional, os usuários do e-SUS APS tem acesso a dados pessoais/sensíveis dos cidadãos cadastrados.” 
@@ -105,7 +115,9 @@ Destacamos que todos os passos dos formulários a seguir deverão ser realizadas
 - Em Sazonalidade, pode-se preencher “N/A” ou o maior período de acesso ao e-SUS APS pelo login gov.br, como por exemplo “Segunda a sexta-feira, das 7 às 9h e das 13 às 15h.” 
 
 10º Passo: preencha os campos abaixo conforme indicação: 
+
 ![alt text](media/gov11.png)
+
 > Observações: 
 
 - Em “Chave Pública PGP do Responsável Técnico”, siga este tutorial ([LINK](https://acesso.gov.br/roteiro-tecnico/chavepgp.html#como-criar-um-par-de-chaves-pgp)) na primeira parte “Como criar um par de chaves PGP”, gere a chave com os dados do Responsável Técnico e anexe o arquivo *.asc neste campo. 
@@ -115,23 +127,29 @@ Destacamos que todos os passos dos formulários a seguir deverão ser realizadas
 - Nas três datas previstas ao fim da imagem, estime o tempo da disponibilização do login gov.br para os profissionais que acessar a sua instalação do e-SUS APS, exemplo:  **Início do desenvolvimento**: data atual do preenchimento do formulário / **Homologação**: 10 dias após o preenchimento do formulário / **Disponibilização para a sociedade**: 20 dias após o preenchimento do formulário
 
 11º Passo: aceite os termos e clique em “Enviar solicitação”, aguardando o prazo de até 10 dias úteis para retorno deste primeiro formulário, onde seu processo ficará com o status “(3) Análise/Aprovação”: 
+
 ![alt text](media/gov12.png)
+
 ![alt text](media/gov13.png)
 
 12º Passo: após conclusão do passo anterior, recomendamos que seja verificado nos próximos dias (pois o processo pode não demorar até 10 dias úteis) se o status do processo foi alterado. Para isso, entre no site de solicitação do Serviço de Integração aos Produtos de Identidade Digital GOV.BR: **https://www.gov.br/governodigital/integrarprodutoid**
 
 13º Passo: clique no botão “Acompanhamento”; 
+
 ![alt text](media/gov14.png)
 
 14º Passo: faça login com a mesma conta GOV.BR que o processo foi iniciado;
 
 15º Passo: se houve alteração do status “(3) Análise/Aprovação” para outro, conforme imagem abaixo, clique em “Responder” para dar andamento no processo. Caso o status não se alterou, favor aguardar e continuar verificando dentro dos 10 dias úteis: 
+
 ![alt text](media/gov15.png)
 
-16º Passo: desça a página e procure pela sessão “Análise do Produto Homologação”: 
+16º Passo: desça a página e procure pela sessão “Análise do Produto Homologação”:
+
 ![alt text](media/gov16.png)
 
 17º Passo: em "considerações", copie o “client_id” e “secret” informados: 
+
 ![alt text](media/gov17.png)
 
 18º Passo: no servidor da sua Instalação do e-SUS APS, vá no diretório indicado e edite o arquivo “application.properties”: 
@@ -150,11 +168,13 @@ bridge.security.oauth2.client.registration.govbr.client-secret=SEU-SECRET
 > Observação: substituir onde há “SEU-CLIENT_ID” e “SEU-SECRET” pelas informações obtidas no 17º Passo. 
 
 Exemplo:
+
 ![alt text](media/gov18.png)
 
 20º Passo: reinicie o serviço da aplicação do e-SUS APS no servidor: 
 
-- Servidor WINDOWS: no menu Iniciar, procure por “Serviços”, abra o sistema, procure pelo serviço “e-SUS-PEC", clique com o botão direito e vá em “Reiniciar” 
+- Servidor WINDOWS: no menu Iniciar, procure por “Serviços”, abra o sistema, procure pelo serviço “e-SUS-PEC", clique com o botão direito e vá em “Reiniciar”:
+
 ![alt text](media/022.png)
 
 - Servidor LINUX: digite no console o comando: 
@@ -168,9 +188,11 @@ sudo systemctl restart e-SUS-PEC
 ![alt text](media/gov19.png) 
 
 22º Passo: clique com o botão direito no botão “Entrar com gov.br” e selecione “Copiar endereço do link”:
+
 ![alt text](media/gov20.png) 
 
 23º Passo: volte ao formulário de solicitação do login GOV.BR e procure pelos seguintes campos: 
+
 ![alt text](media/gov21.png)
 
 > Observações: 
@@ -181,13 +203,17 @@ sudo systemctl restart e-SUS-PEC
 - Anexe um vídeo que demonstre a integração do login GOV.BR à sua Instalação do e-SUS APS seguindo as seguintes instruções: (1) Abra sua Instalação do e-SUS APS no navegador / (2) Clique no botão “Entrar com gov.br” / (3) Faça login no sistema através da conta de qualquer usuário que tenha conta gov.br e acesso ao sistema / (4) Faça logout do sistema (sair da conta de usuário)
 
 24º Passo: procure a sessão “Produto(s) de Identidade Digital de interesse” e digite em “Nome do Sistema (Produção): e-SUS APS, conforme imagem abaixo: 
+
 ![alt text](media/gov22.png)
 
 25º Passo: vá ao fim do formulário em “Enviar dados/Dúvidas” e selecione a opção abaixo: 
+
 ![alt text](media/gov23.png)
 
 26º Passo: clique em “Enviar dados de produção” e a integração do login GOV.BR ao e-SUS APS foi concluída com sucesso!:
+
 ![alt text](media/gov24.png)
+
 ![alt text](media/gov25.png)
 
 {: .atencao } 
