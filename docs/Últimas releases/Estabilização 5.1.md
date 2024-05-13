@@ -89,5 +89,3 @@ Ajuste de cenário onde, ao incluir CID 10 relacionado a puerpério, o tipo do a
 * Melhoria no layout dos Exames solicitados no Histórico clínico do cidadão.
 * Correção de erro onde não era possível finalizar atendimentos de pré-natal em instalações com banco de dados Oracle.
 * Ajustes no processamento de dados para o acompanhamento de cidadãos vinculados ocorrer apenas no horário configurado para geração de lotes e processamento de fichas.
-
-
