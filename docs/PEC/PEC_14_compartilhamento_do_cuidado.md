@@ -8,6 +8,8 @@ has_toc: true
 last_modified_date: "04/09/2023"
 ---
 
+## Sumário
+{: .no_toc .text-delta }
 
 # CAPÍTULO 14 - Compartilhamento do cuidado
 {: .no_toc }

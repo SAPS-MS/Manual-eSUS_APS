@@ -14,11 +14,6 @@ last_modified_date: "02/05/2023"
 
 Este módulo tem como objetivo instrumentalizar os gestores locais e municipais a gerir o acesso do cidadão na Unidade Básica de Saúde.
 
-
-
-
-
-
 ## Sumário
 {: .no_toc .text-delta }
 

@@ -8,6 +8,8 @@ has_toc: true
 last_modified_date: "02/05/2023"
 ---
 
+## Sumário
+{: .no_toc .text-delta }
 
 # CAPÍTULO 13 - Videochamadas
 {: .no_toc }
