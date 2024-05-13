@@ -8,14 +8,14 @@ has_toc: true
 last_modified_date: "04/09/2023"
 ---
 
+# CAPÍTULO 14 - Compartilhamento do cuidado
+{: .no_toc }
+
 ## Sumário
 {: .no_toc .text-delta }
 
 - TOC
 {:toc}
-
-# CAPÍTULO 14 - Compartilhamento do cuidado
-{: .no_toc }
 
 Este módulo permite que os profissionais acessem os casos em que foi necessário compartilhar o cuidado do cidadão com uma outra equipe. 
 
