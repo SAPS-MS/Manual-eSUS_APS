@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Versão 5.3
+title: Versão 5.3 (Em Piloto)
 parent: Últimas releases
 nav_order: 3
 has_children: false
