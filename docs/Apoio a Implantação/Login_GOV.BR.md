@@ -45,16 +45,16 @@ Tutorial desta habilitação: Servidores WINDOWS: [LINK](https://saps-ms.github.
 
 ![alt text](media/gov02.png)
 
-## Etapa 1 - Adesão à Rede Nacional do Governo Digital 
+## Etapa 1 - Adesão à Rede Nacional de Governo Digital 
 
 {: .nota }
-Saiba o que é a Rede Nacional do Governo Digital: [LINK](https://www.gov.br/governodigital/pt-br/estrategias-e-governanca-digital/rede-nacional-de-governo-digital) 
+Saiba o que é a Rede Nacional de Governo Digital: [LINK](https://www.gov.br/governodigital/pt-br/estrategias-e-governanca-digital/rede-nacional-de-governo-digital) 
 
-Inicialmente, verifique se seu município já realizou adesão à Rede Nacional do Governo Digital aqui: [LINK](https://www.gov.br/governodigital/pt-br/estrategias-e-governanca-digital/rede-nacional-de-governo-digital/adesoes-a-rede-nacional-de-governo-digital) 
+Inicialmente, verifique se seu município já realizou adesão à Rede Nacional de Governo Digital aqui: [LINK](https://www.gov.br/governodigital/pt-br/estrategias-e-governanca-digital/rede-nacional-de-governo-digital/adesoes-a-rede-nacional-de-governo-digital) 
 
 > Observação: todos os estados já realizaram esta adesão. 
 
-Se seu município já está com a adesão realizada, pule para a próxima etapa deste tutorial: *#*Etapa 2 - Solicitação da credencial de login único e habilitação do login gov.br no PEC e-SUS APS*#*. 
+Se seu município já está com a adesão realizada, pule para a próxima etapa deste tutorial: **Etapa 2 - Solicitação da credencial de login único e habilitação do login gov.br no PEC e-SUS APS**. 
 
 Para municípios que não se encontram listados, é necessário que o Prefeito(a) Municipal, como autoridade máxima do Poder Executivo municipal, com seu login GOV.BR, realize esta adesão conforme manual a seguir:
 
@@ -69,6 +69,8 @@ Com a adesão realizada, já é possível iniciar imediatamente a realização d
 ## Etapa 2 - Solicitação da credencial de login único e habilitação do login gov.br no PEC e-SUS APS 
 
 Destacamos que todos os passos dos formulários a seguir deverão ser realizadas por um agente público municipal (preferencialmente um servidor público ou cargo comissionado) que atue na gestão da temática de Saúde Digital no município, de preferência a Referência Técnica responsável pela habilitação do login GOV.BR no PEC e-SUS APS. 
+
+### 1ª PARTE
 
 1º Passo: entre no site de solicitação do Serviço de Integração aos Produtos de Identidade Digital GOV.BR: **https://www.gov.br/governodigital/integrarprodutoid** 
 
@@ -144,6 +146,8 @@ https://SEU-DOMINIO/logout
 ![alt text](media/gov12.png)
 
 ![alt text](media/gov13.png)
+
+### 2ª PARTE
 
 12º Passo: após conclusão do passo anterior, recomendamos que seja verificado nos próximos dias (pois o processo pode não demorar até 10 dias úteis) se o status do processo foi alterado. Para isso, entre no site de solicitação do Serviço de Integração aos Produtos de Identidade Digital GOV.BR: **https://www.gov.br/governodigital/integrarprodutoid**
 
