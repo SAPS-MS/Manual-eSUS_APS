@@ -11,6 +11,9 @@ last_modified_date: "02/05/2023"
 ## Sumário
 {: .no_toc .text-delta }
 
+- TOC
+{:toc}
+
 # CAPÍTULO 13 - Videochamadas
 {: .no_toc }
 
