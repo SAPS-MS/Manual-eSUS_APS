@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Versão 5.1
+title: Estabilização 5.1
 parent: Últimas releases
 nav_order: 1.1
 has_children: false
