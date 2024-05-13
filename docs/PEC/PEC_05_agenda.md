@@ -307,7 +307,8 @@ Após download do comprovante, imprima-o para disponibilização ao paciente:
 
 ![](media/pec_image1109.png)
 
-{: .atencao } A partir da versão **5.2.33** do Prontuário Eletrônico do Cidadão (PEC), um e-mail de confirmação será enviado ao paciente com as informações da consulta agendada! Para melhor usufruto da funcionalidade, orientamos manter os dados de contato do paciente sempre atualizados! Lembramos ainda que a função **SMTP** no PEC deverá estar [ATIVADA](https://saps-ms.github.io/Manual-eSUS_APS/docs/PEC/PEC_03_adm_conf/#3132-servidor-smtp).
+{: .atencao }
+A partir da versão **5.2.33** do Prontuário Eletrônico do Cidadão (PEC), um e-mail de confirmação será enviado ao paciente com as informações da consulta agendada! Para melhor usufruto da funcionalidade, orientamos manter os dados de contato do paciente sempre atualizados! Lembramos ainda que a função **SMTP** no PEC deverá estar [ATIVADA](https://saps-ms.github.io/Manual-eSUS_APS/docs/PEC/PEC_03_adm_conf/#3132-servidor-smtp).
 
 Abaixo, ilustração com o comprovante de agendamento enviado ao e-mail do cidadão:
 
