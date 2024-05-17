@@ -76,10 +76,4 @@ Suporte à decisão 3:
     * Ativar e desativar microfone;
     * Chat.
 
-<table>
-  <tr>
-    <td><img src="./media/video_chamadaa_2.png"></td>
-    <td><img src="./media/video_chamadaa_1.png"></td>
-    <td><img src="./media/video_chamadaa.png"></td>        
-  </tr>
-</table>
+![](./media/video_chamadaa.png)
