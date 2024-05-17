@@ -18,7 +18,7 @@ last_modified_date: "17/05/2024"
 
 ![](../Apoio%20a%20Implantação/media/busca_ativa.png)
 
-Busca ativa de vacinação
+**Busca ativa de vacinação**
 
 * Implementação do Grupo-alvo de Adultos para Vacinas do calendário vacinal;
 * Implementação do Grupo-alvo de Puérperas com Gestantes para Vacinas do calendário vacinal;
@@ -26,7 +26,7 @@ Busca ativa de vacinação
 * Inclusão do filtro por Bairro, Tipo de Logradouro e Logradouro de residência do cidadão;
 * Inclusão da regra de Identidade de gênero nos relatórios.
 
-Inclusão dos grupos alvos:
+**Inclusão dos grupos alvos:**
 
 ![](./media/grupo_vacinal.png)
 
@@ -34,7 +34,7 @@ Inclusão do **bairro** nos filtros avançados:
 
 ![](./media/bairro.png)
 
-Cadastro de Imóveis e Famílias
+**Cadastro de Imóveis e Famílias**
 
 * A versão 5.3 agora permite cadastrar imóveis e famílias de forma mais completa e clara, facilitando a gestão dos cidadãos moradores de cada domicílio adscrito.
 
@@ -44,7 +44,7 @@ Cadastro de Imóveis e Famílias
 
 ![](./media/cadastro_imovel.png)
 
-Suporte à Decisão Clínica
+**Suporte à Decisão Clínica**
 
 * Agora o PEC conta com um sistema de Suporte à Decisão Clínica que objetiva notificar os profissionais durante os atendimentos dos cidadãos. Os alertas apresentados por esse sistema servem de apoio à tomada de decisão e não possuem caráter prescritivo por si só. No momento, foram implementados dois alertas:
 
@@ -66,21 +66,21 @@ Suporte à decisão 3:
 
 ![](./media/video_chamada.png)
 
-Videochamada do profissional convidado adaptada para telefone celular
+**Videochamada do profissional convidado adaptada para telefone celular**
 
 * Os componentes da videochamada foram adaptados para funcionar em telefones celular. O objetivo do módulo é possibilitar que o profissional convidado acesse a videochamada pelo telefone celular. Por outro lado, o profissional anfitrião ainda deve acessar a videochamada através do computador.
 
 * As funcionalidades da videochamada para telefone celular são:
 
-* Ativar e desativar camera;
-* Ativar e desativar microfone;
-* Chat.
+    * Ativar e desativar camera;
+    * Ativar e desativar microfone;
+    * Chat.
 
 <table>
     <tr>
-        <td><img src="./media/video_chamadaa.png"></td>
-        <td><img src="./media/video_chamadaa_1.png"></td>
-        <td><img src="./media/video_chamadaa_2.png"></td>
+        <td><img src=./media/video_chamadaa.png></td>
+        <td><img src=./media/video_chamadaa_1.png></td>
+        <td><img src=./media/video_chamadaa_2.png></td>
     </tr>
 </table>
 
