@@ -7,7 +7,6 @@ has_children: false
 has_toc: true
 last_modified_date: "17/05/2024"
 ---
-<html>
 
 # Versão 5.3
 ## Novidades:
@@ -84,5 +83,3 @@ Suporte à decisão 3:
     <td><img src="./media/video_chamadaa.png"></td>        
   </tr>
 </table>
-
-</html>
