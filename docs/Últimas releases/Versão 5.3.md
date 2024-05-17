@@ -77,10 +77,10 @@ Suporte à decisão 3:
     * Chat.
 
 <table>
-    <tr>
-        <td><img src=./media/video_chamadaa.png></td>
-        <td><img src=./media/video_chamadaa_1.png></td>
-        <td><img src=./media/video_chamadaa_2.png></td>
-    </tr>
+  <tr>
+    <td><img src="./media/video_chamadaa.png"></td>
+    <td><img src="./media/video_chamadaa_1.png"></td>
+    <td><img src="./media/video_chamadaa_2.png"></td>
+  </tr>
 </table>
 
