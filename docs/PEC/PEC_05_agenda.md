@@ -296,3 +296,25 @@ Figura 5.10 - Impressão da agenda
 ![](media/pec_image304.png)
 
 Fonte: SAS/MS.
+
+# 5.4 Imprimir o comprovante de agendamento do cidadão
+
+A partir da **versão 5.2.33**, já é possível realizar a impressão do comprovante de agendamento de consulta do cidadão, no módulo de agendamento! Para isto, basta inserir normalmente o cidadão na agenda do profissional, clicar nos três pontos e em seguida selecionar a opção "Imprimir agendamento", conforme ilustração abaixo:
+
+![](media/pec_image1108.png)
+
+Após download do comprovante, imprima-o para disponibilização ao paciente:
+
+![](media/pec_image1109.png)
+
+# 5.5 Envio do comprovante de agendamento por e-mail
+
+{: .atencao }
+A partir da versão **5.2.33** do Prontuário Eletrônico do Cidadão (PEC), um e-mail de confirmação será enviado ao paciente com as informações da consulta agendada! Para melhor usufruto da funcionalidade, orientamos manter os dados de contato do paciente sempre atualizados! Lembramos ainda que a função **SMTP** no PEC deverá estar [ATIVADA](https://saps-ms.github.io/Manual-eSUS_APS/docs/PEC/PEC_03_adm_conf/#3132-servidor-smtp).
+
+Abaixo, ilustração com o comprovante de agendamento enviado ao e-mail do cidadão:
+
+![](media/pec_image1110.jpg)
+
+
+

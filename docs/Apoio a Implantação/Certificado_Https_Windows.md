@@ -7,6 +7,13 @@ has_children: false
 has_toc: true
 last_modified_date: "26/03/2024"
 ---
+<head>
+    <style>
+        p{text-align:justify};
+    </style>
+</head>
+
+<iframe width="800" height="520" src="https://www.youtube.com/embed/jczFnfeHmLI?si=gZd05AGSmnjGmIng" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 # Criando gratuitamente um certificado SSL e habilitando o protocolo HTTPS no e-SUS APS em servidores Windows
 {: .no_toc }

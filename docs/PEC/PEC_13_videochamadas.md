@@ -8,9 +8,14 @@ has_toc: true
 last_modified_date: "02/05/2023"
 ---
 
-
 # CAPÍTULO 13 - Videochamadas
 {: .no_toc }
+
+## Sumário
+{: .no_toc .text-delta }
+
+- TOC
+{:toc}
 
 Este módulo permite que os profissionais do PEC realizem videochamadas com profissionais internos ou externos à UBS ou outro estabelecimento de saúde que tenha o PEC instalado. Neste caso, o cidadão poderá ou não estar presente na chamada e a mesma será conduzida através de um canal oficial de comunicação garantindo a segurança desta ação.
 
