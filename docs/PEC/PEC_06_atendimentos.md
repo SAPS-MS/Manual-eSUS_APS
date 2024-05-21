@@ -1976,7 +1976,7 @@ Para registrar avaliação ou problema detectado na coroa do dente, siga os pass
 
 Figura 6.5.8 - Lista de problemas (Odontograma)
 
-![](media/pec_image534.png)
+![](media/pec_image1107.png)
 
 - clique com o botão **esquerdo** sobre um dos problemas detectados para confirmar a situação identificada na coroa do dente; Por exemplo: Ao clicar em Cariado (C),aparecerá conforme a figura 6.90.
 
