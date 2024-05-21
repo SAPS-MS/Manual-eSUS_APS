@@ -184,7 +184,7 @@ c.Caso o trabalhador tenha mais de um vínculo, o sistema mostrará as opções 
 
 3.Preencha as "Informações sociodemográficas" de acordo com as informações da ficha. Se a resposta de uma questão for "Sim", verifique as opções adicionais de preenchimento (ex.: Tem alguma deficiência? "Sim". Então, responda também "Se sim, quais?" outro exemplo; É membro de povo ou comunidade tradicional? Se sim, qual?). No momento da digitação, deve- se escolher uma das opções disponíveis no software, conforme seu preenchimento na ficha.
 
-![](media/pec_image1108.png)
+![](media/pec_image1109.png)
 
 #### 7.2.1.1.4 Informações socioeconômicas - Triagem para Risco de Insegurança Alimentar (TRIA)
 4.Faça as duas perguntas da TRIA para o cidadão e registre a resposta com uma das opções: "sim" ou "não". Essas informações são importantes para rastrear o Risco de insegurança alimentar da família.
