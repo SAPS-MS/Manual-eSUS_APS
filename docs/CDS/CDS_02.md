@@ -235,7 +235,7 @@ Fonte: SAS/MS.*
 
 A orientação sexual do cidadão é a capacidade de ter, sentir ou desenvolver atração e/ou relação emocional, afetiva ou sexual por outra(s) pessoa(s). Enquanto a identidade de gênero é a expressão de uma identidade construída a partir de como a pessoa se reconhece e/ou se apresenta, que pode corresponder ou não ao seu corpo biológico. A identidade de gênero, em suas diferentes expressões, pode ou não corresponder ao sexo atribuído no nascimento e pode ou não envolver modificação da aparência ou do corpo.
 
-Para saber mais sobre o tema, acesse [www.saude.gov.br/saudeLGBT](http://www.saude.gov.br/saudeLGBT), em especial a [Cartilha de Atenção Integral à Saúde da População Trans.](http://portalsaude.saude.gov.br/cds_images/pdf/2016/fevereiro/18/CARTILHA-Equidade-10x15cm.pdf)
+Para saber mais sobre o tema, acesse [Site da SAPS](https://www.gov.br/saude/pt-br/composicao/saps/equidade-em-saude/populacao-lgbtqiapn).
 
 Na atualização da ficha de cadastro individual, entendendo estes como conceitos distintos e complementares, as questões foram subdivididas, como seguem abaixo. Ambas as perguntas sobre orientação sexual e identidade de gênero são obrigatórias a partir da versão 5.2.
 
@@ -272,7 +272,7 @@ Deseja informar a identidade de gênero? em caso afirmativo, marque "Sim" para a
 *Fonte: SAPS/MS.*
 
 {: .nota }
-Os conceitos dos Quadros 2.8 e 2.9 foram descritos pela Coordenação do Acesso e Equidade do Departamento de Estratégias e Políticas de Saúde Comunitária (CAEQ/CEGESCO/DESCO/SAPS/MS). Referências utilizadas: (1) Campinas, Prefeitura de. Guia de Terminologias: Um Guia com os principais termos de Políticas Afirmativas para você usar no seu dia a dia. 2ª Edição, julho/2022. (2) UNAIDS. Guia de Terminologia do UNAIDS, 2017.  
+Os conceitos dos Quadros 2.8 e 2.9 foram descritos pela Coordenação do Acesso e Equidade do Departamento de Estratégias e Políticas de Saúde Comunitária (CAEQ/CEGESCO/DESCO/SAPS/MS). Referências utilizadas: (1) Campinas, Prefeitura de. Guia de Terminologias: Um Guia com os principais termos de Políticas Afirmativas para você usar no seu dia a dia. 2ª Edição, julho/2022. (2) [Guia de Terminologia do UNAIDS, 2017](https://unaids.org.br/wp-content/uploads/2015/06/WEB_2018_01_18_GuiaTerminologia_UNAIDS.pdf).
 
 {: .atencao }
 É importante que os profissionais de saúde, ao criarem ou atualizarem um cadastro individual, façam sempre essas duas perguntas para saber se a pessoa deseja ou não informar esses dados. Essas informações são muito importantes para que os profissionais de saúde façam uma melhor coordenação do cuidado e para que esse cuidado seja integral e com equidade. 
