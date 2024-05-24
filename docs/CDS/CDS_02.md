@@ -277,8 +277,8 @@ Os conceitos dos Quadros 2.8 e 2.9 foram descritos pela Coordenação do Acesso 
 {: .atencao }
 É importante que os profissionais de saúde, ao criarem ou atualizarem um cadastro individual, façam sempre essas duas perguntas para saber se a pessoa deseja ou não informar esses dados. Essas informações são muito importantes para que os profissionais de saúde façam uma melhor coordenação do cuidado e para que esse cuidado seja integral e com equidade. 
 
-	{: .dica }
-    123
+{: .dica }
+Quando a identidade de gênero é diferente das identidades cisgênero, é possível fazer registros que são atribuídos a sexo. Por exemplo, um cadastro que tem sinalizado que a pessoa é um homem transgênero, vai ser habilitado os códigos CID-10 e CIAP-2 de gravidez, mesmo que no campo sexo esteja selecionado masculino.
 
 **Tem alguma deficiência?**: este item identifica se o cidadão apresenta alguma deficiência[^5]. Assinalar com um "x" a opção referida. Este campo de preenchimento obrigatório. **Se sim, qual ou quais deficiências o cidadão?** Podendo ser:
 
