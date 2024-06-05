@@ -263,7 +263,7 @@ Para fazer uma reserva de horário na agenda, siga os passos:
 
 Figura 5.8 - Realizar reserva na agenda
 
-![](media/pec_image301.png)
+![](media/pec_image1113.png)
 
 Fonte: SAS/MS.
 
@@ -273,7 +273,7 @@ Fonte: SAS/MS.
 ![](media/pec_image299.png)
 
 - Passo 5. Escolha o motivo da reserva da agenda (atendimento externo, atividade coletiva, reunião ou outro)
-![](media/pec_image300.png)
+![](media/pec_image1114.png)
 
 - Passo 6. Caso seja selecionada a opção outro (motivo) use o campo "Especifique" para detalhar o motivo;
 
@@ -283,9 +283,13 @@ Após salvo, a reserva do horário será apresentada na agenda, junto com os out
 
 Figura 5.9 - Horário reservado
 
-![](media/pec_image302.png)
+![](media/pec_image1112.png)
 
 Fonte: SAS/MS.
+
+Caso haja a necessidade o profissional poderá editar os dados da reserva de horário.
+
+![](media/pec_image1111.png)
 
 # 5.3 Imprimir a Agenda do Profissional
 
@@ -301,11 +305,11 @@ Fonte: SAS/MS.
 
 A partir da **versão 5.2.33**, já é possível realizar a impressão do comprovante de agendamento de consulta do cidadão, no módulo de agendamento! Para isto, basta inserir normalmente o cidadão na agenda do profissional, clicar nos três pontos e em seguida selecionar a opção "Imprimir agendamento", conforme ilustração abaixo:
 
-![](media/pec_image1108.png)
+![](media/pec_image1116.png)
 
 Após download do comprovante, imprima-o para disponibilização ao paciente:
 
-![](media/pec_image1109.png)
+![](media/pec_image1115.png)
 
 # 5.5 Envio do comprovante de agendamento por e-mail
 

@@ -1506,7 +1506,11 @@ A lista de cuidados compartilhados do cidadão mostra a lista de todos os compar
 
 Ao clicar para abrir ao lado esquerdo da data há o resumo do que foi colocado no momento do compartilhamento: problemas/condições que trazem a hipótese diagnóstica; o relato de caso mostra o que foi descrito na discussão de caso para começar a comunicação entre profissionais; a opção do cidadão sobre a possibilidade de uso de tecnologia para o atendimento e o profissional que solicitou esse compartilhamento.
 
+![](media/pec_image1117.png)
+
+
 #### Exemplos Práticos de Compartilhamento do Cuidado
+
 
 #### Exemplo 1:
 
@@ -1517,6 +1521,8 @@ A cirurgiã dentista descreveu o caso e compartilhou com a médica ginecologista
 #### Exemplo 2:
 
 O médico está atendendo uma criança de 4 anos que está com dificuldade na fala e precisa compartilhar o cuidado com a fonoaudióloga, ele explicou o caso à mãe que concordou com o compartilhamento do cuidado. O médico explicou o caso e compartilhou com a fonoaudióloga. A fonoaudióloga ao acessar o compartilhamento do cuidado e realizar a leitura do caso, pode recomendar orientações para a família e solicitar um agendamento para avaliação com a profissional. 
+
+
 
 
 ## 6.4.4 Problemas / Condições e Alergias
