@@ -263,7 +263,7 @@ Para fazer uma reserva de horário na agenda, siga os passos:
 
 Figura 5.8 - Realizar reserva na agenda
 
-![](media/pec_image301.png)
+![](media/pec_image1113.png)
 
 Fonte: SAS/MS.
 
@@ -283,9 +283,13 @@ Após salvo, a reserva do horário será apresentada na agenda, junto com os out
 
 Figura 5.9 - Horário reservado
 
-![](media/pec_image302.png)
+![](media/pec_image1112.png)
 
 Fonte: SAS/MS.
+
+Caso haja a necessidade o profissional poderá editar os dados da reserva de horário.
+
+![](media/pec_image1111.png)
 
 # 5.3 Imprimir a Agenda do Profissional
 
