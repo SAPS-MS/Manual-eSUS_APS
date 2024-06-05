@@ -305,11 +305,11 @@ Fonte: SAS/MS.
 
 A partir da **versão 5.2.33**, já é possível realizar a impressão do comprovante de agendamento de consulta do cidadão, no módulo de agendamento! Para isto, basta inserir normalmente o cidadão na agenda do profissional, clicar nos três pontos e em seguida selecionar a opção "Imprimir agendamento", conforme ilustração abaixo:
 
-![](media/pec_image1108.png)
+
 
 Após download do comprovante, imprima-o para disponibilização ao paciente:
 
-![](media/pec_image1109.png)
+
 
 # 5.5 Envio do comprovante de agendamento por e-mail
 
