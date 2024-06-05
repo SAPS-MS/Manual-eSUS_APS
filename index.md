@@ -62,5 +62,5 @@ Catalogação na fonte – Coordenação-Geral de Documentação e Informação 
 Contribuidores:
 
 {% for contributor in site.github.contributors %}
-{{ contributor.login }}
+    {{ contributor.login }}
 {% endfor %}
