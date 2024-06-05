@@ -8,7 +8,7 @@ has_toc: true
 last_modified_date: "25/09/2023"
 ---
 
-# CAPÍTULO 2 - Cadastro da Atenção Básica
+# CAPÍTULO 2 - Cadastro da Atenção Básica.
 {: .no_toc }
 
 ## Sumário
@@ -233,11 +233,11 @@ Fonte: SAS/MS.*
 
 **Orientação sexual e Identidade de Gênero**
 
-A orientação sexual do cidadão é a capacidade de ter, sentir ou desenvolver atração e/ou relação emocional, afetiva ou sexual por outra(s) pessoa(s). Enquanto a identidade de gênero é a expressão de uma identidade construída a partir de como a pessoa se reconhece e/ou se apresenta, que pode corresponder ou não ao seu corpo biológico. A identidade de gênero, em suas diferentes expressões, pode ou não envolver modificação da aparência ou do corpo.
+A orientação sexual do cidadão é a capacidade de ter, sentir ou desenvolver atração e/ou relação emocional, afetiva ou sexual por outra(s) pessoa(s). Enquanto a identidade de gênero é a expressão de uma identidade construída a partir de como a pessoa se reconhece e/ou se apresenta, que pode corresponder ou não ao seu corpo biológico. A identidade de gênero, em suas diferentes expressões, pode ou não corresponder ao sexo atribuído no nascimento e pode ou não envolver modificação da aparência ou do corpo.
 
-Para saber mais sobre o tema, acesse [www.saude.gov.br/saudeLGBT](http://www.saude.gov.br/saudeLGBT), em especial a [Cartilha de Atenção Integral à Saúde da População Trans.](http://portalsaude.saude.gov.br/cds_images/pdf/2016/fevereiro/18/CARTILHA-Equidade-10x15cm.pdf)
+Para saber mais sobre o tema, acesse [Site da SAPS](https://www.gov.br/saude/pt-br/composicao/saps/equidade-em-saude/populacao-lgbtqiapn).
 
-Na atualização da ficha de cadastro individual, entendendo estes como conceitos distintos e complementares, as questões foram subdivididas, como seguem abaixo.
+Na atualização da ficha de cadastro individual, entendendo estes como conceitos distintos e complementares, as questões foram subdivididas, como seguem abaixo. Ambas as perguntas sobre orientação sexual e identidade de gênero são obrigatórias a partir da versão 5.2.
 
 **Deseja informar orientação sexual?**: em caso afirmativo, marque "Sim" para a resposta ou "Não" caso contrário. Se sim, prossiga com a questão e pergunte "Qual?" as possibilidades apresentadas são:
 
@@ -246,11 +246,14 @@ Na atualização da ficha de cadastro individual, entendendo estes como conceito
 |     ITEM    |     DESCRIÇÃO DO ITEM    |
 |-|-|
 |     HETEROSSEXUAL          |     Pessoa que sente atração e/ou se   relaciona emocional, afetiva ou sexualmente com pessoas do sexo oposto.    |
-|     HOMOSSEXUAL (GAY/LÉSBICA)    |     Pessoa que sente atração e/ou se   relaciona emocional, afetiva ou sexualmente com pessoas do mesmo sexo.     Homens homossexuais são chamados de   gays.     Mulheres homossexuais são chamadas   de lésbicas.    |
-|     BISSEXUAL    |     Pessoa que sente atração e/ou se   relaciona emocional, afetiva ou sexualmente com pessoas de ambos os sexos.    |
+|     GAY          |     Pessoa que sente atração e/ou se   relaciona emocional, afetiva ou sexualmente com pessoas do mesmo sexo, e identidade cultural homossexual. No senso comum, é utilizado para se referir aos homens homossexuais; Caso o indivíduo ou grupos não se autoidentifiquem como gays deve-se utilizar a expressão homens que fazem sexo com homens.     |
+|     LÉSBICA         |     Mulheres que têm atração por e/ou mantêm relações sexuais e afetivas com outras mulheres e possuem a identidade cultural lésbica.     |
+|     BISSEXUAL    |     Pessoa que sente atração e/ou se   relaciona emocional, afetiva ou sexualmente com homens e mulheres e possui a identidade cultural bissexual.    |
+|     ASSEXUAL    |     Pessoa que não sente atração afetiva e/ou sexual pelo gênero/sexo oposto ou pelo igual ao seu;     |
+|     PANSEXUAL    |     Pessoa em que a atração afetiva/sexual não é orientada para qualquer gênero ou sexo específico, dessa forma, todas as pessoas podem ser atraentes para uma pessoa de orientação pansexual;      |
 |     OUTRO    |     Pessoa que não se identifica com   nenhuma das definições mencionadas.    |
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 Deseja informar a identidade de gênero? em caso afirmativo, marque "Sim" para a resposta ou "Não" caso contrário. **Se sim,** prossiga com a questão e pergunte **qual?** As possibilidades apresentadas são:
 
@@ -258,12 +261,24 @@ Deseja informar a identidade de gênero? em caso afirmativo, marque "Sim" para a
 
 |     ITEM    |     DESCRIÇÃO DO ITEM    |
 |-|-|
-|     HOMEM TRANSSEXUAL    |     Pessoa que nasce em corpo feminino,   e se reconhece como gênero masculino, desejando ou não modificar seu corpo   para exercer sua identidade masculina.    |
-|     MULHER TRANSSEXUAL    |     Pessoa que nasce em corpo   masculino, e se reconhece como gênero feminino, desejando ou não modificar   seu corpo para exercer sua identidade feminina.    |
-|     TRAVESTI    |     Pessoa que nasce em corpo   masculino, se relaciona com o mundo no gênero feminino. Realiza modificações   corporais, mas mistura as características femininas e masculinas em um mesmo   corpo. Identificam-se como as travestis.    |
+|     HOMEM CISGÊNERO    |     Pessoa que nasce com o órgão sexual masculino e se expressa socialmente conforme o papel social de gênero masculino, além de se identificar com este gênero;     |
+|     MULHER CISGÊNERO    |    Pessoa que nasce com o órgão sexual feminino e se expressa socialmente conforme o papel social de gênero feminino, além de se identificar com este gênero;    |
+|     HOMEM TRANSGÊNERO   |     Pessoa que nasce em corpo feminino,   e se reconhece como gênero masculino, desejando ou não modificar seu corpo   para exercer sua identidade masculina.    |
+|     MULHER TRANSGÊNERO    |     Pessoa que nasce em corpo   masculino, e se reconhece como gênero feminino, desejando ou não modificar   seu corpo para exercer sua identidade feminina.    |
+|     TRAVESTI    |     Pessoas que nasceram designadas biologicamente como homem e que se identificaram em alguma fase da vida como sendo do gênero feminino. Podem ou não reivindicar para si a categoria de mulher. Não necessariamente a pessoa precisa ter passado por procedimentos de readequação sexual. O correto ao se referir às pessoas travestis é utilizando artigos, pronomes, adjetivos femininos: A Travesti    |
+|     NÃO-BINÁRIO   |     Pessoa cuja identidade de gênero não é representada por nenhum dos dois gêneros (homem/mulher), podendo inclusive ter como gênero a combinação dos gêneros masculino e feminino;     |
 |     OUTRO    |     Pessoa que não se identifica com   nenhuma das definições mencionadas.    |
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
+
+{: .nota }
+Os conceitos dos Quadros 2.8 e 2.9 foram descritos pela Coordenação do Acesso e Equidade do Departamento de Estratégias e Políticas de Saúde Comunitária (CAEQ/CEGESCO/DESCO/SAPS/MS). Referências utilizadas: (1) Campinas, Prefeitura de. Guia de Terminologias: Um Guia com os principais termos de Políticas Afirmativas para você usar no seu dia a dia. 2ª Edição, julho/2022. (2) [Guia de Terminologia do UNAIDS, 2017](https://unaids.org.br/wp-content/uploads/2015/06/WEB_2018_01_18_GuiaTerminologia_UNAIDS.pdf).
+
+{: .atencao }
+É importante que os profissionais de saúde, ao criarem ou atualizarem um cadastro individual, façam sempre essas duas perguntas para saber se a pessoa deseja ou não informar esses dados. Essas informações são muito importantes para que os profissionais de saúde façam uma melhor coordenação do cuidado e para que esse cuidado seja integral e com equidade. 
+
+{: .dica }
+Quando a identidade de gênero é diferente das identidades cisgênero, é possível fazer registros que são atribuídos a sexo. Por exemplo, um cadastro que tem sinalizado que a pessoa é um homem transgênero, vai ser habilitado os códigos CID-10 e CIAP-2 de gravidez, mesmo que no campo sexo esteja selecionado masculino.
 
 **Tem alguma deficiência?**: este item identifica se o cidadão apresenta alguma deficiência[^5]. Assinalar com um "x" a opção referida. Este campo de preenchimento obrigatório. **Se sim, qual ou quais deficiências o cidadão?** Podendo ser:
 

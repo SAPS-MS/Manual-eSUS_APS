@@ -567,8 +567,6 @@ Fonte: SAPS/MS
 
 Exclusivamente para atendimento à situação nacional de Emergência em Saúde Pública está disponível o registro das doses aplicadas da vacina COVID-19, além da possibilidade de registro de doses anteriores, se for o caso.
 
-Exclusivamente para esta vacina é **obrigatória** a identificação do cidadão através do CPF ou CNS.
-
 Para iniciar o registro selecione a vacina de acordo com o fabricante como mostra a figura a seguir.
 
 Figura 6.3.21
