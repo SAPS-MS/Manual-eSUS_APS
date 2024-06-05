@@ -41,7 +41,7 @@ Fonte: SAPS/MS.
 
 Este relatório é dividido em duas listas:
 
-**Solicitados por mim:** São todos os casos que são solicitados pelo profissional que está visualizando a listagem, ou seja, todos os casos que aquele profissional que está visualizando sentiu necessidade de compartilhar com profissional da equipe multiprofissional.
+**Solicitados por mim:** São todos os casos que são solicitados pelo profissional que está visualizando a listagem, ou seja, todos os casos que aquele profissional o qual está visualizando sentiu necessidade de compartilhar com profissional da equipe multiprofissional.
 
 **Compartilhados comigo:** São todos os casos que um profissional de outra equipe solicitou ajuda do profissional que está visualizando.
 
@@ -56,7 +56,7 @@ As listas têm informação de:
 
 Há ainda dois ícones ao lado direito de cada uma das linhas da lista:
 
-![](media/comp_cuidado/pec_image3.png): Possibilita que todos os profissionais da equipe possam visualizara discussão de caso entre os profissionais executante e solicitante. 
+![](media/comp_cuidado/pec_image3.png): Possibilita que todos os profissionais da equipe possam visualizar a discussão de caso entre os profissionais executante e solicitante. 
 
 ![](media/comp_cuidado/pec_image4.png): ícone para começar a discussão do caso, pode ser acessado pelo solicitante ou pelo executante. 
 
@@ -64,13 +64,13 @@ Há ainda dois ícones ao lado direito de cada uma das linhas da lista:
 O solicitante e o executante poderão fazer modificações na discussão do caso de forma alternada, isto é, ao responder uma discussão de caso, só será possível incluir novas informações quando for respondido pelo outro profissional.
 
 Há dois status possíveis nesta lista:
-- **Aguardando**: exibida para o profissional quando a última interação foi dele e o caso ainda aguarda interação por parte do outro profissional envolvido no compartilhamento. Abaixo desse status, para o solicitante, é exibido o total de horas que o caso está aguardando a interação do outro profissional.Este status fica na cor vermelha.
+- **Aguardando**: exibida para o profissional quando a última interação foi dele e o caso ainda aguarda interação por parte do outro profissional envolvido no compartilhamento. Abaixo desse status, para o solicitante, é exibido o total de horas que o caso está aguardando a interação do outro profissional. Este status fica na cor vermelha.
 
 - **Respondido**: exibido para o profissional logo depois que ele interagiu no caso. Este status fica na cor verde.
 
 ## 14.3 Discussão de caso
 
-A Discussão de caso pode ser iniciada a partir do momento que o profissional clica em atender ![](media/comp_cuidado/pec_image4.png). Assim que o profissional executante entrar ele vai ver a tela mostrada na Figura 14.2.  
+A Discussão de caso pode ser iniciada a partir do momento que o profissional clica em atender ![](media/comp_cuidado/pec_image4.png). Assim que o profissional executante entrar ele verá a tela mostrada na Figura 14.2.  
 
 Figura 14.2: Tela de Discussão de Caso do Executante
 
