@@ -22,16 +22,16 @@ Este módulo permite que os profissionais acessem os casos em que foi necessári
 
 ## 14.1 Começando o Compartilhamento do cuidado
 
-O Compartilhamento do Cuidado é iniciado na parte de Plano do SOAP no momento do um atendimento individual realizado por um profissional de nível superior. A descrição desta ferramenta no Atendimento Individual está disponível no item 6.4.3.4.7 Ferramentas do Plano - Compartilhamento do Cuidado.
+O Compartilhamento do Cuidado é iniciado na parte de Plano do SOAP no momento de um atendimento individual realizado por um profissional de nível superior. A descrição desta ferramenta no Atendimento Individual está disponível no item 6.4.3.4.7 Ferramentas do Plano - Compartilhamento do Cuidado.
 
 
 ## 14.2 Módulo Compartilhamento do Cuidado
 
-Após o profissional Compartilhar o Cuidado no momento do Atendimento Individual, o caso passará a fazer parte de uma lista de casos num módulo específico do Compartilhamento do Cuidado. Para acessar esta lista de casos deve-se acessar no menu lateral esquerdo do PEC, em Gestão de filas, a parte do Cuidados Compartilhados. 
+Após o profissional Compartilhar o Cuidado no momento do Atendimento Individual, o caso passará a fazer parte de uma lista de casos em um módulo específico do Compartilhamento do Cuidado. Para acessar esta lista de casos deve-se acessar no menu lateral esquerdo do PEC, em Gestão de filas, a parte do Cuidados Compartilhados. 
 
 ![](media/comp_cuidado/pec_image1.png)
 
-Ao clicar neste módulo vai aparecer a listagem de todos os cidadãos que estão com casos compartilhados entre equipes.
+Ao clicar neste módulo aparecerá a listagem de todos os cidadãos que estão com casos compartilhados entre equipes.
 
 Figura 14.1 - Tela de Cuidados compartilhados 
 
@@ -41,7 +41,7 @@ Fonte: SAPS/MS.
 
 Este relatório é dividido em duas listas:
 
-**Solicitados por mim:** São todos os casos que são solicitados pelo profissional que está visualizando a listagem. Ou seja, todos os casos que aquele profissional que está visualizando sentiu necessidade de compartilhar com profissional da equipe multiprofissional.
+**Solicitados por mim:** São todos os casos que são solicitados pelo profissional que está visualizando a listagem, ou seja, todos os casos que aquele profissional que está visualizando sentiu necessidade de compartilhar com profissional da equipe multiprofissional.
 
 **Compartilhados comigo:** São todos os casos que um profissional de outra equipe solicitou ajuda do profissional que está visualizando.
 
