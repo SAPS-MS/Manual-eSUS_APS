@@ -273,7 +273,7 @@ Fonte: SAS/MS.
 ![](media/pec_image299.png)
 
 - Passo 5. Escolha o motivo da reserva da agenda (atendimento externo, atividade coletiva, reunião ou outro)
-![](media/pec_image300.png)
+![](media/pec_image1114.png)
 
 - Passo 6. Caso seja selecionada a opção outro (motivo) use o campo "Especifique" para detalhar o motivo;
 
