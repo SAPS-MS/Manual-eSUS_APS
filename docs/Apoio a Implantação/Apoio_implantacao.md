@@ -624,7 +624,7 @@ XX:MaxMetaspaceSize=1024M -XX:ReservedCodeCacheSize=300M"</td>
   <b>1ª Etapa:</b>
   <br>
   <br>
-  <p>O detentor do CNPJ do Fundo Municipal de Saúde (FMS) deverá acessar a plataforma e-Gestor, a partir do endereço eletrônico https://egestorab.saude.gov.br/paginas/login.xhtml e se autenticar conforme tela abaixo: 
+  <p>O detentor do CNPJ do Fundo Municipal de Saúde (FMS) deverá acessar a plataforma e-Gestor, a partir do endereço eletrônico https://acesso-egestoraps.saude.gov.br/login e se autenticar conforme tela abaixo: 
     <br>
     <br>
     <img src="https://raw.githubusercontent.com/SAPS-MS/Pilotos/main/docs/Apoio%20a%20Implantacao/media/gerar_token.PNG">
