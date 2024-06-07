@@ -58,9 +58,3 @@ Modo de acesso: <https://aps.saude.gov.br/ape/esus><br>
 CDU 614<br>
 
 Catalogação na fonte – Coordenação-Geral de Documentação e Informação – Editora MS – OS 2023.
-
-Contribuidores:
-
-{% for contributor in site.github.contributors %}
-    {{ contributor.login }}
-{% endfor %}
