@@ -192,7 +192,7 @@ Este bloco é utilizado para registrar, na Ficha de Atividade Coletiva, os temas
 
 ### 5.6.3 Práticas em saúde
 
-Neste bloco são registradas algumas práticas em saúde. Também é possível marcar mais de uma opção, caso a atividade desenvolvida seja a 05 - Atendimento em grupo. Se a atividade for a 06 - Avaliação procedimento coletivo, é possível optar por uma única prática.
+Neste bloco são registradas algumas práticas em saúde. Também é possível marcar mais de uma opção, caso a atividade desenvolvida seja a 05 - Atendimento em grupo e atividade 06 - Avaliação procedimento coletivo.
 
 As opções 06 a 09 devem ser marcadas somente se ação for realizada no âmbito do Programa Nacional de Controle do Tabagismo, e conforme protocolo desse programa.
 

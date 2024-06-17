@@ -520,13 +520,13 @@ a. Caso necessário, para excluir um profissional da lista, clique  na opção !
 
 4.Preencha o "Nº de participantes" e o campo "Nº de avaliações alteradas", o qual traz o resultado da contagem de participantes da atividade coletiva que tiveram a marcação de "Avaliação alterada" na lista de participantes;
 
-### 7.4.1.1 Atividades de planejamento da equipe e temas para reunião
+### 7.4.1.1 Atividades relacionadas às reuniões de equipes
 
 5.As atividades 01, 02 e 03 estão relacionadas com quaisquer dos assunto do bloco "Temas para reunião", conforme pec_imagem abaixo;
 
 ![](media/pec_image687.png)
 
-a. Quando a atividade não for destinada a atender aos 03 (três) itens acima descritos, o sistema desabilita o bloco "Temas para reunião";
+a. Quando a atividade não for destinada a atender aos 03 (três) itens acima descritos, o sistema desabilita o bloco "Temas para reunião".
 
 ### 7.4.1.2 Atividades de saúde
 
@@ -536,7 +536,7 @@ a.O bloco "Público alvo" é de múltipla opção, sendo de preenchimento obriga
 
 b.O bloco "Temas para saúde" também é de múltipla opção, sendo de preenchimento obrigatório para as atividades 4, 5 e 7;
 
-c.O bloco "Práticas em saúde" é de opção única e de preenchimento obrigatório para a atividade 6, e de múltipla opção para atividades 5.
+c.O bloco "Práticas em saúde" é de preenchimento obrigatório para a atividade 6, e de múltipla opção para atividades 5.
 
 ![](media/pec_image688.png)
 
