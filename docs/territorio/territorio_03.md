@@ -46,8 +46,7 @@ O botão ![](media/image17.png) no canto superior esquerdo mostra o menu princip
 
 Figura 3.2 - Menu principal do App e-SUS Território.
 
-![](media/image120.jpg)
-
+![](media/image19.png)
 *Fonte: SAPS/MS*
 
 Ao selecionar um logradouro é possível visualizar os imóveis que estão cadastrados nesse logradouro, identificados pelo número do imóvel e o seu complemento informados no endereço.
@@ -55,7 +54,6 @@ Ao selecionar um logradouro é possível visualizar os imóveis que estão cadas
 Figura 3.3 - Lista de imóveis.
 
 ![](media/image20.png)
-
 *Fonte: SAPS/MS*
 
 Ao selecionar um imóvel é possível visualizar um resumo das suas informações de cadastro, como podemos ver na imagem abaixo. Para facilitar a identificação de situações de saúde é possível visualizar alguns marcadores que facilitam o acompanhamento do cidadão, da família e do território. Informações como ![](media/image21.png), ![](media/image22.png) e ![](media/image23.png) serão apresentadas para que os agentes de saúde organizem o seu trabalho no dia a dia.
@@ -234,13 +232,13 @@ Figura 3.17 - Tela Informações do domicílio
 
 *Fonte: SAPS/MS*
 
-Em seguida será exibido o cadastro do cidadão. O cadastro está dividido em seis etapas, que são detalhadas a seguir:
+Em seguida será exibido o cadastro do cidadão. O cadastro está dividido em sete etapas, que são detalhadas a seguir:
 
 -   Primeira etapa: Identificação do cidadão (parte 1)
 
 Figura 3.18 - Tela Cadastro de cidadão
 
-![](media/image123.jpg)
+![](media/image47.png)
 
 *Fonte: SAS/MS*
 
@@ -258,27 +256,34 @@ Figura 3.19 - Tela Informar novo responsável
 
 Figura 3.20 - Tela Cadastrar cidadão
 
-![](media/image124.jpg)
+![](media/image52.png)
 
 *Fonte: SAPS/MS*
 
--   Terceira e quarta etapa: Informações sociodemográficas.
+-   Terceira e quarta etapa Informações sociodemográficas.
+
+Figura 3.21 - Tela Cadastrar cidadão
+
+![](media/image53.png)
+*Fonte: SAPS/MS*
 
 {:.atencao}
 Na quarta etapa, os profissionais devem obrigatoriamente solicitar do cidadão informações para os campos orientação sexual e identidade de gênero.
 
-Figura 3.21 - Tela Cadastrar cidadão
-
-![](media/image125.jpg)
-
+Figura 3.22 - Tela Cadastrar cidadão
+![](media/image54.png)
 *Fonte: SAPS/MS*
 
 -   Quinta e sexta etapa: Condições/situações de saúde, selecione a resposta (Sim ou Não) às questões conforme a pergunta indicada no quadro;
 
 Figura 3.23 - Tela Cadastrar cidadão
+![](media/image55.png)
+Fonte: SAPS/MS.
 
-![](media/image126.jpg)
+- Sétima etapa: Informações sócioeconômicas, selecione a respota (sim ou não) às questões conforme a pergunta indicada no quadro.
 
+Figura 3.24 - Tela Cadastrar cidadão
+![](media/image56.png)
 Fonte: SAPS/MS.
 
 -   Clique em FINALIZAR CADASTRO para finalizar e salvar o cadastro do cidadão.

@@ -37,12 +37,11 @@ Figura 4.1 - Tela com nome do cidadão
 {: .atualizacao }
 A partir da versão 3.1, é possível visualizar as condições de saúde do cidadão, ao acessar o perfil para registrar a visita domiciliar.
 
-2.  Em seguida a tela de registro da visita será exibida. Nesta tela será registrada a "Visita foi realizada", o "Motivo da visita", "Busca ativa" e/ou "Acompanhamento".
+2.  Em seguida a tela de registro da visita será exibida. Nesta tela será registrada a "Visita foi realizada", o "Motivo da visita", "Busca ativa" e "Acompanhamento".
 
 Figura 4.2 - Tela Visita ao cidadão
 
 ![](media/image98.png)
-
 *Fonte: SAPS/MS*
 
 3.  No bloco "Busca ativa" e "Acompanhamento" clique na seta ![](media/image99.png) para abrir os campos a serem preenchidos em motivo da busca ativa e qual tipo de acompanhamento o agente está realizando. Após preencher todas as informações necessárias da Visita ao cidadão clique em "Concluir".
@@ -65,9 +64,14 @@ Figura 4.4 - Tela visita ao cidadão
 {: .nota }
 O registro dos campos sinais vitais (temperatura e pressão arterial) e glicemia pelos ACS está de acordo com a Lei nº 13.595, de 05 de Janeiro de 2018, que incluiu novas atribuições aos Agentes Comunitários de Saúde. Esta normativa refere que o ACS somente realizará a aferição dos sinais vitais e da glicemia capilar, a partir do momento que tenha concluído o curso técnico e tenha disponíveis os equipamentos adequados, além de ser assistido por profissional de saúde de nível superior e que seja membro da equipe. 
 
-## 4.2 Visitar Família
+{: .atualizacao }
+A partir da versão 4.3.0 a funcionalidade de campo de anotações no cadastro de visitas. Este espaço é reservado para informações que o TACS e ACS considerem relevantes, por exemplo: problemas reportados pelos cidadãos, tratamentos e/ou qualquer acompanhamento que considerar necessário. Essas anotações poderão ser consultadas no histórico das visitas.  
 
-Quando não houver um motivo de busca ativa ou acompanhamento, a visita familiar é destinada a abordagem familiar, caracterizando-se como "Visita Periódica" que também faz parte da rotina dos agentes.
+Figura 4.5 - Tela visita ao cidadão
+![](media/image119.png)
+*Fonte: SAPS/MS*
+## 4.2 Visitar Família
+Quando não houver um motivo de busca ativa ou acompanhamento, a visita familiar é destinada a abordagem familiar, caracterizando-se como "Visita Periódica" que também faz parte da rotina dos TACS e ACS.
 
 {: .nota }
 Para que o sistema habilite a opção de "Visitar" família, é necessário existir o cadastro de um **responsável familiar** no núcleo familiar.
@@ -78,7 +82,7 @@ Siga os passos para registrar a visita a família:
 
 ![](media/image35.png)
 
-Após clicar em visitar abrirá a opção de registrar se a "Visita foi realizada?", o "Motivo da visita", se foi para controle ambiental/vetorial e se a "visita foi acompanhada por outro profissional".
+Após clicar em visitar abrirá a opção de registrar se a "Visita foi realizada?", o "Motivo da visita", "Anotações" e se foi para controle ambiental/vetorial e se a "visita foi acompanhada por outro profissional".
 
 2.  Se for uma visita à família para controle ambiental/vetorial clique na seta ![](media/image99.png) para abrir as opções de registro.
 
@@ -88,7 +92,7 @@ Após clicar em visitar abrirá a opção de registrar se a "Visita foi realizad
 
 ## 4.3 Visitar imóvel
 
-O Agente de saúde pode registrar uma visita realizada a um imóvel que não seja um domicílio.
+O TACS e ACS podem registrar uma visita realizada a um imóvel que não seja um domicílio.
 
 Siga os passos para registrar uma visita ao imóvel:
 
@@ -100,7 +104,7 @@ Figura 4.5 - Tela Informações do imóvel
 
 *Fonte: SAPS/MS*
 
-2.  Em seguida preencha as informações que foram colhidas na visita sobre se a "Visita foi realizada?", o "Motivo da visita", se houve alguma ação de "Controle ambiental/vetorial" e se a "visita foi acompanhada por outro profissional".
+2.  Em seguida preencha as informações que foram colhidas na visita sobre se a "Visita foi realizada?", o "Motivo da visita", "Anotações" e se houve alguma ação de "Controle ambiental/vetorial" e se a "visita foi acompanhada por outro profissional".
 
 Figura 4.6 - Tela Visita ao imóvel
 
@@ -129,7 +133,6 @@ Ao selecionar a opção "Histórico de visitas" será aberta a lista de todas as
 Figura 4.8 - Menu principal do App e-SUS Território.
 
 ![](media/image105.png)
-
 *Fonte: SAPS/MS*
 
 Esta tela permite ainda a seleção de visitas para exclusão ou edição enquanto ainda não houve a sincronização dos dados.

@@ -37,7 +37,6 @@ O relatório de condições de moradia busca consolidar os registros proveniente
 Figura 5.2 - Relatórios do território da equipe: Condições de moradia
 
 ![](media/image115.png)
-
 *Fonte: SAPS/MS*
 
 ## 5.2 População
