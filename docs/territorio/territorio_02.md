@@ -130,8 +130,7 @@ Nos próximos acessos, o aplicativo mostrará os campos "CPF" e "SENHA", como mo
 Figura 2.3 - Tela de autenticação, app e-SUS Território
 
 ![](media/image12.jpg)
-
-Fonte: SAS/MS.
+Fonte: SAPS/MS.
 
 A tela de autenticação apresenta dois campos de preenchimento obrigatório:
 
