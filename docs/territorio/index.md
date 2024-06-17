@@ -23,7 +23,7 @@ MANUAL DE USO
 {: .text-center }
 <br>
 <br>
-(versão 4.01)
+(versão 4.3.5)
 {: .fs-6 }
 {: .text-center }
 <br>
@@ -58,13 +58,13 @@ Felipe Proenço de Oliveira
 Rodrigo André Cuevas Gaete
 
 **Organização**<br>
-Elaine de Almeida, Igor de Carvalho Gomes, Ingryd Isabelle Maia de Souza, Janaína Nogueira Guimarães, Romario Araujo Matias Rocha, Willian Soares Lima.
+Elaine de Almeida, Igor de Carvalho Gomes, Ingryd Isabelle Maia de Souza, Janaína Nogueira Guimarães, Romario Araujo Matias Rocha, Willian Soares Lima, Lilian Suelen de Oliveira Cunha
 
 **Revisão Técnica**<br>
 Ana Claudia Cielo, André Cury Alves, Igor de Carvalho Gomes, Micael Macedo Pereira da Trindade e João Geraldo de Oliveira Júnior
 
 **Elaboração de texto**<br>
-Adriana Kitajima, Allan Nuno Alves de Souza, Ana Claudia Cielo, André Cury Alves, Edson Lucena, Igor de Carvalho Gomes, João Geraldo de Oliveira Júnior, Janaína Nogueira Guimarães, Micael Macedo Pereira, da Trindade, Rodrigo André Cuevas Gaete, Thaís Alessa Leite, Vanessa Lora, Virgínia Fava,
+Adriana Kitajima, Allan Nuno Alves de Souza, Ana Claudia Cielo, André Cury Alves, Edson Lucena, Igor de Carvalho Gomes, João Geraldo de Oliveira Júnior, Janaína Nogueira Guimarães, Micael Macedo Pereira, da Trindade, Rodrigo André Cuevas Gaete, Thaís Alessa Leite, Vanessa Lora, Virgínia Fava, Lilian Suelen de Oliveira Cunha. 
 
 **Projeto Gráfico**<br>
 Alexandre Soares de Brito, Diogo Ferreira Gonçalves

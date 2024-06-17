@@ -18,9 +18,12 @@ last_modified_date: "25/09/2023"
 - TOC
 {:toc}
 
-Neste capítulo você encontra uma breve contextualização sobre a Estratégia e-SUS APS, o processo de trabalho dos agentes no contexto desta aplicação e as orientações iniciais para utilização do Aplicativo e-SUS Território.
+Neste capítulo você encontra uma breve contextualização sobre a Estratégia e-SUS APS, o processo de trabalho dos técnicos e agentes no contexto desta aplicação e as orientações iniciais para utilização do Aplicativo e-SUS Território.
 
-O Departamento de Saúde da Família (DESF) incluiu na Estratégia e-SUS Atenção Primária à Saúde (e-SUS APS) aplicativos móveis para registro das ações realizadas pelos profissionais de saúde em locais de difícil manejo de computadores ou notebooks. O desenvolvimento deste aplicativo é integrado ao Sistema e-SUS APS com Prontuário Eletrônico do Cidadão (PEC) ampliando a capacidade de troca de informações entre a equipe. Nesse contexto, não por acaso, o primeiro aplicativo desenvolvido para APS priorizou os Agentes Comunitários de Saúde (ACS), Agentes de Combate às Endemias (ACE) e os Agentes de Ação Social (AAS) dada a capilaridade das ações desses agentes no território.
+{:.atencao}
+A Portaria SAPS/MS Nº 31, de 14 de maio de 2024 altera a Portaria de Consolidação SAPS/MS Nº 1, de 02 de junho de 2021, para incluir o CBO 3222-55 - Técnico em Agente Comunitário de Saúde. 
+
+A estratégia e-SUS Atenção Primária à Saúde (e-SUS APS) é uma estratégia para reestruturar as informações da Atenção Primária em nível nacional. Nessa perspectiva, foram incluídos na estratégia e-SUS APS aplicativos móveis para registro das ações realizadas pelos profissionais de saúde em locais de difícil manejo de computadores ou notebooks. O desenvolvimento deste aplicativo é integrado ao Sistema e-SUS APS com Prontuário Eletrônico do Cidadão (PEC) ampliando a capacidade de troca de informações entre a equipe. Nesse contexto, não por acaso, o primeiro aplicativo desenvolvido para APS priorizou os Agentes Comunitários de Saúde (ACS), Agentes de Combate às Endemias (ACE) e os Agentes de Ação Social (AAS) dada a capilaridade das ações desses agentes no território.
 
 O aplicativo e-SUS Território foi desenvolvido para utilização em dispositivos do tipo tablet ou smartphone, levando em consideração aspectos relacionados ao conforto, à segurança e à usabilidade da ferramenta no processo de trabalho dos agentes. 
 
@@ -28,13 +31,13 @@ Sua experiência de uso poderá contribuir para a evolução do aplicativo e-SUS
 
 ## 1.1 Versão do Aplicativo Usado neste Manual
 
-Este manual foi elaborado usando como referência o Aplicativo e-SUS Território em sua **versão 3.3**. O acesso às informações sobre a versão do aplicativo, bem como as alterações realizadas nesta e nas versões anteriores, podem ser visualizadas na opção **Sobre**, acessada no menu principal do aplicativo![](media/image2.png)
+Este manual foi elaborado usando como referência o Aplicativo e-SUS Território em sua **versão 4.3.5**. O acesso às informações sobre a versão do aplicativo, bem como as alterações realizadas nesta e nas versões anteriores, podem ser visualizadas na opção **Sobre**, acessada no menu principal do aplicativo![](media/image2.png)
 
 Figura 1.1 -- Versão do Aplicativo e-SUS Território
 
 ![](media/image119.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 ## 1.2 A Estratégia e-SUS Atenção Primária à Saúde (e-SUS APS)
 
