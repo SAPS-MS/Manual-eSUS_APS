@@ -20,19 +20,19 @@ last_modified_date: "25/09/2023"
 
 O cadastro da Atenção Primária à Saúde é uma extensão do Cadastro Nacional do SUS (CadSUS), complementando as informações com o objetivo de apoiar as equipes de Atenção Primária no mapeamento das características sociais, econômicas e de saúde da população adscrita[^1] ao território sob sua responsabilidade.
 
-O cadastro está organizado em quatro dimensões (domiciliar, territorial, familiar e individual) conforme detalhado nas seções a seguir.
+O cadastro está organizado em quatro dimensões (imóvel, territorial, familiar e individual) conforme detalhado nas seções a seguir.
 
 {: .atencao }
-a partir da reestruturação do cadastro também é possível registrar domicílios que estejam vazios, e outros tipos de imóveis existentes no território.
+a partir da reestruturação do cadastro também é possível registrar imóveis que estejam vazios, e outros tipos de imóveis existentes no território.
 
 {: .dica }
-a manutenção de registros de domicílios permite fazer um melhor controle pela equipe de questões de vigilância do território, bem como auxilia na inserção de novos núcleos familiares em domicílios já cadastrados.
+a manutenção de registros de imóveis permite fazer um melhor controle pela equipe de questões de vigilância do território, bem como auxilia na inserção de novos núcleos familiares em imóveis já cadastrados.
 
 O aplicativo permite uma visão ampliada sobre o território no qual a equipe é responsável. Inicialmente é mostrada a lista de logradouros previamente cadastrados na base de dados local do PEC após a sincronização, como mostra a imagem a seguir.
 
-Com a sincronização dos dados do PEC ou com a evolução do cadastramento dos domicílios, e consequentemente os logradouros, uma lista vai sendo montada para auxiliar o ACS, o ACE e o AAS na organização do seu processo de trabalho, conforme podemos ver na Figura 3.1.
+Com a sincronização dos dados do PEC ou com a evolução do cadastramento dos imóveis, se organiza uma lista de logradouros para auxiliar o TACS, o ACS, o ACE e o AAS na organização do seu processo de trabalho, conforme podemos ver na Figura 3.1.
 
-Figura 3.1 - Lista de logradouros e domicílios, app e-SUS Território
+Figura 3.1 - Lista de logradouros e imóveis, app e-SUS Território
 
 ![](media/image15.png)
 
@@ -42,7 +42,7 @@ Caso a base local esteja vazia, a tela apresentada na Figura 3.1 não mostrará 
 
 O ícone ![](media/image16.png) situado no canto inferior direito da tela é utilizado para ofertar opções de interação de acordo com as funcionalidades disponíveis na tela.
 
-O botão ![](media/image17.png) no canto superior esquerdo mostra o menu principal do aplicativo com informações sobre o agente que está logado no aplicativo, além das opções "Sincronizar", "Inconsitências da Sicronização", "Mapa", "Relatórios de território", "Unificar Logradouros", "Editar Logradouro", "Sobre", "Trocar lotação", "Obter ajuda" e "Sair".
+O botão ![](media/image17.png) no canto superior esquerdo mostra o menu principal do aplicativo com informações sobre o agente que está logado no aplicativo, além das opções "Sincronizar", "Inconsitências da Sicronização", "Mapa", "Cidadãos", "Relatórios de território", "Unificar Logradouros", "Editar Logradouro", "Sobre", "Trocar lotação", "Obter ajuda" e "Sair".
 
 Figura 3.2 - Menu principal do App e-SUS Território.
 
@@ -50,7 +50,7 @@ Figura 3.2 - Menu principal do App e-SUS Território.
 
 *Fonte: SAPS/MS*
 
-Ao selecionar um logradouro é possível visualizar os domicílios que estão cadastrados nesse logradouro, identificados pelo número do domícilio e o seu complemento informados no endereço.
+Ao selecionar um logradouro é possível visualizar os imóveis que estão cadastrados nesse logradouro, identificados pelo número do imóvel e o seu complemento informados no endereço.
 
 Figura 3.3 - Lista de imóveis.
 
@@ -58,26 +58,26 @@ Figura 3.3 - Lista de imóveis.
 
 *Fonte: SAPS/MS*
 
-Ao selecionar um domicílio é possível visualizar um resumo das suas informações de cadastro, como podemos ver na imagem abaixo. Para facilitar a identificação de situações de saúde é possível visualizar alguns marcadores que facilitam o acompanhamento do indivíduo, da família e do território. Informações como ![](media/image21.png), ![](media/image22.png) e ![](media/image23.png) serão apresentadas para que os agentes de saúde organizem o seu trabalho no dia a dia.
+Ao selecionar um imóvel é possível visualizar um resumo das suas informações de cadastro, como podemos ver na imagem abaixo. Para facilitar a identificação de situações de saúde é possível visualizar alguns marcadores que facilitam o acompanhamento do cidadão, da família e do território. Informações como ![](media/image21.png), ![](media/image22.png) e ![](media/image23.png) serão apresentadas para que os agentes de saúde organizem o seu trabalho no dia a dia.
 
-Figura 3.4 - Informações do domicílio..
+Figura 3.4 - Informações do imóvel
 
 ![](media/image24.png)
 
 *Fonte: SAPS/MS*
 
-## 3.1 Cadastro de Domicílio
+## 3.1 Cadastro de Imóvel
 
-O Cadastro Domiciliar é utilizado para registrar as características sociossanitárias dos domicílios no território das equipes de Atenção Primária. Por meio dele, é possível registrar também situações de populações domiciliadas em locais que não podem ser considerados domicílio, por exemplo, situação de rua (IBGE, 2010), mas que devem ser monitoradas pela equipe de saúde. As informações presentes neste cadastro são relevantes porque compõem indicadores de monitoramento e avaliação para a Atenção Primária e para as Redes de Atenção à Saúde.
+O Cadastro de imóvel é utilizado para registrar as características sociossanitárias dos imóveis no território das equipes de Atenção Primária. Por meio dele, é possível registrar e acompanhar a situação do territótio, assim como as condições de saúde dos cidadãos. As informações solicitadas no cadastro compõem indicadores de monitoramento e avaliação para a Atenção Primária e para as Redes de Atenção à Saúde.
 
-### 3.1.1 Novo Domicílio
+### 3.1.1 Novo Imóvel
 
-Para incluir um novo domicílio é necessário selecionar o ícone ![](media/image25.png) no canto inferior direito da tela lista de logradouros, caso o logradouro já esteja cadastrado.
+Para incluir um novo imóvel é necessário selecionar o ícone ![](media/image25.png) no canto inferior direito da tela lista de logradouros, caso o logradouro já esteja cadastrado.
 
 {: .nota }
-Para mais informações sobre os conceitos que dizem respeito ao cadastramento dos domicílios recomenda-se a leitura do Manual do Sistema com Coleta de Dados Simplificada (CDS).
+Para mais informações sobre os conceitos que dizem respeito ao cadastramento dos imóveis recomenda-se a leitura do Manual do Sistema com Coleta de Dados Simplificada (CDS).
 
-O cadastro de domicílios é dividido em quatro etapas.
+O cadastro de imóveis é dividido em quatro etapas.
 
 -   Primeira etapa: dados do endereço.
 
@@ -123,7 +123,7 @@ Fonte: SAPS/MS
 
 Para visualizar todos os imóveis informados no Mapa acesse o Menu Principal do Aplicativo ![](media/image2.png) e clique em Mapa (Figura 3.2).
 
--   Ao finalizar o cadastro, é apresentada a tela com as informações do domicílio cadastrado. Para visualizar ou esconder os dados do imóvel clique em "ver condições de moradia" ou "esconder condições de moradia".
+-   Ao finalizar o cadastro, é apresentada a tela com as informações do imóvel cadastrado. Para visualizar ou esconder os dados do imóvel clique em "ver condições de moradia" ou "esconder condições de moradia".
 
 Figura 3.09 - Tela Informações do domicílio
 
@@ -160,9 +160,11 @@ Para atualizar o cadastro clique em "Atualizar imóvel", e em seguida basta segu
 
 ## 3.2 Cadastro da Família
 
-Diferente das fichas de Coleta de Dados Simplificada, que cria os núcleos familiares através da vinculação de responsável familiar e dependentes automaticamente, o aplicativo do ACS dispõe do cadastro da família para realizar as vinculações entre as pessoas que compõem este núcleo familiar de forma mais detalhada. A aplicação móvel tem ampla vantagem nesta funcionalidade em relação às fichas de papel.
+Diferente das fichas de Coleta de Dados Simplificada, que cria os núcleos familiares através da vinculação de responsável familiar e dependentes automaticamente, o aplicativo e-SUS Território dispõe do cadastro da família para realizar as vinculações entre as pessoas que compõem este núcleo familiar de forma mais detalhada. A aplicação móvel tem ampla vantagem nesta funcionalidade em relação às fichas de papel.
 
 Ao finalizar o cadastro domiciliar, clique em "Adicionar Família" para iniciar o registro de uma família.
+
+Em seguida preencha as informações sobre a família: Número do prontuário familiar, renda familiar, número de membros e reside desde (mês/ano).
 
 Figura 3.11 - Adicionar Família
 ![](media/image121.png)
@@ -217,7 +219,7 @@ Para editar os dados de um núcleo familiar, selecione o ícone ![](media/image3
 
 ## 3.3 Cadastro de Cidadão
 
-Após a criação do núcleo familiar passamos para o cadastro dos indivíduos que fazem parte desta família. O Cadastro Individual é utilizado para registrar as características sociodemográficas, problemas e condições de saúde dos cidadãos. Tem como objetivo captar informações sobre os cidadãos que se encontram adscritos no território das equipes de Atenção Primária. O cadastramento e sua atualização periódica são uma das atribuições dos agentes comunitário de saúde (ACS) nas equipes da Estratégia Saúde da Família (ESF). Para as demais equipes de APS, este fluxo será definido em cada localidade.
+Após a criação do núcleo familiar passamos para o cadastro dos indivíduos que fazem parte desta família. O Cadastro Individual é utilizado para registrar as características sociodemográficas, problemas e condições de saúde dos cidadãos. Tem como objetivo captar informações sobre os cidadãos que se encontram adscritos no território das equipes de Atenção Primária. O cadastramento e sua atualização periódica são uma das atribuições dos Técnico em Agente Comunitário de Saúde (TACS) e Agente Comunitário de Saúde (ACS) nas equipes da Estratégia Saúde da Família (ESF). Para as demais equipes de APS, este fluxo será definido em cada localidade.
 
 {: .nota }
 Para mais informações sobre os conceitos que dizem respeito ao cadastramento dos domicílios recomenda-se a leitura do Manual do Sistema com Coleta de Dados Simplificada (CDS).
@@ -262,6 +264,9 @@ Figura 3.20 - Tela Cadastrar cidadão
 
 -   Terceira e quarta etapa: Informações sociodemográficas.
 
+{:.atencao}
+Na quarta etapa, os profissionais devem obrigatoriamente solicitar do cidadão informações para os campos orientação sexual e identidade de gênero.
+
 Figura 3.21 - Tela Cadastrar cidadão
 
 ![](media/image125.jpg)
@@ -279,7 +284,7 @@ Fonte: SAPS/MS.
 -   Clique em FINALIZAR CADASTRO para finalizar e salvar o cadastro do cidadão.
 
 {: .nota }
-Caso tenha sido cadastrado em situação de rua, será exibida uma sétima etapa com questões pertinentes à tal situação.
+Caso tenha sido cadastrado em situação de rua, será exibida uma oitava etapa com questões pertinentes à tal situação.
 
 ### 3.3.2 Recusa do Cadastro de Cidadão
 
@@ -321,7 +326,7 @@ Para retirar um cidadão do cadastro, ou seja, da rotina de acompanhamento, é n
 
 ### 3.4.1 Registro de Mudança
 
-É possível registrar dois tipos de mudança de domicílio, mudança de um cidadão individualmente ou mudança de uma família. Essas ações correspondem à uma atualização de fichas de Cadastro Individual, com opção de Saída do território, motivo Mudança de território e Cadastro Domiciliar, com a opção "mudou-se" marcada na referida família, respectivamente. Para alterar a residência do cidadão para outro domicílio dentro do próprio território da eSF basta cadastrá lo no novo domicílio/família, informando o CPF ou CNS do mesmo. Caso toda uma família tenha se mudado para outro domicílio no mesmo território da eSF basta cadastrar o responsável dela no novo domicílio/família, informando o CPF ou CNS do responsável familiar. Assim, após realizar a sincronização todos os membros da família serão automaticamente transferidos junto com o responsável.
+É possível registrar dois tipos de mudança de imóvel, mudança de um cidadão individualmente ou mudança de uma família. Essas ações correspondem à uma atualização de fichas de Cadastro Individual, com opção de Saída do território, motivo Mudança de território e Cadastro de imóvel, com a opção "mudou-se" marcada na referida família, respectivamente. Para alterar a residência do cidadão para outro imóvel dentro do próprio território da eSF basta cadastrá lo no novo imóvel/família, informando o CPF ou CNS do mesmo. Caso toda uma família tenha se mudado para outro imóvel no mesmo território da eSF basta cadastrar o responsável dela no novo imóvel/família, informando o CPF ou CNS do responsável familiar. Assim, após realizar a sincronização todos os membros da família serão automaticamente transferidos junto com o responsável.
 
 #### 3.4.1.1 Mudança do Cidadão
 
@@ -341,7 +346,7 @@ Figura 3.31 - Tela com nome do cidadão
 
 ![](media/image67.png)
 
-*Fonte: SAS/MS*
+*Fonte: SAPS/MS*
 
 #### 3.4.1.2 Mudança da Família
 
@@ -373,7 +378,7 @@ Figura 3.34 - Tela de informações do domicílio
 
 ![](media/image66.png)
 
-*Fonte: SAS/MS*
+*Fonte: SAPS/MS*
 
 2.  Preencha os dados sobre o óbito;
 
@@ -423,6 +428,8 @@ Figura 3.39 - Menu principal do App e-SUS Território.
 
 Conceituando algumas opções disponíveis no menu "Cidadão", temos:
 
+-   ![](media/image84.png): Disponível para edição apenas dos dados que ainda não foram sincronizados.
+
 -   ![](media/image81.png): Abre a tela de atualização do cadastro do cidadão.
 
 -   ![](media/image82.png): Permite informar a mudança de domicílio do cidadão.
@@ -431,7 +438,6 @@ Conceituando algumas opções disponíveis no menu "Cidadão", temos:
 
 -   ![](media/image83.png): Exclusão do cadastro realizado que ainda não foi sincronizado.
 
--   ![](media/image84.png): Disponível para edição apenas dos dados que ainda não foram sincronizados.
 
 ## 3.5 Cadastrar Logradouro
 

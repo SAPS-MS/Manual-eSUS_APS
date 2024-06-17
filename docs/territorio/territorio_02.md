@@ -8,7 +8,6 @@ has_toc: true
 last_modified_date: "25/09/2023"
 ---
 
-
 # Capítulo 2 - Instalação e Sincronização
 {: .no_toc }
 
@@ -104,12 +103,12 @@ Figura 2.1 - Tela sincronizar
 
 **Fonte: SAPS/MS**
 
-Ao informar a microárea o aplicativo receberá do PEC os domíclios/imóveis cadastrados da microárea informada. 
+Ao informar a microárea o aplicativo receberá do PEC os imóveis cadastrados da microárea informada. 
 
 {: .nota }
-Caso o usuário do aplicativo não informe nenhuma microárea, o PEC enviará todos os domicílios/imóveis cadastrados na equipe, com exceção os que foram marcados como Fora de Área (FA)
+Caso o usuário do aplicativo não informe nenhuma microárea, o PEC enviará todos os imóveis cadastrados na equipe, com exceção os que foram marcados como Fora de Área (FA)
 
-Quando a microárea é informada na sincronização, além do domícilio/imóvel o PEC também enviará os dados dos cidadãos/famílias da microárea informada. Dessa forma, o PEC enviará apenas cidadãos/famíiias associadas aos domicílios/imóveis cadastrados na referida microárea.
+Quando a microárea é informada na sincronização, além do imóvel o PEC também enviará os dados dos cidadãos/famílias da microárea informada. Dessa forma, o PEC enviará apenas cidadãos/famíiias associadas aos imóveis cadastrados na referida microárea.
 
 {: .nota }
 Caso não tenha sido informada nenhuma microárea, o PEC enviará todos os cidadãos e famílias ativas associadas à equipe do usuário.
@@ -131,8 +130,7 @@ Nos próximos acessos, o aplicativo mostrará os campos "CPF" e "SENHA", como mo
 Figura 2.3 - Tela de autenticação, app e-SUS Território
 
 ![](media/image12.jpg)
-
-Fonte: SAS/MS.
+Fonte: SAPS/MS.
 
 A tela de autenticação apresenta dois campos de preenchimento obrigatório:
 
