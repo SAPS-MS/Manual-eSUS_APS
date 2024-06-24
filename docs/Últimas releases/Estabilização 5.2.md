@@ -10,6 +10,25 @@ last_modified_date: "13/05/2024"
 
 ### Versões de estabilização 5.2
 
+### Versão 5.2.36
+
+* Implementação da obrigatoriedade da equipe para o gestor na realização da pesquisa no módulo de Acompanhamento de condições de saúde.
+* Correção do cenário em que, ao abrir o Histórico de alguns atendimentos de Pré-natal em cidadãos unificados, era apresentada tela branca.
+* Ajuste na responsividade da tela de Prescrição de medicamentos para o tamanho padrão suportado pelo PEC.
+* Melhorias nos processamentos dos relatórios das fichas de Cadastro domiciliar e territorial visando performance.
+
+### Versão 5.2.35
+
+* Inclusão da criação de modelos para os filtros e campos nos relatórios gerenciais.
+* Inclusão da funcionalidade que permite ao usuário editar um agendamento de reserva.
+* Atualização das regras de aplicação dos imunobiológicos VIP, SCR e SCRV, Coronavac e ambas Pfizer pediátricas.
+* Correção das doses apresentadas nos calendários de vacinação dos grupos-alvo: Adolescente, Adulto, Idoso e Gestante.
+* Inclusão das respostas da TRIA (Triagem para Risco de Insegurança Alimentar) no Relatório Consolidado de Cadastro Individual.
+* Inclusão da funcionalidade que permite visualizar o prontuário e as informações do cidadão na listagem de cidadãos no Acompanhamento de condições de saúde.
+* Inclusão de procedimentos para a CBO "Técnico em agente comunitário de saúde" e atualização de seus acessos e permissões no sistema.
+* Inclusão da funcionalidade que permite salvar automaticamente um comprovante de agendamento de consulta cujo o cidadão esteja presente.
+* Correção de cenário onde nomes de equipes inativas estavam sendo exibidos incorretamente nos relatórios.
+
 ### Versão 5.2.33
 
 * Correção de erro onde, por questões de fuso horário, os relatórios gerenciais contabilizavam atendimentos do dia 1 como do mês anterior.
