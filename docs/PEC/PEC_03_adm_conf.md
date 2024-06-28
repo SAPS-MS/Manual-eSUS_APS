@@ -568,7 +568,7 @@ Fonte: SAPS/MS
 A alteração do número de requisições pode prejudicar o desempenho do sistema, entre em contato com o suporte do e-SUS APS para mais informações acessando o Portal de Suporte por meio do link: [http://esusaps.bridge.ufsc.br](http://esusaps.bridge.ufsc.br/pt-BR/support/home).
 
 
-## 3.1.6 Unificação de base
+<!-- ## 3.1.6 Unificação de base
 
 A unificação de bases objetiva viabilizar a unificação de bases de dados descentralizadas em uma única estrutura global e centralizada, para que estabelecimentos de saúde (UBSs), possam consolidar e implementar o conceito de PEC Municipal e viabilizar a estrutura de Prontuário Eletrônico Único do Cidadão em todo o município! Desta maneira, aonde quer que o cidadão seja atendido, seu histórico clínico o acompanhará, para continuidade do cuidado e tomadas de decisão rápidas e certivas por parte da equipe médica que conduzirá o seu atendimento.
 
@@ -598,7 +598,7 @@ Na instalação principal, o administrador da instalação principal deverá **A
 
 Após realizada a unificação, repasse o novo link de acesso da instalação PEC aos profissionais de saúde da unidade e valide o êxito da operação! Se houver necessidade, execute o restore da base de dados e acione o suporte técnico para maiores informações! Canal do suporte: https://esusaps.freshdesk.com/
 
-![](media/pec_image1078.png)
+![](media/pec_image1078.png) -->
 
 
 # 3.2 CBO
