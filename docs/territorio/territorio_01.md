@@ -36,6 +36,7 @@ Este manual foi elaborado usando como referência o Aplicativo e-SUS Território
 Figura 1.1 -- Versão do Aplicativo e-SUS Território
 
 ![](media/image3.png)
+
 *Fonte: SAPS/MS.*
 
 ## 1.2 A Estratégia e-SUS Atenção Primária à Saúde (e-SUS APS)
