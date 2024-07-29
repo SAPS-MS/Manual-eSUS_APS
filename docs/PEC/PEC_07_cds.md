@@ -123,7 +123,7 @@ Caso haja alguma inconsistência, o sistema mostrará mensagem na tela indicando
 
 Figura 7.6 - Verificação de inconsistência ao finalizar a digitação
 ![](media/pec_image635.png)
-Fonte: SAS/MS.
+Fonte: SAPS/MS.
 
 Verifique as mensagens, corrigindo a informação conforme estiver preenchido na ficha. Caso ela esteja preenchida de forma **inconsistente**, em relação à validação do sistema, **cancele a digitação** da ficha e informe o supervisor, a equipe de saúde ou o profissional responsável pelo preenchimento dela.
 
@@ -142,7 +142,7 @@ Figura 7.7 - Tela principal do cadastro individual
 
 ![](media/pec_image637.png)
 
-Fonte:SAS/MS.
+Fonte:SAPS/MS.
 
 ### 7.2.1.1 Adicionar Cadastro Individual
 
@@ -150,15 +150,15 @@ Após clicar no botão \"Adicionar\", o sistema mostrará a tela de preenchiment
 
 Figura 7.8 - Adicionar cadastro individual
 ![](media/pec_image638.png)
-Fonte:SAS/MS.
+Fonte:SAPS/MS.
 
 Figura 7.9 - Adicionar cadastro individual - continuação
 ![](media/pec_image639.png)
-Fonte:SAS/MS.
+Fonte:SAPS/MS.
 
 Figura 7.10 - Adicionar cadastro individual - continuação
 ![](media/pec_image640.png)
-Fonte:SAS/MS.
+Fonte:SAPS/MS.
 
 Para digitar a ficha de cadastro, atente para o que se segue:
 
@@ -167,6 +167,7 @@ Para digitar a ficha de cadastro, atente para o que se segue:
 1.Preencha os campos do cabeçalho, digitando os dados que constam na ficha de cadastro;
 
 ![](media/pec_image641.png)
+Fonte:SAPS/MS.
 
 a.Ao incluir o número do Cartão SUS do profissional, o sistema mostrará opções para o CNES e o INE que vêm da base de dados do CNES importado na instalação da aplicação;
 
@@ -179,17 +180,20 @@ c.Caso o trabalhador tenha mais de um vínculo, o sistema mostrará as opções 
 2.Preencha os "Dados de identificação" do cidadão de acordo com a ficha CDS. Se a resposta da questão "Cidadão é o responsável familiar?" for "Não", o campo "CNS ou CPF do responsável familiar" deve ser preenchido obrigatoriamente;
 
 ![](media/pec_image642.png)
+Fonte:SAPS/MS.
 
 #### 7.2.1.1.3 Informações sociodemográficas
 
 3.Preencha as "Informações sociodemográficas" de acordo com as informações da ficha. Se a resposta de uma questão for "Sim", verifique as opções adicionais de preenchimento (ex.: Tem alguma deficiência? "Sim". Então, responda também "Se sim, quais?" outro exemplo; É membro de povo ou comunidade tradicional? Se sim, qual?). No momento da digitação, deve- se escolher uma das opções disponíveis no software, conforme seu preenchimento na ficha.
 
 ![](media/pec_image1109.png)
+Fonte:SAPS/MS.
 
 #### 7.2.1.1.4 Informações socioeconômicas - Triagem para Risco de Insegurança Alimentar (TRIA)
 4.Faça as duas perguntas da TRIA para o cidadão e registre a resposta com uma das opções: "sim" ou "não". Essas informações são importantes para rastrear o Risco de insegurança alimentar da família.
 
 ![](media/pec_image643_tria.png)
+Fonte:SAPS/MS.
 
 Para mais informações sobre a TRIA, acesse o link do [Manual de Triagem de Insegurança Alimentar](http://189.28.128.100/dab/docs/portaldab/publicacoes/instrutivo_inseguranca_alimentar_aps.pdf).
 
@@ -198,6 +202,7 @@ Para mais informações sobre a TRIA, acesse o link do [Manual de Triagem de Ins
 5.Preencha as informações de "Condições/situações de saúde gerais" do cidadão de acordo com os dados da ficha. Observe que algumas perguntas devem ser especificadas caso a resposta seja "Sim";
 
 ![](media/pec_image644.png)
+Fonte:SAPS/MS.
 
 #### 7.2.1.1.6 Cidadão em situação de rua
 
@@ -226,7 +231,7 @@ Na tela principal do CDS, clique em "Cadastro domiciliar e territorial". A janel
 
 Figura 7.11 - Tela principal do cadastro domiciliar
 ![](media/pec_image649.png)
-Fonte: SAS/MS.
+Fonte: SAPS/MS.
 
 Como vimos nas orientações gerais de digitação das fichas, várias ações podem ser realizadas para cada registro. E, em especial para as fichas de Cadastro Domiciliar, ainda podem ser destacadas duas opções:
 
@@ -242,7 +247,7 @@ Após clicar no botão \"Adicionar\", o sistema mostrará a tela de preenchiment
 
 Figura 7.12 - Adicionar cadastro domiciliar
 ![](media/pec_image652.png)
-Fonte: SAS/MS.
+Fonte: SAPS/MS.
 
 Para digitar a ficha de cadastro, observe os seguintes itens:
 
@@ -251,6 +256,7 @@ Para digitar a ficha de cadastro, observe os seguintes itens:
 1.Preencha os campos do cabeçalho, digitando os dados que constam na ficha de cadastro;
 
 ![](media/pec_image653.png)
+Fonte:SAPS/MS.
 
 a.Ao incluir o número do Cartão SUS do profissional, o sistema mostrará opções para o CNES e o INE que vêm da base de dados do CNES importado na instalação da aplicação;
 
@@ -265,6 +271,7 @@ c.Caso tenha mais de um, o sistema mostrará as opções e o digitador indicará
 a.Após preenchimento do CEP, os campos "Município", "UF", "Bairro"  e "Tipo de logradouro" e "Nome de logradouro" são completados  automaticamente, conforme pec_imagem a seguir:
 
 ![](media/pec_image654.png)
+Fonte:SAPS/MS.
 
 b.Também é possível incluir, nesse cadastro, as informações sobre o "Tipo de imóvel" e "Telefones para contato". Atenção para o telefone, que deve estar acompanhado pelo número de DDD do município;
 
@@ -315,12 +322,14 @@ c.Para o "Tipo de imóvel", selecione uma das opções:
 3.Preencha as informações de "Condições de moradia" de acordo com o registrado na ficha. Caso o campo "Animais no domicílio" estiver marcado com a resposta "Sim", informe "Qual(is)" e "Quantos", como mostra a pec_imagem abaixo:
 
 ![](media/pec_image655.png)
+Fonte:SAPS/MS.
 
 #### 7.2.2.1.4 Adicionar núcleo familiar
 
 4.Preencha as informações do bloco "Famílias" (núcleos familiares) que vivem no domicílio. Cada uma é representada pelo número do CNS ou CPF do Responsável Familiar de cada núcleo familiar. Para adicionar uma família, basta preencher os campos no início do bloco e clicar no botão "Confirmar"![](media/pec_image656.png);
 
 ![](media/pec_image657.png)
+Fonte:SAPS/MS.
 
 a.Caso existam **mais famílias** informadas na ficha, **repita o processo conforme item anterior** para todas as linhas que identificam núcleos familiares daquele domicílio;
 
@@ -359,7 +368,7 @@ Na tela principal do Módulo do CDS, clique no ícone "Ficha de Atendimento Indi
 
 Figura 7.14 - Lista de Fichas de Atendimento Individual
 ![](media/pec_image662.png)
-Fonte: SAS/MS.
+Fonte: SAPS/MS.
 
 ### 7.3.1.1 Adicionar Ficha de Atendimento Individual
 
@@ -367,7 +376,7 @@ Para informar nova Ficha de Atendimento Individual, clique no botão ![](media/p
 
 Figura 7.15 - Adicionar Ficha de Atendimento Individual
 ![](media/pec_image664.png)
-Fonte: SAS/MS.
+Fonte: SAPS/MS.
 
 Para preencher os dados da Ficha de Atendimento Individual, atente para os itens a seguir:
 
@@ -392,22 +401,27 @@ a.deve- se obedecer o conteúdo da ficha, portanto, poderão ser  registrados at
 4.digite os dados conforme preenchido na ficha, iniciando- se pelos dados de identificação do cidadão e de alguns dados sobre o atendimento;
 
 ![](media/pec_image667.png)
+Fonte:SAPS/MS.
 
 5.na sequência, digite o tipo de atendimento e alguns dados de saúde, conforme preenchido na ficha;
 
 ![](media/pec_image668.png)
+Fonte:SAPS/MS.
 
 6.após, digite as informações correspondentes ao bloco "Problema/Condição Avaliada". Atenção aos campos CIAP2 e CID10, que são informados usando códigos correspondentes das classificações e estão no verso da ficha, acompanhados de outras opções;
 
 ![](media/pec_image669.png)
+Fonte:SAPS/MS.
 
 7.na sequência, marque os exames solicitados e avaliados. Cada *checkbox* corresponde a um item marcado na ficha pelo profissional. Atenção aos itens "Outros exames", que são informados pelo código do SIGTAP e acompanhados de uma marcação se foi solicitado (S) e/ou avaliado (A);
 
 ![](media/pec_image670.png)
+Fonte:SAPS/MS.
 
 8.por último, informe se ficou em observação. Caso se trate de **profissional do NASF** ou Polo, marque as opções correspondentes. Assinale, também, as opções de conduta/desfecho e/ou encaminhamento, caso tenha sido assinalado na ficha;
 
 ![](media/pec_image671.png)
+Fonte:SAPS/MS.
 
 9.após a digitação dos dados, clique no botão ![](media/pec_image672.png) e, caso haja alguma inconsistência, o sistema mostrará mensagem na tela indicando os campos que deverão ser corrigidos. Se não houver inconsistência, o sistema salvará os dados e voltará para a tela anterior.
 
@@ -417,7 +431,7 @@ O sistema traz, para cada ficha, a lista dos atendimentos individuais. Ao clicar
 
 Figura 7.16 - Lista de registros de atendimento na Ficha de Atendimento Individual
 ![](media/pec_image673.png)
-Fonte: SAS/MS.
+Fonte: SAPS/MS.
 
 Ao finalizar a digitação da Ficha de Atendimento Individual, clique no botão ![](media/pec_image634.png)
 
@@ -427,7 +441,7 @@ Na tela principal do CDS, clique no ícone "Ficha de Atendimento Odontológico".
 
 Figura 7.17 - Lista de Fichas de Atendimento Odontológico
 ![](media/pec_image675.png)
-Fonte: SAS/MS.
+Fonte: SAPS/MS.
 
 ### 7.3.2.1 Adicionar Ficha de Atendimento Odontológico
 
@@ -456,20 +470,24 @@ a.deve- se obedecer ao conteúdo da ficha, portanto poderão ser registrados at�
 4.digite os dados no sistema conforme preenchido na ficha, iniciando pelos dados de identificação do cidadão e alguns dados sobre o atendimento;
 
 ![](media/pec_image676.png)
+Fonte:SAPS/MS.
 
 5.digite os dados "Tipo de atendimento", "Tipo de consulta" e "Vigilância em saúde bucal", que são obrigatórios;
 
 ![](media/pec_image677.png)
+Fonte:SAPS/MS.
 
 6.digite os dados de procedimentos realizados no sistema, conforme preenchido na ficha. Perceba que, diferentemente da Ficha de Atendimento Individual, os procedimentos de odontologia são preenchidos com a quantidade;
 
 7.no campo "Outros procedimentos", digite os procedimentos preenchidos com a quantidade informada na coluna da ficha e o código do SIGTAP informado na linha da ficha, nos respectivos campos "Quantidade" e "Procedimento", e clique em "Confirmar". Faça isso para todos os procedimentos preenchidos na coluna correspondente ao registro de atendimento do cidadão;
 
 ![](media/pec_image678.png)
+Fonte:SAPS/MS.
 
 8.por fim, digite os itens de fornecimento, caso estes tenham sido preenchidos na ficha, e a conduta/desfecho e/ou encaminhamento, caso tenha sido realizado no atendimento;
 
 ![](media/pec_image679.png)
+Fonte:SAPS/MS.
 
 9.após a digitação dos dados, clique no botão ![](media/pec_image672.png) e, caso haja alguma inconsistência, o sistema mostrará mensagem na tela indicando os campos que deverão ser corrigidos. Se não houver inconsistência, o sistema salvará os dados e voltará para a tela anterior.
 
@@ -479,7 +497,7 @@ Diferentemente das versões anteriores do CDS, em que cada registro de atendimen
 
 Figura 7.18 - Lista de registros de atendimento na Ficha de Atendimento Odontológico
 ![](media/pec_image680.png)
-Fonte: SAS/MS.
+Fonte: SAPS/MS.
 
 Ao finalizar a digitação da Ficha de Atendimento Odontológico, clique no botão ![](media/pec_image634.png).
 
@@ -489,7 +507,7 @@ A Ficha de Atividade Coletiva visa ao registro das atividades realizadas pelas e
 
 Figura 7.19 - Tipo de atividade da Ficha de Atividade Coletiva
 ![](media/pec_image682.png)
-Fonte: SAS/MS.
+Fonte: SAPS/MS.
 
 ## 7.4.1 Adicionar Ficha de Atividade Coletiva
 
@@ -497,7 +515,7 @@ Na tela principal, clique no ícone "Ficha de Atividade Coletiva". Será apresen
 
 Figura 7.20 - Lista de atividade coletiva
 ![](media/pec_image683.png)
-Fonte: SAS/MS.
+Fonte: SAPS/MS.
 
 Para informar Ficha de Atividade Coletiva, clique no botão ![](media/pec_image626.png) e atente para os itens a seguir:
 
@@ -525,6 +543,7 @@ a. Caso necessário, para excluir um profissional da lista, clique  na opção !
 5.As atividades 01, 02 e 03 estão relacionadas com quaisquer dos assunto do bloco "Temas para reunião", conforme pec_imagem abaixo;
 
 ![](media/pec_image687.png)
+Fonte:SAPS/MS.
 
 a. Quando a atividade não for destinada a atender aos 03 (três) itens acima descritos, o sistema desabilita o bloco "Temas para reunião".
 
@@ -539,12 +558,14 @@ b.O bloco "Temas para saúde" também é de múltipla opção, sendo de preenchi
 c.O bloco "Práticas em saúde" é de preenchimento obrigatório para a atividade 6, e de múltipla opção para atividades 5.
 
 ![](media/pec_image688.png)
+Fonte:SAPS/MS.
 
 ### 7.4.1.3 Adicionar participantes
 
 7.Para adicionar os participantes da atividade coletiva, é necessário incluir os dados do CNS do cidadão, data de nascimento e sexo;
 
 ![](media/pec_image689.png)
+Fonte:SAPS/MS.
 
 8.Caso a opção "Prática em saúde" seja marcada como \"Antropometria\", os campos "Peso" e "Altura" da lista de participantes se tornam obrigatórios;
 
@@ -568,7 +589,7 @@ Essa opção auxilia, portanto, nas atividades de avaliação/procedimento colet
 
 Figura 7.21 - Tipo de atividade em que a função "Copiar" está disponível (somente para a avaliação/procedimento coletivo)
 ![](media/pec_image691.png)
-Fonte: SAS/MS.
+Fonte: SAPS/MS.
 
 # 7.5 Ficha de Procedimentos
 
@@ -580,13 +601,13 @@ Na tela principal, clique no ícone "Ficha de Procedimentos". Será apresentada 
 
 Figura 7.22 - Tela principal com a lista de Fichas de Procedimentos
 ![](media/pec_image693.png)
-Fonte: SAS/MS.
+Fonte: SAPS/MS.
 
 ### 7.5.1.1 Adicionar Ficha de Procedimentos
 
 Figura 7.23 - Adicionar Ficha de Procedimentos
 ![](media/pec_image694.png)
-Fonte: SAS/MS.
+Fonte: SAPS/MS.
 
 1.Após clicar no botão "Adicionar", o sistema mostrará a tela de preenchimento da Ficha de Procedimentos para ser preenchida;
 
@@ -595,6 +616,7 @@ Fonte: SAS/MS.
 2.Digite o cabeçalho conforme preenchido na ficha;
 
 ![](media/pec_image695.png)
+Fonte:SAPS/MS.
 
 3.Ao incluir o número do CNS do profissional, o sistema mostrará opções para o CNES e INE que vêm da base de dados do CNES importado na instalação da aplicação;
 
@@ -609,6 +631,7 @@ Fonte: SAS/MS.
 7.O primeiro bloco de informações são relacionados aos dados do cidadão atendido, local de atendimento e se houve escuta inicial/orientação;
 
 ![](media/pec_image696.png)
+Fonte:SAPS/MS.
 
 8.Os campos marcados com um asterisco (\*) na cor azul, são de preenchimento obrigatório. O campo "Nº do prontuário" deve ser numérico. O campo "CNS do cidadão" será validado por meio de algoritmo e deverá possuir, no mínimo, 15 caracteres;
 
@@ -617,6 +640,7 @@ Fonte: SAS/MS.
 9.Preencha os dados solicitados referentes ao atendimento do cidadão, marcando os procedimentos conforme preenchido na ficha;
 
 ![](media/pec_image697.png)
+Fonte:SAPS/MS.
 
 10. Para os campos de \"Outros Procedimentos\", preencha o campo \"Código do SIGTAP\" conforme informado na ficha, e aperte a tecla \"Enter\" ou clique no procedimento. Todos os procedimentos informados por código do SIGTAP serão incluídos na Lista de Procedimentos;
 
@@ -628,7 +652,7 @@ O sistema traz, para cada ficha, uma lista dos registros dos procedimentos indiv
 
 Figura 7.24 - Lista de registros de atendimento na Ficha de Procedimentos
 ![](media/pec_image698.png)
-Fonte: SAS/MS.
+Fonte: SAPS/MS.
 
 O número de registros deve obedecer ao conteúdo da ficha, portanto poderão ser registrados no máximo 14 registros para cada cidadão e realizados pelo mesmo profissional.
 
@@ -638,7 +662,7 @@ Com intuito de dar mais destaque e facilitar o preenchimento e uso do bloco para
 
 Figura 7.25 - Registro de procedimentos consolidados
 ![](media/pec_image694.png)
-Fonte: SAS/MS.
+Fonte: SAPS/MS.
 
 Como podemos visualizar, os procedimentos individualizados permanecem em telas separadas para facilitar o registro dos procedimentos consolidados. Caso não haja nenhum procedimento individualizado, basta preencher os itens consolidados e clicar no botão ![](media/pec_image634.png) para que o sistema guarde o registro da ficha.
 
@@ -652,7 +676,7 @@ Na tela principal, clique no ícone "Ficha de Visita Domiciliar e Territorial". 
 
 Figura 7.26 - Listagem da Ficha de Visita Domiciliar
 ![](media/pec_image700.png)
-Fonte: SAS/MS.
+Fonte: SAPS/MS.
 
 ## 7.6.2 Adicionar Ficha de Visita Domiciliar
 
@@ -661,6 +685,7 @@ Após clicar no botão ![](media/pec_image701.png), siga os passos:
 - Passo 1. Preencha os campos do cabeçalho com o CNS do profissional e a data. O sistema automaticamente preencherá os campos CBO e CNES;
 
 ![](media/pec_image702.png)
+Fonte:SAPS/MS.
 
 - Passo 2. após preencher os dados do cabeçalho, clique no botão ![](media/pec_image626.png) para incluir uma visita domiciliar e territorial individualmente;
 
