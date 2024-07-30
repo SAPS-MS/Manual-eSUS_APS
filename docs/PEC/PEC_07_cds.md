@@ -189,6 +189,73 @@ Fonte:SAPS/MS.
 ![](media/pec_image1109.png)
 Fonte:SAPS/MS.
 
+**Orientação sexual e Identidade de Gênero**
+
+A orientação sexual do cidadão é a capacidade de ter, sentir ou desenvolver atração e/ou relação emocional, afetiva ou sexual por outra(s) pessoa(s). Enquanto a identidade de gênero é a expressão de uma identidade construída a partir de como a pessoa se reconhece e/ou se apresenta, que pode corresponder ou não ao seu corpo biológico. A identidade de gênero, em suas diferentes expressões, pode ou não corresponder ao sexo atribuído no nascimento e pode ou não envolver modificação da aparência ou do corpo.
+
+Para saber mais sobre o tema, acesse [Site da SAPS](https://www.gov.br/saude/pt-br/composicao/saps/equidade-em-saude/populacao-lgbtqiapn).
+
+Na atualização da ficha de cadastro individual, entendendo estes como conceitos distintos e complementares, as questões foram subdivididas, como seguem abaixo. Ambas as perguntas sobre orientação sexual e identidade de gênero são obrigatórias a partir da versão 5.2.
+
+**Deseja informar orientação sexual?**: em caso afirmativo, marque "Sim" para a resposta ou "Não" caso contrário. Se sim, prossiga com a questão e pergunte "Qual?" as possibilidades apresentadas são:
+
+**Orientação sexual**
+
+|     ITEM    |     DESCRIÇÃO DO ITEM    |
+|-|-|
+|     HETEROSSEXUAL          |     Pessoa que sente atração e/ou se   relaciona emocional, afetiva ou sexualmente com pessoas do sexo oposto.    |
+|     GAY          |     Pessoa que sente atração e/ou se   relaciona emocional, afetiva ou sexualmente com pessoas do mesmo sexo, e identidade cultural homossexual. No senso comum, é utilizado para se referir aos homens homossexuais; Caso o indivíduo ou grupos não se autoidentifiquem como gays deve-se utilizar a expressão homens que fazem sexo com homens.     |
+|     LÉSBICA         |     Mulheres que têm atração por e/ou mantêm relações sexuais e afetivas com outras mulheres e possuem a identidade cultural lésbica.     |
+|     BISSEXUAL    |     Pessoa que sente atração e/ou se   relaciona emocional, afetiva ou sexualmente com homens e mulheres e possui a identidade cultural bissexual.    |
+|     ASSEXUAL    |     Pessoa que não sente atração afetiva e/ou sexual pelo gênero/sexo oposto ou pelo igual ao seu;     |
+|     PANSEXUAL    |     Pessoa em que a atração afetiva/sexual não é orientada para qualquer gênero ou sexo específico, dessa forma, todas as pessoas podem ser atraentes para uma pessoa de orientação pansexual;      |
+|     OUTRO    |     Pessoa que não se identifica com   nenhuma das definições mencionadas.    |
+
+Fonte: SAPS/MS.
+
+Deseja informar a identidade de gênero? em caso afirmativo, marque "Sim" para a resposta ou "Não" caso contrário. **Se sim,** prossiga com a questão e pergunte **qual?** As possibilidades apresentadas são:
+
+**Identidade de gênero**
+
+|     ITEM    |     DESCRIÇÃO DO ITEM    |
+|-|-|
+|     HOMEM CISGÊNERO    |     Pessoa que nasce com o órgão sexual masculino e se expressa socialmente conforme o papel social de gênero masculino, além de se identificar com este gênero;     |
+|     MULHER CISGÊNERO    |    Pessoa que nasce com o órgão sexual feminino e se expressa socialmente conforme o papel social de gênero feminino, além de se identificar com este gênero;    |
+|     HOMEM TRANSGÊNERO   |     Pessoa que nasce em corpo feminino,   e se reconhece como gênero masculino, desejando ou não modificar seu corpo   para exercer sua identidade masculina.    |
+|     MULHER TRANSGÊNERO    |     Pessoa que nasce em corpo   masculino, e se reconhece como gênero feminino, desejando ou não modificar   seu corpo para exercer sua identidade feminina.    |
+|     TRAVESTI    |     Pessoas que nasceram designadas biologicamente como homem e que se identificaram em alguma fase da vida como sendo do gênero feminino. Podem ou não reivindicar para si a categoria de mulher. Não necessariamente a pessoa precisa ter passado por procedimentos de readequação sexual. O correto ao se referir às pessoas travestis é utilizando artigos, pronomes, adjetivos femininos: A Travesti    |
+|     NÃO-BINÁRIO   |     Pessoa cuja identidade de gênero não é representada por nenhum dos dois gêneros (homem/mulher), podendo inclusive ter como gênero a combinação dos gêneros masculino e feminino;     |
+|     OUTRO    |     Pessoa que não se identifica com   nenhuma das definições mencionadas.    |
+
+Fonte: SAPS/MS.
+
+{: .nota }
+Os conceitos dos Quadros 2.8 e 2.9 foram descritos pela Coordenação do Acesso e Equidade do Departamento de Estratégias e Políticas de Saúde Comunitária (CAEQ/CEGESCO/DESCO/SAPS/MS). Referências utilizadas: (1) Campinas, Prefeitura de. Guia de Terminologias: Um Guia com os principais termos de Políticas Afirmativas para você usar no seu dia a dia. 2ª Edição, julho/2022. (2) [Guia de Terminologia do UNAIDS, 2017](https://unaids.org.br/wp-content/uploads/2015/06/WEB_2018_01_18_GuiaTerminologia_UNAIDS.pdf).
+
+{: .atencao }
+É importante que os profissionais de saúde, ao criarem ou atualizarem um cadastro individual, façam sempre essas duas perguntas para saber se a pessoa deseja ou não informar esses dados. Essas informações são muito importantes para que os profissionais de saúde façam uma melhor coordenação do cuidado e para que esse cuidado seja integral e com equidade. 
+
+{: .dica }
+Quando a identidade de gênero é diferente das identidades cisgênero, é possível fazer registros que são atribuídos a sexo. Por exemplo, um cadastro que tem sinalizado que a pessoa é um homem transgênero, vai ser habilitado os códigos CID-10 e CIAP-2 de gravidez, mesmo que no campo sexo esteja selecionado masculino.
+
+**Tem alguma deficiência?**: este item identifica se o cidadão apresenta alguma deficiência[^5]. Assinalar com um "x" a opção referida. Este campo de preenchimento obrigatório. **Se sim, qual ou quais deficiências o cidadão?** Podendo ser:
+
+**Quadro 2.10 -- Tipos de deficiência**
+
+|     ITEM    |     DESCRIÇÃO DO ITEM    |
+|-|-|
+|     AUDITIVA    |     Limitação, temporária   ou permanente, de natureza auditiva. Segundo a Política Nacional de Saúde da   Pessoa com Deficiência, a deficiência auditiva é caracterizada pela perda   total ou parcial da capacidade de ouvir, manifesta-se como surdez leve e   moderada e surdez severa ou profunda. É perda bilateral, parcial ou total de   41 decibéis (dB) ou mais aferida por audiograma nas frequências de 500 Hz,   1.000 Hz, 2.000 Hz e 3.000 Hz.    |
+|     VISUAL    |     A Política Nacional de   Saúde da Pessoa com Deficiência compreende a deficiência visual como sendo   uma situação irreversível da função visual, mesmo após tratamentos clínicos e   ou cirúrgicos pertinentes e uso de óculos convencionais. A pessoa com   deficiência visual, cegueira ou baixa visão tem sua funcionalidade   comprometida, com prejuízo na capacidade de realização de tarefas. Deficiência   visual é a cegueira cuja acuidade visual for igual ou menor que 0,05 no   melhor olho, com a melhor correção óptica; baixa visão que significa acuidade   visual entre 0,3 e 0,05 no melhor olho, com a melhor correção óptica; casos   em que o somatório da medida do campo visual, em ambos os olhos, for igual ou   menor que 60º; ocorrência simultânea de qualquer das condições anteriores.    |
+|     INTELECTUAL/COGNITIVA    |     Limitação, temporária   ou permanente, de natureza intelectual/cognitiva. A deficiência mental, segundo   a Política Nacional de Saúde da Pessoal com Deficiência, é o funcionamento   intelectual significativamente inferior à média, com manifestações antes dos   18 anos e limitações associadas a duas ou mais áreas de habilidades   adaptativas: comunicação, cuidado pessoal, habilidades sociais, utilização   dos recursos da comunidade, saúde e segurança, habilidades acadêmicas, lazer   e trabalho.    |
+|     FÍSICA    |     É alteração completa ou   parcial de um ou mais segmentos do corpo humano que acarreta o   comprometimento da função física, apresentando-se sob as formas de   paraplegia, paraparesia, monoplegia, monoparesia, tetraplegia, tetraparesia,   triplegia, triparesia, hemiplegia, hemiparesia, ostomia, amputação ou   ausência de membro, paralisia cerebral, nanismo, membros com deformidade   congênita ou adquirida, exceto as deformidades estéticas e as que não   produzam dificuldades para o desempenho de funções.    |
+|     OUTRA    |     Outros tipos de   limitações, temporárias ou permanentes.     |
+
+Fonte: SAPS/MS.
+
+
+
+
+
 #### 7.2.1.1.4 Informações socioeconômicas - Triagem para Risco de Insegurança Alimentar (TRIA)
 4.Faça as duas perguntas da TRIA para o cidadão e registre a resposta com uma das opções: "sim" ou "não". Essas informações são importantes para rastrear o Risco de insegurança alimentar da família.
 
