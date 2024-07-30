@@ -240,7 +240,7 @@ Quando a identidade de gênero é diferente das identidades cisgênero, é poss�
 
 **Tem alguma deficiência?**: este item identifica se o cidadão apresenta alguma deficiência[^5]. Assinalar com um "x" a opção referida. Este campo de preenchimento obrigatório. **Se sim, qual ou quais deficiências o cidadão?** Podendo ser:
 
-**Quadro 2.10 -- Tipos de deficiência**
+**Tipos de deficiência**
 
 |     ITEM    |     DESCRIÇÃO DO ITEM    |
 |-|-|
@@ -414,7 +414,7 @@ O campo ao final da ficha/tela do termo de recusa tem um processo de cadastro di
 
 Figura 7.13 - Termo de recusa do cadastro domiciliar
 ![](media/pec_image659.png)
-Fonte: SAS/MS.
+Fonte: SAPS/MS.
 
 {: .atencao }
 caso o campo de termo de recusa seja marcado, os campos ficam desabilitados para preenchimento, exceto os campos de identificação do imóvel.
@@ -761,6 +761,7 @@ Fonte:SAPS/MS.
 - Passo 3. Na sequência, digite as informações de identificação do usuário e alguns detalhes sobre o serviço de saúde;
 
 ![](media/pec_image703.png)
+FONTE: SAPS/MS.
 
 ### 7.6.2.2 Detalhamento da visita domiciliar
 
@@ -771,6 +772,7 @@ Fonte:SAPS/MS.
 - Passo 5. Caso haja necessidade de acompanhamento do peso e altura dos indivíduos visitados, preencha os campos "Peso (kg)" e "Altura (cm)" do bloco "Antropometria".
 
 ![](media/pec_image705.png)
+FONTE: SAPS/MS.
 
 - Passo 6. Na sequência, marque a opção de desfecho da visita;
 
