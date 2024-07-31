@@ -132,13 +132,12 @@ Para que seja possível realizar o atendimento deste cidadão, o profissional de
 
 ## 5.1.3 Visualizar Agendamento e Dados do Cidadão
 
-Para visualizar os detalhes do agendamento do cidadão e dados básicos do cidadão, clique sobre o nome do cidadão. Será apresentado o resumo do agendamento, inclusive, qual o profissional que registrou o agendamento conforme a Figura 5.2. Nesta visualização, é possível acessar o cadastro completo do cidadão por meio da opção \"Ver cadastro completo do cidadão\".
+Para visualizar os detalhes do agendamento do cidadão e dados básicos do cidadão, clique sobre o nome do cidadão. Será apresentado o resumo do agendamento, inclusive, qual o profissional que registrou o agendamento conforme a Figura 5.4. Nesta visualização, é possível acessar o cadastro completo do cidadão por meio da opção \"Ver cadastro completo\".
 
 Figura 5.4 - Visualizar detalhes do agendamento
 
-![](media/pec_image287.png)
-
-Fonte: SAS/MS.
+![](media/pec_image1123.png)
+Fonte: SAPS/MS.
 
 Através da agenda, é possível identificar a situação do agendamento:
 
