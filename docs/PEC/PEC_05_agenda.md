@@ -37,7 +37,7 @@ Figura 5.1 - Tela da agenda
 
 ![](media/pec_image272.png)
 
-Fonte: SAS/MS.
+Fonte: SAPS/MS.
 
 # 5.1 Agendar uma Consulta
 
@@ -108,15 +108,20 @@ Para os horários configurados para agendamento online, não é possível realiz
 
 ## 5.1.1 Agendar atendimento fora da UBS
 
-Para utilizar o recurso de adicionar o cidadão na agenda para os atendimentos a serem realizados fora da UBS, basta seguir o passo a passo de agendar uma consulta, descrita no capítulo 5.1. Entretanto, para esta funcionalidade, clique no box \"Atendimento fora da UBS\" e selecionar o local de atendimento, observe a figura 5.2. Após salvar o agendamento apresentará a mensagem com a hora em que foi marcado, o nome do cidadão e a mensagem \"AGENDAMENTO FORA DA UBS\", conforme a figura abaixo.
+Para utilizar o recurso de adicionar o cidadão na agenda para os atendimentos a serem realizados fora da UBS, basta seguir o passo a passo de agendar uma consulta, descrita no capítulo 5.1. Entretanto, para esta funcionalidade, clique no box \"Local de Atendimento fora da UBS\" e selecionar o local de atendimento, observe a figura 5.3. 
+
 
 Figura 5.3 - Agendamento fora da UBS
 
-![](media/pec_image286.png)
+![](media/pec_image1121.png)
+
+Após salvar o agendamento apresentará a mensagem com a hora em que foi marcado, o nome do cidadão, seguido do contato cadastrado e o local de atendimento fora da UBS, conforme a figura abaixo.
+
+![](media//pec_image1122.png)
 
 {: .dica }
 Quando o cidadão é colocado na agenda como agendamento fora da UBS, automaticamente aparecerá na lista de registro tardio de atendimento no dia agendado. Para saber mais sobre o registro tardio de atendimento consulte o capítulo 6.6.
-![](media/pec_image927.png)
+
 
 ## 5.1.2 Adicionar Cidadão na Lista de Atendimentos
 
