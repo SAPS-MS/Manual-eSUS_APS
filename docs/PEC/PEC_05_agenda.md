@@ -174,7 +174,7 @@ Antes de realizar a configuração da Agenda Online realize uma conversa prévia
 
 ### 5.1.4.1 Sincronização com Agenda Online do e-SUS APS
 
-A visualização do agendamento, quando a instalação está com a sincronização com o Servidor de Agenda do e-SUS APS habilitado (ver Seção 3.1.10) apresentará um status de sincronização ![](media/pec_image289.png), como podemos ver na Figura 5.3.
+A visualização do agendamento, quando a instalação está com a sincronização com o Servidor de Agenda do e-SUS APS habilitado (ver Seção 3.1.10) apresentará um status de sincronização ![](media/pec_image289.png), como podemos ver na Figura 5.5.
 
 Figura 5.5 - Visualizar detalhes do agendamento com sincronização
 
@@ -209,21 +209,20 @@ Para cancelar um agendamento, clique no ícone "Cancelar agendamento" ![](media/
 {: .nota }
 caso o horário marcado já tenha passado, não será possível excluir o agendamento. Para estes casos, utilize a opção "informar falta do cidadão", clicando sobre o ícone ![](media/pec_image283.png).
 
-Para efetivar o cancelamento, é necessário preencher uma justificativa, conforme mostrado na Figura 5.4. Para concluir clique em "Salvar" ![](media/pec_image279.png).
+Para efetivar o cancelamento, é necessário confirmar a exclusão clicando em "excluir" conforme a Figura 5.6.
 
-Figura 5.6 - Tela de justificativa para cancelar o agendamento
+Figura 5.6 - Tela de Confirmação de cancelamento do agendamento
 
-![](media/pec_image291.png)
+![](media/pec_image1124.png)
+Fonte: SAPS/MS.
 
-Fonte: SAS/MS.
-
-Após confirmar o Cancelamento, a visualização do agendamento será apresentado como na Figura 5.7.
+Após confirmar o Cancelamento, a visualização do agendamento no histórico do paciente será apresentado como cancelado conforme a Figura 5.7.
 
 Figura 5.7 - Visualizar detalhes do agendamento Cancelado
 
 ![](media/pec_image292.png)
 
-Fonte: SAS/MS.
+Fonte: SAPS/MS.
 
 ## 5.1.6 Informar que o Cidadão faltou
 
