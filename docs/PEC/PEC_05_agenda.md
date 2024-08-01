@@ -180,7 +180,7 @@ Figura 5.5 - Visualizar detalhes do agendamento com sincronização
 
 ![](media/pec_image290.png)
 
-Fonte: SAS/MS.
+Fonte: SAPS/MS.
 
 Os *status* de sincronização possíveis são:
 
