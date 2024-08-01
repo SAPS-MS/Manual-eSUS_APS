@@ -232,7 +232,7 @@ Para informar a falta de um cidadão, clique no ícone "Clique para informar que
 
 Para identificar os agendamentos por cidadão, siga os passos:
 
-- Passo 1. Digite o nome ou parte do nome do cidadão no campo "Pesquisa por cidadão"
+- Passo 1. Digite o nome ou parte do nome do cidadão no campo "Agenda do cidadão"
 
 ![](media/pec_image295.png)
 
