@@ -45,6 +45,9 @@ Tutorial desta habilitação: Servidores WINDOWS: [LINK](https://saps-ms.github.
 
 ![alt text](media/gov02.png)
 
+{: .atencao }
+As integrações ao Login GOV.BR possuem como pré-requisito que o sistema a ser integrado deve estar hospedado em um domínio GOV.BR. Desta forma, apenas solicitações de integração que atendam essa premissa receberão chaves de produção para conclusão da integração.
+
 ## Etapa 1 - Adesão à Rede Nacional de Governo Digital 
 
 {: .nota }
