@@ -269,4 +269,4 @@ https://SEU-DOMINIO/logout
 
 **FIM** 
 
-1ª versão. Atualizado em 10 de maio de 2024.
+2ª versão. Atualizado em 5 de agosto de 2024.

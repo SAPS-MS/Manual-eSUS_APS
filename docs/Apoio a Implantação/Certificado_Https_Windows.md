@@ -163,7 +163,6 @@ Arquivo com a extensão ".bat" é um arquivo de lote (batch file) usado principa
 ```
 @echo off
 certbot renew --force-renewal
-C:\OpenSSL
 @set PATH=%PATH%;%~dp0bin
 cd C:\Certbot\live\esus.municipio.uf.gov.br
 openssl pkcs12 -export -in fullchain.pem -inkey privkey.pem -out "C:\Program Files\e-SUS\webserver\config\esusaps.p12" -name esus -CAfile chain.pcdem -caname esus -passout pass:SUA-SENHA-PARA-O-CERTIFICADO
@@ -299,4 +298,4 @@ Após a habilitação do protocolo HTTPS, por motivos de compatibilidade entre o
 
 **FIM** 
 
-3ª versão. Atualizado em 4 de abril de 2024. 
+4ª versão. Atualizado em 5 de agosto de 2024. 
