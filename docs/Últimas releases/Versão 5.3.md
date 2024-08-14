@@ -13,7 +13,6 @@ last_modified_date: "17/05/2024"
 
 * Busca ativa de vacinação
 * Cadastro de Imóveis e Famílias
-* Suporte à Decisão Clínica
 * Videochamada do profissional convidado adaptada para telefone celular
 
 ![](../Apoio%20a%20Implantação/media/busca_ativa.png)
