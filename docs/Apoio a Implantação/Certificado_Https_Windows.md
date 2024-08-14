@@ -35,7 +35,7 @@ Assim sendo, para que possamos gerar um certificado SSL através do próprio Let
 
 - Sua Instalação do e-SUS APS já deve possuir **IP público** para acesso externo; 
 
-- Deve ser disponibilizado um domínio apontando para o IP público de acesso à sua Instalação do e-SUS APS, sem indicar nenhuma porta, somente o IP. Se o seu município já tem o domínio próprio, basta solicitar que seja criado o subdomínio para sua Instalação. Exemplo que será utilizado nesse tutorial: **esus.municipio.uf.gov.br**; 
+- Deve ser disponibilizado um domínio apontando para o IP público de acesso à sua Instalação do e-SUS APS, sem indicar nenhuma porta, somente o IP. Se o seu município já tem o domínio próprio, basta solicitar que seja criado o subdomínio para sua Instalação. Exemplo que será utilizado nesse tutorial: **esus.municipio.uf.gov.br**. Destaca-se que, posteriormente, caso o município tenha interesse em realizar a habilitação do **login gov.br** no e-SUS APS (Tutorial: [LINK](https://saps-ms.github.io/Manual-eSUS_APS/docs/Apoio%20a%20Implanta%C3%A7%C3%A3o/Login_GOV.BR/)), é obrigatória a utilização de um domínio final "gov.br" por questões de segurança, conforme orientações da **Secretaria de Governo Digital (SGD)**;
 
 - Assim como está a porta **8080** configurada, as portas de entrada **80** e **443** também devem ser liberadas pelo provedor. Também é necessário que estar mesmas portas sejam redirecionadas no roteador de borda para o IP na rede local da sua Instalação do e-SUS APS; 
 
@@ -163,7 +163,6 @@ Arquivo com a extensão ".bat" é um arquivo de lote (batch file) usado principa
 ```
 @echo off
 certbot renew --force-renewal
-C:\OpenSSL
 @set PATH=%PATH%;%~dp0bin
 cd C:\Certbot\live\esus.municipio.uf.gov.br
 openssl pkcs12 -export -in fullchain.pem -inkey privkey.pem -out "C:\Program Files\e-SUS\webserver\config\esusaps.p12" -name esus -CAfile chain.pcdem -caname esus -passout pass:SUA-SENHA-PARA-O-CERTIFICADO
@@ -299,4 +298,4 @@ Após a habilitação do protocolo HTTPS, por motivos de compatibilidade entre o
 
 **FIM** 
 
-3ª versão. Atualizado em 4 de abril de 2024. 
+4ª versão. Atualizado em 5 de agosto de 2024. 
