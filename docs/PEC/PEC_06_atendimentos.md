@@ -303,8 +303,6 @@ Para interromper um atendimento iniciado de forma equivocada, é importante usar
 
 # 6.3 Realizar Vacinação
 
-# 6.3 Realizar Vacinação
-
 O módulo de vacinação possibilita o registro de aplicação, transcrição e aprazamento de imunobiológicos que fazem parte do Programa Nacional de Imunização (PNI) do Ministério da Saúde (MS) e que contribuem para o controle, erradicação e eliminação de doenças imunopreveníveis. Através dos registros realizados no PEC, o profissional da Atenção Primária pode realizar a avaliação da situação vacinal do cidadão e encaminhá-lo para início ou completude dos esquemas vacinais, conforme as definições realizadas pelo Departamento do PNI nos calendários de vacinação de crianças, adolescentes, adultos, idosos e gestantes, disponíveis em <https://www.gov.br/saude/pt-br/vacinacao/calendario/> para consulta. 
 
 ## 6.3.1 Registrar Vacina Aplicada
