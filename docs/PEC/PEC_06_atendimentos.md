@@ -303,70 +303,84 @@ Para interromper um atendimento iniciado de forma equivocada, é importante usar
 
 # 6.3 Realizar Vacinação
 
-O módulo de vacinação possibilita a organização do processo de trabalho, o registro das vacinas, imunoglobulinas e soros que fazem parte do Programa Nacional de Imunização (PNI) do Ministério da Saúde (MS), contribuindo, dessa forma, para o controle, erradicação e eliminação de doenças imunopreveníveis. O PNI define o calendário de vacinação com orientações específicas para crianças, adolescentes, adultos, gestantes e idosos. Sendo assim, a equipe da Atenção Primária realiza a verificação da caderneta para avaliar a situação vacinal e encaminha a população à unidade de saúde para iniciar ou completar o esquema vacinal conforme o calendário de vacinação. A partir de então, começa o fluxo de atendimento no PEC.
+# 6.3 Realizar Vacinação
 
-{: .atualizacao }
-A partir da versão 4.1.17 o registro da vacina COVID-19 está disponível exclusivamente para atendimento à situação nacional de Emergência em Saúde Pública. Mais informações no tópico 6.3.1.2 deste capítulo.
+O módulo de vacinação possibilita o registro de aplicação, transcrição e aprazamento de imunobiológicos que fazem parte do Programa Nacional de Imunização (PNI) do Ministério da Saúde (MS) e que contribuem para o controle, erradicação e eliminação de doenças imunopreveníveis. Através dos registros realizados no PEC, o profissional da Atenção Primária pode realizar a avaliação da situação vacinal do cidadão e encaminhá-lo para início ou completude dos esquemas vacinais, conforme as definições realizadas pelo Departamento do PNI nos calendários de vacinação de crianças, adolescentes, adultos, idosos e gestantes, disponíveis em <https://www.gov.br/saude/pt-br/vacinacao/calendario/> para consulta. 
 
 ## 6.3.1 Registrar Vacina Aplicada
 
-O registro da vacina no fluxo de atendimento do PEC é ativado pela opção "Vacina" marcada na inclusão do cidadão na lista de atendimento ou nos blocos de desfecho da escuta inicial e atendimentos realizados na UBS como demonstrado nos tópicos anteriores. Caso esta opção seja selecionada o botão "Realizar Vacinação" estará disponível como mostra a figura a seguir:
+Para iniciar um atendimento de vacinação no PEC, é necessário que seja selecionada a opção “vacina” em “tipo de atendimento” no momento em que o cidadão é incluído na lista de atendimentos, ou ainda no bloco de desfecho da escuta inicial ou do atendimento. Dessa forma,  o botão “Realizar Vacinação” é ativado e estará disponível: 
 
-Figura 6.3.1 - Opção de registro da Vacinação
+Figura - Inclusão para registro da Vacinação
 
 ![](media/pec_image341.png)
 
-Fonte: SAPS/MS
+Fonte: SAPS/MSdfresxwazq  
 
-Após clicar em ![](media/pec_image342.png) realizar vacinação estará disponível o registro da vacinação no PEC.
+Em seguida, é necessário clicar no ícone ![](media/pec_image342.png) que direciona para realizar o registro de vacinação no PEC.
 
-Figura 6.3.2 - Tela de registro da Vacinação
+Figura - Tela de registro da Vacinação
 
 ![](media/pec_image343.png)
 
 Fonte: SAPS/MS
 
-A tela para registrar a vacinação apresenta os seguintes Blocos de preenchimento: a) Condições; b) Vacinação e c) Desfecho. Neste subcapítulo abordaremos sobre os blocos "Condições" e "Vacinação".
+A tela para registrar a vacinação apresenta três blocos de preenchimento: a) Condições; b) Vacinação e c) Finalização do atendimento. Neste subcapítulo abordaremos sobre os blocos "Condições" e "Vacinação".
 
 **CONDIÇÕES**
 
-Este bloco apresenta ao profissional as condições específicas relacionadas ao cidadão que será vacinado. As condições são "Gestante", "Puérpera" e "Viajante".
+Este bloco apresenta condições relacionadas ao cidadão que podem ser selecionadas impactando no calendário de vacinação a ser seguido. As condições são exibidas abaixo: 
 
-Figura 6.3.3 - Bloco de Condições do Registro de Vacinação
+Figura - Bloco de Condições do Registro de Vacinação
 
 ![](media/pec_image344.png)
 
 Fonte: SAPS/MS
 
+Ao selecionar uma das condições, o calendário vacinal a ser exibido se altera de acordo com os imunizantes que são recomendados para aquele grupo-alvo. 
+
 **VACINAÇÃO**
 
-Este bloco apresenta os recursos disponíveis para o registro da vacinação. O quadro de vacinação é apresentado conforme figura abaixo:
+Este bloco dispõe dos recursos disponíveis para o registro da vacinação, e é apresentado conforme figura abaixo:
 
-Figura 6.3.4 - Quadro para o registro dos imunobiológicos
+Figura Quadro para o registro dos imunobiológicos
 
 ![](media/pec_image345.png)
 
 Fonte: SAPS/MS
 
-Neste quadro é possível visualizar o status da situação vacinal de cada imunobiológico. Se a vacina estiver em dia, o quadro da "DOSE" do imunobiológico aparecerá na cor verde. Caso a vacina esteja atrasada aparecerá na cor vermelha. Se a dose aplicada faz parte do calendário vacinal do cidadão e estiver no tempo para ser realizada, o quadro aparecerá na cor branca como "disponível". Os quadros das "DOSES" das vacinas na cor cinza significam que são doses a serem aplicadas futuramente.
+Os imunobiológicos exibidos no bloco são apresentados de acordo com o calendário de vacinação recomendado pelo PNI para a faixa etária do cidadão, alguma condição selecionada no bloco anterior ou nos casos em que já foi identificada como gestante na lista de problemas e condições. 
+Ainda assim, é possível visualizar todos os imunobiológicos para os grupos ao selecionar a opção “mostrar calendário nacional completo”. 
 
-Quando aparecer um asterisco ![](media/pec_image346.png) no quadro "DOSE" do imunobiológico significa que esta vacina foi registrada no atendimento.
+Os status da situação vacinal são exibidos nos quadros de cada dose, alterando a cor das doses seguinte forma: 
+Dose aplicada: cor verde. 
+Dose atrasada: cor vermelha. 
+Dose a aplicar (em tempo para ser realizada): cor branca. 
+Dose a aprazar (doses a serem aplicadas futuramente): cor cinza. 
 
 ![](media/pec_image347.png)
 
 Para registrar uma vacina aplicada siga as seguintes etapas:
 
-1\. É possível visualizar o calendário vacinal de acordo com o ciclo de vida (criança, adolescente, adulto e idoso) ou pelo calendário nacional completo;
-
-2\. Clique sobre a dose do imunobiológico que será administrado. Após será aberta uma nova tela "ADICIONAR VACINAÇÃO" conforme a figura 6.3.5:
+1\. Clique no card da dose que será registrada, conforme figura abaixo:  
 
 ![](media/pec_image348.png)
 
-Figura 6.3.5 - Tela para adicionar vacinação
+2\. Em seguida, selecione entre as opções exibidas: 
+
+![](media/pec_image1125.png)
+
+**Transcrição de caderneta:** utiliza-se essa opção para os casos de registros de doses administradas em outros estabelecimentos, tendo como finalidade atualizar a caderneta do cidadão no PEC para a continuidade do cuidado. Será detalhada melhor a seguir. 
+
+**Aprazar:** para registrar uma delimitação de data em que a dose deverá ser realizada. 
+
+**Aplicar:** para realizar o registro de uma dose da vacina administrada no momento do atendimento. 
+
+3\. No registro de aplicação, os seguintes campos são de preenchimento obrigatório: estratégia, lote/fabricante, via de administração, local de aplicação (Figura 6.3.
+
+Figura - Tela para adicionar vacinação
 
 ![](media/pec_image349.png)
-
-3\. Se o registro for de uma dose da vacina administrada no momento, o botão permanece, por padrão, como "Não" ![](media/pec_image350.png). Caso seja para um registro de dose administrada em outro dia ou em outro local de atendimento, com a finalidade de atualizar a caderneta do cidadão no PEC, então deve-se mover o botão para "SIM" ![](media/pec_image351.png). Esta última funcionalidade será detalhada mais adiante.
 
 4\. Os campos para o registro do "Imunobiológico" e "dose" aparecerão conforme a seleção realizada pelo profissional de saúde na tela do quadro de vacinação (Figura 6.3.4), não sendo possível a sua alteração.
 
