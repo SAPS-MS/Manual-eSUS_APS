@@ -45,6 +45,9 @@ Tutorial desta habilitação: Servidores WINDOWS: [LINK](https://saps-ms.github.
 
 ![alt text](media/gov02.png)
 
+{: .atencao }
+Conforme orientações da **Secretaria de Governo Digital (SGD)**, as integrações ao Login GOV.BR possuem como pré-requisito que o sistema a ser integrado deve estar hospedado em um domínio GOV.BR. Desta forma, apenas solicitações de integração que atendam essa premissa receberão chaves de produção para conclusão da integração.
+
 ## Etapa 1 - Adesão à Rede Nacional de Governo Digital 
 
 {: .nota }
@@ -120,13 +123,14 @@ Destacamos que todos os passos dos formulários a seguir deverão ser realizadas
 
 ![alt text](media/gov11.png)
 
-> Observações:
+> Como preencher:
 
 - Em “Chave Pública PGP do Responsável Técnico”, siga este tutorial ([LINK](https://acesso.gov.br/roteiro-tecnico/chavepgp.html#como-criar-um-par-de-chaves-pgp)) na primeira parte “Como criar um par de chaves PGP”, gere a chave com os dados do Responsável Técnico e anexe o arquivo *.asc neste campo. 
 
 - Em “URL”(s) do retorno Homologação”, digite a seguinte informação, substituindo “SEU-DOMINIO” pelo domínio de acesso à sua Instalação do e-SUS APS, exemplo: 
 ```
-https://SEU-DOMINIO/oauth2/authorization/govbr
+https://SEU-DOMINIO/login/oauth2/code/govbr
+https://SEU-DOMINIO/oauth2/code/govbr
 ```
 
 - Em “URL única para página inicial do sistema Homologação”, digite o domínio de acesso à sua Instalação do e-SUS APS, substituindo “SEU-DOMINIO” pelo domínio de acesso à sua Instalação do e-SUS APS exemplo:
@@ -204,19 +208,16 @@ sudo systemctl restart e-SUS-PEC
 
 ![alt text](media/gov19.png) 
 
-22º Passo: clique com o botão direito no botão “Entrar com gov.br” e selecione “Copiar endereço do link”:
-
-![alt text](media/gov20.png) 
-
-23º Passo: volte ao formulário de solicitação do login GOV.BR e procure pelos seguintes campos: 
+22º Passo: volte ao formulário de solicitação do login GOV.BR e procure pelos seguintes campos: 
 
 ![alt text](media/gov21.png)
 
-> Observações: 
+> Como preencher: 
 
 - Em “URL(s) do retorno Produção” cole o endereço que você copiou no passo anterior, exemplo:
 ```
-https://SEU-DOMINIO/oauth2/authorization/govbr
+https://SEU-DOMINIO/login/oauth2/code/govbr
+https://SEU-DOMINIO/oauth2/code/govbr
 ```
 
 - Em “URL única para página inicial do sistema produção” digite o domínio de acesso da sua instalação do e-SUS APS, substituindo “SEU-DOMINIO” pelo domínio de acesso à sua Instalação do e-SUS APS, exemplo:
@@ -239,15 +240,15 @@ https://SEU-DOMINIO/logout
 (4) Faça logout do sistema (sair da conta de usuário)
 ```
 
-24º Passo: procure a sessão “Produto(s) de Identidade Digital de interesse” e digite em “Nome do Sistema (Produção): e-SUS APS, conforme imagem abaixo: 
+23º Passo: procure a sessão “Produto(s) de Identidade Digital de interesse” e digite em “Nome do Sistema (Produção): e-SUS APS, conforme imagem abaixo: 
 
 ![alt text](media/gov22.png)
 
-25º Passo: vá ao fim do formulário em “Enviar dados/Dúvidas” e selecione a opção abaixo: 
+24º Passo: vá ao fim do formulário em “Enviar dados/Dúvidas” e selecione a opção abaixo: 
 
 ![alt text](media/gov23.png)
 
-26º Passo: clique em “Enviar dados de produção” e a integração do login GOV.BR ao e-SUS APS foi concluída com sucesso!:
+25º Passo: clique em “Enviar dados de produção” e a integração do login GOV.BR ao e-SUS APS foi concluída com sucesso!:
 
 ![alt text](media/gov24.png)
 
@@ -266,4 +267,4 @@ https://SEU-DOMINIO/logout
 
 **FIM** 
 
-1ª versão. Atualizado em 10 de maio de 2024.
+3ª versão. Atualizado em 15 de agosto de 2024.

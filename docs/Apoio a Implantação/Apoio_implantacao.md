@@ -138,7 +138,7 @@ last_modified_date: "25/09/2023"
     O banco de dados PostgreSQL é um software livre, portanto, sem custo de licença ou aquisição. Para mais informações acesse: http://www.postgresql.org/. É recomendado o uso da versão 9.6 ou superior.
     <br>
     <br>
-    <b>Banco de Dados Oracle</b> - optando por este banco de dados, podem ser utilizadas as versões Oracle XE 11g, Oracle Standard Edition 11g ou Oracle Enterprise Edition 11g.
+    <b>Banco de Dados Oracle</b> - optando por este banco de dados, podem ser utilizadas as versões Oracle XE 12.2c, Oracle Standard Edition 12.2c ou Oracle Enterprise Edition 12.2c.
     </p>  
   <h4>Especificações técnicas de hardware, por acessos simultâneos:</h4>
   <br>
