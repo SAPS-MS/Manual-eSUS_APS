@@ -37,7 +37,7 @@ Figura 5.1 - Tela da agenda
 
 ![](media/pec_image272.png)
 
-Fonte: SAS/MS.
+Fonte: SAPS/MS.
 
 # 5.1 Agendar uma Consulta
 
@@ -108,15 +108,20 @@ Para os horários configurados para agendamento online, não é possível realiz
 
 ## 5.1.1 Agendar atendimento fora da UBS
 
-Para utilizar o recurso de adicionar o cidadão na agenda para os atendimentos a serem realizados fora da UBS, basta seguir o passo a passo de agendar uma consulta, descrita no capítulo 5.1. Entretanto, para esta funcionalidade, clique no box \"Atendimento fora da UBS\" e selecionar o local de atendimento, observe a figura 5.2. Após salvar o agendamento apresentará a mensagem com a hora em que foi marcado, o nome do cidadão e a mensagem \"AGENDAMENTO FORA DA UBS\", conforme a figura abaixo.
+Para utilizar o recurso de adicionar o cidadão na agenda para os atendimentos a serem realizados fora da UBS, basta seguir o passo a passo de agendar uma consulta, descrita no capítulo 5.1. Entretanto, para esta funcionalidade, clique no box \"Local de Atendimento fora da UBS\" e selecionar o local de atendimento, observe a figura 5.3. 
+
 
 Figura 5.3 - Agendamento fora da UBS
 
-![](media/pec_image286.png)
+![](media/pec_image1121.png)
+
+Após salvar o agendamento apresentará a mensagem com a hora em que foi marcado, o nome do cidadão, seguido do contato cadastrado e o local de atendimento fora da UBS, conforme a figura abaixo.
+
+![](media//pec_image1122.png)
 
 {: .dica }
 Quando o cidadão é colocado na agenda como agendamento fora da UBS, automaticamente aparecerá na lista de registro tardio de atendimento no dia agendado. Para saber mais sobre o registro tardio de atendimento consulte o capítulo 6.6.
-![](media/pec_image927.png)
+
 
 ## 5.1.2 Adicionar Cidadão na Lista de Atendimentos
 
@@ -127,13 +132,12 @@ Para que seja possível realizar o atendimento deste cidadão, o profissional de
 
 ## 5.1.3 Visualizar Agendamento e Dados do Cidadão
 
-Para visualizar os detalhes do agendamento do cidadão e dados básicos do cidadão, clique sobre o nome do cidadão. Será apresentado o resumo do agendamento, inclusive, qual o profissional que registrou o agendamento conforme a Figura 5.2. Nesta visualização, é possível acessar o cadastro completo do cidadão por meio da opção \"Ver cadastro completo do cidadão\".
+Para visualizar os detalhes do agendamento do cidadão e dados básicos do cidadão, clique sobre o nome do cidadão. Será apresentado o resumo do agendamento, inclusive, qual o profissional que registrou o agendamento conforme a Figura 5.4. Nesta visualização, é possível acessar o cadastro completo do cidadão por meio da opção \"Ver cadastro completo\".
 
 Figura 5.4 - Visualizar detalhes do agendamento
 
-![](media/pec_image287.png)
-
-Fonte: SAS/MS.
+![](media/pec_image1123.png)
+Fonte: SAPS/MS.
 
 Através da agenda, é possível identificar a situação do agendamento:
 
@@ -170,13 +174,13 @@ Antes de realizar a configuração da Agenda Online realize uma conversa prévia
 
 ### 5.1.4.1 Sincronização com Agenda Online do e-SUS APS
 
-A visualização do agendamento, quando a instalação está com a sincronização com o Servidor de Agenda do e-SUS APS habilitado (ver Seção 3.1.10) apresentará um status de sincronização ![](media/pec_image289.png), como podemos ver na Figura 5.3.
+A visualização do agendamento, quando a instalação está com a sincronização com o Servidor de Agenda do e-SUS APS habilitado (ver Seção 3.1.10) apresentará um status de sincronização ![](media/pec_image289.png), como podemos ver na Figura 5.5.
 
 Figura 5.5 - Visualizar detalhes do agendamento com sincronização
 
 ![](media/pec_image290.png)
 
-Fonte: SAS/MS.
+Fonte: SAPS/MS.
 
 Os *status* de sincronização possíveis são:
 
@@ -205,21 +209,20 @@ Para cancelar um agendamento, clique no ícone "Cancelar agendamento" ![](media/
 {: .nota }
 caso o horário marcado já tenha passado, não será possível excluir o agendamento. Para estes casos, utilize a opção "informar falta do cidadão", clicando sobre o ícone ![](media/pec_image283.png).
 
-Para efetivar o cancelamento, é necessário preencher uma justificativa, conforme mostrado na Figura 5.4. Para concluir clique em "Salvar" ![](media/pec_image279.png).
+Para efetivar o cancelamento, é necessário confirmar a exclusão clicando em "excluir" conforme a Figura 5.6.
 
-Figura 5.6 - Tela de justificativa para cancelar o agendamento
+Figura 5.6 - Tela de Confirmação de cancelamento do agendamento
 
-![](media/pec_image291.png)
+![](media/pec_image1124.png)
+Fonte: SAPS/MS.
 
-Fonte: SAS/MS.
-
-Após confirmar o Cancelamento, a visualização do agendamento será apresentado como na Figura 5.7.
+Após confirmar o Cancelamento, a visualização do agendamento no histórico do paciente será apresentado como cancelado conforme a Figura 5.7.
 
 Figura 5.7 - Visualizar detalhes do agendamento Cancelado
 
 ![](media/pec_image292.png)
 
-Fonte: SAS/MS.
+Fonte: SAPS/MS.
 
 ## 5.1.6 Informar que o Cidadão faltou
 
@@ -229,7 +232,7 @@ Para informar a falta de um cidadão, clique no ícone "Clique para informar que
 
 Para identificar os agendamentos por cidadão, siga os passos:
 
-- Passo 1. Digite o nome ou parte do nome do cidadão no campo "Pesquisa por cidadão"
+- Passo 1. Digite o nome ou parte do nome do cidadão no campo "Agenda do cidadão"
 
 ![](media/pec_image295.png)
 

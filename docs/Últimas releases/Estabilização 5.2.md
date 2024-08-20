@@ -10,6 +10,47 @@ last_modified_date: "13/05/2024"
 
 ### Versões de estabilização 5.2
 
+
+### Versão 5.2.41
+
+* Correção de cenário onde não estava sendo possível transmitir registros anteriores de vacinação.
+
+### Versão 5.2.40
+
+* Correção de erro inesperado que aparecia ao tentar redefinir senha de alguns profissionais.
+* Ajustes visando performance na conexão com o servidor da Agenda online.
+
+### Versão 5.2.39
+
+* Melhorias visuais no e-mail da Prescrição digital.
+* Alteração da nomenclatura da coluna "ESTADO" para "UF" no relatório CSV da Busca ativa de Vacinação.
+* Correção no botão do "SUS Digital Profissional" permitindo que os profissionais acessem a RNDS através dos atendimentos.
+* Implementação da obrigatoriedade do campo "Grupo de atendimento" para todas as estratégias de vacinação, e imunobiológicos.
+* Implementação da equivalência entre doses do esquema vacinal e doses DU, D e REF, para os imunobiológicos Hepatite A, Febre Amarela, Meningo C e HPV.
+* Eliminação da exigência de preenchimento do "Número do prontuário familiar" para que o cadastro do imóvel seja considerado completo, tanto para novos cadastros quanto para atualizações realizadas a partir de agora.
+
+### Versão 5.2.38
+
+* Correção na tela de impressão do documento da Prescrição digital de medicamentos que estava sendo renderizado incorretamente em dispositivos iOS.
+* Ajuste de exibição das doses dos imunobiológicos Moderna Spikevax e dTpa Adulto no Calendário Vacinal.
+* Correção da ordenação da listagem do Acompanhamento de cidadãos vinculados. Os cidadãos do mesmo núcleo familiar serão apresentados em sequência.
+* Preenchimento automático da lotação do usuário logado no cabeçalho das fichas geradas pela edição de logradouro, no Acompanhamento do Território, corrigindo o cenário em que algumas fichas eram criadas com lotações já inativas que constavam na ficha anterior.
+* Envio automático de informações dos atendimentos de odontologia realizados para a RNDS.
+
+### Versão 5.2.37
+
+* Atualização da tabela de procedimentos SIGTAP do sistema para a competência de 02/2024.
+* Informações de medicamentos registrados em Atendimentos individuais e odontológicos importados no PEC passarão a ser exibidas no Histórico clínico do cidadão.
+* Inativação da opção "Transgênero" no campo de Identidade de gênero do cadastro do cidadão.
+* Inclusão do nome da mãe e da data de nascimento na impressão do Histórico clínico do cidadão.
+* Pequenas atualizações dos calendários vacinais para os imunobiológicos HepB, dT, dTpa e Moderna Spikevax.
+* Inclusão dos imunobiológicos VPC20, VVSR-Rec, VVSR-RecAdj e INF4-alta dosagem para registro via Transcrição de caderneta.
+* Atualização das regras de vacinação para os imunobiológicos Hepatite A (adulta e infantil), Pneumo 23, Moderna Spikevx e Pentavalente.
+* Correção de cenário onde estavam sendo exibidas cidadãs gestantes sem condição ativa no Acompanhamento de condições de saúde.
+* Inclusão da funcionalidade que permite ao usuário editar um agendamento de consulta.
+* Disparo de alertas, indicando sucesso ou erro, quando um e-mail de agendamento é enviado.
+* Correção de erro em que a vinculação de um cidadão era reativada após uma saída de território na Ficha de cadastro individual.
+
 ### Versão 5.2.36
 
 * Implementação da obrigatoriedade da equipe para o gestor na realização da pesquisa no módulo de Acompanhamento de condições de saúde.
