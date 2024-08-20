@@ -23,7 +23,7 @@ O cadastro da Atenção Primária à Saúde é uma extensão do Cadastro Naciona
 O cadastro está organizado em quatro dimensões (imóvel, territorial, familiar e individual) conforme detalhado nas seções a seguir.
 
 {: .atencao }
-a partir da reestruturação do cadastro também é possível registrar imóveis que estejam vazios, e outros tipos de imóveis existentes no território.
+O aplicativo e-SUS território a partir da versão 4.3.8 incluiu novos campos relacionados ao contexto de atendimento da saúde indígena. 
 
 {: .dica }
 a manutenção de registros de imóveis permite fazer um melhor controle pela equipe de questões de vigilância do território, bem como auxilia na inserção de novos núcleos familiares em imóveis já cadastrados.
@@ -42,7 +42,7 @@ Caso a base local esteja vazia, a tela apresentada na Figura 3.1 não mostrará 
 
 O ícone ![](media/image16.png) situado no canto inferior direito da tela é utilizado para ofertar opções de interação de acordo com as funcionalidades disponíveis na tela.
 
-O botão ![](media/image17.png) no canto superior esquerdo mostra o menu principal do aplicativo com informações sobre o agente que está logado no aplicativo, além das opções "Sincronizar", "Inconsitências da Sicronização", "Mapa", "Cidadãos", "Relatórios de território", "Unificar Logradouros", "Editar Logradouro", "Sobre", "Trocar lotação", "Obter ajuda" e "Sair".
+O botão ![](media/image17.png) no canto superior esquerdo mostra o menu principal do aplicativo com informações sobre o agente que está logado no aplicativo, além das opções "Sincronizar", "Inconsitências da Sicronização", "Mapa", "Cidadãos", "Relatórios de território", "Unificar Logradouros", "Editar Logradouro", "Trocar lotação", "Obter ajuda", "Sobre" e "Sair".
 
 Figura 3.2 - Menu principal do App e-SUS Território.
 
@@ -75,15 +75,17 @@ Para incluir um novo imóvel é necessário selecionar o ícone ![](media/image2
 {: .nota }
 Para mais informações sobre os conceitos que dizem respeito ao cadastramento dos imóveis recomenda-se a leitura do Manual do Sistema com Coleta de Dados Simplificada (CDS).
 
-O cadastro de imóveis é dividido em quatro etapas.
+O cadastro de imóveis é dividido em quatro etapas para os seguintes tipos de imóveis: Domicílio, Abrigo, Instituição de Longa Permanência, Unidade Prisional, Unidade de Medida Sócio Educativa e Delegacia. Já os imóveis com duas etapas para cadastro são: Estalelecimento Religioso, Terreno Baldio, Ponto Estratégico, Escola, Creche, Comércio, Casai e Outros.  
 
 -   Primeira etapa: dados do endereço.
 
-Figura 3.5 - Tela Cadastro de imóvel
+Figura 3.5 - Tela Cadastro de imóvel com quatro etapas
 
 ![](media/image26.png)
 
 Fonte: SAPS/MS.
+
+{: .dica Inclusão do tipo de imóvel CASAI - Casa de Saúde Indígena}  
 
 -   Segunda etapa: dados de condições de moradia (parte 1).
 
@@ -92,6 +94,7 @@ Figura 3.6 - Tela Edição de imóvel
 ![](media/image27.png)
 
 Fonte: SAPS/MS.
+
 
 -   Terceira etapa: condições de moradia (parte 2).
 
