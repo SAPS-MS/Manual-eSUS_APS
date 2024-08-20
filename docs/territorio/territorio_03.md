@@ -95,18 +95,32 @@ Figura 3.6 - Tela Edição de imóvel
 
 Fonte: SAPS/MS.
 
+{: .atualização } 
+Em caso de cadastro em área rural, foram incluídas no campo condição de posse duas opções: ""Terra indígena demarcada" e 
+"Terra não demarcada"
+
+No campo tipo de domicílio foram incluídas mais duas opções: "Maloca" e "Improvisado". 
+
 -   Terceira etapa: condições de moradia (parte 2).
 
-Figura 3.7 - Tela Cadastro de imóvel
+{: .atualização }
+No campo Material predominante na construção das paredes externas de seu domicílio foram incluídas as seguintes opções:  "Lona", "Misto/Diferentes materiais", "Caule de palmeira" e "Sem parede". 
+
+No campo abastecimento de água foram atualizadas e incluídas as seguintes opções: "Ponto de abastecimento coletivo - chafariz", "Rede encanada até o domicílio - Sistema de abastecimento próprio da aldeia (SESAI)", "Captação direta de água do rio", "Captação direta de poço coletivo".  
+
+No campo Água para consumo no domicílio foram incluídas as seguintes opções: "Clorada intradomiciliar com hipoclorito de sódio", a opção Filtrada foi dividida em duas: "Filtrada com filtro de barro" e "Filtrada por outro tipo de filtro". 
+
+No campo Disponibilidade de energia elétrica? se a resposta for sim, habilita as seguintes opções: Concessionária,Gerador comunitário, Gerador individual, Fotovoltaica comunitária e Fotovoltaica individual. 
+
+No campo Animais no domicílio? - Qual(is)? foram incluídos os seguintes animais: "Macaco", "Galinha", "Porco" e "Répteis"
+
+Figura 3.7 - Tela Cadastro de imóvel (Condição de moradia)
 
 ![](media/image28.png)
 
 Fonte: SAPS/MS.
 
 -    Quarta etapa: Informar a posição do imóvel no Mapa.
-
-{: .novidade }
-Esta é uma novidade da versão 3.8 do aplicativo e-SUS Território. Agora o agente de saúde pode apontar no Mapa os imóveis e identificar as áreas mais vulneráveis. 
 
 Para poder utilizar os recursos do Mapa, o agente de saúde precisa autorizar o acesso ao serviço de localização do seu smartphone ou tablet. 
 
@@ -131,9 +145,9 @@ Figura 3.09 - Tela Informações do domicílio
 
 *Fonte: SAPS/MS*
 
-### 3.1.2 Recusa do Cadastro Domiciliar
+### 3.1.2 Recusa do Cadastro de Imóvel
 
-Nas primeiras duas etapas do cadastro de domicílio é possível informar a recusa (Adicionar Recusa) de cadastro através do botão ![](media/image30.png) no canto superior direito da tela.
+Nas primeiras duas etapas do cadastro do imóvel é possível informar a recusa (Adicionar Recusa) de cadastro através do botão ![](media/image30.png) no canto superior direito da tela. É importante esclarecer para o cidadão que apesar da recusa em cadastrar o imóvel não haverá impendimento para acesso à unidade básica de saúde. 
 
 Figura 3.10 - Tela de cadastro de imóvel
 
@@ -146,7 +160,7 @@ Para informar a recusa do cadastro do imóvel ainda será necessário preencher 
 {: .nota }
 a opção de recusa do cadastro só está disponível para os tipos de imóveis: Domicílio, Abrigo, Instituição de Longa Permanência para Idosos, Unidade Prisional, Unidade de Medida Sócio Educativa e Delegacia.
 
-### 3.1.3 Atualizar Cadastro Domiciliar
+### 3.1.3 Atualizar Cadastro de Imóvel
 
 Ao acessar um imóvel cadastrado, clique no ícone ![](media/image32.png) para atualizar as informações do imóvel.
 
@@ -162,7 +176,7 @@ Para atualizar o cadastro clique em "Atualizar imóvel", e em seguida basta segu
 
 Diferente das fichas de Coleta de Dados Simplificada, que cria os núcleos familiares através da vinculação de responsável familiar e dependentes automaticamente, o aplicativo e-SUS Território dispõe do cadastro da família para realizar as vinculações entre as pessoas que compõem este núcleo familiar de forma mais detalhada. A aplicação móvel tem ampla vantagem nesta funcionalidade em relação às fichas de papel.
 
-Ao finalizar o cadastro domiciliar, clique em "Adicionar Família" para iniciar o registro de uma família.
+Ao finalizar o cadastro de imóvel, clique em "Adicionar Família" para iniciar o registro de uma família.
 
 Em seguida preencha as informações sobre a família: Número do prontuário familiar, renda familiar, número de membros e reside desde (mês/ano).
 
@@ -211,9 +225,9 @@ Figura 3.16 - Tela Editando família
 
 *Fonte: SAPS/MS*
 
-### 3.2.3 Desvincular Família do Domicílio
+### 3.2.3 Desvincular Família do imóvel
 
-Para desvincular a família de um domicílio, orientado ao que ocorre na prática no território, é utilizada a opção "Família mudou" ![](media/image44.png) para informar que a família não reside mais no domicílio em questão.
+Para desvincular a família de um imóvel, orientado ao que ocorre na prática no território, é utilizada a opção "Família mudou" ![](media/image44.png) para informar que a família não reside mais no domicílio em questão.
 
 Para editar os dados de um núcleo familiar, selecione o ícone ![](media/image32.png) na família e clique em "Familia mudou";
 
@@ -295,7 +309,7 @@ Caso tenha sido cadastrado em situação de rua, será exibida uma oitava etapa 
 
 ### 3.3.2 Recusa do Cadastro de Cidadão
 
-Nas primeiras duas etapas do cadastro de cidadão é possível informar a recusa (Adicionar Recusa) de cadastro através do botão ![](media/image57.png) no canto superior direito da tela.
+Nas primeiras duas etapas do cadastro de cidadão é possível informar a recusa (Adicionar Recusa) de cadastro através do botão ![](media/image57.png) no canto superior direito da tela. Mesmo com a recusa do cidadão, sugere-se a coletada de alguns dados (não obrigatórios) como: CPF ou CNS do cidadão; Nome completo e/ou Nome social; Data de nascimento; sexo; Raça/cor; Nacionalidade; Telefone celular; e-mail; Nome completo da mãe e nome completo do pai. A partir dessa informação, gera o registro de recusa do cidadão. No entanto, é importante esclarecer que mesmo com a recusa do cadastro não haverá impedimento para atendimento à unidade básica de saúde. 
 
 Figura 3.25 - Tela de Cadastro de cidadão
 
