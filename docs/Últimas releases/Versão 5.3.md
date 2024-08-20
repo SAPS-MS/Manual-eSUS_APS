@@ -11,9 +11,13 @@ last_modified_date: "17/05/2024"
 # Versão 5.3
 ## Novidades:
 
-* Busca ativa de vacinação
-* Cadastro de Imóveis e Famílias
-* Videochamada do profissional convidado adaptada para telefone celular
+* Busca ativa de vacinação;
+* Cadastro de Imóveis e Famílias;
+* Videochamada do profissional convidado    adaptada para telefone celular;
+* Acompanhamento das condições de saúde;
+* Videochamada do profissional convidado adaptada para telefone celular;
+* Videochamada do profissional convidado adaptada para tablet.
+
 
 ![](../Apoio%20a%20Implantação/media/busca_ativa.png)
 
