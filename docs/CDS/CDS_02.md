@@ -304,6 +304,24 @@ Essas informações são importantes para rastrear o Risco de insegurança alime
 
 Fonte: SAPS/MS.
 
+{: .nota }
+**O que é a TRIA?**
+
+A Triagem para Risco de Insegurança Alimentar (TRIA) é um instrumento utilizado por profissionais da Atenção Primária à Saúde (APS) para identificar, monitorar e avaliar o risco de insegurança alimentar nos territórios. Esse instrumento está no escopo do Plano Brasil Sem Fome, sendo uma contribuição importante do Sistema Único de Saúde (SUS) no combate à fome e na promoção da equidade do cuidado junto às pessoas em domicílios em situação de maior vulnerabilidade. 
+
+As informações da TRIA subsidiam ações intersetoriais à nível micro, promovendo o cuidado integral da família em situação de risco para insegurança alimentar, e à nível macro, a partir da formulação e adequação de políticas públicas com foco na Segurança Alimentar e Nutricional (SAN) e na garantia do Direito Humano à Alimentação Adequada (DHAA). 
+
+A TRIA pode ser aplicada e atualizada por profissionais de saúde da APS a qualquer momento em que a ficha de cadastro individual seja acessada, ou seja, em todas as oportunidades de contato com os indivíduos: no acolhimento, em consultas individuais, em visitas domiciliares, em atividades em grupo, na escola, no pré-natal e puericultura, no acompanhamento de condicionalidades do Bolsa Família, entre outros. Essas informações são importantes para coordenar o cuidado e para a promoção da SAN. 
+
+{: .atencao }
+
+**Orientações para o preenchimento**
+* O profissional deve fazer as duas perguntas para o cidadão, não simplesmente responda baseada em interações anteriores. 
+
+* Perguntar para todas as pessoas acima de 18 anos do território.  
+
+* Refazer as perguntas no intervalo de três a seis meses para verificar possíveis mudanças advindas dos encaminhamentos intersetoriais.
+
 Para mais informações sobre a TRIA, acesse o link do [Manual de Triagem de Insegurança Alimentar](http://189.28.128.100/dab/docs/portaldab/publicacoes/instrutivo_inseguranca_alimentar_aps.pdf).
 
 ### 2.1.6 Saída do cidadão do cadastro
