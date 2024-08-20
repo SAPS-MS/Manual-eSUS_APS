@@ -59,3 +59,9 @@ Inclusão do **bairro** nos filtros avançados:
     * Chat.
 
 ![](./media/video_chamadaa.png)
+
+**Videochamada do profissional convidado adaptada para tablet**
+
+* Os componentes da videochamada foram adaptados para funcionar corretamente em tablets. O objetivo do módulo é adaptar as telas da videochamada para tablet. Todas as funcionalidades da videochamada foram mantidas.
+
+![](./media/54.png)
