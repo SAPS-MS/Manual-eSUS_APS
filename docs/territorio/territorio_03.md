@@ -95,7 +95,6 @@ Figura 3.6 - Tela Edição de imóvel
 
 Fonte: SAPS/MS.
 
-
 -   Terceira etapa: condições de moradia (parte 2).
 
 Figura 3.7 - Tela Cadastro de imóvel
