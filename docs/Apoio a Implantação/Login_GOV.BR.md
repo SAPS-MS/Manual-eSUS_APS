@@ -127,7 +127,7 @@ Destacamos que todos os passos dos formulários a seguir deverão ser realizadas
 
 - Em “Chave Pública PGP do Responsável Técnico”, siga este tutorial ([LINK](https://acesso.gov.br/roteiro-tecnico/chavepgp.html#como-criar-um-par-de-chaves-pgp)) na primeira parte “Como criar um par de chaves PGP”, gere a chave com os dados do Responsável Técnico e anexe o arquivo *.asc neste campo. 
 
-- Em “URL”(s) do retorno Homologação”, digite a seguinte informação, substituindo “SEU-DOMINIO” pelo domínio de acesso à sua Instalação do e-SUS APS, exemplo: 
+- Em “URL”(s) do retorno Homologação”, digite os domínios abaixo, substituindo “SEU-DOMINIO” pelo domínio de acesso à sua Instalação do e-SUS APS, exemplo: 
 ```
 https://SEU-DOMINIO/login/oauth2/code/govbr
 https://SEU-DOMINIO/oauth2/code/govbr
@@ -214,7 +214,7 @@ sudo systemctl restart e-SUS-PEC
 
 > Como preencher: 
 
-- Em “URL(s) do retorno Produção” cole o endereço que você copiou no passo anterior, exemplo:
+- Em “URL(s) do retorno Produção”, digite os domínios abaixo, substituindo “SEU-DOMINIO” pelo domínio de acesso à sua Instalação do e-SUS APS, exemplo:
 ```
 https://SEU-DOMINIO/login/oauth2/code/govbr
 https://SEU-DOMINIO/oauth2/code/govbr
