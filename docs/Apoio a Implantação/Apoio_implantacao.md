@@ -124,7 +124,7 @@ last_modified_date: "25/09/2023"
 
   <h4>Instalação do JAVA:</h4>
   <br>
-  <p>A instalação na plataforma Microsoft Windows vem com pacote Java embutido, caso seja necessária uma instalação personalizada deve ser realizada a instalação do pacote Java 7. Para plataformas Linux recomenda-se seguir as instruções do arquivo “LEIA-ME” incluso no arquivo (compactado) de instalação.</p>
+  <p>A instalação na plataforma Microsoft Windows vem com pacote Java embutido, caso seja necessária uma instalação personalizada deve ser realizada a instalação do pacote Java 8. Para plataformas Linux recomenda-se seguir as instruções do arquivo “LEIA-ME” incluso no arquivo (compactado) de instalação.</p>
   <br>
   <a href="https://www.oracle.com/java/technologies/downloads/#java8" target="_blank">Download do Java</a>
   <br>
