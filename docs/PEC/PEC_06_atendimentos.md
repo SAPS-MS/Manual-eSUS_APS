@@ -305,8 +305,6 @@ Para interromper um atendimento iniciado de forma equivocada, é importante usar
 
 O módulo de vacinação possibilita o registro de aplicação, transcrição e aprazamento de imunobiológicos que fazem parte do Programa Nacional de Imunização (PNI) do Ministério da Saúde (MS) e que contribuem para o controle, erradicação e eliminação de doenças imunopreveníveis. Através dos registros realizados no PEC, o profissional da Atenção Primária pode realizar a avaliação da situação vacinal do cidadão e encaminhá-lo para início ou completude dos esquemas vacinais, conforme as definições realizadas pelo Departamento do PNI nos calendários de vacinação de crianças, adolescentes, adultos, idosos e gestantes, disponíveis em <https://www.gov.br/saude/pt-br/vacinacao/calendario/> para consulta. 
 
-## 6.3.1 Registrar Vacinação
-
 Para iniciar um atendimento de vacinação no PEC, é necessário que seja selecionada a opção “vacina” em “tipo de atendimento” no momento em que o cidadão é incluído na lista de atendimentos, ou ainda no bloco de desfecho da escuta inicial ou do atendimento. Dessa forma,  o botão “Realizar Vacinação” é ativado e estará disponível: 
 
 Figura - Inclusão para registro da Vacinação
@@ -358,59 +356,58 @@ Os status da situação vacinal são exibidos nos quadros de cada dose, alterand
 
 ![](media/pec_image347.png)
 
+## 6.3.1 Registrar Vacina Aplicada
+
 Para registrar uma vacina aplicada siga as seguintes etapas:
 
 1\. Clique no card da dose que será registrada, conforme figura abaixo:  
 
 ![](media/pec_image348.png)
 
-2\. Em seguida, selecione entre as opções exibidas: 
+2\. Em seguida, serão exibidas as seguintes opções:
 
-![](media/pec_image1125.png)
+![](media/pec_image352.png)
 
 **Transcrição de caderneta:** utiliza-se essa opção para os casos de registros de doses administradas em outros estabelecimentos, tendo como finalidade atualizar a caderneta do cidadão no PEC para a continuidade do cuidado. Será detalhada melhor a seguir. 
 
-**Aprazar:** para registrar uma delimitação de data em que a dose deverá ser realizada. 
+**Aprazar:** para registrar uma delimitação de data em que a dose deverá ser realizada. Será detalhada melhor a seguir.  
 
 **Aplicar:** para realizar o registro de uma dose da vacina administrada no momento do atendimento. 
 
-3\. Os campos para o registro do "Imunobiológico" e "dose" aparecerão conforme o card selecionado previamente pelo profissional de saúde na tela do quadro de vacinação, não sendo possível a sua alteração.
+Nesse caso, deve ser selecionada a opção "Aplicar". No registro de aplicação, os seguintes campos são de preenchimento obrigatório: estratégia, grupo de atendimento, lote/fabricante, via de administração e local de aplicação.
+Os campos para o registro do "Imunobiológico" e "dose" aparecerão conforme o card selecionado previamente pelo profissional na tela do quadro de vacinação, não sendo possível a sua alteração.
 
 Figura - Tela para adicionar vacinação
 
 ![](media/pec_image349.png)
 
-4\. No registro de aplicação, os seguintes campos são de preenchimento obrigatório: estratégia, lote/fabricante, via de administração e local de aplicação. O lote pode ser cadastrado previamente.
 
-![](media/pec_image352.png)
+3\. Selecione a estratégia de vacinação no campo "Estratégia". As opções a serem exibidas variam de acordo com cada imunobiológico e as regras definidas pelo PNI. 
 
-5\. Selecionar a estratégia de vacinação no campo "Estratégia", que é de preenchimento obrigatório.
+4\. Selecione o grupo de atendimento de acordo com o público alvo que o cidadão sendo vacinado se encaixa. Destaca-se que para registros de doses aplicadas de acordo com os calendários da criança, adolescente, adulto e idoso, utiliza-se a opção de grupo de atendimento "faixa etária". 
 
 ![](media/pec_image353.png)
 
-6\. Selecionar no campo "Lote/Fabricante", o número de fabricação do lote que se encontra, geralmente, no frasco do imunobiológico, assim como o nome do fabricante da vacina. Caso o lote e fabricante não estejam disponíveis, é possível realizar a sua inclusão. Veja como realizar esta operação no tópico **6.3.1.1** a seguir.
+5\. Selecione no campo "Lote/Fabricante", o número de fabricação do lote que se encontra, geralmente, no frasco do imunobiológico, assim como o nome do fabricante da vacina. Caso o lote e fabricante não estejam disponíveis para seleção, é possível realizar a sua inclusão previamente. Veja como realizar esta operação no tópico **6.3.1.1** a seguir.
 
-7\. Selecione a opção desejada nos combos "Via de administração" e "Local de aplicação". Caso seja necessário, descreva as observações no campo com este destino.
+6\. Selecione a opção desejada em "Via de administração" e "Local de aplicação". Caso seja necessário, descreva as observações no campo livre.
 
 ![](media/pec_image358.png)
 
-8\. Ao final destas etapas clique em "SALVAR" e aparecerá a mensagem "Registro salvo com sucesso". Caso esteja faltando o preenchimento de algum campo obrigatório, o registro não será salvo e o sistema emitirá um alerta informando qual(is) campo(s) não foram preenchidos.
+7\. Ao final destas etapas clique em "SALVAR" e aparecerá a mensagem "Registro salvo com sucesso". Caso esteja faltando o preenchimento de algum campo obrigatório, o registro não será salvo e o sistema emitirá um alerta informando qual(is) campo(s) não foram preenchidos.
 
-{: .atencao }
-Os profissionais de saúde que realizam a administração de imunobiológicos deverão seguir as normas e procedimentos para a vacinação de acordo com o Programa Nacional de Imunização do Ministério da Saúde.
+8\. Ainda é possível verificar as informações sobre o registro ao clicar no quadro da dose da vacina administrada.
 
-9\. Ainda é possível verificar as informações sobre o registro ao clicar no quadro da dose da vacina administrada (Figura 6.3.6).
-
-Figura 6.3.6 - Visualização de Imunobiológico
+Figura - Visualização de Imunobiológico
 
 ![](media/pec_image359.png)
 
 Fonte: SAPS/MS
 
 {: .dica }
-Para aumentar a segurança na aplicação dos imunobiológicos o sistema emite alertas quando da tentativa de registro de uma dose que não seja recomendada para o cidadão (Figura 6.3.7).
+Para aumentar a segurança na aplicação dos imunobiológicos o sistema emite alertas quando da tentativa de registro de uma dose que não seja recomendada para o cidadão. Ainda assim, cabe destacar que isso não impede que o registro seja realizado. 
 
-Figura 6.3.7 - Confirmação de registro de dose advertida
+Figura - Confirmação de registro de dose advertida
 
 ![](media/pec_image360.png)
 
@@ -418,26 +415,25 @@ Fonte: SAPS/MS
 
 ### 6.3.1.1 Cadastrar lote e fabricante
 
-Caso o lote e o fabricante não estejam previamente cadastrado no sistema, como indicado na [seção 3.10 do Capítulo 3](https://cgiap-saps.github.io/e-SUS-APS-v.4.1/03_adm_conf/#310-lotes-de-imunobiol%C3%B3gicos), é possível realizar a inserção destas informações a partir da opção "+ Adicionar novo".
+Caso o lote e o fabricante não estejam previamente cadastrados no sistema no momento de registrar a aplicação, é possível realizar a inserção destas informações através de duas formas: 
 
-![](media/pec_image354.png)
-
-Serão disponibilizados mais campos para a realização da operação conforme a figura a seguir:
-
-Figura 6.3.8
+a. Na própria tela de registro de aplicação, na opção "Cadastrar novo lote". 
 
 ![](media/pec_image355.png)
-
 Fonte: SAPS/MS
 
-Siga os passos as seguir para cadastrar novos lotes e fabricantes de uma vacina.
+Nesse caso, serão exibidos três novos campos durante o registro da aplicação, de preenchimento obrigatório: lote, fabricante e data de validade. 
 
-- Passo 1: No campo "Cadastrar lote" digite o número do Lote, o nome do Fabricante e a Data de validade contida no frasco/embalagem do imunobiológico. Observe que todos esses campos são de preenchimento
-obrigatório.
+b. No menu lateral esquerdo do PEC, em "Lotes de Imunobiológicos". Desta forma, não é necessário estar acessando um atendimento de um cidadão. 
 
-- Passo 2: Caso o Lote, Fabricante e a Data de validade que foi adicionado no campo "Cadastrar lote" já esteja cadastrado no sistema irá aparecer a mensagem "Este lote de imunobiológico já está cadastrado". Nesta situação, clique em "OK" e após na opção ![](media/pec_image356.png) que removerá os campos para cadastro de lote e voltará exibir o combo "Lote/Fabricante".
+![](media/pec_image354.png)
+Fonte: SAPS/MS
+
+Dessa forma, ao clicar em + Cadastrar lote, deverão ser preenchidos os campos: lote, fabricante, nome do imunobiológico e data de validade conformes as informações contidas no frasco. 
 
 ![](media/pec_image357.png)
+
+Caso o Lote, Fabricante e a Data de validade que foi adicionado no campo "Cadastrar lote" já esteja cadastrado no sistema irá aparecer a mensagem "Este lote de imunobiológico já está cadastrado". Nesta situação, clique em "OK" e após na opção ![](media/pec_image356.png) que removerá os campos para cadastro de lote e voltará exibir o combo "Lote/Fabricante".
 
 ## 6.3.2. Transcrição de Caderneta
 
