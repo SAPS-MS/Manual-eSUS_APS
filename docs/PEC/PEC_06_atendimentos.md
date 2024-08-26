@@ -305,7 +305,7 @@ Para interromper um atendimento iniciado de forma equivocada, é importante usar
 
 O módulo de vacinação possibilita o registro de aplicação, transcrição e aprazamento de imunobiológicos que fazem parte do Programa Nacional de Imunização (PNI) do Ministério da Saúde (MS) e que contribuem para o controle, erradicação e eliminação de doenças imunopreveníveis. Através dos registros realizados no PEC, o profissional da Atenção Primária pode realizar a avaliação da situação vacinal do cidadão e encaminhá-lo para início ou completude dos esquemas vacinais, conforme as definições realizadas pelo Departamento do PNI nos calendários de vacinação de crianças, adolescentes, adultos, idosos e gestantes, disponíveis em <https://www.gov.br/saude/pt-br/vacinacao/calendario/> para consulta. 
 
-## 6.3.1 Registrar Vacina Aplicada
+## 6.3.1 Registrar Vacinação
 
 Para iniciar um atendimento de vacinação no PEC, é necessário que seja selecionada a opção “vacina” em “tipo de atendimento” no momento em que o cidadão é incluído na lista de atendimentos, ou ainda no bloco de desfecho da escuta inicial ou do atendimento. Dessa forma,  o botão “Realizar Vacinação” é ativado e estará disponível: 
 
@@ -313,7 +313,7 @@ Figura - Inclusão para registro da Vacinação
 
 ![](media/pec_image341.png)
 
-Fonte: SAPS/MSdfresxwazq  
+Fonte: SAPS/MS 
 
 Em seguida, é necessário clicar no ícone ![](media/pec_image342.png) que direciona para realizar o registro de vacinação no PEC.
 
@@ -351,10 +351,10 @@ Os imunobiológicos exibidos no bloco são apresentados de acordo com o calendá
 Ainda assim, é possível visualizar todos os imunobiológicos para os grupos ao selecionar a opção “mostrar calendário nacional completo”. 
 
 Os status da situação vacinal são exibidos nos quadros de cada dose, alterando a cor das doses seguinte forma: 
-Dose aplicada: cor verde. 
-Dose atrasada: cor vermelha. 
-Dose a aplicar (em tempo para ser realizada): cor branca. 
-Dose a aprazar (doses a serem aplicadas futuramente): cor cinza. 
+* Dose aplicada: cor verde. 
+* Dose atrasada: cor vermelha. 
+* Dose a aplicar (em tempo para ser realizada): cor branca. 
+* Dose a aprazar (doses a serem aplicadas futuramente): cor cinza. 
 
 ![](media/pec_image347.png)
 
@@ -374,13 +374,13 @@ Para registrar uma vacina aplicada siga as seguintes etapas:
 
 **Aplicar:** para realizar o registro de uma dose da vacina administrada no momento do atendimento. 
 
-3\. No registro de aplicação, os seguintes campos são de preenchimento obrigatório: estratégia, lote/fabricante, via de administração, local de aplicação (Figura 6.3.
+3\. Os campos para o registro do "Imunobiológico" e "dose" aparecerão conforme o card selecionado previamente pelo profissional de saúde na tela do quadro de vacinação, não sendo possível a sua alteração.
 
 Figura - Tela para adicionar vacinação
 
 ![](media/pec_image349.png)
 
-4\. Os campos para o registro do "Imunobiológico" e "dose" aparecerão conforme a seleção realizada pelo profissional de saúde na tela do quadro de vacinação (Figura 6.3.4), não sendo possível a sua alteração.
+4\. No registro de aplicação, os seguintes campos são de preenchimento obrigatório: estratégia, lote/fabricante, via de administração e local de aplicação. O lote pode ser cadastrado previamente.
 
 ![](media/pec_image352.png)
 
