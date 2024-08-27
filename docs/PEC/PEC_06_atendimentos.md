@@ -442,11 +442,11 @@ Caso o Lote, Fabricante e a Data de validade que foi adicionado no campo "Cadast
 
 ## 6.3.2. Transcrição de Caderneta
 
-Aproveitando a oportunidade do registro da dose aplicada no cidadão é recomendado também registrar as doses anteriores com a finalidade de atualizar o calendário vacinal no PEC. Para registrar uma dose anterior siga as seguintes etapas. 
+Aproveitando a oportunidade de atendimento, recomenda-se realizar a avaliação da caderneta vacinal do cidadão, a fim de verificar registros realizados em outros serviços e transcrevê-los no PEC. 
 
 1\. É possível visualizar o calendário vacinal de acordo com o ciclo de vida (criança, adolescente, adulto e idoso) ou pelo calendário nacional completo;
 
-2\. Clique sobre a "Dose" do imunobiológico que será administrado. Após será aberta uma nova tela "ADICIONAR VACINAÇÃO" conforme a figura 6.3.5, visto anteriormente.
+2\. Clique sobre a "Dose" do imunobiológico que será registrado. Após será aberta uma nova tela "ADICIONAR VACINAÇÃO" conforme a figura 6.3.5, visto anteriormente.
 
 3\. Mova o botão "É registro anterior?" até que apareça a palavra "Sim" ![](media/pec_image351.png). Após essa ação aparecerá a tela conforme a figura abaixo:
 
