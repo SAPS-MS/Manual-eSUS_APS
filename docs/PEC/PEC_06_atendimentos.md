@@ -413,6 +413,11 @@ Figura - Confirmação de registro de dose advertida
 
 Fonte: SAPS/MS
 
+{: .dica }
+É possível registrar mais de uma aplicação no mesmo card do calendário do PEC, desde que o registro ocorra em atendimentos diferentes. Para isso, basta clicar novamente no card, mesmo que ele já apresente um registro de aplicação, e seguir o passo a passo descrito anteriormente. 
+
+![](media/pec_image356.png) 
+
 ### 6.3.1.1 Cadastrar lote e fabricante
 
 Caso o lote e o fabricante não estejam previamente cadastrados no sistema no momento de registrar a aplicação, é possível realizar a inserção destas informações através de duas formas: 
@@ -433,11 +438,11 @@ Dessa forma, ao clicar em + Cadastrar lote, deverão ser preenchidos os campos: 
 
 ![](media/pec_image357.png)
 
-Caso o Lote, Fabricante e a Data de validade que foi adicionado no campo "Cadastrar lote" já esteja cadastrado no sistema irá aparecer a mensagem "Este lote de imunobiológico já está cadastrado". Nesta situação, clique em "OK" e após na opção ![](media/pec_image356.png) que removerá os campos para cadastro de lote e voltará exibir o combo "Lote/Fabricante".
+Caso o Lote, Fabricante e a Data de validade que foi adicionado no campo "Cadastrar lote" já esteja cadastrado no sistema irá aparecer a mensagem "Este lote de imunobiológico já está cadastrado". Nesse caso, é necessário clicar em "Ok" e realizar a seleção da informação já existente no campo "Lote/Fabricante". 
 
 ## 6.3.2. Transcrição de Caderneta
 
-Aproveitando a oportunidade do registro da dose aplicada no cidadão é recomendado também registrar as doses anteriores com a finalidade de atualizar o calendário vacinal no PEC. Para registrar uma dose anterior siga as seguintes etapas.
+Aproveitando a oportunidade do registro da dose aplicada no cidadão é recomendado também registrar as doses anteriores com a finalidade de atualizar o calendário vacinal no PEC. Para registrar uma dose anterior siga as seguintes etapas. 
 
 1\. É possível visualizar o calendário vacinal de acordo com o ciclo de vida (criança, adolescente, adulto e idoso) ou pelo calendário nacional completo;
 
