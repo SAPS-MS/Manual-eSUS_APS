@@ -419,11 +419,25 @@ Fonte: SAPS/MS
 
 ![](media/pec_image356.png) 
 
-## 6.3.1.2 Registrar outros imunobiológicos
+## 6.3.1.2 Registro de doses para vacinação contra COVID-19.
+
+Exclusivamente para atendimento à situação nacional de Emergência em Saúde Pública está disponível o registro das doses aplicadas da vacina COVID-19, além da possibilidade de registro de doses anteriores, se for o caso.
+
+Para iniciar o registro selecione a vacina de acordo com o fabricante como mostra a figura a seguir.
+
+Figura 6.3.21
+
+![](media/vacinacovid19-1.png)
+
+Fonte: SAPS/MS
+
+O comportamento do sistema durante o registro da dose aplicada das vacinas COVID-19, assim como o seu aprazamento, seguem o mesmo padrão das vacinas de rotina. Idem para o processo de registro de doses anteriores como mostra a seção 6.3.2.
+
+## 6.3.1.3 Registrar outros imunobiológicos
 
 Caso o imunobiológico a ser administrado não faça parte do padrão de calendário nacional de vacinação preconizado pelo PNI há a possibilidade de registrar a dose por meio da aba "Outros imunobiológicos".
 
-Figura 6.3.12 - Adicionar outros imunobiológicos
+Figura - Adicionar outros imunobiológicos
 
 ![](media/pec_image366.png)
 
@@ -445,7 +459,7 @@ Figura 6.3.14
 
 Fonte: SAPS/MS
 
-### 6.3.1.3 Cadastrar lote e fabricante
+### 6.3.1.4 Cadastrar lote e fabricante
 
 Caso o lote e o fabricante não estejam previamente cadastrados no sistema no momento de registrar a aplicação, é possível realizar a inserção destas informações através de duas formas: 
 
@@ -500,7 +514,7 @@ Para realizar o aprazamento siga as seguintes etapas:
 
 1\. Visualize o calendário vacinal de acordo com o ciclo de vida (criança, adolescente, adulto e idoso) ou pelo calendário nacional completo;
 
-2\. Clique sobre a "Dose" do imunobiológico que será registrado e aprazado. Após será aberta a tela "ADICIONAR VACINAÇÃO" conforme a figura 6.3.5, visto anteriormente.
+2\. Clique sobre a "Dose" do imunobiológico que será registrado e aprazado. Após será aberta a tela "ADICIONAR VACINAÇÃO". 
 
 3\. O aprazamento poderá ser feito por meio da aba "Aprazamento" ![](media/pec_image362.png), ou simplesmente por meio do campo "Aprazamento", quando for registrar uma dose aplicada. Em ambos os casos, digite a data que o cidadão deverá retornar para receber a dose.
 
@@ -573,35 +587,10 @@ Figura 6.3.19 - Acompanhamento da situação do cartão vacinal
 
 Fonte: SAPS/MS
 
-### 6.3.6.1 Adicionar doses anteriores
-
-No módulo de acompanhamento da vacinação é possível atualizar a caderneta do cidadão no PEC incluindo as doses que estão na caderneta física de vacinação. Para registrar essas doses clique em ![](media/pec_image374.png) e siga os passos do capítulo 6.3.2.
-
-Figura 6.3.20 - Adicionar doses anteriores
-
-![](media/pec_image375.png)
-
-Fonte: SAPS/MS
-
-## 6.3.7 Registro de doses para vacinação contra COVID-19.
-
-Exclusivamente para atendimento à situação nacional de Emergência em Saúde Pública está disponível o registro das doses aplicadas da vacina COVID-19, além da possibilidade de registro de doses anteriores, se for o caso.
-
-Para iniciar o registro selecione a vacina de acordo com o fabricante como mostra a figura a seguir.
-
-Figura 6.3.21
-
-![](media/vacinacovid19-1.png)
-
-Fonte: SAPS/MS
-
-O comportamento do sistema durante o registro da dose aplicada das vacinas COVID-19, assim como o seu aprazamento, seguem o mesmo padrão das vacinas de rotina. Idem para o processo de registro de doses anteriores como mostra a seção 6.3.2.
-
-
 ## 6.3.8 Exclusão de registros de doses aplicadas de vacina após finalizado o atendimento
 
 {: .novidade }
-A partir da versão 4.3 o sistema e-SUS APS disponibiliza a funcionalidade de exclusão do registro de dose aplicada de vacina que já estava salvo no PEC
+A partir da versão 4.3 o sistema e-SUS APS disponibiliza a funcionalidade de exclusão do registro de dose aplicada de vacina que já estava salvo no PEC. 
 
 {: .nota }
 Esta opção de exclusão do registro de dose aplicada de vacina no PEC só pode ser executada pelo profissional que realizou o registro/atendimento.
