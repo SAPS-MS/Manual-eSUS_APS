@@ -357,6 +357,7 @@ Os status da situação vacinal são exibidos nos quadros de cada dose, alterand
 ![](media/pec_image347.png)
 
 ## 6.3.1 Registrar Vacina Aplicada
+## 6.3.1.1 Doses do calendário 
 
 Para registrar uma vacina aplicada siga as seguintes etapas:
 
@@ -388,7 +389,7 @@ Figura - Tela para adicionar vacinação
 
 ![](media/pec_image353.png)
 
-5\. Selecione no campo "Lote/Fabricante", o número de fabricação do lote que se encontra, geralmente, no frasco do imunobiológico, assim como o nome do fabricante da vacina. Caso o lote e fabricante não estejam disponíveis para seleção, é possível realizar a sua inclusão previamente. Veja como realizar esta operação no tópico **6.3.1.1** a seguir.
+5\. Selecione no campo "Lote/Fabricante", o número de fabricação do lote que se encontra, geralmente, no frasco do imunobiológico, assim como o nome do fabricante da vacina. Caso o lote e fabricante não estejam disponíveis para seleção, é possível realizar a sua inclusão previamente. Veja como realizar esta operação no tópico **6.3.1.3** a seguir.
 
 6\. Selecione a opção desejada em "Via de administração" e "Local de aplicação". Caso seja necessário, descreva as observações no campo livre.
 
@@ -418,7 +419,33 @@ Fonte: SAPS/MS
 
 ![](media/pec_image356.png) 
 
-### 6.3.1.1 Cadastrar lote e fabricante
+## 6.3.1.2 Registrar outros imunobiológicos
+
+Caso o imunobiológico a ser administrado não faça parte do padrão de calendário nacional de vacinação preconizado pelo PNI há a possibilidade de registrar a dose por meio da aba "Outros imunobiológicos".
+
+Figura 6.3.12 - Adicionar outros imunobiológicos
+
+![](media/pec_image366.png)
+
+Fonte: SAPS/MS
+
+Ao clicar em "Adicionar dose" aparecerá a tela, de acordo com a Figura 6.3.12. Em seguida siga os mesmos passos conforme já descrito no subcapítulo 6.3.1 deste manual para a adição de doses de imunobiológico no sistema com PEC.
+
+Figura 6.3.13 - Tela de adicionar vacinação
+
+![](media/pec_image367.png)
+
+Fonte: SAPS/MS
+
+Ao clicar em "Salvar" aparecerá a dose aplicada e a dose aprazada, esta última se for o caso, na tela da aba "Outros imunobiológicos".
+
+Figura 6.3.14
+
+![](media/pec_image368.png)
+
+Fonte: SAPS/MS
+
+### 6.3.1.3 Cadastrar lote e fabricante
 
 Caso o lote e o fabricante não estejam previamente cadastrados no sistema no momento de registrar a aplicação, é possível realizar a inserção destas informações através de duas formas: 
 
@@ -442,23 +469,28 @@ Caso o Lote, Fabricante e a Data de validade que foi adicionado no campo "Cadast
 
 ## 6.3.2. Transcrição de Caderneta
 
-Aproveitando a oportunidade de atendimento, recomenda-se realizar a avaliação da caderneta vacinal do cidadão, a fim de verificar registros realizados em outros serviços e transcrevê-los no PEC. 
+Aproveitando a oportunidade de atendimento, recomenda-se verificar se o cidadão possui registros vacinais em outros instrumentos, como cadernetas físicas, por exemplo, a fim de transcrever no PEC doses aplicadas em outros serviços. 
 
-1\. É possível visualizar o calendário vacinal de acordo com o ciclo de vida (criança, adolescente, adulto e idoso) ou pelo calendário nacional completo;
+A transcrição pode ser realizada através do calendário, no casos de doses que fazem parte dele, ou a partir de "outras doses e imunobiológicos". 
 
-2\. Clique sobre a "Dose" do imunobiológico que será registrado. Após será aberta uma nova tela "ADICIONAR VACINAÇÃO" conforme a figura 6.3.5, visto anteriormente.
+Para doses do calendário: 
+1\. A partir do calendário vacinal exibido de acordo com o ciclo de vida (criança, adolescente, adulto e idoso) ou calendário nacional completo, clique no card da dose que será registrada. 
 
-3\. Mova o botão "É registro anterior?" até que apareça a palavra "Sim" ![](media/pec_image351.png). Após essa ação aparecerá a tela conforme a figura abaixo:
+2\. A seguir, clique em ![](media/pec_image351.png) Após essa ação aparecerá a tela conforme a figura abaixo:
 
-Figura 6.3.9 - Tela para adicionar doses de vacinas aplicadas anteriormente
+Figura - Tela para transcrição de caderneta
 
 ![](media/pec_image361.png)
+Fonte: SAPS/MS
 
-4\. Os campos para o registro do "Imunobiológico" e "dose" aparecerão conforme a seleção realizada pelo profissional de saúde na tela do quadro de vacinação (Figura 6.3.4), não sendo possível a sua alteração.
+3\. Os campos para o registro do "Imunobiológico" e "dose" aparecerão conforme a seleção realizada pelo profissional de saúde na tela do quadro de vacinação, não sendo possível a sua alteração.
 
-5\. Registrar a data de aplicação (campo obrigatório), o número do lote e do fabricante, se houver essa informação na caderneta apresentada pelo cidadão, além de observações, caso necessário, no campo específico para esse fim.
+4\. Registre a data de aplicação (campo obrigatório), o número do lote e do fabricante, se houver essa informação na caderneta apresentada pelo cidadão, além de observações, caso necessário, no campo específico para esse fim.
 
-6\. Ao final destas etapas clique em "SALVAR" e aparecerá a mensagem "Registro salvo com sucesso". Caso esteja faltando o preenchimento de algum campo obrigatório, o registro não será salvo e o sistema emitirá um alerta informando qual(is) campo(s) não foram preenchidos.
+5\. Ao final destas etapas clique em "SALVAR" e aparecerá a mensagem "Registro salvo com sucesso". Caso esteja faltando o preenchimento de algum campo obrigatório, o registro não será salvo e o sistema emitirá um alerta informando qual(is) campo(s) não foram preenchidos.
+
+Para outras doses e imunobiológicos: 
+Através da aba de "outras doses e imunobiológicos", clique em clique em ![](media/pec_image351.png) e siga os mesmos passos descritos anteriormente. 
 
 ## 6.3.3. Realizar Aprazamento das doses das vacinas
 
@@ -490,31 +522,6 @@ Figura 6.3.11 - Visualização de Imunobiológico
 
 Fonte: SAPS/MS
 
-## 6.3.4. Registrar outros imunobiológicos
-
-Caso o imunobiológico a ser administrado não faça parte do padrão de calendário nacional de vacinação preconizado pelo PNI há a possibilidade de registrar a dose por meio da aba "Outros imunobiológicos".
-
-Figura 6.3.12 - Adicionar outros imunobiológicos
-
-![](media/pec_image366.png)
-
-Fonte: SAPS/MS
-
-Ao clicar em "Adicionar dose" aparecerá a tela, de acordo com a Figura 6.3.12. Em seguida siga os mesmos passos conforme já descrito no subcapítulo 6.3.1 deste manual para a adição de doses de imunobiológico no sistema com PEC.
-
-Figura 6.3.13 - Tela de adicionar vacinação
-
-![](media/pec_image367.png)
-
-Fonte: SAPS/MS
-
-Ao clicar em "Salvar" aparecerá a dose aplicada e a dose aprazada, esta última se for o caso, na tela da aba "Outros imunobiológicos".
-
-Figura 6.3.14
-
-![](media/pec_image368.png)
-
-Fonte: SAPS/MS
 
 ## 6.3.5. Finalizar registro de dose aplicada
 
