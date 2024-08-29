@@ -124,7 +124,11 @@ O sistema gerará o relatório operacional com os dados dos usuários conforme i
 
 ![](media/pec_image11112.png)
 
-Na versão 5.3 além de poder realizar a exportação do relatório em formato CSV, permitindo a manipulação dos dados, também foi inclusa a visualização, de até 7 dias, dos relatórios que foram processados e que estão em processamento.
+Na versão 5.3 além de poder realizar a exportação do relatório em formato CSV (confome imagem abaixo), permitindo a manipulação dos dados, também foi inclusa a visualização, de até 7 dias, dos relatórios que foram processados e que estão em processamento.
+
+Exemplo Relatório Operacional Faixa Etária Criança
+
+![](media/pec_image11113.png)
 
 ##  Acompanhamentos dos cidadãos vinculados
 
