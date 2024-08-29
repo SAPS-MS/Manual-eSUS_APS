@@ -98,6 +98,7 @@ Ao selecionar um imunobiológico ou dose no campo Filtros avançados, o relatór
 
 Após a seleção dos campos do módulo deve-se clicar em ![](media/Busca_ativa/pec_image994.jpg) para exibir em tela os cidadão naquelas condições, como mostra a Figura 11.7.
 
+
 Figura 11.7 - Exibição em tela da listagem da Busca Ativa
 
 (A) Relatório de Vacinas do Calendário Vacinal
