@@ -119,3 +119,7 @@ Figura 11.8 - Relatório em CSV
 
 Fonte: SAPS/MS.
 
+Demonstração Busca Ativa Vacinação - Exportação do Relatório
+
+![](media/Busca_ativa/busca_ativa_video.gif)
+
