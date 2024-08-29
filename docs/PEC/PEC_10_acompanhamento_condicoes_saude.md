@@ -94,7 +94,7 @@ Atente para a opção de buscar apenas problemas/condições ativas na lista de 
 
 ## 10.1.3 Filtro sexo ou identidade de gênero
 
-Neste bloco é possível selecionar o sexo (feminino ou masculino, ou ambos) ou ainda selecionar a identidade de gênero (mulher transsexual, homem transsexual, travesti e outros).
+Neste bloco é possível selecionar o sexo (feminino ou masculino, ou ambos) ou ainda selecionar a identidade de gênero (mulher cisgênero, mulher transgênero, travesti, homem cisgênero, homem transgênero, não-binário, transgênero, travesti e outro).
 
 ![](media/pec_image837.png)
 
@@ -119,6 +119,12 @@ Após selecionar todos os filtros desejados, clique no botão ![](media/pec_imag
 Ainda, será apresentado o botão ![](media/pec_image843.png) para gerar os relatórios operacionais já existentes no sistema, a saber: "Relatório operacional de Crianças menores de 5 anos", "Relatório operacional de Gestante/Puérpera" e "Relatório operacional de Risco cardiovascular\'\'. Estes serão gerados utilizando as regras já existentes, como núcleo familiar consistido, dentre outros. Veja a pec_imagem abaixo:
 
 ![](media/pec_image844.png)
+
+O sistema gerará o relatório operacional com os dados dos usuários conforme imagem:
+
+![](media/pec_image11112.png)
+
+Na versão 5.3 além de poder realizar a exportação do relatório em formato CSV, permitindo a manipulação dos dados, também foi inclusa a visualização, de até 7 dias, dos relatórios que foram processados e que estão em processamento.
 
 ##  Acompanhamentos dos cidadãos vinculados
 
