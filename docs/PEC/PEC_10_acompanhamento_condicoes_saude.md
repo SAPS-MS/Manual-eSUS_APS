@@ -130,6 +130,11 @@ Exemplo Relatório Operacional Faixa Etária Criança
 
 ![](media/pec_image11113.png)
 
+Demonstração Exportação Relatório 
+
+![](media/acompanhamento_condicoes_de_saude.gif)
+
+
 ##  Acompanhamentos dos cidadãos vinculados
 
 Uma das atividades da Atenção Primária à Saúde é realizar o acompanhamento das condições de saúde dos cidadãos vinculados às Equipes da APS. Esta ação é importante e demanda muita organização por parte da equipe. Uma forma facilitada de realizar o acompanhamento das situações de saúde é por meio de relatórios ou listas de cidadãos que possuem determinada condição de saúde, extraídos a partir do sistema de informação utilizado pela equipe.
@@ -150,3 +155,5 @@ Nesta funcionalidade apresenta-se filtro de microárea, para apoiar a busca de c
 Após selecionar o filtros, clique no botão ![](media/pec_image841.png), e serão listados os cidadão vinculados à equipe, conforme imagem abaixo:
 
 ![](media/pec_image984.png)
+
+
