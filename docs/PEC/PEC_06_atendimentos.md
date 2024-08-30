@@ -569,28 +569,32 @@ Fonte: SAPS/MS
 
 ## 6.3.6 Acompanhamento da situação vacinal
 
-No intuito de proporcionar aos profissionais de saúde o acompanhamento da situação vacinal do cidadão, sob a responsabilidade da equipe, foi desenvolvido no PEC esta funcionalidade que facilita, no momento da consulta, a visualização das vacinas que já foram aplicadas, as que estão em atraso e as que ainda não estão no período indicado.
+O acompanhamento da situação vacinal deve ser oportunizado, sempre que possível, também em momentos de contato do cidadão com a unidade de saúde por outros motivos. Para tal, é possível  verificar os registros vacinais também durante consultas. 
 
-O *Cartão* minimizado apresenta informações essenciais e objetivas ao acompanhamento da situação vacinal, tais como: Se a vacina está em dia, qual foi a última vacina aplicada e a data em que foi aplicada, conforme a figura abaixo.
+**Cartão "Vacinação"**  
+A folha de rosto exibe um cartão que apresenta informações básicas sobre a situação vacinal, tais como: última vacina aplicada e a data de aplicação, aprazamentos realizados e indicativo de que existem vacinas atrasadas ou não registradas.
 
-Figura 6.3.18 - Cartão de Vacinação
+Figura - Cartão de Vacinação
 
 ![](media/pec_image372.png)
 
 Fonte: SAPS/MS
 
-Ao clicar neste *Cartão* aparecem as vacinas recomendadas segundo o ciclo de vida do cidadão. Caso queira visualizar todas as vacinas do calendário clique em "Calendário nacional completo". Neste momento, o profissional de saúde poderá analisar a situação vacinal e indicar a atualização da caderneta de vacinação se existirem vacinas atrasadas ou disponíveis, conforme a figura abaixo.
+**Aba "Vacinação"**   
+A aba de vacinação é exibida também em outros atendimentos para que durante uma consulta, por exemplo, o profissional de saúde possa consultar a situação vacinal do cidadão. 
+Caso o cidadão traga consigo registros de outros serviços, é possível também aproveitar a oportunidade para realizar a transcrição dessas doses no PEC e assim manter o prontuário atualizado. 
 
-Figura 6.3.19 - Acompanhamento da situação do cartão vacinal
+Figura - Acompanhamento da situação vacinal 
 
 ![](media/pec_image373.png)
 
 Fonte: SAPS/MS
 
+É possível visualizar o calendário vacinal e outras doses e imunobiológicos, podendo consultar as aplicações realizadas, assim como as vacinas em atraso. 
+
 ## 6.3.8 Exclusão de registros de doses aplicadas de vacina após finalizado o atendimento
 
-{: .novidade }
-A partir da versão 4.3 o sistema e-SUS APS disponibiliza a funcionalidade de exclusão do registro de dose aplicada de vacina que já estava salvo no PEC. 
+Esta funcionalidade permite a exclusão do registro de dose aplicada de vacina que já estava salvo no PEC. 
 
 {: .nota }
 Esta opção de exclusão do registro de dose aplicada de vacina no PEC só pode ser executada pelo profissional que realizou o registro/atendimento.
