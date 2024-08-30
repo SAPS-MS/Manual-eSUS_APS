@@ -582,15 +582,14 @@ Fonte: SAPS/MS
 
 **Aba "Vacinação"**   
 A aba de vacinação é exibida também em outros atendimentos para que durante uma consulta, por exemplo, o profissional de saúde possa consultar a situação vacinal do cidadão. 
-Caso o cidadão traga consigo registros de outros serviços, é possível também aproveitar a oportunidade para realizar a transcrição dessas doses no PEC e assim manter o prontuário atualizado. 
+É possível visualizar o calendário vacinal e outras doses e imunobiológicos, podendo consultar as aplicações realizadas, assim como as vacinas em atraso. 
+Caso o cidadão traga consigo registros de outros serviços, o sistema permite neste momento adicionar transcrições de caderneta e assim manter o prontuário atualizado. 
 
 Figura - Acompanhamento da situação vacinal 
 
 ![](media/pec_image373.png)
 
 Fonte: SAPS/MS
-
-É possível visualizar o calendário vacinal e outras doses e imunobiológicos, podendo consultar as aplicações realizadas, assim como as vacinas em atraso. 
 
 ## 6.3.8 Exclusão de registros de doses aplicadas de vacina após finalizado o atendimento
 
