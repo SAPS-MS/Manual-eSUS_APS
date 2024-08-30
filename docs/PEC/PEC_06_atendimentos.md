@@ -593,7 +593,7 @@ Fonte: SAPS/MS
 
 ## 6.3.8 Exclusão de registros de doses aplicadas de vacina após finalizado o atendimento
 
-Esta funcionalidade permite a exclusão do registro de dose aplicada de vacina que já estava salvo no PEC. 
+Esta funcionalidade permite a exclusão do registro de dose aplicada de vacina que já estava salvo no PEC.  
 
 {: .nota }
 Esta opção de exclusão do registro de dose aplicada de vacina no PEC só pode ser executada pelo profissional que realizou o registro/atendimento.
