@@ -156,4 +156,10 @@ Após selecionar o filtros, clique no botão ![](media/pec_image841.png), e ser�
 
 ![](media/pec_image984.png)
 
+{: .nota }
+A partir da versão 5.3 do e-US APS, é implementado a opção de exportação do relatório de busca em formato .CSV, permitindo a manipulação dos dados, além da visualização, de até 7 dias, dos relatórios que foram processados e que estão em processamento.
+
+Exportação de relatórios em CSV:
+
+![](media/5-3_acompanhamento_condicoes_de_saude.GIF)
 
