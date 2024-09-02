@@ -22,7 +22,7 @@ MANUAL DE USO
 {: .text-center }
 <br>
 <br>
-(versão 5.2)
+(versão 5.3)
 {: .fs-6 }
 {: .text-center }
 <br>
@@ -74,10 +74,10 @@ Alexandre Soares de Brito e Diogo Ferreira Gonçalves
 {: .text-center }
 
 Brasil. Ministério da Saúde. Secretaria de Atenção Primária à Saúde.<br>
-e-SUS Atenção Primária à Saúde: Manual do Sistema com Prontuário Eletrônico do Cidadão PEC – Versão 5.2 [recurso eletrônico] / Ministério da Saúde, Secretaria de Atenção Primária à Saúde, Secretaria Executiva. – Brasília: Ministério da Saúde, 2023.<br>
+e-SUS Atenção Primária à Saúde: Manual do Sistema com Prontuário Eletrônico do Cidadão PEC – Versão 5.3 [recurso eletrônico] / Ministério da Saúde, Secretaria de Atenção Primária à Saúde, Secretaria Executiva. – Brasília: Ministério da Saúde, 2024.<br>
 <br>
 ISBN **Versão Preliminar**<br>
 Modo de acesso: <https://aps.saude.gov.br/ape/esus><br>
 CDU 614<br>
 
-Catalogação na fonte – Coordenação-Geral de Documentação e Informação – Editora MS – OS 2023.
+Catalogação na fonte – Coordenação-Geral de Documentação e Informação – Editora MS – OS 2024.

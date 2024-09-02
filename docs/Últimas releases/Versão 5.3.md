@@ -11,9 +11,12 @@ last_modified_date: "17/05/2024"
 # Versão 5.3
 ## Novidades:
 
-* Busca ativa de vacinação
-* Cadastro de Imóveis e Famílias
-* Videochamada do profissional convidado adaptada para telefone celular
+* Busca ativa de vacinação;
+* Cadastro de Imóveis e Famílias;
+* Acompanhamento das condições de saúde;
+* Videochamada do profissional convidado adaptada para telefone celular;
+* Videochamada do profissional convidado adaptada para tablet.
+
 
 ![](../Apoio%20a%20Implantação/media/busca_ativa.png)
 
@@ -55,3 +58,9 @@ Inclusão do **bairro** nos filtros avançados:
     * Chat.
 
 ![](./media/video_chamadaa.png)
+
+**Videochamada do profissional convidado adaptada para tablet**
+
+* Os componentes da videochamada foram adaptados para funcionar corretamente em tablets. O objetivo do módulo é adaptar as telas da videochamada para tablet. Todas as funcionalidades da videochamada foram mantidas.
+
+![](./media/54.png)

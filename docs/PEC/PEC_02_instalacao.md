@@ -347,3 +347,18 @@ Figura 2.2 - Detalhe da tela de configuração do horário de funcionamento.
 ![](media/pec_image81.png)
 
 Fonte: SAPS/MS
+
+# 2.7 Importação do Bolsa Família
+
+Agora será possível importar um arquivo com os beneficiários do bolsa família de uma vigência específica para que eles sejam identificados em seus prontuários.
+
+O arquivo poderá ser baixado no e-Gestor e incluído para importação na funcionalidade de Importação do bolsa família, que pode ser acessada pelo menu lateral com o perfil de Instalador. 
+
+É possível importar arquivos de qualquer vigência, inclusive listas complementares.
+
+![](media/importacao_beneficiarios_bolsa_familia.gif)
+
+
+Ao visualizar a folha de rosto de um cidadão que consta como beneficiário no arquivo importado da vigência mais atual, será apresentada uma sinalização de que ele é beneficiário do Programa Bolsa Família.
+
+![](media/folha_cidadao_beneficiario_bolsa_familia.png)
