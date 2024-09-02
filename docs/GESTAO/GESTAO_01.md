@@ -19,7 +19,7 @@ Neste capítulo, apresentaremos brevemente, os conceitos e as orientações para
 - TOC
 {:toc}
 
-O Departamento de Saúde da Família (DESF) incluiu na Estratégia e-SUS Atenção Primária à Saúde (e-SUS APS) este aplicativo móvel para o gerenciamento e acompanhamento das ações de saúde dos serviços de Atenção Primária à Saúde (APS) em tempo oportuno. O objetivo do aplicativo é fornecer acesso simplificado e dinâmico aos dados dos Relatórios de Produção do e-SUS APS PEC. 
+A Secretaria de Atenção Primária à Saúde (SAPS) incluiu na Estratégia e-SUS Atenção Primária à Saúde (e-SUS APS) este aplicativo móvel para o gerenciamento e acompanhamento das ações de saúde dos serviços de Atenção Primária à Saúde (APS) em tempo oportuno. O objetivo do aplicativo é fornecer acesso simplificado e dinâmico aos dados dos Relatórios de Produção do e-SUS APS PEC. 
 
 Sendo assim, o aplicativo **Gestão e-SUS APS** é integrado ao **Sistema e-SUS APS com Prontuário Eletrônico do Cidadão (PEC)** ampliando a capacidade de gestão das informações da APS. Nesse contexto, o terceiro aplicativo desenvolvido para APS priorizou as ações de gerenciamento desenvolvidas por todos os profissionais responsáveis pelos serviços de saúde neste nível de atenção.
 

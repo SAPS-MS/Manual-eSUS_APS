@@ -262,6 +262,17 @@ Fonte: SAPS/MS.
 ![](media/pec_image643_tria.png)
 Fonte:SAPS/MS.
 
+
+{: .nota }
+**O que é a TRIA?**
+A Triagem para Risco de Insegurança Alimentar (TRIA) é um instrumento utilizado por profissionais da Atenção Primária à Saúde (APS) para identificar, monitorar e avaliar o risco de insegurança alimentar nos territórios. Esse instrumento está no escopo do Plano Brasil Sem Fome, sendo uma contribuição importante do Sistema Único de Saúde (SUS) no combate à fome e na promoção da equidade do cuidado junto às pessoas em domicílios em situação de maior vulnerabilidade. 
+As informações da TRIA subsidiam ações intersetoriais à nível micro, promovendo o cuidado integral da família em situação de risco para insegurança alimentar, e à nível macro, a partir da formulação e adequação de políticas públicas com foco na Segurança Alimentar e Nutricional (SAN) e na garantia do Direito Humano à Alimentação Adequada (DHAA). 
+A TRIA pode ser aplicada e atualizada por profissionais de saúde da APS a qualquer momento em que a ficha de cadastro individual seja acessada, ou seja, em todas as oportunidades de contato com os indivíduos: no acolhimento, em consultas individuais, em visitas domiciliares, em atividades em grupo, na escola, no pré-natal e puericultura, no acompanhamento de condicionalidades do Bolsa Família, entre outros. Essas informações são importantes para coordenar o cuidado e para a promoção da SAN. 
+
+{: .atencao }
+
+É importante que para o preenchimento das respostas a estas duas perguntas: (1) O profissional faça as perguntas para o cidadão, não simplesmente responda baseada em interações anteriores. (2) Pergunte para todas as pessoas acima de 18 anos do território. (3) Refazer as perguntas no intervalo de três a seis meses para verificar possíveis mudanças advindas dos encaminhamentos intersetoriais. 
+
 Para mais informações sobre a TRIA, acesse o link do [Manual de Triagem de Insegurança Alimentar](http://189.28.128.100/dab/docs/portaldab/publicacoes/instrutivo_inseguranca_alimentar_aps.pdf).
 
 #### 7.2.1.1.5 Questionário autorreferido de condições/situações de saúde
@@ -774,11 +785,17 @@ FONTE: SAPS/MS.
 ![](media/pec_image705.png)
 FONTE: SAPS/MS.
 
-- Passo 6. Na sequência, marque a opção de desfecho da visita;
+- Passo 6. Caso necessite registrar a verificação de sinais vitais, preencha os campos "Temperatura (ºC)" e "Pressão Arterial (mmHg) no campo "Sinais Vitais".
 
-![](media/pec_image706.png)
+![](media/pec_image11120.png)
 
-- Passo 7. Para finalizar , clique no botão ![](media/pec_image707.png);
+- Passo 7. Abaixo de sinais vitais há o campo "Glicemia" o qual deverá preencher o campo "Glicemia capilar (mg/dL)". Na sequência escolher e preencher o campo "Momento da Coleta" em "Não especificado", "Jejum", "Pré-prandial" e "Pós-prandial". 
+
+![](media/pec_image11121.png)
+
+- Passo 8. Na sequência, marque a opção de desfecho da visita em "Visita realizada, "Visita recusada" ou "Ausente". Para finalizar , clique no botão "Confirmar". 
+
+![](media/pec_image707.png);
 
 - Caso haja alguma inconsistência ou ausência de preenchimento de campos obrigatórios, o sistema mostrará mensagem na tela indicando os que deverão ser corrigidos ou preenchidos. Caso contrário, os dados serão salvos e o sistema retornará à lista das fichas de visitas;
 
