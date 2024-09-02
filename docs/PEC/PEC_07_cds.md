@@ -785,11 +785,17 @@ FONTE: SAPS/MS.
 ![](media/pec_image705.png)
 FONTE: SAPS/MS.
 
-- Passo 6. Na sequência, marque a opção de desfecho da visita;
+- Passo 6. Caso necessite registrar a verificação de sinais vitais, preencha os campos "Temperatura (ºC)" e "Pressão Arterial (mmHg) no campo "Sinais Vitais".
 
-![](media/pec_image706.png)
+![](media/pec_image11120.png)
 
-- Passo 7. Para finalizar , clique no botão ![](media/pec_image707.png);
+- Passo 7. Abaixo de sinais vitais há o campo "Glicemia" o qual deverá preencher o campo "Glicemia capilar (mg/dL)". Na sequência escolher e preencher o campo "Momento da Coleta" em "Não especificado", "Jejum", "Pré-prandial" e "Pós-prandial". 
+
+![](media/pec_image11121.png)
+
+- Passo 8. Na sequência, marque a opção de desfecho da visita em "Visita realizada, "Visita recusada" ou "Ausente". Para finalizar , clique no botão "Confirmar". 
+
+![](media/pec_image707.png);
 
 - Caso haja alguma inconsistência ou ausência de preenchimento de campos obrigatórios, o sistema mostrará mensagem na tela indicando os que deverão ser corrigidos ou preenchidos. Caso contrário, os dados serão salvos e o sistema retornará à lista das fichas de visitas;
 
