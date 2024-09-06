@@ -114,3 +114,4 @@ Figura 11.8 - Relatório em CSV
 
 Fonte: SAPS/MS.
 
+Neste módulo também é possível visualizar o prontuário e as informações do cidadão na listagem de cidadão.
