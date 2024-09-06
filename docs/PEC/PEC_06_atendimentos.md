@@ -403,7 +403,7 @@ Os campos para o registro do "Imunobiológico" e "dose" aparecerão conforme o c
 
 Figura - Tela para adicionar vacinação
 
-![](media/pec_image349.png)
+![](media/pec_image11122.png)
 
 Fonte: SAPS/MS
 
