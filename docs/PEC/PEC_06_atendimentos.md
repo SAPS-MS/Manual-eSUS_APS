@@ -1642,7 +1642,7 @@ Figura 6.73 - Alergia / Reação Adversas
 
 Ao terminar a inserção das Alergias e Reações Adversas clique no botão Adicionar. Todas as alergias e intolerâncias ficarão dispostas em lista em que podem ser editadas ou removidas.
 
-{: .nota } Quando um cidadão receber uma prescrição de algum medicamento que está inserido na lista de alergias e reações adversas o profissional receberá um alerta sinalizando a alergia ao componente conforme exemplo de imagem abaixo:
+Quando um cidadão receber uma prescrição de algum medicamento que está inserido na lista de alergias e reações adversas o profissional receberá um alerta sinalizando a alergia ao componente conforme imagem.
 
 ![](media/pec_image1019.png)
 
