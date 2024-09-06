@@ -35,7 +35,7 @@ Fonte: SAPS/MS.
 
 A lista de atendimentos oferece uma série de recursos que auxiliam na organização das ações realizadas aos cidadãos que já entraram no fluxo de atendimento, seja por um atendimento agendado, seja por uma demanda espontânea, como vimos na Seção 5.1.1.
 
-Para pesquisar um cidadão específico que esteja incluído na Lista de Atendimento basta digitar o nome, CPF ou CNS na caixa de busca, como mostrado em destaque na figura a seguir:
+Para pesquisar um cidadão específico que esteja incluído na Lista de Atendimento basta digitar o nome, CPF,CNS ou data de nascimento na caixa de busca, como mostrado em destaque na figura a seguir:
 
 Figura 6.1.1 - Lista de Atendimentos
 
