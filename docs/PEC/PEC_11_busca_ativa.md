@@ -65,10 +65,6 @@ Figura 11.4 - Grupos Alvo
 
 Fonte: SAPS/MS.
 
-
-{: .nota }
-Novos grupos alvo serão inseridos em novas versões do PEC.
-
 No campo obrigatório "Status da Vacina", quando o Tipo de visualização (Figura 11.3) selecionado é o "Calendário Vacinal", é possível escolher entre No Prazo e Atrasada, conforme mostra a Figura 11.5. Já quando o Tipo de visualização selecionado é Covid-19, aparecerão as vacinas aplicadas. 
 
 Figura 11.5 - Status da Vacina
