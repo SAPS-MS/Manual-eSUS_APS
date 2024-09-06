@@ -63,6 +63,8 @@ Em seguida, veremos a função de cada campo:
 
 - **status atendimento:** filtra a lista pela situação do cidadão em relação ao fluxo de atendimento;
 
+É possível selecionar para ver somente os atendimentos não finalizados ou todos os atendimentos. 
+
 ![](media/pec_image311.png)
 
 - **período:** filtra e pesquisa os atendimentos em espaço de tempo definido;
