@@ -1319,6 +1319,8 @@ Figura 6.4.26 - Modelo do Receituário Impresso no PEC
 
 Fonte: SAPS/MS.
 
+{: .nota } Quando o profissional prescrever algum componente que esteja inserido na lista de alergias, o mesmo receberá um alerta informando "alergia ao princípio ativo. 
+
 #### 6.4.3.4.4 Ferramentas do Plano - Prescrição Digital
 
 Essa funcionalidade permitirá que os profissionais prescritores do PEC possam optar por emitir e assinar suas receitas de forma digital por meio de certificados e chaves da Infraestrutura de Chaves Públicas Brasileira – ICP-Brasil. Esse novo recurso proporciona uma série de vantagens como: 
@@ -1639,6 +1641,10 @@ Figura 6.73 - Alergia / Reação Adversas
 **Observações:** Campo para o profissional descrever impressões adicionais sobre a avaliação da alergia/reação adversa.
 
 Ao terminar a inserção das Alergias e Reações Adversas clique no botão Adicionar. Todas as alergias e intolerâncias ficarão dispostas em lista em que podem ser editadas ou removidas.
+
+Quando um cidadão receber uma prescrição de algum medicamento que está inserido na lista de alergias e reações adversas o profissional receberá um alerta sinalizando a alergia ao componente conforme exemplo de imagem abaixo:
+
+![](media/pec_image1019.png)
 
 ## 6.4.4 Acompanhamento
 
