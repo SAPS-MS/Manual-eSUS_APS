@@ -12,6 +12,8 @@ last_modified_date: "09/09/2024"
 
 ### Retificação de vacinas no PEC:
 
+Os vídeos abaixo objetivam esclarecer as etapas necessárias para a retificação de vacinas no Prontuário Eletrônico do Cidadão (PEC) e Coleta de Dados Simplificado (CDS). Observem o passo a passo citado para a retificação das vacinas enviadas à RNDS:
+
 <video width="800" height="520" controls="controls" poster="capa_linux.png">
   <source src="https://saps-ms.github.io/Manual-eSUS_APS/PEC_Correcao_Vacina.MOV" type="video/mp4">
 </video>
