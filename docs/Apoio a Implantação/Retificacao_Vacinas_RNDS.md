@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Retificação de Vacinas (PEC/CDS)
+title: Retificação de Vacinas (PEC/CDS) - RNDS
 parent: Apoio a Implantação
 nav_order: 3.1
 has_children: false
