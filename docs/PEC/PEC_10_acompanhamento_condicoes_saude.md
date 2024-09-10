@@ -135,7 +135,7 @@ Demonstração Exportação Relatório
 ![](media/acompanhamento_condicoes_de_saude.gif)
 
 
-##  Acompanhamentos dos cidadãos vinculados
+## 10.1.6 Acompanhamentos dos cidadãos vinculados
 
 Uma das atividades da Atenção Primária à Saúde é realizar o acompanhamento das condições de saúde dos cidadãos vinculados às Equipes da APS. Esta ação é importante e demanda muita organização por parte da equipe. Uma forma facilitada de realizar o acompanhamento das situações de saúde é por meio de relatórios ou listas de cidadãos que possuem determinada condição de saúde, extraídos a partir do sistema de informação utilizado pela equipe.
 
@@ -162,4 +162,48 @@ A partir da versão 5.3 do e-US APS, é implementado a opção de exportação d
 Exportação de relatórios em CSV:
 
 ![](media/5-3_acompanhamento_condicoes_de_saude.GIF)
+
+## 10.1.7 Acompanhamento do território:
+
+O objetivo geral do módulo é oferecer uma visão intuitiva da organização do território, incentivando a realização e atualização de cadastros de imóveis e famílias.
+
+Entende-se por “território” o conjunto de Fichas de Cadastro Domiciliar e Territorial (FCDT), respectivos núcleos familiares e suas Fichas de Cadastro Individual (FCI) vinculados ao CNES e INE do usuário logado.
+
+No acompanhamento do território, insira as informações pertinentes para localização do domicilio e em seguida clique em “Buscar”. 
+
+![](media/acompanhamento_do_territorio_001.png)
+
+Caso nenhuma informação seja localizada, vá em “adicionar imóvel” para vinculação das informações da residência do cidadão.
+
+**Em adicionar imóvel:**
+
+Se necessário, ajuste as informações do responsável pelo acompanhamento e em seguida informe a microárea e a data de coleta:
+
+![](media/acompanhamento_do_territorio_002.png)
+
+**No campo endereço:**
+
+Informe o CEP e clique em “pesquisar” (os campos serão automaticamente preenchidos); caso não seja localizado, informe manualmente a UF, Município, Bairro e as demais informações:
+
+![](media/acompanhamento_do_territorio_003.png)
+
+**Imóvel e contato:**
+
+Registre os dados do imóvel e contato, conforme campos abaixo:
+
+![](media/acompanhamento_do_territorio_004.png)
+
+**Em condições de moradia:**
+
+Informe a situação de moradia do cidadão, localização, quantidade de cômodos, tipo de acesso, etc.
+
+![](media/acompanhamento_do_territorio_005.png)
+
+E por último, vincule famílias ao imóvel e seus respectivos responsáveis familiares:
+
+![](media/acompanhamento_do_territorio_006.png)
+
+Poderão existir várias famílias em um imóvel, bem como um único responsável familiar por núcleo:
+
+![](media/acompanhamento_do_territorio_007.png)
 
