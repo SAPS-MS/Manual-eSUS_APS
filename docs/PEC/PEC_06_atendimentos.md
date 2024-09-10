@@ -35,7 +35,7 @@ Fonte: SAPS/MS.
 
 A lista de atendimentos oferece uma série de recursos que auxiliam na organização das ações realizadas aos cidadãos que já entraram no fluxo de atendimento, seja por um atendimento agendado, seja por uma demanda espontânea, como vimos na Seção 5.1.1.
 
-Para pesquisar um cidadão específico que esteja incluído na Lista de Atendimento basta digitar o nome, CPF ou CNS na caixa de busca, como mostrado em destaque na figura a seguir:
+Para pesquisar um cidadão específico que esteja incluído na Lista de Atendimento basta digitar o nome, CPF,CNS ou data de nascimento na caixa de busca, como mostrado em destaque na figura a seguir:
 
 Figura 6.1.1 - Lista de Atendimentos
 
@@ -62,6 +62,8 @@ Fonte: SAPS/MS.
 Em seguida, veremos a função de cada campo:
 
 - **status atendimento:** filtra a lista pela situação do cidadão em relação ao fluxo de atendimento;
+
+É possível selecionar para ver somente os atendimentos não finalizados ou todos os atendimentos. 
 
 ![](media/pec_image311.png)
 
@@ -401,7 +403,7 @@ Os campos para o registro do "Imunobiológico" e "dose" aparecerão conforme o c
 
 Figura - Tela para adicionar vacinação
 
-![](media/pec_image349.png)
+![](media/pec_image11122.png)
 
 Fonte: SAPS/MS
 
@@ -1324,6 +1326,8 @@ Figura 6.4.26 - Modelo do Receituário Impresso no PEC
 
 Fonte: SAPS/MS.
 
+{: .nota } Quando o profissional prescrever algum componente que esteja inserido na lista de alergias, o mesmo receberá um alerta informando "alergia ao princípio ativo. 
+
 #### 6.4.3.4.4 Ferramentas do Plano - Prescrição Digital
 
 Essa funcionalidade permitirá que os profissionais prescritores do PEC possam optar por emitir e assinar suas receitas de forma digital por meio de certificados e chaves da Infraestrutura de Chaves Públicas Brasileira – ICP-Brasil. Esse novo recurso proporciona uma série de vantagens como: 
@@ -1644,6 +1648,10 @@ Figura 6.73 - Alergia / Reação Adversas
 **Observações:** Campo para o profissional descrever impressões adicionais sobre a avaliação da alergia/reação adversa.
 
 Ao terminar a inserção das Alergias e Reações Adversas clique no botão Adicionar. Todas as alergias e intolerâncias ficarão dispostas em lista em que podem ser editadas ou removidas.
+
+Quando um cidadão receber uma prescrição de algum medicamento que está inserido na lista de alergias e reações adversas o profissional receberá um alerta sinalizando a alergia ao componente conforme imagem.
+
+![](media/pec_image1019.png)
 
 ## 6.4.4 Acompanhamento
 

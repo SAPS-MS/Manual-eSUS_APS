@@ -65,7 +65,6 @@ Figura 11.4 - Grupos Alvo
 
 Fonte: SAPS/MS.
 
-
 {: .nota }
 Os grupos Adultos e Gestantes/Puérperas foram inseridos na versão 5.3 do PEC.
 
@@ -123,3 +122,4 @@ Demonstração Busca Ativa Vacinação - Exportação do Relatório
 
 ![](media/Busca_ativa/busca_ativa_video.gif)
 
+Neste módulo também é possível visualizar o prontuário e as informações do cidadão na listagem de cidadão.
