@@ -8,7 +8,7 @@ has_toc: true
 last_modified_date: "10/04/2024"
 ---
 
-# Centralizadores Estaduais:::::
+# Centralizadores Estaduais:
 {: .no_toc }
 
 Importante destacar que existem dois tipos de instalação do Prontuário Eletrônico do Cidadão (PEC), conforme ilustração abaixo:
