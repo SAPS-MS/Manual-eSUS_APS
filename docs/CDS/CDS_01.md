@@ -110,7 +110,7 @@ Figura 1 -- Política de Controle de Versões do Sistema e-SUS AB
 
 ![Versionamento-e-SUS_AB](media/cds_image3.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 Essas regras de versionamento permitem que os administradores do sistema nos municípios entendam melhor qual é o tipo de impacto que a substituição de uma versão do sistema poderá trazer aos seus usuários. O que se espera é que, ao passo de estar ciente do lançamento de uma versão, o gestor, em conjunto com o administrador do sistema, proceda da seguinte forma em relação à atualização do sistema em uso no município:
 
