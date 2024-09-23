@@ -35,7 +35,7 @@ Fonte: SAPS/MS.
 
 A lista de atendimentos oferece uma série de recursos que auxiliam na organização das ações realizadas aos cidadãos que já entraram no fluxo de atendimento, seja por um atendimento agendado, seja por uma demanda espontânea, como vimos na Seção 5.1.1.
 
-Para pesquisar um cidadão específico que esteja incluído na Lista de Atendimento basta digitar o nome, CPF ou CNS na caixa de busca, como mostrado em destaque na figura a seguir:
+Para pesquisar um cidadão específico que esteja incluído na Lista de Atendimento basta digitar o nome, CPF,CNS ou data de nascimento na caixa de busca, como mostrado em destaque na figura a seguir:
 
 Figura 6.1.1 - Lista de Atendimentos
 
@@ -62,6 +62,8 @@ Fonte: SAPS/MS.
 Em seguida, veremos a função de cada campo:
 
 - **status atendimento:** filtra a lista pela situação do cidadão em relação ao fluxo de atendimento;
+
+É possível selecionar para ver somente os atendimentos não finalizados ou todos os atendimentos. 
 
 ![](media/pec_image311.png)
 
@@ -305,15 +307,13 @@ Para interromper um atendimento iniciado de forma equivocada, é importante usar
 
 O módulo de vacinação possibilita o registro de aplicação, transcrição e aprazamento de imunobiológicos que fazem parte do Programa Nacional de Imunização (PNI) do Ministério da Saúde (MS) e que contribuem para o controle, erradicação e eliminação de doenças imunopreveníveis. Através dos registros realizados no PEC, o profissional da Atenção Primária pode realizar a avaliação da situação vacinal do cidadão e encaminhá-lo para início ou completude dos esquemas vacinais, conforme as definições realizadas pelo Departamento do PNI nos calendários de vacinação de crianças, adolescentes, adultos, idosos e gestantes, disponíveis em <https://www.gov.br/saude/pt-br/vacinacao/calendario/> para consulta. 
 
-## 6.3.1 Registrar Vacina Aplicada
-
 Para iniciar um atendimento de vacinação no PEC, é necessário que seja selecionada a opção “vacina” em “tipo de atendimento” no momento em que o cidadão é incluído na lista de atendimentos, ou ainda no bloco de desfecho da escuta inicial ou do atendimento. Dessa forma,  o botão “Realizar Vacinação” é ativado e estará disponível: 
 
 Figura - Inclusão para registro da Vacinação
 
 ![](media/pec_image341.png)
 
-Fonte: SAPS/MSdfresxwazq  
+Fonte: SAPS/MS 
 
 Em seguida, é necessário clicar no ícone ![](media/pec_image342.png) que direciona para realizar o registro de vacinação no PEC.
 
@@ -323,7 +323,8 @@ Figura - Tela de registro da Vacinação
 
 Fonte: SAPS/MS
 
-A tela para registrar a vacinação apresenta três blocos de preenchimento: a) Condições; b) Vacinação e c) Finalização do atendimento. Neste subcapítulo abordaremos sobre os blocos "Condições" e "Vacinação".
+## 6.3.1 Tela de vacinação
+A tela para registrar a vacinação apresenta três blocos de preenchimento: Condições; Vacinação e Finalização do atendimento. 
 
 **CONDIÇÕES**
 
@@ -339,24 +340,47 @@ Ao selecionar uma das condições, o calendário vacinal a ser exibido se altera
 
 **VACINAÇÃO**
 
-Este bloco dispõe dos recursos disponíveis para o registro da vacinação, e é apresentado conforme figura abaixo:
+Este bloco dispõe dos recursos disponíveis para o registro da vacinação, e é dividido em: a) Calendário vacinal; b) Outras doses e imunobiológicos; c) Doses/imunobiológicos contra a COVID-19. 
 
-Figura Quadro para o registro dos imunobiológicos
+**a) Calendário Vacinal**    
+Os imunobiológicos são apresentados de acordo com o calendário de vacinação recomendado pelo PNI para a faixa etária do cidadão, alguma condição selecionada no bloco de condições ou nos casos em que já foi identificada como gestante na lista de problemas e condições. 
+Ainda assim, é possível visualizar todos os imunobiológicos para os grupos ao selecionar a opção “mostrar calendário nacional completo”. 
+
+Figura - Calendácio vacinal
 
 ![](media/pec_image345.png)
 
 Fonte: SAPS/MS
 
-Os imunobiológicos exibidos no bloco são apresentados de acordo com o calendário de vacinação recomendado pelo PNI para a faixa etária do cidadão, alguma condição selecionada no bloco anterior ou nos casos em que já foi identificada como gestante na lista de problemas e condições. 
-Ainda assim, é possível visualizar todos os imunobiológicos para os grupos ao selecionar a opção “mostrar calendário nacional completo”. 
-
 Os status da situação vacinal são exibidos nos quadros de cada dose, alterando a cor das doses seguinte forma: 
-Dose aplicada: cor verde. 
-Dose atrasada: cor vermelha. 
-Dose a aplicar (em tempo para ser realizada): cor branca. 
-Dose a aprazar (doses a serem aplicadas futuramente): cor cinza. 
+* Dose aplicada: cor verde. 
+* Dose atrasada: cor vermelha. 
+* Dose a aplicar (em tempo para ser realizada): cor branca. 
+* Dose a aprazar (doses a serem aplicadas futuramente): cor cinza. 
 
 ![](media/pec_image347.png)
+
+**b) Doses/imunobiológicos contra COVID-19**
+
+Todas as vacinas contra a COVID-19 são exibidas em um bloco exclusivo. Para iniciar o registro deve-se selecionar a vacina de acordo com o fabricante. 
+
+Figura - Doses/imunobiológicos contra COVID-19
+
+![](media/vacinacovid19-1.png)
+
+Fonte: SAPS/MS
+
+**c) Outros imunobiológicos**
+
+Essa aba dispõe das doses e imunobiológicos que não fazem parte do padrão de calendário nacional de vacinação preconizado pelo PNI. 
+
+Figura - Outros imunobiológicos
+
+![](media/pec_image366.png)
+
+Fonte: SAPS/MS
+
+## 6.3.2 Registrar Vacina Aplicada
 
 Para registrar uma vacina aplicada siga as seguintes etapas:
 
@@ -364,102 +388,109 @@ Para registrar uma vacina aplicada siga as seguintes etapas:
 
 ![](media/pec_image348.png)
 
-2\. Em seguida, selecione entre as opções exibidas: 
-
-![](media/pec_image1125.png)
-
-**Transcrição de caderneta:** utiliza-se essa opção para os casos de registros de doses administradas em outros estabelecimentos, tendo como finalidade atualizar a caderneta do cidadão no PEC para a continuidade do cuidado. Será detalhada melhor a seguir. 
-
-**Aprazar:** para registrar uma delimitação de data em que a dose deverá ser realizada. 
-
-**Aplicar:** para realizar o registro de uma dose da vacina administrada no momento do atendimento. 
-
-3\. No registro de aplicação, os seguintes campos são de preenchimento obrigatório: estratégia, lote/fabricante, via de administração, local de aplicação (Figura 6.3.
-
-Figura - Tela para adicionar vacinação
-
-![](media/pec_image349.png)
-
-4\. Os campos para o registro do "Imunobiológico" e "dose" aparecerão conforme a seleção realizada pelo profissional de saúde na tela do quadro de vacinação (Figura 6.3.4), não sendo possível a sua alteração.
+2\. Em seguida, serão exibidas as seguintes opções:
 
 ![](media/pec_image352.png)
 
-5\. Selecionar a estratégia de vacinação no campo "Estratégia", que é de preenchimento obrigatório.
+**Transcrição de caderneta:** utiliza-se essa opção para os casos de registros de doses administradas em outros estabelecimentos, tendo como finalidade atualizar a caderneta do cidadão no PEC para a continuidade do cuidado. Será detalhada melhor a seguir. 
+
+**Aprazar:** para registrar uma delimitação de data em que a dose deverá ser realizada. Será detalhada melhor a seguir.  
+
+**Aplicar:** para realizar o registro de uma dose da vacina administrada no momento do atendimento. 
+
+Nesse caso, deve ser selecionada a opção "Aplicar". No registro de aplicação, os seguintes campos são de preenchimento obrigatório: estratégia, grupo de atendimento, lote/fabricante, via de administração e local de aplicação.
+Os campos para o registro do "Imunobiológico" e "dose" aparecerão conforme o card selecionado previamente pelo profissional na tela do quadro de vacinação, não sendo possível a sua alteração.
+
+Figura - Tela para adicionar vacinação
+
+![](media/pec_image11122.png)
+
+Fonte: SAPS/MS
+
+3\. Selecione a estratégia de vacinação no campo "Estratégia". As opções a serem exibidas variam de acordo com cada imunobiológico e as regras definidas pelo PNI. 
+
+4\. Selecione o grupo de atendimento de acordo com o público alvo que o cidadão sendo vacinado se encaixa. Destaca-se que para registros de doses aplicadas de acordo com os calendários da criança, adolescente, adulto e idoso, utiliza-se a opção de grupo de atendimento "faixa etária". 
 
 ![](media/pec_image353.png)
 
-6\. Selecionar no campo "Lote/Fabricante", o número de fabricação do lote que se encontra, geralmente, no frasco do imunobiológico, assim como o nome do fabricante da vacina. Caso o lote e fabricante não estejam disponíveis, é possível realizar a sua inclusão. Veja como realizar esta operação no tópico **6.3.1.1** a seguir.
+5\. Selecione no campo "Lote/Fabricante", o número de fabricação do lote que se encontra, geralmente, no frasco do imunobiológico, assim como o nome do fabricante da vacina. Caso o lote e fabricante não estejam disponíveis para seleção, é possível realizar a sua inclusão previamente. Veja como realizar esta operação no tópico **6.3.1.3** a seguir.
 
-7\. Selecione a opção desejada nos combos "Via de administração" e "Local de aplicação". Caso seja necessário, descreva as observações no campo com este destino.
+6\. Selecione a opção desejada em "Via de administração" e "Local de aplicação". Caso seja necessário, descreva as observações no campo livre.
 
 ![](media/pec_image358.png)
 
-8\. Ao final destas etapas clique em "SALVAR" e aparecerá a mensagem "Registro salvo com sucesso". Caso esteja faltando o preenchimento de algum campo obrigatório, o registro não será salvo e o sistema emitirá um alerta informando qual(is) campo(s) não foram preenchidos.
+7\. Ao final destas etapas clique em "SALVAR" e aparecerá a mensagem "Registro salvo com sucesso". Caso esteja faltando o preenchimento de algum campo obrigatório, o registro não será salvo e o sistema emitirá um alerta informando qual(is) campo(s) não foram preenchidos.
 
-{: .atencao }
-Os profissionais de saúde que realizam a administração de imunobiológicos deverão seguir as normas e procedimentos para a vacinação de acordo com o Programa Nacional de Imunização do Ministério da Saúde.
+8\. Ainda é possível verificar as informações sobre o registro ao clicar no quadro da dose da vacina administrada.
 
-9\. Ainda é possível verificar as informações sobre o registro ao clicar no quadro da dose da vacina administrada (Figura 6.3.6).
-
-Figura 6.3.6 - Visualização de Imunobiológico
+Figura - Visualização de Imunobiológico
 
 ![](media/pec_image359.png)
 
 Fonte: SAPS/MS
 
 {: .dica }
-Para aumentar a segurança na aplicação dos imunobiológicos o sistema emite alertas quando da tentativa de registro de uma dose que não seja recomendada para o cidadão (Figura 6.3.7).
+Para aumentar a segurança na aplicação dos imunobiológicos o sistema emite alertas quando da tentativa de registro de uma dose que não seja recomendada para o cidadão. Ainda assim, cabe destacar que isso não impede que o registro seja realizado. 
 
-Figura 6.3.7 - Confirmação de registro de dose advertida
+Figura - Confirmação de registro de dose advertida
 
 ![](media/pec_image360.png)
 
 Fonte: SAPS/MS
 
-### 6.3.1.1 Cadastrar lote e fabricante
+{: .dica }
+É possível registrar mais de uma aplicação no mesmo card do calendário do PEC, desde que o registro ocorra em atendimentos diferentes. Para isso, basta clicar novamente no card, mesmo que ele já apresente um registro de aplicação, e seguir o passo a passo descrito anteriormente. 
 
-Caso o lote e o fabricante não estejam previamente cadastrado no sistema, como indicado na [seção 3.10 do Capítulo 3](https://cgiap-saps.github.io/e-SUS-APS-v.4.1/03_adm_conf/#310-lotes-de-imunobiol%C3%B3gicos), é possível realizar a inserção destas informações a partir da opção "+ Adicionar novo".
+![](media/pec_image356.png) 
 
-![](media/pec_image354.png)
+### 6.3.2.1 Cadastrar lote e fabricante
 
-Serão disponibilizados mais campos para a realização da operação conforme a figura a seguir:
+Caso o lote e o fabricante não estejam previamente cadastrados no sistema no momento de registrar a aplicação, é possível realizar a inserção destas informações através de duas formas: 
 
-Figura 6.3.8
+a. Na própria tela de registro de aplicação, na opção "Cadastrar novo lote". 
 
 ![](media/pec_image355.png)
-
 Fonte: SAPS/MS
 
-Siga os passos as seguir para cadastrar novos lotes e fabricantes de uma vacina.
+Nesse caso, serão exibidos três novos campos durante o registro da aplicação, de preenchimento obrigatório: lote, fabricante e data de validade. 
 
-- Passo 1: No campo "Cadastrar lote" digite o número do Lote, o nome do Fabricante e a Data de validade contida no frasco/embalagem do imunobiológico. Observe que todos esses campos são de preenchimento
-obrigatório.
+b. No menu lateral esquerdo do PEC, em "Lotes de Imunobiológicos". Desta forma, não é necessário estar acessando um atendimento de um cidadão. 
 
-- Passo 2: Caso o Lote, Fabricante e a Data de validade que foi adicionado no campo "Cadastrar lote" já esteja cadastrado no sistema irá aparecer a mensagem "Este lote de imunobiológico já está cadastrado". Nesta situação, clique em "OK" e após na opção ![](media/pec_image356.png) que removerá os campos para cadastro de lote e voltará exibir o combo "Lote/Fabricante".
+![](media/pec_image354.png)
+Fonte: SAPS/MS
+
+Dessa forma, ao clicar em + Cadastrar lote, deverão ser preenchidos os campos: lote, fabricante, nome do imunobiológico e data de validade conformes as informações contidas no frasco. 
 
 ![](media/pec_image357.png)
 
-## 6.3.2. Transcrição de Caderneta
+Caso o Lote, Fabricante e a Data de validade que foi adicionado no campo "Cadastrar lote" já esteja cadastrado no sistema irá aparecer a mensagem "Este lote de imunobiológico já está cadastrado". Nesse caso, é necessário clicar em "Ok" e realizar a seleção da informação já existente no campo "Lote/Fabricante". 
 
-Aproveitando a oportunidade do registro da dose aplicada no cidadão é recomendado também registrar as doses anteriores com a finalidade de atualizar o calendário vacinal no PEC. Para registrar uma dose anterior siga as seguintes etapas.
+## 6.3.3 Transcrição de Caderneta
 
-1\. É possível visualizar o calendário vacinal de acordo com o ciclo de vida (criança, adolescente, adulto e idoso) ou pelo calendário nacional completo;
+Aproveitando a oportunidade de atendimento, recomenda-se verificar se o cidadão possui registros vacinais em outros instrumentos, como cadernetas físicas, por exemplo, a fim de transcrever no PEC doses aplicadas em outros serviços. 
 
-2\. Clique sobre a "Dose" do imunobiológico que será administrado. Após será aberta uma nova tela "ADICIONAR VACINAÇÃO" conforme a figura 6.3.5, visto anteriormente.
+A transcrição pode ser realizada através do calendário, no casos de doses que fazem parte dele, ou a partir de "outras doses e imunobiológicos". 
 
-3\. Mova o botão "É registro anterior?" até que apareça a palavra "Sim" ![](media/pec_image351.png). Após essa ação aparecerá a tela conforme a figura abaixo:
+Para doses do calendário: 
+1\. A partir do calendário vacinal exibido de acordo com o ciclo de vida (criança, adolescente, adulto e idoso) ou calendário nacional completo, clique no card da dose que será registrada. 
 
-Figura 6.3.9 - Tela para adicionar doses de vacinas aplicadas anteriormente
+2\. A seguir, clique em ![](media/pec_image351.png) Após essa ação aparecerá a tela conforme a figura abaixo:
+
+Figura - Tela para transcrição de caderneta
 
 ![](media/pec_image361.png)
+Fonte: SAPS/MS
 
-4\. Os campos para o registro do "Imunobiológico" e "dose" aparecerão conforme a seleção realizada pelo profissional de saúde na tela do quadro de vacinação (Figura 6.3.4), não sendo possível a sua alteração.
+3\. Os campos para o registro do "Imunobiológico" e "dose" aparecerão conforme a seleção realizada pelo profissional de saúde na tela do quadro de vacinação, não sendo possível a sua alteração.
 
-5\. Registrar a data de aplicação (campo obrigatório), o número do lote e do fabricante, se houver essa informação na caderneta apresentada pelo cidadão, além de observações, caso necessário, no campo específico para esse fim.
+4\. Registre a data de aplicação (campo obrigatório), o número do lote e do fabricante, se houver essa informação na caderneta apresentada pelo cidadão, além de observações, caso necessário, no campo específico para esse fim.
 
-6\. Ao final destas etapas clique em "SALVAR" e aparecerá a mensagem "Registro salvo com sucesso". Caso esteja faltando o preenchimento de algum campo obrigatório, o registro não será salvo e o sistema emitirá um alerta informando qual(is) campo(s) não foram preenchidos.
+5\. Ao final destas etapas clique em "SALVAR" e aparecerá a mensagem "Registro salvo com sucesso". Caso esteja faltando o preenchimento de algum campo obrigatório, o registro não será salvo e o sistema emitirá um alerta informando qual(is) campo(s) não foram preenchidos.
 
-## 6.3.3. Realizar Aprazamento das doses das vacinas
+Para outras doses e imunobiológicos: 
+Através da aba de "outras doses e imunobiológicos", clique em clique em ![](media/pec_image351.png) e siga os mesmos passos descritos anteriormente. 
+
+## 6.3.4 Realizar Aprazamento das doses das vacinas
 
 Quando for o caso, o profissional de saúde poderá aprazar a data do retorno do cidadão para receber a dose subsequente da vacina.
 
@@ -467,71 +498,54 @@ Para realizar o aprazamento siga as seguintes etapas:
 
 1\. Visualize o calendário vacinal de acordo com o ciclo de vida (criança, adolescente, adulto e idoso) ou pelo calendário nacional completo;
 
-2\. Clique sobre a "Dose" do imunobiológico que será registrado e aprazado. Após será aberta a tela "ADICIONAR VACINAÇÃO" conforme a figura 6.3.5, visto anteriormente.
+2\. Clique sobre o card da dose que o aprazamento será registrado. 
 
-3\. O aprazamento poderá ser feito por meio da aba "Aprazamento" ![](media/pec_image362.png), ou simplesmente por meio do campo "Aprazamento", quando for registrar uma dose aplicada. Em ambos os casos, digite a data que o cidadão deverá retornar para receber a dose.
+3\. Clique em "aprazar", conforme a figura abaixo, ou 
 
-![](media/pec_image363.png)
+Figura - Aprazamento de dose
+ ![](media/pec_image362.png), 
+ 
+ 4\. Preencha os campos obrigatórios de estratégia e "Aprazar para" incluindo a data que a dose deverá ser aplicada. 
+ 
+ 5\. Ao finalizar o registro clique no botão "SALVAR" e o quadro de vacinação aparecerá com a dose aprazada para uma data futura, conforme figura abaixo. 
 
-4\. Ao finalizar o registro clique no botão "SALVAR" e o quadro de vacinação aparecerá com a dose aprazada para uma data futura, conforme figura 6.3.10
-
-Figura 6.3.10 - Calendário Vacinal com doses de vacinas aprazadas
+Figura - Calendário Vacinal com doses de vacinas aprazadas
 
 ![](media/pec_image364.png)
-
 Fonte: SAPS/MS
 
-5\. Ainda é possível verificar as informações sobre o registro ao clicar no quadro da dose da vacina aprazada (Figura 6.3.11).
+ É possível realizar o aprazamento também durante o registro de uma dose aplicada. Durante o preenchimento dos dados de aplicação, o campo "aprazamento da próxima dose" é preenchido automaticamente conforme as regras definidas pelo PNI. Entretanto, esse campo é editável, permitindo que a data seja alterada pelo profissional. Para alteração, basta clicar no ícone de calendário e selecionar a data desejada. 
 
-Figura 6.3.11 - Visualização de Imunobiológico
+Figura - Alterando a data do aprazamento 
+![](media/pec_image1125.png)
+Fonte: SAPS/MS
+
+Figura - Alterando a data do aprazamento 
+![](media/pec_image363.png)
+
+Ainda é possível verificar as informações sobre o registro ao clicar no quadro da dose aprazada (Figura 6.3.11).
+
+Figura - Visualização de Imunobiológico
 
 ![](media/pec_image365.png)
 
 Fonte: SAPS/MS
 
-## 6.3.4. Registrar outros imunobiológicos
+**FINALIZAÇÃO DO ATENDIMENTO**
 
-Caso o imunobiológico a ser administrado não faça parte do padrão de calendário nacional de vacinação preconizado pelo PNI há a possibilidade de registrar a dose por meio da aba "Outros imunobiológicos".
+Para finalizar o atendimento, é necessário indicar desfecho neste bloco, tendo como opções: liberar cidadão; e Manter cidadão na lista de atendimentos.  
 
-Figura 6.3.12 - Adicionar outros imunobiológicos
-
-![](media/pec_image366.png)
-
-Fonte: SAPS/MS
-
-Ao clicar em "Adicionar dose" aparecerá a tela, de acordo com a Figura 6.3.12. Em seguida siga os mesmos passos conforme já descrito no subcapítulo 6.3.1 deste manual para a adição de doses de imunobiológico no sistema com PEC.
-
-Figura 6.3.13 - Tela de adicionar vacinação
-
-![](media/pec_image367.png)
-
-Fonte: SAPS/MS
-
-Ao clicar em "Salvar" aparecerá a dose aplicada e a dose aprazada, esta última se for o caso, na tela da aba "Outros imunobiológicos".
-
-Figura 6.3.14
-
-![](media/pec_image368.png)
-
-Fonte: SAPS/MS
-
-## 6.3.5. Finalizar registro de dose aplicada
-
-Para finalizar o registro da(s) dose(s) da(s) vacina(s) aplicada(s) passaremos para o bloco "Desfecho" do módulo de vacinação do sistema com PEC.
-
-**DESFECHO**
-
-Após registrar os dados da vacinação o profissional deve selecionar um desfecho, de modo semelhante ao passo 6 do módulo da "Escuta inicial", e em seguida, clicar em "Finalizar o Atendimento".
-
-Figura 6.3.15 - Bloco de Desfecho do Registro de Vacinação
+Figura - Bloco de Desfecho do Registro de Vacinação
 
 ![](media/pec_image369.png)
 
 Fonte: SAPS/MS
 
+Neste bloco é possível também gerar a declaração de comparecimento, caso o cidadão solicite, bem como realizar o agendamento de consulta. 
+ 
 Após finalizar o atendimento será possível visualizar os registros feitos para este cidadão na ferramenta "HISTÓRICO".
 
-Figura 6.3.16 - Visualização no Histórico do Registro de Vacinação
+Figura - Visualização no Histórico do Registro de Vacinação
 
 ![](media/pec_image370.png)
 
@@ -539,7 +553,7 @@ Fonte: SAPS/MS
 
 Clicando em cada "card" apresentado no histórico é possível ver o detalhamento do registro clínico.
 
-Figura 6.3.17 - Registro de Vacinação no Histórico de Atendimento
+Figura - Registro de Vacinação no Histórico de Atendimento
 
 ![](media/pec_image371.png)
 
@@ -547,53 +561,31 @@ Fonte: SAPS/MS
 
 ## 6.3.6 Acompanhamento da situação vacinal
 
-No intuito de proporcionar aos profissionais de saúde o acompanhamento da situação vacinal do cidadão, sob a responsabilidade da equipe, foi desenvolvido no PEC esta funcionalidade que facilita, no momento da consulta, a visualização das vacinas que já foram aplicadas, as que estão em atraso e as que ainda não estão no período indicado.
+O acompanhamento da situação vacinal deve ser oportunizado, sempre que possível, também em momentos de contato do cidadão com a unidade de saúde por outros motivos. Para tal, é possível  verificar os registros vacinais também durante consultas. 
 
-O *Cartão* minimizado apresenta informações essenciais e objetivas ao acompanhamento da situação vacinal, tais como: Se a vacina está em dia, qual foi a última vacina aplicada e a data em que foi aplicada, conforme a figura abaixo.
+**Cartão "Vacinação"**  
+A folha de rosto exibe um cartão que apresenta informações básicas sobre a situação vacinal, tais como: última vacina aplicada e a data de aplicação, aprazamentos realizados e indicativo de que existem vacinas atrasadas ou não registradas.
 
-Figura 6.3.18 - Cartão de Vacinação
+Figura - Cartão de Vacinação
 
 ![](media/pec_image372.png)
 
 Fonte: SAPS/MS
 
-Ao clicar neste *Cartão* aparecem as vacinas recomendadas segundo o ciclo de vida do cidadão. Caso queira visualizar todas as vacinas do calendário clique em "Calendário nacional completo". Neste momento, o profissional de saúde poderá analisar a situação vacinal e indicar a atualização da caderneta de vacinação se existirem vacinas atrasadas ou disponíveis, conforme a figura abaixo.
+**Aba "Vacinação"**   
+A aba de vacinação é exibida também em outros atendimentos para que durante uma consulta, por exemplo, o profissional de saúde possa consultar a situação vacinal do cidadão. 
+É possível visualizar o calendário vacinal e outras doses e imunobiológicos, podendo observar as aplicações realizadas, assim como as vacinas em atraso. 
+Caso o cidadão traga consigo registros de outros serviços, o sistema permite neste momento adicionar transcrições de caderneta e assim manter o prontuário atualizado. 
 
-Figura 6.3.19 - Acompanhamento da situação do cartão vacinal
+Figura - Acompanhamento da situação vacinal 
 
 ![](media/pec_image373.png)
 
 Fonte: SAPS/MS
 
-### 6.3.6.1 Adicionar doses anteriores
-
-No módulo de acompanhamento da vacinação é possível atualizar a caderneta do cidadão no PEC incluindo as doses que estão na caderneta física de vacinação. Para registrar essas doses clique em ![](media/pec_image374.png) e siga os passos do capítulo 6.3.2.
-
-Figura 6.3.20 - Adicionar doses anteriores
-
-![](media/pec_image375.png)
-
-Fonte: SAPS/MS
-
-## 6.3.7 Registro de doses para vacinação contra COVID-19.
-
-Exclusivamente para atendimento à situação nacional de Emergência em Saúde Pública está disponível o registro das doses aplicadas da vacina COVID-19, além da possibilidade de registro de doses anteriores, se for o caso.
-
-Para iniciar o registro selecione a vacina de acordo com o fabricante como mostra a figura a seguir.
-
-Figura 6.3.21
-
-![](media/vacinacovid19-1.png)
-
-Fonte: SAPS/MS
-
-O comportamento do sistema durante o registro da dose aplicada das vacinas COVID-19, assim como o seu aprazamento, seguem o mesmo padrão das vacinas de rotina. Idem para o processo de registro de doses anteriores como mostra a seção 6.3.2.
-
-
 ## 6.3.8 Exclusão de registros de doses aplicadas de vacina após finalizado o atendimento
 
-{: .novidade }
-A partir da versão 4.3 o sistema e-SUS APS disponibiliza a funcionalidade de exclusão do registro de dose aplicada de vacina que já estava salvo no PEC
+Esta funcionalidade permite a exclusão do registro de dose aplicada de vacina que já estava salvo no PEC.  
 
 {: .nota }
 Esta opção de exclusão do registro de dose aplicada de vacina no PEC só pode ser executada pelo profissional que realizou o registro/atendimento.
@@ -1327,6 +1319,8 @@ Figura 6.4.26 - Modelo do Receituário Impresso no PEC
 
 Fonte: SAPS/MS.
 
+{: .nota } Quando o profissional prescrever algum componente que esteja inserido na lista de alergias, o mesmo receberá um alerta informando "alergia ao princípio ativo. 
+
 #### 6.4.3.4.4 Ferramentas do Plano - Prescrição Digital
 
 Essa funcionalidade permitirá que os profissionais prescritores do PEC possam optar por emitir e assinar suas receitas de forma digital por meio de certificados e chaves da Infraestrutura de Chaves Públicas Brasileira – ICP-Brasil. Esse novo recurso proporciona uma série de vantagens como: 
@@ -1647,6 +1641,10 @@ Figura 6.73 - Alergia / Reação Adversas
 **Observações:** Campo para o profissional descrever impressões adicionais sobre a avaliação da alergia/reação adversa.
 
 Ao terminar a inserção das Alergias e Reações Adversas clique no botão Adicionar. Todas as alergias e intolerâncias ficarão dispostas em lista em que podem ser editadas ou removidas.
+
+Quando um cidadão receber uma prescrição de algum medicamento que está inserido na lista de alergias e reações adversas o profissional receberá um alerta sinalizando a alergia ao componente conforme imagem.
+
+![](media/pec_image1019.png)
 
 ## 6.4.4 Acompanhamento
 

@@ -33,6 +33,7 @@ O painel de Acompanhamento de condições de saúde busca apresentar de forma cl
 {: .nota }
 Somente são apresentados neste painel cidadãos que estão vinculados à equipe de APS. A busca retorna apenas cidadãos que possuem todas as condições selecionadas e ativas na lista de problemas ou avaliadas no SOAP e na ficha de atendimento individual.
 
+
 # 10.1 Filtros
 
 Nesta funcionalidade são apresentados diversos filtros, para facilitar a busca de cidadãos por determinadas situações de saúde. Como ocorre nos relatórios do sistema, neste módulo também existe hierarquia de acesso, o gerente da unidade pode escolher a UBS ou a equipe que deseja visualizar o painel, já os profissionais das equipes, conseguem visualizar os cidadãos apenas de sua própria equipe.
@@ -94,7 +95,7 @@ Atente para a opção de buscar apenas problemas/condições ativas na lista de 
 
 ## 10.1.3 Filtro sexo ou identidade de gênero
 
-Neste bloco é possível selecionar o sexo (feminino ou masculino, ou ambos) ou ainda selecionar a identidade de gênero (mulher transsexual, homem transsexual, travesti e outros).
+Neste bloco é possível selecionar o sexo (feminino ou masculino, ou ambos) ou ainda selecionar a identidade de gênero (mulher cisgênero, mulher transgênero, travesti, homem cisgênero, homem transgênero, não-binário, transgênero,outro).
 
 ![](media/pec_image837.png)
 
@@ -130,8 +131,21 @@ Fonte: SAPS/MS.
 
 O painel de Acompanhamento de condições de saúde busca apresentar de forma clara a lista de cidadão vinculados à equipe de APS que possuem determinada situação de saúde.
 
+
 {: .nota }
 Somente são apresentados neste painel cidadãos que estão vinculados à equipe de APS. A busca retorna apenas cidadãos que possuem todas as condições selecionadas e ativas na lista de problemas ou avaliadas no SOAP e na ficha de atendimento individual.
+
+## Acompanhamento do território
+
+A partir da versão 5.2 é possível visualizar os cadastros sob responsabilidade da sua equipe de forma mais intuitiva, facilitando a gestão do seu território adscrito e a formação de núcleos familiares. 
+
+Para acessar o acompanhamento do território, acesse a aba "Território" na seção Acompanhamentos. 
+
+Nessa tela, você verá imóveis e seus moradores organizados por microáreas e logradouros, assim como os respectivos índices e filtros de cadastros completos e atualizados. Outras informações de apoio também estarão lá, como data da última visita e possíveis inconsistências de cadastro.
+
+![](media/acompanhamento_territoriogif.gif)
+
+Além disso, é possível corrigir eventuais divergências de cadastro através da edição de logradouro, que cria automaticamente atualizações para os imóveis do mesmo, possibilitando a higienização da sua base de cadastros.
 
 # 10.1 Filtro de microárea
 
