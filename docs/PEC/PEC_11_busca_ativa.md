@@ -117,4 +117,9 @@ Fonte: SAPS/MS.
 Neste módulo também é possível visualizar o prontuário e as informações do cidadão na listagem de cidadão.
 
 
-A partir da versão 5.2.42 foi realizada a implementação, na Busca ativa de vacinação, da equivalência entre doses do esquema vacinal e doses DU, D e REF, para os imunobiológicos Hepatite A, Febre Amarela, Meningo C e HPV.
+A partir da versão 5.2.42 foi realizada a implementação, na Busca ativa de vacinação, da equivalência entre doses dos esquemas vacinais abaixo:
+
+Hepatite A (ÚNICA = 1ª DOSE)
+Febre Amarela (DOSE = 1ª DOSE)
+Meningocócica C (REFORÇO = 1º REFORÇO)
+HPV (ÚNICA = 1ª DOSE ou 2ª DOSE)
