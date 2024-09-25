@@ -93,6 +93,8 @@ Os problemas ou condições deste bloco representam um conjunto de CIAP2 e CID10
 {: .nota }
 Atente para a opção de buscar apenas problemas/condições ativas na lista de problemas e condições do PEC. Essa função permite que os profissionais possam visualizar apenas a lista de cidadão com problemas ativos na lista de problemas e condições, e desconsiderar os problemas latentes ou resolvidos.
 
+A função "Buscar apenas problemas / condições ativas na lista de problemas e condições" é marcada de forma padrão, caso necessite, poderá ser desmarcada.
+
 ## 10.1.3 Filtro sexo ou identidade de gênero
 
 Neste bloco é possível selecionar o sexo (feminino ou masculino, ou ambos) ou ainda selecionar a identidade de gênero (mulher cisgênero, mulher transgênero, travesti, homem cisgênero, homem transgênero, não-binário, transgênero,outro).
@@ -125,15 +127,23 @@ Ainda, será apresentado o botão ![](media/pec_image843.png) para gerar os rela
 
 Uma das atividades da Atenção Primária à Saúde é realizar o acompanhamento das condições de saúde dos cidadãos vinculados às Equipes da APS. Esta ação é importante e demanda muita organização por parte da equipe. Uma forma facilitada de realizar o acompanhamento das situações de saúde é por meio de relatórios ou listas de cidadãos que possuem determinada condição de saúde, extraídos a partir do sistema de informação utilizado pela equipe.
 
-Figura 10.2 - Tela do Relatórios exibida 
-![](media/pec_image983.png)
-Fonte: SAPS/MS.
+Para realizar a busca de cidadãos vinculados, deverá selecionar a "Faixa etária" que sedeja consultar. Também poderá optar fazer a busca, caso deseje, com o filtro sexo e identidade de gênero.
+
+![](media/pec_image1127.png)
+
 
 O painel de Acompanhamento de condições de saúde busca apresentar de forma clara a lista de cidadão vinculados à equipe de APS que possuem determinada situação de saúde.
 
+Figura 10.2 - Tela do Relatórios exibida 
+![](media/pec_image1128.png)
+Fonte: SAPS/MS.
+
+Após gerar o relatório, será possível exportá-lo ou imprimir, conforme imagem.
+
+![](media/pec_image1129.png)
 
 {: .nota }
-Somente são apresentados neste painel cidadãos que estão vinculados à equipe de APS. A busca retorna apenas cidadãos que possuem todas as condições selecionadas e ativas na lista de problemas ou avaliadas no SOAP e na ficha de atendimento individual.
+São apresentados apenas os cidadãos vinculados a alguma equipe/INE. A origem das informações são as Fichas de cadastro individual, Fichas de cadastro domiciliar e territorial do CDS e os cadastros do módulo cidadão do PEC.
 
 ## Acompanhamento do território
 

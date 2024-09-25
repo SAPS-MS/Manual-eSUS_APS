@@ -115,3 +115,6 @@ Figura 11.8 - Relatório em CSV
 Fonte: SAPS/MS.
 
 Neste módulo também é possível visualizar o prontuário e as informações do cidadão na listagem de cidadão.
+
+
+A partir da versão 5.2.42 foi realizada a implementação, na Busca ativa de vacinação, da equivalência entre doses do esquema vacinal e doses DU, D e REF, para os imunobiológicos Hepatite A, Febre Amarela, Meningo C e HPV.

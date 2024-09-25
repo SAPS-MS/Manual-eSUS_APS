@@ -75,6 +75,10 @@ Fonte: SAPS/MS.
 
 ![](media/pec_image280.png)
 
+Ao selecionar "salvar" o download do comprovante de agendamento será realizado de forma automática. Caso não queira o comprovante, poderá desmarcar a opção "imprimir comprovante de agendamento".
+
+![](media/pec_image1126.png)
+
 {: .nota }
 Quando a funcionalidade do Agendamento Online está ativada, todo agendamento salvo no módulo de Agenda do PEC é enviado para o servidor de agendamento online, que dispara uma notificação "*push"* com informações relacionadas a este agendamento para o aplicativo "ConecteSUS". Neste caso, como o agendamento foi realizado presencialmente na UBS, não há restrição em relação ao cidadão pertencer ao território de referência da equipe de atenção básica.
 

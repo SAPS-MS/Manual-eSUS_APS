@@ -318,6 +318,14 @@ Figura 4.15 - Tela de Cadastro do cidadão - Informações Complementares
 
 Fonte: SAPS/MS.
 
+Ao selecionar que deseja informar a orientação sexual deverá escolher entre as opções confome imagem abaixo.
+
+![](media/pec_cidadao.png)
+
+Caso o cidadão escolha informar sua identidade de gênero, o profissional deverá selecionar uma das opções conforme opções da imagem.
+
+![](media/pec_cidadao1.png)
+
 ## 4.5.6 Compartilhamento de prontuário
 
 Este recurso permite ao cidadão optar pela forma como seus dados clínicos ficam disponíveis para a rede de saúde. Por padrão seus dados são visíveis a todas as UBS de uma mesma instalação, pois otimiza a recuperação de informações clínicas relevantes para o cuidado. Caso o cidadão não concorde, marque a opção "Desativar compartilhamento de prontuário para este cidadão".
