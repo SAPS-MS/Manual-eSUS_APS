@@ -127,7 +127,7 @@ Ainda, será apresentado o botão ![](media/pec_image843.png) para gerar os rela
 
 Uma das atividades da Atenção Primária à Saúde é realizar o acompanhamento das condições de saúde dos cidadãos vinculados às Equipes da APS. Esta ação é importante e demanda muita organização por parte da equipe. Uma forma facilitada de realizar o acompanhamento das situações de saúde é por meio de relatórios ou listas de cidadãos que possuem determinada condição de saúde, extraídos a partir do sistema de informação utilizado pela equipe.
 
-Para realizar a busca de cidadãos vinculados, deverá selecionar a "Faixa etária" que sedeja consultar. Também poderá optar fazer a busca, caso deseje, com o filtro sexo e identidade de gênero.
+Para realizar a busca de cidadãos vinculados, deverá selecionar a "Faixa etária" que deseja consultar. Também poderá optar fazer a busca, caso deseje, com o filtro sexo e identidade de gênero.
 
 ![](media/pec_image1127.png)
 
