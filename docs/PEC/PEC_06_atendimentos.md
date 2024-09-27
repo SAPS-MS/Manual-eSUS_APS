@@ -2821,7 +2821,7 @@ Figura 6.147 - Lista registro tardio de atendimento
 {: .dica }
 Atendimentos realizados fora da UBS podem ser agendados ao selecionar na agenda a opção \"Fora da UBS\". Os registros agendados são automaticamente inseridos na lista de registro tardio. Para saber mais como agendar um cidadão para o atendimento fora da UBS, consulte o capítulo 5.1.1.
 
-# 6.8 Obervação do cidadão
+# 6.8 Observação do cidadão
 
 Com esta funcionalidade será possível registrar no PEC o período em que um cidadão ficou em observação dentro da UBS ou até mesmo em outro tipo de estabelecimento em que o e-sus esteja sendo utilizado.
 
