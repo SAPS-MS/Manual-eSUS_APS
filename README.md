@@ -1,8 +1,7 @@
 # MINISTÉRIO DA SAÚDE<br>
 
 Secretaria de Atenção Primária à Saúde<br>
-Departamento de Saúde da Família<br>
-Coordenação-Geral de Informação da Atenção Primária<br>
+Coordenação-Geral de Inovação e Aceleração Digital da APS<br>
 
 # e-SUS Atenção Primária à Saúde<br>
 
