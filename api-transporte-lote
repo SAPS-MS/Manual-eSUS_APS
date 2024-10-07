@@ -1,0 +1,99 @@
+{
+	"info": {
+		"_postman_id": "e1a7762e-4d7a-4dda-951c-1c64b4f3938c",
+		"name": "Recebimento api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "8385249"
+	},
+	"item": [
+		{
+			"name": "envio ficha",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "multipart/form-data",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "ficha",
+							"contentType": "application/octet-stream",
+							"type": "file",
+							"src": "/home/nathan/Downloads/RAS_Lote2_26-09-2023--13-22/5444430-c76d3581-543a-41cd-ba89-2119adc29626.esus"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/recebimento/ficha",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"recebimento",
+						"ficha"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "multipart/form-data",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "usuario",
+							"value": "BR8elTPVbGogjLwH",
+							"type": "text"
+						},
+						{
+							"key": "senha",
+							"value": "d4I2vVAujtinGgHK",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/recebimento/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"recebimento",
+						"login"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
