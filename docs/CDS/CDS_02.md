@@ -143,7 +143,7 @@ Este bloco é composto por campos que mapeiam as condições sociodemográficas 
 
 **Figura 2.4 -- Informações sociodemográficas**
 
-![](media/cds_image116.png)
+![](media/cds_image115.png)
 
 Fonte: SAPS/MS.
 
