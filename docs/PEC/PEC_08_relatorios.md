@@ -1227,6 +1227,9 @@ O relatório permite que seja visualizado o volume de produção da equipe e do 
 
 Para gerar uma tabela, arraste os Campos Disponíveis que desejar para os quadros de Linhas e Colunas, selecione a forma de apresentação, se "Contagem" ou "Percentual" e clique em "Gerar tabela.
 
+Os Campos Disponíveis são:
+Dia, Dia da Semana, Hora, Mês, Município, Produções, Realizado por, Sexo, Tempo de espera, Tempo de resposta, Turno, Unidade de Saúde, Conduta, Primeira Resposta, Prioridade e Faixa etária.
+
 ![](media/relatorio_gerencial_cuidado_compartilhado_producao_equipe_e_profissional.gif)
 Fonte: SAPS/MS.
 
