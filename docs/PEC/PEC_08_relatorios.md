@@ -1212,7 +1212,7 @@ Figura 8.46 Tela principal do relatório de atendimetno
 
 Fonte: SAPS/MS
 
-## 8.6.3 Relatório de cuidado compartilhado
+## 8.6.3 Relatório de Cuidado Compartilhado
 
 O relatório gerencial de cuidado compartilhado apresenta a contagem dos eventos realizados pelo solicitante e executante durante as interações no compartilhamento de cuidado.
 
