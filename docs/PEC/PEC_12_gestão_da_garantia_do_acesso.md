@@ -12,18 +12,15 @@ last_modified_date: "02/05/2023"
 # CAPÍTULO 12 - Gestão de Filas
 {: .no_toc }
 
+## 12.1 Garantia do Acesso
+
+Este módulo tem como objetivo instrumentalizar os gestores locais e municipais a gerir o acesso do cidadão na Unidade Básica de Saúde.
+
 ## Sumário
 {: .no_toc .text-delta }
 
 - TOC
 {:toc}
-
-## 12.1 Garantia do Acesso
-{: .no_toc }
-
-Este módulo tem como objetivo instrumentalizar os gestores locais e municipais a gerir o acesso do cidadão na Unidade Básica de Saúde.
-
-
 
 
 
