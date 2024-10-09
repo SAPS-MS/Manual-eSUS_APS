@@ -169,3 +169,33 @@ Ao selecionar ![](media/comp_cuidado/pec_image9.png) a conduta selecionada pelo 
 - O médico está atendendo uma criança de 4 anos que está com dificuldade na fala e precisa compartilhar o cuidado com a fonoaudióloga, ele explicou o caso à mãe que concordou com o compartilhamento do cuidado. O médico explicou o caso e compartilhou com a fonoaudióloga. 
 - A fonoaudióloga ao acessar o compartilhamento do cuidado e realizar a leitura do caso, pode recomendar orientações para a família e solicitar um agendamento para avaliação com a profissional. 
 
+
+
+# CAPÍTULO 15 - e-SUS APS Ampliado
+
+O e-SUS APS Ampliado passará a reconhecer alguns novos estabelecimentos no sistema.
+
+A nova funcionalidade do e-SUS APS Ampliado, disponível na versão 5.2, permite uso do PEC e-SUS APS em nível de prontuário para serviços da Atenção Ambulatorial Especializada, como por exemplo em CEO, UPA, Centro de Especialidade, Policlínica, CAPS, CER, entre outros. 
+
+Como prontuário eletrônico, o e-SUS APS é uma poderosa ferramenta que poderá ajudar o município na longitudinalidade do cuidado junto a APS e na facilitação do dia a dia do serviço, agilizando internamente os processos e diminuindo cada vez mais o uso do papel.
+
+{: .nota }
+No que se refere ao faturamento dos procedimentos, neste momento, mesmo utilizando o PEC, todos os registros destes serviços devem continuar mantendo seu fluxo comum, sendo necessário o preenchimento do BPA, RAAS no caso dos CAPS, e enviada ao SIA como de costume, pois estes serviços estão sob jurisdição da Secretaria de Atenção Especializada à Saúde (SAES) que exige assim este meio de registro para controle e financiamento.
+
+#### Facilidades no agendamento de consultas de pré-natal
+
+Com a nova funcionalidade de agendamentos, durante um atendimento de pré-natal, será possível realizar o agendamento da próxima consulta para acompanhamento de pré-natal e a consulta odontológica de pré-natal.
+
+ O PEC irá sugerir a data e lotação de profissional, sendo que a pessoa responsável pelo atendimento tem liberdade para alterar essas informações conforme disponibilidade das partes envolvidas.
+
+{: .nota }
+ Para o acompanhamento de pré-natal, a data da próxima consulta é sugerida conforme a idade gestacional, respeitando as cadências estipuladas na caderneta da gestante, enquanto a lotação de profissional alterna entre profissionais com CBO de médico e enfermeiro.
+
+{: .nota }
+Para as consultas odontológicas, é sugerida uma consulta a cada trimestre da gestação, enquanto a lotação de profissional sugerida será de profissional com CBO de dentista.
+
+![](media/esusamp5.gif)
+
+Ainda durante os atendimentos de pré-natal, serão apresentadas as sugestões de quais serão todas as datas que deverão ocorrer os próximos acompanhamentos de pré-natal, bem como um atendimento odontológico a cada trimestre da gestação.
+
+![](media/esusamp6.png)
