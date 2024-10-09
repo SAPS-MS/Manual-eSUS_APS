@@ -1484,6 +1484,12 @@ Figura 6.4.36 - Tela de Compartilhamento do Cuidado
 
 Fonte: SAPS/MS.
 
+Para o uso desta funcionalidade faz-se necessária a compreensão dos termos:
+
+Profissional solicitante: É o profissional que iniciou o cuidado compartilhado.
+
+Profissional executante: É o profissional de referência que foi indicado para a discussão do caso.
+
 O CBO não é um campo obrigatório, porém ele serve como filtro ao selecionar a categoria profissional que será acionada no compartilhamento do cuidado. Já o campo profissional é obrigatório. Neste campo aparecerão os profissionais da equipe multiprofissional ou especialistas para serem selecionados e quem vai receber o caso para discussões de forma assíncrona, ou para outras intervenções.
 
 ![](media/pec_atend_2.png)
