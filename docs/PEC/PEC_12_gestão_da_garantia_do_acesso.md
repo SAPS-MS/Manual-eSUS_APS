@@ -11,17 +11,18 @@ last_modified_date: "02/05/2023"
 
 # CAPÍTULO 12 - Gestão de Filas
 
+## Sumário
+{: .no_toc .text-delta }
+
+- TOC
+{:toc}
+
 ## 12.1 Garantia do Acesso
 {: .no_toc }
 
 Este módulo tem como objetivo instrumentalizar os gestores locais e municipais a gerir o acesso do cidadão na Unidade Básica de Saúde.
 
-## Sumário
-{: .no_toc .text-delta }
 
-
-- TOC
-{:toc}
 
 
 
@@ -100,7 +101,7 @@ Figura 12.5 Agendamento no módulo de gestão da garantia do acesso
 ![](media/garantia_agendarconsulta2.png)
 Fonte: SAPS/MS.
 
-## 12.1 Cuidados Compartilhados 
+## 12.2 Cuidados Compartilhados 
 
 Na tela de Cuidados Compartilhados, é possível visualizar a listagem de casos solicitados pelo profissional em "Solicitados por mim" e os compartilhados com este profissional em "Compartilhados comigo".
 
