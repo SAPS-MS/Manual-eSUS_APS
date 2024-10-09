@@ -10,6 +10,7 @@ last_modified_date: "02/05/2023"
 
 
 # CAPÍTULO 12 - Gestão de Filas
+{: .no_toc }
 
 ## Sumário
 {: .no_toc .text-delta }
