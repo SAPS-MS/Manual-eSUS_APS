@@ -2872,11 +2872,7 @@ Como prontuário eletrônico, o e-SUS APS é uma poderosa ferramenta que poderá
 {: .nota }
 No que se refere ao faturamento dos procedimentos, neste momento, mesmo utilizando o PEC, todos os registros destes serviços devem continuar mantendo seu fluxo comum, sendo necessário o preenchimento do BPA, RAAS no caso dos CAPS, e enviada ao SIA como de costume, pois estes serviços estão sob jurisdição da Secretaria de Atenção Especializada à Saúde (SAES) que exige assim este meio de registro para controle e financiamento.
 
-erão reconhecidos como estabelecimentos passíveis da utilização do e-sus ampliado:
-
-• Policlínicas (CNES do tipo 04)
-
-• Pronto atendimentos (CNES do tipo 73 e subtipo 001, 002 ou 003)
+Atualmente, o e-sus ampliado possui regras estabelecidas nesse sentido, para os estabelecimentos de  Policlínicas (CNES do tipo 04) e Pronto atendimentos (CNES do tipo 73 e subtipo 001, 002 ou 003).
 
 ## 6.10.1 Policlínica
 
