@@ -2863,41 +2863,20 @@ O envio do RAC à RNDS é feito ao finalizar o atendimento individual.
 
 # 6.10 E-sus ampliado
 
+ A nova funcionalidade do e-SUS APS Ampliado, disponível na versão 5.2, permite uso do PEC e-SUS APS em nível de prontuário para serviços da Atenção Ambulatorial Especializada, como por exemplo em CEO, UPA, Centro de Especialidade, Policlínica, CAPS, CER, entre outros. 
+
 Essa funcionalidade permite que o PEC seja instalado e utilizado em outros níveis de atenção à saúde, que não sejam da Atenção Primária à Saúde.
-
-
-Serão reconhecidos como estabelecimentos passíveis da utilização do e-sus ampliado:
-
-•	Policlínicas (CNES do tipo 04)
-
-•	Pronto atendimentos (CNES do tipo 73 e subtipo 001, 002 ou 003)
-
-
-A nova funcionalidade do e-SUS APS Ampliado, disponível na versão 5.2, permite uso do PEC e-SUS APS em nível de prontuário para serviços da Atenção Ambulatorial Especializada, como por exemplo em CEO, UPA, Centro de Especialidade, Policlínica, CAPS, CER, entre outros. 
 
 Como prontuário eletrônico, o e-SUS APS é uma poderosa ferramenta que poderá ajudar o município na longitudinalidade do cuidado junto a APS e na facilitação do dia a dia do serviço, agilizando internamente os processos e diminuindo cada vez mais o uso do papel.
 
 {: .nota }
 No que se refere ao faturamento dos procedimentos, neste momento, mesmo utilizando o PEC, todos os registros destes serviços devem continuar mantendo seu fluxo comum, sendo necessário o preenchimento do BPA, RAAS no caso dos CAPS, e enviada ao SIA como de costume, pois estes serviços estão sob jurisdição da Secretaria de Atenção Especializada à Saúde (SAES) que exige assim este meio de registro para controle e financiamento.
 
-#### Facilidades no agendamento de consultas de pré-natal
+erão reconhecidos como estabelecimentos passíveis da utilização do e-sus ampliado:
 
-Com a nova funcionalidade de agendamentos, durante um atendimento de pré-natal, será possível realizar o agendamento da próxima consulta para acompanhamento de pré-natal e a consulta odontológica de pré-natal.
+• Policlínicas (CNES do tipo 04)
 
- O PEC irá sugerir a data e lotação de profissional, sendo que a pessoa responsável pelo atendimento tem liberdade para alterar essas informações conforme disponibilidade das partes envolvidas.
-
-{: .nota }
- Para o acompanhamento de pré-natal, a data da próxima consulta é sugerida conforme a idade gestacional, respeitando as cadências estipuladas na caderneta da gestante, enquanto a lotação de profissional alterna entre profissionais com CBO de médico e enfermeiro.
-
-{: .nota }
-Para as consultas odontológicas, é sugerida uma consulta a cada trimestre da gestação, enquanto a lotação de profissional sugerida será de profissional com CBO de dentista.
-
-![](media/esusamp5.gif)
-
-Ainda durante os atendimentos de pré-natal, serão apresentadas as sugestões de quais serão todas as datas que deverão ocorrer os próximos acompanhamentos de pré-natal, bem como um atendimento odontológico a cada trimestre da gestação.
-
-![](media/esusamp6.png)
-
+• Pronto atendimentos (CNES do tipo 73 e subtipo 001, 002 ou 003)
 
 ## 6.10.1 Policlínica
 
