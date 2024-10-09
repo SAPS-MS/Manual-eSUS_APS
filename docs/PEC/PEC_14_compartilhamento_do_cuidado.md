@@ -48,6 +48,8 @@ Este relatório é dividido em duas listas:
 As listas têm informação de:
 - Data de início: Data que o caso foi compartilhado em um atendimento individual e iniciou o processo. 
 
+- Cidadão: Refere-se ao paciente que foi atendido.
+
 - Prioridade: Classificação do caso compartilhado feita pelo profissional no momento do atendimento individual que iniciou o processo.
 
 - Solicitante: Profissional que iniciou o processo de compartilhamento do cuidado no atendimento individual.
@@ -63,6 +65,10 @@ Há ainda dois ícones ao lado direito de cada uma das linhas da lista:
 {: .nota }
 O solicitante e o executante poderão fazer modificações na discussão do caso de forma alternada, isto é, ao responder uma discussão de caso, só será possível incluir novas informações quando for respondido pelo outro profissional.
 
+Na aba "Solicitados por mim" o usuário só poderá clicar em "Discutir caso" caso tenha solicitado aquele compartilhamento e caso o status seja "Respondido".
+
+Na aba "Compartilhados comigo" o usuário só poderá clicar em "Discutir caso" caso aquele compartilhamento tenha sido compartilhado com ele e caso o status seja "Aguardando".
+
 Há dois status possíveis nesta lista:
 - **Aguardando**: exibida para o profissional quando a última interação foi dele e o caso ainda aguarda interação por parte do outro profissional envolvido no compartilhamento. Abaixo desse status, para o solicitante, é exibido o total de horas que o caso está aguardando a interação do outro profissional. Este status fica na cor vermelha.
 
@@ -71,6 +77,10 @@ Há dois status possíveis nesta lista:
 - **Respondido**: exibido para o profissional logo depois que ele interagiu no caso. Este status fica na cor verde.
 
 ![](media/pec_image1118.png)
+
+Sempre que o status for "Aguardando" o sistema exibirá um contador de horas que exibirá há quantas horas aquela discussão está aguardando resposta.
+
+O botão "Visualizar discussão" poderá ser acessado por todos os profissionais de nível superior da equipe do profissional solicitante ou do profissional executante.
 
 ## 14.3 Discussão de caso
 
