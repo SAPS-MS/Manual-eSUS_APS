@@ -36,16 +36,16 @@ Considerando as diferentes fontes de informações da base de cidadãos do Siste
 
 # 4.1 Busca pelo cidadão
 
-Agora o processo de busca pelo cidadão ficou mais simples. Após selecionar a opção "Cidadão" na aba lateral de navegação, será solicitado que o profissional realize a busca utilizando dados demográficos ou número de alguns documentos válidos:
+Para iniciar a busca pelo cidadão, é necessário selecionar a opção "Cidadão" na aba lateral de navegação e inserir ao menos um dos seguintes dados, conforme é exibido na figura 4.2: 
 
 - Nome do cidadão;
 - número do CNS do cidadão;
 - número do CPF;
 - Data de nascimento;
 - Nome da mãe;
-- Município de nascimento, como mostra a pec_imagem abaixo:
+- Município de nascimento.
 
-Figura 4.2 - Busca Cidadão
+Figura 4.2 - Busca pelo Cidadão
 
 ![](media/pec_image234.png)
 
@@ -59,7 +59,7 @@ Figura 4.3 - Resultado da Busca Cidadão
 
 Fonte: SAPS/MS.
 
-É importante sinalizar que a busca pode retornar como resultado de cadastros "inativos", originados de versões anteriores do PEC. Neste caso o sistema apresentará este cadastro com a marcação ![](media/pec_image236.png), como mostra a Figura 4.4.
+É importante sinalizar que a busca pode retornar como resultado de cadastros "inativos", originados de versões anteriores do PEC. Neste caso o sistema apresentará este cadastro com a marcação ![](media/pec_image236.png), como mostra a Figura 4.4. 
 
 Figura 4.4 - Marcação de cadastro inativo.
 
@@ -67,7 +67,9 @@ Figura 4.4 - Marcação de cadastro inativo.
 
 Fonte: SAPS/MS.
 
-O sistema sempre irá realizar uma busca na **base** de cadastro **local** e poderá trazer um ou mais resultados, restando ao profissional a escolha do cidadão que está sendo buscado. Caso não haja nenhum resultado, será realizada, automaticamente, a busca na base nacional do CADSUS.
+Esses cadastros podem ser reativados por meio da opção "reativar" no menu lateral direito. 
+
+O sistema sempre irá realizar uma busca nos cadastros na **base local** e poderá trazer um ou mais resultados, restando ao profissional a escolha do cidadão que está sendo buscado. Caso não haja nenhum resultado, será realizada, automaticamente, a busca na base nacional do CADSUS.
 
 Caso a busca seja muito genérica o sistema retornará uma mensagem de que muitos cadastros foram encontrados e irá solicitar o refinamento da busca para aproximar com mais fidedignidade os resultados que o profissional está esperando.
 
@@ -85,7 +87,7 @@ Neste caso será necessário **cadastrar um novo cidadão** (ver seção 4.3).
 
 ## 4.1.2 Busca na base nacional (CADSUS)
 
-Ao fazer uma busca pelo cidadão, caso o mesmo não esteja disponível na primeira busca realizada na base local, será realizada automaticamente uma busca *on-line* na base nacional do CADSUS. Para isso, o servidor do Sistema e-SUS APS deve estar conectado a uma rede de Internet, ou seja, o sistema precisa ter conectividade com a Internet para acessar o serviço do CADSUS. O resultado será exibido indicando que o resultado foi buscado na "Base nacional", conforme podemos visualizar na pec_imagem abaixo.
+Ao fazer uma busca pelo cidadão, caso o mesmo não esteja disponível na primeira busca realizada na base local, será realizada automaticamente uma busca *on-line* na base nacional do CADSUS. Para isso, o servidor do Sistema e-SUS APS deve estar conectado a uma rede de Internet, ou seja, o sistema precisa ter conectividade com a Internet para acessar o serviço do CADSUS. O resultado será exibido indicando que o resultado foi buscado na "Base nacional", conforme exposto na figura 4.6.
 
 Figura 4.6 - Resultado da Busca da Base Nacional
 
@@ -95,11 +97,11 @@ Figura 4.6 - Resultado da Busca da Base Nacional
 
 Fonte: SAPS/MS.
 
-É possível que a consulta à base nacional seja desativada pelo administrador do sistema, na instalação local. Neste caso o sistema apresentará a seguinte mensagem:
+É possível que a consulta à base nacional seja desativada na instalação local pelo administrador do sistema por um determinado período de tempo. Neste caso o sistema apresentará a seguinte mensagem:
 
 ![](media/pec_image242.png)
 
-Quando a busca for realizada com parâmetros demográficos, o sistema não realizará uma busca automática na base nacional, caso a consulta retornar registros da base local. Portanto ao final da lista de resultados será apresentado o bloco Cadastros na base nacional. Caso deseje ampliar a busca, clique no botão "Pesquisar na base nacional".
+Quando a busca for realizada com parâmetros demográficos, o sistema não realizará uma busca automática na base nacional, caso a consulta retornar registros da base local. Portanto ao final da lista de resultados será apresentado o bloco Cadastros na base nacional. Caso o profissional deseje ampliar a busca, deve clicar no botão "Pesquisar na base nacional".
 
 Figura 4.7 - Ampliar Busca na Base Nacional
 
@@ -107,7 +109,7 @@ Figura 4.7 - Ampliar Busca na Base Nacional
 
 Fonte: SAPS/MS.
 
-A busca ampliada será exibida pela listagem dos resultados da base local seguida dos resultados da base nacional, conforme podemos ver na pec_imagem abaixo.
+A busca ampliada será exibida pela listagem dos resultados da base local seguida dos resultados da base nacional, conforme podemos ver na figura 4.8.
 
 Figura 4.8 - Resultado da Busca Ampliada na Base Nacional
 
@@ -121,17 +123,18 @@ Ao realizar uma busca com resultado bem sucedido, será apresentado um cartão c
 
 - Visualizar;
 - Atualizar Cadastro;
-- Ver prontuário;
 - Ver agendamentos; e
 - Excluir.
 
 ## 4.2.1 Visualizar
 
-Esta opção permite acessar as informações de cadastro do cidadão, que podem ser de origem do CADSUS e do Cadastro do Território.
+Esta opção permite acessar as informações de cadastro do cidadão, que podem ser de origem do CADSUS e do Cadastro do território.
 
 ![](media/pec_image245.png)
 
 O cabeçalho apresenta um resumo das informações. Também é possível visualizar se o cadastro já foi unificado alguma vez, quais os cadastros que foram unificados, data, hora e quem foi o responsável pela unificação.
+
+Além disso, nesse fluxo é possível visualizar a folha de rosto, o histórico e as vacinações do cidadão, sendo necessário registrar uma justificativa para visualização do prontuário. 
 
 ![](media/pec_image246.png)
 
@@ -317,14 +320,6 @@ Figura 4.15 - Tela de Cadastro do cidadão - Informações Complementares
 ![](media/pec_image265.png)
 
 Fonte: SAPS/MS.
-
-Ao selecionar que deseja informar a orientação sexual deverá escolher entre as opções confome imagem abaixo.
-
-![](media/pec_cidadao.png)
-
-Caso o cidadão escolha informar sua identidade de gênero, o profissional deverá selecionar uma das opções conforme opções da imagem.
-
-![](media/pec_cidadao1.png)
 
 ## 4.5.6 Compartilhamento de prontuário
 
