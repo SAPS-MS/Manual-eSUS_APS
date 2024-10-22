@@ -82,7 +82,7 @@ Os Status de vacina significam:
 
 **Atrasada:** São as doses de vacinas que já passaram do prazo para ser aplicadas. Deve-se convidar o cidadão para regularizar sua situação vacinal o mais rápido possível.
 
-Há disponível alguns Filtros avançados nesse módulo,  os quais foram inseridos na versão 5.3. Os filtros avançados são: Imunobiológico, Dose, Tipo de Logradouro, Logradouro e Bairro de residência do cidadão. Também foi inclusa a regra de Identidade de gênero nos relatóriosconforme mostra a Figura 11.6.
+Há disponível alguns Filtros avançados nesse módulo,  os quais foram inseridos na versão 5.3. Os filtros avançados são: Imunobiológico, Dose, Tipo de Logradouro, Logradouro e Bairro de residência do cidadão. Também foi inclusa a regra de Identidade de gênero nos relatórios conforme mostra a Figura 11.6.
 
 Figura 11.6 - Filtros Avançados
 

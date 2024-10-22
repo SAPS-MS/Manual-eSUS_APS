@@ -15,7 +15,8 @@ last_modified_date: "17/05/2024"
 * Cadastro de Imóveis e Famílias;
 * Acompanhamento das condições de saúde;
 * Videochamada do profissional convidado adaptada para telefone celular;
-* Videochamada do profissional convidado adaptada para tablet.
+* Videochamada do profissional convidado adaptada para tablet;
+* Agendamento entre profissionais.
 
 
 ![](../Apoio%20a%20Implantação/media/busca_ativa.png)
@@ -36,7 +37,7 @@ Inclusão do **bairro** nos filtros avançados:
 
 ![](./media/bairro.png)
 
-**Cadastro de Imóveis e Famílias**
+**Acompanhamento do Território - Cadastro de Imóveis e Famílias**
 
 * A versão 5.3 agora permite cadastrar imóveis e famílias de forma mais completa e clara, facilitando a gestão dos cidadãos moradores de cada domicílio adscrito.
 
@@ -46,6 +47,14 @@ Inclusão do **bairro** nos filtros avançados:
 
 ![](./media/cadastro_imovel.png)
 
+
+**Acompanhamento das condições de saúde**
+
+*Inclusão da exportação do relatório de busca em formato CSV, permitindo a manipulação dos dados.
+
+*Inclusão da visualização, de até 7 dias, dos relatórios que foram processados e que estão em processamento.
+
+![](./media/55.gif)
 
 **Videochamada do profissional convidado adaptada para telefone celular**
 
@@ -64,3 +73,11 @@ Inclusão do **bairro** nos filtros avançados:
 * Os componentes da videochamada foram adaptados para funcionar corretamente em tablets. O objetivo do módulo é adaptar as telas da videochamada para tablet. Todas as funcionalidades da videochamada foram mantidas.
 
 ![](./media/54.png)
+
+
+**Agendamento entre profissionais**
+
+Esta nova funcionalidade permite o agendamento entre profissionais, inclusive por videochamada.
+
+![](./media/agendamentoprofissionais.png)
+
