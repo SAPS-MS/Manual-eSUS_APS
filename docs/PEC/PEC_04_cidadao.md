@@ -128,31 +128,32 @@ Ao realizar uma busca com resultado bem sucedido, será apresentado um cartão c
 
 ## 4.2.1 Visualizar
 
-Esta opção permite acessar as informações de cadastro do cidadão, que podem ser de origem do CADSUS e do Cadastro do território.
+Esta opção permite acessar as informações de cadastro do cidadão, que podem ser de origem do cadastro realizado na base local ou do  CADSUS. O cabeçalho apresenta um resumo das informações, conforme a figura 4.9. 
+
+Figura 4.9 - Visualização do cidadão
 
 ![](media/pec_image245.png)
 
-O cabeçalho apresenta um resumo das informações. Também é possível visualizar se o cadastro já foi unificado alguma vez, quais os cadastros que foram unificados, data, hora e quem foi o responsável pela unificação.
+Abaixo do cabeçalho, além da aba de informações, são apresentadas também:
 
-Além disso, nesse fluxo é possível visualizar a folha de rosto, o histórico e as vacinações do cidadão, sendo necessário registrar uma justificativa para visualização do prontuário. 
-
-![](media/pec_image246.png)
-
-## 4.2.2 Atualizar cadastro
-
-Esta opção oferece a possibilidade de alterar algum dado do cidadão e sincronizá-lo com a base de dados do CADSUS. Ao realizar a atualização, clique em "Salvar" para que o sistema se conecte ao CADSUS e realize as alterações. Caso não haja conectividade o sistema irá apresentar um alerta de que não foi possível realizar a sincronização.
-
-## 4.2.3 Ver prontuário
-
-Caso o profissional deseje **visualizar o prontuário** por meio do módulo Cidadão é obrigatório o registro de uma justificativa para o acesso a estas informações clínicas fora do momento do atendimento ou na ausência do cidadão na UBS. Esta justificativa fica gravada no banco de dados para uso posterior, no caso de auditoria em relação ao sigilo dos dados clínicos sensíveis do cidadão, garantindo assim a sua privacidade e segurança. Para mais informações sobre o prontuário, veja o Capítulo 6.
+**Folha de rosto, histórico e vacinação**: obrigatório o registro de uma justificativa para o acesso a estas informações clínicas fora do momento do atendimento ou na ausência do cidadão na UBS. Esta justificativa fica gravada no banco de dados para uso posterior, no caso de auditoria em relação ao sigilo dos dados clínicos sensíveis do cidadão, garantindo assim a sua privacidade e segurança. Para mais informações sobre o prontuário, veja o Capítulo 6.
 
 Figura 4.19 - Tela para justificar acesso ao prontuário
 
 ![](media/pec_image247.png)
 
-## 4.2.4 Ver agendamentos
+**Agendamentos**: nesta aba são apresentados todos os agendamentos realizados para aquele cidadão, conforme descrito no item abaixo, 4.2.3 Ver Agendamentos. 
 
-Na opção **Ver agendamentos** é possível visualizar a lista com as informações das vezes que o cidadão foi incluído na agenda da UBS, indicando data e hora do seu agendamento, nome do profissional, CBO e observações. Cada item é apresentado com uma indicação da situação do agendamento (Agendado, Não compareceu, Não aguardou e Atendimento realizado).
+**Unificações**: possibilidade de visualizar se o cadastro já foi unificado alguma vez, quais os cadastros que foram unificados, data, hora e quem foi o responsável pela unificação;
+  
+## 4.2.2 Atualizar cadastro
+
+Esta opção oferece a possibilidade de alterar algum dado do cidadão e sincronizá-lo com a base de dados do CADSUS. Ao realizar a atualização, clique em "Salvar" para que o sistema se conecte ao CADSUS e realize as alterações. Caso não haja conectividade o sistema irá apresentar um alerta de que não foi possível realizar a sincronização.
+
+## 4.2.3 Ver Agendamentos
+
+É possível visualizar a lista com as informações das vezes que o cidadão foi incluído na agenda da Unidade de Saúde, indicando data e hora do seu agendamento, nome do profissional, CBO e observações. Cada item é apresentado com uma indicação da situação do agendamento (Agendado, Não compareceu, Não aguardou e Atendimento realizado).
+Também é possível buscar por agendamentos através do filtro por período de data e visualizar agendamentos anteriores e de profissionas especificos. 
 
 Figura 4.18 - Tela de Agendamentos do cidadão
 
