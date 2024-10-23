@@ -340,3 +340,13 @@ Ao escolher o profissional, na sequência, deverá adicionar o cidadão e salvar
 O agendamento entre profissionais ficará sinalizado conforme imagem abaixo.
 
 ![](media/agendamentoentreprofissionais4.png)
+
+# 5.7 **Acesso rápido na agenda**
+
+Novo campo de pesquisa que possibilita acesso rápido na agenda profissional, como também fixação na lista em todos os campos do PEC e-SUS APS que se relacionam com a agenda. 
+
+Ao entrar no módulo "Agenda" será possível fixar um profissional para consulta rápida conforme imagem.
+
+![](media/agendafixar.png)
+
+Nas próximas consultas, a agenda abrirá automaticamente no profissional fixado.

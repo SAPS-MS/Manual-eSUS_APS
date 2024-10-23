@@ -18,6 +18,9 @@ last_modified_date: "17/05/2024"
 * Videochamada do profissional convidado adaptada para tablet;
 * Agendamento entre profissionais;
 * Inclusão do nome social do profissional;
+* Acesso rápido na agenda;
+* Doses fracionadas na prescrição de medicamentos;
+
 
 
 ![](../Apoio%20a%20Implantação/media/busca_ativa.png)
@@ -107,3 +110,20 @@ Essa implementação garante que o nome social do profissional seja exibido em t
 
 Receita realizada com nome social
 ![](media/receituarionomesocial.png)
+
+**Acesso rápido na agenda**
+
+Novo campo de pesquisa que possibilita acesso rápido na agenda profissional, como também fixação na lista em todos os campos do PEC e-SUS APS que se relacionam com a agenda. 
+
+Ao entrar no módulo "Agenda" será possível fixar um profissional para consulta rápida conforme imagem.
+
+![](media/agendafixar.png)
+
+Nas próximas consultas, a agenda abrirá automaticamente no profissional fixado.
+
+**Doses fracionadas na prescrição de medicamento**
+
+Novo campo na prescrição de medicamentos que possibilita tipo de dose fracionada por turno. 
+O passo a passo está em atendimento. 
+
+![](media/56.png)
