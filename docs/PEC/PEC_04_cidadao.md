@@ -153,7 +153,7 @@ Esta opção oferece a possibilidade de alterar algum dado do cidadão e sincron
 ## 4.2.3 Ver Agendamentos
 
 É possível visualizar a lista com as informações das vezes que o cidadão foi incluído na agenda da Unidade de Saúde, indicando data e hora do seu agendamento, nome do profissional, CBO e observações. Cada item é apresentado com uma indicação da situação do agendamento (Agendado, Não compareceu, Não aguardou e Atendimento realizado).
-Também é possível buscar por agendamentos através do filtro por período de data e visualizar agendamentos anteriores e de profissionas especificos. 
+Também é possível buscar por agendamentos através do filtro por período de data,visualizar agendamentos anteriores e de profissionas especificos, além de imprimir os comprovantes de agendamentos. 
 
 Figura 4.18 - Tela de Agendamentos do cidadão
 
