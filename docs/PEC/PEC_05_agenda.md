@@ -328,11 +328,11 @@ Abaixo, ilustração com o comprovante de agendamento enviado ao e-mail do cidad
 
 A partir da versão 5.3, é possível realizar o agendamento entre profissionais, inclusive por videochamada.
 
-Para agendar uma consulta entre profissionais, no módulo agenda,selecionar o profissional, data e horário desejado, após, clique em "entre profissionais"
+Para agendar uma consulta entre profissionais, no módulo agenda, selecionar o profissional para que abra a agenda dele,  data e horário desejado, selecione "adicionar agendamento". Escolher a aba "entre profissionais".
 
 ![](media/agendamentoentreprofissionais.png)
 
-Ao escolher o profissional, na sequência, deverá adicionar o cidadão, com nome, telefone e e-mail, para que o comprovante seja enviado ao cidadão e então selecione salvar. O download do comprovante de agendamento será realizado automaticamente. 
+Ao escolher o profissional, na sequência, deverá adicionar o cidadão e salvar. O download do comprovante de agendamento será realizado automaticamente. 
 
 
 ![](media/agendamentoentreprofissionais2.png)

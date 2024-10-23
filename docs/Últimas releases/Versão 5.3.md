@@ -16,7 +16,8 @@ last_modified_date: "17/05/2024"
 * Acompanhamento das condições de saúde;
 * Videochamada do profissional convidado adaptada para telefone celular;
 * Videochamada do profissional convidado adaptada para tablet;
-* Agendamento entre profissionais.
+* Agendamento entre profissionais;
+* Inclusão do nome social do profissional;
 
 
 ![](../Apoio%20a%20Implantação/media/busca_ativa.png)
@@ -81,3 +82,22 @@ Esta nova funcionalidade permite o agendamento entre profissionais, inclusive po
 
 ![](./media/agendamentoprofissionais.png)
 
+Ao entrar em agenda, selecionar o profissional e o horário desejado, poderá escolher entre consulta, reserva ou agendamento entre profissionais. 
+
+Ao selecionar agendamento entre profissionais, deverá incluir o nome do profissional convidado, em seguida o nome do cidadão que será atendido e salvar.
+
+![](./media/agendamentoentreprofissionais5.png)
+
+Na agenda do profissional, ficará registrado o nome do cidadão agendado e o profissional convidado, conforme imagem:
+
+![](./media/agendamentoentreprofissionais6.png)
+
+
+
+**Inclusão do nome social do profissional**
+
+Agora, o PEC e-SUS APS amplia o uso do nome social não apenas para os cidadãos, mas também para os profissionais de saúde.  
+
+Conforme o Decreto nº8.727, de 28/04/2016, nome social se refere à designação pela qual a pessoa travesti ou transexual se identifica e é socialmente reconhecida. 
+
+Essa implementação garante que o nome social do profissional seja exibido em todos os campos do sistema, incluindo impressões e prescrições eletrônicas. 

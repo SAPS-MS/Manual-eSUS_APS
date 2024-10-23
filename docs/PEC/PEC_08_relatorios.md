@@ -71,15 +71,13 @@ Após finalizar a configuração clique em Salvar ![](media/pec_image757.png) pa
 
 O Sistema e-SUS APS, como sistema de gerenciamento de dados e informações da Atenção Primária, traz grande avanço no que diz respeito à segurança, sigilo e confidencialidade dos dados de saúde dos cidadãos. Isso quer dizer que apenas os profissionais que participam do atendimento ao cidadão têm acesso aos seus dados clínicos de saúde.
 
-Atualmente, os relatórios do e-SUS APS disponibilizam informações agregadas, por meio dos relatórios gerenciais, consolidados e de produção, além dos relatórios operacionais, com informações individualizadas e identificadas (Figura 8.1). A seguir uma breve explicação sobre os agrupamentos dos relatórios no sistema:
+Atualmente, os relatórios do e-SUS APS disponibilizam informações agregadas, por meio dos relatórios gerenciais, consolidados e de produção. A seguir uma breve explicação sobre os agrupamentos dos relatórios no sistema:
 
 - **Relatórios gerenciais**: a partir da versão 4.2 do sistema, está disponível um novo grupo de relatórios, Neste grupo, os dados são apresentados em uma tabela dinâmica construída pelo usuário. O usuário pode definir a tabela arrastando os campos disponíveis para linhas e colunas. Também é permitida a exportação destes relatórios para um arquivo no formado .csv.
 
 - **Relatórios consolidados**: são os relatórios que permitem uma visualização da situação cadastral consolidada, de acordo com a data selecionada, permitindo ao usuário ver a informação mais atual até aquele momento. Ver seção 8.3 para mais detalhes sobre os relatórios.
 
 - **Relatórios de produção**: são os relatórios que permitem uma visualização agregada das informações, tais como: o atendimento individual, odontológico, domiciliar (SAD), atividade coletiva, procedimentos, entre outros, bem como relatórios de resumo de produção. Ver seção 8.4 para mais detalhes sobre os relatórios.
-
-- **Relatórios operacionais:** são os relatórios que apresentam as informações individualizadas e identificadas da situação de saúde dos cidadãos do território. Estes relatórios são acessados apenas pelos trabalhadores das Unidades Básicas de Saúde, pois trazem dados relacionados ao cuidado individual do cidadão. Esta medida serve para proteger a individualidade e o direito à privacidade dos usuários do SUS, da mesma forma que é preservado o sigilo durante a relação trabalhador da saúde e usuário do serviço. Ver seção 8.5 para mais informações os relatórios disponíveis.
 
 ## 8.2.1 Perfis de acesso e Filtros disponíveis
 

@@ -107,7 +107,9 @@ Figura 13.5.3.1 - Chat
 
 **Videochamada do profissional convidado adaptada para telefone celular**
 
-Os componentes da videochamada foram adaptados para funcionar em telefones celular. O objetivo do módulo é possibilitar que o profissional convidado acesse a videochamada pelo telefone celular. Por outro lado, o profissional anfitrião ainda deve acessar a videochamada através do computador.
+Os componentes da videochamada foram adaptados para funcionar em telefones celular. O objetivo do módulo é possibilitar que o profissional convidado acesse a videochamada pelo telefone celular. 
+
+Por outro lado, o profissional anfitrião ainda deve acessar a videochamada através do computador.
 
 * As funcionalidades da videochamada para telefone celular são:
 
@@ -115,12 +117,14 @@ Os componentes da videochamada foram adaptados para funcionar em telefones celul
     * Ativar e desativar microfone;
     * Chat.
 
-![](./media/video_chamadaa.png)
+![](media/video_chamada.png)
 
 **Videochamada do profissional convidado adaptada para tablet**
 
-* Os componentes da videochamada foram adaptados para funcionar corretamente em tablets. O objetivo do módulo é adaptar as telas da videochamada para tablet. Todas as funcionalidades da videochamada foram mantidas.
+* Os componentes da videochamada foram adaptados para funcionar corretamente em tablets. O objetivo do módulo é adaptar as telas da videochamada para tablet. 
 
-![](./media/54.png)
+* Todas as funcionalidades da videochamada foram mantidas.
+
+
 
 
