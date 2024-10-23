@@ -1248,35 +1248,44 @@ Para compor o receituário, observe que existem campos obrigatórios para preenc
 
 **Via de administração**: é a via de administração do medicamento;
 
-- Passo 4. Selecione a dose do medicamento;
+- Passo 4. Selecione o tipo de dose do medicamento;
 
-**Dose**: é a dose do medicamento, refere-se à quantidade do princípio ativo do medicamento que possui em cada administração. Utilize a opção "Dose única" ![](media/pec_image447.png) caso o medicamento seja administrado em dose única.
+**Tipo de Dose**: é a dose do medicamento, refere-se à quantidade do princípio ativo do medicamento que possui em cada administração.
 
-- Passo 5. Selecione a Frequência da dose que compõem: "intervalo" (em horas), "Frequência" (vezes dentro de um período e frequência (Dia(s), semana)s) ou mês(es), "Turno" (manhã,tarde ou noite), conforme figuras abaixo:
+Poderá selecionar em "tipo de dose" as doses comum, única e fracionada. 
+
+![](media/pec_image1126.png)
+
+ - Passo 5. Selecione a quantidade da dose e a unidade de medida. 
+
+![](media/pec_image1129.png)
+
+ - Passo 6. Escolha a periodicidade da dose, que poderão ser, "intervalo" (em horas), "Frequência" (vezes dentro de um período e frequência (Dia(s), semana)s) ou mês(es), "Turno" (manhã,tarde ou noite). Conforme figuras abaixo:
+
+ Intervalo:
 
 
-![](media/pec_image950.png)
+![](media/pec_image1132.png)
+ 
+ A partir da versão 5.3 foi disponibilizada a opção Fracionado por turno. 
 
-![](media/pec_image951.png)
-
-![](media/pec_image952.png)
+ ![](media/pec_image1131.png)
 
 
-- Passo 6. Selecione o período do tratamento da medicação, inserindo o "início do tratamento" e "Duração", conforme figura abaixo: 
+- Passo 7. Selecione o período do tratamento da medicação, inserindo o "início do tratamento" e "Duração", conforme figura abaixo: 
 
 ![](media/pec_image953.png)
 
 **Período de Tratamento**: define o período de início e fim do tratamento. 
 Utilize a opção "Uso contínuo" ![](media/pec_image451.png) caso o medicamento seja para tratamento de condições crônicas ou cronificadas. Essa opção auxilia na gestão da prescrição de medicamentos, incluindo este na lista de medicamentos de uso contínuo.
 
-- Passo 7. Caso deseje incluir recomendações a respeito do medicamento clique em "Recomendações", conforme figura abaixo:. 
+- Passo 8. Caso deseje incluir recomendações a respeito do medicamento clique em "Recomendações", conforme figura abaixo:. 
 
 ![](media/pec_image453.png)
 
 **Recomendações**: as orientações sobre a forma de administração ou cuidados relacionados ao tratamento.
 
-- Passo 8. Insira a quantidade do medicamento a ser administrado/prescrito.
-
+- Passo 9. Insira a quantidade do medicamento a ser administrado/prescrito.
 
 **Quantidade**: onde se deve informar a quantidade de unidades ou apresentação da medicação a ser fornecida ao cidadão a partir da prescrição do tratamento;
 
