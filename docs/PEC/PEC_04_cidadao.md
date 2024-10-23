@@ -180,7 +180,7 @@ Veja mais em [Fluxo de Cadastro e Atualização pelo Aplicativo](https://saps-ms
 
 ## 4.3.2 Adicionar cidadão a partir da base nacional
 
-Após o processo de busca, para adicionar um novo cidadão na base local a partir da base nacional, o profissional deverá selecionar o cidadão na lista de resultados por meio da opção ![](media/pec_image249.png).
+Após realizar o processo de busca por um cidadão, caso o profissional localize o individuo nos cadastros da base nacional, poderá cadastrá-lo na base local a partir das informações contidas ali. Para tal, o profissional deverá selecionar o cidadão na lista de resultados por meio da opção ![](media/pec_image249.png).
 
 Figura 4.9 - Cadastrar cidadão da Base Nacional na base local
 
@@ -192,20 +192,20 @@ Figura 4.9 - Formulário para preenchimento do cadastro do cidadão
 
 ![](media/pec_image251.png)
 
-Verifique os dados e identifique atualizações necessárias, e para finalizar clique em "Salvar". Caso não haja nenhum problema na validação dos dados o sistema gravará as alterações realizadas.
-
-Figura 4.10 - Continuação Formulário de preenchimento do cadastro do cidadão
+Figura 4.10 - Formulário de preenchimento do cadastro do cidadão
 
 ![](media/pec_image252.png)
+
+Verifique os dados e identifique atualizações necessárias, e para finalizar clique em "Salvar". Caso não haja nenhum problema na validação dos dados o sistema gravará as alterações realizadas.
 
 {: .nota }
 para mais detalhes de preenchimento do formulário, ver seção 4.4.
 
-## 4.3.3 Adicionar um Novo Cidadão
+## 4.3.3 Adicionar um novo cidadão diretamente na base local
 
-Após realizar a busca, utilizando os métodos mostrados anteriormente, onde o cidadão não foi localizado, será necessário incluir um novo cidadão na base.
+Após realizar a busca utilizando os métodos mostrados anteriormente, caso o indivíduo não seja localizado, será necessário incluí-lo na base. 
 
-Para cadastrar um novo cidadão, basta clicar no botão "Adicionar Cidadão" , como mostra a pec_imagem a seguir:
+Para cadastrar um novo cidadão, basta clicar no botão "Adicionar Cidadão" , como mostra a imagem a seguir:
 
 Figura 4.11 - Opção "Adicionar cidadão"
 
