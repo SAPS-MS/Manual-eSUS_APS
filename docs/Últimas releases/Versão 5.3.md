@@ -59,7 +59,9 @@ Inclusão do **bairro** nos filtros avançados:
 
 **Videochamada do profissional convidado adaptada para telefone celular**
 
-* Os componentes da videochamada foram adaptados para funcionar em telefones celular. O objetivo do módulo é possibilitar que o profissional convidado acesse a videochamada pelo telefone celular. Por outro lado, o profissional anfitrião ainda deve acessar a videochamada através do computador.
+* Os componentes da videochamada foram adaptados para funcionar em telefones celular. O objetivo do módulo é possibilitar que o profissional convidado acesse a videochamada pelo telefone celular. 
+
+* Por outro lado, o profissional anfitrião ainda deve acessar a videochamada através do computador.
 
 * As funcionalidades da videochamada para telefone celular são:
 
@@ -93,11 +95,15 @@ Na agenda do profissional, ficará registrado o nome do cidadão agendado e o pr
 ![](./media/agendamentoentreprofissionais6.png)
 
 
-
 **Inclusão do nome social do profissional**
 
 Agora, o PEC e-SUS APS amplia o uso do nome social não apenas para os cidadãos, mas também para os profissionais de saúde.  
 
 Conforme o Decreto nº8.727, de 28/04/2016, nome social se refere à designação pela qual a pessoa travesti ou transexual se identifica e é socialmente reconhecida. 
 
+![](media/nome_social_profissional.png)
+
 Essa implementação garante que o nome social do profissional seja exibido em todos os campos do sistema, incluindo impressões e prescrições eletrônicas. 
+
+Receita realizada com nome social
+![](media/receituarionomesocial.png)
