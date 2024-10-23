@@ -12,7 +12,7 @@ last_modified_date: "25/09/2023"
 # CAPÍTULO 8 - Relatórios
 {: .no_toc }
 
-O módulo "Relatórios" permite que trabalhadores e gestores possam visualizar, de forma sintetizada e sistematizada, as ações de saúde realizadas no território. São vários tipos de relatórios divididos em gerenciais, consolidados, operacionais e produção, e são utilizados por diferentes tipos de atores.
+O módulo "Relatórios" permite que trabalhadores e gestores possam visualizar, de forma sintetizada e sistematizada, as ações de saúde realizadas no território. São vários tipos de relatórios divididos em gerenciais, consolidados e produção, e são utilizados por diferentes tipos de atores.
 
 ## Sumário
 {: .no_toc .text-delta }
@@ -27,7 +27,7 @@ O acompanhamento das ações de saúde que são realizadas no território é uma
 Nesta versão os relatórios são exibidos na barra lateral de navegação, oferecendo um caminho mais simples e rápido para cada relatório (Figura 8.1). Clicando na opção "Relatórios" o sistema apresenta a lista com todos os disponíveis, dependendo do tipo de acesso que o profissional ou gestor possui. Caso haja dúvida em relação ao relatório, é possível acionar um balão de ajuda representado pelo símbolo ![](media/pec_image748.png) no canto superior direito de cada tela dos relatórios.
 
 Figura 8.1 - Tela do Relatórios exibida com o perfil de profissional da equipe de AB
-![](media/pec_image749.png)
+![](media/pec_imagem749.png)
 Fonte: SAPS/MS.
 
 # 8.1 Administração dos relatórios
@@ -877,23 +877,6 @@ Figura 6. Grupo de informação disponíveis para impressão
 
 ![](media/pec_image807.png)
 
-# 8.5 Relatórios Operacionais
-
-Os relatórios operacionais foram criados para auxiliar os trabalhadores das equipes de Atenção Básica no acompanhamento da situação de saúde dos usuários adscritos no território[^3]. Estes relatórios são acessados apenas pelos perfis de trabalhadores de saúde das equipes e coordenadores de UBS, tendo em vista as questões de segurança, privacidade e sigilo já tratadas no início deste capítulo.
-
-Os quatro relatórios operacionais auxiliam a equipe a monitorar e acompanhar a situação de saúde dos cidadãos. Neste momento, cada um traz informações detalhadas dos indivíduos de acordo com a condição apresentada nos registros de saúde do e-SUS APS, seja por meio da Coleta de Dados Simplificada, seja por meio do Prontuário Eletrônico do Cidadão.
-
-Nesta versão, estão disponíveis quatro tipos de relatórios operacionais, como mostra a Figura 8.26, abaixo:
-
-Figura 8.26 - Tipos de relatório operacional
-![](media/pec_image808.png)
-Fonte: SAPS/MS.
-
-Cada relatório trata de linhas de cuidados diferentes, além do relatório de cadastro territorial. Falaremos sobre cada um com mais profundidade mais adiante.
-
-Para a geração dos relatórios, os profissionais podem utilizar alguns filtros que ajudam a organizar a forma como as informações serão mostradas. Da mesma forma que os relatórios consolidados, os relatórios operacionais possuem filtros que dependem do tipo de perfil utilizado.
-
-Há uma diferença entre os filtros utilizados no relatório de cadastro e nos relatórios por linha de cuidado. Por padrão, os Coordenadores de UBS tem acesso a estes relatórios por equipe caso haja mais de uma equipe vinculada à UBS. Os profissionais acessam apenas os dados em relatório operacional apenas daqueles cidadãos adscritos a sua equipe.
 
 ## 8.5.1 Relatório operacional de cadastro territorial
 
