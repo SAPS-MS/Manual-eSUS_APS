@@ -163,13 +163,22 @@ Fonte: SAPS/MS.
 
 # 4.3 Adicionar cidadão na base local
 
-Como já mencionado anteriormente, neste capítulo, para realizar qualquer ação (agenda, registro de atendimento, etc) sobre um cidadão, este precisa estar disponível na base local. Existem três formas de adicionar um cidadão à base local:
+Como já mencionado anteriormente, neste capítulo, para realizar qualquer ação (agendamento, registro de atendimento, etc) sobre um cidadão, este precisa estar disponível na base local. Existem três formas de adicionar um cidadão à base local:
 
-- a partir da base nacional;
-- integração com Cadastro da Atenção Básica (via CDS ou aplicativo e-SUS APS Território); ou
-- direto na base local (Novo cidadão).
+- cadastro realizado via CDS e aplicativo e-SUS Território;
+- a partir da opção de adicionar na base nacional, via Módulo do Cidadão; ou
+- a partir da opção de adicionar diretamente na base local, via Módulo do Cidadão.
 
-## 4.3.1 Adicionar cidadão a partir da base nacional
+## 4.3.1 Cadastro realizado via CDS ou App e-SUS Território
+
+Os cadastros realizados no Módulo CDS, por meio das fichas de Cadastro Individual e Cadastro Domiciliar e Territorial são automaticamente importados para o módulo Cidadão do PEC, após finalizado o processo de digitação, processamento e envio das fichas. 
+
+{: .atencao }
+o cidadão só será importado para o módulo cidadão após processamento das fichas na transmissão de dados. O processamento das fichas é automático, entretanto o servidor do sistema deve ficar ligado, conectado à internet, durante a noite (0h às 6h).
+
+Veja mais em [Fluxo de Cadastro e Atualização pelo Aplicativo](https://saps-ms.github.io/Manual-eSUS_APS/docs/territorio/territorio_01/#15-fluxo-de-cadastro-e-atualiza%C3%A7%C3%A3o-pelo-aplicativo) e [Preenchimento das Fichas de Cadastro Individual](https://saps-ms.github.io/Manual-eSUS_APS/docs/CDS/CDS_02/#21-cadastro-individual) e [Cadastro Domiciliar e Territorial](https://saps-ms.github.io/Manual-eSUS_APS/docs/PEC/PEC_07_cds/#722-cadastro-domiciliar-e-territorial).
+
+## 4.3.2 Adicionar cidadão a partir da base nacional
 
 Após o processo de busca, para adicionar um novo cidadão na base local a partir da base nacional, o profissional deverá selecionar o cidadão na lista de resultados por meio da opção ![](media/pec_image249.png).
 
@@ -191,13 +200,6 @@ Figura 4.10 - Continuação Formulário de preenchimento do cadastro do cidadão
 
 {: .nota }
 para mais detalhes de preenchimento do formulário, ver seção 4.4.
-
-## 4.3.2 Adicionar cidadão por meio do Cadastro da Atenção Básica
-
-Visando uma maior integração das ações dos ACS no cadastro do território, todo cidadão cadastrado, por meio das fichas de cadastro da atenção básica (cadastro individual e cadastro domiciliar e territorial) é automaticamente importado para o módulo Cidadão do PEC, após finalizado o processo de digitação (módulo CDS), processamento e envio das fichas. De forma similar, ocorre a integração com os dados recebidos no Sistema PEC pelo transmissor de dados.
-
-{: .atencao }
-o cidadão só será importado para o módulo cidadão após processamento das fichas na transmissão de dados. O processamento das fichas é automático, entretanto o servidor do sistema deve ficar ligado, conectado à internet, durante a noite (0h às 6h).
 
 ## 4.3.3 Adicionar um Novo Cidadão
 
