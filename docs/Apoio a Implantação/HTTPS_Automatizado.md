@@ -7,8 +7,13 @@ has_children: false
 has_toc: true
 last_modified_date: "10/09/2024"
 ---
+<head>
+    <style>
+        p{text-align:justify};
+    </style>
+</head>
 
-Geração do Certificado TLS (SSL) e habilitação do protocolo HTTPS de forma automatizada pelo PEC e-SUS APS:
+# Geração do Certificado TLS (SSL) e habilitação do protocolo HTTPS de forma automatizada pelo PEC e-SUS APS:
 
 ![Alt ou título da imagem](media/https_automatizado.png)
 
