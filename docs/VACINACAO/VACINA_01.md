@@ -8,6 +8,12 @@ last_modified_date: "30/05/2023"
 has_toc: true
 ---
 
+<head>
+    <style>
+        p{text-align:justify};
+    </style>
+</head>
+
 # Capítulo 1 - Introdução
 {: .no_toc }
 

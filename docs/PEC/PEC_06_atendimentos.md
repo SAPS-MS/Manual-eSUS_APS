@@ -8,6 +8,12 @@ has_toc: true
 last_modified_date: "09/11/2023"
 ---
 
+<head>
+    <style>
+        p{text-align:justify};
+    </style>
+</head>
+
 # CAPÍTULO 6 - Atendimentos.
 {: .no_toc }
 

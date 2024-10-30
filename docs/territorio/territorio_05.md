@@ -8,6 +8,11 @@ has_toc: true
 last_modified_date: "25/09/2023"
 ---
 
+<head>
+    <style>
+        p{text-align:justify};
+    </style>
+</head>
 
 # Capítulo 5 - Relatórios
 {: .no_toc }

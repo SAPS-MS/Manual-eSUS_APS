@@ -8,6 +8,12 @@ last_modified_date: "25/09/2023"
 has_toc: true
 ---
 
+<head>
+    <style>
+        p{text-align:justify};
+    </style>
+</head>
+
 # Capítulo 2 - Instalação
 {: .no_toc }
 

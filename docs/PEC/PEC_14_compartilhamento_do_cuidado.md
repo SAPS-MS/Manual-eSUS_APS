@@ -8,6 +8,12 @@ has_toc: true
 last_modified_date: "04/09/2023"
 ---
 
+<head>
+    <style>
+        p{text-align:justify};
+    </style>
+</head>
+
 # CAPÍTULO 14 - Compartilhamento do cuidado
 {: .no_toc }
 

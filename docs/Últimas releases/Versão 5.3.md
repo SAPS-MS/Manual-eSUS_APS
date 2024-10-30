@@ -8,11 +8,24 @@ has_toc: true
 last_modified_date: "17/05/2024"
 ---
 
+<head>
+    <style>
+        p{text-align:justify};
+    </style>
+</head>
+
 # Versão 5.3
-## Novidades:
+## Novidades - Ferramentas Administrativas
+
+- Unificação de bases
+- Parametrização HTTPS automatizada
+- API para recebimento de lotes dos Sistemas Próprios/Terceiros
+- Histórico de acessos
+
+## Novidades - Ferramentas relacionadas aos atendimentos
 
 * Busca ativa de vacinação;
-* Cadastro de Imóveis e Famílias;
+* Acompanhamento do Território - Cadastro de Imóveis e Famílias;
 * Acompanhamento das condições de saúde;
 * Videochamada do profissional convidado adaptada para telefone celular;
 * Videochamada do profissional convidado adaptada para tablet;
@@ -20,6 +33,8 @@ last_modified_date: "17/05/2024"
 * Inclusão do nome social do profissional;
 * Acesso rápido na agenda;
 * Doses fracionadas na prescrição de medicamentos;
+
+
 
 
 
