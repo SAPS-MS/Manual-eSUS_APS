@@ -12,7 +12,13 @@ last_modified_date: "16/03/2021"
 # CAPÍTULO 10 - Acompanhamento de condições de saúde
 {: .no_toc }
 
+Antes disposto no módulo Relatórios, Relatórios operacionais, os relatórios gerados no Acompanhamento de condições de saúde foram criados com objetivo de ser uma ferramenta para os profissionais de saúde das ESFs no monitoramento das situações de saúde dos cidadãos adscritos no território. Esses relatórios são acessados apenas pelos perfis de profissionais de saúde das equipes e coordenadores de unidade, tendo em vista as questões de segurança, privacidade e sigilo. 
+
 Este módulo visa proporcionar aos gestores de UBS e profissionais de saúde um formato mais simples e otimizado de visualizar as informações relacionadas aos problemas e condições de saúde da população acompanhadas pelas equipes de atenção primária à saúde.
+
+Nesta versão, é possível gerar relatórios mais específicos do recorte populacional que o profissional deseja acompanhar, com uma lógica de filtros um pouco diferente. Agora, separados em quatro grandes grupos de condições de saúde principais: Diabetes, Hipertensão arterial, Obesidade e Gravidez.
+
+ Além dessas macros condições, é possível utilizar o filtro Grupos de condições prioritários, quais sejam: Asma, AVC, Dengue, Desnutrição, Doença cardíaca, DPOC, DST, Hanseníase, Infarto, Reabilitação, Rins, Saúde mental, Saúde sexual e reprodutiva, Tabagismo, Tuberculose, Usuário de álcool, Usuário de outras drogas, sendo possível também selecionar por CIAP2 e CID10 relacionados a essas condições, especificamente. Ainda, é possível filtrar por Sexo ou Identidade de gênero, além do Período do último atendimento individual e Faixa etária. Outra possibilidade é a do relatório ser gerado além do formato PDF, também em CSV, para proporcionar a possibilidade de manipulação dados extraídos.  
 
 ## Sumário
 {: .no_toc .text-delta }
@@ -148,6 +154,10 @@ O painel de Acompanhamento de condições de saúde busca apresentar de forma cl
 {: .nota }
 Somente são apresentados neste painel cidadãos que estão vinculados à equipe de APS. A busca retorna apenas cidadãos que possuem todas as condições selecionadas e ativas na lista de problemas ou avaliadas no SOAP e na ficha de atendimento individual.
 
+O relatório exibirá o nome do cidadão, sexo e identidade de gênero, idade, data de nascimento, endereço, telefone, última atualização cadastral, microárea e equipe. 
+
+![](media/acompanhamento_condicoes_de_saude_cidadao.png)
+
 # 10.1 Filtro de microárea
 
 Nesta funcionalidade apresenta-se filtro de microárea, para apoiar a busca de cidadãos no território. Como ocorre nos relatórios do sistema, neste módulo também existe hierarquia de acesso, o gerente da unidade pode escolher a UBS ou a equipe que deseja visualizar o painel, já os profissionais das equipes, conseguem visualizar os cidadãos vinculados pela Ficha de cadastro individual, ficha de cadastro domiciliar e territorial e cadastros do módulo cidadão do PEC.
@@ -206,4 +216,5 @@ E por último, vincule famílias ao imóvel e seus respectivos responsáveis fam
 Poderão existir várias famílias em um imóvel, bem como um único responsável familiar por núcleo:
 
 ![](media/acompanhamento_do_territorio_007.png)
+
 
