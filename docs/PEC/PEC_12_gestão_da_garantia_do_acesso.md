@@ -14,7 +14,7 @@ last_modified_date: "30/10/2024"
     </style>
 </head>
 
-# CAPÍTULO 12 - Garantia do Acesso
+# CAPÍTULO 12 - Gestão de Filas
 {: .no_toc }
 
 Este módulo tem como objetivo instrumentalizar os gestores locais e municipais a gerir o acesso do cidadão na Unidade Básica de Saúde.
@@ -24,6 +24,8 @@ Este módulo tem como objetivo instrumentalizar os gestores locais e municipais 
 
 - TOC
 {:toc}
+
+## 12.1 Garantia do acesso
 
 ![](media/pec_image999.PNG)
 
@@ -107,5 +109,7 @@ Figura 12.5 Agendamento no módulo de gestão da garantia do acesso
 ![](media/garantiaagendarconsultaok.png)
 Fonte: SAPS/MS.
 
+
+## 12.2 Cuidados Compartilhados
 
 
