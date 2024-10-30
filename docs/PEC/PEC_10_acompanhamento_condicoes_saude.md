@@ -217,4 +217,25 @@ Poderão existir várias famílias em um imóvel, bem como um único responsáve
 
 ![](media/acompanhamento_do_territorio_007.png)
 
+No acompanhamento do território é possível visualizar em porcentagem:
+
+![](media/acompanhamento_do_territorio008.png)
+
+- OS imóveis com cadastro completo (aqueles que todos os dados foram preenchidos e não apenas os obrigatórios);
+
+- Imóveis com cadastro atualizado (que tiveram o cadastro atualizado há menos de um ano); 
+
+- Domicílios visitados no mês vigente (Este índice é calculados pelas visitas mais recentes informadas pelo aplicativo e-SUS Território neste domicílio ou pelas Fichas de Visita registradas com o CPF ou CNS de algum dos moradores do mesmo.)
+
+Também é possível incluir os filtros:
+
+Atualizado há: Menos de um ano / um ano ou mais.
+
+Última visita há: Menos de um mês / um mês ou mais.
+
+Status do cadastro: completo / incompleto.
+
+![](media/acompanhamento_do_territorio_009.png)
+
+Fonte: SAPS/MS.
 

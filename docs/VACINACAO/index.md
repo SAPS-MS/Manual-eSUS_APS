@@ -9,6 +9,7 @@ description: "Manual do aplicativo e-SUS Vacinação"
 permalink: /docs/VACINACAO
 ---
 
+
 e-SUS Atenção Primária à Saúde
 {: .fs-10 }
 {: .fw-700 }
@@ -44,10 +45,10 @@ MANUAL DE USO
 
 **MINISTÉRIO DA SAÚDE**<br>
 Secretaria de Atenção Primária à Saúde<br>
-Departamento de Saúde da Família<br>
-Esplanada dos Ministérios - Bloco G - 7º andar<br>
+Coordenação-Geral de Inovação e Aceleração Digital na Atenção Primária à Saúde 
+Esplanada dos Ministérios – Bloco O – 7º andar<br>
 CEP: 70.058-900 – Brasília/DF<br>
-Tels.: (61) 3315-8090 / 3315-8044<br>
+Tels.: (61) 3315-8090 / 3315-8044 / 33159018<br>
 Site: <http://sisaps.saude.gov.br/esus/><br>
 E-mail: <cgiap@saude.gov.br>
 
@@ -58,13 +59,14 @@ Felipe Proenço de Oliveira
 Rodrigo André Cuevas Gaete
 
 **Organização**<br>
-Elaine de Almeida, Igor de Carvalho Gomes, Ingryd Isabelle Maia de Souza, Janaína Nogueira Guimarães, Romario Araujo Matias Rocha, Willian Soares Lima.
+Elaine de Almeida, Igor de Carvalho Gomes, Ingryd Isabelle Maia de Souza, Jacqueline Aedinet Pruner Polidoro, Janaína Nogueira Guimarães, Romario Araujo Matias Rocha, Willian Soares Lima, 
 
 **Revisão Técnica**<br>
-Ana Claudia Cielo, André Cury Alves, Bruno Costa Mariani Maciel, Francy Webster de Andrade Pereira, Igor de Carvalho Gomes, Ingryd Isabelle Maia de Souza, Janaína Nogueira Guimarães, João Geraldo de Oliveira Júnior, Viviane Loiola Lacerda e Willian Soares Lima
+Ana Claudia Cielo, André Cury Alves, Bruno Costa Mariani Maciel, Francy Webster de Andrade Pereira, Igor de Carvalho Gomes, Ingryd Isabelle Maia de Souza, Jacqueline Aedinet Pruner Polidoro, Janaína Nogueira Guimarães, João Geraldo de Oliveira Júnior, Jordana Soares Iankoski, Lilian Suelen de Oliveira Cunha, Nicoli Ferreira Demarche, Vania Priamo, Walter Augusto Alcantara Vieira, Viviane Loiola Lacerda e Willian Soares Lima. 
+
 
 **Elaboração de texto**<br>
-Ana Claudia Cielo, Janaína Nogueira Guimarães e João Geraldo de Oliveira Júnior
+Ana Claudia Cielo, Jacqueline Aedinet Pruner Polidoro,Janaína Nogueira Guimarães e João Geraldo de Oliveira Júnior
 
 **Projeto Gráfico**<br>
 Alexandre Soares de Brito e Diogo Ferreira Gonçalves
@@ -76,7 +78,7 @@ Alexandre Soares de Brito e Diogo Ferreira Gonçalves
 {: .text-center }
 
 Brasil. Ministério da Saúde. Secretaria de Atenção Primária à Saúde.<br>
-e-SUS Atenção Primária à Saúde: Manual do aplicativo e-SUS Vacinação – Versão 3.0 [recurso eletrônico] / Ministério da Saúde, Secretaria de Atenção Primária à Saúde, Secretaria Executiva. – Brasília: Ministério da Saúde, 2023.<br>
+e-SUS Atenção Primária à Saúde: Manual do aplicativo e-SUS Vacinação – Versão 5.3 [recurso eletrônico] / Ministério da Saúde, Secretaria de Atenção Primária à Saúde, Secretaria Executiva. – Brasília: Ministério da Saúde, 2024.<br>
 <br>
 ISBN **Versão Preliminar**<br>
 Modo de acesso: <https://aps.saude.gov.br/ape/esus><br>

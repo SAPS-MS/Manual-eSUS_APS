@@ -54,9 +54,9 @@ Inclusão do **bairro** nos filtros avançados:
 
 **Acompanhamento das condições de saúde**
 
-*Inclusão da exportação do relatório de busca em formato CSV, permitindo a manipulação dos dados.
+* Inclusão da exportação do relatório de busca em formato CSV, permitindo a manipulação dos dados.
 
-*Inclusão da visualização, de até 7 dias, dos relatórios que foram processados e que estão em processamento.
+* Inclusão da visualização, de até 7 dias, dos relatórios que foram processados e que estão em processamento.
 
 ![](./media/55.gif)
 
