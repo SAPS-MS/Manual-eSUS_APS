@@ -35,7 +35,8 @@ last_modified_date: "17/05/2024"
 * Acesso rápido na agenda;
 * Doses fracionadas na prescrição de medicamentos;
 * Atestado Digital;
-
+* Garantia do Acesso no Cuidado Compartilhado;
+* Participação do cidadão e atendimento compartilhado;
 
 
 **Unificação de bases**
@@ -188,3 +189,7 @@ Na sequência, abrirá a tela de assinatura, sendo necessário que o profissiona
 O registro do atestado digital ficará disponível no prontuário do cidadão.
 
 ![](media/atestadodigital4.png)
+
+**Garantia do Acesso no Cuidado Compartilhado**
+
+**Participação do cidadão e atendimento compartilhado**
