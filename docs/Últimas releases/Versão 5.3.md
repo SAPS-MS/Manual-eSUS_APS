@@ -19,8 +19,9 @@ last_modified_date: "17/05/2024"
 
 - Unificação de bases
 - Parametrização HTTPS automatizada
-- API para recebimento de lotes dos Sistemas Próprios/Terceiros
+- API para recebimento de lotes dos Sistemas Próprios/Terceiros  (VERIFICAR)
 - Histórico de acessos
+- Atualização de terminologias dos envios à RNDS 
 
 ## Novidades - Ferramentas relacionadas aos atendimentos
 
@@ -33,12 +34,37 @@ last_modified_date: "17/05/2024"
 * Inclusão do nome social do profissional;
 * Acesso rápido na agenda;
 * Doses fracionadas na prescrição de medicamentos;
+* Atestado Digital;
 
 
 
+**Unificação de bases**
+
+Esta ferramenta consolida as bases descentralizadas do PEC em uma estrutura única e centralizada. Esse avanço permite que todos os estabelecimentos de saúde integrem e implementem o conceito de Prontuário Eletrônico do Cidadão (PEC e-SUS APS) de forma unificada no âmbito municipal. 
+
+Para especificações desta funcionalidade, consultar o capítulo "Administração e Configurações do Sistema", Unificação de bases.
 
 
-![](../Apoio%20a%20Implantação/media/busca_ativa.png)
+**Parametrização HTTPS automatizada**
+
+A geração e renovação do Certificado TLS (SSL) / HTTPS no PEC se tornou bem mais fácil, sendo agora gerenciado pela própria aplicação de maneira totalmente automatizada.  
+
+Essa habilitação permite o uso de diversas funcionalidades que fortalecem o trabalho das equipes e o cuidado aos cidadãos, como teleinterconsultas, prescrição digital, acesso ao CadSUS. 
+
+**Histórico de acessos ao sistema** 
+
+Possibilita ver o histórico de acessos ao sistema 
+
+**Atualização de terminologias dos envios à RNDS**
+
+Na aba RNDS:  
+
+Registro de Imunobiológicos Administrado em Campanha (RIA-C) ou Rotina (RIA-R) 
+
+Registro de Atendimento Clínico (RAC) 
+
+Registro de Prescrição de Medicamentos (RPM)
+
 
 **Busca ativa de vacinação**
 
@@ -139,6 +165,26 @@ Nas próximas consultas, a agenda abrirá automaticamente no profissional fixado
 **Doses fracionadas na prescrição de medicamento**
 
 Novo campo na prescrição de medicamentos que possibilita tipo de dose fracionada por turno. 
-O passo a passo está em atendimento. 
+O passo a passo está no capítulo PEC - Atendimento - Prescrição. 
 
 ![](media/56.png)
+
+**Atestado Digital**
+
+Implementado campo para o envio do atestado digital para o cidadão. 
+
+Ao selecionar "Gerar e enviar atestado digital", o profissional deverá incluir o e mail para envio do documento.
+
+![](media/atestadodigital1.png)
+
+Em seguida, abrirá uma tela de aviso para conferência dos dados do atestado.
+
+![](media/atestadodigital2.png)
+
+Na sequência, abrirá a tela de assinatura, sendo necessário que o profissional tenha assinatura cadastrada em um provedor.
+
+![](media/atestadodigital3.png)
+
+O registro do atestado digital ficará disponível no prontuário do cidadão.
+
+![](media/atestadodigital4.png)
