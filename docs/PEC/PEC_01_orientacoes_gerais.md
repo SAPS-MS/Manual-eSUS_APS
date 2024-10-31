@@ -399,3 +399,15 @@ Fonte: SAPS/MS
 O profissional deve selecionar um ícone entre "Muito Insatisfeito" a "Muito Satisfeito". Ainda é possível responder a pergunta: " O que você considera mais importante para sua avaliação?", essa é uma resposta descritiva. Depois é só clicar em enviar e será apresentada a mensagem
 
 ![](media/pec_image57.png)
+
+# 1.5 Histórico de Acesso
+
+Possibilita ver o histórico de acessos ao sistema.
+
+![](media/historicodeacesso.png)
+
+Este recurso fornece informações como a data e a hora dos acessos (bem ou malsucedidos) do login do profissional no e-SUS APS dos últimos 30 dias. 
+
+![](media/historicodeacesso1.png)
+
+Somente o profissional que está logado pode visualizar essas informações.

@@ -34,10 +34,11 @@ last_modified_date: "17/05/2024"
 * Agendamento entre profissionais;
 * Inclusão do nome social do profissional;
 * Acesso rápido na agenda;
-* Doses fracionadas na prescrição de medicamentos;
+* Fracionamento de doses diárias na prescrição de  medicamentos;
 * Atestado Digital;
 * Garantia do Acesso no Cuidado Compartilhado;
 * Participação do cidadão e atendimento compartilhado;
+* Acompanhamento de vulnerabilidade no prontuário;
 
 
 **Unificação de bases**
@@ -87,7 +88,8 @@ Ao visualizar a folha de rosto de um cidadão que consta como beneficiário no a
 * Implementação do Grupo-alvo de Puérperas com Gestantes para Vacinas do calendário vacinal;
 * Unificação dos Grupos-alvo de Gestantes e Puérperas para Vacinas do calendário vacinal;
 * Inclusão do filtro por Bairro, Tipo de Logradouro e Logradouro de residência do cidadão;
-* Inclusão da regra de Identidade de gênero nos relatórios.
+* Inclusão da regra de Identidade de gênero nos relatórios;
+* Histórico de acessos ao sistema.
 
 **Inclusão dos grupos alvos:**
 
@@ -208,3 +210,27 @@ O registro do atestado digital ficará disponível no prontuário do cidadão.
 
 **Participação do cidadão e atendimento compartilhado**
 
+**Acompanhamento de vulnerabilidade no prontuário**
+
+O acompanhamento de vulnerabilidade foi criado no PEC para sinalizar quando o cidadão se enquadra em situações de insegurança alimentar. Esta classificação é resultado da resposta das duas perguntas da TRIA -  Triagem para Risco de Insegurança Alimentar, presentes da Ficha de Cadastro Individual do cidadão. 
+
+![](media/acompanhamentovulnerabilidade.png)
+
+Quando há esta sinalização no prontuário do cidadão, é necessário que o profissional de saúde avalie todos os componentes do núcleo familiar, pois esta informação indica que há comprometimento da qualidade e quantidade da alimentação no domicílio e que o indivíduo se encontra em Risco para Insegurança Alimentar.
+
+ É fundamental que se avalie também os Marcadores de Consumo Alimentar, para que possam tomar medidas de apoio e referência desses indivíduos à dispositivos da rede que garantam a Segurança Alimentar e Nutricional, bem como tudo que envolve essas questões no cidadão. 
+
+![](media/acompanhamentovulnerabilidade1.png)
+
+**Histórico de acessos ao sistema**
+
+Possibilita ver o histórico de acessos ao sistema.
+
+![](media/historicodeacesso.png)
+
+
+Este recurso fornece informações como a data e a hora dos acessos (bem ou malsucedidos) do login do profissional no e-SUS APS dos últimos 30 dias. 
+
+![](media/historicodeacesso1.png)
+
+Somente o profissional que está logado pode visualizar essas informações.
