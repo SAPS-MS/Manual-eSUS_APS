@@ -44,10 +44,10 @@ MANUAL DE USO
 
 **MINISTÉRIO DA SAÚDE**<br>
 Secretaria de Atenção Primária à Saúde<br>
-Departamento de Saúde da Família<br>
-Esplanada dos Ministérios - Bloco G - 7º andar<br>
+Coordenação-Geral de Inovação e Aceleração Digital na Atenção Primária à Saúde <br>
+Esplanada dos Ministérios - Bloco O - 7º andar<br>
 CEP: 70.058-900 – Brasília/DF<br>
-Tels.: (61) 3315-8090 / 3315-8044<br>
+Tels.: (61) 3315-8090 / 3315-8044 / 3315-9018<br>
 Site: <http://sisaps.saude.gov.br/esus/><br>
 Suporte: <http://esusaps.bridge.ufsc.br/support/login>
 
@@ -58,13 +58,13 @@ Felipe Proenço de Oliveira
 Rodrigo André Cuevas Gaete
 
 **Organização**<br>
-Elaine de Almeida, Igor de Carvalho Gomes, Ingryd Isabelle Maia de Souza, Janaína Nogueira Guimarães, Romario Araujo Matias Rocha, Willian Soares Lima.
+Elaine de Almeida, Igor de Carvalho Gomes, Ingryd Isabelle Maia de Souza, Jacqueline Aedinet Pruner Polidoro, Janaína Nogueira Guimarães, Romario Araujo Matias Rocha, Willian Soares Lima, Vania Priamo.
 
 **Revisão Técnica**<br>
-Elaine de Almeida, Igor de Carvalho Gomes, Ingryd Isabelle Maia de Souza, Janaína Nogueira Guimarães, Marcelo Alves Miranda, Romario Araujo Matias Rocha, Viviane Loiola Lacerda, Willian Soares Lima.
+Cinthia Caldas Rios, Elaine de Almeida, Igor de Carvalho Gomes, Ingryd Isabelle Maia de Souza, Jacqueline Aedinet Pruner Polidoro,Janaína Nogueira Guimarães, Jordana Soares Iankoski, Lilian Suelen de Oliveira Cunha, Marcelo Alves Miranda, Nicoli Ferreira Demarche, Priscila Mara Anjos Soares Batista, Romario Araujo Matias Rocha, Vania Priamo, Viviane Loiola Lacerda, Willian Soares Lima.
 
 **Elaboração de texto**<br>
-Elaine de Almeida, Igor de Carvalho Gomes, Ingryd Isabelle Maia de Souza, Janaína Nogueira Guimarães, Romario Araujo Matias Rocha, Viviane Loiola Lacerda, Willian Soares Lima.
+Cinthia Caldas Rios, Elaine de Almeida, Igor de Carvalho Gomes, Ingryd Isabelle Maia de Souza, Jacqueline Aedinet Pruner Polidoro, Janaína Nogueira Guimarães, Jordana Soares Iankoski, Lilian Suelen de Oliveira Cunha, Nicoli Ferreira Demarche, Priscila Mara Anjos Soares Batista, Romario Araujo Matias Rocha, Vania Priamo, Viviane Loiola Lacerda, Willian Soares Lima.
 
 **Projeto Gráfico**<br>
 Alexandre Soares de Brito e Diogo Ferreira Gonçalves
