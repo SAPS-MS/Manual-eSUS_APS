@@ -809,7 +809,14 @@ O acompanhamento de vulnerabilidade foi criado no PEC para sinalizar quando o ci
 
 Quando há esta sinalização no prontuário do cidadão, é necessário que o profissional de saúde avalie todos os componentes do núcleo familiar, pois esta informação indica que há comprometimento da qualidade e quantidade da alimentação no domicílio e que o indivíduo se encontra em Risco para Insegurança Alimentar.
 
+![](media/acompanhamentovulnerabilidade1.png)
+
 É fundamental que se avalie também os Marcadores de Consumo Alimentar, para que possam tomar medidas de apoio e referência desses indivíduos à dispositivos da rede que garantam a Segurança Alimentar e Nutricional, bem como tudo que envolve essas questões no cidadão. 
+
+A Atenção Primária a Saúde, enquanto espaço de primeiro contato entre profissionais de saúde e residentes do território, apresenta enorme potencial de contribuição à garantia da Segurança Alimentar e Nutricional por meio de ações de promoção da saúde e da alimentação adequada e saudável, especialmente em áreas com altos índices de vulnerabilidade social e econômica.
+
+A APS tem potencialidade para atuação no rastreamento e identificação da Insegurança Alimentar, promoção da Segurança Alimentar e Nutricional e garantia do Direito Humano à Alimentação Adequada (DHAA). Além disso, a identificação da prevalência de IA nos territórios tem o potencial de subsidiar políticas públicas com foco na agenda de SAN12
+
 
 ## 6.4.3 SOAP
 
