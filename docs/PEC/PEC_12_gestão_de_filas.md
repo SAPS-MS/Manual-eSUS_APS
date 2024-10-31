@@ -264,7 +264,7 @@ Agendar consulta entre profissionais:
 Fonte: SAPS/MS.
 
 **Enviar para a garantia do acesso**    
-Caso não haja disponibilidade de datas e horários no momento do agendamento, é possível utilizar a opção de "Enviar para a Garantia do Acesso" através do compartilhamento do cuidado, garantindo que esse cidadão permaneça na fila para um atendimento com aquela categoria profissional que necessita.  
+Caso não haja disponibilidade de datas e horários no momento do agendamento, é possível utilizar a opção de "Enviar para a Garantia do Acesso" através do compartilhamento do cuidado. Dessa forma, o cidadão permanece na fila para um atendimento com a categoria profissional que necessita.  
 
 #### Sugerir agendamento para grupos     
 Caso  profissional entenda que há indicação de agendamento para grupos poderá selecionar esta opção, incluindo observações se houver necessidade.
