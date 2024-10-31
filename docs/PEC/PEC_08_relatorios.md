@@ -12,7 +12,7 @@ last_modified_date: "25/09/2023"
 # CAPÍTULO 8 - Relatórios
 {: .no_toc }
 
-O módulo "Relatórios" permite que trabalhadores e gestores possam visualizar, de forma sintetizada e sistematizada, as ações de saúde realizadas no território. São vários tipos de relatórios divididos em gerenciais, consolidados e produção, e são utilizados por diferentes tipos de atores.
+O módulo "Relatórios" permite que trabalhadores e gestores possam visualizar, de forma sintetizada e sistematizada, as ações de saúde realizadas no território. Nesta seção estão disponíveis vários tipos de relatórios divididos em gerenciais, consolidados e produção, e são utilizados por diferentes tipos de atores.
 
 ## Sumário
 {: .no_toc .text-delta }
@@ -22,7 +22,7 @@ O módulo "Relatórios" permite que trabalhadores e gestores possam visualizar, 
 
 ![](media/pec_image747.png)
 
-O acompanhamento das ações de saúde que são realizadas no território é uma tarefa extremamente importante no cotidiano das equipes de Atenção Primária à Saúde. Esta atividade, além de auxiliar os trabalhadores a enxergar seu território, exprime o resultado do seu esforço, podendo ser potente ferramenta de reflexão e transformação do seu processo de trabalho.
+O acompanhamento das ações de saúde que são realizadas no território é uma tarefa extremamente importante no cotidiano das equipes de Atenção Primária à Saúde. Esta atividade, além de auxiliar os trabalhadores na visualização do seu território, exprime o resultado do seu esforço, podendo ser potente ferramenta de reflexão e transformação do seu processo de trabalho.
 
 Nesta versão os relatórios são exibidos na barra lateral de navegação, oferecendo um caminho mais simples e rápido para cada relatório (Figura 8.1). Clicando na opção "Relatórios" o sistema apresenta a lista com todos os disponíveis, dependendo do tipo de acesso que o profissional ou gestor possui. Caso haja dúvida em relação ao relatório, é possível acionar um balão de ajuda representado pelo símbolo ![](media/pec_image748.png) no canto superior direito de cada tela dos relatórios.
 
@@ -148,13 +148,13 @@ Passo 4. Para filtrar outros itens para compor um mesmo relatório, basta seguir
 
 # 8.3 Relatórios Consolidados
 
-Figura 8.8 - Tela do Relatórios consolidados exibida com o perfil de profissional da equipe de AB
+Figura 8.8 - Tela do Relatórios consolidados exibida com o perfil de profissional da equipe de APS
 
 ![](media/pec_image778.png)
 
 Fonte: SAPS/MS.
 
-Os relatórios consolidados trazem o estado atual do registro para um determinado conjunto de informações. Estes seguem o modelo padrão de estruturação dos relatórios, porém o usuário ao invés de selecionar um período, selecionará a data limite para consolidação dos dados.
+Os relatórios consolidados trazem o estado atual do registro para um determinado conjunto de informações. Estes seguem o modelo padrão de estruturação dos relatórios, sendo importante destacar que o usuário deve selecionar a data limite para consolidação dos dados, ou seja, até qual data serão contempladas as informações. 
 
 Figura 8.9 - Tela do Relatório Consolidado de Cadastro Individual
 ![](media/pec_image779.png)
@@ -162,7 +162,7 @@ Fonte: SAPS/MS.
 
 ## 8.3.1 Relatório consolidado de Cadastro domiciliar e territorial
 
-Este relatório reflete o consolidado do estado atual do cadastro domiciliar e territorial, contém as informações registradas por meio das fichas de Cadastro domiciliar e territorial, bem como do Aplicativo do e-SUS APS Território, quando este estiver sendo utilizado.
+Este relatório contém as informações registradas por meio das fichas de Cadastro domiciliar e territorial, bem como do Aplicativo do e-SUS APS Território, quando utilizado. O relatório reflete o consolidado do estado atual do cadastro domiciliar e territorial.
 
 Figura 8.10 - Tela do Relatório de cadastro domiciliar e territorial exibida com o perfil de profissional de saúde
 ![](media/pec_image780.png)
