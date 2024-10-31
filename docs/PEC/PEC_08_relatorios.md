@@ -60,7 +60,7 @@ Fonte: SAPS/MS.
 
 ![](media/pec_image755.png)
 
-Para evitar que consultas muito grandes criem uma carga exagerada no servidor da aplicação, por meio desta funcionalidade é possível configurar o fator que determinará quantos grupos de informações podem ser selecionados ao mesmo tempo, e ainda o período máximo, em meses, que poderá ser definido como intervalo para filtrar em cada relatório.  
+Para evitar que consultas muito grandes criem uma carga exagerada no servidor da aplicação, por meio desta funcionalidade é possível configurar o fator que determinará quantos grupos de informações podem ser selecionados ao mesmo tempo, e ainda o período máximo, em meses, que poderá ser definido como intervalo para filtrar em cada relatório. 
 
 Figura 8.3 - Tela de Configuração de Impressão exibida somente com o perfil de administrador
 ![](media/pec_image756.png)
