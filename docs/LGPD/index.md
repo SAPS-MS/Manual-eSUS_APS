@@ -8,6 +8,11 @@ last_modified_date: "02/06/2023"
 description: "Lei Geral de Proteção de Dados - LGPD"
 permalink: /docs/LGPD
 ---
+<head>
+    <style>
+        p{text-align:justify};
+    </style>
+</head>
 
 # Privacidade e Segurança da Informação
 {: .no_toc }

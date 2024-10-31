@@ -8,6 +8,12 @@ has_toc: true
 last_modified_date: "15/12/2023"
 ---
 
+<head>
+    <style>
+        p{text-align:justify};
+    </style>
+</head>
+
 # CAPÍTULO 7 - Coleta de Dados Simplificada (CDS) 
 {: .no_toc }
 

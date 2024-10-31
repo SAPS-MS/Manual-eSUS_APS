@@ -9,6 +9,12 @@ last_modified_date: "16/03/2021"
 ---
 
 
+<head>
+    <style>
+        p{text-align:justify};
+    </style>
+</head>
+
 # CAPÍTULO 10 - Acompanhamento de condições de saúde
 {: .no_toc }
 

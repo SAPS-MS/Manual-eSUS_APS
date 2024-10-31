@@ -7,6 +7,11 @@ has_children: false
 has_toc: true
 last_modified_date: "25/09/2023"
 ---
+<head>
+    <style>
+        p{text-align:justify};
+    </style>
+</head>
 
 # CAPÍTULO 5 - Ficha de Atividade Coletiva
 {: .no_toc }
