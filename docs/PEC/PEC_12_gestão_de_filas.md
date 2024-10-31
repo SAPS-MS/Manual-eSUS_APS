@@ -15,11 +15,9 @@ last_modified_date: "30/10/2024"
 </head>
 
 # CAPÍTULO 12 - Gestão de Filas
-{: .no_toc }
-
-Este módulo tem como objetivo instrumentalizar os gestores locais e municipais a gerir o acesso do cidadão na Unidade Básica de Saúde. É acessado no menu lateral esquerdo do PEC e dividido em Garantia do Acesso e Cuidados Compartilhados. 
 
 
+A Gestão de filas tem como objetivo instrumentalizar os gestores locais e municipais a gerir o acesso do cidadão às Unidades de Saúde. Apresenta os módulos de Garantia do acesso e Cuidados Compartilhados. 
 
 ## Sumário
 {: .no_toc .text-delta }
@@ -30,56 +28,61 @@ Este módulo tem como objetivo instrumentalizar os gestores locais e municipais 
 ## 12.1 Garantia do acesso
 
 
-A inserção de dados no módulo de Gestão de filas e garantia do acesso pode ser feita no momento de acolhimento do cidadão, que não tem uma demanda urgente no momento da ida ao serviço, e que não é possível atender o caso naquele momento.
-
-Figura 12.1 Tela módulo da garantia do acesso
-
-![](media/telagarantiadoacesso.png)
-Fonte: SAPS/MS.
-
+Um cidadão poderá ser inserido na garantia do acesso durante o seu acolhimento na unidade de saúde, caso não haja possibilidade de atendê-lo naquele momento nem de agendamento. A inserção dos dados de um cidadão nesta lista pode ser feita por qualquer profissional da Unidade Básica. 
 
 {: .atencao }
 O cidadão que procurar a unidade com demanda urgente não pode ter seu atendimento adiado.
 
-A inserção dos dados de um cidadão nesta lista pode ser feita por qualquer profissional da Unidade Básica. Ela deve ser feita quando, considerando o motivo da procura pelo serviço do cidadão, não for possível atender naquele momento, nem for possível o agendamento. 
+### 12.1.1 Inserir o cidadão na Garantia do Acesso
+As informações necessárias para incluir o cidadão nesta lista são o nome completo, CPF ou CNS do cidadão, conforme exposto na figura 1. Caso ele não seja cadastrado, deve-se fazer o cadastro simplificado ou completo. 
 
-As informações necessárias para incluir o cidadão nesta lista são o nome completo, CPF ou CNS do cidadão. Caso ele não seja cadastrado, deve-se fazer o cadastro simplificado ou completo. Este é um campo obrigatório.
+Figura 1 - Dados para inclusão do cidadão 
 
-![](media/garantiadoacessocidadao.png)
+![](media/telagarantiadoacesso.png)
+Fonte: SAPS/MS.
 
-O campo "Tipo de atendimento" traz três tipos de atendimento como opção, são eles: consulta de enfermagem, consulta médica e consulta odontológica, conforme mostra a Figura 12.2. Este campo deve ser escolhido a partir do que o cidadão foi buscar na unidade naquele momento, porém não conseguiu ter acesso. 
+O campo "Tipo de atendimento" é de preenchimento obrigatório e traz como opções a consulta de enfermagem, consulta médica e consulta odontológica, conforme exibe a Figura 2. 
 
-Figura 12.2 Tipos de atendimento buscados pelo cidadão
+Figura 2 - Tipos de atendimento 
 ![](media/garantiatipodeatendimento.png)
 Fonte: SAPS/MS.
 
+O Campo "Motivo da consulta" também é obrigatório e de texto livre para inserir as informações relatadas pelo cidadão quando buscou o atendimento na unidade de saúde. 
 
-O Campo "Motivo da consulta" também é obrigatório e é um campo aberto para inserir as informações do motivo que o cidadão buscou consulta na unidade.
-
-![](media/garantiamotivo.png)
-
-Por exemplo, uma mulher que foi buscar a realização de um exame citopatológico, mas não é possível naquele momento, e não é possível fazer o agendamento, o registro deve ser feito no módulo como consulta de enfermagem ou médica em "Tipo de atendimento" e deve-se descrever em "Motivo da consulta" que a busca é para a realização de coleta do exame citopatológico. 
-
-O campo "Equipe" não é obrigatório, então pode ser selecionada a equipe que o cidadão é vinculado ou não direcionar para nenhuma equipe no momento de inserção de dados na lista. Serão mostradas as equipes vinculadas aquela UBS.
+No campo "Equipe" serão exibidas todas as equipes vinculadas aquela únidade de saúde. Não é de preenchimento obrigatório, então pode ser selecionada a equipe que o cidadão é vinculado ou não direcionar para nenhuma equipe no momento de inserção de dados na lista. 
 
 ![](media/garantiaequipe.png)
 
 
 Ao adicionar todas as informações clique em ![](media/adicionar.png) para que o cidadão entre na lista. 
 
-A lista é exibida com as informações: Data, Cidadão (Nome, idade, CPF/CNS), telefone, equipe e tipo de atendimento, como mostra a Figura 12.3.
+### 12.1.2 Lista de cidadãos da garantia do acesso
+A lista é exibida com as informações: data, origem, cidadão (nome, idade, CPF/CNS e telefone), equipe e tipo de atendimento, como mostra a Figura 3.
 
-Figura 12.3 Lista de cidadão inseridos no módulo Gestão de garantia do acesso
+Figura 3 - Lista de cidadão inseridos no módulo Gestão de garantia do acesso
 
 ![](media/garantialista.png)
 Fonte: SAPS/MS.
 
+Ao expandir a linha com as informações de um cidadão é possível visualizar quantas vezes ele foi inserido na listagem e o último motivo da procura, conforme figura 4. 
 
-Ao inserir o cidadão na listagem do módulo da gestão de filas, e em garantia do acesso é possível visualizar quantas vezes ele foi inserido na listagem e o último motivo da procura.
+Figura 4 - Histórico do cidadão na garantia do acesso
 
 ![](media/garantiainformacao.png)
+Fonte: SAPS/MS 
 
+A origem de inserção de um cidadão na garantia do acesso pode ser através do próprio módulo ou do compartilhamento do cuidado. É possível filtrar a visualização dos cidadãos por meio da origem, como exibido na figura 5. 
 
+Figura 5 - Origem do registro na garantia do acesso
+![](media/pec_image1134.png)
+Fonte: SAPS/MS
+Além do filtro de origem, é possível filtrar também pelo período do registro, equipe, profissional e tipo de atendimento. 
+
+Figura 6 - Filtros de busca na garantia do acesso
+![](media/pec_image1133.png)
+Fonte: SAPS/MS 
+
+#### Remover registro da lista 
 Para retirar o cidadão da lista deve-se clicar no ícone ![](media/garantiaremoverdalista.png) e em seguida aparecerá na tela a Figura 12.4.
 
 Figura 12.4 Remoção do registro da lista
@@ -102,6 +105,7 @@ A remoção do registro na lista abre as seguintes opções:
 
 Será possível incluir o número de tentativas de contato e também inserir observações.
 
+#### Agendar consulta 
 Ainda é possível fazer o agendamento do cidadão no próprio módulo de gestão de filas, garantia do acesso no ícone ![](media/agendarconsultagarantia.png), que abrirá a opção de agendamento de consulta para um dos profissionais de saúde, como mostra a Figura 12.5
 
 Figura 12.5 Agendamento no módulo de gestão da garantia do acesso
