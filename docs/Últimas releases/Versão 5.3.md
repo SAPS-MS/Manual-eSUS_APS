@@ -133,6 +133,21 @@ Inclusão do **bairro** nos filtros avançados:
 
 * É possível alterar a equipe e unidade responsáveis pelos imóveis no Acompanhamento do Território. 
 
+![](./media/acompanhamentoterritorioequipe.png)
+
+* Implementação da opção de Recusa de cadastro nos imóveis cadastrados via Acompanhamento do Território;
+
+![](./media/recusa.png)
+
+Ao selecionar que o cidadão recusou o cadastro por meio do Termo de Recusa do Cadastro, abrirá uma tela de aviso reforçando que esta recusa de cadastro não implica no não atendimento do cidadão na unidade de saúde. 
+
+![](./media/recusa1.png)
+
+
+* Inclusão da funcionalidade de exportar um arquivo CSV com informações da microárea e filtros aplicados, no Acompanhamento do Território;
+
+![](./media/relatorioterritorio.png)
+
 
 **Acompanhamento das condições de saúde**
 
