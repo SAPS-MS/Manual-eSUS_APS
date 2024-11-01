@@ -2813,7 +2813,8 @@ Figura 6.5.64 - Alergias/Reações adversas
 
 # 6.6 Atendimentos Realizados Por Estagiário
 
-Esta funcionalidade tem o objetivo de permitir que estagiários visualizem informações do prontuário e realizem atendimentos de forma validada pelo supervisor. O estagiário poderá realizar atendimentos de acordo com o CBO de sua área de formação. Sendo assim, são passíveis de realização por um estagiário os atendimentos:
+Esta funcionalidade tem o objetivo de permitir que estagiários visualizem informações do prontuário e realizem atendimentos de forma validada pelo supervisor. O estagiário poderá realizar atendiment
+os de acordo com o CBO de sua área de formação. Sendo assim, são passíveis de realização por um estagiário os atendimentos:
 
 •	Atendimento individual
 
@@ -2833,7 +2834,7 @@ Figura 6.6.1 - Cadastro de lotação de estagiário
 
 ![](media/Estagi%C3%A1rio/estagi%C3%A1rio1.png)
 
-## 6.6.2 - Atendimentos
+## 6.6.2 - Atendimentos por estagiários
 
 Uma vez cadastrado, o estagiário poderá realizar seus atendimentos normalmente. Como exemplo, ao final de um atendimento individual (realizado pelo estagiário) aparecerá o botão “Enviar para revisão” (Figura 6.6.2) O supervisor, por sua vez, deverá revisitar o atendimento registrado pelo estagiário (Figura 6.6.3), realizar as devidas correções caso julgue necessário e “Aprovar e finalizar o atendimento” (Figura 6.6.4).
 
@@ -2848,6 +2849,10 @@ Figura 6.6.3
 Figura 6.6.4
 
 ![](media/Estagiário/estagiario4.jpg)
+
+Exemplo supervisão e aprovação do atendimento
+
+![](media/revisaosupervisor.gif)
 
 # 6.7 Registro Tardio de Atendimento
 

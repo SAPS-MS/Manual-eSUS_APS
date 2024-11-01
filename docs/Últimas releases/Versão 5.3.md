@@ -45,8 +45,6 @@ last_modified_date: "17/05/2024"
 * Acompanhamento de vulnerabilidade no prontuário;
 
 
-
-
 **Unificação de bases**
 
 Esta ferramenta consolida as bases descentralizadas do PEC em uma estrutura única e centralizada. Esse avanço permite que todos os estabelecimentos de saúde integrem e implementem o conceito de Prontuário Eletrônico do Cidadão (PEC e-SUS APS) de forma unificada no âmbito municipal. 
@@ -88,6 +86,23 @@ Ao visualizar a folha de rosto de um cidadão que consta como beneficiário no a
 
 ![](./media/importacao_beneficiarios_bolsa_familia_1.png)
 
+ **Relatório de erros retornados pela RNDS**
+
+Nesta versão é possível gerar o relatório de erros de dados enviados à RNDS. 
+
+Para gerar o relatório, o gestor municial deverá selecionar na aba lateral ![](media/gestaomunicipal.png).
+Em seguida selecionar![](media/relatoriornds.png) e "gerar relatório de erro"
+
+Abrirá uma tela onde poderá selecionar o período desejado e gerar o relatório CSV.
+
+![](media/relatoriornds1.png)
+
+Deverá marcar todos ou os que desejar.
+
+O relatório gerado, terá as informações: data de envio, tipo de registro, ID do registro, Status do envio, erro retornado pela RND.
+
+![](media/relatoriornds3.png)
+
 **Busca ativa de vacinação**
 
 * Implementação do Grupo-alvo de Adultos para Vacinas do calendário vacinal;
@@ -116,7 +131,8 @@ Inclusão do **bairro** nos filtros avançados:
 ![](./media/cadastro_imovel.png)
 
 
-* O profissional também poderá gerar o relatório e exportar 
+* É possível alterar a equipe e unidade responsáveis pelos imóveis no Acompanhamento do Território. 
+
 
 **Acompanhamento das condições de saúde**
 
