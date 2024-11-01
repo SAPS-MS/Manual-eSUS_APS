@@ -32,6 +32,8 @@ last_modified_date: "17/05/2024"
 * Implementação da possibilidade de alterar unidade e equipe responsáveis pelos imóveis visualizados no Acompanhamento do Território;
 * Implementação da opção de Recusa de cadastro nos imóveis cadastrados via Acompanhamento do Território;
 * Inclusão da funcionalidade de exportar um arquivo CSV com informações da microárea e filtros aplicados, no Acompanhamento do Território;
+* Implementação de filtros por condições de moradia nos imóveis visualizados no Acompanhamento do Território;
+* Implementação de Identificação de possíveis cadastros duplicados de imóveis, com recomendação de atualização no registro existente;
 * Acompanhamento das condições de saúde;
 * Videochamada do profissional convidado adaptada para telefone celular;
 * Videochamada do profissional convidado adaptada para tablet;
@@ -42,7 +44,7 @@ last_modified_date: "17/05/2024"
 * Atestado Digital;
 * Garantia do Acesso no Cuidado Compartilhado;
 * Participação do cidadão e atendimento compartilhado;
-* Acompanhamento de vulnerabilidade no prontuário;
+* Acompanhamento de vulnerabilidade no prontuário.
 
 
 **Unificação de bases**
@@ -147,6 +149,17 @@ Ao selecionar que o cidadão recusou o cadastro por meio do Termo de Recusa do C
 * Inclusão da funcionalidade de exportar um arquivo CSV com informações da microárea e filtros aplicados, no Acompanhamento do Território;
 
 ![](./media/relatorioterritorio.png)
+
+
+*Implementação de filtros por condições de moradia nos imóveis visualizados no Acompanhamento do Território.
+
+![](./media/filtromoradia.png)
+
+*Implementação de Identificação de possíveis cadastros duplicados de imóveis, com recomendação de atualização no registro existente.
+
+Ao tentar cadastrar um imóvel que já tenha cadastro, o sistema apresentará um alerta orientando que já existe.
+
+![](./media/imovelcadastrado.png)
 
 
 **Acompanhamento das condições de saúde**
