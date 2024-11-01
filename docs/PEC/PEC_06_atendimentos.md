@@ -1,4 +1,4 @@
----
+---figuras quantidade da dose
 layout: default
 title: Atendimentos
 parent: Prontuário Eletrônico do Cidadão v5.2
@@ -801,6 +801,23 @@ Ao visualizar a folha de rosto de um cidadão que consta como beneficiário no a
 
 Fonte: SAPS/MS
 
+A partir da versão 5.3 foi inserido na folha de rosto o acompanhamento de vulnerabilidade no prontuário.
+
+O acompanhamento de vulnerabilidade foi criado no PEC para sinalizar quando o cidadão se enquadra em situações de insegurança alimentar. Esta classificação é resultado da resposta das duas perguntas da TRIA -  Triagem para Risco de Insegurança Alimentar, presentes da Ficha de Cadastro Individual do cidadão. 
+
+![](media/acompanhamentovulnerabilidade.png)
+
+Quando há esta sinalização no prontuário do cidadão, é necessário que o profissional de saúde avalie todos os componentes do núcleo familiar, pois esta informação indica que há comprometimento da qualidade e quantidade da alimentação no domicílio e que o indivíduo se encontra em Risco para Insegurança Alimentar.
+
+![](media/acompanhamentovulnerabilidade1.png)
+
+É fundamental que se avalie também os Marcadores de Consumo Alimentar, para que possam tomar medidas de apoio e referência desses indivíduos à dispositivos da rede que garantam a Segurança Alimentar e Nutricional, bem como tudo que envolve essas questões no cidadão. 
+
+A Atenção Primária a Saúde, enquanto espaço de primeiro contato entre profissionais de saúde e residentes do território, apresenta enorme potencial de contribuição à garantia da Segurança Alimentar e Nutricional por meio de ações de promoção da saúde e da alimentação adequada e saudável, especialmente em áreas com altos índices de vulnerabilidade social e econômica.
+
+A APS tem potencialidade para atuação no rastreamento e identificação da Insegurança Alimentar, promoção da Segurança Alimentar e Nutricional e garantia do Direito Humano à Alimentação Adequada (DHAA). Além disso, a identificação da prevalência de IA nos territórios tem o potencial de subsidiar políticas públicas com foco na agenda de SAN12
+
+
 ## 6.4.3 SOAP
 
 ![](media/pec_image398.png)
@@ -1082,6 +1099,30 @@ Fonte: SAPS/MS.
 ![](media/pec_image1081.png)
 Fonte: SAPS/MS.
 
+#### Atestado Digital
+
+Implementado campo para o envio do atestado digital para o cidadão. 
+
+Ao selecionar "Gerar e enviar atestado digital", o profissional deverá incluir o e mail para envio do documento.
+
+![](media/atestadodigital1.png)
+
+Em seguida, abrirá uma tela de aviso para conferência dos dados do atestado.
+
+![](media/atestadodigital2.png)
+
+Na sequência, abrirá a tela de assinatura, sendo necessário que o profissional tenha assinatura cadastrada em um provedor.
+
+![](media/atestadodigital3.png)
+
+O registro do atestado digital ficará disponível no prontuário do cidadão.
+
+![](media/atestadodigital4.png)
+
+Atestado Digital com assinatura eletrônica
+
+![](media/atestadodigital5.png)
+
 #### Declaração de Comparecimento
 
 Para emitir uma declaração de comparecimento, basta seguir os passos:
@@ -1310,7 +1351,7 @@ Utilize a opção "Uso contínuo" caso o medicamento seja para tratamento de con
 
 ![](media/pec_image454.png)
 
-- Passo 9. Para concluir, clique em "Salvar prescrição" ![](media/pec_image455.png);
+- Passo 9. Para concluir, clique em "Salvar prescrição" ![](media/pec_image455.png)
 
 - Passo 10. Para adicionar mais de um medicamento na receita, logo após salvar inicie o novo processo de preenchimento e clique em "Salvar prescrição", o sistema irá exibir uma lista lateral com os medicamento prescritos durante o atendimento, conforme figura 
 6.4.23.
@@ -2793,7 +2834,8 @@ Figura 6.5.64 - Alergias/Reações adversas
 
 # 6.6 Atendimentos Realizados Por Estagiário
 
-Esta funcionalidade tem o objetivo de permitir que estagiários visualizem informações do prontuário e realizem atendimentos de forma validada pelo supervisor. O estagiário poderá realizar atendimentos de acordo com o CBO de sua área de formação. Sendo assim, são passíveis de realização por um estagiário os atendimentos:
+Esta funcionalidade tem o objetivo de permitir que estagiários visualizem informações do prontuário e realizem atendimentos de forma validada pelo supervisor. O estagiário poderá realizar atendiment
+os de acordo com o CBO de sua área de formação. Sendo assim, são passíveis de realização por um estagiário os atendimentos:
 
 •	Atendimento individual
 
@@ -2813,7 +2855,7 @@ Figura 6.6.1 - Cadastro de lotação de estagiário
 
 ![](media/Estagi%C3%A1rio/estagi%C3%A1rio1.png)
 
-## 6.6.2 - Atendimentos
+## 6.6.2 - Atendimentos por estagiários
 
 Uma vez cadastrado, o estagiário poderá realizar seus atendimentos normalmente. Como exemplo, ao final de um atendimento individual (realizado pelo estagiário) aparecerá o botão “Enviar para revisão” (Figura 6.6.2) O supervisor, por sua vez, deverá revisitar o atendimento registrado pelo estagiário (Figura 6.6.3), realizar as devidas correções caso julgue necessário e “Aprovar e finalizar o atendimento” (Figura 6.6.4).
 
@@ -2828,6 +2870,10 @@ Figura 6.6.3
 Figura 6.6.4
 
 ![](media/Estagiário/estagiario4.jpg)
+
+Exemplo supervisão e aprovação do atendimento
+
+![](media/revisaosupervisor.gif)
 
 # 6.7 Registro Tardio de Atendimento
 
