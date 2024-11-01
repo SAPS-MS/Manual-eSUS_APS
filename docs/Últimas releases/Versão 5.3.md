@@ -110,6 +110,8 @@ Inclusão do **bairro** nos filtros avançados:
 ![](./media/cadastro_imovel.png)
 
 
+* O profissional também poderá gerar o relatório e exportar 
+
 **Acompanhamento das condições de saúde**
 
 * Inclusão da exportação do relatório de busca em formato CSV, permitindo a manipulação dos dados.
@@ -214,7 +216,13 @@ Dessa forma, o cidadão permanece na fila para um atendimento com a categoria pr
 
 **Participação do cidadão e atendimento compartilhado**
 
+Agora é possivel sinalizar em "finalização do atendimento" a forma de participação do cidadão, podendo ser: Presencial, Chamada de vídeo, Chamada de vox, E-mail, Mensagem e Outros.
 
+![](media/pec_image1092.png)
+
+Também em "finalização do atendimento" foi inclusa a opção de sinalização do profissional e forma de participação no que se refere ao atendimento compartilhado.
+
+![](media/pec_image1093.png)
 
 **Acompanhamento de vulnerabilidade no prontuário**
 
