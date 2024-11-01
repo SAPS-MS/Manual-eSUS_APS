@@ -208,7 +208,13 @@ O registro do atestado digital ficará disponível no prontuário do cidadão.
 
 **Garantia do Acesso no Cuidado Compartilhado**
 
+Ao receber uma solicitação de cuidado compartilhado no sistema, caso o profissional opte pela conduta de agendar consulta e não haja disponibilidade de datas e horários no momento do agendamento, é possível utilizar a opção de "Enviar para a Garantia do Acesso" através do compartilhamento do cuidado.  
+
+Dessa forma, o cidadão permanece na fila para um atendimento com a categoria profissional que necessita. Ao buscar por aquele registro no módulo de Garantia do Acesso, é exibido que ele tem como origem o módulo de Cuidado Compartilhado.
+
 **Participação do cidadão e atendimento compartilhado**
+
+
 
 **Acompanhamento de vulnerabilidade no prontuário**
 
