@@ -8,6 +8,7 @@ has_toc: true
 last_modified_date: "16/03/2021"
 ---
 
+Neste capítulo serão abordados os Acompanhamentos de condições de saúde, de cidadãos vinculados e de território.
 
 <head>
     <style>
@@ -15,8 +16,10 @@ last_modified_date: "16/03/2021"
     </style>
 </head>
 
+
 # CAPÍTULO 10 - Acompanhamento de condições de saúde
 {: .no_toc }
+
 
 Antes disposto no módulo Relatórios, Relatórios operacionais, os relatórios gerados no Acompanhamento de condições de saúde foram criados com objetivo de ser uma ferramenta para os profissionais de saúde das ESFs no monitoramento das situações de saúde dos cidadãos adscritos no território. Esses relatórios são acessados apenas pelos perfis de profissionais de saúde das equipes e coordenadores de unidade, tendo em vista as questões de segurança, privacidade e sigilo. 
 
