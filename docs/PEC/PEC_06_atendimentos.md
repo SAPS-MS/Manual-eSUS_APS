@@ -1314,7 +1314,7 @@ Utilize a opção "Uso contínuo" ![](media/pec_image451.png) caso o medicamento
 
 ![](media/pec_image454.png)
 
-- Passo 9. Para concluir, clique em "Salvar prescrição" ![](media/pec_image455.png);
+- Passo 9. Para concluir, clique em "Salvar prescrição" ![](media/pec_image455.png)
 
 - Passo 10. Para adicionar mais de um medicamento na receita, preencha novamente os campos da prescrição e clique em "Salvar prescrição", o sistema irá exibir uma lista lateral com os medicamento prescritos durante o atendimento, conforme figura 
 6.4.23.
