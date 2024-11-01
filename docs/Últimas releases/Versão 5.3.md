@@ -208,6 +208,10 @@ O registro do atestado digital ficará disponível no prontuário do cidadão.
 
 ![](media/atestadodigital4.png)
 
+Atestado Digital com assinatura eletrônica
+
+![](media/atestadodigital5.png)
+
 **Garantia do Acesso no Cuidado Compartilhado**
 
 Ao receber uma solicitação de cuidado compartilhado no sistema, caso o profissional opte pela conduta de agendar consulta e não haja disponibilidade de datas e horários no momento do agendamento, é possível utilizar a opção de "Enviar para a Garantia do Acesso" através do compartilhamento do cuidado.  

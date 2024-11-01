@@ -1099,6 +1099,30 @@ Fonte: SAPS/MS.
 ![](media/pec_image1081.png)
 Fonte: SAPS/MS.
 
+#### Atestado Digital
+
+Implementado campo para o envio do atestado digital para o cidadão. 
+
+Ao selecionar "Gerar e enviar atestado digital", o profissional deverá incluir o e mail para envio do documento.
+
+![](media/atestadodigital1.png)
+
+Em seguida, abrirá uma tela de aviso para conferência dos dados do atestado.
+
+![](media/atestadodigital2.png)
+
+Na sequência, abrirá a tela de assinatura, sendo necessário que o profissional tenha assinatura cadastrada em um provedor.
+
+![](media/atestadodigital3.png)
+
+O registro do atestado digital ficará disponível no prontuário do cidadão.
+
+![](media/atestadodigital4.png)
+
+Atestado Digital com assinatura eletrônica
+
+![](media/atestadodigital5.png)
+
 #### Declaração de Comparecimento
 
 Para emitir uma declaração de comparecimento, basta seguir os passos:
