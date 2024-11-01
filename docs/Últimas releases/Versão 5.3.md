@@ -22,12 +22,16 @@ last_modified_date: "17/05/2024"
 - API para recebimento de lotes dos Sistemas Próprios/Terceiros; 
 - Histórico de acessos;
 - Atualização de terminologias dos envios à RNDS;
-- Importar beneficiários do Bolsa Família.
+- Importar beneficiários do Bolsa Família;
+- Relatório de erros retornados pela RNDS.
 
 ## Novidades - Ferramentas relacionadas aos atendimentos
 
 * Busca ativa de vacinação;
 * Acompanhamento do Território - Cadastro de Imóveis e Famílias;
+* Implementação da possibilidade de alterar unidade e equipe responsáveis pelos imóveis visualizados no Acompanhamento do Território;
+* Implementação da opção de Recusa de cadastro nos imóveis cadastrados via Acompanhamento do Território;
+* Inclusão da funcionalidade de exportar um arquivo CSV com informações da microárea e filtros aplicados, no Acompanhamento do Território;
 * Acompanhamento das condições de saúde;
 * Videochamada do profissional convidado adaptada para telefone celular;
 * Videochamada do profissional convidado adaptada para tablet;
@@ -39,6 +43,8 @@ last_modified_date: "17/05/2024"
 * Garantia do Acesso no Cuidado Compartilhado;
 * Participação do cidadão e atendimento compartilhado;
 * Acompanhamento de vulnerabilidade no prontuário;
+
+
 
 
 **Unificação de bases**
@@ -220,11 +226,11 @@ Dessa forma, o cidadão permanece na fila para um atendimento com a categoria pr
 
 **Participação do cidadão e atendimento compartilhado**
 
-Agora é possivel sinalizar em "finalização do atendimento" a forma de participação do cidadão, podendo ser: Presencial, Chamada de vídeo, Chamada de vox, E-mail, Mensagem e Outros.
+É possível identificar, em "finalização do atendimento" se o cidadão participou do atendimento registrado e de que forma se deu essa participação (presencial, chamada de vídeo, chamada de voz, e-mail, mensagem, outro). 
 
 ![](media/pec_image1092.png)
 
-Também em "finalização do atendimento" foi inclusa a opção de sinalização do profissional e forma de participação no que se refere ao atendimento compartilhado.
+Além de informar se outro profissional participou do atendimento, agora também é possível caracterizar a forma ele participou (presencial, chamada de vídeo, chamada de voz, e-mail, mensagem, outro).
 
 ![](media/pec_image1093.png)
 
