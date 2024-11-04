@@ -23,7 +23,7 @@ MANUAL DE USO
 {: .text-center }
 <br>
 <br>
-(versão 4.3.10)
+(versão 4.3.11)
 {: .fs-6 }
 {: .text-center }
 <br>
@@ -76,7 +76,7 @@ Alexandre Soares de Brito, Diogo Ferreira Gonçalves
 {: .text-center }
 
 Brasil. Ministério da Saúde. Secretaria de Atenção Primária à Saúde.<br>
-e-SUS Atenção Primária à Saúde: Manual do aplicativo e-SUS Território – Versão 4.0 [recurso eletrônico] / Ministério da Saúde, Secretaria de Atenção Primária à Saúde, Secretaria Executiva. – Brasília: Ministério da Saúde, 2022.<br>
+e-SUS Atenção Primária à Saúde: Manual do aplicativo e-SUS Território – Versão 4.3.11 [recurso eletrônico] / Ministério da Saúde, Secretaria de Atenção Primária à Saúde, Secretaria Executiva. – Brasília: Ministério da Saúde, 2022.<br>
 <br>
 ISBN **Versão Preliminar**<br>
 Modo de acesso: <https://aps.saude.gov.br/ape/esus><br>
