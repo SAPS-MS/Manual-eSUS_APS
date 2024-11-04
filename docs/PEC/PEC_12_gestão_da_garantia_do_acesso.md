@@ -14,7 +14,7 @@ last_modified_date: "02/05/2023"
 
 ## 12.1 Garantia do Acesso
 
-Este módulo tem como objetivo instrumentalizar os gestores locais e municipais a gerir o acesso do cidadão na Unidade Básica de Saúde.
+Este módulo tem como objetivo criar uma lista para a gestão da garantia do acesso dos estabelecimentos de saúde a fim de garantir o atendimento dos cidadãos que buscaram o serviço de saúde, mas não obtiveram assistência imediata. 
 
 ## Sumário
 {: .no_toc .text-delta }
@@ -24,7 +24,7 @@ Este módulo tem como objetivo instrumentalizar os gestores locais e municipais 
 
 
 
-A inserção de dados no módulo de garantia do acesso pode ser feita no momento de acolhimento do cidadão, que não tem uma demanda urgente no momento da ida ao serviço, e que não é possível atender o caso naquele momento.
+A inserção de dados no módulo de garantia do acesso pode ser feita no momento de acolhimento, a fim de proporcionar ao cidadão em momento oportuno a garantia do acesso à consultas.
 
 Figura 12.1 Tela módulo da garantia do acesso
 
@@ -37,11 +37,11 @@ Fonte: SAPS/MS.
 O cidadão que procurar a unidade com demanda urgente não pode ter seu atendimento adiado.
 
 
-A inserção dos dados de um cidadão nesta lista pode ser feita por qualquer profissional da Unidade Básica. Ela deve ser feita quando, considerando o motivo da procura pelo serviço do cidadão, não for possível atender naquele momento, nem for possível o agendamento. 
+A inserção dos dados de um cidadão nesta lista pode ser feita por qualquer profissional da Unidade Básica. Ela deve ser feita quando, considerando o motivo da consulta do cidadão, não for possível atender naquele momento, nem for possível o agendamento. 
 
-As informações necessárias para incluir o cidadão nesta lista é o nome completo, CPF ou CNS do cidadão. Caso ele não seja cadastrado, deve-se fazer o cadastro simplificado ou completo. Este é um campo obrigatório.
+As informações necessárias para incluir o cidadão nesta lista são o nome completo, CPF ou CNS do cidadão. Caso ele não seja cadastrado, deve-se fazer o cadastro simplificado ou completo. Este é um campo obrigatório.
 
-O campo "Tipo de atendimento" traz três tipos de atendimento como opção, são eles: consulta de enfermagem, consulta médica e consulta odontológica, conforme mostra a Figura 12.2. Este campo deve ser escolhido a partir do que o cidadão foi buscar na unidade naquele momento, porém não conseguiu ter acesso. 
+O campo "Tipo de atendimento" apresenta três tipos de atendimento como opção, sendo eles: consulta de enfermagem, consulta médica e consulta odontológica, conforme mostra a Figura 12.2. Este campo deve ser escolhido a partir do que o cidadão foi buscar na unidade naquele momento, porém não conseguiu ter acesso. 
 
 Figura 12.2 Tipos de atendimento buscados pelo cidadão
 ![](media/garantia_de_acesso_tipoconsulta.png)
@@ -54,9 +54,9 @@ O Campo "Motivo da consulta" também é obrigatório e é um campo aberto para i
 ![](media/garantia_de_acesso_motivo.png)
 
 
-Por exemplo, uma mulher que foi buscar a realização de um exame citopatológico, mas não é possível naquele momento, e não é possível fazer o agendamento, o registro deve ser feito no módulo como consulta de enfermagem ou médica em "Tipo de atendimento" e deve-se descrever em "Motivo da consulta" que a busca é para a realização de coleta do exame citopatológico. 
+Por exemplo, uma mulher que foi buscar a realização de um exame citopatológico, mas não foi possível naquele momento, e não é possível fazer o agendamento. O registro deve ser feito no módulo como consulta de enfermagem ou médica em "Tipo de atendimento" e deve-se descrever em "Motivo da consulta" que a busca envolve a realização de coleta do exame citopatológico. 
 
-O campo "Equipe" não é obrigatório, então pode ser selecionada a equipe que o cidadão é vinculado ou não direcionar para nenhuma equipe no momento de inserção de dados na lista. Serão mostradas as equipes vinculadas aquela UBS.
+O campo "Equipe" não é obrigatório, dessa forma pode ser selecionada a equipe que o cidadão é vinculado ou não direcionar para nenhuma equipe no momento de inserção de dados na lista. Serão mostradas as equipes vinculadas aquela UBS.
 
 ![](media/garantia_de_acesso_equipe.png)
 
@@ -67,7 +67,7 @@ A lista é exibida com as informações: Data, Cidadão (Nome, idade, CPF/CNS), 
 
 Figura 12.3 Lista de cidadão inseridos no módulo Garantia do acesso
 
-![](media/garantia_lista.PNG)
+![](media/garantia_lista.png)
 Fonte: SAPS/MS.
 
 
