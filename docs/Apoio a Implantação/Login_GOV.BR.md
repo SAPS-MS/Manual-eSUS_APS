@@ -5,7 +5,7 @@ parent: Apoio a Implantação
 nav_order: 6
 has_children: false
 has_toc: true
-last_modified_date: "10/05/2024"
+last_modified_date: "14/10/2024"
 ---
 <head>
     <style>
@@ -46,7 +46,7 @@ Tutorial desta habilitação: Servidores WINDOWS: [LINK](https://saps-ms.github.
 ![alt text](media/gov02.png)
 
 {: .atencao }
-Conforme orientações da **Secretaria de Governo Digital (SGD)**, as integrações ao Login GOV.BR possuem como pré-requisito que o sistema a ser integrado deve estar hospedado em um domínio GOV.BR. Desta forma, apenas solicitações de integração que atendam essa premissa receberão chaves de produção para conclusão da integração.
+Conforme a [Portaria SGD/MGI Nº 7.076, de 2 de outubro de 2024](http://www.in.gov.br/web/dou/-/portaria-sgd/mgi-n-7.076-de-2-de-outubro-de-2024-588863325), em seu Art. 3º, "para realizar a solicitação de integração à Conta gov.br ..., é imprescindível que o sistema a ser integrado esteja hospedado em um domínio oficial de governo", ou seja, domínios com final "GOV.BR". Desta forma, apenas solicitações de integração que atendam essa premissa receberão chaves de produção para conclusão da integração. Vale destacar que a mesma Portaria, em seu Parágrafo Único, alerta que "os órgãos que não estiverem em conformidade com o disposto ..., terão o prazo de um ano, a partir da publicação desta Portaria, para se adequarem, sob pena de revogação das credenciais de acesso."
 
 ## Etapa 1 - Adesão à Rede Nacional de Governo Digital 
 
@@ -127,20 +127,20 @@ Destacamos que todos os passos dos formulários a seguir deverão ser realizadas
 
 - Em “Chave Pública PGP do Responsável Técnico”, siga este tutorial ([LINK](https://acesso.gov.br/roteiro-tecnico/chavepgp.html#como-criar-um-par-de-chaves-pgp)) na primeira parte “Como criar um par de chaves PGP”, gere a chave com os dados do Responsável Técnico e anexe o arquivo *.asc neste campo. 
 
-- Em “URL”(s) do retorno Homologação”, digite os domínios abaixo, substituindo “SEU-DOMINIO” pelo domínio de acesso à sua Instalação do e-SUS APS, exemplo: 
+- Em “URL”(s) do retorno Homologação”, digite os domínios abaixo, substituindo “SEU-DOMINIO.gov.br” pelo domínio de acesso à sua Instalação do e-SUS APS, exemplo: 
 ```
-https://SEU-DOMINIO/login/oauth2/code/govbr
-https://SEU-DOMINIO/oauth2/code/govbr
-```
-
-- Em “URL única para página inicial do sistema Homologação”, digite o domínio de acesso à sua Instalação do e-SUS APS, substituindo “SEU-DOMINIO” pelo domínio de acesso à sua Instalação do e-SUS APS exemplo:
-```
-https://SEU-DOMINIO
+https://SEU-DOMINIO.gov.br/login/oauth2/code/govbr
+https://SEU-DOMINIO.gov.br/oauth2/code/govbr
 ```
 
-- Em “URL(s) de Log Out (Homologação), digite seu domínio de acesso à sua Instalação do e-SUS APS com /logout ao fim, substituindo “SEU-DOMINIO” pelo domínio de acesso à sua Instalação do e-SUS APS exemplo: 
+- Em “URL única para página inicial do sistema Homologação”, digite o domínio de acesso à sua Instalação do e-SUS APS, substituindo “SEU-DOMINIO.gov.br” pelo domínio de acesso à sua Instalação do e-SUS APS exemplo:
 ```
-https://SEU-DOMINIO/logout
+https://SEU-DOMINIO.gov.br
+```
+
+- Em “URL(s) de Log Out (Homologação), digite seu domínio de acesso à sua Instalação do e-SUS APS com /logout ao fim, substituindo “SEU-DOMINIO.gov.br” pelo domínio de acesso à sua Instalação do e-SUS APS exemplo: 
+```
+https://SEU-DOMINIO.gov.br/logout
 ```
 
 - Nas três datas previstas ao fim da imagem, estime o tempo da disponibilização do login gov.br para os profissionais que acessar a sua instalação do e-SUS APS, exemplo:  **Início do desenvolvimento**: data atual do preenchimento do formulário / **Homologação**: 10 dias após o preenchimento do formulário / **Disponibilização para a sociedade**: 20 dias após o preenchimento do formulário
@@ -214,20 +214,20 @@ sudo systemctl restart e-SUS-PEC
 
 > Como preencher: 
 
-- Em “URL(s) do retorno Produção”, digite os domínios abaixo, substituindo “SEU-DOMINIO” pelo domínio de acesso à sua Instalação do e-SUS APS, exemplo:
+- Em “URL(s) do retorno Produção”, digite os domínios abaixo, substituindo “SEU-DOMINIO.gov.br” pelo domínio de acesso à sua Instalação do e-SUS APS, exemplo:
 ```
-https://SEU-DOMINIO/login/oauth2/code/govbr
-https://SEU-DOMINIO/oauth2/code/govbr
-```
-
-- Em “URL única para página inicial do sistema produção” digite o domínio de acesso da sua instalação do e-SUS APS, substituindo “SEU-DOMINIO” pelo domínio de acesso à sua Instalação do e-SUS APS, exemplo:
-```
-https://SEU-DOMINIO
+https://SEU-DOMINIO.gov.br/login/oauth2/code/govbr
+https://SEU-DOMINIO.gov.br/oauth2/code/govbr
 ```
 
-- Em “URL(s) de Log Out (Produção)” digite seu domínio de acesso à sua Instalação do e-SUS APS com /logout ao fim, substituindo “SEU-DOMINIO” pelo domínio de acesso à sua Instalação do e-SUS APS exemplo:
+- Em “URL única para página inicial do sistema produção” digite o domínio de acesso da sua instalação do e-SUS APS, substituindo “SEU-DOMINIO.gov.br” pelo domínio de acesso à sua Instalação do e-SUS APS, exemplo:
 ```
-https://SEU-DOMINIO/logout
+https://SEU-DOMINIO.gov.br
+```
+
+- Em “URL(s) de Log Out (Produção)” digite seu domínio de acesso à sua Instalação do e-SUS APS com /logout ao fim, substituindo “SEU-DOMINIO.gov.br” pelo domínio de acesso à sua Instalação do e-SUS APS exemplo:
+```
+https://SEU-DOMINIO.gov.br/logout
 ```
 
 - Caso necessário, altere as datas possíveis 
@@ -267,4 +267,4 @@ https://SEU-DOMINIO/logout
 
 **FIM** 
 
-3ª versão. Atualizado em 15 de agosto de 2024.
+4ª versão. Atualizado em 14 de outubro de 2024.

@@ -19,7 +19,7 @@ last_modified_date: "25/09/2023"
 
 **Objetivo da ficha:** registrar os procedimentos realizados na Atenção Básica. Ela, identifica os procedimentos que foram feitos por determinado profissional, em ato, diferentemente da Ficha de Atendimento Individual, em que são registradas a solicitação e a avaliação de procedimentos de exames, por exemplo.
 
-**Profissionais que utilizam esta ficha:** é utilizada pelos profissionais de equipes da Saúde da Família, de Saúde Prisional, dos Núcleos de Apoio à Saúde da Família, da Academia da Saúde, de Consultório na Rua e outras equipes de AB. Todos os profissionais de nível superior são habilitados a preenchê-la (médico, enfermeiro, fisioterapeuta, nutricionista, etc.) ou de nível médio (técnicos e auxiliares de enfermagem) da área da saúde, com exceção da equipe de Saúde Bucal (que utiliza a Ficha de Atendimento Odontológico Individual) e dos agentes comunitários de saúde.
+**Profissionais que utilizam esta ficha:** é utilizada pelos profissionais de equipes da Saúde da Família, de Saúde Prisional, dos Núcleos de Apoio à Saúde da Família, da Academia da Saúde, de Consultório na Rua e outras equipes de AB. Todos os profissionais de nível superior são habilitados a preenchê-la (médico, enfermeiro, fisioterapeuta, nutricionista, etc.) ou de nível médio (técnicos e auxiliares de enfermagem) da área da saúde, com exceção da equipe de Saúde Bucal (que utiliza a Ficha de Atendimento Odontológico Individual).
 
 A seguir, serão apresentados os campos da Ficha de Procedimentos e as orientações sobre como preenchê-los. Os campos assinalados com asterisco (\*) são de preenchimento obrigatório.
 

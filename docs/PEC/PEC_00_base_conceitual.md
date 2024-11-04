@@ -100,7 +100,7 @@ Considerando esta política de controle de versão, para identificar uma versão
 
 O PEC e o CDS do e-SUS APS são utilizados de forma complementares nos cenários possíveis de informatização das Unidades Básicas de Saúde (UBS) dos municípios e do distrito federal. Ambas as ferramentas possibilitam a identificação dos registros de atendimentos ao cidadão por meio do CNS ou CPF, promovendo efetiva coordenação e gestão do cuidado, além da possibilidade de compartilhamento de informações com outros sistemas de saúde em diferentes níveis da Rede de Atenção à Saúde (RAS).
 
-Considerando o princípio doutrinário da universalidade no SUS, se o cidadão não tiver um CNS ou CPF, ele **DEVE** ser atendido e poderá ser utilizado o registro no CDS ou PEC. Entretanto, este registro do atendimento vira um *dado individualizado e não identificado*. Dessa maneira, o dado apenas comporá o consolidado de ações desenvolvidas pela equipe.
+Considerando o princípio doutrinário da universalidade no SUS, se o cidadão não possuir um CNS ou CPF, ele **DEVE** ser atendido e poderá ser utilizado o registro no CDS ou PEC. Entretanto, este registro do atendimento vira um *dado individualizado e não identificado*. Dessa maneira, o dado apenas comporá o consolidado de ações desenvolvidas pela equipe. Outra alternativa para o cidadão que não possui CNS ou CPF, é criar um CNS para este cidadão (solicitando diretamente aos profissionais com acesso ao CadSUS WEB ou realizar esta ação pelo próprio PEC e-SUS APS com login gov.br habilitado), possibilitando a identificação tanto do cidadão quanto do registro nos sistema de informação.
 
 ## 3.2 Utilizando o Cadastro do Cidadão
 

@@ -69,7 +69,7 @@ No campo obrigatório "Status da Vacina", quando o Tipo de visualização (Figur
 
 Figura 11.5 - Status da Vacina
 
-![](media/Busca_ativa/pec_image992.png)
+![](media/pec_imagestatusvacina.png)
 
 Fonte: SAPS/MS.
 

@@ -1484,6 +1484,12 @@ Figura 6.4.36 - Tela de Compartilhamento do Cuidado
 
 Fonte: SAPS/MS.
 
+Para o uso desta funcionalidade faz-se necessária a compreensão dos termos:
+
+Profissional solicitante: É o profissional que iniciou o cuidado compartilhado.
+
+Profissional executante: É o profissional de referência que foi indicado para a discussão do caso.
+
 O CBO não é um campo obrigatório, porém ele serve como filtro ao selecionar a categoria profissional que será acionada no compartilhamento do cuidado. Já o campo profissional é obrigatório. Neste campo aparecerão os profissionais da equipe multiprofissional ou especialistas para serem selecionados e quem vai receber o caso para discussões de forma assíncrona, ou para outras intervenções.
 
 ![](media/pec_atend_2.png)
@@ -2857,14 +2863,16 @@ O envio do RAC à RNDS é feito ao finalizar o atendimento individual.
 
 # 6.10 E-sus ampliado
 
+ A nova funcionalidade do e-SUS APS Ampliado, disponível na versão 5.2, permite uso do PEC e-SUS APS em nível de prontuário para serviços da Atenção Ambulatorial Especializada, como por exemplo em CEO, UPA, Centro de Especialidade, Policlínica, CAPS, CER, entre outros. 
+
 Essa funcionalidade permite que o PEC seja instalado e utilizado em outros níveis de atenção à saúde, que não sejam da Atenção Primária à Saúde.
 
+Como prontuário eletrônico, o e-SUS APS é uma poderosa ferramenta que poderá ajudar o município na longitudinalidade do cuidado junto a APS e na facilitação do dia a dia do serviço, agilizando internamente os processos e diminuindo cada vez mais o uso do papel.
 
-Serão reconhecidos como estabelecimentos passíveis da utilização do e-sus ampliado:
+{: .nota }
+No que se refere ao faturamento dos procedimentos, neste momento, mesmo utilizando o PEC, todos os registros destes serviços devem continuar mantendo seu fluxo comum, sendo necessário o preenchimento do BPA, RAAS no caso dos CAPS, e enviada ao SIA como de costume, pois estes serviços estão sob jurisdição da Secretaria de Atenção Especializada à Saúde (SAES) que exige assim este meio de registro para controle e financiamento.
 
-•	Policlínicas (CNES do tipo 04)
-
-•	Pronto atendimentos (CNES do tipo 73 e subtipo 001, 002 ou 003)
+Atualmente, o e-sus ampliado possui regras estabelecidas nesse sentido, para os estabelecimentos de  Policlínicas (CNES do tipo 04) e Pronto atendimentos (CNES do tipo 73 e subtipo 001, 002 ou 003).
 
 ## 6.10.1 Policlínica
 

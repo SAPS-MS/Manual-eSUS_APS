@@ -1212,7 +1212,33 @@ Figura 8.46 Tela principal do relatório de atendimetno
 
 Fonte: SAPS/MS
 
-## 8.6.3 Relatório de Vacinação
+## 8.6.3 Relatório de Cuidado Compartilhado
+
+O relatório gerencial de cuidado compartilhado apresenta a contagem dos eventos realizados pelo solicitante e executante durante as interações no compartilhamento de cuidado.
+
+O relatório é baseado nos eventos ocorridos em cada compartilhamento de cuidado, dessa forma é possível computar exatamente quantas interações foram realizadas por cada profissional dentro do período. Além disso, há a possibilidade de visualizar o volume de eventos que foram respondidos até e acima das 72h.
+
+Para profissionais eMulti que apoiam múltiplas unidades de saúde, em uma única consulta será possível visualizar toda sua produção em todas as unidades.
+
+![](media/relatorio_gerencial_cuidado_compartilhado.gif)
+Fonte: SAPS/MS.
+
+O relatório permite que seja visualizado o volume de produção da equipe e do próprio profissional.
+
+Para gerar uma tabela, arraste os Campos Disponíveis que desejar para os quadros de Linhas e Colunas, selecione a forma de apresentação, se "Contagem" ou "Percentual" e clique em "Gerar tabela.
+
+Os Campos Disponíveis são:
+Dia, Dia da Semana, Hora, Mês, Município, Produções, Realizado por, Sexo, Tempo de espera, Tempo de resposta, Turno, Unidade de Saúde, Conduta, Primeira Resposta, Prioridade e Faixa etária.
+
+![](media/relatorio_gerencial_cuidado_compartilhado_producao_equipe_e_profissional.gif)
+Fonte: SAPS/MS.
+
+Caso o profissional necessite,será possível exportar o relatório gerencial de cuidado compartilhado.
+
+![](media/relatorio_gerencial_cuidado_compartilhado_exportacao.png)
+Fonte: SAPS/MS.
+
+## 8.6.4 Relatório de Vacinação
 
 Este relatório tem por objetivo obter dados quantitativos sobre o número de doses de determinadas vacinas aplicadas, distribuídos em um determinado período de tempo, com a finalidade de auxiliar o gestor na tomada de decisões estratégicas da unidade de saúde.
 

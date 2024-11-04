@@ -44,7 +44,7 @@ O cabeçalho da ficha, assim como o de todas as fichas do CDS, tem um bloco para
 
 ![](media/cds_image7.png)
 
-*Fonte: SAS/MS.*
+Fonte: SAPS/MS.
 
 **Quadro 2.1 -- Identificação e controle da digitação**
 
@@ -56,7 +56,7 @@ O cabeçalho da ficha, assim como o de todas as fichas do CDS, tem um bloco para
 |CONFERIDO POR|Nome do profissional que fez a supervisão do preenchimento da ficha.|
 |FOLHA Nº|Este campo pode ser utilizado na organização do processo de trabalho do profissional que realizou o cadastro, por meio da inserção de numeração das folhas.|
 
-*Fonte: SAS/MS.*
+Fonte: SAPS/MS.
 
 ### 2.1.2 Identificação do profissional e do estabelecimento de saúde
 
@@ -66,7 +66,7 @@ O próximo bloco é utilizado para identificação do profissional que realizou 
 
 ![](media/cds_image8.png)
 
-*Fonte: SAS/MS.*
+Fonte: SAPS/MS.
 
 **Quadro 2.2 -- Identificação do profissional e lotação**
 
@@ -78,7 +78,7 @@ O próximo bloco é utilizado para identificação do profissional que realizou 
 |INE*|Código Identificador Nacional de Equipes (INE) no Cadastro Nacional de Estabelecimentos de Saúde (CNES) do Ministério da Saúde, onde o profissional está lotado, seja equipes Saúde da Família, Nasf, CnR, etc. Este campo não é obrigatório para profissionais que não estão vinculados a equipes.|
 |DATA*|Dia/mês/ano em que foi realizado o cadastro do cidadão.|
 
-*Fonte: SAS/MS.*
+Fonte: SAPS/MS.
 
 \* Campo de preenchimento obrigatório.
 
@@ -94,7 +94,7 @@ Para aumentar o número de registros identificados, a partir da versão 3.2.20 �
 
 ![](media/cds_image8_2.png)
 
-*Fonte: SAS/MS.*
+Fonte: SAPS/MS.
 
 **Quadro 2.3 -- Identificação do usuário/cidadão**
 
@@ -117,7 +117,7 @@ Para aumentar o número de registros identificados, a partir da versão 3.2.20 �
 |MUNICÍPIO E UF DE NASCIMENTO**|Preencha a UF e o município onde o usuário nasceu SE FOR BRASILEIRO.|
 |E-MAIL|Endereço do correio eletrônico do usuário.|
 
-*Fonte: SAS/MS.*
+Fonte: SAPS/MS.
 
 \* Campo de preenchimento obrigatório.
 
@@ -145,7 +145,7 @@ Este bloco é composto por campos que mapeiam as condições sociodemográficas 
 
 ![](media/cds_image115.png)
 
-*Fonte: SAS/MS.*
+Fonte: SAPS/MS.
 
 **Relação de parentesco com o responsável familiar**: Este item busca identificar a relação do indivíduo cadastrado e a pessoa indicada como o responsável familiar. Caso o cadastro seja do próprio responsável familiar, não é necessário preencher este campo.
 
@@ -198,7 +198,7 @@ Fonte: SAS/MS.
 |     ALFABETIZAÇÃO PARA   ADULTOS (MOBRAL ETC.)    |     Curso destinado à   alfabetização de jovens e adultos (BRASIL, 2010b).    |
 |     NENHUM    |     Quando a pessoa não se   enquadrar em nenhuma das descrições anteriores.    |
 
-*Fonte: SAS/MS.*
+Fonte: SAPS/MS.
 
 **Criança de 0 a 9 anos, com quem fica?**: nesta variável, caso a criança tenha até 9 anos de idade, pretende-se identificar quem é responsável por permanecer com ela enquanto os pais se ausentam, e, quando for o caso, fora do horário escolar, podendo ser:
 
@@ -229,7 +229,7 @@ Fonte: SAS/MS.
 |É MEMBRO DE POVO OU COMUNIDADE TRADICIONAL?|	Marque sim, caso o cidadão seja membro de algum povo ou comunidade tradicional.
 |SE SIM, QUAL?| o campo é de livre preenchimento, no entanto o sistema deve mapear as opções de acordo com a lista de povos e comunidades tradicionais, veja a lista no Anexo D.|
 
-Fonte: SAS/MS.*
+Fonte: SAPS/MS.
 
 **Orientação sexual e Identidade de Gênero**
 
@@ -253,7 +253,7 @@ Na atualização da ficha de cadastro individual, entendendo estes como conceito
 |     PANSEXUAL    |     Pessoa em que a atração afetiva/sexual não é orientada para qualquer gênero ou sexo específico, dessa forma, todas as pessoas podem ser atraentes para uma pessoa de orientação pansexual;      |
 |     OUTRO    |     Pessoa que não se identifica com   nenhuma das definições mencionadas.    |
 
-*Fonte: SAPS/MS.*
+Fonte: SAPS/MS.
 
 Deseja informar a identidade de gênero? em caso afirmativo, marque "Sim" para a resposta ou "Não" caso contrário. **Se sim,** prossiga com a questão e pergunte **qual?** As possibilidades apresentadas são:
 

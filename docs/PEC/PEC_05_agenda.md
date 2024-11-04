@@ -328,4 +328,21 @@ Abaixo, ilustração com o comprovante de agendamento enviado ao e-mail do cidad
 ![](media/pec_image1110.jpg)
 
 
+# 5.6 Facilidades no agendamento de consultas de pré-natal
+
+Com a nova funcionalidade de agendamentos, durante um atendimento de pré-natal, será possível realizar o agendamento da próxima consulta para acompanhamento de pré-natal e a consulta odontológica de pré-natal.
+
+ O PEC irá sugerir a data e lotação de profissional, sendo que a pessoa responsável pelo atendimento tem liberdade para alterar essas informações conforme disponibilidade das partes envolvidas.
+
+{: .nota }
+ Para o acompanhamento de pré-natal, a data da próxima consulta é sugerida conforme a idade gestacional, respeitando as cadências estipuladas na caderneta da gestante, enquanto a lotação de profissional alterna entre profissionais com CBO de médico e enfermeiro.
+
+{: .nota }
+Para as consultas odontológicas, é sugerida uma consulta a cada trimestre da gestação, enquanto a lotação de profissional sugerida será de profissional com CBO de dentista.
+
+![](media/esusamp5.gif)
+
+Ainda durante os atendimentos de pré-natal, serão apresentadas as sugestões de quais serão todas as datas que deverão ocorrer os próximos acompanhamentos de pré-natal, bem como um atendimento odontológico a cada trimestre da gestação.
+
+![](media/esusamp6.png)
 
