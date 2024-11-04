@@ -12,7 +12,7 @@ last_modified_date: "16/03/2021"
 # CAPÍTULO 10 - Acompanhamento de condições de saúde
 {: .no_toc }
 
-Este módulo visa proporcionar aos gestores de UBS e profissionais de saúde um formato mais simples e otimizado de visualizar as informações relacionadas aos problemas e condições de saúde da população acompanhadas pelas equipes de atenção primária à saúde.
+Este módulo visa proporcionar aos profissionais de saúde e gestores de UBS um formato mais simples e otimizado de visualizar as informações relacionadas aos problemas e condições de saúde da população adstrita no território e acompanhada pelas equipes de atenção primária à saúde.
 
 ## Sumário
 {: .no_toc .text-delta }
@@ -22,16 +22,16 @@ Este módulo visa proporcionar aos gestores de UBS e profissionais de saúde um 
 
 ![](media/pec_image832.png)
 
-Uma das atividades da Atenção Primária à Saúde é realizar o acompanhamento das condições de saúde dos cidadãos vinculados às Equipes da APS. Esta ação é importante e demanda muita organização por parte da equipe. Uma forma facilitada de realizar o acompanhamento das situações de saúde é por meio de relatórios ou listas de cidadãos que possuem determinada condição de saúde, extraídos a partir do sistema de informação utilizado pela equipe.
+Uma das atividades da Atenção Primária à Saúde é realizar o acompanhamento das condições de saúde dos cidadãos vinculados às Equipes da APS. Esta ação é importante e demanda muita organização por parte da equipe. Uma forma facilitada de realizar o acompanhamento das situações de saúde se dá por meio de relatórios ou listas de cidadãos que possuem determinada condição de saúde, extraídos a partir do sistema de informação utilizado pela equipe.
 
-Figura 10.1 - Tela do Relatórios exibida com o perfil de profissional da equipe de AB
+Figura 10.1 - Tela do Relatórios exibida com o perfil de profissional da equipe de saúde da APS.
 ![](media/pec_image833.png)
 Fonte: SAPS/MS.
 
-O painel de Acompanhamento de condições de saúde busca apresentar de forma clara a lista de cidadão vinculados à equipe de APS que possuem determinada situação de saúde.
+O painel de Acompanhamento de condições de saúde busca apresentar de forma nítida a lista de cidadãos vinculados à equipe de saúde da APS que possuem determinada situação de saúde.
 
 {: .nota }
-Somente são apresentados neste painel cidadãos que estão vinculados à equipe de APS. A busca retorna apenas cidadãos que possuem todas as condições selecionadas e ativas na lista de problemas ou avaliadas no SOAP e na ficha de atendimento individual.
+Somente são apresentados neste painel cidadãos que estão vinculados à equipe de saúde da APS. A busca retorna apenas cidadãos que possuem todas as condições selecionadas e ativas na lista de problemas ou avaliadas no SOAP e na ficha de atendimento individual.
 
 
 # 10.1 Filtros
@@ -125,14 +125,14 @@ Ainda, será apresentado o botão ![](media/pec_image843.png) para gerar os rela
 
 ##  Acompanhamentos dos cidadãos vinculados
 
-Uma das atividades da Atenção Primária à Saúde é realizar o acompanhamento das condições de saúde dos cidadãos vinculados às Equipes da APS. Esta ação é importante e demanda muita organização por parte da equipe. Uma forma facilitada de realizar o acompanhamento das situações de saúde é por meio de relatórios ou listas de cidadãos que possuem determinada condição de saúde, extraídos a partir do sistema de informação utilizado pela equipe.
+Uma das atividades da Atenção Primária à Saúde envolve o acompanhamento das condições de saúde dos cidadãos vinculados às Equipes da APS. Esta ação é importante e demanda muita organização por parte da equipe. Uma forma facilitada de realizar o acompanhamento das situações de saúde se dá por meio de relatórios ou listas de cidadãos que possuem determinada condição de saúde, extraídos a partir do sistema de informação utilizado pela equipe.
 
 Para realizar a busca de cidadãos vinculados, deverá selecionar a "Faixa etária" que deseja consultar. Também poderá optar fazer a busca, caso deseje, com o filtro sexo e identidade de gênero.
 
 ![](media/pec_image1127.png)
 
 
-O painel de Acompanhamento de condições de saúde busca apresentar de forma clara a lista de cidadão vinculados à equipe de APS que possuem determinada situação de saúde.
+O painel de Acompanhamento de condições de saúde busca apresentar de forma nítida a lista de cidadão vinculados à equipe de saúde da APS que possuem determinada situação de saúde.
 
 Figura 10.2 - Tela do Relatórios exibida 
 ![](media/pec_image1128.png)
@@ -159,7 +159,7 @@ Além disso, é possível corrigir eventuais divergências de cadastro através 
 
 # 10.1 Filtro de microárea
 
-Nesta funcionalidade apresenta-se filtro de microárea, para apoiar a busca de cidadãos no território. Como ocorre nos relatórios do sistema, neste módulo também existe hierarquia de acesso, o gerente da unidade pode escolher a UBS ou a equipe que deseja visualizar o painel, já os profissionais das equipes, conseguem visualizar os cidadãos vinculados pela Ficha de cadastro individual, ficha de cadastro domiciliar e territorial e cadastros do módulo cidadão do PEC.
+Nesta funcionalidade apresenta-se filtro de microárea, para apoiar a busca de cidadãos no território. Assim como ocorre nos relatórios do sistema, neste módulo também existe hierarquia de acesso, o gerente da unidade pode escolher a UBS ou a equipe que deseja visualizar o painel, já os profissionais das equipes, conseguem visualizar os cidadãos vinculados pela Ficha de cadastro individual, ficha de cadastro domiciliar e territorial e cadastros do módulo cidadão do PEC.
 
 Após selecionar o filtros, clique no botão ![](media/pec_image841.png), e serão listados os cidadão vinculados à equipe, conforme imagem abaixo:
 
