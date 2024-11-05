@@ -132,5 +132,3 @@ Por outro lado, o profissional anfitrião ainda deve acessar a videochamada atra
 * Todas as funcionalidades da videochamada foram mantidas.
 
 
-
-

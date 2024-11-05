@@ -251,3 +251,4 @@ Status do cadastro: completo / incompleto.
 ![](media/acompanhamento_do_territorio_009.png)
 
 Fonte: SAPS/MS.
+

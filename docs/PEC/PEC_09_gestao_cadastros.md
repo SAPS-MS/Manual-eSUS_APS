@@ -122,3 +122,4 @@ Figura 9.12.2 Opções de campos
 ![](media/pec_image986.jpg)
 
 FONTE: SAPS/MS
+

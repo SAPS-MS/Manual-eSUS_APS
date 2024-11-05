@@ -128,3 +128,4 @@ Demonstração Busca Ativa Vacinação - Exportação do Relatório
 ![](media/Busca_ativa/busca_ativa_video.gif)
 
 Neste módulo também é possível visualizar o prontuário e as informações do cidadão na listagem de cidadão.
+

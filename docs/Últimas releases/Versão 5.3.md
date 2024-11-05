@@ -54,7 +54,6 @@ last_modified_date: "04/11/2024"
 - Participação do cidadão e atendimento compartilhado;
 - Acompanhamento de vulnerabilidade no prontuário.
 
-
 **Unificação de bases**
 
 Esta ferramenta consolida as bases descentralizadas do PEC em uma estrutura única e centralizada. Esse avanço permite que todos os estabelecimentos de saúde integrem e implementem o conceito de Prontuário Eletrônico do Cidadão (PEC e-SUS APS) de forma unificada no âmbito municipal. 

@@ -87,3 +87,7 @@ Modo de acesso: <https://aps.saude.gov.br/ape/esus><br>
 CDU 614<br>
 
 Catalogação na fonte – Coordenação-Geral de Documentação e Informação – Editora MS – OS 2023.
+
+
+{: .nota }
+Você conhece o ["Educa e-SUS APS"](https://educaesusaps.medicina.ufmg.br/) Uma parceria do Ministério da Saúde e UFMG na oferta nacional de cursos gratuitos de educação permanente em saúde digital para a APS, contextualizada no sistema e-SUS APS. Aproveite e confira agora mesmo!
