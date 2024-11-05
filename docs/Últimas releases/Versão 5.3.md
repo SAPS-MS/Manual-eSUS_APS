@@ -316,3 +316,7 @@ Este recurso fornece informações como a data e a hora dos acessos (bem ou mals
 ![](media/historicodeacesso1.png)
 
 Somente o profissional que está logado pode visualizar essas informações.
+
+
+{: .nota }
+Você conhece o ["Educa e-SUS APS"](https://educaesusaps.medicina.ufmg.br/) Uma parceria do Ministério da Saúde e UFMG na oferta nacional de cursos gratuitos de educação permanente em saúde digital para a APS, contextualizada no sistema e-SUS APS. Aproveite e confira agora mesmo!
