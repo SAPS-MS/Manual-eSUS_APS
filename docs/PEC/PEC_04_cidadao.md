@@ -41,14 +41,14 @@ Considerando as diferentes fontes de informações da base de cidadãos do Siste
 
 # 4.1 Busca pelo cidadão
 
-Agora o processo de busca pelo cidadão ficou mais simples. Após selecionar a opção "Cidadão" na aba lateral de navegação, será solicitado que o profissional realize a busca utilizando dados demográficos ou número de alguns documentos válidos:
+Para iniciar a busca pelo cidadão, é necessário selecionar a opção “Cidadão” na aba lateral de navegação e inserir ao menos um dos seguintes dados, conforme é exibido na figura 4.2:
 
 - Nome do cidadão;
 - número do CNS do cidadão;
 - número do CPF;
 - Data de nascimento;
 - Nome da mãe;
-- Município de nascimento, como mostra a pec_imagem abaixo:
+- Município de nascimento.
 
 Figura 4.2 - Busca Cidadão
 
@@ -57,6 +57,7 @@ Figura 4.2 - Busca Cidadão
 Fonte: SAPS/MS.
 
 Em caso de sucesso na busca pelo cidadão o resultado mostrará um cartão com informações do cidadão como nome, data de nascimento, número do CNS e CPF, sexo, nome da mãe, unidade de saúde responsável, telefone, município de nascimento e a data da última atualização do cadastro.
+
 
 Figura 4.3 - Resultado da Busca Cidadão
 
@@ -71,6 +72,9 @@ Figura 4.4 - Marcação de cadastro inativo.
 ![](media/pec_image237.png)
 
 Fonte: SAPS/MS.
+
+Esses cadastros podem ser reativados por meio da opção “reativar” no menu lateral direito.
+
 
 O sistema sempre irá realizar uma busca na **base** de cadastro **local** e poderá trazer um ou mais resultados, restando ao profissional a escolha do cidadão que está sendo buscado. Caso não haja nenhum resultado, será realizada, automaticamente, a busca na base nacional do CADSUS.
 
@@ -178,7 +182,7 @@ Os cadastros realizados no Módulo CDS, por meio das fichas de Cadastro Individu
 {: .atencao }
 o cidadão só será importado para o módulo cidadão após processamento das fichas na transmissão de dados. O processamento das fichas é automático, entretanto o servidor do sistema deve ficar ligado, conectado à internet, durante a noite (0h às 6h).
 
-
+Veja mais em [Fluxo de Cadastro e Atualização pelo Aplicativo](https://saps-ms.github.io/Manual-eSUS_APS/docs/territorio/territorio_01/#15-fluxo-de-cadastro-e-atualiza%C3%A7%C3%A3o-pelo-aplicativo), [Preenchimento das Fichas de Cadastro Individual](https://saps-ms.github.io/Manual-eSUS_APS/docs/CDS/CDS_02/#21-cadastro-individual) e [Cadastro Domiciliar e Territorial](https://saps-ms.github.io/Manual-eSUS_APS/docs/PEC/PEC_07_cds/#722-cadastro-domiciliar-e-territorial).
 
 ## 4.3.2  Adicionar cidadão a partir da base nacional
 
