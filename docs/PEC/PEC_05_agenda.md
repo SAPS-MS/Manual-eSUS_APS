@@ -355,3 +355,7 @@ Ao entrar no módulo "Agenda" será possível fixar um profissional para consult
 ![](media/agendafixar.png)
 
 Nas próximas consultas, a agenda abrirá automaticamente no profissional fixado.
+
+# 5.8 **Cidadão com agendamento que vai a óbito**
+
+Ao ser informado o óbito de um cidadão, todos os agendamentos futuros deste cidadão serão cancelados e os profissionais responsáveis pelos agendamentos serão avisados por e-mail, caso o servidor SMTP esteja habilitado na instalação.

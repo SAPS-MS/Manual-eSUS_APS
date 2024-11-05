@@ -125,6 +125,8 @@ CDU 614<br>
 
 Catalogação na fonte – Coordenação-Geral de Documentação e Informação – Editora MS – OS 2023.
 
+**Uma versão revista, integrando as diversas funcionalidades em um arquivo só.** 
 
+ 
 {: .nota }
-Você conhece o ["Educa e-SUS APS"](https://educaesusaps.medicina.ufmg.br/) Uma parceria do Ministério da Saúde e UFMG na oferta nacional de cursos gratuitos de educação permanente em saúde digital para a APS, contextualizada no sistema e-SUS APS. Aproveite e confira agora mesmo!
+Você conhece o ["Educa e-SUS APS"](https://educaesusaps.medicina.ufmg.br/) Uma parceria do Ministério da Saúde e UFMG na oferta nacional de cursos gratuitos de educação permanente para a APS, contextualizada no sistema e-SUS APS. Aproveite e confira agora mesmo!
