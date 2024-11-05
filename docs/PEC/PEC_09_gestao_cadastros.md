@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Gestão de Cadastros
-parent: Prontuário Eletrônico do Cidadão v5.2
+parent: Prontuário Eletrônico do Cidadão v5.3
 nav_order: 11
 has_children: false
 has_toc: true
-last_modified_date: "25/09/2023"
+last_modified_date: "04/11/2024"
 ---
 
 <head>

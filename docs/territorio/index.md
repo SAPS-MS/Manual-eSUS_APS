@@ -43,28 +43,59 @@ MANUAL DE USO
 *Elaboração, distribuição e informações*<br>
 
 **MINISTÉRIO DA SAÚDE**<br>
-Secretaria de Atenção Primária à Saúde<br>
-Departamento de Saúde da Família<br>
-Esplanada dos Ministérios - Bloco G - 7º andar<br>
+Secretaria de Atenção Primária à Saúde - SAPS<br>
+Coordenação-geral de Inovação e Aceleração Digital - CGIAD<br>
+Esplanada dos Ministérios - Bloco O - 7º andar<br>
 CEP: 70.058-900 – Brasília/DF<br>
-Tels.: (61) 3315-8090 / 3315-8044<br>
 Site: <http://sisaps.saude.gov.br/esus/><br>
-E-mail: <cgiap@saude.gov.br>
 
-**Supervisor Geral**<br>
+
+**Ficha Catalográfica**
+{: .text-center }
+
+2024, Ministério da Saúde
+
+Esta obra é disponibilizada nos termos da Licença Creative Commons – Atribuição – Não Comercial – Compartilhamento pela mesma licença 4.0 Internacional. É permitida a reprodução parcial ou total desta obra, desde que citada a fonte.
+
+Tiragem: Edição revista e ampliada – 2024 – Versão eletrônica
+
+Elaboração, distribuição e informações:
+
+**MINISTÉRIO DA SAÚDE**<br>
+
+Secretaria de Atenção Primária à Saúde - SAPS<br>
+
+Coordenação-geral de Inovação e Aceleração Digital - CGIAD
+
+Esplanada dos Ministérios, Bloco O, 7º andar
+
+CEP: 70052-900 — Brasília/DF
+
+Site: https://sisaps.saude.gov.br/esus/
+
+**Ministra de Estado de Saúde**
+
+Nísia Trindade
+
+**Supervisor Geral**
+
 Felipe Proenço de Oliveira
 
-**Coordenação Técnica Geral**<br>
+**Coordenação Geral**
+
 Rodrigo André Cuevas Gaete
 
-**Organização**<br>
-Elaine de Almeida, Igor de Carvalho Gomes, Ingryd Isabelle Maia de Souza, Janaína Nogueira Guimarães, Romario Araujo Matias Rocha, Willian Soares Lima, Lilian Suelen de Oliveira Cunha.
+**Organização**
 
-**Revisão Técnica**<br>
-Ana Claudia Cielo, André Cury Alves, Igor de Carvalho Gomes, Micael Macedo Pereira da Trindade e João Geraldo de Oliveira Júnior.
+Francy Webster de Andrade Pereira, Igor de Carvalho Gomes
 
-**Elaboração de texto**<br>
-Adriana Kitajima, Allan Nuno Alves de Souza, Ana Claudia Cielo, André Cury Alves, Edson Lucena, Igor de Carvalho Gomes, João Geraldo de Oliveira Júnior, Janaína Nogueira Guimarães, Micael Macedo Pereira, da Trindade, Rodrigo André Cuevas Gaete, Thaís Alessa Leite, Vanessa Lora, Virgínia Fava, Lilian Suelen de Oliveira Cunha. 
+**Produção textual:**
+
+Cinthia Caldas Rios, Jacqueline Aedinet Pruner Polidoro, Janaína Nogueira Guimarães, Jordana Soares Iankoski, Lilian Suelen de Oliveira Cunha, Nicoli Ferreira Demarche, Walter Augusto Alcantara Vieira.
+
+**Revisão Geral:**
+
+Adriana Kitajima, Adriene dos Santos Sá, Bruno Mariani, Cinthia Caldas Rios, Francy Webster de Andrade Pereira, Igor de Carvalho Gomes, Jacqueline Aedinet Pruner Polidoro, Janaína Nogueira Guimarães, Jordana Soares Iankoski,  Lilian Suelen de Oliveira Cunha, Marcelo Alves Miranda, Nicoli Ferreira Demarche, Priscila Mara Anjos Nunes, Rodrigo André.
 
 **Projeto Gráfico**<br>
 Alexandre Soares de Brito, Diogo Ferreira Gonçalves
@@ -72,8 +103,6 @@ Alexandre Soares de Brito, Diogo Ferreira Gonçalves
 <br>
 <br>
 
-**Ficha Catalográfica**
-{: .text-center }
 
 Brasil. Ministério da Saúde. Secretaria de Atenção Primária à Saúde.<br>
 e-SUS Atenção Primária à Saúde: Manual do aplicativo e-SUS Território – Versão 4.0 [recurso eletrônico] / Ministério da Saúde, Secretaria de Atenção Primária à Saúde, Secretaria Executiva. – Brasília: Ministério da Saúde, 2022.<br>

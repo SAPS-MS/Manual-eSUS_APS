@@ -4,7 +4,7 @@ title: Gestão e-SUS APS
 nav_order: 5
 nav_exclude: false
 has_children: true
-last_modified_date: "25/09/2023"
+last_modified_date: "04/11/2024"
 description: "Manual do aplicativo Gestão e-SUS APS"
 permalink: /docs/GESTAO
 ---

@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Versão 5.3 (Em Piloto)
+title: Versão 5.3
 parent: Últimas releases
 nav_order: 1
 has_children: false
 has_toc: true
-last_modified_date: "17/05/2024"
+last_modified_date: "04/11/2024"
 ---
 
 <head>
@@ -21,37 +21,49 @@ last_modified_date: "17/05/2024"
 - Parametrização HTTPS automatizada;
 - API para recebimento de lotes dos Sistemas Próprios/Terceiros; 
 - Histórico de acessos;
+- Bloqueio padrão da conta de usuário foi atualizado de 10 para 5 tentativas inválidas de autenticação 
 - Atualização de terminologias dos envios à RNDS;
 - Importar beneficiários do Bolsa Família;
 - Relatório de erros retornados pela RNDS.
 
-## Novidades - Ferramentas relacionadas aos atendimentos
+## Novidades - Ferramentas relacionadas aos cuidados
 
-* Busca ativa de vacinação;
-* Acompanhamento do Território - Cadastro de Imóveis e Famílias;
-* Implementação da possibilidade de alterar unidade e equipe responsáveis pelos imóveis visualizados no Acompanhamento do Território;
-* Implementação da opção de Recusa de cadastro nos imóveis cadastrados via Acompanhamento do Território;
-* Inclusão da funcionalidade de exportar um arquivo CSV com informações da microárea e filtros aplicados, no Acompanhamento do Território;
-* Implementação de filtros por condições de moradia nos imóveis visualizados no Acompanhamento do Território;
-* Implementação de Identificação de possíveis cadastros duplicados de imóveis, com recomendação de atualização no registro existente;
-* Acompanhamento das condições de saúde;
-* Videochamada do profissional convidado adaptada para telefone celular;
-* Videochamada do profissional convidado adaptada para tablet;
-* Agendamento entre profissionais;
-* Inclusão do nome social do profissional;
-* Acesso rápido na agenda;
-* Fracionamento de doses diárias na prescrição de  medicamentos;
-* Atestado Digital;
-* Garantia do Acesso no Cuidado Compartilhado;
-* Participação do cidadão e atendimento compartilhado;
-* Acompanhamento de vulnerabilidade no prontuário.
+- Busca ativa de vacinação;
+- Acompanhamento do Território:
+- A funcionalidade foi evoluída para permitir cadastro e atualização dos imóveis e famílias diretamente pelo PEC, sem a necessidade utilização do módulo CDS
+- Possibilidade de visualização e correção de inconsistências de cadastro sem a necessidade de se aguardar o processamento após o envio de lotes;
+- Nova localização do imóvel "Periurbana" adicionada além das tradicionais "Urbana" e "Rural".
+- Implementação da possibilidade de alterar unidade e equipe responsáveis pelos imóveis visualizados no Acompanhamento do Território;
+- Implementação da opção de Recusa de cadastro nos imóveis cadastrados via Acompanhamento do Território;
+- Inclusão da funcionalidade de exportar um arquivo CSV com informações da microárea e filtros aplicados, permitindo a manipulação dos dados;
+- Implementação de filtros por condições de moradia nos imóveis visualizados no Acompanhamento do Território;
+- Implementação de Identificação de possíveis cadastros duplicados de imóveis, com recomendação de atualização no registro existente;
+- Possibilidade de realizar a sincronização do Aplicativo e-SUS Território com o PEC logo após a realização dos cadastros de imóveis e famílias, sem a necessidade de aguardar o processamento após o envio de lotes;
+- Visualização das anotações das visitas domiciliares registradas no Aplicativo e-SUS Território através do detalhamento das visitas na aba "Últimas visitas;
+- Visualização da geolocalização dos imóveis e visitas domiciliares quando registradas pelo Aplicativo e-SUS Território com geolocalização ativa;
+- Mudança no layout de visualização dos imóveis e seus detalhes como as novas abas: "Informações cadastrais", "Famílias e moradores", "Últimas visitas";
+- Acompanhamento das condições de saúde: Inclusão da visualização, de até 7 dias, dos relatórios que foram processados e que estão em processamento e inclusão da exportação do relatório em formato CSV, permitindo a manipulação dos dados;
+- Videochamada do profissional convidado adaptada para telefone celular;
+- Videochamada do profissional convidado adaptada para tablet;
+- Agendamento entre profissionais;
+- Inclusão do nome social do profissional;
+- Acesso rápido na agenda;
+- Fracionamento de doses diárias na prescrição de  medicamentos;
+- Atestado Digital;
+- Garantia do Acesso no Cuidado Compartilhado;
+- Participação do cidadão e atendimento compartilhado;
+- Acompanhamento de vulnerabilidade no prontuário.
 
 
 **Unificação de bases**
 
 Esta ferramenta consolida as bases descentralizadas do PEC em uma estrutura única e centralizada. Esse avanço permite que todos os estabelecimentos de saúde integrem e implementem o conceito de Prontuário Eletrônico do Cidadão (PEC e-SUS APS) de forma unificada no âmbito municipal. 
 
+Inclusão da funcionalidade “Unificação de Bases”, que permitirá aos municípios com várias instalações do PEC unificarem todos os seus bancos de dados em uma instalação única sem perda de nenhuma informação do prontuário eletrônico [Manual e-sus APS] (https://saps-ms.github.io/Manual-eSUS_APS/docs/PEC/PEC_03_adm_conf/)
+
 Para especificações desta funcionalidade, consultar o capítulo "Administração e Configurações do Sistema", Unificação de bases.
+
+Em "Configurações avançadas”, desabilitação por padrão da realização de novos cadastros de imóveis e famílias via CDS Cadastro domiciliar e territorial. Esta opção poderá ser reabilitada caso necessário.
 
 
 **Parametrização HTTPS automatizada**
@@ -124,9 +136,11 @@ Inclusão do **bairro** nos filtros avançados:
 
 **Acompanhamento do Território - Cadastro de Imóveis e Famílias**
 
-* A versão 5.3 agora permite cadastrar imóveis e famílias de forma mais completa e clara, facilitando a gestão dos cidadãos moradores de cada domicílio adscrito.
-
 * A funcionalidade de Acompanhamento do Território, no menu lateral, foi evoluída para permitir cadastrar e atualizar os imóveis e famílias, condições de moradia e responsabilidades de acompanhamento, tudo isso em uma única interface moderna e intuitiva, sem a necessidade de gerar várias Fichas CDS manualmente. O sistema as gerará automaticamente, apenas para que a sua produção seja consolidada em relatórios e enviada ao Centralizar Nacional.
+
+* Nova localização do imóvel "Periurbana" adicionada além das tradicionais "Urbana" e "Rural".
+
+* Mudança no layout de visualização dos imóveis e seus detalhes como as novas abas: "Informações cadastrais", "Famílias e moradores", "Últimas visitas".
 
 * Também será possível visualizar e corrigir inconsistências de cadastro através das novas telas, sem a necessidade de se aguardar o processamento após o Envio de Lotes de Fichas.
 
@@ -146,16 +160,16 @@ Ao selecionar que o cidadão recusou o cadastro por meio do Termo de Recusa do C
 ![](./media/recusa1.png)
 
 
-* Inclusão da funcionalidade de exportar um arquivo CSV com informações da microárea e filtros aplicados, no Acompanhamento do Território;
+* Inclusão da exportação do relatório em formato CSV com informações da microárea e filtros aplicados, permitindo a manipulação dos dados.
 
 ![](./media/relatorioterritorio.png)
 
 
-*Implementação de filtros por condições de moradia nos imóveis visualizados no Acompanhamento do Território.
+* Implementação de filtros por condições de moradia nos imóveis visualizados no Acompanhamento do Território.
 
 ![](./media/filtromoradia.png)
 
-*Implementação de Identificação de possíveis cadastros duplicados de imóveis, com recomendação de atualização no registro existente.
+* Implementação de Identificação de possíveis cadastros duplicados de imóveis, com recomendação de atualização no registro existente.
 
 Ao tentar cadastrar um imóvel que já tenha cadastro, o sistema apresentará um alerta orientando que já existe.
 

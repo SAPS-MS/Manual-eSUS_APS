@@ -56,6 +56,12 @@ Felipe Proenço de Oliveira
 **Coordenação Técnica Geral**<br>
 Rodrigo André Cuevas Gaete
 
+<head>
+    <style>
+        p{text-align:justify};
+    </style>
+</head>
+
 **Organização**<br>
 Elaine de Almeida, Francy Webster Pereira, Igor de Carvalho Gomes, Ingryd Isabelle Maia de Souza, Janaína Nogueira Guimarães, Romario Araujo Matias Rocha, Willian Soares Lima.
 

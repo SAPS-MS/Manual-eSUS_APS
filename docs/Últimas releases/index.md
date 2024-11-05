@@ -43,40 +43,81 @@ MANUAL DE USO
 *Elaboração, distribuição e informações*<br>
 
 **MINISTÉRIO DA SAÚDE**<br>
-Secretaria de Atenção Primária à Saúde<br>
-Coordenação-Geral de Inovação e Aceleração Digital na Atenção Primária à Saúde <br>
+Secretaria de Atenção Primária à Saúde - SAPS<br>
+Coordenação-geral de Inovação e Aceleração Digital - CGIAD<br>
 Esplanada dos Ministérios - Bloco O - 7º andar<br>
 CEP: 70.058-900 – Brasília/DF<br>
-Tels.: (61) 3315-8090 / 3315-8044 / 3315-9018<br>
 Site: <http://sisaps.saude.gov.br/esus/><br>
-Suporte: <http://esusaps.bridge.ufsc.br/support/login>
 
-**Supervisor Geral**<br>
-Felipe Proenço de Oliveira
-
-**Coordenação Técnica Geral**<br>
-Rodrigo André Cuevas Gaete
-
-**Organização**<br>
-Elaine de Almeida, Igor de Carvalho Gomes, Ingryd Isabelle Maia de Souza, Jacqueline Aedinet Pruner Polidoro, Janaína Nogueira Guimarães, Romario Araujo Matias Rocha, Willian Soares Lima, Vania Priamo.
-
-**Revisão Técnica**<br>
-Cinthia Caldas Rios, Elaine de Almeida, Igor de Carvalho Gomes, Ingryd Isabelle Maia de Souza, Jacqueline Aedinet Pruner Polidoro,Janaína Nogueira Guimarães, Jordana Soares Iankoski, Lilian Suelen de Oliveira Cunha, Marcelo Alves Miranda, Nicoli Ferreira Demarche, Priscila Mara Anjos Soares Batista, Romario Araujo Matias Rocha, Vania Priamo, Viviane Loiola Lacerda, Willian Soares Lima.
-
-**Elaboração de texto**<br>
-Cinthia Caldas Rios, Elaine de Almeida, Igor de Carvalho Gomes, Ingryd Isabelle Maia de Souza, Jacqueline Aedinet Pruner Polidoro, Janaína Nogueira Guimarães, Jordana Soares Iankoski, Lilian Suelen de Oliveira Cunha, Nicoli Ferreira Demarche, Priscila Mara Anjos Soares Batista, Romario Araujo Matias Rocha, Vania Priamo, Viviane Loiola Lacerda, Willian Soares Lima.
-
-**Projeto Gráfico**<br>
-Alexandre Soares de Brito e Diogo Ferreira Gonçalves
-<br>
-<br>
-<br>
 
 **Ficha Catalográfica**
 {: .text-center }
 
+2024 Ministério da Saúde
+
+![](media/ficha%20catalografica.png) 
+
+Esta obra é disponibilizada nos termos da Licença Creative Commons – Atribuição – Não Comercial – Compartilhamento pela mesma licença 4.0 Internacional. É permitida a reprodução parcial ou total desta obra, desde que citada a fonte.
+
+Tiragem: Edição revista e ampliada – 2024 – Versão eletrônica
+
+Elaboração, distribuição e informações:
+
+**MINISTÉRIO DA SAÚDE**<br>
+
+Secretaria de Atenção Primária à Saúde - SAPS<br>
+
+Coordenação-geral de Inovação e Aceleração Digital - CGIAD
+
+Esplanada dos Ministérios, Bloco O, 7º andar
+
+CEP: 70052-900 — Brasília/DF
+
+Site: https://sisaps.saude.gov.br/esus/
+
+**Ministra de Estado de Saúde**
+
+Nísia Trindade
+
+**Supervisor Geral**
+
+Felipe Proenço de Oliveira
+
+**Coordenação Geral**
+
+Rodrigo André Cuevas Gaete
+
+**Organização**
+
+Francy Webster de Andrade Pereira, Igor de Carvalho Gomes
+<head>
+    <style>
+        p{text-align:justify};
+    </style>
+</head>
+
+**Elaboração de texto** 
+
+Cinthia Caldas Rios, Jacqueline Aedinet Pruner Polidoro, Janaína Nogueira Guimarães, Jordana Soares Iankoski, Lilian Suelen de Oliveira Cunha, Nicoli Ferreira Demarche, Walter Augusto Alcantara Vieira, Willian Soares Lima 
+
+**Revisão Textual** 
+
+Adriana Kitajima, Adriene dos Santos Sá, Bruno Mariani, Cinthia Caldas Rios, Elaine de Almeida, Francy Webster de Andrade Pereira, Igor de Carvalho Gomes, Ingryd Isabelle Maia de Souza, Jacqueline Aedinet Pruner Polidoro, Janaína Nogueira Guimarães, Jordana Soares Iankoski, Lilian Suelen de Oliveira Cunha, Marcelo Alves Miranda, Nicoli Ferreira Demarche, Priscila Mara Anjos Nunes, Rodrigo André Cuevas Gaete, Romario Araujo Matias Rocha, Thaís Alessa Leite, Vanessa Lora, Vania Priamo, Walter Augusto Alcantara Vieira  
+
+**Revisão Técnica**  
+
+Jacqueline Aedinet Pruner Polidoro, Vania Priamo 
+
+Projeto Gráfico 
+
+Alexandre Soares de Brito, Diogo Ferreira Gonçalves 
+<br>
+<br>
+<br>
+
+
 Brasil. Ministério da Saúde. Secretaria de Atenção Primária à Saúde.<br>
-e-SUS Atenção Primária à Saúde: Manual do Sistema com Prontuário Eletrônico do Cidadão PEC – Versão 5.1 [recurso eletrônico] / Ministério da Saúde, Secretaria de Atenção Primária à Saúde, Secretaria Executiva. – Brasília: Ministério da Saúde, 2023.<br>
+e-SUS Atenção Primária à Saúde: Manual do aplicativo e-SUS Território – Versão 4.0 [recurso eletrônico] / Ministério da Saúde, Secretaria de Atenção Primária à Saúde, Secretaria Executiva. – Brasília: Ministério da Saúde, 2022.<br>
 <br>
 ISBN **Versão Preliminar**<br>
 Modo de acesso: <https://aps.saude.gov.br/ape/esus><br>
