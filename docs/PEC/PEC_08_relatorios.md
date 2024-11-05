@@ -179,29 +179,29 @@ Os relatórios poderão ser gerados a partir dos "grupos de informações dispon
 
 - Tipo de imóvel
 
-- Condições de moradia
+- Tipo de endereço 
 
-- Situação de moradia / Posse da terra
+- Condições de moradia - Situação de moradia/ Posse da terra
 
-- Localização
+- Condições de moradia - Localização
 
-- Tipo de domicílio
+- Condições de moradia - Tipo de domicílio
 
-- Condição de posse e uso da terra
+- Condições de moradia - Condição de posse e uso da terra
 
-- Tipo de acesso ao domicílio
+- Condições de moradia - Tipo de acesso ao domicílio
 
-- Material predominante na construção das paredes externas
+- Condições de moradia -  Material predominante na construção das paredes externas
 
-- Disponibilidade de energia elétrica
+- Condições de moradia - Disponibilidade de energia elétrica
 
-- Abastecimento de água
+- Condições de moradia - Abastecimento de água
 
-- Água para consumo no domicílio
+- Condições de moradia - Água para consumo no domicílio
 
-- Forma de escoamento do banheiro ou sanitário
+- Condições de moradia - Forma de escoamento do banheiro ou sanitário
 
-- Destino do lixo
+- Condições de moradia - Destino do lixo
 
 - Animais no domicílio
 
@@ -209,7 +209,9 @@ Os relatórios poderão ser gerados a partir dos "grupos de informações dispon
 
 ![](media/pec_image782.png)
 
-No filtro personalizado são apresentados as variáveis consolidadas que informam os dados sobre o abastecimento de água, água para consumo no domicílio, animais no domicílio, condição de posse e uso da terra, destino do lixo, disponibilidade de energia elétrica, forma de escoamento do banheiro ou sanitário, localização, material predominante na construção das paredes externas, microárea, qual animal no domicílio, recusa de cadastro, renda familiar (salário mínimo), situação de moradia, tipo de acesso ao domicílio, tipo de domicílio e tipo de imóvel.
+- Filtros personalizados
+
+No filtro personalizado são apresentados as variáveis consolidadas que informam os dados sobre o abastecimento de água, água para consumo no domicílio, animais no domicílio, condição de posse e uso da terra, destino do lixo, disponibilidade de energia elétrica, forma de escoamento do banheiro ou sanitário, localização, material predominante na construção das paredes externas, microárea, origem da energia elétrica, qual animal no domicílio, recusa de cadastro, renda familiar (salário mínimo), situação de moradia, tipo de acesso ao domicílio, tipo de domicílio, tipo de endereço e tipo de imóvel.
 
 Após selecionar as variáveis desejadas para gerar o relatório basta clicar no botão "Exportar CSV" ou "Imprimir".
 
@@ -232,65 +234,73 @@ Os relatórios poderão ser gerados a partir dos "grupos de informações dispon
 
 - Dados gerais
 
-- Identificação do usuário / cidadão
+- Identificação do usuário/ cidadão - Faixa etária
 
-- Faixa etária
+- Identificação do usuário/ cidadão
 
-- Sexo
+- Identificação do usuário/ cidadão - Sexo
 
-- Raça / Cor
+- Identificação do usuário/ cidadão - Raça/ Cor
 
-- Etnia
+- Identificação do usuário/ cidadão - Etnia
 
-- Nacionalidade
+- Identificação do usuário/ cidadão - Nacionalidade
 
-- Informações sociodemográficas
+- Informações sociodemográficas - Relação de parentesco com o responsável familiar
 
-- Relação de parentesco com o responsável familiar
+- Informações sociodemográficas - Ocupação
 
-- Ocupação
+- Informações sociodemográficas - Qual é o curso mais elevado que frequenta ou frequentou
 
-- Qual é o curso mais elevado que frequenta ou frequentou
+- Informações sociodemográficas - Situação no mercado de trabalho
 
-- Situação no mercado de trabalho
+- Informações sociodemográficas - Crianças de 0 a 9 anos, com quem fica
 
-- Crianças de 0 a 9 anos, com quem fica
+- Informações sociodemográficas - Orientação sexual
 
-- Orientação sexual
+- Informações sociodemográficas - Identidade de gênero
 
-- Identidade de gênero
+- Informações sociodemográficas - Deficiência
 
-- Deficiência
+- Informações sociodemográficas - povos e comunidades
 
-- Outras informações sociodemográficas
+-Outras informações sociodemográficas
 
-- Tipo de saída do cidadão do cadastro
+- Motivo de saída do cidadão do cadastro
 
-- Condições / Situações de saúde gerais
+- Condições/ Situações de saúde gerais
 
-- Sobre seu peso, você se considera
+- Condições/ Situações de saúde gerais - Sobre seu peso, você se considera
 
-- Doença respiratória
+- Condições/ Situações de saúde gerais - Doença respiratória
 
-- Doença cardíaca
+- Condições/ Situações de saúde gerais - Doença cardíaca
 
-- Problemas nos rins
+- Condições/ Situações de saúde gerais - Problemas nos rins
 
 - Cidadão em situação de rua
 
-- Tempo em situação de rua
+- Cidadão em situação de rua - Tempo em situação de rua
 
-- Quantas vezes se alimenta ao dia
+- Cidadão em situação de rua - Quantas vezes se alimenta ao dia
 
-- Qual a origem da alimentação
+- Cidadão em situação de rua - Qual a origem da alimentação
 
-- Tem acesso à higiene pessoal
+- Cidadão em situação de rua - Tem acesso à higiene pessoal
+
+- TRIA - Nos últimos três meses, os alimentos acabaram antes que a pessoa tivesse dinheiro para comprar mais comida?
+
+- TRIA - Nos últimos três meses, a pessoa comeu apenas alguns alimentos que ainda tinha, porque o dinheiro acabou?
+
+- Filtros personalizados
 
 No filtro personalizado são apresentados outras variáveis consolidadas que informam os dados sobre o cidadão que estão presentes na ficha de cadastro individual.
 
 Após selecionar as variáveis desejadas para gerar o relatório basta clicar no botão "Exportar CSV" ou "Imprimir".
 
-As variáveis apresentadas podem complementar a análise da situação de saúde do território de atuação das equipes de Atenção Básica, com a finalidade de construção de estratégia de enfrentamento das condicionalidades e dos determinantes de saúde que afetam a qualidade de vida da população assistida. A variável "Dados Gerais" apresentará a quantidade de "cidadãos ativos" e "saída de cidadão do cadastro". O primeiro refere- se ao cidadãos que permanecem vinculados ao território e o segundo aos cidadãos que foram cadastrados, mas que não estão mais vinculados ao território.
+As variáveis apresentadas podem complementar a análise da situação de saúde do território de atuação das equipes de Atenção Básica, com a finalidade de construção de estratégia de enfrentamento das condicionalidades e dos determinantes de saúde que afetam a qualidade de vida da população assistida. 
+
+A variável "Dados Gerais" presente nas opções dos grupos de informações disponíveis, apresentará a quantidade de "cidadãos ativos" e "saída de cidadão do cadastro". O primeiro refere- se ao cidadãos que permanecem vinculados ao território e o segundo aos cidadãos que foram cadastrados, mas que não estão mais vinculados ao território.
 
 ![](media/pec_image784.png)
 
