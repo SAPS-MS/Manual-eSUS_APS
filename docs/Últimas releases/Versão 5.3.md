@@ -29,8 +29,6 @@ last_modified_date: "04/11/2024"
 
 ## Novidades - Ferramentas relacionadas aos cuidados
 
-- Busca ativa de vacinação;
-
 Acompanhamento do Território:
 - A funcionalidade foi evoluída para permitir cadastro e atualização dos imóveis e famílias diretamente pelo PEC, sem a necessidade utilização do módulo CDS
 - Possibilidade de visualização e correção de inconsistências de cadastro sem a necessidade de se aguardar o processamento após o envio de lotes;
@@ -48,6 +46,13 @@ Acompanhamento do Território:
 Acompanhamento das condições de saúde: 
 - Inclusão da visualização, de até 7 dias, dos relatórios que foram processados e que estão em processamento e inclusão da exportação do relatório em formato CSV, permitindo a manipulação dos dados;
 
+Cuidado Compartilhado:
+
+- Garantia do Acesso no Cuidado Compartilhado;
+- Participação do cidadão e atendimento compartilhado;
+- Inclusão de novas opções de condutas na discussão de caso no Cuidado Compartilhado.
+
+- Busca ativa de vacinação;
 - Videochamada do profissional convidado adaptada para telefone celular;
 - Videochamada do profissional convidado adaptada para tablet;
 - Agendamento entre profissionais;
@@ -57,11 +62,7 @@ Acompanhamento das condições de saúde:
 - Atestado Digital;
 - Criação do informativo "Acompanhamento de vulnerabilidade" na "Folha de rosto" e "Lateral do atendimento" sobre a condição de vulnerabilidade socioeconômica do cidadão em risco de insegurança alimentar.
 
-Cuidado Compartilhado:
 
-- Garantia do Acesso no Cuidado Compartilhado;
-- Participação do cidadão e atendimento compartilhado;
-- Inclusão de novas opções de condutas na discussão de caso no Cuidado Compartilhado.
 
 
 **Unificação de bases**
@@ -161,23 +162,6 @@ Receita realizada com nome social
 ![](media/receituarionomesocial.png)
 
 
-**Busca ativa de vacinação**
-
-* Implementação do Grupo-alvo de Adultos para Vacinas do calendário vacinal;
-* Implementação do Grupo-alvo de Puérperas com Gestantes para Vacinas do calendário vacinal;
-* Unificação dos Grupos-alvo de Gestantes e Puérperas para Vacinas do calendário vacinal;
-* Inclusão do filtro por Bairro, Tipo de Logradouro e Logradouro de residência do cidadão;
-* Inclusão da regra de Identidade de gênero nos relatórios;
-* Histórico de acessos ao sistema.
-
-**Inclusão dos grupos alvos:**
-
-![](./media/grupo_vacinal.png)
-
-Inclusão do **bairro** nos filtros avançados:
-
-![](./media/bairro.png)
-
 **Acompanhamento do Território - Cadastro de Imóveis e Famílias**
 
 * A funcionalidade de Acompanhamento do Território, no menu lateral, foi evoluída para permitir cadastrar e atualizar os imóveis e famílias, condições de moradia e responsabilidades de acompanhamento, tudo isso em uma única interface moderna e intuitiva, sem a necessidade de gerar várias Fichas CDS manualmente. O sistema as gerará automaticamente, apenas para que a sua produção seja consolidada em relatórios e enviada ao Centralizar Nacional.
@@ -227,6 +211,51 @@ Ao tentar cadastrar um imóvel que já tenha cadastro, o sistema apresentará um
 * Inclusão da visualização, de até 7 dias, dos relatórios que foram processados e que estão em processamento.
 
 ![](./media/55.gif)
+
+**Garantia do Acesso no Cuidado Compartilhado**
+
+Ao receber uma solicitação de cuidado compartilhado no sistema, caso o profissional opte pela conduta de agendar consulta e não haja disponibilidade de datas e horários no momento do agendamento, é possível utilizar a opção de "Enviar para a Garantia do Acesso" através do compartilhamento do cuidado.  
+
+Dessa forma, o cidadão permanece na fila para um atendimento com a categoria profissional que necessita. Ao buscar por aquele registro no módulo de Garantia do Acesso, é exibido que ele tem como origem o módulo de Cuidado Compartilhado.
+
+**Participação do cidadão e atendimento compartilhado**
+
+É possível identificar, em "finalização do atendimento" se o cidadão participou do atendimento registrado e de que forma se deu essa participação (presencial, chamada de vídeo, chamada de voz, e-mail, mensagem, outro). 
+
+![](media/pec_image1092.png)
+
+Além de informar se outro profissional participou do atendimento, agora também é possível caracterizar a forma ele participou (presencial, chamada de vídeo, chamada de voz, e-mail, mensagem, outro).
+
+![](media/pec_image1093.png)
+
+**Inclusão de novas opções de condutas na discussão de caso**
+
+•	Conduta "Enviar para garantia de acesso" permite ao profissional executante registrar e enviar uma demanda para a Garantia de Acesso; 
+•	Conduta "Agendar consulta entre profissionais" possibilita o agendamento de consulta entre o profissional solicitante e executante sem a presença do cidadão; 
+•	Conduta "Agendar consulta entre profissionais via videochamada" possibilita o agendamento de consulta via videochamada entre o profissional solicitante e executante sem a presença do cidadão; 
+•	Conduta "Agendar consulta entre profissionais com o cidadão" possibilita o agendamento de consulta entre o profissional solicitante e executante com a presença do cidadão; 
+•	Conduta "Agendar consulta entre profissionais com o cidadão via videochamada" possibilita o agendamento de consulta via videochamada entre o profissional solicitante e executante com a presença do cidadão. 
+
+![](media/condutascuidadocompartilhado.png)
+
+
+**Busca ativa de vacinação**
+
+* Implementação do Grupo-alvo de Adultos para Vacinas do calendário vacinal;
+* Implementação do Grupo-alvo de Puérperas com Gestantes para Vacinas do calendário vacinal;
+* Unificação dos Grupos-alvo de Gestantes e Puérperas para Vacinas do calendário vacinal;
+* Inclusão do filtro por Bairro, Tipo de Logradouro e Logradouro de residência do cidadão;
+* Inclusão da regra de Identidade de gênero nos relatórios;
+* Histórico de acessos ao sistema.
+
+**Inclusão dos grupos alvos:**
+
+![](./media/grupo_vacinal.png)
+
+Inclusão do **bairro** nos filtros avançados:
+
+![](./media/bairro.png)
+
 
 **Videochamada do profissional convidado adaptada para telefone celular**
 
@@ -327,31 +356,6 @@ Quando há esta sinalização no prontuário do cidadão, é necessário que o p
 ![](media/acompanhamentovulnerabilidade1.png)
  
 
-**Garantia do Acesso no Cuidado Compartilhado**
-
-Ao receber uma solicitação de cuidado compartilhado no sistema, caso o profissional opte pela conduta de agendar consulta e não haja disponibilidade de datas e horários no momento do agendamento, é possível utilizar a opção de "Enviar para a Garantia do Acesso" através do compartilhamento do cuidado.  
-
-Dessa forma, o cidadão permanece na fila para um atendimento com a categoria profissional que necessita. Ao buscar por aquele registro no módulo de Garantia do Acesso, é exibido que ele tem como origem o módulo de Cuidado Compartilhado.
-
-**Participação do cidadão e atendimento compartilhado**
-
-É possível identificar, em "finalização do atendimento" se o cidadão participou do atendimento registrado e de que forma se deu essa participação (presencial, chamada de vídeo, chamada de voz, e-mail, mensagem, outro). 
-
-![](media/pec_image1092.png)
-
-Além de informar se outro profissional participou do atendimento, agora também é possível caracterizar a forma ele participou (presencial, chamada de vídeo, chamada de voz, e-mail, mensagem, outro).
-
-![](media/pec_image1093.png)
-
-**Inclusão de novas opções de condutas na discussão de caso**
-
-•	Conduta "Enviar para garantia de acesso" permite ao profissional executante registrar e enviar uma demanda para a Garantia de Acesso; 
-•	Conduta "Agendar consulta entre profissionais" possibilita o agendamento de consulta entre o profissional solicitante e executante sem a presença do cidadão; 
-•	Conduta "Agendar consulta entre profissionais via videochamada" possibilita o agendamento de consulta via videochamada entre o profissional solicitante e executante sem a presença do cidadão; 
-•	Conduta "Agendar consulta entre profissionais com o cidadão" possibilita o agendamento de consulta entre o profissional solicitante e executante com a presença do cidadão; 
-•	Conduta "Agendar consulta entre profissionais com o cidadão via videochamada" possibilita o agendamento de consulta via videochamada entre o profissional solicitante e executante com a presença do cidadão. 
-
-![](media/condutascuidadocompartilhado.png)
 
 {: .nota }
 Você conhece o ["Educa e-SUS APS"](https://educaesusaps.medicina.ufmg.br/) Uma parceria do Ministério da Saúde e UFMG na oferta nacional de cursos gratuitos de educação permanente para a APS, contextualizada no sistema e-SUS APS. Aproveite e confira agora mesmo!

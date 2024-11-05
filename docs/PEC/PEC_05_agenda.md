@@ -66,7 +66,7 @@ Figura 5.2 - Agendar/Reservar Horários
 
 Fonte: SAPS/MS.
 
-- Passo 4. Selecione o tipo de agendamento, clicando na opção "Consulta" ou "Reserva";
+- Passo 4. Selecione o tipo de agendamento, clicando na opção "Consulta" ou "Reserva ou "Entre profissionais"
 
 - Passo 5. Realize a busca do cidadão pelo nome, CNS ou data de nascimento;
 
@@ -79,6 +79,10 @@ Fonte: SAPS/MS.
 - Passo 9. Clique em "Salvar" ![](media/pec_image279.png). O nome do cidadão será incluído na agenda, conforme a figura abaixo:
 
 ![](media/pec_image280.png)
+
+Quando o agendamento for entre profissionais, deverá selecionar o profissional convidado e o cidadão.
+
+![](media/agendamentoentreprofissionais6.png)
 
 {: .nota }
 Quando a funcionalidade do Agendamento Online está ativada, todo agendamento salvo no módulo de Agenda do PEC é enviado para o servidor de agendamento online, que dispara uma notificação "*push"* com informações relacionadas a este agendamento para o aplicativo "ConecteSUS". Neste caso, como o agendamento foi realizado presencialmente na UBS, não há restrição em relação ao cidadão pertencer ao território de referência da equipe de atenção básica.
@@ -209,7 +213,7 @@ Os *status* de sincronização possíveis são:
 
 ## 5.1.5 Cancelar agendamento
 
-Para cancelar um agendamento, clique no ícone "Cancelar agendamento" ![](media/pec_image284.png).
+Para cancelar um agendamento, clique no ícone "Cancelar" ![](media/pec_image284.png).
 
 {: .nota }
 caso o horário marcado já tenha passado, não será possível excluir o agendamento. Para estes casos, utilize a opção "informar falta do cidadão", clicando sobre o ícone ![](media/pec_image283.png).
