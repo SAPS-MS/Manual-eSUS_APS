@@ -641,6 +641,27 @@ Fonte: SAPS/MS
 {: .atencao }
 Quando esta opção "excluir atendimento" for selecionada, **TODAS** as informações daquele atendimento serão excluídas, fique atento para todas as informações contidas naquele atendimento.
 
+### Videos explicativos 
+
+Os vídeos abaixo objetivam esclarecer as etapas necessárias para a retificação de vacinas no Prontuário Eletrônico do Cidadão (PEC) e Coleta de Dados Simplificado (CDS). 
+
+#### Retificação de vacinas no PEC:
+
+<video width="800" height="520" controls="controls" poster="capa_linux.png">
+  <source src="https://saps-ms.github.io/Manual-eSUS_APS/PEC_Correcao_Vacina.MOV" type="video/mp4">
+</video>
+
+#### Retificação de vacinas no CDS:
+
+<video width="800" height="520" controls="controls" poster="capa_linux.png">
+  <source src="https://saps-ms.github.io/Manual-eSUS_APS/CDS_Correcao_Vacina.MOV" type="video/mp4">
+</video>
+
+Abaixo, compartilhamos documento técnico sobre a retificação dos registros de vacinação e boas práticas no uso dos sistemas de informação:
+
+<iframe src="https://saps-ms.github.io/Manual-eSUS_APS/retificacao_de_vacinas.pdf" width="890px" height="900px"></iframe>
+
+
 # 6.4 Atender - Prontuário do Cidadão
 
 Ao clicar na opção ![](media/pec_image376.png) \"Atender\" da lista de atendimentos, o sistema exibirá uma tela com as funcionalidades do PEC (Figura 6.4.1).
