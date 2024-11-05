@@ -272,8 +272,6 @@ Caso  profissional entenda que há indicação de agendamento para grupos poder�
 ![](media/comp_cuidado/pec_image16.png)
 
 
-
-
 Ao selecionar ![](media/comp_cuidado/pec_image9.png) a conduta selecionada pelo solicitante ou o executante será registrada e o status deste compartilhamento do cuidado será modificado na lista geral de casos, passando de "Aguardando" para "Respondido".
 
 ## Exemplos de Compartilhamento do Cuidado

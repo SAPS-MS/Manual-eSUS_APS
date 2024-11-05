@@ -1,4 +1,4 @@
----
+---figuras quantidade da dose
 layout: default
 title: Atendimentos
 parent: Prontuário Eletrônico do Cidadão v5.2
@@ -782,7 +782,7 @@ condições autorreferidas pelo cidadão registradas em seu  cadastro individual
 - **Resultados de exames**: o card exibe uma lista dos três últimos resultados de exames inseridos com as informações
 de nome do exame, data de realização e resultado do exame.
 
-- **Medicamentos Prescritos**: exibe as medicações com tratamento ativo ou concluído/interrompido nos últimos três meses. São exibidos no card o medicamento prescrito, a dose e o intervalo/frequência prescritos. Ao clicar no card são exibidas as informações se é uso contínuo, data de início da prescrição e conclusão, se for o caso, bem como as recomendações.
+- **Medicamentos Prescritos**: exibe os medicamentos com tratamento ativo ou concluído/interrompido nos últimos três meses. São exibidos no card o medicamento prescrito, a dose/concentração e o intervalo/frequência da administração. Ao clicar no card são exibidas as informações se o uso é contínuo, a data de início da prescrição e a conclusão do tratamento (se for o caso), bem como as recomendações.
 
 ![](media/pec_image396.png)
 
@@ -809,7 +809,14 @@ O acompanhamento de vulnerabilidade foi criado no PEC para sinalizar quando o ci
 
 Quando há esta sinalização no prontuário do cidadão, é necessário que o profissional de saúde avalie todos os componentes do núcleo familiar, pois esta informação indica que há comprometimento da qualidade e quantidade da alimentação no domicílio e que o indivíduo se encontra em Risco para Insegurança Alimentar.
 
+![](media/acompanhamentovulnerabilidade1.png)
+
 É fundamental que se avalie também os Marcadores de Consumo Alimentar, para que possam tomar medidas de apoio e referência desses indivíduos à dispositivos da rede que garantam a Segurança Alimentar e Nutricional, bem como tudo que envolve essas questões no cidadão. 
+
+A Atenção Primária a Saúde, enquanto espaço de primeiro contato entre profissionais de saúde e residentes do território, apresenta enorme potencial de contribuição à garantia da Segurança Alimentar e Nutricional por meio de ações de promoção da saúde e da alimentação adequada e saudável, especialmente em áreas com altos índices de vulnerabilidade social e econômica.
+
+A APS tem potencialidade para atuação no rastreamento e identificação da Insegurança Alimentar, promoção da Segurança Alimentar e Nutricional e garantia do Direito Humano à Alimentação Adequada (DHAA). Além disso, a identificação da prevalência de IA nos territórios tem o potencial de subsidiar políticas públicas com foco na agenda de SAN12
+
 
 ## 6.4.3 SOAP
 
@@ -1055,7 +1062,7 @@ O sistema ainda disponibiliza algumas ferramentas específicas para auxiliar no 
 
 - **Solicitação de exames**: ferramenta que auxilia o profissional na solicitação de exame comum e/ou de alto custo;
 
-- **Prescrição de medicamentos**: ferramenta que auxilia o profissional nas prescrições medicamentosas no atendimento ao cidadão, na visualização do histórico de prescrições e da lista de medicamentos, além da impressão dos receituários com as medicações prescritas no momento;
+- **Prescrição de medicamentos**: ferramenta que auxilia o profissional nas prescrições farmacológicas no atendimento ao cidadão, na visualização do histórico de prescrições e da lista de medicamentos, além da impressão dos receituários com as medicamentos prescritos no momento;
 
 - **Orientações**: ferramenta que auxilia o profissional na elaboração de recomendações para o cidadão;
 
@@ -1091,6 +1098,30 @@ Fonte: SAPS/MS.
 ##### Modelo de Atestado para Impressão
 ![](media/pec_image1081.png)
 Fonte: SAPS/MS.
+
+#### Atestado Digital
+
+Implementado campo para o envio do atestado digital para o cidadão. 
+
+Ao selecionar "Gerar e enviar atestado digital", o profissional deverá incluir o e mail para envio do documento.
+
+![](media/atestadodigital1.png)
+
+Em seguida, abrirá uma tela de aviso para conferência dos dados do atestado.
+
+![](media/atestadodigital2.png)
+
+Na sequência, abrirá a tela de assinatura, sendo necessário que o profissional tenha assinatura cadastrada em um provedor.
+
+![](media/atestadodigital3.png)
+
+O registro do atestado digital ficará disponível no prontuário do cidadão.
+
+![](media/atestadodigital4.png)
+
+Atestado Digital com assinatura eletrônica
+
+![](media/atestadodigital5.png)
 
 #### Declaração de Comparecimento
 
@@ -1227,7 +1258,7 @@ Passo 4.  Após as alterações, clique no botão "Salvar" ![](media/pec_image93
 
 #### 6.4.3.4.3 Ferramentas do Plano - Prescrição de Medicamentos
 
-Esta ferramenta permite fazer a prescrição de medicamentos, contendo orientação de uso para o paciente, efetuada por profissional legalmente habilitado, podendo ser de lista padrão (pré- definida pelo CATMAT[^1]) ou descrição em texto livre (Registro Manual), conforme figura 6.4.22.
+Esta ferramenta permite fazer a prescrição de medicamentos,e incluir as orientações de uso para o paciente, efetuada por profissionais legalmente habilitados, podendo realizar uma busca da lista padrão (pré- definida pelo CATMAT) ou por descrição em texto livre (Registro Manual), conforme figura 6.4.22.
 
 Figura 6.4.22 - SOAP - Plano - Prescrição de Medicamentos
 
@@ -1249,8 +1280,10 @@ Para compor o receituário, observe que existem campos obrigatórios para preenc
 
  - Princípio Ativo/Medicamento
  - Via de administração
- - Dose [^2]:
- - Frequência da dose
+ - Tipo de Dose (Comum, Única, Fracionada)
+ - Quantidade da dose
+ - Unidade de medida 
+ - Periodicidade da dose (Intervalo, Frequência, Turno)
  - Posologia
  - Inicío do tratamento
  - Duração
@@ -1258,17 +1291,17 @@ Para compor o receituário, observe que existem campos obrigatórios para preenc
 
  - Passo 2. Selecione qual o Princípio ativo/ medicamento.
 
-  **Princípio Ativo/Medicamento**: lista de medicamentos do CATMAT, controlado pela Anvisa e pelo DAF/SCTIE/MS. Os campos Concentração, Forma Farmacêutica e Tipo de Receita, já são preenchidos automaticamente a partir do medicamento selecionado;
+  **Princípio Ativo/Medicamento**:Campo para selecionar o nome do princípio ativo ou medicamento prescrito. É composto pela lista de medicamentos do CATMAT, disponibilizada pelo DESID/SECTICS/MS. Os campos Concentração, Forma Farmacêutica e Tipo de Receita, já são preenchidos automaticamente a partir do medicamento selecionado;
 
 - Passe 3. Selecione a Via de administração.
 
-**Via de administração**: é a via de administração do medicamento;
+**Via de administração**: lista de vias de administração do medicamento, onde dever ser definido a forma como o medicamento será administrado, por exemplo, oral, intravenosa, tópica, etc. Refere-se à via de administração do medicamento;
 
 - Passo 4. Selecione o tipo de dose do medicamento;
 
-**Tipo de Dose**: é a dose do medicamento, refere-se à quantidade do princípio ativo do medicamento que possui em cada administração.
+**Tipo de Dose**: Campo destinado a seleção da maneira como será a administração de cada dose do medicamento. Inicialmente deverá ser definido se a posologia a ser prescrita será em dose ÚNICA (administrada uma única vez), ou COMUM, que se refere a esquemas terapêuticos com intervalos regulares e convencionais ou ainda a opção FRACIONADA que permitirá esquemas terapeuticos em que as doses variam por turno. Veja a figura a seguir:
 
-Poderá selecionar em "tipo de dose" as doses comum, única e fracionada. 
+Após selecionar um "tipo de dose" entre as opções comum, única e fracionada. 
 
 ![](media/pec_image1126.png)
 
@@ -1276,24 +1309,35 @@ Poderá selecionar em "tipo de dose" as doses comum, única e fracionada.
 
 ![](media/pec_image1129.png)
 
+
+O campo QUANTIDADE DA DOSE refere-se à quantidade de medicamento que deve ser administrada em concordância com a UNIDADE DE MEDIDA selecionada. No caso de medicamentos de uso oral e em forma farmacêutica sólida (comprimido, drágea, cápsula e afins) a unidade de medida é preenchida automaticamente como a forma farmacêutica. Por exemplo: se o medicamento for a metformina 850 mg comprimido, a unidade de medida automática será COMPRIMIDO, dessa forma a quantidade da dose deve expressar o número de comprimidos que o paciente deve tomar a cada administração. Conforme figura abaixo:
+
+![](media/pec_image1133.png)
+
+Para as demais formas farmacêuticas será necessário preencher o campo QUANTIDADE DA DOSE e UNIDADE DE MEDIDA, considerando as especificidades. O campo unidade de medida permite busca digitando a palavra ou siglas mais usadas como mL (militro), gota, adesivo entre outros, como se vê nas figuras de exemplo abaixo: 
+
+![](media/pec_image1134.png)
+
+![](media/pec_image1135.png)
+
+
+
  - Passo 6. Escolha a periodicidade da dose, que poderão ser, "intervalo" (em horas), "Frequência" (vezes dentro de um período e frequência (Dia(s), semana)s) ou mês(es), "Turno" (manhã,tarde ou noite). Conforme figuras abaixo:
-
- Intervalo:
-
 
 ![](media/pec_image1132.png)
  
- A partir da versão 5.3 foi disponibilizada a opção Fracionado por turno. 
+ A partir da versão 5.3 foi disponibilizada a opção Fracionado por turno. Esse campo só é disponibilizado quando o TIPO DE DOSE escolhido na etapa anterior é FRACIONADA. Essa função destina-se a esquemas terapêuticos em que haverã variação da dose a cada turno de administração, como no caso das insulina prescrita na figura a seguir, bem como a necessidade de administrar o medicamento em pelo menos dois turnos. 
 
  ![](media/pec_image1131.png)
 
 
-- Passo 7. Selecione o período do tratamento da medicação, inserindo o "início do tratamento" e "Duração", conforme figura abaixo: 
+- Passo 7. Indique o período do tratamento com o medicamento que está sendo prescrito, inserindo o "início do tratamento" e "Duração", conforme figura abaixo: 
 
 ![](media/pec_image953.png)
+![](media/pec_image451.png) 
 
 **Período de Tratamento**: define o período de início e fim do tratamento. 
-Utilize a opção "Uso contínuo" ![](media/pec_image451.png) caso o medicamento seja para tratamento de condições crônicas ou cronificadas. Essa opção auxilia na gestão da prescrição de medicamentos, incluindo este na lista de medicamentos de uso contínuo.
+Utilize a opção "Uso contínuo" caso o medicamento seja para tratamento de condições crônicas ou cronificadas. Essa opção auxilia na gestão da prescrição de medicamentos, incluindo este na lista de medicamentos de uso contínuo.
 
 - Passo 8. Caso deseje incluir recomendações a respeito do medicamento clique em "Recomendações", conforme figura abaixo:. 
 
@@ -1301,15 +1345,15 @@ Utilize a opção "Uso contínuo" ![](media/pec_image451.png) caso o medicamento
 
 **Recomendações**: as orientações sobre a forma de administração ou cuidados relacionados ao tratamento.
 
-- Passo 9. Insira a quantidade do medicamento a ser administrado/prescrito.
+- Passo 9. Insira a quantidade total do medicamento a ser administrado/prescrito.
 
-**Quantidade**: onde se deve informar a quantidade de unidades ou apresentação da medicação a ser fornecida ao cidadão a partir da prescrição do tratamento;
+**Quantidade**: onde se deve informar a quantidade total de unidades ou forma farmacêutica do medicamento a ser fornecida ao cidadão a partir da prescrição do tratamento; ao lado será exibido automaticamente a unidade de fornecimento para auxiliar na definição da quantidade a ser solicitada.
 
 ![](media/pec_image454.png)
 
-- Passo 9. Para concluir, clique em "Salvar prescrição" ![](media/pec_image455.png);
+- Passo 9. Para concluir, clique em "Salvar prescrição" ![](media/pec_image455.png)
 
-- Passo 10. Para adicionar mais de um medicamento na receita, preencha novamente os campos da prescrição e clique em "Salvar prescrição", o sistema irá exibir uma lista lateral com os medicamento prescritos durante o atendimento, conforme figura 
+- Passo 10. Para adicionar mais de um medicamento na receita, logo após salvar inicie o novo processo de preenchimento e clique em "Salvar prescrição", o sistema irá exibir uma lista lateral com os medicamento prescritos durante o atendimento, conforme figura 
 6.4.23.
 
 ![](media/pec_image954.png)
@@ -1322,7 +1366,11 @@ Fonte: SAPS/MS.
 as regras por medicamento, determinam o tipo de receita e consequentemente o tipo de impressão a ser gerada de acordo com o tipo de medicamento listado na receita. Caso existam medicamentos para tipos de receitas diferentes o sistema irá distribuí-los nos impressos adequados, automaticamente.
 
 {: .nota }
-caso seja necessário prescrever um medicamento que esteja fora da lista padrão, use a opção " Preencher manualmente. Medicamento não encontrado na lista" ![](media/pec_image457.png). Essa forma de prescrição não traz as informações de Princípio Ativo, Concentração, Forma Farmacêutica e Tipo de Receita, por padrão, sendo necessário o seu preenchimento.
+caso seja necessário prescrever um medicamento que esteja fora da lista padrão, use a opção " Preencher manualmente. Medicamento não encontrado na lista" conforme a seguir, esse campo aparece no ínicio da página. 
+
+![](media/pec_image457.png)
+
+ Essa forma de prescrição não traz as informações de Princípio Ativo, Dose/Concentração, Forma Farmacêutica e Tipo de Receita, por padrão, sendo necessário o seu preenchimento.
 
 Caso a UBS utilize o Sistema Hórus para gestão da farmácia será possível realizar a consulta de disponibilidade do medicamento prescrito. A indicação de ativação da integração com o Hórus será apresentada com a informação de "Conexão com o servidor Hórus desabilitada" habilitada. Ao final da prescrição do medicamento será exibida a lista de estabelecimentos que tem o medicamento disponível, por meio da coluna "Disponibilidade".
 
@@ -1335,7 +1383,11 @@ Fonte: SAPS/MS.
 {: .nota }
 caso sua UBS tenha implantado o Sistema Hórus e o recurso não esteja disponível, é necessário verificar se o recurso está habilitado. Para mais detalhes ver Seção 3.1.7.
 
-- Passo 12. Por fim, para imprimir a prescrição dos medicamentos a serem entregues para o cidadão clique sobre o botão “Imprimir”. Em seguida, aparecerá a tela constando todos os medicamentos prescritos. Selecione o qual gostaria imprimir, conforme figura 6.4.25. Para utilizar as definições padrões, basta manter selecionado todos os medicamentos.
+- Passo 12. Por fim, para imprimir a prescrição dos medicamentos a serem entregues para o cidadão clique sobre o botão “ENCAMINHAR”, que aparecerá no final de pagina, conforme ilustrado abaixo
+
+![](media/pec_image1136.png)
+
+ Em seguida, aparecerá a tela constando todos os medicamentos prescritos. Selecione o que gostaria de imprimir, conforme figura 6.4.25. Para utilizar as definições padrões, basta manter selecionado todos os medicamentos.
 
 Figura 6.4.25 - Imprimir Prescrição 
 
@@ -2782,7 +2834,8 @@ Figura 6.5.64 - Alergias/Reações adversas
 
 # 6.6 Atendimentos Realizados Por Estagiário
 
-Esta funcionalidade tem o objetivo de permitir que estagiários visualizem informações do prontuário e realizem atendimentos de forma validada pelo supervisor. O estagiário poderá realizar atendimentos de acordo com o CBO de sua área de formação. Sendo assim, são passíveis de realização por um estagiário os atendimentos:
+Esta funcionalidade tem o objetivo de permitir que estagiários visualizem informações do prontuário e realizem atendimentos de forma validada pelo supervisor. O estagiário poderá realizar atendiment
+os de acordo com o CBO de sua área de formação. Sendo assim, são passíveis de realização por um estagiário os atendimentos:
 
 •	Atendimento individual
 
@@ -2802,7 +2855,7 @@ Figura 6.6.1 - Cadastro de lotação de estagiário
 
 ![](media/Estagi%C3%A1rio/estagi%C3%A1rio1.png)
 
-## 6.6.2 - Atendimentos
+## 6.6.2 - Atendimentos por estagiários
 
 Uma vez cadastrado, o estagiário poderá realizar seus atendimentos normalmente. Como exemplo, ao final de um atendimento individual (realizado pelo estagiário) aparecerá o botão “Enviar para revisão” (Figura 6.6.2) O supervisor, por sua vez, deverá revisitar o atendimento registrado pelo estagiário (Figura 6.6.3), realizar as devidas correções caso julgue necessário e “Aprovar e finalizar o atendimento” (Figura 6.6.4).
 
@@ -2817,6 +2870,10 @@ Figura 6.6.3
 Figura 6.6.4
 
 ![](media/Estagiário/estagiario4.jpg)
+
+Exemplo supervisão e aprovação do atendimento
+
+![](media/revisaosupervisor.gif)
 
 # 6.7 Registro Tardio de Atendimento
 

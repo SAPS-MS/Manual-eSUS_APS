@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Acompanhamento de condições de saúde
+title: Acompanhamentos
 parent: Prontuário Eletrônico do Cidadão v5.2
 nav_order: 12
 has_children: false
@@ -8,6 +8,7 @@ has_toc: true
 last_modified_date: "16/03/2021"
 ---
 
+Neste capítulo serão abordados os Acompanhamentos de condições de saúde, de cidadãos vinculados e de território.
 
 <head>
     <style>
@@ -15,8 +16,10 @@ last_modified_date: "16/03/2021"
     </style>
 </head>
 
+
 # CAPÍTULO 10 - Acompanhamento de condições de saúde
 {: .no_toc }
+
 
 Antes disposto no módulo Relatórios, Relatórios operacionais, os relatórios gerados no Acompanhamento de condições de saúde foram criados com objetivo de ser uma ferramenta para os profissionais de saúde das ESFs no monitoramento das situações de saúde dos cidadãos adscritos no território. Esses relatórios são acessados apenas pelos perfis de profissionais de saúde das equipes e coordenadores de unidade, tendo em vista as questões de segurança, privacidade e sigilo. 
 
@@ -181,6 +184,10 @@ Exportação de relatórios em CSV:
 
 ## 10.1.7 Acompanhamento do território:
 
+A partir da versão 5.3 é possível cadastrar imóveis e famílias de forma mais completa e clara, facilitando a gestão dos cidadãos moradores de cada domicílio adscrito.
+
+A funcionalidade de Acompanhamento do Território, no menu lateral, foi evoluída para permitir cadastrar e atualizar os imóveis e famílias, condições de moradia e responsabilidades de acompanhamento, tudo isso em uma única interface moderna e intuitiva, sem a necessidade de gerar várias Fichas CDS manualmente. O sistema as gerará automaticamente, apenas para que a sua produção seja consolidada em relatórios e enviada ao Centralizar Nacional.
+
 O objetivo geral do módulo é oferecer uma visão intuitiva da organização do território, incentivando a realização e atualização de cadastros de imóveis e famílias.
 
 Entende-se por “território” o conjunto de Fichas de Cadastro Domiciliar e Territorial (FCDT), respectivos núcleos familiares e suas Fichas de Cadastro Individual (FCI) vinculados ao CNES e INE do usuário logado.
@@ -244,4 +251,3 @@ Status do cadastro: completo / incompleto.
 ![](media/acompanhamento_do_territorio_009.png)
 
 Fonte: SAPS/MS.
-

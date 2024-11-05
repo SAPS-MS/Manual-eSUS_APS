@@ -22,12 +22,18 @@ last_modified_date: "17/05/2024"
 - API para recebimento de lotes dos Sistemas Próprios/Terceiros; 
 - Histórico de acessos;
 - Atualização de terminologias dos envios à RNDS;
-- Importar beneficiários do Bolsa Família.
+- Importar beneficiários do Bolsa Família;
+- Relatório de erros retornados pela RNDS.
 
 ## Novidades - Ferramentas relacionadas aos atendimentos
 
 * Busca ativa de vacinação;
 * Acompanhamento do Território - Cadastro de Imóveis e Famílias;
+* Implementação da possibilidade de alterar unidade e equipe responsáveis pelos imóveis visualizados no Acompanhamento do Território;
+* Implementação da opção de Recusa de cadastro nos imóveis cadastrados via Acompanhamento do Território;
+* Inclusão da funcionalidade de exportar um arquivo CSV com informações da microárea e filtros aplicados, no Acompanhamento do Território;
+* Implementação de filtros por condições de moradia nos imóveis visualizados no Acompanhamento do Território;
+* Implementação de Identificação de possíveis cadastros duplicados de imóveis, com recomendação de atualização no registro existente;
 * Acompanhamento das condições de saúde;
 * Videochamada do profissional convidado adaptada para telefone celular;
 * Videochamada do profissional convidado adaptada para tablet;
@@ -38,7 +44,7 @@ last_modified_date: "17/05/2024"
 * Atestado Digital;
 * Garantia do Acesso no Cuidado Compartilhado;
 * Participação do cidadão e atendimento compartilhado;
-* Acompanhamento de vulnerabilidade no prontuário;
+* Acompanhamento de vulnerabilidade no prontuário.
 
 
 **Unificação de bases**
@@ -82,6 +88,23 @@ Ao visualizar a folha de rosto de um cidadão que consta como beneficiário no a
 
 ![](./media/importacao_beneficiarios_bolsa_familia_1.png)
 
+ **Relatório de erros retornados pela RNDS**
+
+Nesta versão é possível gerar o relatório de erros de dados enviados à RNDS. 
+
+Para gerar o relatório, o gestor municial deverá selecionar na aba lateral ![](media/gestaomunicipal.png).
+Em seguida selecionar![](media/relatoriornds.png) e "gerar relatório de erro"
+
+Abrirá uma tela onde poderá selecionar o período desejado e gerar o relatório CSV.
+
+![](media/relatoriornds1.png)
+
+Deverá marcar todos ou os que desejar.
+
+O relatório gerado, terá as informações: data de envio, tipo de registro, ID do registro, Status do envio, erro retornado pela RND.
+
+![](media/relatoriornds3.png)
+
 **Busca ativa de vacinação**
 
 * Implementação do Grupo-alvo de Adultos para Vacinas do calendário vacinal;
@@ -108,6 +131,35 @@ Inclusão do **bairro** nos filtros avançados:
 * Também será possível visualizar e corrigir inconsistências de cadastro através das novas telas, sem a necessidade de se aguardar o processamento após o Envio de Lotes de Fichas.
 
 ![](./media/cadastro_imovel.png)
+
+
+* É possível alterar a equipe e unidade responsáveis pelos imóveis no Acompanhamento do Território. 
+
+![](./media/acompanhamentoterritorioequipe.png)
+
+* Implementação da opção de Recusa de cadastro nos imóveis cadastrados via Acompanhamento do Território;
+
+![](./media/recusa.png)
+
+Ao selecionar que o cidadão recusou o cadastro por meio do Termo de Recusa do Cadastro, abrirá uma tela de aviso reforçando que esta recusa de cadastro não implica no não atendimento do cidadão na unidade de saúde. 
+
+![](./media/recusa1.png)
+
+
+* Inclusão da funcionalidade de exportar um arquivo CSV com informações da microárea e filtros aplicados, no Acompanhamento do Território;
+
+![](./media/relatorioterritorio.png)
+
+
+*Implementação de filtros por condições de moradia nos imóveis visualizados no Acompanhamento do Território.
+
+![](./media/filtromoradia.png)
+
+*Implementação de Identificação de possíveis cadastros duplicados de imóveis, com recomendação de atualização no registro existente.
+
+Ao tentar cadastrar um imóvel que já tenha cadastro, o sistema apresentará um alerta orientando que já existe.
+
+![](./media/imovelcadastrado.png)
 
 
 **Acompanhamento das condições de saúde**
@@ -206,9 +258,25 @@ O registro do atestado digital ficará disponível no prontuário do cidadão.
 
 ![](media/atestadodigital4.png)
 
+Atestado Digital com assinatura eletrônica
+
+![](media/atestadodigital5.png)
+
 **Garantia do Acesso no Cuidado Compartilhado**
 
+Ao receber uma solicitação de cuidado compartilhado no sistema, caso o profissional opte pela conduta de agendar consulta e não haja disponibilidade de datas e horários no momento do agendamento, é possível utilizar a opção de "Enviar para a Garantia do Acesso" através do compartilhamento do cuidado.  
+
+Dessa forma, o cidadão permanece na fila para um atendimento com a categoria profissional que necessita. Ao buscar por aquele registro no módulo de Garantia do Acesso, é exibido que ele tem como origem o módulo de Cuidado Compartilhado.
+
 **Participação do cidadão e atendimento compartilhado**
+
+É possível identificar, em "finalização do atendimento" se o cidadão participou do atendimento registrado e de que forma se deu essa participação (presencial, chamada de vídeo, chamada de voz, e-mail, mensagem, outro). 
+
+![](media/pec_image1092.png)
+
+Além de informar se outro profissional participou do atendimento, agora também é possível caracterizar a forma ele participou (presencial, chamada de vídeo, chamada de voz, e-mail, mensagem, outro).
+
+![](media/pec_image1093.png)
 
 **Acompanhamento de vulnerabilidade no prontuário**
 

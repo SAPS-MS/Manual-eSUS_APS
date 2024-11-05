@@ -1737,6 +1737,24 @@ Fonte: SAPS/MS
 
 Após habilitado o acesso à RNDS, caso seja necessário desabilitá-lo, basta clicar no botão "Desabilitar", conforme a figura 3.12.8. Ao desabilitar o certificado digital o botão de acesso a RNDS na tela de atendimento do PEC (Figura 3.12.7) não será mais apresentado.
 
+ **Relatório de erros retornados pela RNDS**
+
+A partir da versão 5.3 é possível gerar o relatório de erros de dados enviados à RNDS. 
+
+Para gerar o relatório, o gestor municial deverá selecionar na aba lateral ![](media/gestaomunicipal.png)
+Em seguida selecionar![](media/rnds.pngpng) e "gerar relatório de erro"
+
+Abrirá uma tela onde poderá selecionar o período desejado e gerar o relatório CSV.
+
+![](media/relatoriornds2.png)
+
+Deverá marcar todos ou os que desejar.
+
+O relatório gerado, terá as informações: data de envio, tipo de registro, ID do registro, Status do envio, erro retornado pela RND.
+
+![](media/relatoriornds3.png)
+
+
 ## 3.13 Acessando ao CADSUS por meio do PEC
 
 Esta seção visa orientar os gestores e técnicos responsáveis pela Estratégia e-SUS APS a habilitarem consulta ao CADSUS dentro do PEC.
