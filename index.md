@@ -27,7 +27,6 @@ Site: <http://sisaps.saude.gov.br/esus/><br>
 
 
 **Ficha Catalográfica**
-{: .text-center }
 
 2024 Ministério da Saúde
 
@@ -38,17 +37,6 @@ Tiragem: Edição revista e ampliada – 2024 – Versão eletrônica
 
 Elaboração, distribuição e informações:
 
-**MINISTÉRIO DA SAÚDE**<br>
-
-Secretaria de Atenção Primária à Saúde - SAPS<br>
-
-Coordenação-geral de Inovação e Aceleração Digital - CGIAD
-
-Esplanada dos Ministérios, Bloco O, 7º andar
-
-CEP: 70052-900 — Brasília/DF
-
-Site: https://sisaps.saude.gov.br/esus/
 
 **Ministra de Estado de Saúde**
 
@@ -65,11 +53,6 @@ Rodrigo André Cuevas Gaete
 **Organização**
 
 Francy Webster de Andrade Pereira, Igor de Carvalho Gomes
-<head>
-    <style>
-        p{text-align:justify};
-    </style>
-</head>
 
 **Elaboração de texto** 
 
