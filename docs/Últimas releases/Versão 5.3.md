@@ -189,6 +189,7 @@ Inclusão do **bairro** nos filtros avançados:
 
 ![](media/54.png)
 
+
 **Agendamento entre profissionais**
 
 Esta nova funcionalidade permite o agendamento entre profissionais, inclusive por videochamada e incluir ou não a participação do cidadão.
@@ -225,7 +226,7 @@ Nas próximas consultas, a agenda abrirá automaticamente no profissional fixado
 Ao ser informado o óbito de um cidadão, todos os agendamentos futuros deste cidadão serão cancelados e os profissionais responsáveis pelos agendamentos serão avisados por e-mail, caso o servidor SMTP esteja habilitado na instalação.
 
 
-**Doses fracionadas na prescrição de medicamento**
+**Doses fracionadas por turno na prescrição de medicamento**
 
 Novo campo na prescrição de medicamentos que possibilita tipo de dose fracionada por turno. 
 O passo a passo está no capítulo PEC - Atendimento - Prescrição. 
