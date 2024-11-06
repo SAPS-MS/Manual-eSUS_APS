@@ -28,14 +28,14 @@ Site: <http://sisaps.saude.gov.br/esus/><br>
 
 **Ficha Catalográfica**
 
-2024 Ministério da Saúde
+![alt text](<ficha catalografica.png>)
 
+2024 Ministério da Saúde<br>
+Esta obra é disponibilizada nos termos da Licença Creative Commons – Atribuição – Não Comercial – Compartilhamento pela mesma licença 4.0 Internacional. É permitida a reprodução parcial ou total desta obra, desde que citada a fonte.<br>
 
-Esta obra é disponibilizada nos termos da Licença Creative Commons – Atribuição – Não Comercial – Compartilhamento pela mesma licença 4.0 Internacional. É permitida a reprodução parcial ou total desta obra, desde que citada a fonte.
+Tiragem: Edição revista e ampliada – 2024 – Versão eletrônica<br>
 
-Tiragem: Edição revista e ampliada – 2024 – Versão eletrônica
-
-Elaboração, distribuição e informações:
+Elaboração, distribuição e informações:<br>
 
 
 **Ministra de Estado de Saúde**
@@ -64,7 +64,7 @@ Adriana Kitajima, Adriene dos Santos Sá, Bruno Mariani, Cinthia Caldas Rios, El
 
 **Revisão Técnica**  
 
-Jacqueline Aedinet Pruner Polidoro, Vania Priamo 
+Jacqueline Aedinet Pruner Polidoro, Vania Priamo, Walter Augusto Alcantara Vieira
 
 **Projeto Gráfico** 
 
@@ -81,7 +81,9 @@ Alexandre Soares de Brito, Diogo Ferreira Gonçalves
 {: .nota }
 Você conhece o ["Educa e-SUS APS"](https://educaesusaps.medicina.ufmg.br/) Uma parceria do Ministério da Saúde e UFMG na oferta nacional de cursos gratuitos de educação permanente para a APS, contextualizada no sistema e-SUS APS. Aproveite e confira agora mesmo!
 
-![alt text](educaaps.png)
-![alt text](qrcodeeduca.png)
+<center>
+
+ ![alt text](educaaps.png)
+
 
 
