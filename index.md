@@ -28,7 +28,7 @@ Site: <http://sisaps.saude.gov.br/esus/><br>
 
 **Ficha Catalográfica**
 
-![alt text](<ficha catalografica.png>)
+![](fichacatalografica.jpg)
 
 2024 Ministério da Saúde<br>
 Esta obra é disponibilizada nos termos da Licença Creative Commons – Atribuição – Não Comercial – Compartilhamento pela mesma licença 4.0 Internacional. É permitida a reprodução parcial ou total desta obra, desde que citada a fonte.<br>
@@ -81,9 +81,8 @@ Alexandre Soares de Brito, Diogo Ferreira Gonçalves
 {: .nota }
 Você conhece o ["Educa e-SUS APS"](https://educaesusaps.medicina.ufmg.br/) Uma parceria do Ministério da Saúde e UFMG na oferta nacional de cursos gratuitos de educação permanente para a APS, contextualizada no sistema e-SUS APS. Aproveite e confira agora mesmo!
 
-<center>
 
- ![alt text](educaaps.png)
 
+![](qrcodeeducaesus.png)
 
 
