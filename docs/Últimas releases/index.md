@@ -63,18 +63,6 @@ Tiragem: Edição revista e ampliada – 2024 – Versão eletrônica
 
 Elaboração, distribuição e informações:
 
-**MINISTÉRIO DA SAÚDE**<br>
-
-Secretaria de Atenção Primária à Saúde - SAPS<br>
-
-Coordenação-geral de Inovação e Aceleração Digital - CGIAD
-
-Esplanada dos Ministérios, Bloco O, 7º andar
-
-CEP: 70052-900 — Brasília/DF
-
-Site: https://sisaps.saude.gov.br/esus/
-
 **Ministra de Estado de Saúde**
 
 Nísia Trindade
@@ -115,7 +103,7 @@ Alexandre Soares de Brito, Diogo Ferreira Gonçalves
 **Uma versão revista, integrando as diversas funcionalidades em um arquivo só.** 
  
 {: .nota }
-Você conhece o ["Educa e-SUS APS"](https://educaesusaps.medicina.ufmg.br/) Uma parceria do Ministério da Saúde e UFMG na oferta nacional de cursos gratuitos de educação permanente para a APS, contextualizada no sistema e-SUS APS. Aproveite e confira agora mesmo!
+Você conhece o ["Educa e-SUS APS"](https://educaesusaps.medicina.ufmg.br/)? É uma parceria do Ministério da Saúde e UFMG na oferta nacional de cursos gratuitos de educação permanente para a APS, contextualizada no sistema e-SUS APS. Aproveite e confira agora mesmo!
 
 
 <center>

@@ -15,17 +15,6 @@ last_modified_date: "04/11/2024"
 </head>
 
 # Versão 5.3
-## Novidades - Ferramentas Administrativas
-
-- Unificação de bases;
-- Configuração HTTPS automatizada;
-- API para recebimento de lotes dos Sistemas Próprios/Terceiros; 
-- Histórico de acessos;
-- Bloqueio padrão da conta de usuário foi atualizado de 10 para 5 tentativas inválidas de autenticação 
-- Atualização de terminologias dos envios à RNDS;
-- Relatório de erros retornados pela RNDS;
-- Importar beneficiários do Bolsa Família;
-- Inclusão do nome social do profissional.
 
 ## Novidades - Ferramentas relacionadas aos cuidados
 
@@ -62,104 +51,17 @@ Cuidado Compartilhado:
 - Atestado Digital;
 - Criação do informativo "Acompanhamento de vulnerabilidade" na "Folha de rosto" e "Lateral do atendimento" sobre a condição de vulnerabilidade socioeconômica do cidadão em risco de insegurança alimentar.
 
+## Novidades - Ferramentas Administrativas
 
-
-
-**Unificação de bases**
-
-Esta ferramenta consolida as bases descentralizadas do PEC em uma estrutura única e centralizada. Esse avanço permite que todos os estabelecimentos de saúde integrem e implementem o conceito de Prontuário Eletrônico do Cidadão (PEC e-SUS APS) de forma unificada no âmbito municipal. 
-
-Inclusão da funcionalidade “Unificação de Bases”, que permitirá aos municípios com várias instalações do PEC unificarem todos os seus bancos de dados em uma instalação única sem perda de nenhuma informação do prontuário eletrônico [Manual e-sus APS] (https://saps-ms.github.io/Manual-eSUS_APS/docs/PEC/PEC_03_adm_conf/)
-
-![](media/unificacaodebases.png)
-
-Para especificações desta funcionalidade, consultar o capítulo "Administração e Configurações do Sistema", Unificação de bases.
-
-Em "Configurações avançadas”, desabilitação por padrão da realização de novos cadastros de imóveis e famílias via CDS Cadastro domiciliar e territorial. Esta opção poderá ser reabilitada caso necessário.
-
-
-**Configuração HTTPS automatizada**
-
-A geração e renovação do Certificado TLS (SSL) / HTTPS no PEC se tornou bem mais fácil, sendo agora gerenciado pela própria aplicação de maneira totalmente automatizada.  
-
-Essa habilitação permite o uso de diversas funcionalidades que fortalecem o trabalho das equipes e o cuidado aos cidadãos, como teleinterconsultas, prescrição digital, acesso ao CadSUS. 
-
-![alt text](<../Apoio a Implantação/media/https_automatizado.png>)
-
-Em "Configurações avançadas”, desabilitação por padrão da realização de novos cadastros de imóveis e famílias via CDS - Cadastro domiciliar e territorial. Esta opção poderá ser reabilitada caso necessário 
-
-**Histórico de acessos ao sistema** 
-
-Possibilita ver o histórico de acessos ao sistema.
-
-![](media/historicodeacesso.png)
-
-
-Este recurso fornece informações como a data e a hora dos acessos (bem ou malsucedidos) do login do profissional no e-SUS APS dos últimos 30 dias. 
-
-![](media/historicodeacesso1.png)
-
-Somente o profissional que está logado pode visualizar essas informações.
-
-
-**Atualização de terminologias dos envios à RNDS**
-
-Na aba RNDS:  
-
-Registro de Imunobiológicos Administrado em Campanha (RIA-C) ou Rotina (RIA-R) 
-
-Registro de Atendimento Clínico (RAC) 
-
-Registro de Prescrição de Medicamentos (RPM)
-
-![](media/terminologiarnds.png)
-
- **Relatório de erros retornados pela RNDS**
-
-Nesta versão é possível gerar o relatório de erros de dados enviados à RNDS. 
-
-Para gerar o relatório, o gestor municial deverá selecionar na aba lateral ![](media/gestaomunicipal.png).
-Em seguida selecionar![](media/relatoriornds.png) e "gerar relatório de erro"
-
-Abrirá uma tela onde poderá selecionar o período desejado e gerar o relatório CSV.
-
-![](media/relatoriornds1.png)
-
-Deverá marcar todos ou os que desejar.
-
-O relatório gerado, terá as informações: data de envio, tipo de registro, ID do registro, Status do envio, erro retornado pela RND.
-
-![](media/relatoriornds3.png)
-
-**Importar beneficiários do Bolsa Família**
-
-Agora será possível importar um arquivo com os beneficiários do bolsa família de uma vigência específica para que eles sejam identificados em seus prontuários. 
-
-O arquivo poderá ser baixado no e-Gestor e incluído para importação na funcionalidade de Importação do bolsa família, que pode ser acessada pelo menu lateral com o perfil de Instalador.  
-
-É possível importar arquivos de qualquer vigência, inclusive listas complementares. 
-
-![](./media/importacao_beneficiarios_bolsa_familia.gif)
-
-Ao visualizar a folha de rosto de um cidadão que consta como beneficiário no arquivo importado da vigência mais atual, será apresentada uma sinalização de que ele é beneficiário do Programa Bolsa Família. 
-
-![](./media/importacao_beneficiarios_bolsa_familia_1.png)
-
-
-**Inclusão do nome social do profissional**
-
-Agora, o PEC e-SUS APS amplia o uso do nome social não apenas para os cidadãos, mas também para os profissionais de saúde.  
-
-Foi realizada a inclusão da possibilidade de se cadastrar um “nome social” para profissionais. Quando o nome social for registrado, o sistema passará a exibir somente o nome social nos módulos do sistema, com exceção do módulo administrativo e dos atendimentos antigos registrados quando o profissional só possuía nome civil. 
-
-Conforme o Decreto nº8.727, de 28/04/2016, nome social se refere à designação pela qual a pessoa travesti ou transexual se identifica e é socialmente reconhecida. 
-
-![](media/nome_social_profissional.png)
-
-Essa implementação garante que o nome social do profissional seja exibido em todos os campos do sistema, incluindo impressões e prescrições eletrônicas. 
-
-Receita realizada com nome social
-![](media/receituarionomesocial.png)
+- Unificação de bases;
+- Configuração HTTPS automatizada;
+- API para recebimento de lotes dos Sistemas Próprios/Terceiros; 
+- Histórico de acessos;
+- Bloqueio padrão da conta de usuário foi atualizado de 10 para 5 tentativas inválidas de autenticação 
+- Atualização de terminologias dos envios à RNDS;
+- Relatório de erros retornados pela RNDS;
+- Importar beneficiários do Bolsa Família;
+- Inclusão do nome social do profissional.
 
 
 **Acompanhamento do Território - Cadastro de Imóveis e Famílias**
@@ -358,6 +260,102 @@ Quando há esta sinalização no prontuário do cidadão, é necessário que o p
 
 ![](media/acompanhamentovulnerabilidade1.png)
  
+**Unificação de bases**
+
+Esta ferramenta consolida as bases descentralizadas do PEC em uma estrutura única e centralizada. Esse avanço permite que todos os estabelecimentos de saúde integrem e implementem o conceito de Prontuário Eletrônico do Cidadão (PEC e-SUS APS) de forma unificada no âmbito municipal. 
+
+Inclusão da funcionalidade “Unificação de Bases”, que permitirá aos municípios com várias instalações do PEC unificarem todos os seus bancos de dados em uma instalação única sem perda de nenhuma informação do prontuário eletrônico [Manual e-sus APS] (https://saps-ms.github.io/Manual-eSUS_APS/docs/PEC/PEC_03_adm_conf/)
+
+![](media/unificacaodebases.png)
+
+Para especificações desta funcionalidade, consultar o capítulo "Administração e Configurações do Sistema", Unificação de bases.
+
+Em "Configurações avançadas”, desabilitação por padrão da realização de novos cadastros de imóveis e famílias via CDS Cadastro domiciliar e territorial. Esta opção poderá ser reabilitada caso necessário.
+
+
+**Configuração HTTPS automatizada**
+
+A geração e renovação do Certificado TLS (SSL) / HTTPS no PEC se tornou bem mais fácil, sendo agora gerenciado pela própria aplicação de maneira totalmente automatizada.  
+
+Essa habilitação permite o uso de diversas funcionalidades que fortalecem o trabalho das equipes e o cuidado aos cidadãos, como teleinterconsultas, prescrição digital, acesso ao CadSUS. 
+
+![alt text](<../Apoio a Implantação/media/https_automatizado.png>)
+
+Em "Configurações avançadas”, desabilitação por padrão da realização de novos cadastros de imóveis e famílias via CDS - Cadastro domiciliar e territorial. Esta opção poderá ser reabilitada caso necessário 
+
+**Histórico de acessos ao sistema** 
+
+Possibilita ver o histórico de acessos ao sistema.
+
+![](media/historicodeacesso.png)
+
+
+Este recurso fornece informações como a data e a hora dos acessos (bem ou malsucedidos) do login do profissional no e-SUS APS dos últimos 30 dias. 
+
+![](media/historicodeacesso1.png)
+
+Somente o profissional que está logado pode visualizar essas informações.
+
+
+**Atualização de terminologias dos envios à RNDS**
+
+Na aba RNDS:  
+
+Registro de Imunobiológicos Administrado em Campanha (RIA-C) ou Rotina (RIA-R) 
+
+Registro de Atendimento Clínico (RAC) 
+
+Registro de Prescrição de Medicamentos (RPM)
+
+![](media/terminologiarnds.png)
+
+ **Relatório de erros retornados pela RNDS**
+
+Nesta versão é possível gerar o relatório de erros de dados enviados à RNDS. 
+
+Para gerar o relatório, o gestor municial deverá selecionar na aba lateral ![](media/gestaomunicipal.png).
+Em seguida selecionar![](media/relatoriornds.png) e "gerar relatório de erro"
+
+Abrirá uma tela onde poderá selecionar o período desejado e gerar o relatório CSV.
+
+![](media/relatoriornds1.png)
+
+Deverá marcar todos ou os que desejar.
+
+O relatório gerado, terá as informações: data de envio, tipo de registro, ID do registro, Status do envio, erro retornado pela RND.
+
+![](media/relatoriornds3.png)
+
+**Importar beneficiários do Bolsa Família**
+
+Agora será possível importar um arquivo com os beneficiários do bolsa família de uma vigência específica para que eles sejam identificados em seus prontuários. 
+
+O arquivo poderá ser baixado no e-Gestor e incluído para importação na funcionalidade de Importação do bolsa família, que pode ser acessada pelo menu lateral com o perfil de Instalador.  
+
+É possível importar arquivos de qualquer vigência, inclusive listas complementares. 
+
+![](./media/importacao_beneficiarios_bolsa_familia.gif)
+
+Ao visualizar a folha de rosto de um cidadão que consta como beneficiário no arquivo importado da vigência mais atual, será apresentada uma sinalização de que ele é beneficiário do Programa Bolsa Família. 
+
+![](./media/importacao_beneficiarios_bolsa_familia_1.png)
+
+
+**Inclusão do nome social do profissional**
+
+Agora, o PEC e-SUS APS amplia o uso do nome social não apenas para os cidadãos, mas também para os profissionais de saúde.  
+
+Foi realizada a inclusão da possibilidade de se cadastrar um “nome social” para profissionais. Quando o nome social for registrado, o sistema passará a exibir somente o nome social nos módulos do sistema, com exceção do módulo administrativo e dos atendimentos antigos registrados quando o profissional só possuía nome civil. 
+
+Conforme o Decreto nº8.727, de 28/04/2016, nome social se refere à designação pela qual a pessoa travesti ou transexual se identifica e é socialmente reconhecida. 
+
+![](media/nome_social_profissional.png)
+
+Essa implementação garante que o nome social do profissional seja exibido em todos os campos do sistema, incluindo impressões e prescrições eletrônicas. 
+
+Receita realizada com nome social
+![](media/receituarionomesocial.png)
+
 
 
 {: .nota }
