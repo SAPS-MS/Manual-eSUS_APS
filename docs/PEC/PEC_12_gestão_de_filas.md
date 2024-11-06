@@ -41,7 +41,7 @@ Figura 1 - Dados para inclusão do cidadão
 ![](media/telagarantiadoacesso.png)
 Fonte: SAPS/MS.
 
-O campo "Tipo de atendimento" é de preenchimento obrigatório e traz como opções a consulta de enfermagem, consulta médica e consulta odontológica, conforme exibe a Figura 2. 
+O campo "Tipo de atendimento" é de preenchimento obrigatório e apresenta como opções a consulta de enfermagem, consulta médica e consulta odontológica, conforme exibe a Figura 2. 
 
 Figura 2 - Tipos de atendimento 
 ![](media/garantiatipodeatendimento.png)

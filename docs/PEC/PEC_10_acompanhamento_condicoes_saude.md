@@ -23,7 +23,7 @@ Neste capítulo serão abordados os Acompanhamentos de condições de saúde, de
 
 Antes disposto no módulo Relatórios, Relatórios operacionais, os relatórios gerados no Acompanhamento de condições de saúde foram criados com objetivo de ser uma ferramenta para os profissionais de saúde das ESFs no monitoramento das situações de saúde dos cidadãos adscritos no território. Esses relatórios são acessados apenas pelos perfis de profissionais de saúde das equipes e coordenadores de unidade, tendo em vista as questões de segurança, privacidade e sigilo. 
 
-Este módulo visa proporcionar aos gestores de UBS e profissionais de saúde um formato mais simples e otimizado de visualizar as informações relacionadas aos problemas e condições de saúde da população acompanhadas pelas equipes de atenção primária à saúde.
+Este módulo visa proporcionar aos profissionais de saúde e gestores de UBS um formato mais simples e otimizado de visualizar as informações relacionadas aos problemas e condições de saúde da população adstrita no território e acompanhada pelas equipes de atenção primária à saúde.
 
 Nesta versão, é possível gerar relatórios mais específicos do recorte populacional que o profissional deseja acompanhar, com uma lógica de filtros um pouco diferente. Agora, separados em quatro grandes grupos de condições de saúde principais: Diabetes, Hipertensão arterial, Obesidade e Gravidez.
 
@@ -39,18 +39,20 @@ Nesta versão, é possível gerar relatórios mais específicos do recorte popul
 
 Uma das atividades da Atenção Primária à Saúde é realizar o acompanhamento das condições de saúde dos cidadãos vinculados às Equipes da APS. Esta ação é importante e demanda muita organização por parte da equipe. Uma forma facilitada de realizar o acompanhamento das situações de saúde é por meio de relatórios ou listas de cidadãos que possuem determinada condição de saúde, extraídos a partir do sistema de informação utilizado pela equipe.
 
-Figura 10.1 - Tela do Relatórios exibida com o perfil de profissional da equipe de AB
+Figura 10.1 - Tela do Relatórios exibida com o perfil de profissional da equipe de APS
 ![](media/pec_image833.png)
 Fonte: SAPS/MS.
 
-O painel de Acompanhamento de condições de saúde busca apresentar de forma clara a lista de cidadão vinculados à equipe de APS que possuem determinada situação de saúde.
+O painel de Acompanhamento de condições de saúde busca apresentar de forma clara a lista de cidadão vinculados à equipe de saúde que possuem determinada situação de saúde.
 
 {: .nota }
 Somente são apresentados neste painel cidadãos que estão vinculados à equipe de APS. A busca retorna apenas cidadãos que possuem todas as condições selecionadas e ativas na lista de problemas ou avaliadas no SOAP e na ficha de atendimento individual.
 
-# 10.1 Filtros
-
 Nesta funcionalidade são apresentados diversos filtros, para facilitar a busca de cidadãos por determinadas situações de saúde. Como ocorre nos relatórios do sistema, neste módulo também existe hierarquia de acesso, o gerente da unidade pode escolher a UBS ou a equipe que deseja visualizar o painel, já os profissionais das equipes, conseguem visualizar os cidadãos apenas de sua própria equipe.
+
+# 10.1 Filtro de Microárea
+
+Nesta funcionalidade apresenta-se filtro de microárea, para apoiar a busca de cidadãos no território. Assim omo ocorre nos relatórios do sistema, neste módulo também existe hierarquia de acesso, o gerente da unidade pode escolher a UBS ou a equipe que deseja visualizar o painel, já os profissionais das equipes, conseguem visualizar os cidadãos vinculados pela Ficha de cadastro individual, ficha de cadastro domiciliar e territorial e cadastros do módulo cidadão do PEC.
 
 ## 10.1.1 Filtro de problemas e condições pré estruturado
 
@@ -150,9 +152,11 @@ Demonstração Exportação Relatório
 ![](media/acompanhamento_condicoes_de_saude.gif)
 
 
+
+
 ## 10.1.6 Acompanhamentos dos cidadãos vinculados
 
-Uma das atividades da Atenção Primária à Saúde é realizar o acompanhamento das condições de saúde dos cidadãos vinculados às Equipes da APS. Esta ação é importante e demanda muita organização por parte da equipe. Uma forma facilitada de realizar o acompanhamento das situações de saúde é por meio de relatórios ou listas de cidadãos que possuem determinada condição de saúde, extraídos a partir do sistema de informação utilizado pela equipe.
+Uma das atividades da Atenção Primária à Saúde envolve realizar o acompanhamento das condições de saúde dos cidadãos vinculados às Equipes da APS. Esta ação é importante e demanda muita organização por parte da equipe. Uma forma facilitada de realizar o acompanhamento das situações de saúde é por meio de relatórios ou listas de cidadãos que possuem determinada condição de saúde, extraídos a partir do sistema de informação utilizado pela equipe.
 
 Figura 10.2 - Tela do Relatórios exibida 
 ![](media/pec_image983.png)
