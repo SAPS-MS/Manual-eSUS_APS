@@ -13,7 +13,7 @@ last_modified_date: "10/09/2024"
     </style>
 </head>
 
-# Funcionalidade: Unificação de Bases
+# **Unificação de Bases**
 
 ### 1. Introdução:
 
@@ -90,10 +90,17 @@ infraestrutura descentralizada em cada instalação PEC, com requisitos computac
 **Considerações iniciais:**
 
 É importante destacar que o processo de unificação de bases de dados foi desenvolvido para operar de forma remota, onde uma Instalação do PEC (Instalação
-descentralizada que será unificada e desativada após o processo) remete dados para outra Instalação do PEC (Instalação central) a partir de um link de internet! Durante o processo de unificação, caso haja queda no link de internet ou interrupção de energia, o processo de unificação será interrompido e o processo deverá ser reiniciado, restaurando-se os backups da Instalação descentralizada e da Instalação Central que foram realizados antes de iniciar
-o processo de unificação, para assim realizar uma nova tentativa! 
+descentralizada que será unificada e desativada após o processo) remete dados para outra Instalação do PEC (Instalação central) a partir de um link de internet! Durante o processo de unificação, caso haja queda no link de internet ou interrupção de energia, o processo de unificação será interrompido e o processo deverá ser reiniciado, restaurando-se os backups da Instalação descentralizada e da Instalação Central que foram realizados antes de iniciar o processo de unificação, para assim realizar uma nova tentativa! 
 
 Sempre que possível, considere preparar um ambiente na rede local da Instalação Central, com uma “instalação alternativa do PEC” para receber o backup das instalações descentralizadas, um por vez, e realizar a unificação dentro da mesma infraestrutura; tal ação permitirá maior agilidade, segurança e rapidez no processo de unificação das bases de dados e evitará transtornos advindos de quaisquer interrupções.
+
+**Ideia para o fluxo Homologação e Produção no processo de Unificação de Bases**
+
+![](media/unificacao_hom_prod.png)
+
+Fonte: SAPS / Educa e-SUS APS
+
+**Processo no PEC**
 
 O Administrador da Instalação deverá acessar o PEC com sua respectiva credencial de acesso e clicar na aba lateral “Configurações da instalação”. Ao clicar em “Unificação de base”, o sistema apresentará as opções abaixo:
 
