@@ -38,7 +38,7 @@ Acompanhamento das condições de saúde:
 Cuidado Compartilhado:
 
 - Garantia do Acesso no Cuidado Compartilhado;
-- Participação do cidadão e atendimento compartilhado;
+- Participação do cidadão e atendimento compartilhado; 
 - Inclusão de novas opções de condutas na discussão de caso no Cuidado Compartilhado.
 
 - Busca ativa de vacinação;
