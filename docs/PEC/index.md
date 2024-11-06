@@ -5,7 +5,7 @@ nav_order: 2
 has_children: true
 description: "Manual e-SUS APS"
 permalink: /docs/PEC
-last_modified_date: "09/11/2023"
+last_modified_date: "06/11/2024"
 ---
 
 e-SUS Atenção Primária à Saúde (e-SUS APS)
@@ -41,4 +41,4 @@ MANUAL DE USO
 <br>
 
 {: .nota }
-Você conhece o ["Educa e-SUS APS"](https://educaesusaps.medicina.ufmg.br/) Uma parceria do Ministério da Saúde e UFMG na oferta nacional de cursos gratuitos de educação permanente para a APS, contextualizada no sistema e-SUS APS. Aproveite e confira agora mesmo!
+Você conhece o ["Educa e-SUS APS"](https://educaesusaps.medicina.ufmg.br/)? É uma parceria do Ministério da Saúde e UFMG na oferta nacional de cursos gratuitos de educação permanente para a APS, contextualizada no sistema e-SUS APS. Aproveite e confira agora mesmo!

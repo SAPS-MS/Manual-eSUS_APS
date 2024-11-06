@@ -6,7 +6,7 @@ nav_exclude: false
 has_children: true
 description: "Manual e-SUS APS"
 permalink: /docs/territorio
-last_modified_date: "25/09/2023"
+last_modified_date: "06/11/2024"
 ---
 
 e-SUS Atenção Primária à Saúde
