@@ -40,53 +40,5 @@ MANUAL DE USO
 <br>
 <br>
 <br>
-*Elaboração, distribuição e informações*<br>
-
-**MINISTÉRIO DA SAÚDE**<br>
-Secretaria de Atenção Primária à Saúde - SAPS<br>
-Coordenação-geral de Inovação e Aceleração Digital - CGIAD<br>
-Esplanada dos Ministérios - Bloco O - 7º andar<br>
-CEP: 70.058-900 – Brasília/DF<br>
-Site: <http://sisaps.saude.gov.br/esus/><br>
-
-**Supervisor Geral**<br>
-Felipe Proenço de Oliveira
-
-**Coordenação Técnica Geral**<br>
-Rodrigo André Cuevas Gaete
-<head>
-    <style>
-        p{text-align:justify};
-    </style>
-</head>
-
-**Organização**<br>
-Bruno Costa Mariani Maciel, Elaine de Almeida, Igor de Carvalho Gomes, Ingryd Isabelle Maia de Souza, Janaína Nogueira Guimarães, Romario Araujo Matias Rocha, Willian Soares Lima.
-
-**Revisão Técnica**<br>
-Ana Claudia Cielo, Igor de Carvalho Gomes, Micael Macedo Pereira da Trindade, André Cury Alves, João Geraldo de Oliveira Júnior, Jacqueline Aedinet Pruner Polidoro.
-
-**Elaboração de texto**<br>
-Adriana Kitajima, Allan Nuno Alves de Souza, Ana Claudia Cielo, André Cury Alves, Edson Lucena, Igor de Carvalho Gomes, João Geraldo de Oliveira Júnior, Jacqueline Aedinet Pruner Polidoro, Janaína Nogueira Guimarães, Micael Macedo Pereira, da Trindade, Rodrigo André Cuevas Gaete, Thaís Alessa Leite, Vanessa Lora, Virgínia Fava.
-
-**Projeto Gráfico**<br>
-Alexandre Soares de Brito, Diogo Ferreira Gonçalves
-<br>
-<br>
-<br>
-
-**Ficha Catalográfica**
-{: .text-center }
-
-Brasil. Ministério da Saúde. Secretaria de Atenção Primária à Saúde.<br>
-e-SUS Atenção Primária à Saúde: Manual do aplicativo e-SUS Atividade Coletiva – Versão 1.3 [recurso eletrônico] / Ministério da Saúde, Secretaria de Atenção Primária à Saúde, Secretaria Executiva. – Brasília: Ministério da Saúde, 2021.<br>
-<br>
-ISBN **Versão Preliminar**<br>
-Modo de acesso: <https://aps.saude.gov.br/ape/esus><br>
-CDU 614<br>
-
-Catalogação na fonte – Coordenação-Geral de Documentação e Informação – Editora MS – OS 2021.
-
-
 {: .nota }
 Você conhece o ["Educa e-SUS APS"](https://educaesusaps.medicina.ufmg.br/) Uma parceria do Ministério da Saúde e UFMG na oferta nacional de cursos gratuitos de educação permanente para a APS, contextualizada no sistema e-SUS APS. Aproveite e confira agora mesmo!
