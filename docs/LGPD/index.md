@@ -14,7 +14,6 @@ permalink: /docs/LGPD
     </style>
 </head>
 
-
 {: .nota }
 Você conhece o ["Educa e-SUS APS"](https://educaesusaps.medicina.ufmg.br/) Uma parceria do Ministério da Saúde e UFMG na oferta nacional de cursos gratuitos de educação permanente para a APS, contextualizada no sistema e-SUS APS. Aproveite e confira agora mesmo!
 
