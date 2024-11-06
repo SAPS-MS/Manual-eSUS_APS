@@ -64,7 +64,7 @@ Cuidado Compartilhado:
 - Inclusão do nome social do profissional.
 
 
-**Acompanhamento do Território - Cadastro de Imóveis e Famílias**
+**Acompanhamento do Território - Cadastro de Imóveis e Famílias**  
 
 * A funcionalidade de Acompanhamento do Território, no menu lateral, foi evoluída para permitir cadastrar e atualizar os imóveis e famílias, condições de moradia e responsabilidades de acompanhamento, tudo isso em uma única interface moderna e intuitiva, sem a necessidade de gerar várias Fichas CDS manualmente. O sistema as gerará automaticamente, apenas para que a sua produção seja consolidada em relatórios e enviada ao Centralizar Nacional.
 
@@ -105,14 +105,17 @@ Ao tentar cadastrar um imóvel que já tenha cadastro, o sistema apresentará um
 
 ![](./media/imovelcadastrado.png)
 
+Para mais informações acesse o Capítulo [Acompanhamento do Território](https://saps-ms.github.io/Manual-eSUS_APS/docs/PEC/PEC_10_acompanhamento_condicoes_saude/#acompanhamento-do-territ%C3%B3rio)
 
-**Acompanhamento das condições de saúde**
+
+[**Acompanhamento das condições de saúde**](https://saps-ms.github.io/Manual-eSUS_APS/docs/PEC/PEC_10_acompanhamento_condicoes_saude/#acompanhamento-do-territ%C3%B3rio)
 
 * Inclusão da exportação do relatório de busca em formato CSV, permitindo a manipulação dos dados.
 
 * Inclusão da visualização, de até 7 dias, dos relatórios que foram processados e que estão em processamento.
 
 ![](./media/55.gif)
+
 
 **Garantia do Acesso no Cuidado Compartilhado**
 
@@ -144,6 +147,7 @@ Além de informar se outro profissional participou do atendimento, agora também
 
 ![](media/condutascuidadocompartilhado.png)
 
+Para saber maiores informações sobre o Cuidado Compartilhado clique no [LINK](https://saps-ms.github.io/Manual-eSUS_APS/docs/PEC/PEC_14_compartilhamento_do_cuidado/)
 
 **Busca ativa de vacinação**
 
@@ -153,6 +157,7 @@ Além de informar se outro profissional participou do atendimento, agora também
 * Inclusão do filtro por Bairro, Tipo de Logradouro e Logradouro de residência do cidadão;
 * Inclusão da regra de Identidade de gênero nos relatórios;
 * Histórico de acessos ao sistema.
+
 
 **Inclusão dos grupos alvos:**
 
@@ -200,6 +205,8 @@ Na agenda do profissional, ficará registrado o nome do cidadão agendado e o pr
 ![](./media/agendamentoentreprofissionais6.png)
 
 ![](./media/comprovanteagendamento.png)
+
+Para saber mais, consulte o Capítulo [PEC - Agenda](https://saps-ms.github.io/Manual-eSUS_APS/docs/PEC/PEC_05_agenda/#57-agendamento-entre-profissionais) 
 
 
 **Acesso rápido na agenda**
@@ -268,7 +275,7 @@ Inclusão da funcionalidade “Unificação de Bases”, que permitirá aos muni
 
 ![](media/unificacaodebases.png)
 
-Para especificações desta funcionalidade, consultar o capítulo "Administração e Configurações do Sistema", Unificação de bases.
+Para especificações desta funcionalidade, consultar o capítulo [Administração e Configurações do Sistema - Unificação de bases](https://saps-ms.github.io/Manual-eSUS_APS/docs/Apoio%20a%20Implanta%C3%A7%C3%A3o/Unificacao_de_bases/)
 
 Em "Configurações avançadas”, desabilitação por padrão da realização de novos cadastros de imóveis e famílias via CDS Cadastro domiciliar e territorial. Esta opção poderá ser reabilitada caso necessário.
 
@@ -313,8 +320,9 @@ Registro de Prescrição de Medicamentos (RPM)
 
 Nesta versão é possível gerar o relatório de erros de dados enviados à RNDS. 
 
-Para gerar o relatório, o gestor municial deverá selecionar na aba lateral ![](media/gestaomunicipal.png).
-Em seguida selecionar![](media/relatoriornds.png) e "gerar relatório de erro"
+Para gerar o relatório, o gestor municial deverá selecionar na aba lateral "Gestão Municipal".
+
+Em seguida selecionar RNDS e selecionar "gerar relatório de erro".
 
 Abrirá uma tela onde poderá selecionar o período desejado e gerar o relatório CSV.
 
@@ -340,6 +348,7 @@ Ao visualizar a folha de rosto de um cidadão que consta como beneficiário no a
 
 ![](./media/importacao_beneficiarios_bolsa_familia_1.png)
 
+Para saber mais, acesse o [LINK](https://saps-ms.github.io/Manual-eSUS_APS/docs/PEC/PEC_02_instalacao/#27-importa%C3%A7%C3%A3o-do-bolsa-fam%C3%ADlia)
 
 **Inclusão do nome social do profissional**
 
