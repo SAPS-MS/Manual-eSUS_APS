@@ -279,8 +279,7 @@ Inclusão do **bairro** nos filtros avançados:
 
 * Os componentes da videochamada foram adaptados para funcionar corretamente em tablets. O objetivo do módulo é adaptar as telas da videochamada para tablet. Todas as funcionalidades da videochamada foram mantidas.
 
-![](./media/54.png)
-
+<img src="./media/54.png" alt="IMAGEM" width="400"/>
 
 **Agendamento entre profissionais**
 
