@@ -41,6 +41,7 @@ Cuidado Compartilhado:
 - Participação do cidadão e atendimento compartilhado; 
 - Inclusão de novas opções de condutas na discussão de caso no Cuidado Compartilhado.
 
+Demais inovações:
 - Busca ativa de vacinação;
 - Videochamada do profissional convidado adaptada para telefone celular;
 - Videochamada do profissional convidado adaptada para tablet;
@@ -49,7 +50,7 @@ Cuidado Compartilhado:
 - Acesso rápido na agenda e aviso quando o cidadão foi a óbito;
 - Fracionamento de doses diárias na prescrição de  medicamentos;
 - Atestado Digital;
-- Criação do informativo "Acompanhamento de vulnerabilidade" na "Folha de rosto" e "Lateral do atendimento" sobre a condição de vulnerabilidade socioeconômica do cidadão em risco de insegurança alimentar.
+- Acompanhamento de vulnerabilidade.
 
 ## Novidades - Ferramentas Administrativas
 
@@ -297,6 +298,8 @@ Essa habilitação permite o uso de diversas funcionalidades que fortalecem o tr
 ![](<../Apoio a Implantação/media/https_automatizado.png>)
 
 Em "Configurações avançadas”, desabilitação por padrão da realização de novos cadastros de imóveis e famílias via CDS - Cadastro domiciliar e territorial. Esta opção poderá ser reabilitada caso necessário 
+
+Para mais informações consulte: [LINK](https://saps-ms.github.io/Manual-eSUS_APS/docs/Apoio%20a%20Implanta%C3%A7%C3%A3o/HTTPS_Automatizado/)
 
 **Histórico de acessos ao sistema** 
 
