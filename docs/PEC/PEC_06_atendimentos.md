@@ -1349,6 +1349,8 @@ Para as demais formas farmacêuticas será necessário preencher o campo QUANTID
  
  A partir da versão 5.3 foi disponibilizada a opção Fracionado por turno. Esse campo só é disponibilizado quando o TIPO DE DOSE escolhido na etapa anterior é FRACIONADA. Essa função destina-se a esquemas terapêuticos em que haverã variação da dose a cada turno de administração, como no caso das insulina prescrita na figura a seguir, bem como a necessidade de administrar o medicamento em pelo menos dois turnos. 
 
+ A soma das doses organizadas por turnos deve ser igual à quantidade total da dose, visto que a separação por turno é para tornar mais fácil o entendimento do cidadão em relação ao uso do medicamento.
+
  ![](media/pec_image1131.png)
 
 
@@ -1356,6 +1358,8 @@ Para as demais formas farmacêuticas será necessário preencher o campo QUANTID
 
 ![](media/pec_image953.png)
 ![](media/pec_image451.png) 
+
+![](media/dose_fracionadavideo.gif)
 
 **Período de Tratamento**: define o período de início e fim do tratamento. 
 Utilize a opção "Uso contínuo" caso o medicamento seja para tratamento de condições crônicas ou cronificadas. Essa opção auxilia na gestão da prescrição de medicamentos, incluindo este na lista de medicamentos de uso contínuo.
