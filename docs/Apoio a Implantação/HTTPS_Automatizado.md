@@ -99,18 +99,21 @@ sudo iptables -A INPUT -p tcp --dport 443 -j ACCEPT
 
 ### **Instalação/Atualização em Windows ou Linux com modo gráfico:**
 
-A partir da versão 5.3.4, durante a Instalação/Atualização do sistema PEC e-SUS APS, após a etapa de realização do backup do banco de dados, o sistema apresentará a seguinte tela caso a aplicação não reconheça já ter o processo automatizado configurado anteriormente pela aplicação de Instalação/Atualização do sistema PEC e-SUS APS.
+Durante a Instalação/Atualização do sistema PEC e-SUS APS, após a etapa de realização do backup do banco de dados, o sistema apresentará a seguinte tela caso a aplicação não reconheça já ter o processo automatizado configurado pela Instalação/Atualização.
 
 > **Observação:**
-Caso não seja desejado utilizar o certificado do PEC e-SUS APS ou a instalação já tem seu certificado próprio que se deseja ser mantido, basta clicar em “Não” durante a Instalação/Atualização e dar sequência normalmente no processo.
+Caso não seja desejado utilizar o certificado do PEC e-SUS APS ou a instalação já tem seu certificado próprio que se deseja ser mantido, basta clicar em “Não” durante a Instalação/Atualização e dar sequência no processo.
 
 ![Alt ou título da imagem](media/https_automatizado_11.png)
 
 Para ativar o gerenciamento automático do certificado, ou seja, gerar o Certificado TLS (SSL) e habilitar o HTTPS no PEC e-SUS APS:
 
 ▪ Marque “Sim”
+
 ▪ Informe o domínio de acesso à sua Instalação do PEC (exemplo: esus.municipio.uf.gov.br)
+
 ▪ Informe a porta de acesso ao protocolo HTTPS da sua Instalação do PEC (padrão: 443)
+
 ▪ Clique em “Avançar”
 
 ![Alt ou título da imagem](media/https_automatizado_12.png)
