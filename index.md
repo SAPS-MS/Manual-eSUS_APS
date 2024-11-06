@@ -28,7 +28,7 @@ Site: <http://sisaps.saude.gov.br/esus/><br>
 
 **Ficha Catalográfica**
 
-![](<ficha catalografica.png>)
+![](fichacatalografica.jpg)
 
 2024 Ministério da Saúde<br>
 Esta obra é disponibilizada nos termos da Licença Creative Commons – Atribuição – Não Comercial – Compartilhamento pela mesma licença 4.0 Internacional. É permitida a reprodução parcial ou total desta obra, desde que citada a fonte.<br>
