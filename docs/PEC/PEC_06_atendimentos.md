@@ -1,7 +1,7 @@
----figuras quantidade da dose
+---
 layout: default
 title: Atendimentos
-parent: Prontuário Eletrônico do Cidadão v5.2
+parent: Prontuário Eletrônico do Cidadão v5.3
 nav_order: 8
 has_children: false
 has_toc: true

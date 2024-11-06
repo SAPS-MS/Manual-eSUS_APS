@@ -1,12 +1,14 @@
 ---
 layout: default
 title: Retificação de registros de vacinação
-parent: Prontuário Eletrônico do Cidadão v5.2
+parent: Prontuário Eletrônico do Cidadão v5.3
 nav_order: 17
 has_children: false
 has_toc: true
 last_modified_date: "09/09/2024"
 ---
+# ANEXO 1
+{: .no_toc }
 
 # Retificação de registros de vacinação:
 

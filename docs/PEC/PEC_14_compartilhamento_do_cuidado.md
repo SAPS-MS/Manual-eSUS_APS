@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Compartilhamento do cuidado
-parent: Prontuário Eletrônico do Cidadão v5.2
+parent: Prontuário Eletrônico do Cidadão v5.3
 nav_order: 16
 has_children: false
 has_toc: true
