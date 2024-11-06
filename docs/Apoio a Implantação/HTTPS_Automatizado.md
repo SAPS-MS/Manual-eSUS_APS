@@ -13,7 +13,7 @@ last_modified_date: "10/09/2024"
     </style>
 </head>
 
-# Geração do Certificado TLS (SSL) e habilitação do protocolo HTTPS de forma automatizada pelo PEC e-SUS APS:
+# Geração do Certificado TLS (SSL) e configuração do protocolo HTTPS de forma automatizada pelo PEC e-SUS APS
 
 ![Alt ou título da imagem](media/https_automatizado.png)
 
@@ -230,7 +230,7 @@ IP-LOCAL-DO-SERVIDOR		esus.municipio.uf.gov.br
 {: .nota }
 Onde há IP-LOCAL-DO-SERVIDOR substitua pelo endereço de IP local, ou de rede, do seu servidor da Instalação (não é o IP público); onde há esus.municipio.uf.gov.br, substitua pelo seu domínio da Instalação sem o https:// como prefixo.
 
-Como remover a parametrização do HTTPS ou trocar o domínio configurado automaticamente pelo PEC e-SUS APS?
+## **Como remover a parametrização do HTTPS ou trocar o domínio configurado automaticamente pelo PEC e-SUS APS?**
 
 ### **WINDOWS:**
 
