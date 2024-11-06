@@ -109,8 +109,11 @@ Caso não seja desejado utilizar o certificado do PEC e-SUS APS ou a instalaçã
 Para ativar o gerenciamento automático do certificado, ou seja, gerar o Certificado TLS (SSL) e habilitar o HTTPS no PEC e-SUS APS:
 
 ▪ Marque “Sim”
+
 ▪ Informe o domínio de acesso à sua Instalação do PEC (exemplo: esus.municipio.uf.gov.br)
+
 ▪ Informe a porta de acesso ao protocolo HTTPS da sua Instalação do PEC (padrão: 443)
+
 ▪ Clique em “Avançar”
 
 ![Alt ou título da imagem](media/https_automatizado_12.png)
