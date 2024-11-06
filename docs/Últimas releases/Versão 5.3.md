@@ -286,7 +286,6 @@ Inclusão da funcionalidade “Unificação de Bases”, que permitirá aos muni
 
 Para especificações desta funcionalidade, consultar o capítulo [Administração e Configurações do Sistema - Unificação de bases](https://saps-ms.github.io/Manual-eSUS_APS/docs/Apoio%20a%20Implanta%C3%A7%C3%A3o/Unificacao_de_bases/)
 
-Em "Configurações avançadas”, desabilitação por padrão da realização de novos cadastros de imóveis e famílias via CDS Cadastro domiciliar e territorial. Esta opção poderá ser reabilitada caso necessário.
 
 
 **Configuração HTTPS automatizada**
@@ -297,7 +296,6 @@ Essa habilitação permite o uso de diversas funcionalidades que fortalecem o tr
 
 ![](<../Apoio a Implantação/media/https_automatizado.png>)
 
-Em "Configurações avançadas”, desabilitação por padrão da realização de novos cadastros de imóveis e famílias via CDS - Cadastro domiciliar e territorial. Esta opção poderá ser reabilitada caso necessário 
 
 Para mais informações consulte: [LINK](https://saps-ms.github.io/Manual-eSUS_APS/docs/Apoio%20a%20Implanta%C3%A7%C3%A3o/HTTPS_Automatizado/)
 
