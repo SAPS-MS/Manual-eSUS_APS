@@ -363,3 +363,8 @@ Quando há esta sinalização no prontuário do cidadão, é necessário que o p
 
 {: .nota }
 Você conhece o ["Educa e-SUS APS"](https://educaesusaps.medicina.ufmg.br/) Uma parceria do Ministério da Saúde e UFMG na oferta nacional de cursos gratuitos de educação permanente para a APS, contextualizada no sistema e-SUS APS. Aproveite e confira agora mesmo!
+
+![](media/educaaps.png)
+
+![](media/qrcodeeduca.png)
+

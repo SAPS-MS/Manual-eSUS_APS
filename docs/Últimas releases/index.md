@@ -4,7 +4,7 @@ title: Últimas releases
 nav_order: 8
 nav_exclude: false
 has_children: true
-last_modified_date: "19/10/2023"
+last_modified_date: "05/11/2024"
 description: "Últimas releases"
 permalink: /docs/Últimas releases
 ---
@@ -90,11 +90,6 @@ Rodrigo André Cuevas Gaete
 **Organização**
 
 Francy Webster de Andrade Pereira, Igor de Carvalho Gomes
-<head>
-    <style>
-        p{text-align:justify};
-    </style>
-</head>
 
 **Elaboração de texto** 
 
@@ -116,17 +111,14 @@ Alexandre Soares de Brito, Diogo Ferreira Gonçalves
 <br>
 
 
-Brasil. Ministério da Saúde. Secretaria de Atenção Primária à Saúde.<br>
-e-SUS Atenção Primária à Saúde: Manual do aplicativo e-SUS Território – Versão 4.0 [recurso eletrônico] / Ministério da Saúde, Secretaria de Atenção Primária à Saúde, Secretaria Executiva. – Brasília: Ministério da Saúde, 2022.<br>
-<br>
-ISBN **Versão Preliminar**<br>
-Modo de acesso: <https://aps.saude.gov.br/ape/esus><br>
-CDU 614<br>
-
-Catalogação na fonte – Coordenação-Geral de Documentação e Informação – Editora MS – OS 2023.
 
 **Uma versão revista, integrando as diversas funcionalidades em um arquivo só.** 
 
  
 {: .nota }
 Você conhece o ["Educa e-SUS APS"](https://educaesusaps.medicina.ufmg.br/) Uma parceria do Ministério da Saúde e UFMG na oferta nacional de cursos gratuitos de educação permanente para a APS, contextualizada no sistema e-SUS APS. Aproveite e confira agora mesmo!
+
+![](media/educaaps.png)
+![](media/qrcodeeduca.png)
+
+![](media/selo%20sus.jpg)
