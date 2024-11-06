@@ -8,11 +8,16 @@ has_toc: true
 last_modified_date: "25/09/2023"
 ---
 
+<head>
+    <style>
+        p{text-align:justify};
+    </style>
+</head>
 
 # CAPÍTULO 8 - Relatórios
 {: .no_toc }
 
-O módulo "Relatórios" permite que trabalhadores e gestores possam visualizar, de forma sintetizada e sistematizada, as ações de saúde realizadas no território. São vários tipos de relatórios divididos em gerenciais, consolidados, operacionais e produção, e são utilizados por diferentes tipos de atores.
+O módulo "Relatórios" permite que trabalhadores e gestores possam visualizar, de forma sintetizada e sistematizada, as ações de saúde realizadas no território. Nesta seção estão disponíveis vários tipos de relatórios divididos em gerenciais, consolidados e produção, e são utilizados por diferentes tipos de atores.
 
 ## Sumário
 {: .no_toc .text-delta }
@@ -22,12 +27,12 @@ O módulo "Relatórios" permite que trabalhadores e gestores possam visualizar, 
 
 ![](media/pec_image747.png)
 
-O acompanhamento das ações de saúde que são realizadas no território é uma tarefa extremamente importante no cotidiano das equipes de Atenção Primária à Saúde. Esta atividade, além de auxiliar os trabalhadores a enxergar seu território, exprime o resultado do seu esforço, podendo ser potente ferramenta de reflexão e transformação do seu processo de trabalho.
+O acompanhamento das ações de saúde que são realizadas no território é uma tarefa extremamente importante no cotidiano das equipes de Atenção Primária à Saúde. Esta atividade, além de auxiliar os trabalhadores na visualização do seu território, exprime o resultado do seu esforço, podendo ser potente ferramenta de reflexão e transformação do seu processo de trabalho.
 
 Nesta versão os relatórios são exibidos na barra lateral de navegação, oferecendo um caminho mais simples e rápido para cada relatório (Figura 8.1). Clicando na opção "Relatórios" o sistema apresenta a lista com todos os disponíveis, dependendo do tipo de acesso que o profissional ou gestor possui. Caso haja dúvida em relação ao relatório, é possível acionar um balão de ajuda representado pelo símbolo ![](media/pec_image748.png) no canto superior direito de cada tela dos relatórios.
 
 Figura 8.1 - Tela do Relatórios exibida com o perfil de profissional da equipe de AB
-![](media/pec_image749.png)
+![](media/pec_imagem749.png)
 Fonte: SAPS/MS.
 
 # 8.1 Administração dos relatórios
@@ -55,7 +60,7 @@ Fonte: SAPS/MS.
 
 ![](media/pec_image755.png)
 
-Para evitar que consultas muito grandes criem uma carga exagerada no servidor da aplicação, por meio desta funcionalidade é possível configurar o fator que determinará quantos grupos de informações podem ser selecionados ao mesmo tempo, e ainda o período máximo, em meses, que poderá ser definido como intervalo para filtrar em cada relatório.  
+Para evitar que consultas muito grandes criem uma carga exagerada no servidor da aplicação, por meio desta funcionalidade é possível configurar o fator que determinará quantos grupos de informações podem ser selecionados ao mesmo tempo, e ainda o período máximo, em meses, que poderá ser definido como intervalo para filtrar em cada relatório. 
 
 Figura 8.3 - Tela de Configuração de Impressão exibida somente com o perfil de administrador
 ![](media/pec_image756.png)
@@ -71,15 +76,13 @@ Após finalizar a configuração clique em Salvar ![](media/pec_image757.png) pa
 
 O Sistema e-SUS APS, como sistema de gerenciamento de dados e informações da Atenção Primária, traz grande avanço no que diz respeito à segurança, sigilo e confidencialidade dos dados de saúde dos cidadãos. Isso quer dizer que apenas os profissionais que participam do atendimento ao cidadão têm acesso aos seus dados clínicos de saúde.
 
-Atualmente, os relatórios do e-SUS APS disponibilizam informações agregadas, por meio dos relatórios gerenciais, consolidados e de produção, além dos relatórios operacionais, com informações individualizadas e identificadas (Figura 8.1). A seguir uma breve explicação sobre os agrupamentos dos relatórios no sistema:
+Atualmente, os relatórios do e-SUS APS disponibilizam informações agregadas, por meio dos relatórios gerenciais, consolidados e de produção. A seguir uma breve explicação sobre os agrupamentos dos relatórios no sistema:
 
 - **Relatórios gerenciais**: a partir da versão 4.2 do sistema, está disponível um novo grupo de relatórios, Neste grupo, os dados são apresentados em uma tabela dinâmica construída pelo usuário. O usuário pode definir a tabela arrastando os campos disponíveis para linhas e colunas. Também é permitida a exportação destes relatórios para um arquivo no formado .csv.
 
 - **Relatórios consolidados**: são os relatórios que permitem uma visualização da situação cadastral consolidada, de acordo com a data selecionada, permitindo ao usuário ver a informação mais atual até aquele momento. Ver seção 8.3 para mais detalhes sobre os relatórios.
 
 - **Relatórios de produção**: são os relatórios que permitem uma visualização agregada das informações, tais como: o atendimento individual, odontológico, domiciliar (SAD), atividade coletiva, procedimentos, entre outros, bem como relatórios de resumo de produção. Ver seção 8.4 para mais detalhes sobre os relatórios.
-
-- **Relatórios operacionais:** são os relatórios que apresentam as informações individualizadas e identificadas da situação de saúde dos cidadãos do território. Estes relatórios são acessados apenas pelos trabalhadores das Unidades Básicas de Saúde, pois trazem dados relacionados ao cuidado individual do cidadão. Esta medida serve para proteger a individualidade e o direito à privacidade dos usuários do SUS, da mesma forma que é preservado o sigilo durante a relação trabalhador da saúde e usuário do serviço. Ver seção 8.5 para mais informações os relatórios disponíveis.
 
 ## 8.2.1 Perfis de acesso e Filtros disponíveis
 
@@ -150,11 +153,13 @@ Passo 4. Para filtrar outros itens para compor um mesmo relatório, basta seguir
 
 # 8.3 Relatórios Consolidados
 
-Figura 8.8 - Tela do Relatórios consolidados exibida com o perfil de profissional da equipe de AB
+Figura 8.8 - Tela do Relatórios consolidados exibida com o perfil de profissional da equipe de APS
+
 ![](media/pec_image778.png)
+
 Fonte: SAPS/MS.
 
-Os relatórios consolidados trazem o estado atual do registro para um determinado conjunto de informações. Estes seguem o modelo padrão de estruturação dos relatórios, porém o usuário ao invés de selecionar um período, selecionará a data limite para consolidação dos dados.
+Os relatórios consolidados trazem o estado atual do registro para um determinado conjunto de informações. Estes seguem o modelo padrão de estruturação dos relatórios, sendo importante destacar que o usuário deve selecionar a data limite para consolidação dos dados, ou seja, até qual data serão contempladas as informações. 
 
 Figura 8.9 - Tela do Relatório Consolidado de Cadastro Individual
 ![](media/pec_image779.png)
@@ -162,7 +167,7 @@ Fonte: SAPS/MS.
 
 ## 8.3.1 Relatório consolidado de Cadastro domiciliar e territorial
 
-Este relatório reflete o consolidado do estado atual do cadastro domiciliar e territorial, contém as informações registradas por meio das fichas de Cadastro domiciliar e territorial, bem como do Aplicativo do e-SUS APS Território, quando este estiver sendo utilizado.
+Este relatório contém as informações registradas por meio das fichas de Cadastro domiciliar e territorial, bem como do Aplicativo do e-SUS APS Território, quando utilizado. O relatório reflete o consolidado do estado atual do cadastro domiciliar e territorial.
 
 Figura 8.10 - Tela do Relatório de cadastro domiciliar e territorial exibida com o perfil de profissional de saúde
 ![](media/pec_image780.png)
@@ -174,29 +179,29 @@ Os relatórios poderão ser gerados a partir dos "grupos de informações dispon
 
 - Tipo de imóvel
 
-- Condições de moradia
+- Tipo de endereço 
 
-- Situação de moradia / Posse da terra
+- Condições de moradia - Situação de moradia/ Posse da terra
 
-- Localização
+- Condições de moradia - Localização
 
-- Tipo de domicílio
+- Condições de moradia - Tipo de domicílio
 
-- Condição de posse e uso da terra
+- Condições de moradia - Condição de posse e uso da terra
 
-- Tipo de acesso ao domicílio
+- Condições de moradia - Tipo de acesso ao domicílio
 
-- Material predominante na construção das paredes externas
+- Condições de moradia -  Material predominante na construção das paredes externas
 
-- Disponibilidade de energia elétrica
+- Condições de moradia - Disponibilidade de energia elétrica
 
-- Abastecimento de água
+- Condições de moradia - Abastecimento de água
 
-- Água para consumo no domicílio
+- Condições de moradia - Água para consumo no domicílio
 
-- Forma de escoamento do banheiro ou sanitário
+- Condições de moradia - Forma de escoamento do banheiro ou sanitário
 
-- Destino do lixo
+- Condições de moradia - Destino do lixo
 
 - Animais no domicílio
 
@@ -204,7 +209,9 @@ Os relatórios poderão ser gerados a partir dos "grupos de informações dispon
 
 ![](media/pec_image782.png)
 
-No filtro personalizado são apresentados as variáveis consolidadas que informam os dados sobre o abastecimento de água, água para consumo no domicílio, animais no domicílio, condição de posse e uso da terra, destino do lixo, disponibilidade de energia elétrica, forma de escoamento do banheiro ou sanitário, localização, material predominante na construção das paredes externas, microárea, qual animal no domicílio, recusa de cadastro, renda familiar (salário mínimo), situação de moradia, tipo de acesso ao domicílio, tipo de domicílio e tipo de imóvel.
+- Filtros personalizados
+
+No filtro personalizado são apresentados as variáveis consolidadas que informam os dados sobre o abastecimento de água, água para consumo no domicílio, animais no domicílio, condição de posse e uso da terra, destino do lixo, disponibilidade de energia elétrica, forma de escoamento do banheiro ou sanitário, localização, material predominante na construção das paredes externas, microárea, origem da energia elétrica, qual animal no domicílio, recusa de cadastro, renda familiar (salário mínimo), situação de moradia, tipo de acesso ao domicílio, tipo de domicílio, tipo de endereço e tipo de imóvel.
 
 Após selecionar as variáveis desejadas para gerar o relatório basta clicar no botão "Exportar CSV" ou "Imprimir".
 
@@ -213,7 +220,7 @@ As variáveis apresentadas possibilitam a realização de uma análise inicial d
 {: .nota }
 Para mais informações sobre as variáveis e as opções de filtro, consulte o Manual de Preenchimento das Fichas do CDS sobre a Ficha de Cadastro Domiciliar e Territorial.
 
-## 8.3.2 Relatório consolidado de Cadastro Individual
+## 8.3.2 Relatório Consolidado de Cadastro Individual
 
 Este relatório reflete o consolidado do estado atual do cadastro individual, contém as informações registradas por meio da ficha de Cadastro Individual, bem como do Aplicativo do e-SUS APS Território, quando este estiver sendo utilizado.
 
@@ -227,65 +234,73 @@ Os relatórios poderão ser gerados a partir dos "grupos de informações dispon
 
 - Dados gerais
 
-- Identificação do usuário / cidadão
+- Identificação do usuário/ cidadão - Faixa etária
 
-- Faixa etária
+- Identificação do usuário/ cidadão
 
-- Sexo
+- Identificação do usuário/ cidadão - Sexo
 
-- Raça / Cor
+- Identificação do usuário/ cidadão - Raça/ Cor
 
-- Etnia
+- Identificação do usuário/ cidadão - Etnia
 
-- Nacionalidade
+- Identificação do usuário/ cidadão - Nacionalidade
 
-- Informações sociodemográficas
+- Informações sociodemográficas - Relação de parentesco com o responsável familiar
 
-- Relação de parentesco com o responsável familiar
+- Informações sociodemográficas - Ocupação
 
-- Ocupação
+- Informações sociodemográficas - Qual é o curso mais elevado que frequenta ou frequentou
 
-- Qual é o curso mais elevado que frequenta ou frequentou
+- Informações sociodemográficas - Situação no mercado de trabalho
 
-- Situação no mercado de trabalho
+- Informações sociodemográficas - Crianças de 0 a 9 anos, com quem fica
 
-- Crianças de 0 a 9 anos, com quem fica
+- Informações sociodemográficas - Orientação sexual
 
-- Orientação sexual
+- Informações sociodemográficas - Identidade de gênero
 
-- Identidade de gênero
+- Informações sociodemográficas - Deficiência
 
-- Deficiência
+- Informações sociodemográficas - povos e comunidades
 
-- Outras informações sociodemográficas
+-Outras informações sociodemográficas
 
-- Tipo de saída do cidadão do cadastro
+- Motivo de saída do cidadão do cadastro
 
-- Condições / Situações de saúde gerais
+- Condições/ Situações de saúde gerais
 
-- Sobre seu peso, você se considera
+- Condições/ Situações de saúde gerais - Sobre seu peso, você se considera
 
-- Doença respiratória
+- Condições/ Situações de saúde gerais - Doença respiratória
 
-- Doença cardíaca
+- Condições/ Situações de saúde gerais - Doença cardíaca
 
-- Problemas nos rins
+- Condições/ Situações de saúde gerais - Problemas nos rins
 
 - Cidadão em situação de rua
 
-- Tempo em situação de rua
+- Cidadão em situação de rua - Tempo em situação de rua
 
-- Quantas vezes se alimenta ao dia
+- Cidadão em situação de rua - Quantas vezes se alimenta ao dia
 
-- Qual a origem da alimentação
+- Cidadão em situação de rua - Qual a origem da alimentação
 
-- Tem acesso à higiene pessoal
+- Cidadão em situação de rua - Tem acesso à higiene pessoal
+
+- TRIA - Nos últimos três meses, os alimentos acabaram antes que a pessoa tivesse dinheiro para comprar mais comida?
+
+- TRIA - Nos últimos três meses, a pessoa comeu apenas alguns alimentos que ainda tinha, porque o dinheiro acabou?
+
+- Filtros personalizados
 
 No filtro personalizado são apresentados outras variáveis consolidadas que informam os dados sobre o cidadão que estão presentes na ficha de cadastro individual.
 
 Após selecionar as variáveis desejadas para gerar o relatório basta clicar no botão "Exportar CSV" ou "Imprimir".
 
-As variáveis apresentadas podem complementar a análise da situação de saúde do território de atuação das equipes de Atenção Básica, com a finalidade de construção de estratégia de enfrentamento das condicionalidades e dos determinantes de saúde que afetam a qualidade de vida da população assistida. A variável "Dados Gerais" apresentará a quantidade de "cidadãos ativos" e "saída de cidadão do cadastro". O primeiro refere- se ao cidadãos que permanecem vinculados ao território e o segundo aos cidadãos que foram cadastrados, mas que não estão mais vinculados ao território.
+As variáveis apresentadas podem complementar a análise da situação de saúde do território de atuação das equipes de Atenção Básica, com a finalidade de construção de estratégia de enfrentamento das condicionalidades e dos determinantes de saúde que afetam a qualidade de vida da população assistida. 
+
+A variável "Dados Gerais" presente nas opções dos grupos de informações disponíveis, apresentará a quantidade de "cidadãos ativos" e "saída de cidadão do cadastro". O primeiro refere- se ao cidadãos que permanecem vinculados ao território e o segundo aos cidadãos que foram cadastrados, mas que não estão mais vinculados ao território.
 
 ![](media/pec_image784.png)
 
@@ -318,20 +333,23 @@ Os relatórios de produção trazem os dados (eventos) agregados em um determina
 
 - Marcadores de consumo alimentar
 
-- Procedimentos
-
 - Procedimentos consolidados
+
+- Procedimentos individualizados
 
 - Resumo de produção
 
 - Síndrome neurológica por Zika / Microcefalia
 
-- Visita domiciliar e territorial
-
 - Vacinação
 
+- Visita domiciliar e territorial
+
+
 Figura 8.12 - Tela de Relatório de produção exibida com o perfil de profissional da equipe de AB
+
 ![](media/pec_image789.png)
+
 Fonte: SAPS/MS.
 
 Os relatórios de produção apresentam novidades para os filtros disponíveis, sendo possível extrair relatórios analíticos ![](media/pec_image761.png) e da série histórica ![](media/pec_image762.png).
@@ -879,220 +897,7 @@ Figura 6. Grupo de informação disponíveis para impressão
 
 ![](media/pec_image807.png)
 
-# 8.5 Relatórios Operacionais
-
-Os relatórios operacionais foram criados para auxiliar os trabalhadores das equipes de Atenção Básica no acompanhamento da situação de saúde dos usuários adscritos no território[^3]. Estes relatórios são acessados apenas pelos perfis de trabalhadores de saúde das equipes e coordenadores de UBS, tendo em vista as questões de segurança, privacidade e sigilo já tratadas no início deste capítulo.
-
-Os quatro relatórios operacionais auxiliam a equipe a monitorar e acompanhar a situação de saúde dos cidadãos. Neste momento, cada um traz informações detalhadas dos indivíduos de acordo com a condição apresentada nos registros de saúde do e-SUS APS, seja por meio da Coleta de Dados Simplificada, seja por meio do Prontuário Eletrônico do Cidadão.
-
-Nesta versão, estão disponíveis quatro tipos de relatórios operacionais, como mostra a Figura 8.26, abaixo:
-
-Figura 8.26 - Tipos de relatório operacional
-![](media/pec_image808.png)
-Fonte: SAPS/MS.
-
-Cada relatório trata de linhas de cuidados diferentes, além do relatório de cadastro territorial. Falaremos sobre cada um com mais profundidade mais adiante.
-
-Para a geração dos relatórios, os profissionais podem utilizar alguns filtros que ajudam a organizar a forma como as informações serão mostradas. Da mesma forma que os relatórios consolidados, os relatórios operacionais possuem filtros que dependem do tipo de perfil utilizado.
-
-Há uma diferença entre os filtros utilizados no relatório de cadastro e nos relatórios por linha de cuidado. Por padrão, os Coordenadores de UBS tem acesso a estes relatórios por equipe caso haja mais de uma equipe vinculada à UBS. Os profissionais acessam apenas os dados em relatório operacional apenas daqueles cidadãos adscritos a sua equipe.
-
-## 8.5.1 Relatório operacional de cadastro territorial
-
-O Relatório Operacional de Cadastro Territorial traz informações essenciais sobre os cidadãos cadastrados no território por meio das fichas de Cadastro Individual e Cadastro Domiciliar da Coleta de Dados Simplificada (CDS). Nele, é possível visualizar os agrupamentos de indivíduos que compõem uma família, com seu responsável em destaque, os agrupamentos das famílias nos domicílios e os domicílios, de acordo com a microárea a que pertencem.
-
-Para estes relatórios, é possível optar tanto pelo relatório "Cadastro territorial" ![](media/pec_image809.png), onde são apresentados a composição dos núcleos familiares organizados por microárea e logradouro (Figura 8.27), quanto pelo relatório "Inconsistências" ![](media/pec_image810.png) do cadastro territorial (Figura 8.29).
-
-Para listar apenas o cadastro é necessário selecionar um INE (caso seja um Coordenador de UBS) e uma microárea[^4]. Caso estes campos fiquem em branco, será gerado um relatório com todos os cadastros relacionados a esta UBS. Caso seja selecionada a opção de inconsistências, serão habilitadas as situações de inconsistência, sendo obrigatória a seleção de pelo menos um item.
-
-Figura 8.27 - Filtro do relatório operacional de cadastro
-![](media/pec_image811.png)
-Fonte: SAPS/MS.
-
-Ao selecionar o relatório de Cadastro Territorial, uma lista com informações sobre o território como microárea, endereço, dados de identificação e contato dos cidadãos serão exibidos, como mostra o exemplo da Figura 8.28.
-
-Figura 8.28 - Exemplo de Relatório de Cadastro - Cadastro Territorial
-![](media/pec_image812.png)
-Fonte: SAPS/MS.
-
-O relatório de inconsistências permite a visualização do tipo de incoerência em relação ao cidadão, seu núcleo familiar, vínculo com responsável familiar e domicílio. Com estas informações, é possível realizar as adequações para manter a consistência do cadastro do território, permitindo maior fidedignidade nas informações em relação aos indivíduos, assim como, as famílias adscritas no território da equipe.
-
-Ao selecionar a opção "inconsistências do cadastro territorial", oito inconsistências possíveis ficarão disponíveis, conforme é possível visualizar na figura 8.29, sendo relacionadas ao domicílio, a família e aos cidadãos individualmente.
-
-Figura 8.29 - Tela do Relatório de Cadastro - Inconsistências
-![](media/pec_image813.png)
-Fonte: SAPS/MS.
-
-A impressão deste relatório apresentará dois blocos distintos por INE e microárea: cidadãos com dados inconsistentes e domicílios com dados inconsistentes. Cada bloco apresenta os dados de identificação do cidadão ou do domicílio inconsistente, acrescido da identificação do tipo de inconsistência, como mostra o exemplo na Figura 8.30.
-
-Figura 8.30 - Exemplo de Relatório de Inconsistência do Cadastro Territorial
-![](media/pec_image814.png)
-Fonte: SAPS/MS.
-
-### 8.5.1.1 Critérios de Inclusão e Exclusão do relatório de Cadastro Territorial
-
-Ao observar o relatório de Cadastro Territorial deve- se estar atento aos critérios de inclusão e exclusão dos registros exibidos no relatório, tal como segue:
-
-- Inclusão:
-
-- As fichas de cadastro domiciliar e cadastro individual devem pertencer ao mesmo CNES da lotação do profissional;
-
-- As famílias devem estar cadastradas de acordo com as regras de composição do núcleo familiar, identificadas a partir do CNS do Responsável Familiar.
-
-- As informações das fichas de cadastro com a data mais atual são exibidas da seguinte forma:
-
- - Caso sejam ​dados gerais​, considerar a informação mais atual, independente da equipe que a registrou;
-
- - Caso sejam dados não globais​, considerar a informação mais atual, da equipe que a registrou.
-
-- Considerar somente as fichas de cadastro domiciliar que possuem \"Tipo de imóvel\" igual a \"01 - Domicílio\";
-
-- Exclusão:
-
-- Não deve ter sido informado na ficha de cadastro individual os campos \"mudança de território\" ou \"óbito\";
-
-- Famílias não devem estar cadastradas de acordo com Regras de inativação do núcleo familiar;
-
-- Cidadãos não devem estar cadastrados com inconsistências
-
-### 8.5.1.2 Critérios de Inclusão do relatório de Inconsistência
-
-Ao observar o relatório de Inconsistências deve- se estar atento aos critérios de inclusão no relatório, tanto em relação ao cadastro individual do cidadão, quanto para o núcleo familiar ao qual ele
-pertence, tal como segue:
-
-- **Relacionado ao Núcleo Familiar:**
-
-**Inconsistência identificada: Família excluída durante a  atualização do cadastro (1)**. Esta inconsistência é observada  quando a atualização do cadastro domiciliar não possuir mais o  registro da família cadastrada na última visita.
-
-*Como resolver?* Para remover a inconsistência deve- se registrar o CNS do Responsável Familiar em um Cadastro Domiciliar, vinculando a família a um domicílio.
-
-**Inconsistência identificada: Responsável sem cadastro individual (2)**. Esta inconsistência é observada quando não existe uma ficha de cadastro individual para o responsável familiar, com CNS, indicado na ficha de cadastro domiciliar.
-
-*Como resolver?* Para remover a inconsistência deve- se cadastrar o Responsável Familiar informando o CNS na ficha de cadastro individual.
-
-**Inconsistência identificada: Responsável não declarado no cadastro individual (3)**. Esta inconsistência é identificada quando no cadastro individual do responsável familiar, o campo \"Responsável familiar\" é marcado como \"Não\" ou está em branco.
-
- *Como resolver?* Para remover a inconsistência, a ficha de cadastro individual do responsável deve ser atualizada, registrando \"Sim\" no campo de \"Responsável familiar\".
-
-**Inconsistência identificada: Responsável em outro domicílio mais atual (4)**. Esta inconsistência é observada quando o responsável familiar está sendo cadastrado em outro domicílio.
-
-*Como resolver?* Para remover a inconsistência será necessário atualizar o domicílio anterior, marcando a opção \"Mudou- se\" no grupo \"Famílias\", onde o CNS do Responsável Familiar está referido.
-
-- **Relacionado ao Cidadão:**
-
-**Inconsistência identificada: Responsável com mudança de território (5).** Esta inconsistência é observada quando o cadastro individual do cidadão possui o campo \"CNS do responsável familiar\" com CNS de um responsável com mudança de território.
-
-*Como resolver?* Para que a inconsistência não ocorra, é necessário informar o \"CNS do responsável familiar\" cujo cadastro individual não possua a informação da mudança de território.
-
-**Inconsistência identificada: Responsável com óbito no cadastro individual (6).** Esta inconsistência é observada quando o cadastro individual do cidadão possui o campo \"CNS do responsável familiar\" com CNS de um responsável com óbito.
-
-*Como resolver?* Para que a inconsistência não ocorra, é necessário informar o \"CNS do responsável familiar\" cujo cadastro individual não possua a informação do óbito.
-
-**Inconsistência identificada: Responsável não informado (7).** Esta inconsistência é identificada quando o cadastro individual do cidadão não possui seu responsável familiar informado, ou seja, o campo \"CNS do responsável familiar\" está vazio e o campo \"Cidadão é o responsável familiar?\" foi respondido como \"Não\" ou encontra- se em branco.
-
- *Como resolver?* Para que a inconsistência não ocorra, é necessário manter o campo \"Cidadão é o responsável familiar?\" como \"Não\" e informar um CNS do responsável familiar que possua cadastro individual no mesmo território.
-
-**Inconsistência identificada: Sem vínculo com domicílio (8):** Esta inconsistência é observada quando o cidadão não está vinculado a um domicílio cadastrado. Nesse caso existem as seguintes inconsistências adicionais.
-
-**Cidadão com responsável sem cadastro individual:** O cadastro do cidadão está com o campo \"Cidadão é o responsável familiar?\" marcado como \"Não\" e o CNS indicado no campo \"CNS do responsável familiar\" não possui cadastro individual.
-
-*Como resolver?* Para que a inconsistência não ocorra, é necessário manter o campo \"Cidadão é o responsável familiar?\" como \"Não\" e informar um CNS do responsável familiar que possua cadastro individual no mesmo território.
-
-**Responsável sem domicílio:** O cadastro do cidadão está com o campo \"Cidadão é o responsável familiar?\" marcado como \"Sim\", declarando- o como responsável. Porém, não há domicílio cadastrado com seu respectivo CNS.
-
-*Como resolver?* Para que a inconsistência não ocorra, é necessário cadastrar um domicílio informando o mesmo CNS do cidadão (campo \"CNS do cidadão\" no cadastro individual) no grupo \"Famílias\" do respectivo domicílio.
-
-**Cadastro individual com responsável declarado sem domicílio:** O cadastro do cidadão está com o campo \"Cidadão é o responsável familiar?\" marcado como \"Não\" e não há domicílio cadastrado com o CNS do responsável familiar.
-
-*Como resolver?* Para que a inconsistência não ocorra, é necessário cadastrar um domicílio informando o mesmo CNS do responsável (campo \"CNS do responsável familiar\" no cadastro individual) no grupo \"Famílias\" do respectivo domicílio.
-
-**Cadastro individual sem CNS e declarado como responsável:** O cadastro do cidadão está com o campo \"Cidadão é o responsável familiar?\" marcado como \"Sim\", declarando- o como responsável. Porém, o campo \"CNS do cidadão\" está vazio.
-
-*Como resolver?* Para que a inconsistência não ocorra, é necessário informar um CNS válido no campo \"CNS do cidadão\".
-
-## 8.5.2 Relatório operacional de gestantes e puérperas
-
-O Relatório Operacional de Gestantes/Puérperas permite o acompanhamento das mulheres que estão nesta condição. Comporão esta lista, aquelas que tiveram algum registro de condição de saúde relacionado à gestação nos instrumentos de captação de dados clínicos (PEC ou CDS), de acordo com a quantidade e qualidade do preenchimento destes instrumentos.
-
-Para o relatório de gestantes/puérperas, são utilizados filtros diferentes do relatório de cadastro. Para o coordenador da UBS, serão disponibilizadas as opções de filtragem por "INE/Equipe" e "Microárea". Caso deseje listar todas as microáreas do seu território basta deixar este campo em branco (Figura 8.31).
-
-Figura 8.31 - Filtro do relatório operacional de gestantes/puérperas - coordenador da UBS
-![](media/pec_image815.png)
-Fonte: SAPS/MS.
-
-{: .nota }
-os profissionais de saúde, sem perfil de coordenação, irão observar que o filtro INE estará desabilitado, mas poderão utilizar o filtro "Microárea" para selecionar uma microárea específica.
-
-Prioritariamente, as **gestantes cadastradas** no território da equipe comporão este relatório, devendo estar **vinculadas a um responsável familiar**, *e este*, **vinculado a um domicílio do território**. Contudo, é possível verificar se há alguma gestante sendo acompanhada, mas que está fora da área de cobertura da equipe. O relatório oferece à equipe dados relacionados à DUM, DPP, IG, informações relacionadas à última consulta pré- natal (data da última consulta e situação vacinal), status do VDRL, além da data de outras consultas e visita domiciliar realizada pelo ACS, como observado na pec_imagem a seguir.
-
-Figura 8.32 - Exemplo de Relatório Operacional de Gestante/Puérpera
-![](media/pec_image816.png)
-Fonte: SAPS/MS.
-
-## 8.5.3 Relatório operacional de crianças menores de 5 anos
-
-O Relatório Operacional de Crianças Menores de 5 Anos oferta aos profissionais de saúde informações importantes para o acompanhamento das crianças residentes no território de abrangência da UBS. Tais informações são coletadas por meio do registro de ações de saúde, tanto do Prontuário Eletrônico do Cidadão quanto da Coleta de Dados Simplificada.
-
-Para o relatório de crianças menores de 5 anos são utilizados filtros diferentes dos outros relatórios. Para o coordenador da UBS, serão disponibilizadas as opções de filtragem por "INE", "Microárea" e por CID10. Para selecionar todas as microáreas este campo deve ficar em branco. O filtro baseado no CID10 pode auxiliar o acompanhamento de crianças em situações específicas, como as identificadas com a Síndrome Neurológica por Zika/Microcefalia, ou outras situações que podem ser identificadas por meio da CID10 (Figura 8.33).
-
-Figura 8.33 - Tela do Relatório de crianças menores de 5 anos - perfil de coordenador da UBS
-![](media/pec_image817.png)
-Fonte: SAPS/MS.
-
-{: .nota }
-os profissionais de saúde, sem perfil de coordenação, irão observar que o filtro INE estará desabilitado, mas poderão utilizar o filtro "Microárea" para selecionar uma microárea específica, bem como um CID10.
-
-Prioritariamente, as **crianças menores de 5 anos cadastradas no território** da equipe comporão este relatório, devendo estar **vinculadas a um responsável familiar**, *e este*, **vinculado a um domicílio no território**. Entretanto, é possível verificar se há alguma criança sendo acompanhada, mas que está fora da área de cobertura da equipe. O relatório oferece à equipe dados relacionados a realização da consulta na primeira semana de vida, se foram avaliados os testes da triagem neonatal (pezinho, orelhinha e olhinho), última consulta odontológica, última visita do ACS e os registros da última consulta de puericultura (tipo de aleitamento, status de imunização, últimas medições de perímetro cefálico, peso, altura e estado nutricional), como mostra a pec_imagem a seguir.
-
-Figura 8.34 - Exemplo de Relatório Operacional de Crianças menores que 5 anos
-![](media/pec_image818.png)
-Fonte: SAPS/MS.
-
-## 8.5.4 Relatório operacional de risco cardiovascular
-
-O Relatório Operacional de Risco Cardiovascular mostra à equipe informações sobre a situação de saúde dos usuários que, de alguma forma, se enquadram num estado que apresente risco ao desenvolvimento de doenças cardiovasculares. A presença de usuários neste relatório, depende de alguns fatores de risco coletados nos instrumentos de registro do e-SUS APS, seja no Prontuário Eletrônico do Cidadão, seja na Coleta de Dados Simplificada.
-
-Neste relatório são utilizados os seguintes filtros: o coordenador da UBS terá a sua disposição as opções de filtragem por "INE/Equipe" e "Microárea" . Caso deseje listar todas as microáreas do seu território basta deixar este campo em branco (Figura 8.35).
-
-Figura 8.35 - Tela do Relatório de Risco Cardiovascular - perfil de coordenador da UBS
-![](media/pec_image819.png)
-Fonte: SAPS/MS.
-
-{: .nota }
-os profissionais de saúde, sem perfil de coordenação, irão observar que o filtro INE estará desabilitado, mas poderão utilizar o filtro "Microárea" para selecionar uma microárea específica.
-
-Os **cidadãos em risco cardiovascular**, **cadastrados no território** da equipe, comporão este relatório devendo estar **vinculados a um responsável familiar**, *e este*, **vinculado a um domicílio no território**. Todavia, é possível verificar se há algum cidadão sendo acompanhado, mas que está fora da área de cobertura da equipe. O relatório oferece à equipe, dados relacionados a presença de diagnóstico ou informação auto referida de hipertensão arterial sistêmica, diabetes, tabagismo, último IMC, data do atendimento em que foi realizada a consulta para rastreamento de risco cardiovascular e a data da última consulta para condições que ampliam o risco cardiovascular, além da consulta odontológica e da última visita domiciliar realizada pelo ACS.
-Os critérios de inclusão do cidadão neste relatório são:
-
-- Resposta afirmativa no questionário autorreferido de condições da Ficha de Cadastro Individual para os itens \"Tem hipertensão arterial?\"; \"Tem diabetes?\"; \"Teve AVC/derrame?\"; \"Teve infarto?\"; \"Tem doença cardíaca/do coração?\"; \"Tem ou teve problemas nos rins?\"; \"Está fumante?\".
-
-- CID e/ou CIAP informado(s) no atendimento PEC ou na Ficha de Atendimento Individual de acordo com o Quadro 8.1 abaixo;
-
-- Opções \"Hipertensão arterial\"; \"Diabetes\"; \"Obesidade\"; \"Tabagismo\" marcada na Ficha de Atendimento Individual;
-
-Figura 8.36 - Exemplo de Relatório Operacional de risco cardiovascular
-
-![](media/pec_image820.png)
-
-Fonte: SAPS/MS.
-
-Quadro 8.1 - Códigos CIAP2 e CID10 para o Relatório de Risco Cardiovascular
-
-|Condição|CIAP2|CID10|
-|- |- |- |
-|Hipertensão Arterial (HAS)|K86, K87|I10, P292, K766, I270, I272, que contenha o código I13, que contenha o código I15|
-|Diabetes (DIA)|T90, T89|que contenha o código E10, que contenha o código E11, que contenha o código E12, que contenha o código E13, que contenha o código E14, que contenha o código O24, E232, N083, N251, P700, P702|
-|Tabagismo|P17|Z720
-|Obesidade|T82|que contenha o código E66|
-|AVC|K89, K90, K91|G45, G46, I60, que contenha o código I61, I62, que contenha o código I63, I64, I65, I66, que contenha o código I67 (exceto I674), I68, I69|
-|Infarto|K75, K78|que contenha o código I21, que contenha o código I22, que contenha o código I23, I241, I48|
-|Doença Cardíaca|K74, K76, K77, K79, K80, K82, K83, K84, K99|I20, I240, I249, I25, I50, I47, I49, I27, I28, I34, I35, I36, I37, I31, que contenha o código I42 (exceto I424), I43, I44, I45, I46, I51, I52, O903, I71, I72, I77, I780, I788, I789, I79, I85, I86, I871, I879, I890, I98, I99, M30, M31, R57, T063|
-|Doenças Renais|U70, U71, U72, U75, U76, U77, U78, U79, U80, U85, U88, U90, U95, U98, U99|N10, N11, N12, N151, N159, N30, N390, A560, A562, A590, B374, N34, C64, C65, C67, C66, C68, D30, D099, D091, D41, S370, S371, S372, S373, T190, T191, T283, Q60, Q61, Q62, Q63, Q64, N00, N01, N03, N04, N05, N07, N08, N14, N150, N158, N16, N392, 20, N21, N22, N391, R80, R81, R82, N06, N13, N17, N18, N19, N25, N26, N27, N28, N29, N31, N32, N33, N35, N36, N37, N398, R392, T198, T199, Z905, Z906|
-|Rastreamento Risco Cardiovascular|K22|Z136, Z824|
-
-Fonte: SAPS/MS.
-
-# 8.6 Relatórios Gerenciais
+# 8.5 Relatórios Gerenciais
 
 ![](media/pec_image903.png)
 
@@ -1103,7 +908,7 @@ Os Relatórios Gerenciais tem como principal objetivo apresentar ao Gerente da U
 
 Este novo formato de relatório utiliza uma tecnologia mais sofisticada que os demais relatórios já existentes, pois oferece ao profissional uma forma mais dinâmica de trabalhar a informação.
 
-## 8.6.1 Relatório de Absenteísmo
+## 8.5.1 Relatório de Absenteísmo
 
 O Relatório de Absenteísmo apresenta de forma clara o comportamento dos usuários em relação aos agendamentos realizados previamente, as faltas dos cidadãos e outras informações relevantes. Utiliza contagem de eventos do módulo de agenda em que o cidadãos não compareceu ou não aguardou.
 
@@ -1187,7 +992,7 @@ Caso necessite, é possível realizar a exportação destes relatórios para um 
 
 [^4]: Em caso de re- territorialização, os logradouros, domicílios ou cidadãos que fiquem fora da área de cobertura da equipe poderão ser identificados com o status "Fora de Área", sendo identificados desta forma nos relatórios e no filtro "microárea".
 
-## 8.6.2 Relatório de Atendimento
+## 8.5.2 Relatório de Atendimento
 
 Este relatório tem por objetivo obter dados quantitativos sobre o número de atendimentos individuais e odontológicos distribuídos em um determinado período de tempo, com a finalidade de auxiliar os gestores na tomada de decisões estratégicas da unidade de saúde.
 

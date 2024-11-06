@@ -7,6 +7,11 @@ has_children: false
 has_toc: true
 last_modified_date: "19/10/2023"
 ---
+<head>
+    <style>
+        p{text-align:justify};
+    </style>
+</head>
 
 ### Versão 5.1
 

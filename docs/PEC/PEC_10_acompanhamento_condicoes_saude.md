@@ -1,18 +1,33 @@
 ---
 layout: default
-title: Acompanhamento de condições de saúde
-parent: Prontuário Eletrônico do Cidadão v5.2
+title: Acompanhamentos
+parent: Prontuário Eletrônico do Cidadão v5.3
 nav_order: 12
 has_children: false
 has_toc: true
 last_modified_date: "16/03/2021"
 ---
 
+Neste capítulo serão abordados os Acompanhamentos de condições de saúde, de cidadãos vinculados e de território.
+
+<head>
+    <style>
+        p{text-align:justify};
+    </style>
+</head>
+
 
 # CAPÍTULO 10 - Acompanhamento de condições de saúde
 {: .no_toc }
 
+
+Antes disposto no módulo Relatórios, Relatórios operacionais, os relatórios gerados no Acompanhamento de condições de saúde foram criados com objetivo de ser uma ferramenta para os profissionais de saúde das ESFs no monitoramento das situações de saúde dos cidadãos adscritos no território. Esses relatórios são acessados apenas pelos perfis de profissionais de saúde das equipes e coordenadores de unidade, tendo em vista as questões de segurança, privacidade e sigilo. 
+
 Este módulo visa proporcionar aos profissionais de saúde e gestores de UBS um formato mais simples e otimizado de visualizar as informações relacionadas aos problemas e condições de saúde da população adstrita no território e acompanhada pelas equipes de atenção primária à saúde.
+
+Nesta versão, é possível gerar relatórios mais específicos do recorte populacional que o profissional deseja acompanhar, com uma lógica de filtros um pouco diferente. Agora, separados em quatro grandes grupos de condições de saúde principais: Diabetes, Hipertensão arterial, Obesidade e Gravidez.
+
+ Além dessas macros condições, é possível utilizar o filtro Grupos de condições prioritários, quais sejam: Asma, AVC, Dengue, Desnutrição, Doença cardíaca, DPOC, DST, Hanseníase, Infarto, Reabilitação, Rins, Saúde mental, Saúde sexual e reprodutiva, Tabagismo, Tuberculose, Usuário de álcool, Usuário de outras drogas, sendo possível também selecionar por CIAP2 e CID10 relacionados a essas condições, especificamente. Ainda, é possível filtrar por Sexo ou Identidade de gênero, além do Período do último atendimento individual e Faixa etária. Outra possibilidade é a do relatório ser gerado além do formato PDF, também em CSV, para proporcionar a possibilidade de manipulação dados extraídos.  
 
 ## Sumário
 {: .no_toc .text-delta }
@@ -24,19 +39,21 @@ Este módulo visa proporcionar aos profissionais de saúde e gestores de UBS um 
 
 Uma das atividades da Atenção Primária à Saúde é realizar o acompanhamento das condições de saúde dos cidadãos vinculados às Equipes da APS. Esta ação é importante e demanda muita organização por parte da equipe. Uma forma facilitada de realizar o acompanhamento das situações de saúde se dá por meio de relatórios ou listas de cidadãos que possuem determinada condição de saúde, extraídos a partir do sistema de informação utilizado pela equipe.
 
-Figura 10.1 - Tela do Relatórios exibida com o perfil de profissional da equipe de saúde da APS.
+Figura 10.1 - Tela do Relatórios exibida com o perfil de profissional da equipe de APS
 ![](media/pec_image833.png)
 Fonte: SAPS/MS.
 
-O painel de Acompanhamento de condições de saúde busca apresentar de forma nítida a lista de cidadãos vinculados à equipe de saúde da APS que possuem determinada situação de saúde.
+O painel de Acompanhamento de condições de saúde busca apresentar de forma clara a lista de cidadão vinculados à equipe de saúde que possuem determinada situação de saúde.
 
 {: .nota }
 Somente são apresentados neste painel cidadãos que estão vinculados à equipe de saúde da APS. A busca retorna apenas cidadãos que possuem todas as condições selecionadas e ativas na lista de problemas ou avaliadas no SOAP e na ficha de atendimento individual.
 
 
-# 10.1 Filtros
-
 Nesta funcionalidade são apresentados diversos filtros, para facilitar a busca de cidadãos por determinadas situações de saúde. Como ocorre nos relatórios do sistema, neste módulo também existe hierarquia de acesso, o gerente da unidade pode escolher a UBS ou a equipe que deseja visualizar o painel, já os profissionais das equipes, conseguem visualizar os cidadãos apenas de sua própria equipe.
+
+# 10.1 Filtro de Microárea
+
+Nesta funcionalidade apresenta-se filtro de microárea, para apoiar a busca de cidadãos no território. Assim omo ocorre nos relatórios do sistema, neste módulo também existe hierarquia de acesso, o gerente da unidade pode escolher a UBS ou a equipe que deseja visualizar o painel, já os profissionais das equipes, conseguem visualizar os cidadãos vinculados pela Ficha de cadastro individual, ficha de cadastro domiciliar e territorial e cadastros do módulo cidadão do PEC.
 
 ## 10.1.1 Filtro de problemas e condições pré estruturado
 
@@ -97,7 +114,7 @@ A função "Buscar apenas problemas / condições ativas na lista de problemas e
 
 ## 10.1.3 Filtro sexo ou identidade de gênero
 
-Neste bloco é possível selecionar o sexo (feminino ou masculino, ou ambos) ou ainda selecionar a identidade de gênero (mulher cisgênero, mulher transgênero, travesti, homem cisgênero, homem transgênero, não-binário, transgênero,outro).
+Neste bloco é possível selecionar o sexo (feminino ou masculino, ou ambos) ou ainda selecionar a identidade de gênero (mulher cisgênero, mulher transgênero, homem cisgênero, homem transgênero, não-binário, transgênero, travesti e outro).
 
 ![](media/pec_image837.png)
 
@@ -123,16 +140,26 @@ Ainda, será apresentado o botão ![](media/pec_image843.png) para gerar os rela
 
 ![](media/pec_image844.png)
 
-##  Acompanhamentos dos cidadãos vinculados
+O sistema gerará o relatório operacional com os dados dos usuários conforme imagem:
 
-Uma das atividades da Atenção Primária à Saúde envolve o acompanhamento das condições de saúde dos cidadãos vinculados às Equipes da APS. Esta ação é importante e demanda muita organização por parte da equipe. Uma forma facilitada de realizar o acompanhamento das situações de saúde se dá por meio de relatórios ou listas de cidadãos que possuem determinada condição de saúde, extraídos a partir do sistema de informação utilizado pela equipe.
+![](media/pec_image11112.png)
 
-Para realizar a busca de cidadãos vinculados, deverá selecionar a "Faixa etária" que deseja consultar. Também poderá optar fazer a busca, caso deseje, com o filtro sexo e identidade de gênero.
+Na versão 5.3 além de poder realizar a exportação do relatório em formato CSV (confome imagem abaixo), permitindo a manipulação dos dados, também foi inclusa a visualização, de até 7 dias, dos relatórios que foram processados e que estão em processamento.
 
-![](media/pec_image1127.png)
+Exemplo Relatório Operacional Faixa Etária Criança
+
+![](media/pec_image11113.png)
+
+Demonstração Exportação Relatório 
+
+![](media/acompanhamento_condicoes_de_saude.gif)
 
 
-O painel de Acompanhamento de condições de saúde busca apresentar de forma nítida a lista de cidadão vinculados à equipe de saúde da APS que possuem determinada situação de saúde.
+
+
+## 10.1.6 Acompanhamentos dos cidadãos vinculados
+
+Uma das atividades da Atenção Primária à Saúde envolve realizar o acompanhamento das condições de saúde dos cidadãos vinculados às Equipes da APS. Esta ação é importante e demanda muita organização por parte da equipe. Uma forma facilitada de realizar o acompanhamento das situações de saúde é por meio de relatórios ou listas de cidadãos que possuem determinada condição de saúde, extraídos a partir do sistema de informação utilizado pela equipe.
 
 Figura 10.2 - Tela do Relatórios exibida 
 ![](media/pec_image1128.png)
@@ -157,6 +184,10 @@ Nessa tela, você verá imóveis e seus moradores organizados por microáreas e 
 
 Além disso, é possível corrigir eventuais divergências de cadastro através da edição de logradouro, que cria automaticamente atualizações para os imóveis do mesmo, possibilitando a higienização da sua base de cadastros.
 
+O relatório exibirá o nome do cidadão, sexo e identidade de gênero, idade, data de nascimento, endereço, telefone, última atualização cadastral, microárea e equipe. 
+
+![](media/acompanhamento_condicoes_de_saude_cidadao.png)
+
 # 10.1 Filtro de microárea
 
 Nesta funcionalidade apresenta-se filtro de microárea, para apoiar a busca de cidadãos no território. Assim omo ocorre nos relatórios do sistema, neste módulo também existe hierarquia de acesso, o gerente da unidade pode escolher a UBS ou a equipe que deseja visualizar o painel, já os profissionais das equipes, conseguem visualizar os cidadãos vinculados pela Ficha de cadastro individual, ficha de cadastro domiciliar e territorial e cadastros do módulo cidadão do PEC.
@@ -164,3 +195,81 @@ Nesta funcionalidade apresenta-se filtro de microárea, para apoiar a busca de c
 Após selecionar o filtros, clique no botão ![](media/pec_image841.png), e serão listados os cidadão vinculados à equipe, conforme imagem abaixo:
 
 ![](media/pec_image984.png)
+
+{: .nota }
+A partir da versão 5.3 do e-US APS, é implementado a opção de exportação do relatório de busca em formato .CSV, permitindo a manipulação dos dados, além da visualização, de até 7 dias, dos relatórios que foram processados e que estão em processamento.
+
+Exportação de relatórios em CSV:
+
+![](media/5-3_acompanhamento_condicoes_de_saude.GIF)
+
+## 10.1.7 Acompanhamento do território:
+
+A partir da versão 5.3 é possível cadastrar imóveis e famílias de forma mais completa e clara, facilitando a gestão dos cidadãos moradores de cada domicílio adscrito.
+
+A funcionalidade de Acompanhamento do Território, no menu lateral, foi evoluída para permitir cadastrar e atualizar os imóveis e famílias, condições de moradia e responsabilidades de acompanhamento, tudo isso em uma única interface moderna e intuitiva, sem a necessidade de gerar várias Fichas CDS manualmente. O sistema as gerará automaticamente, apenas para que a sua produção seja consolidada em relatórios e enviada ao Centralizar Nacional.
+
+O objetivo geral do módulo é oferecer uma visão intuitiva da organização do território, incentivando a realização e atualização de cadastros de imóveis e famílias.
+
+Entende-se por “território” o conjunto de Fichas de Cadastro Domiciliar e Territorial (FCDT), respectivos núcleos familiares e suas Fichas de Cadastro Individual (FCI) vinculados ao CNES e INE do usuário logado.
+
+No acompanhamento do território, insira as informações pertinentes para localização do domicilio e em seguida clique em “Buscar”. 
+
+![](media/acompanhamento_do_territorio_001.png)
+
+Caso nenhuma informação seja localizada, vá em “adicionar imóvel” para vinculação das informações da residência do cidadão.
+
+**Em adicionar imóvel:**
+
+Se necessário, ajuste as informações do responsável pelo acompanhamento e em seguida informe a microárea e a data de coleta:
+
+![](media/acompanhamento_do_territorio_002.png)
+
+**No campo endereço:**
+
+Informe o CEP e clique em “pesquisar” (os campos serão automaticamente preenchidos); caso não seja localizado, informe manualmente a UF, Município, Bairro e as demais informações:
+
+![](media/acompanhamento_do_territorio_003.png)
+
+**Imóvel e contato:**
+
+Registre os dados do imóvel e contato, conforme campos abaixo:
+
+![](media/acompanhamento_do_territorio_004.png)
+
+**Em condições de moradia:**
+
+Informe a situação de moradia do cidadão, localização, quantidade de cômodos, tipo de acesso, etc.
+
+![](media/acompanhamento_do_territorio_005.png)
+
+E por último, vincule famílias ao imóvel e seus respectivos responsáveis familiares:
+
+![](media/acompanhamento_do_territorio_006.png)
+
+Poderão existir várias famílias em um imóvel, bem como um único responsável familiar por núcleo:
+
+![](media/acompanhamento_do_territorio_007.png)
+
+No acompanhamento do território é possível visualizar em porcentagem:
+
+![](media/acompanhamento_do_territorio008.png)
+
+- OS imóveis com cadastro completo (aqueles que todos os dados foram preenchidos e não apenas os obrigatórios);
+
+- Imóveis com cadastro atualizado (que tiveram o cadastro atualizado há menos de um ano); 
+
+- Domicílios visitados no mês vigente (Este índice é calculados pelas visitas mais recentes informadas pelo aplicativo e-SUS Território neste domicílio ou pelas Fichas de Visita registradas com o CPF ou CNS de algum dos moradores do mesmo.)
+
+Também é possível incluir os filtros:
+
+Atualizado há: Menos de um ano / um ano ou mais.
+
+Última visita há: Menos de um mês / um mês ou mais.
+
+Status do cadastro: completo / incompleto.
+
+![](media/acompanhamento_do_territorio_009.png)
+
+Fonte: SAPS/MS.
+

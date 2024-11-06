@@ -8,6 +8,12 @@ last_modified_date: "10/11/2021"
 has_toc: true
 ---
 
+<head>
+    <style>
+        p{text-align:justify};
+    </style>
+</head>
+
 # Capítulo 3 - Como Utilizar o Aplicativo
 {: .no_toc }
 

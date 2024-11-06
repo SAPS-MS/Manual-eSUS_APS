@@ -8,6 +8,11 @@ has_toc: true
 last_modified_date: "25/09/2023"
 ---
 
+<head>
+    <style>
+        p{text-align:justify};
+    </style>
+</head>
 
 # CAPÍTULO 5 - Agenda
 {: .no_toc }
@@ -61,7 +66,7 @@ Figura 5.2 - Agendar/Reservar Horários
 
 Fonte: SAPS/MS.
 
-- Passo 4. Selecione o tipo de agendamento, clicando na opção "Consulta" ou "Reserva";
+- Passo 4. Selecione o tipo de agendamento, clicando na opção "Consulta" ou "Reserva ou "Entre profissionais"
 
 - Passo 5. Realize a busca do cidadão pelo nome, CNS ou data de nascimento;
 
@@ -77,7 +82,9 @@ Fonte: SAPS/MS.
 
 Ao selecionar "salvar" o download do comprovante de agendamento será realizado de forma automática. Caso não queira o comprovante, poderá desmarcar a opção "imprimir comprovante de agendamento".
 
-![](media/pec_image1126.png)
+Quando o agendamento for entre profissionais, deverá selecionar o profissional convidado e o cidadão.
+
+![](media/agendamentoentreprofissionais6.png)
 
 {: .nota }
 Quando a funcionalidade do Agendamento Online está ativada, todo agendamento salvo no módulo de Agenda do PEC é enviado para o servidor de agendamento online, que dispara uma notificação "*push"* com informações relacionadas a este agendamento para o aplicativo "ConecteSUS". Neste caso, como o agendamento foi realizado presencialmente na UBS, não há restrição em relação ao cidadão pertencer ao território de referência da equipe de atenção básica.
@@ -208,7 +215,7 @@ Os *status* de sincronização possíveis são:
 
 ## 5.1.5 Cancelar agendamento
 
-Para cancelar um agendamento, clique no ícone "Cancelar agendamento" ![](media/pec_image284.png).
+Para cancelar um agendamento, clique no ícone "Cancelar" ![](media/pec_image284.png).
 
 {: .nota }
 caso o horário marcado já tenha passado, não será possível excluir o agendamento. Para estes casos, utilize a opção "informar falta do cidadão", clicando sobre o ícone ![](media/pec_image283.png).
@@ -346,3 +353,33 @@ Ainda durante os atendimentos de pré-natal, serão apresentadas as sugestões d
 
 ![](media/esusamp6.png)
 
+# 5.7 Agendamento entre profissionais
+
+A partir da versão 5.3, é possível realizar o agendamento entre profissionais, inclusive por videochamada.
+
+Para agendar uma consulta entre profissionais, no módulo agenda, selecionar o profissional para que abra a agenda dele,  data e horário desejado, selecione "adicionar agendamento". Escolher a aba "entre profissionais".
+
+![](media/agendamentoentreprofissionais.png)
+
+Ao escolher o profissional, na sequência, deverá adicionar o cidadão e salvar. O download do comprovante de agendamento será realizado automaticamente. 
+
+
+![](media/agendamentoentreprofissionais2.png)
+
+O agendamento entre profissionais ficará sinalizado conforme imagem abaixo.
+
+![](media/agendamentoentreprofissionais4.png)
+
+# 5.8 Acesso rápido na agenda
+
+Novo campo de pesquisa que possibilita acesso rápido na agenda profissional, como também fixação na lista em todos os campos do PEC e-SUS APS que se relacionam com a agenda. 
+
+Ao entrar no módulo "Agenda" será possível fixar um profissional para consulta rápida conforme imagem.
+
+![](media/agendafixar.png)
+
+Nas próximas consultas, a agenda abrirá automaticamente no profissional fixado.
+
+# 5.9 Cidadão com agendamento que vai a óbito
+
+Ao ser informado o óbito de um cidadão, todos os agendamentos futuros deste cidadão serão cancelados e os profissionais responsáveis pelos agendamentos serão avisados por e-mail, caso o servidor SMTP esteja habilitado na instalação.

@@ -1,12 +1,18 @@
 ---
 layout: default
-title: Videochamada
-parent: Prontuário Eletrônico do Cidadão v5.2
+title: Videochamadas
+parent: Prontuário Eletrônico do Cidadão v5.3
 nav_order: 15
 has_children: false
 has_toc: true
-last_modified_date: "02/05/2023"
+last_modified_date: "04/11/2024"
 ---
+
+<head>
+    <style>
+        p{text-align:justify};
+    </style>
+</head>
 
 # CAPÍTULO 13 - Videochamadas
 {: .no_toc }
@@ -43,7 +49,7 @@ Após clicar em "Criar chamada", será gerado um Termo de Responsabilidade para 
 
 O Termo de Responsabilidade do Profissional da Saúde, é o documento que informa tópicos necessários que o profissional precisa estar ciente antes de iniciar o atendimento, além de trazer informações relevantes a respeito dessa aplicação.
 
-Ao relaizar a leitura do termo, clicar em "Continuar" para gerar o Termo de Consentimento Livre e Esclarecido do Cidadão.
+Ao realizar a leitura do termo, clicar em "Continuar" para gerar o Termo de Consentimento Livre e Esclarecido do Cidadão.
 
 
 # 13.3 Termo de Consentimento Livre e Esclarecido - Cidadão
@@ -105,5 +111,24 @@ Figura 13.5.3.1 - Chat
 
 ![](media/video13.png)
 
+**Videochamada do profissional convidado adaptada para telefone celular**
+
+Os componentes da videochamada foram adaptados para funcionar em telefones celular. O objetivo do módulo é possibilitar que o profissional convidado acesse a videochamada pelo telefone celular. 
+
+Por outro lado, o profissional anfitrião ainda deve acessar a videochamada através do computador.
+
+* As funcionalidades da videochamada para telefone celular são:
+
+    * Ativar e desativar camera;
+    * Ativar e desativar microfone;
+    * Chat.
+
+![](media/video_chamada.png)
+
+**Videochamada do profissional convidado adaptada para tablet**
+
+* Os componentes da videochamada foram adaptados para funcionar corretamente em tablets. O objetivo do módulo é adaptar as telas da videochamada para tablet. 
+
+* Todas as funcionalidades da videochamada foram mantidas.
 
 

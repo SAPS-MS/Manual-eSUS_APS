@@ -8,6 +8,11 @@ has_toc: true
 last_modified_date: "25/09/2023"
 ---
 
+<head>
+    <style>
+        p{text-align:justify};
+    </style>
+</head>
 
 # CAPÍTULO 4 - Cidadão
 {: .no_toc }
@@ -36,7 +41,7 @@ Considerando as diferentes fontes de informações da base de cidadãos do Siste
 
 # 4.1 Busca pelo cidadão
 
-Para iniciar a busca pelo cidadão, é necessário selecionar a opção "Cidadão" na aba lateral de navegação e inserir ao menos um dos seguintes dados, conforme é exibido na figura 4.2: 
+Para iniciar a busca pelo cidadão, é necessário selecionar a opção “Cidadão” na aba lateral de navegação e inserir ao menos um dos seguintes dados, conforme é exibido na figura 4.2:
 
 - Nome do cidadão;
 - número do CNS do cidadão;
@@ -53,6 +58,7 @@ Fonte: SAPS/MS.
 
 Em caso de sucesso na busca pelo cidadão o resultado mostrará um cartão com informações do cidadão como nome, data de nascimento, número do CNS e CPF, sexo, nome da mãe, unidade de saúde responsável, telefone, município de nascimento e a data da última atualização do cadastro.
 
+
 Figura 4.3 - Resultado da Busca Cidadão
 
 ![](media/pec_image235.png)
@@ -67,9 +73,10 @@ Figura 4.4 - Marcação de cadastro inativo.
 
 Fonte: SAPS/MS.
 
-Esses cadastros podem ser reativados por meio da opção "reativar" no menu lateral direito. 
+Esses cadastros podem ser reativados por meio da opção “reativar” no menu lateral direito.
 
-O sistema sempre irá realizar uma busca nos cadastros na **base local** e poderá trazer um ou mais resultados, restando ao profissional a escolha do cidadão que está sendo buscado. Caso não haja nenhum resultado, será realizada, automaticamente, a busca na base nacional do CADSUS.
+
+O sistema sempre irá realizar uma busca na **base** de cadastro **local** e poderá trazer um ou mais resultados, restando ao profissional a escolha do cidadão que está sendo buscado. Caso não haja nenhum resultado, será realizada, automaticamente, a busca na base nacional do CADSUS.
 
 Caso a busca seja muito genérica o sistema retornará uma mensagem de que muitos cadastros foram encontrados e irá solicitar o refinamento da busca para aproximar com mais fidedignidade os resultados que o profissional está esperando.
 
@@ -136,24 +143,25 @@ Figura 4.9 - Visualização do cidadão
 
 Abaixo do cabeçalho, além da aba de informações, são apresentadas também:
 
-**Folha de rosto, histórico e vacinação**: obrigatório o registro de uma justificativa para o acesso a estas informações clínicas fora do momento do atendimento ou na ausência do cidadão na UBS. Esta justificativa fica gravada no banco de dados para uso posterior, no caso de auditoria em relação ao sigilo dos dados clínicos sensíveis do cidadão, garantindo assim a sua privacidade e segurança. Para mais informações sobre o prontuário, veja o Capítulo 6.
+**Folha de rosto, histórico e vacinação:** obrigatório o registro de uma justificativa para o acesso a estas informações clínicas fora do momento do atendimento ou na ausência do cidadão na UBS. Esta justificativa fica gravada no banco de dados para uso posterior, no caso de auditoria em relação ao sigilo dos dados clínicos sensíveis do cidadão, garantindo assim a sua privacidade e segurança. Para mais informações sobre o prontuário, veja o Capítulo 6.
 
 Figura 4.19 - Tela para justificar acesso ao prontuário
 
 ![](media/pec_image247.png)
 
-**Agendamentos**: nesta aba são apresentados todos os agendamentos realizados para aquele cidadão, conforme descrito no item abaixo, 4.2.3 Ver Agendamentos. 
+**Agendamentos:** nesta aba são apresentados todos os agendamentos realizados para aquele cidadão, conforme descrito no item abaixo, 4.2.3 Ver Agendamentos.
 
-**Unificações**: possibilidade de visualizar se o cadastro já foi unificado alguma vez, quais os cadastros que foram unificados, data, hora e quem foi o responsável pela unificação;
-  
+**Unificações:** possibilidade de visualizar se o cadastro já foi unificado alguma vez, quais os cadastros que foram unificados, data, hora e quem foi o responsável pela unificação;
+
 ## 4.2.2 Atualizar cadastro
 
-Esta opção oferece a possibilidade de alterar algum dado do cidadão e sincronizá-lo com a base de dados do CADSUS. Ao realizar a atualização, clique em "Salvar" para que o sistema se conecte ao CADSUS e realize as alterações. Caso não haja conectividade o sistema irá apresentar um alerta de que não foi possível realizar a sincronização.
+Esta opção oferece a possibilidade de alterar algum dado do cidadão e sincronizá-lo com a base de dados do CADSUS. Ao realizar a atualização, clique em “Salvar” para que o sistema se conecte ao CADSUS e realize as alterações. Caso não haja conectividade o sistema irá apresentar um alerta de que não foi possível realizar a sincronização.
 
-## 4.2.3 Ver Agendamentos
 
-É possível visualizar a lista com as informações das vezes que o cidadão foi incluído na agenda da Unidade de Saúde, indicando data e hora do seu agendamento, nome do profissional, CBO e observações. Cada item é apresentado com uma indicação da situação do agendamento (Agendado, Não compareceu, Não aguardou e Atendimento realizado).
-Também é possível buscar por agendamentos através do filtro por período de data,visualizar agendamentos anteriores e de profissionas especificos, além de imprimir os comprovantes de agendamentos. 
+## 4.2.3 Ver agendamentos 
+
+É possível visualizar a lista com as informações das vezes que o cidadão foi incluído na agenda da Unidade de Saúde, indicando data e hora do seu agendamento, nome do profissional, CBO e observações. Cada item é apresentado com uma indicação da situação do agendamento (Agendado, Não compareceu, Não aguardou e Atendimento realizado). Também é possível buscar por agendamentos através do filtro por período de data,visualizar agendamentos anteriores e de profissionas especificos, além de imprimir os comprovantes de agendamentos.
+
 
 Figura 4.18 - Tela de Agendamentos do cidadão
 
@@ -171,16 +179,17 @@ Como já mencionado anteriormente, neste capítulo, para realizar qualquer açã
 
 ## 4.3.1 Cadastro realizado via CDS ou App e-SUS Território
 
-Os cadastros realizados no Módulo CDS, por meio das fichas de Cadastro Individual e Cadastro Domiciliar e Territorial são automaticamente importados para o módulo Cidadão do PEC, após finalizado o processo de digitação, processamento e envio das fichas. 
+Os cadastros realizados no Módulo CDS, por meio das fichas de Cadastro Individual e Cadastro Domiciliar e Territorial são automaticamente importados para o módulo Cidadão do PEC, após finalizado o processo de digitação, processamento e envio das fichas.
 
 {: .atencao }
 o cidadão só será importado para o módulo cidadão após processamento das fichas na transmissão de dados. O processamento das fichas é automático, entretanto o servidor do sistema deve ficar ligado, conectado à internet, durante a noite (0h às 6h).
 
-Veja mais em [Fluxo de Cadastro e Atualização pelo Aplicativo](https://saps-ms.github.io/Manual-eSUS_APS/docs/territorio/territorio_01/#15-fluxo-de-cadastro-e-atualiza%C3%A7%C3%A3o-pelo-aplicativo) e [Preenchimento das Fichas de Cadastro Individual](https://saps-ms.github.io/Manual-eSUS_APS/docs/CDS/CDS_02/#21-cadastro-individual) e [Cadastro Domiciliar e Territorial](https://saps-ms.github.io/Manual-eSUS_APS/docs/PEC/PEC_07_cds/#722-cadastro-domiciliar-e-territorial).
+Veja mais em [Fluxo de Cadastro e Atualização pelo Aplicativo](https://saps-ms.github.io/Manual-eSUS_APS/docs/territorio/territorio_01/#15-fluxo-de-cadastro-e-atualiza%C3%A7%C3%A3o-pelo-aplicativo), [Preenchimento das Fichas de Cadastro Individual](https://saps-ms.github.io/Manual-eSUS_APS/docs/CDS/CDS_02/#21-cadastro-individual) e [Cadastro Domiciliar e Territorial](https://saps-ms.github.io/Manual-eSUS_APS/docs/PEC/PEC_07_cds/#722-cadastro-domiciliar-e-territorial).
 
-## 4.3.2 Adicionar cidadão a partir da base nacional
+## 4.3.2  Adicionar cidadão a partir da base nacional
 
-Após realizar o processo de busca por um cidadão, caso o profissional localize o individuo nos cadastros da base nacional, poderá cadastrá-lo na base local a partir das informações contidas ali. Para tal, o profissional deverá selecionar o cidadão na lista de resultados por meio da opção ![](media/pec_image249.png).
+Após realizar o processo de busca por um cidadão, caso o profissional localize o individuo nos cadastros da base nacional, poderá cadastrá-lo na base local a partir das informações contidas ali. Para tal, o profissional deverá selecionar o cidadão na lista de resultados por meio da opção
+"Cadastrar na base local". 
 
 Figura 4.9 - Cadastrar cidadão da Base Nacional na base local
 
@@ -188,7 +197,7 @@ Figura 4.9 - Cadastrar cidadão da Base Nacional na base local
 
 O sistema exibirá a tela de adicionar cidadão com todos os dados disponíveis na base nacional.
 
-Figura 4.9 - Formulário para preenchimento do cadastro do cidadão
+Figura 4.9 - Formulário de preenchimento do cadastro do cidadão
 
 ![](media/pec_image251.png)
 
@@ -203,9 +212,9 @@ para mais detalhes de preenchimento do formulário, ver seção 4.4.
 
 ## 4.3.3 Adicionar um novo cidadão diretamente na base local
 
-Após realizar a busca utilizando os métodos mostrados anteriormente, caso o indivíduo não seja localizado, será necessário incluí-lo na base. 
+Após realizar a busca utilizando os métodos mostrados anteriormente, caso o indivíduo não seja localizado, será necessário incluí-lo na base.
 
-Para cadastrar um novo cidadão, basta clicar no botão "Adicionar Cidadão" , como mostra a imagem a seguir:
+Para cadastrar um novo cidadão, basta clicar no botão “Adicionar Cidadão” , como mostra a imagem a seguir:
 
 Figura 4.11 - Opção "Adicionar cidadão"
 
@@ -229,7 +238,7 @@ Fonte: SAPS/MS.
 
 Caso haja algum problema de conectividade ou indisponibilidade do serviço na base nacional do CADSUS, **o cadastro** será salvo na base local, porém não será criado na base nacional. Este processo pode ser refeito até este cadastro ser aceito pela base nacional, resultando na criação do número do CNS para este cidadão.
 
-Caso não seja possível realizar a **atualização** na base nacional, por algum motivo, será mostrado um aviso confirmando a atualização apenas na base local como mostra a pec_imagem abaixo:
+Caso não seja possível realizar a **atualização** na base nacional, por algum motivo, será mostrado um aviso confirmando a atualização apenas na base local como mostra a imagem abaixo:
 
 Figura 4.13 - Mensagem de erro na atualização do cadastro da Base nacional
 
@@ -239,7 +248,7 @@ Fonte: SAPS/MS.
 
 # 4.5 Preenchimento do formulário de cadastro
 
-O cadastro no módulo Cidadão é um cadastro simplificado que estende e integra os dados do cadastro do CADSUS ao Sistema e-SUS APS, por meio do número do CNS do cidadão, visando garantir um mínimo de informações sobre o cidadão que está sendo atendido pela equipe de AB.
+O cadastro no módulo Cidadão é um cadastro simplificado que estende e integra os dados do cadastro do CADSUS ao Sistema e-SUS APS, por meio do número do CNS do cidadão, visando garantir um mínimo de informações sobre o cidadão que está sendo atendido na unidade de saúde.
 
 {: .nota }
 é importante realizar o cadastro completo dos cidadãos, realizado principalmente pelos agentes de saúde, utilizando as fichas do CDS ou o aplicativo e-SUS Território.
@@ -247,15 +256,16 @@ O cadastro no módulo Cidadão é um cadastro simplificado que estende e integra
 Este cadastro é formado por quatro blocos de informações:
 
 - Dados pessoais;
-- Contatos;
+- Naturalidade;
+- Contatos; 
 - Equipe responsável pelo cidadão;
-- Endereço;
+- Dados de residência;
 - Informações complementares; e
 - Compartilhamento de prontuário.
 
-## 4.5.1 Dados pessoais
+### 4.5.1 Dados pessoais
 
-O bloco de dados pessoais, tem o objetivo de identificar o cidadão conforme as especificações e regras do Cartão Nacional de Saúde (CNS) e integrado ao CADSUS, e a partir da versão 3.2.20 também é possível identificar o cidadão pelo CPF.
+O bloco de dados pessoais identifica o cidadão por meio do Cartão Nacional de Saúde (CNS) e/ou CPF, além do preenchimento dos dados obrigatórios: nome completo, data de nascimento, sexo, raça/cor, nome da mãe e nome do pai ( que pode ser registrado como informação desconhecida). Permite informar também um nome social caso o cidadão possua. 
 
 Figura 4.12 - Tela de Cadastro do cidadão - Dados pessoais
 
@@ -263,9 +273,19 @@ Figura 4.12 - Tela de Cadastro do cidadão - Dados pessoais
 
 Fonte: SAPS/MS.
 
-## 4.5.2 Contatos
+### 4.5.2 Naturalidade
 
-Este bloco tem o objetivo de coletar os dados de contatos, caso seja necessária a comunicação do serviço de saúde com o cidadão.
+Este bloco envolve o preenchimento dos dados da nacionalidade e municipio de nascimento. 
+
+Abaixo deste bloco há um campo para informar caso o cidadão tenha falecido, conforme exibido na figura 4.13. 
+
+Figura 4.13 - Dados de naturalidade 
+![](media/pec_image1137.png)
+Fonte: SAPS/MS
+
+### 4.5.3 Contatos
+
+Este bloco tem o objetivo de coletar os dados de contatos, caso seja necessária a comunicação do serviço de saúde com o cidadão. É obrigatório o preenchimento de pelo menos um telefone (residencial, celular ou outro telefone de contato). É possível também informar um endereço de e-mail. 
 
 Figura 4.14 - Tela de Cadastro do cidadão - Contatos
 
@@ -273,25 +293,32 @@ Figura 4.14 - Tela de Cadastro do cidadão - Contatos
 
 Fonte: SAPS/MS.
 
-## 4.5.3 Equipe responsável pelo cidadão
+### 4.5.4 Equipe responsável pelo cidadão
 
-Este recurso permite a vinculação dos cidadãos às Equipes de saúde, independente do território de residência. A partir dessa vinculação a equipe será responsável pelo acompanhamento do cidadão. Caso o cidadão não esteja vinculado a nenhuma equipe este bloco irá ser apresentado da seguinte forma:
+Este recurso permite a vinculação dos cidadãos às equipes de saúde, apresentando duas formas de informar a vinculação: 
+
+**Automática:** quando a caixa "Utilizar informação do cadastro indvidual do cidadão" é marcada, a equipe responsável será sempre a última a atualizar o cadastro individual do cidadão. 
+**Manualmente:** quando a caixa "Utilizar informação do cadastro indvidual do cidadão" é desmarcada, o vínculo será sempre alterado manualmente. 
+
+ A partir dessa vinculação a equipe será responsável pelo acompanhamento do cidadão. Caso o cidadão não esteja vinculado a nenhuma equipe este bloco irá ser apresentado da seguinte forma:
 
 Figura 4.15 - Cidadão sem equipe vinculada
 
 ![](media/pec_image258.png)
+Fonte: SAPS/MS
 
-Para vincular um cidadão que não faz parte do território adscrito clique no botão "Vincular Equipe". Será apresentado uma lista com as equipes disponíveis para vinculação.
+Para vincular o cidadão, clique no botão "Vincular Equipe", que será apresentada uma lista com as equipes disponíveis.
 
 Figura 4.16 - Vincular equipe responsável, selecionar equipe
 
 ![](media/pec_image259.png)
 
-Caso haja registro de vinculação do cidadão a uma equipe, seja pelo cadastro do território, seja via solicitação do cidadão, o sistema apresentará as informações da seguinte forma:
+Caso haja registro de vinculação do cidadão a uma equipe, o sistema apresentará as informações da seguinte forma: 
 
 Figura 4.17 - Equipe responsável pelo cidadão
 
 ![](media/pec_image260.png)
+Fonte: SAPS/MS
 
 Caso o cidadão opte por ser acompanhado por outra equipe, clique no botão ![](media/pec_image261.png), desmarque a opção "Utilizar a informação do cadastro individual do cidadão", selecione a equipe responsável e clique em Salvar.
 
@@ -304,9 +331,9 @@ Figura 4.18 - Vincular equipe responsável
 {: .atencao }
 Pessoas não cadastradas na equipe podem ser atendidas normalmente, porém o acompanhamento de saúde deve ser realizado pela equipe responsável.
 
-## 4.5.4 Endereço
+### 4.5.5 Residência
 
-O bloco de Endereço utiliza a base de endereços da Empresa Brasileira de Correios e Telégrafos, também conhecido pelo nome Diretório Nacional de Endereços (DNE). Ao incluir um Código de Endereço Postal - CEP, o sistema automaticamente preenche os campos: estado, município, bairro e logradouro. Caso o bairro ou logradouro não esteja disponível na base dos Correios, os campos permitirão a inclusão manual das referidas informações.
+O bloco de residência utiliza a base de endereços da Empresa Brasileira de Correios e Telégrafos, também conhecido pelo nome Diretório Nacional de Endereços (DNE). Ao incluir um Código de Endereço Postal - CEP, o sistema automaticamente preenche os campos: estado, município, bairro e logradouro. Caso o bairro ou logradouro não esteja disponível na base dos Correios, os campos permitirão a inclusão manual das referidas informações.
 
 Figura 4.13 - Tela de Cadastro do cidadão - Endereço
 
@@ -314,9 +341,10 @@ Figura 4.13 - Tela de Cadastro do cidadão - Endereço
 
 Fonte: SAPS/MS.
 
-## 4.5.5 Informações Complementares
+### 4.5.6 Informações Complementares
 
 Este bloco visa a coleta de dados sociodemográficos complementares do cidadão.
+É de preenchimento obrigatório os campos para indicar se o cidadão deseja informar a orientação sexual e/ou identidade de gênero. 
 
 Figura 4.15 - Tela de Cadastro do cidadão - Informações Complementares
 

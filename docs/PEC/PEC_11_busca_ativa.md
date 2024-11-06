@@ -1,13 +1,18 @@
 ---
 layout: default
 title: Busca ativa
-parent: Prontuário Eletrônico do Cidadão v5.2
+parent: Prontuário Eletrônico do Cidadão v5.3
 nav_order: 13
 has_children: false
 has_toc: true
-last_modified_date: "25/09/2023"
+last_modified_date: "04/11/2024"
 ---
 
+<head>
+    <style>
+        p{text-align:justify};
+    </style>
+</head>
 
 # CAPÍTULO 11 - Busca Ativa.
 {: .no_toc }
@@ -57,13 +62,16 @@ Figura 11.3 - Tipos de Visualização
 
 Fonte: SAPS/MS.
 
-Em seguida há o campo obrigatório Grupo-Alvo em que podem ser selecionadas as opções Criança (0 a 9 anos), Adolescentes (10 a 19 anos) e Gestantes como mostra a Figura 11.4. No grupo gestantes ficam gestantes e puérperas.
+Em seguida há o campo obrigatório Grupo-Alvo em que podem ser selecionadas as opções Criança (0 a 9 anos), Adolescentes (10 a 19 anos), Adultos (20 a 59 anos), Idosos (60 anos ou mais) e Gestantes/Puéperas como mostra a Figura 11.4. 
 
 Figura 11.4 - Grupos Alvo
 
 ![](media/Busca_ativa/pec_image991.png)
 
 Fonte: SAPS/MS.
+
+{: .nota }
+Os grupos Adultos e Gestantes/Puérperas foram inseridos na versão 5.3 do PEC.
 
 No campo obrigatório "Status da Vacina", quando o Tipo de visualização (Figura 11.3) selecionado é o "Calendário Vacinal", é possível escolher entre No Prazo e Atrasada, conforme mostra a Figura 11.5. Já quando o Tipo de visualização selecionado é Covid-19, aparecerão as vacinas aplicadas. 
 
@@ -79,7 +87,7 @@ Os Status de vacina significam:
 
 **Atrasada:** São as doses de vacinas que já passaram do prazo para ser aplicadas. Deve-se convidar o cidadão para regularizar sua situação vacinal o mais rápido possível.
 
-Há disponível alguns Filtros avançados nesse módulo, conforme mostra a Figura 11.6. 
+Há disponível alguns Filtros avançados nesse módulo,  os quais foram inseridos na versão 5.3. Os filtros avançados são: Imunobiológico, Dose, Tipo de Logradouro, Logradouro e Bairro de residência do cidadão. Também foi inclusa a regra de Identidade de gênero nos relatórios conforme mostra a Figura 11.6.
 
 Figura 11.6 - Filtros Avançados
 
@@ -93,6 +101,7 @@ No filtro "Imunobiológico" é possível selecionar um ou mais imunobiológicos 
 Ao selecionar um imunobiológico ou dose no campo Filtros avançados, o relatório mostrará todos os cidadãos com o imunobiológico e/ou dose selecionadas no filtro. Porém, como o relatório é exibido por cidadão, as outras doses atrasadas ou no prazo desse cidadão continuarão a ser exibidas. Isto é, apenas cidadãos que não tiverem os imunobiológico e/ou doses no status de vacina selecionado, deixarão de ser exibidos.
 
 Após a seleção dos campos do módulo deve-se clicar em ![](media/Busca_ativa/pec_image994.jpg) para exibir em tela os cidadão naquelas condições, como mostra a Figura 11.7.
+
 
 Figura 11.7 - Exibição em tela da listagem da Busca Ativa
 
@@ -113,6 +122,10 @@ Figura 11.8 - Relatório em CSV
 ![](media/Busca_ativa/pec_image998.png)
 
 Fonte: SAPS/MS.
+
+Demonstração Busca Ativa Vacinação - Exportação do Relatório
+
+![](media/Busca_ativa/busca_ativa_video.gif)
 
 Neste módulo também é possível visualizar o prontuário e as informações do cidadão na listagem de cidadão.
 

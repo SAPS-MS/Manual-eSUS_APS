@@ -8,6 +8,15 @@ last_modified_date: "02/06/2023"
 description: "Lei Geral de Proteção de Dados - LGPD"
 permalink: /docs/LGPD
 ---
+<head>
+    <style>
+        p{text-align:justify};
+    </style>
+</head>
+
+
+{: .nota }
+Você conhece o ["Educa e-SUS APS"](https://educaesusaps.medicina.ufmg.br/) Uma parceria do Ministério da Saúde e UFMG na oferta nacional de cursos gratuitos de educação permanente para a APS, contextualizada no sistema e-SUS APS. Aproveite e confira agora mesmo!
 
 # Privacidade e Segurança da Informação
 {: .no_toc }
