@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Certificado HTTPS Linux
+title: Configuração HTTPS Manual (Linux)
 parent: Apoio a Implantação
-nav_order: 5
+nav_order: 7
 has_children: false
 has_toc: true
 last_modified_date: "25/09/2023"

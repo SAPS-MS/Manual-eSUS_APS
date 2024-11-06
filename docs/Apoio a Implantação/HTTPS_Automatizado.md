@@ -1,8 +1,8 @@
 ---
 layout: default
-title: HTTPS Automatizado
+title: Configuração HTTPS Automatizada
 parent: Apoio a Implantação
-nav_order: 8
+nav_order: 5
 has_children: false
 has_toc: true
 last_modified_date: "10/09/2024"
@@ -21,7 +21,8 @@ A geração e renovação do Certificado TLS (SSL) / HTTPS no PEC se tornou bem 
 
 A partir da versão 5.3 do PEC e-SUS APS, o próprio instalador do sistema questionará se você deseja utilizar/gerar um certificado TLS (SSL) na sua instalação e, para isso, você precisará fornecer apenas o domínio e a porta que o PEC utilizará para este protocolo.
 
-{: .nota } **Você sabia?** Um certificado TLS/SSL é um arquivo digital usado para autenticar a identidade de um site ou serviço na internet e criptografar a comunicação entre o navegador do usuário e o servidor web. TLS (Transport Layer Security) é o sucessor do SSL (Secure Sockets Layer), mas ambos são frequentemente referidos de maneira combinada, visto que o SSL é um protocolo mais antigo e menos seguro que o TLS. Em resumo, um certificado TLS/SSL desempenha um papel fundamental na segurança da comunicação na internet, protegendo a privacidade dos usuários e garantindo que eles estejam se comunicando com sites legítimos e confiáveis.
+{: .nota }
+**Você sabia?** Um certificado TLS/SSL é um arquivo digital usado para autenticar a identidade de um site ou serviço na internet e criptografar a comunicação entre o navegador do usuário e o servidor web. TLS (Transport Layer Security) é o sucessor do SSL (Secure Sockets Layer), mas ambos são frequentemente referidos de maneira combinada, visto que o SSL é um protocolo mais antigo e menos seguro que o TLS. Em resumo, um certificado TLS/SSL desempenha um papel fundamental na segurança da comunicação na internet, protegendo a privacidade dos usuários e garantindo que eles estejam se comunicando com sites legítimos e confiáveis.
 
 ## INFORMAÇÕES IMPORTANTES
 

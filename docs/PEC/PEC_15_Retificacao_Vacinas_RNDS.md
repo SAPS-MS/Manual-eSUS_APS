@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Retificação de registros de vacinação
-parent: Apoio a Implantação
-nav_order: 3.1
+parent: Prontuário Eletrônico do Cidadão v5.2
+nav_order: 17
 has_children: false
 has_toc: true
 last_modified_date: "09/09/2024"
