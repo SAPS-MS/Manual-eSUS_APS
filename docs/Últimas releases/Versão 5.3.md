@@ -186,7 +186,7 @@ Inclusão do **bairro** nos filtros avançados:
 
 * Os componentes da videochamada foram adaptados para funcionar corretamente em tablets. O objetivo do módulo é adaptar as telas da videochamada para tablet. Todas as funcionalidades da videochamada foram mantidas.
 
-<img src="./media/54.png" alt="IMAGEM" width="400"/>
+![](media/54.png)
 
 **Agendamento entre profissionais**
 
@@ -229,7 +229,11 @@ Ao ser informado o óbito de um cidadão, todos os agendamentos futuros deste ci
 Novo campo na prescrição de medicamentos que possibilita tipo de dose fracionada por turno. 
 O passo a passo está no capítulo PEC - Atendimento - Prescrição. 
 
+![](media/dose_fracionada_video.gif)
+
 ![](media/56.png)
+
+Para uma explicação mais detalhada consulte o Capítulo [Atendimento - Prescrição de medicamentos](https://saps-ms.github.io/Manual-eSUS_APS/docs/PEC/PEC_06_atendimentos/#64343-ferramentas-do-plano---prescri%C3%A7%C3%A3o-de-medicamentos)
 
 **Atestado Digital**
 
@@ -255,6 +259,8 @@ Atestado Digital com assinatura eletrônica
 
 ![](media/atestadodigital5.png)
 
+Consultar [Atendimentos - Atestado digital](https://saps-ms.github.io/Manual-eSUS_APS/docs/PEC/PEC_06_atendimentos/#atestado-digital)
+
 **Acompanhamento de vulnerabilidade no prontuário**
 
 O acompanhamento de vulnerabilidade foi criado no PEC para sinalizar quando o cidadão se enquadra em situações de insegurança alimentar. Esta classificação é resultado da resposta das duas perguntas da TRIA -  Triagem para Risco de Insegurança Alimentar, presentes da Ficha de Cadastro Individual do cidadão. 
@@ -266,6 +272,8 @@ Quando há esta sinalização no prontuário do cidadão, é necessário que o p
  É fundamental que se avalie também os Marcadores de Consumo Alimentar, para que possam tomar medidas de apoio e referência desses indivíduos à dispositivos da rede que garantam a Segurança Alimentar e Nutricional, bem como tudo que envolve essas questões no cidadão. 
 
 ![](media/acompanhamentovulnerabilidade1.png)
+
+Para conhecer mais sobre esta funcionalidade e a TRIA, consulte o capítulo [Atendimento - Folha de Rosto](https://saps-ms.github.io/Manual-eSUS_APS/docs/PEC/PEC_06_atendimentos/#642-folha-de-rosto)
  
 **Unificação de bases**
 
@@ -286,7 +294,7 @@ A geração e renovação do Certificado TLS (SSL) / HTTPS no PEC se tornou bem 
 
 Essa habilitação permite o uso de diversas funcionalidades que fortalecem o trabalho das equipes e o cuidado aos cidadãos, como teleinterconsultas, prescrição digital, acesso ao CadSUS. 
 
-![alt text](<../Apoio a Implantação/media/https_automatizado.png>)
+![](<../Apoio a Implantação/media/https_automatizado.png>)
 
 Em "Configurações avançadas”, desabilitação por padrão da realização de novos cadastros de imóveis e famílias via CDS - Cadastro domiciliar e territorial. Esta opção poderá ser reabilitada caso necessário 
 
