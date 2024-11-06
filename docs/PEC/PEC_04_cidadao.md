@@ -246,7 +246,7 @@ Fonte: SAPS/MS.
 
 # 4.5 Preenchimento do formulário de cadastro
 
-O cadastro no módulo Cidadão é um cadastro simplificado que estende e integra os dados do cadastro do CADSUS ao Sistema e-SUS APS, por meio do número do CNS do cidadão, visando garantir um mínimo de informações sobre o cidadão que está sendo atendido pela equipe de AB.
+O cadastro no módulo Cidadão é um cadastro simplificado que estende e integra os dados do cadastro do CADSUS ao Sistema e-SUS APS, por meio do número do CNS do cidadão, visando garantir um mínimo de informações sobre o cidadão que está sendo atendido na unidade de saúde.
 
 {: .nota }
 é importante realizar o cadastro completo dos cidadãos, realizado principalmente pelos agentes de saúde, utilizando as fichas do CDS ou o aplicativo e-SUS Território.
@@ -254,15 +254,16 @@ O cadastro no módulo Cidadão é um cadastro simplificado que estende e integra
 Este cadastro é formado por quatro blocos de informações:
 
 - Dados pessoais;
-- Contatos;
+- Naturalidade;
+- Contatos; 
 - Equipe responsável pelo cidadão;
-- Endereço;
+- Dados de residência;
 - Informações complementares; e
 - Compartilhamento de prontuário.
 
-## 4.5.1 Dados pessoais
+### 4.5.1 Dados pessoais
 
-O bloco de dados pessoais, tem o objetivo de identificar o cidadão conforme as especificações e regras do Cartão Nacional de Saúde (CNS) e integrado ao CADSUS, e a partir da versão 3.2.20 também é possível identificar o cidadão pelo CPF.
+O bloco de dados pessoais identifica o cidadão por meio do Cartão Nacional de Saúde (CNS) e/ou CPF, além do preenchimento dos dados obrigatórios: nome completo, data de nascimento, sexo, raça/cor, nome da mãe e nome do pai ( que pode ser registrado como informação desconhecida). Permite informar também um nome social caso o cidadão possua. 
 
 Figura 4.12 - Tela de Cadastro do cidadão - Dados pessoais
 
@@ -270,9 +271,19 @@ Figura 4.12 - Tela de Cadastro do cidadão - Dados pessoais
 
 Fonte: SAPS/MS.
 
-## 4.5.2 Contatos
+### 4.5.2 Naturalidade
 
-Este bloco tem o objetivo de coletar os dados de contatos, caso seja necessária a comunicação do serviço de saúde com o cidadão.
+Este bloco envolve o preenchimento dos dados da nacionalidade e municipio de nascimento. 
+
+Abaixo deste bloco há um campo para informar caso o cidadão tenha falecido, conforme exibido na figura 4.13. 
+
+Figura 4.13 - Dados de naturalidade 
+![](media/pec_image1137.png)
+Fonte: SAPS/MS
+
+### 4.5.3 Contatos
+
+Este bloco tem o objetivo de coletar os dados de contatos, caso seja necessária a comunicação do serviço de saúde com o cidadão. É obrigatório o preenchimento de pelo menos um telefone (residencial, celular ou outro telefone de contato). É possível também informar um endereço de e-mail. 
 
 Figura 4.14 - Tela de Cadastro do cidadão - Contatos
 
@@ -280,25 +291,32 @@ Figura 4.14 - Tela de Cadastro do cidadão - Contatos
 
 Fonte: SAPS/MS.
 
-## 4.5.3 Equipe responsável pelo cidadão
+### 4.5.4 Equipe responsável pelo cidadão
 
-Este recurso permite a vinculação dos cidadãos às Equipes de saúde, independente do território de residência. A partir dessa vinculação a equipe será responsável pelo acompanhamento do cidadão. Caso o cidadão não esteja vinculado a nenhuma equipe este bloco irá ser apresentado da seguinte forma:
+Este recurso permite a vinculação dos cidadãos às equipes de saúde, apresentando duas formas de informar a vinculação: 
+
+**Automática:** quando a caixa "Utilizar informação do cadastro indvidual do cidadão" é marcada, a equipe responsável será sempre a última a atualizar o cadastro individual do cidadão. 
+**Manualmente:** quando a caixa "Utilizar informação do cadastro indvidual do cidadão" é desmarcada, o vínculo será sempre alterado manualmente. 
+
+ A partir dessa vinculação a equipe será responsável pelo acompanhamento do cidadão. Caso o cidadão não esteja vinculado a nenhuma equipe este bloco irá ser apresentado da seguinte forma:
 
 Figura 4.15 - Cidadão sem equipe vinculada
 
 ![](media/pec_image258.png)
+Fonte: SAPS/MS
 
-Para vincular um cidadão que não faz parte do território adscrito clique no botão "Vincular Equipe". Será apresentado uma lista com as equipes disponíveis para vinculação.
+Para vincular o cidadão, clique no botão "Vincular Equipe", que será apresentada uma lista com as equipes disponíveis.
 
 Figura 4.16 - Vincular equipe responsável, selecionar equipe
 
 ![](media/pec_image259.png)
 
-Caso haja registro de vinculação do cidadão a uma equipe, seja pelo cadastro do território, seja via solicitação do cidadão, o sistema apresentará as informações da seguinte forma:
+Caso haja registro de vinculação do cidadão a uma equipe, o sistema apresentará as informações da seguinte forma: 
 
 Figura 4.17 - Equipe responsável pelo cidadão
 
 ![](media/pec_image260.png)
+Fonte: SAPS/MS
 
 Caso o cidadão opte por ser acompanhado por outra equipe, clique no botão ![](media/pec_image261.png), desmarque a opção "Utilizar a informação do cadastro individual do cidadão", selecione a equipe responsável e clique em Salvar.
 
@@ -311,9 +329,9 @@ Figura 4.18 - Vincular equipe responsável
 {: .atencao }
 Pessoas não cadastradas na equipe podem ser atendidas normalmente, porém o acompanhamento de saúde deve ser realizado pela equipe responsável.
 
-## 4.5.4 Endereço
+### 4.5.5 Residência
 
-O bloco de Endereço utiliza a base de endereços da Empresa Brasileira de Correios e Telégrafos, também conhecido pelo nome Diretório Nacional de Endereços (DNE). Ao incluir um Código de Endereço Postal - CEP, o sistema automaticamente preenche os campos: estado, município, bairro e logradouro. Caso o bairro ou logradouro não esteja disponível na base dos Correios, os campos permitirão a inclusão manual das referidas informações.
+O bloco de residência utiliza a base de endereços da Empresa Brasileira de Correios e Telégrafos, também conhecido pelo nome Diretório Nacional de Endereços (DNE). Ao incluir um Código de Endereço Postal - CEP, o sistema automaticamente preenche os campos: estado, município, bairro e logradouro. Caso o bairro ou logradouro não esteja disponível na base dos Correios, os campos permitirão a inclusão manual das referidas informações.
 
 Figura 4.13 - Tela de Cadastro do cidadão - Endereço
 
@@ -321,9 +339,10 @@ Figura 4.13 - Tela de Cadastro do cidadão - Endereço
 
 Fonte: SAPS/MS.
 
-## 4.5.5 Informações Complementares
+### 4.5.6 Informações Complementares
 
 Este bloco visa a coleta de dados sociodemográficos complementares do cidadão.
+É de preenchimento obrigatório os campos para indicar se o cidadão deseja informar a orientação sexual e/ou identidade de gênero. 
 
 Figura 4.15 - Tela de Cadastro do cidadão - Informações Complementares
 
