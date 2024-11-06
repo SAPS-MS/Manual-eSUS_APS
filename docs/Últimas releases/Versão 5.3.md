@@ -231,9 +231,13 @@ Além de informar se outro profissional participou do atendimento, agora também
 **Inclusão de novas opções de condutas na discussão de caso**
 
 •	Conduta "Enviar para garantia de acesso" permite ao profissional executante registrar e enviar uma demanda para a Garantia de Acesso; 
+
 •	Conduta "Agendar consulta entre profissionais" possibilita o agendamento de consulta entre o profissional solicitante e executante sem a presença do cidadão; 
+
 •	Conduta "Agendar consulta entre profissionais via videochamada" possibilita o agendamento de consulta via videochamada entre o profissional solicitante e executante sem a presença do cidadão; 
+
 •	Conduta "Agendar consulta entre profissionais com o cidadão" possibilita o agendamento de consulta entre o profissional solicitante e executante com a presença do cidadão; 
+
 •	Conduta "Agendar consulta entre profissionais com o cidadão via videochamada" possibilita o agendamento de consulta via videochamada entre o profissional solicitante e executante com a presença do cidadão. 
 
 ![](media/condutascuidadocompartilhado.png)
