@@ -7,6 +7,15 @@ description: "Manual e-SUS APS"
 permalink: /
 ---
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-56V190L77T"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-56V190L77T');
+</script>
 
 <img src="./indexnovo.png">
 <br>
