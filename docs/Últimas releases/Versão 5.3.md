@@ -144,9 +144,18 @@ Dessa forma, o cidadão permanece na fila para um atendimento com a categoria pr
 ![](media/pec_image1092.png)
 Fonte: SAPS/MS
 
+As informações sobre a forma de participação do cidadão e do profissional convidado serão exibidas da seguinte forma no histórico:
+
+![](media/participaçãocidadao.png)
+Fonte: SAPS/MS
+
+![](media/participaçãocidadao1.png)
+Fonte: SAPS/MS
+
 Além de informar se outro profissional participou do atendimento, agora também é possível caracterizar a forma ele participou (presencial, chamada de vídeo, chamada de voz, e-mail, mensagem, outro).
 
 ![](media/pec_image1093.png)
+
 Fonte: SAPS/MS
 
 **Inclusão de novas opções de condutas na discussão de caso**
@@ -233,6 +242,15 @@ Fonte: SAPS/MS
 
 Para saber mais, consulte o Capítulo [PEC - Agenda](https://saps-ms.github.io/Manual-eSUS_APS/docs/PEC/PEC_05_agenda/#57-agendamento-entre-profissionais) 
 
+O profissional que criar o agendamento será considerado o anfitrião e o outro profissional será o convidado.
+
+Caso o agendamento entre profissionais seja feito com a presença do cidadão e possua uma videochamada, um novo fluxo no sistema será liberado. O cidadão será inserido normalmente na lista de atendimento, porém quando o anfitrião iniciar o atendimento, a folha de rosto passará a exibir informações sobre a videochamada. Além disso, os campos Atendimento compartilhado e Forma de participação serão preenchidos automaticamente.
+
+![](media/agendamentoentreprofissionais7.png)
+Fonte: SAPS/MS
+
+![](media/videochamada1.png)
+Fonte: SAPS/MS
 
 **Acesso rápido na agenda**
 
