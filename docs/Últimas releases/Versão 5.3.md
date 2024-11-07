@@ -83,11 +83,14 @@ Fonte: SAPS/MS
 * Implementação da opção de Recusa de cadastro nos imóveis cadastrados via Acompanhamento do Território;
 
 ![](./media/recusa.png)
+
 Fonte: SAPS/MS
 
 Ao selecionar que o cidadão recusou o cadastro por meio do Termo de Recusa do Cadastro, abrirá uma tela de aviso reforçando que esta recusa de cadastro não implica no não atendimento do cidadão na unidade de saúde. 
 
 ![](./media/recusa1.png)
+
+Fonte: SAPS/MS
 
 
 * Inclusão da exportação do relatório em formato CSV com informações da microárea e filtros aplicados, permitindo a manipulação dos dados.
@@ -101,11 +104,13 @@ Fonte: SAPS/MS
 Tela de cadastro de imóvel
 
 ![](./media/filtromoradia.png)
+
 Fonte: SAPS/MS
 
 Tela imóvel cadastrado
 
 ![](./media/condicoesdemoradia1.png)
+
 Fonte: SAPS/MS
 
 * Implementação de Identificação de possíveis cadastros duplicados de imóveis, com recomendação de atualização no registro existente.
@@ -113,6 +118,7 @@ Fonte: SAPS/MS
 Ao tentar cadastrar um imóvel que já tenha cadastro, o sistema apresentará um alerta orientando que já existe.
 
 ![](./media/imovelcadastrado.png)
+
 Fonte: SAPS/MS
 
 Para mais informações acesse o Capítulo [Acompanhamento do Território](https://saps-ms.github.io/Manual-eSUS_APS/docs/PEC/PEC_10_acompanhamento_condicoes_saude/#acompanhamento-do-territ%C3%B3rio)
@@ -125,6 +131,7 @@ Para mais informações acesse o Capítulo [Acompanhamento do Território](https
 * Inclusão da visualização, de até 7 dias, dos relatórios que foram processados e que estão em processamento.
 
 ![](./media/55.gif)
+
 Fonte: SAPS/MS
 
 
@@ -139,14 +146,17 @@ Dessa forma, o cidadão permanece na fila para um atendimento com a categoria pr
 É possível identificar, em "finalização do atendimento" se o cidadão participou do atendimento registrado e de que forma se deu essa participação (presencial, chamada de vídeo, chamada de voz, e-mail, mensagem, outro). 
 
 ![](media/pec_image1092.png)
+
 Fonte: SAPS/MS
 
 As informações sobre a forma de participação do cidadão e do profissional convidado serão exibidas da seguinte forma no histórico:
 
 ![](media/participaçãocidadao.png)
+
 Fonte: SAPS/MS
 
 ![](media/participaçãocidadao1.png)
+
 Fonte: SAPS/MS
 
 Além de informar se outro profissional participou do atendimento, agora também é possível caracterizar a forma ele participou (presencial, chamada de vídeo, chamada de voz, e-mail, mensagem, outro).
@@ -168,6 +178,7 @@ Fonte: SAPS/MS
 •	Conduta "Agendar consulta entre profissionais com o cidadão via videochamada" possibilita o agendamento de consulta via videochamada entre o profissional solicitante e executante com a presença do cidadão. 
 
 ![](media/condutascuidadocompartilhado.png)
+
 Fonte: SAPS/MS
 
 Para saber maiores informações sobre o Cuidado Compartilhado clique no [LINK](https://saps-ms.github.io/Manual-eSUS_APS/docs/PEC/PEC_14_compartilhamento_do_cuidado/)
@@ -186,9 +197,12 @@ Para saber maiores informações sobre o Cuidado Compartilhado clique no [LINK](
 
 ![](./media/grupo_vacinal.png)
 
+Fonte: SAPS/MS
+
 Inclusão do **bairro** nos filtros avançados:
 
 ![](./media/bairro.png)
+
 Fonte: SAPS/MS
 
 
@@ -205,6 +219,7 @@ Fonte: SAPS/MS
     * Chat.
 
 ![](./media/video_chamadaa.png)
+
 Fonte: SAPS/MS
 
 ### **Videochamada do profissional convidado adaptada para tablet**
@@ -220,6 +235,7 @@ Fonte: SAPS/MS
 Esta nova funcionalidade permite o agendamento entre profissionais, inclusive por videochamada e incluir ou não a participação do cidadão.
 
 ![](./media/agendamentoprofissionais.png)
+
 Fonte: SAPS/MS
 
 Ao entrar em agenda, selecionar o profissional e o horário desejado, poderá escolher entre consulta, reserva ou agendamento entre profissionais. 
@@ -227,14 +243,17 @@ Ao entrar em agenda, selecionar o profissional e o horário desejado, poderá es
 Ao selecionar agendamento entre profissionais, deverá incluir o nome do profissional convidado, em seguida o nome do cidadão que será atendido e salvar.
 
 ![](./media/agendamentoentreprofissionais5.png)
+
 Fonte: SAPS/MS
 
 Na agenda do profissional, ficará registrado o nome do cidadão agendado e o profissional convidado, conforme imagem:
 
 ![](./media/agendamentoentreprofissionais6.png)
+
 Fonte: SAPS/MS
 
 ![](./media/comprovanteagendamento.png)
+
 Fonte: SAPS/MS
 
 Para saber mais, consulte o Capítulo [PEC - Agenda](https://saps-ms.github.io/Manual-eSUS_APS/docs/PEC/PEC_05_agenda/#57-agendamento-entre-profissionais) 
@@ -244,9 +263,11 @@ O profissional que criar o agendamento será considerado o anfitrião e o outro 
 Caso o agendamento entre profissionais seja feito com a presença do cidadão e possua uma videochamada, um novo fluxo no sistema será liberado. O cidadão será inserido normalmente na lista de atendimento, porém quando o anfitrião iniciar o atendimento, a folha de rosto passará a exibir informações sobre a videochamada. Além disso, os campos Atendimento compartilhado e Forma de participação serão preenchidos automaticamente.
 
 ![](media/agendamentoentreprofissionais7.png)
+
 Fonte: SAPS/MS
 
 ![](media/videochamada1.png)
+
 Fonte: SAPS/MS
 
 ### **Acesso rápido na agenda**
@@ -259,6 +280,8 @@ Ao entrar no módulo "Agenda" será possível fixar um profissional para consult
 
 ![](media/agendafixar.png)
 
+Fonte: SAPS/MS
+
 Nas próximas consultas, a agenda abrirá automaticamente no profissional fixado.
 
 Ao ser informado o óbito de um cidadão, todos os agendamentos futuros deste cidadão serão cancelados e os profissionais responsáveis pelos agendamentos serão avisados por e-mail, caso o servidor SMTP esteja habilitado na instalação.
@@ -270,9 +293,11 @@ Novo campo na prescrição de medicamentos que possibilita tipo de dose fraciona
 O passo a passo está no capítulo PEC - Atendimento - Prescrição. 
 
 ![](media/dose_fracionada_video.gif)
+
 Fonte: SAPS/MS
 
 ![](media/56.png)
+
 Fonte: SAPS/MS
 
 Para uma explicação mais detalhada consulte o Capítulo [Atendimento - Prescrição de medicamentos](https://saps-ms.github.io/Manual-eSUS_APS/docs/PEC/PEC_06_atendimentos/#64343-ferramentas-do-plano---prescri%C3%A7%C3%A3o-de-medicamentos)
@@ -286,31 +311,40 @@ Ao gerar um atestado para o cidadão, será possível gerar um atestado digital 
 Ao selecionar "Gerar e enviar atestado digital", o profissional deverá incluir o e mail para envio do documento.
 
 ![](media/atestadodigital1.png)
+
 Fonte: SAPS/MS
 
 Em seguida, abrirá uma tela de aviso para conferência dos dados do atestado.
 
 ![](media/atestadodigital2.png)
+
 Fonte: SAPS/MS
 
 Na sequência, abrirá a tela de assinatura, sendo necessário que o profissional tenha assinatura cadastrada, utilizando um certificado digital ICP-Brasil. O PEC irá abrir uma nova janela para o processo de assinatura.
 
 ![](media/atestadodigital3.png)
+
 Fonte: SAPS/MS
 
 O registro do atestado digital ficará disponível no prontuário do cidadão.
 
 ![](media/atestadodigital4.png)
+
 Fonte: SAPS/MS
 
 Atestado Digital com assinatura eletrônica
 
 ![](media/atestadodigital5.png)
+
 Fonte: SAPS/MS
 
 ![](media/ATESTADOdigitalvideo.gif)
 
+Fonte: SAPS/MS
+
 ![](media/atestadodigitalvideo2.gif)
+
+Fonte: SAPS/MS
 
 Consultar [Atendimentos - Atestado digital](https://saps-ms.github.io/Manual-eSUS_APS/docs/PEC/PEC_06_atendimentos/#atestado-digital)
 
@@ -319,6 +353,7 @@ Consultar [Atendimentos - Atestado digital](https://saps-ms.github.io/Manual-eSU
 O acompanhamento de vulnerabilidade foi criado no PEC para sinalizar quando o cidadão se enquadra em situações de insegurança alimentar. Esta classificação é resultado da resposta das duas perguntas da TRIA -  Triagem para Risco de Insegurança Alimentar, presentes da Ficha de Cadastro Individual do cidadão. 
 
 ![](media/acompanhamentovulnerabilidade.png)
+
 Fonte: SAPS/MS
 
 Quando há esta sinalização no prontuário do cidadão, é necessário que o profissional de saúde avalie todos os componentes do núcleo familiar, pois esta informação indica que há comprometimento da qualidade e quantidade da alimentação no domicílio e que o indivíduo se encontra em Risco para Insegurança Alimentar.
@@ -326,6 +361,7 @@ Quando há esta sinalização no prontuário do cidadão, é necessário que o p
  É fundamental que se avalie também os Marcadores de Consumo Alimentar, para que possam tomar medidas de apoio e referência desses indivíduos à dispositivos da rede que garantam a Segurança Alimentar e Nutricional, bem como tudo que envolve essas questões no cidadão. 
 
 ![](media/acompanhamentovulnerabilidade1.png)
+
 Fonte: SAPS/MS
 
 Para conhecer mais sobre esta funcionalidade e a TRIA, consulte o capítulo [Atendimento - Folha de Rosto](https://saps-ms.github.io/Manual-eSUS_APS/docs/PEC/PEC_06_atendimentos/#642-folha-de-rosto)
@@ -334,9 +370,10 @@ Para conhecer mais sobre esta funcionalidade e a TRIA, consulte o capítulo [Ate
 
 Esta ferramenta consolida as bases descentralizadas do PEC em uma estrutura única e centralizada. Esse avanço permite que todos os estabelecimentos de saúde integrem e implementem o conceito de Prontuário Eletrônico do Cidadão (PEC e-SUS APS) de forma unificada no âmbito municipal. 
 
-Inclusão da funcionalidade “Unificação de Bases”, que permitirá aos municípios com várias instalações do PEC unificarem todos os seus bancos de dados em uma instalação única sem perda de nenhuma informação do prontuário eletrônico [Manual e-sus APS] (https://saps-ms.github.io/Manual-eSUS_APS/docs/PEC/PEC_03_adm_conf/)
+Inclusão da funcionalidade “Unificação de Bases”, que permitirá aos municípios com várias instalações do PEC unificarem todos os seus bancos de dados em uma instalação única sem perda de nenhuma informação do prontuário eletrônico.
 
 ![](media/unificacaodebases.png)
+
 Fonte: SAPS/MS
 
 Para especificações desta funcionalidade, consultar o manual ["Unificação de bases"](https://saps-ms.github.io/Manual-eSUS_APS/docs/Apoio%20a%20Implanta%C3%A7%C3%A3o/Unificacao_de_bases/)
@@ -350,6 +387,7 @@ Essa habilitação permite o uso de diversas funcionalidades que fortalecem o tr
 
 ![](<../Apoio a Implantação/media/https_automatizado.png>)
 
+Fonte: Imagem da Internet - Edição SAPS/MS
 
 Para mais informações consulte: [LINK](https://saps-ms.github.io/Manual-eSUS_APS/docs/Apoio%20a%20Implanta%C3%A7%C3%A3o/HTTPS_Automatizado/)
 
@@ -365,6 +403,7 @@ Fonte: SAPS/MS
 Este recurso fornece informações como a data e a hora dos acessos (bem ou malsucedidos) do login do profissional no e-SUS APS dos últimos 30 dias. 
 
 ![](media/historicodeacesso1.png)
+
 Fonte: SAPS/MS
 
 Somente o profissional que está logado pode visualizar essas informações.
@@ -380,6 +419,7 @@ Registro de Atendimento Clínico (RAC)
 Registro de Prescrição de Medicamentos (RPM)
 
 ![](media/terminologiarnds.png)
+
 Fonte: SAPS/MS
 
 ### **Relatório de erros retornados pela RNDS**
@@ -393,6 +433,7 @@ Em seguida selecionar RNDS e selecionar "gerar relatório de erro".
 Abrirá uma tela onde poderá selecionar o período desejado e gerar o relatório CSV.
 
 ![](media/relatoriornds1.png)
+
 Fonte: SAPS/MS
 
 Deverá marcar todos ou os que desejar.
@@ -400,6 +441,7 @@ Deverá marcar todos ou os que desejar.
 O relatório gerado, terá as informações: data de envio, tipo de registro, ID do registro, Status do envio, erro retornado pela RND.
 
 ![](media/relatoriornds3.png)
+
 Fonte: SAPS/MS
 
 ### **Importar beneficiários do Bolsa Família**
@@ -411,11 +453,13 @@ O arquivo poderá ser baixado no e-Gestor e incluído para importação na funci
 É possível importar arquivos de qualquer vigência, inclusive listas complementares. 
 
 ![](./media/importacao_beneficiarios_bolsa_familia.gif)
+
 Fonte: SAPS/MS
 
 Ao visualizar a folha de rosto de um cidadão que consta como beneficiário no arquivo importado da vigência mais atual, será apresentada uma sinalização de que ele é beneficiário do Programa Bolsa Família. 
 
 ![](./media/importacao_beneficiarios_bolsa_familia_1.png)
+
 Fonte: SAPS/MS
 
 Para saber mais, acesse o [LINK](https://saps-ms.github.io/Manual-eSUS_APS/docs/PEC/PEC_02_instalacao/#27-importa%C3%A7%C3%A3o-do-bolsa-fam%C3%ADlia)
@@ -429,12 +473,14 @@ Foi realizada a inclusão da possibilidade de se cadastrar um “nome social” 
 Conforme o Decreto nº8.727, de 28/04/2016, nome social se refere à designação pela qual a pessoa travesti ou transexual se identifica e é socialmente reconhecida. 
 
 ![](media/nome_social_profissional.png)
+
 Fonte: SAPS/MS
 
 Essa implementação garante que o nome social do profissional seja exibido em todos os campos do sistema, incluindo impressões e prescrições eletrônicas. 
 
 Receita realizada com nome social
 ![](media/receituarionomesocial.png)
+
 Fonte: SAPS/MS
 
 
