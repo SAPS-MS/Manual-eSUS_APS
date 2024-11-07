@@ -462,8 +462,6 @@ Ao visualizar a folha de rosto de um cidadão que consta como beneficiário no a
 
 Fonte: SAPS/MS
 
-Para saber mais, acesse o [LINK](https://saps-ms.github.io/Manual-eSUS_APS/docs/PEC/PEC_02_instalacao/#27-importa%C3%A7%C3%A3o-do-bolsa-fam%C3%ADlia)
-
 ### **Inclusão do nome social do profissional**
 
 Agora, o PEC e-SUS APS amplia o uso do nome social não apenas para os cidadãos, mas também para os profissionais de saúde.  
