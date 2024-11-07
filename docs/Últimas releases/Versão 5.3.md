@@ -18,7 +18,7 @@ last_modified_date: "04/11/2024"
 
 ## Novidades - Ferramentas relacionadas aos cuidados
 
-Acompanhamento do Território:
+**Acompanhamento do Território:**
 - A funcionalidade foi evoluída para permitir cadastro e atualização dos imóveis e famílias diretamente pelo PEC, sem a necessidade utilização do módulo CDS
 - Possibilidade de visualização e correção de inconsistências de cadastro sem a necessidade de se aguardar o processamento após o envio de lotes;
 - Nova localização do imóvel "Periurbana" adicionada além das tradicionais "Urbana" e "Rural".
@@ -32,19 +32,17 @@ Acompanhamento do Território:
 - Visualização da geolocalização dos imóveis e visitas domiciliares quando registradas pelo Aplicativo e-SUS Território com geolocalização ativa;
 - Mudança no layout de visualização dos imóveis e seus detalhes como as novas abas: "Informações cadastrais", "Famílias e moradores", "Últimas visitas";
 
-Acompanhamento das condições de saúde: 
+**Acompanhamento das condições de saúde:**
 - Inclusão da visualização, de até 7 dias, dos relatórios que foram processados e que estão em processamento e inclusão da exportação do relatório em formato CSV, permitindo a manipulação dos dados;
 
-Cuidado Compartilhado:
-
+**Cuidado Compartilhado:**
 - Garantia do Acesso no Cuidado Compartilhado;
 - Participação do cidadão e atendimento compartilhado; 
 - Inclusão de novas opções de condutas na discussão de caso no Cuidado Compartilhado.
 
-Demais inovações:
-- Busca ativa de vacinação;
-- Videochamada do profissional convidado adaptada para telefone celular;
-- Videochamada do profissional convidado adaptada para tablet;
+**Demais inovações:**
+- Busca ativa de vacinação (filtros e grupos-alvos);
+- Videochamada do profissional convidado adaptada para dispositivos móveis (telefone celular e tablet);
 - Agendamento entre profissionais;
 - Inclusão do nome social do profissional;
 - Acesso rápido na agenda e aviso quando o cidadão foi a óbito;
@@ -53,7 +51,6 @@ Demais inovações:
 - Acompanhamento de vulnerabilidade.
 
 ## Novidades - Ferramentas Administrativas
-
 - Unificação de bases;
 - Configuração HTTPS automatizada;
 - API para recebimento de lotes dos Sistemas Próprios/Terceiros; 
@@ -65,7 +62,7 @@ Demais inovações:
 - Inclusão do nome social do profissional.
 
 
-**Acompanhamento do Território - Cadastro de Imóveis e Famílias**  
+### **Acompanhamento do Território - Cadastro de Imóveis e Famílias**  
 
 * A funcionalidade de Acompanhamento do Território, no menu lateral, foi evoluída para permitir cadastrar e atualizar os imóveis e famílias, condições de moradia e responsabilidades de acompanhamento, tudo isso em uma única interface moderna e intuitiva, sem a necessidade de gerar várias Fichas CDS manualmente. O sistema as gerará automaticamente, apenas para que a sua produção seja consolidada em relatórios e enviada ao Centralizar Nacional.
 
@@ -121,7 +118,7 @@ Fonte: SAPS/MS
 Para mais informações acesse o Capítulo [Acompanhamento do Território](https://saps-ms.github.io/Manual-eSUS_APS/docs/PEC/PEC_10_acompanhamento_condicoes_saude/#acompanhamento-do-territ%C3%B3rio)
 
 
-[**Acompanhamento das condições de saúde**](https://saps-ms.github.io/Manual-eSUS_APS/docs/PEC/PEC_10_acompanhamento_condicoes_saude/#acompanhamento-do-territ%C3%B3rio)
+### [**Acompanhamento das condições de saúde**](https://saps-ms.github.io/Manual-eSUS_APS/docs/PEC/PEC_10_acompanhamento_condicoes_saude/#acompanhamento-do-territ%C3%B3rio)
 
 * Inclusão da exportação do relatório de busca em formato CSV, permitindo a manipulação dos dados.
 
@@ -131,13 +128,13 @@ Para mais informações acesse o Capítulo [Acompanhamento do Território](https
 Fonte: SAPS/MS
 
 
-**Garantia do Acesso no Cuidado Compartilhado**
+### **Garantia do Acesso no Cuidado Compartilhado**
 
 Ao receber uma solicitação de cuidado compartilhado no sistema, caso o profissional opte pela conduta de agendar consulta e não haja disponibilidade de datas e horários no momento do agendamento, é possível utilizar a opção de "Enviar para a Garantia do Acesso" através do compartilhamento do cuidado.  
 
 Dessa forma, o cidadão permanece na fila para um atendimento com a categoria profissional que necessita. Ao buscar por aquele registro no módulo de Garantia do Acesso, é exibido que ele tem como origem o módulo de Cuidado Compartilhado.
 
-**Participação do cidadão e atendimento compartilhado**
+### **Participação do cidadão e atendimento compartilhado**
 
 É possível identificar, em "finalização do atendimento" se o cidadão participou do atendimento registrado e de que forma se deu essa participação (presencial, chamada de vídeo, chamada de voz, e-mail, mensagem, outro). 
 
@@ -158,7 +155,7 @@ Além de informar se outro profissional participou do atendimento, agora também
 
 Fonte: SAPS/MS
 
-**Inclusão de novas opções de condutas na discussão de caso**
+### **Inclusão de novas opções de condutas na discussão de caso**
 
 •	Conduta "Enviar para garantia de acesso" permite ao profissional executante registrar e enviar uma demanda para a Garantia de Acesso; 
 
@@ -175,7 +172,7 @@ Fonte: SAPS/MS
 
 Para saber maiores informações sobre o Cuidado Compartilhado clique no [LINK](https://saps-ms.github.io/Manual-eSUS_APS/docs/PEC/PEC_14_compartilhamento_do_cuidado/)
 
-**Busca ativa de vacinação**
+### **Busca ativa de vacinação**
 
 * Implementação do Grupo-alvo de Adultos para Vacinas do calendário vacinal;
 * Implementação do Grupo-alvo de Puérperas com Gestantes para Vacinas do calendário vacinal;
@@ -195,7 +192,7 @@ Inclusão do **bairro** nos filtros avançados:
 Fonte: SAPS/MS
 
 
-**Videochamada do profissional convidado adaptada para telefone celular**
+### **Videochamada do profissional convidado adaptada para telefone celular**
 
 * Os componentes da videochamada foram adaptados para funcionar em telefones celular. O objetivo do módulo é possibilitar que o profissional convidado acesse a videochamada pelo telefone celular. 
 
@@ -210,7 +207,7 @@ Fonte: SAPS/MS
 ![](./media/video_chamadaa.png)
 Fonte: SAPS/MS
 
-**Videochamada do profissional convidado adaptada para tablet**
+### **Videochamada do profissional convidado adaptada para tablet**
 
 * Os componentes da videochamada foram adaptados para funcionar corretamente em tablets. O objetivo do módulo é adaptar as telas da videochamada para tablet. Todas as funcionalidades da videochamada foram mantidas.
 
@@ -218,7 +215,7 @@ Fonte: SAPS/MS
 
 Fonte: SAPS/MS
 
-**Agendamento entre profissionais**
+### **Agendamento entre profissionais**
 
 Esta nova funcionalidade permite o agendamento entre profissionais, inclusive por videochamada e incluir ou não a participação do cidadão.
 
@@ -252,7 +249,7 @@ Fonte: SAPS/MS
 ![](media/videochamada1.png)
 Fonte: SAPS/MS
 
-**Acesso rápido na agenda**
+### **Acesso rápido na agenda**
 
 Novo campo de pesquisa que possibilita acesso rápido na agenda profissional, como também fixação na lista em todos os campos do PEC e-SUS APS que se relacionam com a agenda. 
 
@@ -267,7 +264,7 @@ Nas próximas consultas, a agenda abrirá automaticamente no profissional fixado
 Ao ser informado o óbito de um cidadão, todos os agendamentos futuros deste cidadão serão cancelados e os profissionais responsáveis pelos agendamentos serão avisados por e-mail, caso o servidor SMTP esteja habilitado na instalação.
 
 
-**Doses fracionadas por turno na prescrição de medicamento**
+### **Doses fracionadas por turno na prescrição de medicamento**
 
 Novo campo na prescrição de medicamentos que possibilita tipo de dose fracionada por turno. 
 O passo a passo está no capítulo PEC - Atendimento - Prescrição. 
@@ -280,7 +277,7 @@ Fonte: SAPS/MS
 
 Para uma explicação mais detalhada consulte o Capítulo [Atendimento - Prescrição de medicamentos](https://saps-ms.github.io/Manual-eSUS_APS/docs/PEC/PEC_06_atendimentos/#64343-ferramentas-do-plano---prescri%C3%A7%C3%A3o-de-medicamentos)
 
-**Atestado Digital**
+### **Atestado Digital**
 
 Implementado campo para o envio do atestado digital para o cidadão. 
 
@@ -317,7 +314,7 @@ Fonte: SAPS/MS
 
 Consultar [Atendimentos - Atestado digital](https://saps-ms.github.io/Manual-eSUS_APS/docs/PEC/PEC_06_atendimentos/#atestado-digital)
 
-**Acompanhamento de vulnerabilidade no prontuário**
+### **Acompanhamento de vulnerabilidade no prontuário**
 
 O acompanhamento de vulnerabilidade foi criado no PEC para sinalizar quando o cidadão se enquadra em situações de insegurança alimentar. Esta classificação é resultado da resposta das duas perguntas da TRIA -  Triagem para Risco de Insegurança Alimentar, presentes da Ficha de Cadastro Individual do cidadão. 
 
@@ -333,7 +330,7 @@ Fonte: SAPS/MS
 
 Para conhecer mais sobre esta funcionalidade e a TRIA, consulte o capítulo [Atendimento - Folha de Rosto](https://saps-ms.github.io/Manual-eSUS_APS/docs/PEC/PEC_06_atendimentos/#642-folha-de-rosto)
  
-**Unificação de bases**
+### **Unificação de bases**
 
 Esta ferramenta consolida as bases descentralizadas do PEC em uma estrutura única e centralizada. Esse avanço permite que todos os estabelecimentos de saúde integrem e implementem o conceito de Prontuário Eletrônico do Cidadão (PEC e-SUS APS) de forma unificada no âmbito municipal. 
 
@@ -345,7 +342,7 @@ Fonte: SAPS/MS
 Para especificações desta funcionalidade, consultar o capítulo [Administração e Configurações do Sistema - Unificação de bases](https://saps-ms.github.io/Manual-eSUS_APS/docs/Apoio%20a%20Implanta%C3%A7%C3%A3o/Unificacao_de_bases/)
 
 
-**Configuração HTTPS automatizada**
+### **Configuração HTTPS automatizada**
 
 A geração e renovação do Certificado TLS (SSL) / HTTPS no PEC se tornou bem mais fácil, sendo agora gerenciado pela própria aplicação de maneira totalmente automatizada.  
 
@@ -356,11 +353,12 @@ Essa habilitação permite o uso de diversas funcionalidades que fortalecem o tr
 
 Para mais informações consulte: [LINK](https://saps-ms.github.io/Manual-eSUS_APS/docs/Apoio%20a%20Implanta%C3%A7%C3%A3o/HTTPS_Automatizado/)
 
-**Histórico de acessos ao sistema** 
+### **Histórico de acessos ao sistema** 
 
 Possibilita ver o histórico de acessos ao sistema.
 
 ![](media/historicodeacesso.png)
+
 Fonte: SAPS/MS
 
 
@@ -371,8 +369,7 @@ Fonte: SAPS/MS
 
 Somente o profissional que está logado pode visualizar essas informações.
 
-
-**Atualização de terminologias dos envios à RNDS**
+### **Atualização de terminologias dos envios à RNDS**
 
 Na aba RNDS:  
 
@@ -385,7 +382,7 @@ Registro de Prescrição de Medicamentos (RPM)
 ![](media/terminologiarnds.png)
 Fonte: SAPS/MS
 
- **Relatório de erros retornados pela RNDS**
+### **Relatório de erros retornados pela RNDS**
 
 Nesta versão é possível gerar o relatório de erros de dados enviados à RNDS. 
 
@@ -405,7 +402,7 @@ O relatório gerado, terá as informações: data de envio, tipo de registro, ID
 ![](media/relatoriornds3.png)
 Fonte: SAPS/MS
 
-**Importar beneficiários do Bolsa Família**
+### **Importar beneficiários do Bolsa Família**
 
 Agora será possível importar um arquivo com os beneficiários do bolsa família de uma vigência específica para que eles sejam identificados em seus prontuários. 
 
@@ -423,7 +420,7 @@ Fonte: SAPS/MS
 
 Para saber mais, acesse o [LINK](https://saps-ms.github.io/Manual-eSUS_APS/docs/PEC/PEC_02_instalacao/#27-importa%C3%A7%C3%A3o-do-bolsa-fam%C3%ADlia)
 
-**Inclusão do nome social do profissional**
+### **Inclusão do nome social do profissional**
 
 Agora, o PEC e-SUS APS amplia o uso do nome social não apenas para os cidadãos, mas também para os profissionais de saúde.  
 
@@ -439,7 +436,6 @@ Essa implementação garante que o nome social do profissional seja exibido em t
 Receita realizada com nome social
 ![](media/receituarionomesocial.png)
 Fonte: SAPS/MS
-
 
 
 {: .nota }
