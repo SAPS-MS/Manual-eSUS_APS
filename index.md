@@ -69,7 +69,7 @@ Cinthia Caldas Rios, Jacqueline Aedinet Pruner Polidoro, Janaína Nogueira Guima
 
 **Revisão Textual** 
 
-Adriana Kitajima, Adriene dos Santos Sá, Bruno Mariani, Cinthia Caldas Rios, Elaine de Almeida, Francy Webster de Andrade Pereira, Igor de Carvalho Gomes, Ingryd Isabelle Maia de Souza, Jacqueline Aedinet Pruner Polidoro, Janaína Nogueira Guimarães, Jordana Soares Iankoski, Lilian Suelen de Oliveira Cunha, Marcelo Alves Miranda, Nicoli Ferreira Demarche, Priscila Mara Anjos Nunes, Rodrigo André Cuevas Gaete, Romario Araujo Matias Rocha, Thaís Alessa Leite, Vanessa Lora, Vania Priamo, Walter Augusto Alcantara Vieira  
+Adriana Kitajima, Adriene dos Santos Sá, Bruno Costa Mariani Maciel, Cinthia Caldas Rios, Elaine de Almeida, Francy Webster de Andrade Pereira, Igor de Carvalho Gomes, Ingryd Isabelle Maia de Souza, Jacqueline Aedinet Pruner Polidoro, Janaína Nogueira Guimarães, Jordana Soares Iankoski, Lilian Suelen de Oliveira Cunha, Marcelo Alves Miranda, Nicoli Ferreira Demarche, Priscila Mara Anjos Nunes, Rodrigo André Cuevas Gaete, Romario Araujo Matias Rocha, Thaís Alessa Leite, Vanessa Lora, Vania Priamo, Walter Augusto Alcantara Vieira  
 
 **Revisão Técnica**  
 
