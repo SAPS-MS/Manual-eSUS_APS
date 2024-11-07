@@ -37,10 +37,10 @@ last_modified_date: "04/11/2024"
 
 **Cuidado Compartilhado:**
 - Garantia do Acesso no Cuidado Compartilhado;
-- Participação do cidadão e atendimento compartilhado; 
 - Inclusão de novas opções de condutas na discussão de caso no Cuidado Compartilhado.
 
 **Demais inovações:**
+- Formas de participação do cidadão e profissional do atendimento compartilhado na finalização do atendimento; 
 - Busca ativa de vacinação (filtros e grupos-alvos);
 - Videochamada do profissional convidado adaptada para dispositivos móveis (telefone celular e tablet);
 - Agendamento entre profissionais;
