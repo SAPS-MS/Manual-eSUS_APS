@@ -136,6 +136,9 @@ Após o término da Instalação/Atualização da versão, a tela final será as
 
 ### **Instalação/Atualização sem modo gráfico (via terminal - linha de comando)**
 
+> **Observação:**
+Caso não seja desejado utilizar o certificado do PEC e-SUS APS ou a instalação já tem seu certificado próprio que se deseja ser mantido, atualize o sistema de forma convencional, sem utilizar a linha de comando indicada abaixo.
+
 O processo é equivalente, neste caso, ao invés de executarmos o instalador do PEC, realizaremos o processo adotando alguns parâmetros durante a Instalação/Atualização da aplicação, neste caso, utilize a seguinte linha de comando:
 
 ```
