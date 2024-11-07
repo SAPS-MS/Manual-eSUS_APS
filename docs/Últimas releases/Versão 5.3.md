@@ -284,6 +284,8 @@ Para uma explicação mais detalhada consulte o Capítulo [Atendimento - Prescri
 
 Implementado campo para o envio do atestado digital para o cidadão. 
 
+Ao gerar um atestado para o cidadão, será possível gerar um atestado digital através da opção “Gerar e enviar atestado digital”, caso a instalação esteja habilitada para assinaturas digitais.
+
 Ao selecionar "Gerar e enviar atestado digital", o profissional deverá incluir o e mail para envio do documento.
 
 ![](media/atestadodigital1.png)
@@ -294,7 +296,7 @@ Em seguida, abrirá uma tela de aviso para conferência dos dados do atestado.
 ![](media/atestadodigital2.png)
 Fonte: SAPS/MS
 
-Na sequência, abrirá a tela de assinatura, sendo necessário que o profissional tenha assinatura cadastrada em um provedor.
+Na sequência, abrirá a tela de assinatura, sendo necessário que o profissional tenha assinatura cadastrada, utilizando um certificado digital ICP-Brasil. O PEC irá abrir uma nova janela para o processo de assinatura.
 
 ![](media/atestadodigital3.png)
 Fonte: SAPS/MS
@@ -308,6 +310,10 @@ Atestado Digital com assinatura eletrônica
 
 ![](media/atestadodigital5.png)
 Fonte: SAPS/MS
+
+![](media/ATESTADOdigitalvideo.gif)
+
+![](media/atestadodigitalvideo2.gif)
 
 Consultar [Atendimentos - Atestado digital](https://saps-ms.github.io/Manual-eSUS_APS/docs/PEC/PEC_06_atendimentos/#atestado-digital)
 
