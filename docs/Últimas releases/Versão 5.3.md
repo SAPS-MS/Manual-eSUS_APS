@@ -339,7 +339,7 @@ Inclusão da funcionalidade “Unificação de Bases”, que permitirá aos muni
 ![](media/unificacaodebases.png)
 Fonte: SAPS/MS
 
-Para especificações desta funcionalidade, consultar o capítulo [Administração e Configurações do Sistema - Unificação de bases](https://saps-ms.github.io/Manual-eSUS_APS/docs/Apoio%20a%20Implanta%C3%A7%C3%A3o/Unificacao_de_bases/)
+Para especificações desta funcionalidade, consultar o manual ["Unificação de bases"](https://saps-ms.github.io/Manual-eSUS_APS/docs/Apoio%20a%20Implanta%C3%A7%C3%A3o/Unificacao_de_bases/)
 
 
 ### **Configuração HTTPS automatizada**
