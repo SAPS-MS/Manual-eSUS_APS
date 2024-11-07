@@ -448,9 +448,9 @@ Fonte: SAPS/MS
 
 Agora será possível importar um arquivo com os beneficiários do Programa Bolsa Família de uma vigência específica para que eles sejam identificados em seus prontuários. 
 
-O arquivo poderá ser baixado no e-Gestor APS (SISAB) e importado na funcionalidade "Importação do bolsa família", que pode ser acessada pelo menu lateral com o perfil de Administrador da Instalação, Administrador Municipal ou Gestor Municipal.  
+O arquivo poderá ser baixado no e-Gestor APS (SISAB), descompactado e importado no formato JSON pela funcionalidade "Importação do bolsa família", que pode ser acessada pelo menu lateral com o perfil de Administrador da Instalação, Administrador Municipal ou Gestor Municipal. 
 
-SOmente é possível importar um arquivo por vigência do Programa. 
+Observação: Somente é possível importar um arquivo por vigência do Programa Bolsa Família. 
 
 ![](./media/importacao_beneficiarios_bolsa_familia.gif)
 
