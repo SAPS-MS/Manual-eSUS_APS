@@ -437,6 +437,7 @@ Fonte: SAPS/MS
 Essa implementação garante que o nome social do profissional seja exibido em todos os campos do sistema, incluindo impressões e prescrições eletrônicas. 
 
 Receita realizada com nome social
+
 ![](media/receituarionomesocial.png)
 Fonte: SAPS/MS
 
