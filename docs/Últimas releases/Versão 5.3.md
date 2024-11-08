@@ -54,7 +54,7 @@ last_modified_date: "04/11/2024"
 - Unificação de bases;
 - Configuração HTTPS automatizada;
 - Histórico de acessos;
-- Bloqueio padrão da conta de usuário foi atualizado de 10 para 5 tentativas inválidas de autenticação 
+- Bloqueio padrão da conta de usuário foi atualizado de 10 para 5 tentativas inválidas de autenticação;
 - Atualização de terminologias dos envios à RNDS;
 - Relatório de erros retornados pela RNDS;
 - Importar beneficiários do Bolsa Família;
@@ -91,22 +91,20 @@ Ao selecionar que o cidadão recusou o cadastro por meio do Termo de Recusa do C
 
 Fonte: SAPS/MS
 
-
 * Inclusão da exportação do relatório em formato CSV com informações da microárea e filtros aplicados, permitindo a manipulação dos dados.
 
 ![](./media/relatorioterritorio.png)
 Fonte: SAPS/MS
 
-
 * Implementação de filtros por condições de moradia nos imóveis visualizados no Acompanhamento do Território.
 
-Tela de cadastro de imóvel
+**Tela de cadastro de imóvel**
 
 ![](./media/filtromoradia.png)
 
 Fonte: SAPS/MS
 
-Tela imóvel cadastrado
+**Tela imóvel cadastrado**
 
 ![](./media/condicoesdemoradia1.png)
 
@@ -117,6 +115,13 @@ Fonte: SAPS/MS
 Ao tentar cadastrar um imóvel que já tenha cadastro, o sistema apresentará um alerta orientando que já existe.
 
 ![](./media/imovelcadastrado.png)
+
+Fonte: SAPS/MS
+
+{: .atencao }
+Com a nova funcionalidade de cadastro de imóveis e famílias diretamente pelo PEC, através do Acompanhamento do Território, foi desabilitada por padrão a realização de novos cadastros de imóveis e famílias via CDS - Cadastro domiciliar e territorial. Esta opção tradicional poderá ser reativada, caso necessário, pelo perfil "Administrador da Instalação" em Configurações da instalação > Configurações avançadas > Cadastros via CDS > Cadastros de imóveis e famílias via CDS, conforme imagem abaixo.
+
+![](./media/cadastrosviacds.png)
 
 Fonte: SAPS/MS
 

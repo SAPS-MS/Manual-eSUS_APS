@@ -207,6 +207,11 @@ Exportação de relatórios em CSV:
 
 A partir da versão 5.3 é possível cadastrar imóveis e famílias de forma mais completa e clara, facilitando a gestão dos cidadãos moradores de cada domicílio adscrito.
 
+{: .atencao }
+Com a nova funcionalidade de cadastro de imóveis e famílias diretamente pelo PEC, através do Acompanhamento do Território, foi desabilitada por padrão a realização de novos cadastros de imóveis e famílias via CDS - Cadastro domiciliar e territorial. Esta opção tradicional poderá ser reativada, caso necessário, pelo perfil "Administrador da Instalação" em Configurações da instalação > Configurações avançadas > Cadastros via CDS > Cadastros de imóveis e famílias via CDS, conforme imagem abaixo.
+
+![](/docs/Últimas%20releases/media/cadastrosviacds.png)
+
 A funcionalidade de Acompanhamento do Território, no menu lateral, foi evoluída para permitir cadastrar e atualizar os imóveis e famílias, condições de moradia e responsabilidades de acompanhamento, tudo isso em uma única interface moderna e intuitiva, sem a necessidade de gerar várias Fichas CDS manualmente. O sistema as gerará automaticamente, apenas para que a sua produção seja consolidada em relatórios e enviada ao Centralizar Nacional.
 
 O objetivo geral do módulo é oferecer uma visão intuitiva da organização do território, incentivando a realização e atualização de cadastros de imóveis e famílias.
