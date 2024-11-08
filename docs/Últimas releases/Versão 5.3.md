@@ -53,7 +53,6 @@ last_modified_date: "04/11/2024"
 ## Novidades - Ferramentas Administrativas
 - Unificação de bases;
 - Configuração HTTPS automatizada;
-- API para recebimento de lotes dos Sistemas Próprios/Terceiros; 
 - Histórico de acessos;
 - Bloqueio padrão da conta de usuário foi atualizado de 10 para 5 tentativas inválidas de autenticação 
 - Atualização de terminologias dos envios à RNDS;
