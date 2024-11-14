@@ -389,10 +389,6 @@ A geração e renovação do Certificado TLS (SSL) / HTTPS no PEC se tornou bem 
 
 Essa habilitação permite o uso de diversas funcionalidades que fortalecem o trabalho das equipes e o cuidado aos cidadãos, como teleinterconsultas, prescrição digital, acesso ao CadSUS. 
 
-![](/docs/Apoio%20a%20Implantação/media/https_automatizado.png)
-
-Fonte: Imagem da Internet - Edição SAPS/MS
-
 Para mais informações consulte: [LINK](https://saps-ms.github.io/Manual-eSUS_APS/docs/Apoio%20a%20Implanta%C3%A7%C3%A3o/HTTPS_Automatizado/)
 
 ### **Histórico de acessos ao sistema** 
