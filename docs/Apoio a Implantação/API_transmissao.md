@@ -18,7 +18,7 @@ last_modified_date: "18/11/2024"
 {: .atencao }
 Essa funcionalidade é voltada exclusivamente para municípios que utilizam sistemas próprios ou terceiros.
 
-## MANUAL PRELIMINAL
+## MANUAL PRELIMINAR
 
 A partir da versão **5.3.19** é possível enviar os registros via API. Para isso, é necessário que a instalação do PEC possua HTTPS configurado e que o Administrador da Instalação gere credencias para que os sistemas próprios ou terceiros enviem os lotes para a instalação.
 
