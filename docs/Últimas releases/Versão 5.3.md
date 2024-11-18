@@ -531,7 +531,7 @@ As fichas enviadas via API podem ser visualizados pelo Administrador Municipal n
 
 ![](media/api2.png)
 
-Para mais detalhes, visualize o manual preliminar desta funcionalidade: [LINK](https://saps-ms.github.io/Manual-eSUS_APS/docs/Apoio%20a%20Implanta%C3%A7%C3%A3o/API_lotes/) 
+Para mais detalhes, visualize o manual preliminar desta funcionalidade: [LINK](https://saps-ms.github.io/Manual-eSUS_APS/docs/Apoio%20a%20Implanta%C3%A7%C3%A3o/API_transmissao/) 
 
 
 {: .nota }
