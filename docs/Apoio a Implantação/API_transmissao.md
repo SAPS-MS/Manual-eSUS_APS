@@ -44,15 +44,17 @@ A geração da credencial deve ser feita pelo Administrador da Instalação, sen
 
 - Para cadastro de "Pessoa jurídica" o registro deve conter as seguintes informações da pessoa que será responsável pela integração: Nome, CNPJ, e-mail e nome da credencial.
 
-Após realizar o cadastro de um integrador, o sistema deve gerar o usuário e a senha que serão utilizados na autenticação da API.
+Após realizar o cadastro de um integrador, o sistema deve gerar o usuário e a senha que serão utilizados na autenticação da API. 
+
+> Observação: É possível que seja criada mais de uma credencial.
 
 {: .atencao }
 Ao gerar uma credencial, o usuário e a senha serão exibidos uma única vez, então, tenha certeza de guardá-los devidamente, pois não é possível recuperar um usuário e senha gerados. Caso o usuário e a senha sejam perdidos, é necessário inativar a credencial e gerar uma outra.
 
-{: .nota }
-É possível que seja criada mais de uma credencial.
-
 ### Endpoints, variáveis e respostas da API
+
+{: .nota }
+Os municípios são responsáveis por desenvolver e manter o script que realizará os envios de fichas via API. Lembrando que recomendamos salvar o erros retornados pela API, caso seja necessário fazer alguma correção no modelo de dados enviados.
 
 A API possui dois endpoints disponíveis:
 
