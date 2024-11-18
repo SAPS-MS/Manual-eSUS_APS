@@ -518,7 +518,7 @@ Fonte: SAPS/MS
 {: .atencao }
 Essa funcionalidade é voltada exclusivamente para municípios que utilizam sistemas próprios ou terceiros.
 
-A partir da versão **5.3.19** é possível enviar os registros via API. Para isso, é necessário que a instalação do PEC possua HTTPS configurado e que o Administrador da Instalação gere credencias para que os sistemas próprios ou terceiros enviem os lotes para a instalação.
+A partir da versão **5.3.19** é possível enviar fichas diretamente dos sistemas próprios ou terceiros via API ao PEC. Para isso, é necessário que a instalação do PEC possua HTTPS configurado e que o Administrador da Instalação gere credenciais para que os sistemas próprios ou terceiros possam enviar fichas para a instalação de maneira automatizada.
 
 Após entrar no sistema como Administrador da Instalação, através da lateral é possível acessar o módulo de “Transmissão de dados”. No final da página existe uma nova seção “Credenciais para API”, criada para gerar as credenciais dos sistemas que irão enviar dados via API.
 
