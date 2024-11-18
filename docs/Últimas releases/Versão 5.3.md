@@ -69,7 +69,9 @@ last_modified_date: "04/11/2024"
 
 - Atestado Digital;
 
-- Acompanhamento de vulnerabilidade.
+- Acompanhamento de vulnerabilidade;
+
+- Inclusão da nova opção de sexo: "Indeterminado".
 
 ## Novidades - Ferramentas Administrativas
 - Unificação de bases;
