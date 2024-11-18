@@ -511,7 +511,7 @@ Receita realizada com nome social
 
 Fonte: SAPS/MS
 
-### **API de transmissão de lotes (Sistemas Próprios/Terceiros para o PEC)**
+### **API de transmissão de fichas (Sistemas Próprios/Terceiros para o PEC)**
 
 {: .atencao }
 Essa funcionalidade é voltada exclusivamente para municípios que utilizam sistemas próprios ou terceiros.
@@ -525,7 +525,7 @@ Após entrar no sistema como Administrador da Instalação, através da lateral 
 {: .nota }
 Ao gerar uma credencial, o usuário e a senha serão exibidos para o usuário apenas uma única vez. 
 
-Os lotes enviados via API podem ser visualizados pelo Administrador Municipal no módulo de “Transmissão de dados”.
+As fichas enviadas via API podem ser visualizados pelo Administrador Municipal no módulo de “Transmissão de dados”.
 
 ![](media/api2.png)
 
