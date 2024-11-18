@@ -1,6 +1,6 @@
 ---
 layout: default
-title: API de transmissão de Lotes (Sistemas Próprios/Terceiros)
+title: API de transmissão de Fichas (Sistemas Próprios/Terceiros)
 parent: Apoio a Implantação
 nav_order: 9
 has_children: false
