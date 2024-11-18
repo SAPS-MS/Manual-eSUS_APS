@@ -20,45 +20,75 @@ last_modified_date: "04/11/2024"
 
 **Acompanhamento do Território:**
 - A funcionalidade foi evoluída para permitir cadastro e atualização dos imóveis e famílias diretamente pelo PEC, sem a necessidade utilização do módulo CDS
+
 - Possibilidade de visualização e correção de inconsistências de cadastro sem a necessidade de se aguardar o processamento após o envio de lotes;
+
 - Nova localização do imóvel "Periurbana" adicionada além das tradicionais "Urbana" e "Rural".
+
 - Implementação da possibilidade de alterar unidade e equipe responsáveis pelos imóveis visualizados no Acompanhamento do Território;
+
 - Implementação da opção de Recusa de cadastro nos imóveis cadastrados via Acompanhamento do Território;
+
 - Inclusão da funcionalidade de exportar um arquivo CSV com informações da microárea e filtros aplicados, permitindo a manipulação dos dados;
+
 - Implementação de filtros por condições de moradia nos imóveis visualizados no Acompanhamento do Território;
+
 - Implementação de Identificação de possíveis cadastros duplicados de imóveis, com recomendação de atualização no registro existente;
+
 - Possibilidade de realizar a sincronização do Aplicativo e-SUS Território com o PEC logo após a realização dos cadastros de imóveis e famílias, sem a necessidade de aguardar o processamento após o envio de lotes;
+
 - Visualização das anotações das visitas domiciliares registradas no Aplicativo e-SUS Território através do detalhamento das visitas na aba "Últimas visitas;
+
 - Visualização da geolocalização dos imóveis e visitas domiciliares quando registradas pelo Aplicativo e-SUS Território com geolocalização ativa;
+
 - Mudança no layout de visualização dos imóveis e seus detalhes como as novas abas: "Informações cadastrais", "Famílias e moradores", "Últimas visitas";
 
 **Acompanhamento das condições de saúde:**
+
 - Inclusão da visualização, de até 7 dias, dos relatórios que foram processados e que estão em processamento e inclusão da exportação do relatório em formato CSV, permitindo a manipulação dos dados;
 
 **Cuidado Compartilhado:**
 - Garantia do Acesso no Cuidado Compartilhado;
+
 - Inclusão de novas opções de condutas na discussão de caso no Cuidado Compartilhado.
 
 **Demais inovações:**
 - Formas de participação do cidadão e profissional do atendimento compartilhado na finalização do atendimento; 
+
 - Busca ativa de vacinação (filtros e grupos-alvos);
+
 - Videochamada do profissional convidado adaptada para dispositivos móveis (telefone celular e tablet);
+
 - Agendamento entre profissionais;
+
 - Inclusão do nome social do profissional;
+
 - Acesso rápido na agenda e aviso quando o cidadão foi a óbito;
+
 - Fracionamento de doses diárias na prescrição de  medicamentos;
+
 - Atestado Digital;
+
 - Acompanhamento de vulnerabilidade.
 
 ## Novidades - Ferramentas Administrativas
 - Unificação de bases;
+
 - Configuração HTTPS automatizada;
+
 - Histórico de acessos;
+
 - Bloqueio padrão da conta de usuário foi atualizado de 10 para 5 tentativas inválidas de autenticação;
+
 - Atualização de terminologias dos envios à RNDS;
+
 - Relatório de erros retornados pela RNDS;
+
 - Importar beneficiários do Bolsa Família;
-- Inclusão do nome social do profissional.
+
+- Inclusão do nome social do profissional;
+
+- API de transmissão de lotes (Sistemas Próprios/Terceiros)
 
 
 ### **Acompanhamento do Território - Cadastro de Imóveis e Famílias**  
@@ -480,6 +510,26 @@ Receita realizada com nome social
 ![](media/receituarionomesocial.png)
 
 Fonte: SAPS/MS
+
+### **API de transmissão de lotes (Sistemas Próprios/Terceiros para o PEC)**
+
+{: .atencao }
+Essa funcionalidade é voltada exclusivamente para municípios que utilizam sistemas próprios ou terceiros.
+
+A partir da versão **5.3.19** é possível enviar os registros via API. Para isso, é necessário que a instalação do PEC possua HTTPS configurado e que o Administrador da Instalação gere credencias para que os sistemas próprios ou terceiros enviem os lotes para a instalação.
+
+Após entrar no sistema como Administrador da Instalação, através da lateral é possível acessar o módulo de “Transmissão de dados”. No final da página existe uma nova seção “Credenciais para API”, criada para gerar as credenciais dos sistemas que irão enviar dados via API.
+
+![](media/api1.png)
+
+{: .nota }
+Ao gerar uma credencial, o usuário e a senha serão exibidos para o usuário apenas uma única vez. 
+
+Os lotes enviados via API podem ser visualizados pelo Administrador Municipal no módulo de “Transmissão de dados”.
+
+![](media/api2.png)
+
+Para mais detalhes, visualize o manual preliminar desta funcionalidade: [LINK]() 
 
 
 {: .nota }
