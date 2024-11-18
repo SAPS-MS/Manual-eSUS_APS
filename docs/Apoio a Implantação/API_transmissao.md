@@ -46,7 +46,7 @@ A geração da credencial deve ser feita pelo Administrador da Instalação, sen
 
 Após realizar o cadastro de um integrador, o sistema deve gerar o usuário e a senha que serão utilizados na autenticação da API. 
 
-> Observação: É possível que seja criada mais de uma credencial.
+> Observação: É possível que seja criada mais de uma credencial e todas elas podem estar ativas ao mesmo tempo.
 
 {: .atencao }
 Ao gerar uma credencial, o usuário e a senha serão exibidos uma única vez, então, tenha certeza de guardá-los devidamente, pois não é possível recuperar um usuário e senha gerados. Caso o usuário e a senha sejam perdidos, é necessário inativar a credencial e gerar uma outra.
