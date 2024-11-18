@@ -529,7 +529,7 @@ Os lotes enviados via API podem ser visualizados pelo Administrador Municipal no
 
 ![](media/api2.png)
 
-Para mais detalhes, visualize o manual preliminar desta funcionalidade: [LINK]() 
+Para mais detalhes, visualize o manual preliminar desta funcionalidade: [LINK](https://saps-ms.github.io/Manual-eSUS_APS/docs/Apoio%20a%20Implanta%C3%A7%C3%A3o/API_lotes/) 
 
 
 {: .nota }

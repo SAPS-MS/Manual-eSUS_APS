@@ -22,7 +22,7 @@ Essa funcionalidade é voltada exclusivamente para municípios que utilizam sist
 
 A partir da versão **5.3.19** é possível enviar os registros via API. Para isso, é necessário que a instalação do PEC possua HTTPS configurado e que o Administrador da Instalação gere credencias para que os sistemas próprios ou terceiros enviem os lotes para a instalação.
 
-### Requisito obrigatório - Acesso ao PEC e-SUS APS por endereço de domínio via protocolo HTTPS**
+### Requisito obrigatório - Acesso ao PEC e-SUS APS por endereço de domínio via protocolo HTTPS
 
 Manuais desta habilitação:
 
@@ -36,7 +36,7 @@ Configuração manual:
 
 Como Administrador da Instalação, através da lateral é possível acessar o módulo de “Transmissão de dados”. No final da página existe uma nova seção “Credenciais para API”, criada para gerar as credenciais dos sistemas que irão enviar dados via API.
 
-![](/docs/Últimas%20releases/media/api1.png)
+![](media/api1.png)
 
 A geração da credencial deve ser feita pelo Administrador da Instalação, sendo necessário informar os seguintes dados dos integradores:
 
@@ -88,7 +88,7 @@ Sugere-se que o erro retornado pela API seja armazenado pelo próprio integrador
 
 As fichas enviadas via API podem ser visualizadas pelo Administrador Municipal no módulo “Transmissão de dados”.
 
-![](/docs/Últimas%20releases/media/api2.png)
+![](media/api2.png)
 
 ### Dicionário de dados
 
