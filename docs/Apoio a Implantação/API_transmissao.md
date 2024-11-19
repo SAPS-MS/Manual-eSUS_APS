@@ -1,6 +1,6 @@
 ---
 layout: default
-title: API de transmissão de fichas (Sistemas Próprios/Terceiros)
+title: API de transmissão de registro no formato LEDI (Sistemas Próprios/Terceiros)
 parent: Apoio a Implantação
 nav_order: 9
 has_children: false
@@ -13,14 +13,14 @@ last_modified_date: "18/11/2024"
     </style>
 </head>
 
-# API de transmissão de fichas (Sistemas Próprios ou Terceiros para o PEC e-SUS APS)
+# API de transmissão de registro no formato LEDI (Sistemas Próprios ou Terceiros para o PEC e-SUS APS)
 
 {: .atencao }
 Essa funcionalidade é voltada exclusivamente para municípios que utilizam sistemas próprios ou terceiros.
 
 ## MANUAL PRELIMINAR
 
-A partir da versão **5.3.19** é possível enviar fichas diretamente dos sistemas próprios ou terceiros via API ao PEC. Para isso, é necessário que a instalação do PEC possua HTTPS configurado e que o Administrador da Instalação gere credenciais para que os sistemas próprios ou terceiros possam enviar fichas para a instalação de maneira automatizada.
+A partir da versão **5.3.19** é possível enviar registros no formato LEDI diretamente dos sistemas próprios ou terceiros via API ao PEC. Para isso, é necessário que a instalação do PEC possua HTTPS configurado e que o Administrador da Instalação gere credenciais para que os sistemas próprios ou terceiros possam enviar registros para a instalação de maneira automatizada.
 
 ### Requisito obrigatório - Acesso ao PEC e-SUS APS por endereço de domínio via protocolo HTTPS
 
@@ -34,7 +34,7 @@ Configuração manual:
 
 ### Geração da credencial
 
-Como Administrador da Instalação, através da lateral é possível acessar o módulo de “Transmissão de dados”. No final da página existe uma nova seção “Credenciais para API”, criada para gerar as credenciais dos sistemas que irão enviar dados via API.
+Como Administrador da Instalação, através da lateral é possível acessar o módulo de “Transmissão de dados”. No final da página existe uma nova seção “Credenciais para API”, criada para gerar as credenciais dos sistemas que irão enviar registros via API.
 
 ![](media/api1.png)
 
@@ -54,7 +54,7 @@ Ao gerar uma credencial, o usuário e a senha serão exibidos uma única vez, en
 ### Endpoints, variáveis e respostas da API
 
 {: .nota }
-Os municípios são responsáveis por desenvolver e manter o script que realizará os envios de fichas via API. Lembrando que recomendamos salvar o erros retornados pela API, caso seja necessário fazer alguma correção no modelo de dados enviados.
+Os municípios são responsáveis por desenvolver e manter o script que realizará os envios de registros via API. Lembrando que recomendamos salvar o erros retornados pela API, caso seja necessário fazer alguma correção no registro enviado.
 
 A API possui dois endpoints disponíveis:
 
@@ -68,7 +68,7 @@ O endpoint "**/api/recebimento/login**" deve ser utilizado para realizar a auten
 
 ![](media/apireq1.png)
 
-O endpoint "**/api/v1/recebimento/ficha**" deve ser utilizado para realizar o envio das fichas através da requisição do tipo POST. 
+O endpoint "**/api/v1/recebimento/ficha**" deve ser utilizado para realizar o envio de registros através da requisição do tipo POST. 
 
 {: .nota }
 O valor da variável deve ser um arquivo serializado em binário e o nome desse arquivo deve ser "uuid da ficha" +".esus". Segue um exemplo de ficha nomeada corretamente: "**0000007-cfdd9b1b-2c4d-4759-b254-76564ec219f3.esus**"
@@ -76,19 +76,19 @@ O valor da variável deve ser um arquivo serializado em binário e o nome desse 
 As respostas possíveis para o endpoint "**/api/v1/recebimento/ficha**" são:
 
 - Respostas de sucesso: deve ser retornado o status **200**;
-- Resposta de erro: deve ser retornado um código e uma mensagem do erro. Informando quais informações devem ser corrigidas para que a ficha seja aceita.
+- Resposta de erro: deve ser retornado um código e uma mensagem do erro. Informando quais informações devem ser corrigidas para que o registro seja aceito.
 
 ![](media/apireq2.png)
 
-Sugere-se que o erro retornado pela API seja armazenado pelo próprio integrador, possibilitando assim correção de fichas que foram enviadas com erro.
+Sugere-se que o erro retornado pela API seja armazenado pelo próprio integrador, possibilitando assim correção de registros que foram enviados com erro.
  
 ### Fluxograma para entendimento do funcionamento da API
 
 ![](media/apifluxo.png)
 
-### Visualização das fichas recebidas via API
+### Visualização dos registros recebidos via API
 
-As fichas enviadas via API podem ser visualizadas pelo Administrador Municipal no módulo “Transmissão de dados”.
+Os registros enviados via API podem ser visualizados pelo Administrador Municipal no módulo “Transmissão de dados”.
 
 ![](media/api2.png)
 

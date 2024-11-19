@@ -513,21 +513,21 @@ Receita realizada com nome social
 
 Fonte: SAPS/MS
 
-### **API de transmissão de fichas (Sistemas Próprios/Terceiros para o PEC)**
+### **API de transmissão de registro no formato LEDI (Sistemas Próprios/Terceiros para o PEC)**
 
 {: .atencao }
 Essa funcionalidade é voltada exclusivamente para municípios que utilizam sistemas próprios ou terceiros.
 
-A partir da versão **5.3.19** é possível enviar fichas diretamente dos sistemas próprios ou terceiros via API ao PEC. Para isso, é necessário que a instalação do PEC possua HTTPS configurado e que o Administrador da Instalação gere credenciais para que os sistemas próprios ou terceiros possam enviar fichas para a instalação de maneira automatizada.
+A partir da versão **5.3.19** é possível enviar registros no formato LEDI diretamente dos sistemas próprios ou terceiros via API ao PEC. Para isso, é necessário que a instalação do PEC possua HTTPS configurado e que o Administrador da Instalação gere credenciais para que os sistemas próprios ou terceiros possam enviar registros para a instalação de maneira automatizada.
 
-Após entrar no sistema como Administrador da Instalação, através da lateral é possível acessar o módulo de “Transmissão de dados”. No final da página existe uma nova seção “Credenciais para API”, criada para gerar as credenciais dos sistemas que irão enviar dados via API.
+Após entrar no sistema como Administrador da Instalação, através da lateral é possível acessar o módulo de “Transmissão de dados”. No final da página existe uma nova seção “Credenciais para API”, criada para gerar as credenciais dos sistemas que irão enviar registros via API.
 
 ![](media/api1.png)
 
 {: .nota }
 Ao gerar uma credencial, o usuário e a senha serão exibidos para o usuário apenas uma única vez. 
 
-As fichas enviadas via API podem ser visualizados pelo Administrador Municipal no módulo de “Transmissão de dados”.
+Os registros enviados via API podem ser visualizados pelo Administrador Municipal no módulo de “Transmissão de dados”.
 
 ![](media/api2.png)
 
