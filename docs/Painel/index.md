@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Painel e-SUS APS
-nav_order: 8
+nav_order: 10
 nav_exclude: false
 has_children: true
 last_modified_date: "19/11/2024"
@@ -18,7 +18,7 @@ e-SUS Atenção Primária à Saúde (e-SUS APS)
 PAINEL e-SUS APS
 {: .fs-8 }
 {: .text-center }
-MANUAL DE INSTALAÇÃO E USO
+MANUAL
 {: .fs-8 }
 {: .text-center }
 <br>
