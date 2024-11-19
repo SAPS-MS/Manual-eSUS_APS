@@ -90,7 +90,7 @@ last_modified_date: "04/11/2024"
 
 - Inclusão do nome social do profissional;
 
-- API de transmissão de fichas (Sistemas Próprios/Terceiros)
+- API de transmissão de registro no formato LEDI (Sistemas Próprios/Terceiros)
 
 
 ### **Acompanhamento do Território - Cadastro de Imóveis e Famílias**  
