@@ -97,7 +97,7 @@ last_modified_date: "04/11/2024"
 
 * A funcionalidade de Acompanhamento do Território, no menu lateral, foi evoluída para permitir cadastrar e atualizar os imóveis e famílias, condições de moradia e responsabilidades de acompanhamento, tudo isso em uma única interface moderna e intuitiva, sem a necessidade de gerar várias Fichas CDS manualmente. O sistema as gerará automaticamente, apenas para que a sua produção seja consolidada em relatórios e enviada ao Centralizar Nacional.
 
-* Nova localização do imóvel "Periurbana" adicionada além das tradicionais "Urbana" e "Rural".
+* Nova localização do imóvel "Periurbana" adicionada além das tradicionais "Urbana" e "Rural" (opção exclusiva para a Saúde Indígena em fase piloto).
 
 * Mudança no layout de visualização dos imóveis e seus detalhes como as novas abas: "Informações cadastrais", "Famílias e moradores", "Últimas visitas".
 
