@@ -23,7 +23,7 @@ last_modified_date: "04/11/2024"
 
 - Possibilidade de visualização e correção de inconsistências de cadastro sem a necessidade de se aguardar o processamento após o envio de lotes;
 
-- Nova localização do imóvel "Periurbana" adicionada além das tradicionais "Urbana" e "Rural".
+- Nova localização do imóvel "Periurbana" adicionada além das tradicionais "Urbana" e "Rural" (opção exclusiva para a Saúde Indígena em fase piloto).
 
 - Implementação da possibilidade de alterar unidade e equipe responsáveis pelos imóveis visualizados no Acompanhamento do Território;
 
