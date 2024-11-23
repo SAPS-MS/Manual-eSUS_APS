@@ -77,7 +77,6 @@ Assim como o PEC e-SUS APS, o desenvolvimento do Painel e-SUS APS é multiplataf
 
 Para a instalação do Painel e-SUS APS é necessário avaliar a o tamanho base de dados que será processada pelo Painel e-SUS APS, o que deve influenciar na necessidade de memória RAM e do uso de processamento do servidor. 
 
-
 {: .nota }
 Recomenda-se que a instalação do Painel e-SUS APS seja realizada em um servidor diferente da instalação do Prontuário Eletrônico do Cidadadão (PEC).
 
@@ -100,13 +99,7 @@ Para a instalação remota, o Painel e-SUS APS pode ser instalado em uma estrutu
 
 O primeiro passo para instalar o **Painel** é realizar o download do instalador. O arquivo de instalação do *Painel e-SUS APS* é um arquivo ***.exe,*** podendo ser baixado no link a seguir:
 
-**Windows**
-
-[paineis-esus-bucket-new.s3.sa-east-1.amazonaws.com](https://paineis-esus-bucket-new.s3.sa-east-1.amazonaws.com/painel-esus-setup1.0.15.2.exe)
-
-**Linux**
-
-[painel-esus-public.s3.sa-east-1.amazonaws.com](https://painel-esus-public.s3.sa-east-1.amazonaws.com/instalador/painel-esus-setup1.0.16.tar.gz)
+[<img alt="alt_text" src="media/download.gif"/>](https://paineis-esus-bucket-new.s3.sa-east-1.amazonaws.com/painel-esus-setup1.0.15.2.exe)
 
 Ao clicar no link, o download do arquivo **.exe** será iniciado automaticamente no navegador. Caso o download não ocorra de imediato, clicar com o botão direito no link e selecionar a opção **"Salvar link como..."** para iniciar manualmente o processo de download.
 
@@ -173,15 +166,15 @@ Figura 12 - Arquivo .txt “credenciais” PEC e-SUS APS.
 De posse desses dados, preencher os campos da **Aba “Banco de dados”**, considerando o exemplo abaixo e Figura 13, conforme as configurações padrão da Instalação do PEC e-SUS APS:
 
 - **Host =** host de acesso ao banco de dados da UBS. 
-*Para instalações do Painel e-SUS APS diretamente no servidor, utilizar o **padrão: localhost***
+*Para instalações do Painel e-SUS APS diretamente no servidor, utilizar o padrão: **localhost**
 - **Base de dados =** nome da base de dados da UBS.
-***Padrão: esus***
+Padrão: **esus**
 - **Usuário do banco de dados =** usuário de acesso ao banco de dados da UBS. 
-*Utilizar por padrão o usuário esus_leitura ou outro que possua acesso somente leitura do banco de dados.*
+Utilizar por padrão o usuário **esus_leitura** ou outro que possua acesso somente leitura do banco de dados.
 - **Senha do banco de dados =** senha de acesso ao banco de dados da UBS. 
-*Por padrão está presente no arquivo credenciais, conforme Figura 11.*
+Por padrão está presente no arquivo **credenciais**, conforme Figura 11.
 - **Porta do banco de dados =** porta de acesso ao banco de dados da UBS.
-*Padrão: 5433*
+Padrão: **5433**
 
 ![Figura 13 - Configurações padrão do PEC e-SUS APS.](media/figura13-configuracao-pec-painel.png)
 Figura 13 - Configurações padrão do PEC e-SUS APS.
@@ -189,6 +182,7 @@ Figura 13 - Configurações padrão do PEC e-SUS APS.
 Após preencher todos os campos desta aba, clicar no botão "**Testar Conexão**" ao final da seção para verificar a conectividade com a base de dados do PEC e-SUS APS. Uma mensagem será exibida, sinalizando que a conexão foi estabelecida (**Figura 14**).
 
 ![Figura 14 - Conexão estabelecida.](media/figura14-conexao-estabelecida.png)
+
 Figura 14 - Conexão estabelecida.
 
 {: .atencao }
@@ -197,8 +191,8 @@ Figura 14 - Conexão estabelecida.
 Uma vez confirmada a conexão, seguir para aba "Painel e-SUS" e preencher todos os campos, como demonstra a **Figura 15**. Considerar os exemplos a seguir para o preenchimento dos campos:
 
 - **Código IBGE da Cidade** = código IBGE correspondente ao município em que o sistema está sendo instalado. O código deverá ser composto dos 7 dígitos numéricos do IBGE. Caso seja necessário maiores informações, buscar no site do IBGE: [https://www.ibge.gov.br/cidades-e-estados](https://www.ibge.gov.br/cidades-e-estados) .
-- **Usuário de acesso ao painel-esus:** nome do usuário administrador para acesso ao Painel. Padrão: **admin**
-- **Senha de acesso ao painel-esus:** senha do usuário administrador.
+- **Usuário de acesso ao painel-esus:** criar um nome de usuário para o administrador do Painel. Padrão: **admin**
+- **Senha de acesso ao painel-esus:** criar uma senha do usuário administrador.
 - **Url de login:** Endereço para acesso ao PEC e-SUS APS. Importante destacar que esta configuração deve estar correta para que o Painel seja acessado pelos profissionais utilizando as mesmas credenciais do PEC e-SUS APS.
     
     **Exemplos:**
@@ -227,11 +221,13 @@ Para iniciar o Painel, basta clicar no ícone do Painel (**Figura 17**) acessand
 - **Pasta de Instalação**: Acessar o diretório de instalação do Painel e-SUS APS e clicar no executável denominado "painel-esus".
 
 ![Figura 17 - Ícone do Painel.](media/figura17-icone-painel.png)
+
 Figura 17 - Ícone do Painel.
 
 Ao executar a aplicação, um terminal será automaticamente aberto, como apresentado na **Figura 18**.
 
 ![Figura 18 - Início do carregamento do Painel.](media/figura18-carregamento-painel.png)
+
 Figura 18 - Início do carregamento do Painel.
 
 O processo de inicialização do Painel pode levar vários minutos, considerando o tamanho da base de dados do PEC e-SUS APS. Durante este processo, é essencial aguardar a conclusão total antes de iniciar a utilização do Painel.
@@ -239,11 +235,13 @@ O processo de inicialização do Painel pode levar vários minutos, considerando
 Dependendo da versão do sistema operacional utilizado, ao final do processo de inicialização será necessário fornecer permissões de acesso novamente ao Painel e-SUS APS. Nesse caso, ao final do processo de inicialização do sistema, uma janela como a apresentada na **Figura 19** será exibida. Para seguir com o processo de inicialização clique no botão “**Permitir**”. 
 
 ![Figura19: Permissão Firewall Windows.](media/figura19-permissao-firewall.png)
+
 Figura 19: Permissão Firewall Windows.
 
 Após completo o carregamento do Painel, o terminal de execução da aplicação exibirá a seguinte mensagem, conforme a **Figura 20**.
 
 ![Figura 20 - Finalização do carregamento do Painel.](media/figura20-finalizacao-carregamento-painel.png)
+
 Figura 20 - Finalização do carregamento do Painel.
 
 Destaca-se que, para que o Painel seja acessado, é necessário que este terminal permaneça em execução. Caso o terminal seja fechado, a execução da aplicação do Painel e-SUS APS é encerrada.
@@ -253,7 +251,7 @@ Destaca-se que, para que o Painel seja acessado, é necessário que este termina
 Ao completar todos os passos descritos anteriormente, o Painel já se encontrará apto para acesso. Para acessá-lo, abrir em um navegador web o seguinte endereço: [http://localhost:5001/](http://localhost:5001/)**.** É possível acessar o Painel via IP público ou domínio, desde que o computador onde o Painel e-SUS APS foi instalado tenha essas possibilidades e a porta 5001 esteja devidamente configurada para acesso externo.
 
 {: .atencao }
-**Atenção: Durante a utilização do Painel, é importante monitorar o uso da Unidade Central de Processamento (CPU) e da memória do servidor do banco de dados do PEC e-SUS APS. Isso ajuda a garantir que a execução do Painel não comprometa a performance do prontuário, especialmente em servidores com configurações inferiores às recomendadas, conforme descrito no Manual do e-SUS APS – Apoio à Implantação - Preparar Ambiente: LINK.**
+Durante a utilização do Painel, é importante monitorar o uso do processamento (CPU) e da memória do servidor do banco de dados do PEC e-SUS APS. Isso ajuda a garantir que a execução do Painel não comprometa a performance do prontuário, especialmente em servidores com configurações inferiores às recomendadas, conforme descrito no Manual do e-SUS APS – Apoio à Implantação - Preparar Ambiente ([LINK](https://saps-ms.github.io/Manual-eSUS_APS/docs/Apoio%20a%20Implanta%C3%A7%C3%A3o/Apoio_implantacao/))
 
 
 Ao abrir a aplicação, terá o direcionamento para a tela de login. No campo **Login**, inserir o CPF do usuário e no campo **Senha**, digitar a senha correspondente. O acesso do administrador do Painel é configurado durante a instalação inicial, enquanto os profissionais de saúde utilizarão as mesmas credenciais (login e senha) do PEC e-SUS APS. Após preencher os campos, clicar no botão **Entrar** para iniciar a navegação no Painel, como ilustra a **Figura 21**.
@@ -271,7 +269,7 @@ Essa seção irá abordar o processo de instalação do Painel e-SUS em ambiente
 
 O primeiro passo para instalar o **Painel e-SUS APS** no ambiente Linux ****é realizar o download da versão mais atualizada do sistema. Diferentemente da versão windows do **Painel e-SUS APS**, a versão Linux do sistema é instalada através do arquivo **.tar.gz,** disponível para download no link abaixo: 
 
-[painel-esus-public.s3.sa-east-1.amazonaws.com](https://painel-esus-public.s3.sa-east-1.amazonaws.com/instalador/painel-esus-setup1.0.16.tar.gz)
+[<img alt="alt_text" src="media/download.gif"/>](https://painel-esus-public.s3.sa-east-1.amazonaws.com/instalador/painel-esus-setup1.0.16.tar.gz)
 
 Ao clicar no link, o download do arquivo **.tar.gz** será iniciado automaticamente no navegador. Caso o download não ocorra de imediato, clicar com o botão direito no link e selecionar a opção **"Salvar link como..."** para iniciar manualmente o processo de download.
 
@@ -310,7 +308,7 @@ O processo de configuração das variáveis de ambiente é dividido em duas etap
 - **Painel e-SUS:** configuração das variáveis de login no sistema.
 
 {: .atencao }
-**Atenção: É imprescindível preencher todos os campos de maneira correta. Para isto, é necessário o acesso ao arquivo “credenciais” presente no diretório raiz da Instalação do PEC e-SUS APS.**
+É imprescindível preencher todos os campos de maneira correta. Para isto, é necessário o acesso ao arquivo “credenciais” presente no diretório raiz da Instalação do PEC e-SUS APS.**
 
 
 
@@ -508,7 +506,7 @@ Ao completar todos os passos descritos anteriormente, o Painel já se encontrar�
 
 Ao abrir a aplicação, terá o direcionamento para a tela de login. No campo **Login**, inserir o CPF do usuário e no campo **Senha**, digitar a senha correspondente. O acesso do administrador do Painel é configurado durante a instalação inicial, enquanto os profissionais de saúde utilizarão as mesmas credenciais (login e senha) do PEC e-SUS APS. Após preencher os campos, clicar no botão **Entrar** para iniciar a navegação no Painel, como ilustra a **Figura 34**.
 
-![Figura 34 – Tela de acesso ao Painel e-SUS APS](media/figura20-tela-inicial-painel.png)
+![Figura 34 – Configurações Painel e-SUS APS](media/figura34-tela-inicial-painel.png)
 Figura 34 – Tela de acesso ao Painel e-SUS APS
 
 ## 5 Alterar configurações de ambiente
