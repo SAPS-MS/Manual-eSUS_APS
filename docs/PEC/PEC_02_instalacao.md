@@ -51,7 +51,7 @@ O banco de dados PostgreSQL é um *software* livre, portanto, sem custo de licen
 {: .atencao }
 **Banco H2** - desde a versão 2.0, o suporte ao Banco de Dados **H2** foi **descontinuado** para instalações do Sistema e-SUS APS com **PEC**, estando disponível apenas para o Sistema com CDS (Offline).
 
-**Banco de Dados Oracle** - optando por este banco de dados, podem ser utilizadas as versões Oracle XE 11g, Oracle Standard Edition 11g ou Oracle Enterprise Edition 11g.
+**Banco de Dados Oracle** - optando por este banco de dados, podem ser utilizadas as versões Oracle 12.2c ou superior, Oracle Standard Edition 12.2c ou superior, ou Oracle Enterprise Edition 12.2c ou superior.
 
 - Oracle XE: é gratuito e possui as seguintes **limitações** no seu uso:
 

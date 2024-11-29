@@ -41,7 +41,13 @@ Tutorial desta habilitação: [LINK](https://saps-ms.github.io/Manual-eSUS_APS/d
 
 **2º - Acesso ao PEC e-SUS APS por endereço de domínio via protocolo HTTPS**
 
-Tutorial desta habilitação: Servidores WINDOWS: [LINK](https://saps-ms.github.io/Manual-eSUS_APS/docs/Apoio%20a%20Implanta%C3%A7%C3%A3o/Certificado_Https_Windows/) / Servidores LINUX: [LINK](https://saps-ms.github.io/Manual-eSUS_APS/docs/Apoio%20a%20Implanta%C3%A7%C3%A3o/Certificado_Https_Linux/)
+Manuais desta habilitação:
+
+Configuração automatizada pelo PEC e-SUS APS: [LINK](https://saps-ms.github.io/Manual-eSUS_APS/docs/Apoio%20a%20Implanta%C3%A7%C3%A3o/HTTPS_Automatizado/)
+
+Configuração manual:
+- Servidores WINDOWS: [LINK](https://saps-ms.github.io/Manual-eSUS_APS/docs/Apoio%20a%20Implanta%C3%A7%C3%A3o/Certificado_Https_Windows/)
+- Servidores LINUX: [LINK](https://saps-ms.github.io/Manual-eSUS_APS/docs/Apoio%20a%20Implanta%C3%A7%C3%A3o/Certificado_Https_Linux/)
 
 ![alt text](media/gov02.png)
 
