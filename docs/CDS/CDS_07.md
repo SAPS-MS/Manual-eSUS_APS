@@ -40,7 +40,7 @@ Figura 7.1 - Cabeçalho da Ficha de Visita Domiciliar e Territorial
 
 ![](media/cds_image61.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 Quadro 7.1 -- Identificação e controle da digitação
 
@@ -59,7 +59,7 @@ Figura 7.2 -- Identificação do profissional e do estabelecimento de saúde
 
 ![](media/cds_image8.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 Quadro 7.2 -- Identificação do estabelecimento de saúde e do profissional
 
@@ -71,7 +71,7 @@ Quadro 7.2 -- Identificação do estabelecimento de saúde e do profissional
 |INE\** \***|Código Identificador Nacional de Equipes (INE) no Cadastro Nacional de Estabelecimentos de Saúde (CNES) do Ministério da Saúde, onde o profissional está lotado.|
 |DATA\** \***|Anote o dia/mês/ano em que foram realizadas as visitas.|
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 \* *Campo de preenchimento obrigatório.*
 
@@ -84,7 +84,7 @@ Figura 7.3 -- Identificação do usuário e visita compartilhada
 
 ![](media/cds_image63.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 Quadro 7.3 -- Identificação do usuário e visita compartilhada
 
@@ -100,7 +100,7 @@ Quadro 7.3 -- Identificação do usuário e visita compartilhada
 |     SEXO*    |     Assinalar F – feminino ou M – masculino.    |
 |     VISITA COMPARTILHADA COM   OUTRO PROFISSIONAL    |     Campo utilizado para   identificar se a visita de um ACS ou ACE foi realizada com outro   profissional. Marque um “X” na linha quando for o caso.    |
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 \* *Campo de preenchimento obrigatório.*
 
@@ -114,16 +114,16 @@ Figura 7.4 -- Motivo da visita domiciliar
 
 ![](media/cds_image66.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 Quadro 7.4 -- Motivo da visita
 
 |CAMPO|ORIENTAÇÃO SOBRE O BLOCO/PREENCHIMENTO|
 |-|-|
 |CADASTRAMENTO/ATUALIZAÇÃO|	Campo destinado ao registro da ação de cadastro ou  atualização de cadastro da Atenção Básica, que pode ser, cadastro individual (CNS do cidadão) ou cadastro domiciliar e territorial (CNS do responsável familiar).|
-|VISITA PERIÓDICA|	Campo destinado ao registro da abordagem periódica realizada pelos ACS às famílias que não apresentam situações de saúde (doenças crônicas, fases da vida - gestante, criança, idoso) mas que são visitadas na rotina do ACS ou ACE. Para registrar a visita periódica, deve-se:<br> ●	NÚMERO DO CARTÃO SUS E DATA DE NASCIMENTO: registrar somente o número do CNS e data de nascimento do responsável familiar;<br> ●	MOTIVO DA CONSULTA: marcar o campo “Visita periódica”;<br> ●	DESFECHO: visita realizada.<br> <br>  ATENÇÃO! O preenchimento da ficha como abordagem familiar só será aceito no sistema como visita periódica.|
+|VISITA PERIÓDICA|	Campo destinado ao registro da abordagem periódica realizada pelos ACS às famílias que não apresentam situações de saúde (doenças crônicas, fases da vida - gestante, criança, idoso) mas que são visitadas na rotina do ACS ou ACE. Para registrar a visita periódica, deve-se:<br> ●	NÚMERO DO CARTÃO SUS E DATA DE NASCIMENTO: registrar somente o número do CNS e data de nascimento do responsável familiar;<br> ●	MOTIVO DA VISITA: marcar o campo “Visita periódica”;<br> ●	DESFECHO: visita realizada.<br> <br>  ATENÇÃO! O preenchimento da ficha como abordagem familiar só será aceito no sistema como visita periódica.|
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 ### 7.2.1 Busca Ativa
 
@@ -136,7 +136,7 @@ Quadro 7.5 -- Motivo da visita -- Busca ativa
 |     VACINA    |     Busca de usuários com   situação vacinal atrasada ou para campanhas de vacinação.    |
 |     CONDICIONALIDADES DO BOLSA   FAMÍLIA    |     Busca de usuários que fazem   parte do Programa Bolsa Família e precisam estar em dia com a avaliação das   condicionalidades do programa.    |
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 ### 7.2.2 Acompanhamento
 
@@ -172,7 +172,7 @@ Quadro 7.6 -- Motivo de visita -- Acompanhamento
 |     ORIENTAÇÃO/PREVENÇÃO    |     Realização   de orientações relacionadas às   condições de saúde e situações apresentadas pelo cidadão   ou para prevenção de agravos.    |
 |     OUTROS    |     Outras   ações que não constam nas descrições acima.    |
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 ### 7.2.3 Controle ambiental/vetorial
 
@@ -182,7 +182,7 @@ Figura 7.5 -- Controle ambiental/vetorial
 
 ![](media/cds_image67.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 |VISITA PERIÓDICA|
 |-|
@@ -197,7 +197,7 @@ Figura 7.6 -- Antropometria
 
 ![](media/cds_image68.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 Quadro 7.7 -- Antropometria
 
@@ -206,7 +206,7 @@ Quadro 7.7 -- Antropometria
 |PESO (KG)|Anote o peso do usuário em quilogramas.|
 |ALTURA (CM)|Anote a altura do usuário em centímetros.|
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 ## 7.4 Sinais Vitais
 
@@ -216,7 +216,7 @@ Figura 7.8 -- Sinais Vitais
 
 ![](media/cds_image104.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 Quadro 7.8 -- Sinais Vitais
 
@@ -233,7 +233,7 @@ Figura 7.9 -- Glicemia
 
 ![](media/cds_image105.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 Quadro 7.9 -- Glicemia
 
@@ -250,7 +250,7 @@ Figura 7.10 -- Desfecho**
 
 ![](media/cds_image69.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 Quadro 7.10 -- Desfecho
 
@@ -260,7 +260,7 @@ Quadro 7.10 -- Desfecho
 |VISITA RECUSADA|Visita recusada pelo cidadão, impossibilitando realizar a ação pretendida.|
 |AUSENTE|O cidadão procurado estava ausente ou não foi possível contatá-lo.|
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 {: .atencao }
 quando a visita for recusada ou o cidadão estiver ausente, o profissional deverá apontar um dos desfechos: "Visita recusada" ou "Ausente", lembrando sempre de preencher a identificação do profissional, lotação e data, para que seja possível a inserção da ficha no sistema.
