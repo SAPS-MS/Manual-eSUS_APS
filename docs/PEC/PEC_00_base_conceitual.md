@@ -326,7 +326,7 @@ Ainda prevendo o acesso à saúde da população LGBT sem impedimentos no sistem
 
 O Termo de Uso e Condições Gerais do Sistema e-SUS APS, é um termo de aceitação obrigatória. Este tem como principal objetivo, esclarecer os direitos e obrigações entre usuário e fornecedor do software, além de, esclarecer alguns pontos importantes sobre a responsabilidade do profissional de saúde em relação a privacidade do cidadão. O texto do termo disponível no sistema está descrito a seguir:
 
-Este documento busca esclarecer os direitos e obrigações do fornecedor e do usuário do Sistema e-SUS Atenção Básica (e-SUS APS), bem como as condições da correta utilização do referido sistema.
+Este documento busca esclarecer os direitos e obrigações do fornecedor e do usuário do Sistema e-SUS Atenção Primária (e-SUS APS), bem como as condições da correta utilização do referido sistema.
 
 "Ao utilizar o e-SUS APS você se torna um **USUÁRIO**, e isso implica a aceitação plena e sem reserva de todos os itens do presente **TERMO**.
 

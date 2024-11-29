@@ -80,7 +80,7 @@ Exemplo:
 Com o código:
 
 ```md
-{: .nota }
+{: .atencao }
 Para ter mais detalhes sobre as versões com compatibilidade entre Aplicativo e-SUS Atividade Coletiva e Sistema e-SUS APS com PEC [clique aqui](http://dab.saude.gov.br/portaldab/esus.php?conteudo=download).
 ```
 

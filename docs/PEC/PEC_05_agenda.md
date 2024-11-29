@@ -87,7 +87,7 @@ Quando o agendamento for entre profissionais, deverá selecionar o profissional 
 ![](media/agendamentoentreprofissionais6.png)
 
 {: .nota }
-Quando a funcionalidade do Agendamento Online está ativada, todo agendamento salvo no módulo de Agenda do PEC é enviado para o servidor de agendamento online, que dispara uma notificação "*push"* com informações relacionadas a este agendamento para o aplicativo "ConecteSUS". Neste caso, como o agendamento foi realizado presencialmente na UBS, não há restrição em relação ao cidadão pertencer ao território de referência da equipe de atenção básica.
+Quando a funcionalidade do Agendamento Online está ativada, todo agendamento salvo no módulo de Agenda do PEC é enviado para o servidor de agendamento online, que dispara uma notificação "*push"* com informações relacionadas a este agendamento para o aplicativo "ConecteSUS". Neste caso, como o agendamento foi realizado presencialmente na UBS, não há restrição em relação ao cidadão pertencer ao território de referência da equipe de atenção primária.
 
 Conforme os agendamentos são realizados para as datas futuras, a agenda do profissional vai sendo preenchida nos horários escolhidos. Este agendamento pode ser realizado pelo recepcionista da UBS, pelo próprio profissional ao finalizar a escuta inicial ou ao finalizar o atendimento, ou ainda, por outros profissionais da equipe.
 
@@ -166,16 +166,16 @@ Através da agenda, é possível identificar a situação do agendamento:
 
 ## 5.1.4 Agendamento Online
 
-O módulo de **Agendamento Online** foi desenvolvido conjuntamente entre o Departamento de Saúde da Família - DESF/SAPS e o Departamento de Informática do SUS - DATASUS/SE, a fim de facilitar o acesso dos cidadãos aos serviços de Atenção Básica em todo o país. Dessa forma, foi realizado o desenvolvimento da ferramenta de Agenda Online no PEC e adequações no aplicativo "ConecteSUS Cidadão" para a efetivação desta funcionalidade.
+O módulo de **Agendamento Online** foi desenvolvido conjuntamente entre o Departamento de Saúde da Família - DESF/SAPS e o Departamento de Informática do SUS - DATASUS/SE, a fim de facilitar o acesso dos cidadãos aos serviços de Atenção Primária em todo o país. Dessa forma, foi realizado o desenvolvimento da ferramenta de Agenda Online no PEC e adequações no aplicativo "ConecteSUS Cidadão" para a efetivação desta funcionalidade.
 
-Este módulo está disponível para as equipes de Atenção Básica que utilizam o PEC do e-SUS APS, a partir da versão 3.1, e foi pensado considerando-se os avanços tecnológicos alcançados pela Estratégia e no aumento de acesso constante da população a aparelhos do tipo *smartphones*.
+Este módulo está disponível para as equipes de Atenção Primária a Saúde que utilizam o PEC do e-SUS APS, a partir da versão 3.1, e foi pensado considerando-se os avanços tecnológicos alcançados pela Estratégia e no aumento de acesso constante da população a aparelhos do tipo *smartphones*.
 
 O Agendamento Online consiste na disponibilização de horários da agenda dos profissionais da APS para esse tipo de agendamento, entendendo que esta não deve ser a forma principal ou preferencial de agendamento nas equipes, sendo assim, a equipe deve definir quais serão os horários disponíveis para esse tipo de agendamento, considerando os agendamentos para cuidado continuado e outros tipos de agendamento a serem realizados diretamente na Unidade de Saúde ou para consultas de retorno.
 
 Para uso desta funcionalidade, é necessário que a UBS tenha boa conectividade com a internet, pois utiliza-se um servidor nacional para troca de informação entre a UBS e os cidadãos que utilizam o aplicativo "ConecteSUS Cidadão".
 
 {: .atencao }
-A funcionalidade de agendamento de consulta na Atenção Básica por meio do aplicativo "ConecteSUS Cidadão" está disponível apenas para usuários que fazem parte do território de equipes de atenção básica. Para tanto é necessário que o cidadão esteja cadastrado no território da equipe através dos cadastros individual e domiciliar.
+A funcionalidade de agendamento de consulta na Atenção Primária por meio do aplicativo "ConecteSUS Cidadão" está disponível apenas para usuários que fazem parte do território de equipes de atenção primária. Para tanto é necessário que o cidadão esteja cadastrado no território da equipe através dos cadastros individual e domiciliar.
 
 {: .nota }
 A mudança de configuração da agenda pode ser realizada a qualquer momento, porém não altera os horários agendados previamente.

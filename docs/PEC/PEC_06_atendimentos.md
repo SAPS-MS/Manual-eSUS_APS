@@ -1921,7 +1921,7 @@ Para concluir o atendimento, na tela de finalização do atendimento, informe:
 ![](media/pec_image515.png)
 
 {: .dica }
-Os **procedimentos clínicos** são aqueles que são executados diretamente no cidadão, como por exemplo uma sutura, uma sessão de auriculoterapia ou tratamento de pé diabético, e que informam um contexto clínico mais específico, apoiando a tomada de decisão clínica e a continuidade do cuidado. Os **procedimentos administrativos** são aqueles que representam uma informação em saúde mais ampla e inespecífica como tipos de consulta (ex. consulta médica em atenção básica) e não necessariamente apoiam a tomada de decisão clínica.
+Os **procedimentos clínicos** são aqueles que são executados diretamente no cidadão, como por exemplo uma sutura, uma sessão de auriculoterapia ou tratamento de pé diabético, e que informam um contexto clínico mais específico, apoiando a tomada de decisão clínica e a continuidade do cuidado. Os **procedimentos administrativos** são aqueles que representam uma informação em saúde mais ampla e inespecífica como tipos de consulta (ex. consulta médica em atenção primária) e não necessariamente apoiam a tomada de decisão clínica.
 
 - **Lista de CID10 inseridos na avaliação:** lista de códigos CID10 inseridos na avaliação, para os casos de consultas médicas.
 
@@ -2969,7 +2969,7 @@ Os atendimentos dos profissionais auxiliares terão o mesmo formato que um atend
 
 # 6.9 Envio de atendimento individual para Rede Nacional de Dados em Saúde (RNDS)
 
-O modelo de informação do Registro de Atendimento Clínico (RAC) foi instituído pela [PORTARIA Nº 234, DE 18 DE JULHO DE 2022](https://www.in.gov.br/en/web/dou/-/portaria-n-234-de-18-de-julho-de-2022-416506215) a qual determina que o RAC é "o registro de dados essenciais de uma consulta realizada a um indivíduo no âmbito da atenção básica, especializada ou domiciliar (atendimento diário). Apresenta informações relacionadas ao acompanhamento do indivíduo como medições, diagnósticos e/ou problemas avaliados, exames, procedimentos, pequenas cirurgias e desfecho".
+O modelo de informação do Registro de Atendimento Clínico (RAC) foi instituído pela [PORTARIA Nº 234, DE 18 DE JULHO DE 2022](https://www.in.gov.br/en/web/dou/-/portaria-n-234-de-18-de-julho-de-2022-416506215) a qual determina que o RAC é "o registro de dados essenciais de uma consulta realizada a um indivíduo no âmbito da atenção primária, especializada ou domiciliar (atendimento diário). Apresenta informações relacionadas ao acompanhamento do indivíduo como medições, diagnósticos e/ou problemas avaliados, exames, procedimentos, pequenas cirurgias e desfecho".
 
 Esse modelo de informação quando usado pelos diversos níveis de atenção viabilizam que todos enviem dados de forma padronizada para a RNDS. Logo, quando os profissionais de saúde acessarem o Conecte SUS profissional terão acesso às informações clínicas do cidadão nos vários pontos da Rede de Atenção à Saúde. Isso auxiliará os profissionais de saúde da APS a fazerem a coordenação do cuidado e a terem um olhar longitudinal da saúde do cidadão.
 
