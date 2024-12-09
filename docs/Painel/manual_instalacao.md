@@ -464,7 +464,7 @@ services:
       PASSWORD_SALT: 'painel'
       BRIDGE_LOGIN_URL: ''
       ENV: linux
-      GENERATE_BASE: 'true'
+      GENERATE_BASE: 'True'
     ports:
       - 5003:5001
 ```
