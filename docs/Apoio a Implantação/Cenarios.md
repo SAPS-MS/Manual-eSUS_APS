@@ -23,7 +23,10 @@ O Prontuário Eletrônico e-SUS APS pode alcançar seu máximo potencial ao ser 
 
 Neste sentido, é possível considerar uma perspectiva de estágio mais avançado a partir do acesso em tempo real e simultâneo a toda a rede de APS e serviços especializados, de acordo com a conformação municipal, regional ou estadual da Rede de Atenção à Saúde, bem como a arquitetura de infraestrutura adequada ao número de acessos simultâneos de usuários ao Prontuário Eletrônico e-SUS APS, além da garantia de boa performance e conexão de internet estável. Também é efetivado o envio de dados ao Centralizador Nacional/SISAB e Centralizador Estadual, quando aplicável, diariamente.
 
-Para garantir um acesso seguro à instalação, o protocolo HTTPS deve estar habilitado. O envio direto de registros à Rede Nacional de Dados em Saúde (RNDS) ocorre em tempo real, mediante a habilitação do certificado digital na instalação. O login gov.br deve estar habilitado e a sincronização com o CADSUS precisa estar ativa. Para garantir o envio de e-mails relacionados a agendamentos, prescrição digital de medicamentos e atestados digitais, o servidor SMTP deve estar habilitado.
+{: .nota }
+Para garantir um acesso seguro à instalação, o protocolo HTTPS deve estar habilitado. 
+
+O envio direto de registros à Rede Nacional de Dados em Saúde (RNDS) ocorre em tempo real, mediante a habilitação do certificado digital na instalação. O **login gov.br** deve estar habilitado e a sincronização com o CADSUS precisa estar ativa. Para garantir o envio de e-mails relacionados a agendamentos, prescrição digital de medicamentos e atestados digitais, o servidor SMTP deve estar habilitado.
 
 Como protocolo de segurança, recomenda-se a realização de backup diário e automático do banco de dados da instalação, devidamente ativo e configurado. Toda essa arquitetura deve ser gerenciada por uma equipe de Tecnologias Digitais de Informação e Comunicação capacitada para garantir a estabilidade, integridade, segurança, otimização e eficiência do ecossistema.
 
