@@ -34,6 +34,6 @@ As estações de trabalho são adequadas e disponíveis para todos os profission
 
 Os profissionais de saúde devem utilizar o SUS Digital Profissional para acesso ao histórico clínico do cidadão a partir das informações existentes na RNDS. Já o cidadão acessa informações sobre seus registros de vacinação, atendimentos, atestados e prescrições digitais pelo aplicativo Meu SUS Digital.
 
+ [Visão Geral da Estratégia e-SUS APS](![](media/cenarios.png)) 
 
-![](media/cenarios.png)
-
+![](media/cenarios.png))
