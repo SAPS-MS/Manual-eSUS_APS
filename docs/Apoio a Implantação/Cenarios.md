@@ -17,7 +17,7 @@ last_modified_date: "12/12/2024"
     </style>
 </head>
 
-Após 11 anos, a Estratégia e-SUS APS transformou o cenário de informatização e conectividade das Unidades Básicas de Saúde (UBS) no Brasil. Com avanços significativos, o Prontuário Eletrônico e-SUS APS já está implementado em mais de 4 mil municípios brasileiros, consolidando-se como um pilar essencial na gestão do cuidado da Atenção Primária à Saúde (APS).
+Após 11 anos, a **Estratégia e-SUS APS** transformou o cenário de informatização e conectividade das Unidades Básicas de Saúde (UBS) no Brasil. Com avanços significativos, o **Prontuário Eletrônico e-SUS APS** já está implementado em mais de 4 mil municípios brasileiros, consolidando-se como um pilar essencial na gestão do cuidado da Atenção Primária à Saúde (APS).
 
 O Prontuário Eletrônico e-SUS APS pode alcançar seu máximo potencial ao ser implementado de maneira estratégica e integrada. Essa evolução requer um modelo de implantação robusto, centralizado em uma única instalação, capaz de otimizar os recursos avançados do sistema, fortalecer a infraestrutura tecnológica e assegurar a qualidade e a integridade dos dados, promovendo maior eficiência e integração em toda a Rede de Atenção à Saúde.
 
