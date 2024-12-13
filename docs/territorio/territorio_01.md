@@ -37,7 +37,7 @@ Sua experiência de uso poderá contribuir para a evolução do aplicativo e-SUS
 
 ## 1.1 Versão do Aplicativo Usado neste Manual
 
-Este manual foi elaborado usando como referência o Aplicativo e-SUS Território em sua **versão 4.3.11**. O acesso às informações sobre a versão do aplicativo, bem como as alterações realizadas nesta e nas versões anteriores, podem ser visualizadas na opção **Sobre**, acessada no menu principal do aplicativo![](media/image2.png)
+Este manual foi elaborado usando como referência o Aplicativo e-SUS Território em sua **versão 4.4.0**. O acesso às informações sobre a versão do aplicativo, bem como as alterações realizadas nesta e nas versões anteriores, podem ser visualizadas na opção **Sobre**, acessada no menu principal do aplicativo![](media/image2.png)
 
 Figura 1.1 -- Versão do Aplicativo e-SUS Território
 
