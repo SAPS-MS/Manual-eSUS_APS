@@ -824,20 +824,21 @@ Fonte: SAPS/MS
 
 A partir da versão 5.3 foi inserido na folha de rosto o acompanhamento de vulnerabilidade no prontuário.
 
-O acompanhamento de vulnerabilidade foi criado no PEC para sinalizar quando o cidadão se enquadra em situações de insegurança alimentar. Esta classificação é resultado da resposta das duas perguntas da TRIA -  Triagem para Risco de Insegurança Alimentar, presentes da Ficha de Cadastro Individual do cidadão [**Nota Técnica nº 51/2024-CGAN/DEPPROS/SAPS/MS**](https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/notas-tecnicas/2024/nota-tecnica-no-51-2024-cgan-deppros-saps-ms.pdf/view)
+O acompanhamento de vulnerabilidade foi criado no PEC para sinalizar quando o cidadão vive em um domicílio em situação de risco de insegurança alimentar. Esta classificação é resultado da Triagem para Risco de Insegurança Alimentar (TRIA), presente da Ficha de Cadastro Individual do cidadão [**Nota Técnica nº 51/2024-CGAN/DEPPROS/SAPS/MS**](https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/notas-tecnicas/2024/nota-tecnica-no-51-2024-cgan-deppros-saps-ms.pdf/view)
 
  
 ![](media/acompanhamentovulnerabilidade.png)
 
-Quando há esta sinalização no prontuário do cidadão, é necessário que o profissional de saúde avalie todos os componentes do núcleo familiar, pois esta informação indica que há comprometimento da qualidade e quantidade da alimentação no domicílio e que o indivíduo se encontra em Risco para Insegurança Alimentar.
+Quando há esta sinalização no PEC, é necessário que o profissional de saúde avalie todos os componentes do núcleo familiar, pois esta informação indica que pode haver comprometimento da qualidade e quantidade da alimentação no domicílio e que os seus moradores se encontram em situação de Risco de Insegurança Alimentar. Adicionalmente, é fundamental que se avalie o estado nutricional e os Marcadores de Consumo Alimentar para que o cuidado seja organizado adequadamente e de forma integral. 
+
+A Atenção Primária a Saúde, enquanto espaço de primeiro contato entre profissionais de saúde e residentes do território, apresenta enorme potencial de contribuição à promoção da Segurança Alimentar e Nutricional por meio da vigilância alimentar e nutricional. 
+
+Com base no diagnóstico do território, é possível planejar e executar ações de promoção da saúde e da alimentação adequada e saudável, que considerem não apenas informações clínicas, mas também situações de vulnerabilidade social. 
+
+A identificação do **risco de insegurança alimentar** possibilita o referenciamento dos usuários a dispositivos da rede do Sistema Único de Assistência Social sempre que necessário para promover o Direito Humano à Alimentação Adequada e Saudável. 
 
 ![](media/acompanhamentovulnerabilidade1.png)
 
-É fundamental que se avalie também os Marcadores de Consumo Alimentar, para que possam tomar medidas de apoio e referência desses indivíduos à dispositivos da rede que garantam a Segurança Alimentar e Nutricional, bem como tudo que envolve essas questões no cidadão. 
-
-A Atenção Primária a Saúde, enquanto espaço de primeiro contato entre profissionais de saúde e residentes do território, apresenta enorme potencial de contribuição à garantia da Segurança Alimentar e Nutricional por meio de ações de promoção da saúde e da alimentação adequada e saudável, especialmente em áreas com altos índices de vulnerabilidade social e econômica.
-
-A APS tem potencialidade para atuação no rastreamento e identificação da Insegurança Alimentar, promoção da Segurança Alimentar e Nutricional e garantia do Direito Humano à Alimentação Adequada (DHAA). Além disso, a identificação da prevalência de IA nos territórios tem o potencial de subsidiar políticas públicas com foco na agenda de SAN12
 
 
 ## 6.4.3 SOAP
