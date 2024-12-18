@@ -267,7 +267,7 @@ Essa seção irá abordar o processo de instalação do Painel e-SUS em ambiente
 
 ### 4.2.1 Instalação do Painel e-SUS APS
 
-O primeiro passo para instalar o **Painel e-SUS APS** no ambiente Linux ****é realizar o download da versão mais atualizada do sistema. Diferentemente da versão windows do **Painel e-SUS APS**, a versão Linux do sistema é instalada através do arquivo **.tar.gz,** disponível para download no link abaixo: 
+O primeiro passo para instalar o **Painel e-SUS APS** no ambiente Linux é realizar o download da versão mais atualizada do sistema. Diferentemente da versão windows do **Painel e-SUS APS**, a versão Linux do sistema é instalada através do arquivo **.tar.gz,** disponível para download no link abaixo: 
 
 [<img alt="alt_text" src="media/download.gif"/>](https://painel-esus-public.s3.sa-east-1.amazonaws.com/instalador/painel-esus-setup1.0.16.tar.gz)
 
