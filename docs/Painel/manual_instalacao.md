@@ -77,8 +77,13 @@ Assim como o PEC e-SUS APS, o desenvolvimento do Painel e-SUS APS é multiplataf
 
 Para a instalação do Painel e-SUS APS é necessário avaliar a o tamanho base de dados que será processada pelo Painel e-SUS APS, o que deve influenciar na necessidade de memória RAM e do uso de processamento do servidor. 
 
+Para município de até 100 mil habitantes recomenda-se uma máquina com pelo menos um processador i5 e com 16 GB de memória RAM.
+
 {: .nota }
 Recomenda-se que a instalação do Painel e-SUS APS seja realizada em um servidor diferente da instalação do Prontuário Eletrônico do Cidadadão (PEC).
+
+{: .atencao }
+O Painel e-SUS APS foi homologado em sistema operacional Linux Ubuntu,  Windows 10 e Windows 11. Sendo compatível com banco de dados Postgres.
 
 # 4 Instalação, Configuração, Inicialização e Acesso ao Painel
 
@@ -153,8 +158,8 @@ Ao abrir o arquivo, a interface de configuração será aberta apresentando duas
 ![Figura 10 - Configuração do banco de dados.](media/figura10-configuracao-banco-dados.png)
 Figura 10 - Configuração do banco de dados.
 
-{: .atencao }
-**Atenção: É imprescindível preencher todos os campos de maneira correta. Para isto, é necessário o acesso ao arquivo “credenciais” presente no diretório raiz da Instalação do PEC e-SUS APS: “C:\Program Files\e-SUS\webserver\config“, conforme Figuras 11 e 12.**
+{: .nota }
+**É imprescindível preencher todos os campos de maneira correta. Para isto, é necessário o acesso ao arquivo “credenciais” presente no diretório raiz da Instalação do PEC e-SUS APS: “C:\Program Files\e-SUS\webserver\config“, conforme Figuras 11 e 12.**
 
 
 ![Figura 11 - Diretório do arquivo “credenciais” PEC e-SUS APS.](media/figura11-diretorio-credenciais-pec.png)
@@ -162,6 +167,20 @@ Figura 11 - Diretório do arquivo “credenciais” PEC e-SUS APS.
 
 ![Figura 12 - Arquivo .txt “credenciais” PEC e-SUS APS.](media/figura12-credenciais-pec.png)
 Figura 12 - Arquivo .txt “credenciais” PEC e-SUS APS.
+
+{: .atencao }
+**Atenção**: Deve-se utilizar um usuário esus_leitura, que tem permissão apenas de leitura no banco de dados. **Não** se deve utilizar o usuário postgres ou usuário que tenha acesso master ao banco de dados.
+
+{: .dica }
+Nos casos em que o usuário esus_leitura não existir é possível criá-lo por meio do seguinte comando:
+CREATE USER esus_leitura WITH ENCRYPTED PASSWORD 'senha'
+Observação: substituir a palavra senha pela senha de sua preferência.
+Após criação do usuário, conceda as permissões somente leitura, executando o seguinte script:
+grant select on all tables in schema public to esus_leitura;
+grant select on all sequences in schema public to esus_leitura;
+alter default privileges in schema public grant select on tables to esus_leitura;
+alter default privileges in schema public grant select on sequences to esus_leitura;
+
 
 De posse desses dados, preencher os campos da **Aba “Banco de dados”**, considerando o exemplo abaixo e Figura 13, conforme as configurações padrão da Instalação do PEC e-SUS APS:
 
