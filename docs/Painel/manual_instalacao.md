@@ -441,7 +441,7 @@ Com o docker devidamente instalado, agora é necessário instalar o docker-compo
 Sendo assim, execute os comandos abaixo no seu terminal para concluir a instalação do docker-compose: 
 
 ```jsx
-sudo curl -L "https://github.com/docker/compose/releases/download/1.0.19/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo curl -L "https://github.com/docker/compose/releases/download/0.9/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 
 sudo chmod +x /usr/local/bin/docker-compose
 
@@ -464,7 +464,7 @@ Agora, com um editor de texto de sua preferência, precisamos configurar o conte
 version: "3.3"
 services:
   painel_esus:
-    image: "painelsaudefiocruz/painel-esus:1.0.19"
+    image: "painelsaudefiocruz/painel-esus:0.9"
     environment:
       RELOAD_BASE_SCHELDULE: '4:00'
       DB_HOST: ''
