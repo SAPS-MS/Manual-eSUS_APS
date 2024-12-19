@@ -5,7 +5,7 @@ parent: Painel
 nav_order: 1
 has_children: false
 has_toc: true
-last_modified_date: "22/11/2024"
+last_modified_date: "18/12/2024"
 ---
 <head>
     <style>
@@ -38,7 +38,7 @@ Este manual detalha o processo de instalação, configuração, inicialização 
 
 ## 1.1 Versão do Painel e-SUS APS utilizada neste manual
 
-Este manual foi elaborado usando como referência o Painel e-SUS APS em sua **versão 1.0.15**. As informações sobre o versionamento e a data de atualização do Painel estão visíveis em todas as telas, localizadas no rodapé, abaixo dos logotipos da Fiocruz e do Ministério da Saúde.
+Este manual foi elaborado usando como referência o Painel e-SUS APS em sua **versão 1.0.15 (beta)**. As informações sobre o versionamento e a data de atualização do Painel estão visíveis em todas as telas, localizadas no rodapé, abaixo dos logotipos da Fiocruz e do Ministério da Saúde.
 
 
 ![Figura 1 - Versionamento e a data de atualização do Painel e-SUS APS.](media/figura1-versionamento.png)
