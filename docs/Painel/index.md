@@ -38,16 +38,20 @@ Rodrigo André Cuevas Gaete
 
 Francy Webster de Andrade Pereira, Igor de Carvalho Gomes
 
-**Elaboração de texto** 
+**Elaboração de texto**
+
 Adriano Neves de Paula e Souza, Ana Clara Araujo Caires, Juliana Lucatelli Dória Santana, Luciana Dantas Soares Alves, Priscila Mara Anjos Nunes, Pilar Tavares Veras Florentino, Walter Augusto Alcântara Vieira
 
-**Revisão Textual** 
+**Revisão Textual**
+
 Luciana Dantas Soares Alves, Joana Natalia Cella, Renata Bernardes David, Tales Mota Machado, Wanessa da Silva de Almeida
 
-**Revisão Técnica**  
+**Revisão Técnica**
+
 Luciana Dantas Soares Alves, Joana Natalia Cella, Priscila Mara Anjos Nunes, Renata Bernardes David, Tales Mota Machado, Walter Augusto Alcantara Vieira, Wanessa da Silva de Almeida
 
-**Projeto Gráfico** 
+**Projeto Gráfico**
+ 
 Alexandre Soares de Brito, Diogo Ferreira Gonçalves
 <br>
  

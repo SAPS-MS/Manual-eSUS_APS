@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Painel e-SUS APS - Manual de Instalação e Configuração
+title: Manual de Instalação e Configuração
 parent: Painel e-SUS APS
 nav_order: 1
 has_children: false
