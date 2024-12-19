@@ -109,8 +109,8 @@ São todas as pessoas que estão na [**Tabela de Acompanhamento de Cidadãos Vin
 
 As proporções estão representadas no gráfico de pirâmide etária a seguir e o total de pessoas em cada tipo de localização pode ser visualizado quando o(a) usuário(a) posicionar o cursor sobre as respectivas áreas do gráfico.
 
-Pirâmide etária estratificada por sexo e faixa etária  
-![Pirâmide etária estratificada por sexo e faixa etária](media/piramide-etaria-sexo.png8]
+Pirâmide etária estratificada por sexo e faixa etária
+![Pirâmide etária estratificada por sexo e faixa etária](media/piramide-etaria-sexo.png)
 
 
 ## Relatórios Temáticos
@@ -120,7 +120,7 @@ Os RT são apresentados por meio de cards clicáveis, que exibem o **número abs
 Informações detalhadas sobre cada tema são disponibilizadas no Relatório Temático correspondente, acessível ao clicar no card desejado. Essas informações são exploradas em profundidade nas próximas seções deste manual, em cada RT específico.
 
 Relatórios Temáticos
-![Relatórios Temáticos](media/relatorios-tematicos.png]
+![Relatórios Temáticos](media/relatorios-tematicos.png)
 
 Os Relatórios Temáticos contêm informações sobre pessoas que atendem a critérios específicos, relacionados a questões de saúde ou situação de cadastro:
 
