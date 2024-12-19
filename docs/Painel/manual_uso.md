@@ -124,15 +124,15 @@ Relatórios Temáticos
 
 Os Relatórios Temáticos contêm informações sobre pessoas que atendem a critérios específicos, relacionados a questões de saúde ou situação de cadastro:
 
-### **Diabetes** {#diabetes}
+### Diabetes {#diabetes}
 
 O número de **pessoas com Diabetes** equivale ao total de indivíduos que tiveram atendimentos realizados nos últimos 12 meses com registro do código CID-10 e/ou CIAP-2 correspondente à condição de saúde presentes na **Ficha de Atendimento Individual**, somado ao conjunto de pessoas com registro autorreferido da condição de saúde na **Ficha de Cadastro Individual**.
 
-### **Hipertensão** {#hipertensão}
+### Hipertensão {#hipertensão}
 
 O número de **pessoas com Hipertensão Arterial** equivale ao total de indivíduos que tiveram atendimentos realizados nos últimos 12 meses com registro do código CID-10 e/ou CIAP-2 correspondente à condição de saúde presentes na **Ficha de Atendimento Individual**, somado ao conjunto de pessoas com registro autorreferido da condição de saúde na **Ficha de Cadastro Individual**.
 
-### **Qualidade de Cadastro** {#qualidade-de-cadastro}
+### Qualidade de Cadastro {#qualidade-de-cadastro}
 
 Este relatório temático apresenta o total de pessoas com ou sem Ficha de Cadastro Individual (FCI) e Ficha de Cadastro Domiciliar e Territorial (FCDT), considerando também a atualização e a completude das informações contidas nessas fichas.
 
