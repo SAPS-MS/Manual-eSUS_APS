@@ -548,13 +548,13 @@ O processo de atualização do painel-esus em ambiente Windows também ocorre de
 
 Já na segunda forma de atualização (mais aconselhável), basta fazer a instalação da nova versão do painel-esus por cima da versão já existente. Ou seja, basta seguir novamente o processo de instalação e escolher o mesmo diretório de destino onde se encontra a versão atualmente instalada. Esse processo irá atualizar apenas os arquivos necessários no sistema, garantindo uma atualização mais rápida e eficiente. Dessa forma, o processo de instalação não causará a perda das configurações já realizadas no sistema, não havendo necessidade de realizar o processo de configuração novamente.
 
-### **6.2 Atualização em ambiente Linux**
+### 6.2 Atualização em ambiente Linux
 
 Para realizar o processo de atualização do sistema em ambiente Linux, basta remover a versão atual do **Painel e-SUS**, apagando a pasta onde o sistema foi descompactado, realizar o download da versão mais atualizada do Painel e seguir os mesmos passos apresentados na **Seção 4.2.**
 
 ## 7 Desinstalando o Painel e-SUS APS
 
-### **7.1 Ambiente Windows**
+### 7.1 Ambiente Windows
 
 A desinstalação do painel-esus pode pode ser executada de duas formas. A primeira delas é clicando duas vezes sobre o executável “unins000.exe” assim como apresentado na **Figura 36**.
 
@@ -570,6 +570,6 @@ Basta clicar em “sim” que o processo de desinstalação irá começar automa
 
 A segunda forma de desinstalar o painel-esus é deletando a pasta "Painel Esus" que foi criada durante no diretório escolhido durante a instalação do software. Recomendamos que você também exclua qualquer atalho que foi criado na área de trabalho durante o processo de instalação. 
 
-### **7.1 Ambiente Linux**
+### 7.2 Ambiente Linux
 
 A desinstalação do **Painel e-SUS** em ambiente Linux pode pode ser executada apenas removendo a pasta criada no processo de instalação da Seção **4.2.1 Instalação do Painel e-SUS APS.**
