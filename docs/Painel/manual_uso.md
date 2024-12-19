@@ -41,8 +41,6 @@ Nesta aplicação do Painel e-SUS APS, a visualização por Município oferece u
 
 # Acesso ao Painel e-SUS APS
 
-O acesso ao Painel e-SUS APS é realizado através do link fornecido pelo município. A autenticação do Painel e-SUS APS é integrada ao Prontuário Eletrônico do Cidadão (PEC). Portanto, para fazer login, utilize o mesmo usuário e senha usados na autenticação do PEC.
-
 O acesso ao Painel e-SUS APS é realizado através do link fornecido pelo município. Ao abrir a aplicação, terá o direcionamento para a tela de login. O acesso do administrador do Painel e-SUS APS é configurado durante a instalação inicial, enquanto os profissionais de saúde utilizarão as mesmas credenciais (login e senha) do PEC e-SUS APS, sendo assim no campo **usuário**, inserir o CPF do usuário e no campo **senha**, digitar a senha correspondente, a mesma utilizada no PEC.
 
 Formulário de login do Painel e-SUS APS  
@@ -68,7 +66,7 @@ Lista de perfil ativos dos profissionais de saúde
 
 # Relatório Sociodemográfico
 
-Após realizar o login, será possível optar por um dos três níveis de visualização das informações, considerando o perfil de locação: **Município**, **Unidade Básica de Saúde (UBS)** ou **Equipe**. 
+Após realizar o login, será possível optar por níveis de visualização das informações, considerando o perfil de lotação: **Município**, **Unidade Básica de Saúde (UBS)** ou **Equipe**. 
 
 O Relatório Sociodemográfico conterá, portanto, o conjunto de informações sobre os cidadãos de acordo com o nível de visualização da informação escolhida. O nível de Município é o mais amplo do ponto de vista de granularidade, e contém as informações do respectivo município e suas respectivas UBS. O nível de UBS, por sua vez, contém informações da própria UBS e de todas as equipes adscritas. A visualização por Equipe representa o nível mais detalhado de informação disponível no relatório, permitindo o acesso aos dados em todos os três níveis: Município, Unidade Básica de Saúde (UBS) e Equipe.
 
@@ -87,7 +85,7 @@ Esta informação é extraída da [**Tabela de Acompanhamento de Cidadãos Vincu
 
 ## População Apurada
 
-**População Apurada** é o resultado do Censo Demográfico realizado pelo IBGE, representando a contagem dos habitantes do município. Essa informação foi extraída da Relação da População Municipal enviada ao TCU em 2023, pelo IBGE. A exibição da População Apurada será apresentada apenas se, durante a instalação do Painel e-SUS APS, o código IBGE completo do município (7 dígitos) tiver sido informado, sendo mantida na visualização por Município, Unidade Básica de Saúde e Equipe.
+**População Apurada** é o resultado do Censo Demográfico realizado pelo IBGE, representando a contagem dos habitantes do município. Essa informação foi extraída da Relação da População Municipal enviada ao TCU em 2023, pelo IBGE. A exibição da População Apurada será apresentada apenas se, durante a instalação do Painel e-SUS APS, o código IBGE completo do município (7 dígitos) tiver sido informado durante a configuração inicial, sendo mantida na visualização por Município, Unidade Básica de Saúde e Equipe.
 
 ## Tipo de localização de moradia
 
@@ -109,7 +107,7 @@ Cidadãos cadastrados por sexo
 
 São todas as pessoas que estão na [**Tabela de Acompanhamento de Cidadãos Vinculados**](https://integracao.esusab.ufsc.br/dw/visualizacoes/acompanhamento_cidadaos_vinculados.html)**,** que segue a regra do relatório do “Acompanhamentos - Cidadãos vinculados” do PEC, de acordo com o nível de visualização escolhido, estratificadas por **faixa etária** e  por sexo (**masculino** ou **feminino)**. Para as pessoas que possuem  **Ficha de Cadastro Domiciliar e Territorial (FCDT)**, também é demonstrada a localização do domicílio como **Zona Urbana** ou **Zona Rural.** 
 
-As proporções estão representadas no gráfico de pirâmide etária a seguir e o total de pessoas em cada tipo de localização pode ser visualizado quando o (a) usuário(a) posicionar o cursor sobre as respectivas áreas do gráfico.
+As proporções estão representadas no gráfico de pirâmide etária a seguir e o total de pessoas em cada tipo de localização pode ser visualizado quando o(a) usuário(a) posicionar o cursor sobre as respectivas áreas do gráfico.
 
 Pirâmide etária estratificada por sexo e faixa etária  
 ![Pirâmide etária estratificada por sexo e faixa etária](media/piramide-etaria-sexo.png8]
@@ -209,7 +207,7 @@ A **lista nominal** contém o número total de pessoas com diabetes (identificad
 
 A lista possui as respectivas informações de cada pessoa: **Nome**, **CPF**, número do **Cartão Nacional de Saúde** (**CNS**), **Idade**, **Grupo/Condição**, **Sexo**, **Equipe** e **Microárea**. 
 
-É possível realizar a busca por informações de cada cidadão através do número do CPF, na janela de busca presente na parte superior da lista nominal . 
+É possível realizar a busca por informações de cada cidadão através do número do CPF, na janela de busca presente na parte superior da lista nominal. 
 
 O símbolo de **Alerta,** em vermelho, ao lado do nome do cidadão, indica situações que requerem atenção especial, por não estarem de acordo com as boas práticas preconizadas para o acompanhamento de saúde de pessoas com diabetes.
 
