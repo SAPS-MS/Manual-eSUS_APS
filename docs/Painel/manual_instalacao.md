@@ -102,7 +102,7 @@ Para a instalação remota, o Painel e-SUS APS pode ser instalado em uma estrutu
 
 ### 4.1.1 Instalação do Painel e-SUS APS
 
-O primeiro passo para instalar o Painel é realizar o download do instalador. O arquivo de instalação do Painel e-SUS APS deve ser baixado no Portal e-SUS APS (arquivo *.exe).
+O primeiro passo para instalar o Painel é realizar o download do instalador. O arquivo de instalação do Painel e-SUS APS deve ser baixado no [Portal e-SUS APS](https://sisaps.saude.gov.br/esus/), sessão **Painel e-SUS APS** (arquivo *.exe).
 
 Ao clicar no link, o download do arquivo **.exe** será iniciado automaticamente no navegador. Caso o download não ocorra de imediato, clicar com o botão direito no link e selecionar a opção **"Salvar link como..."** para iniciar manualmente o processo de download.
 
@@ -278,13 +278,13 @@ Figura 21 – Tela de acesso ao Painel e-SUS APS
 
 ## 4.2 Sistema Operacional GNU/Linux
 
-Essa seção irá abordar o processo de instalação do Painel e-SUS em ambiente linux. Para isso, foi utilizado o Linux Mint na versão 21.12.
+Essa seção irá abordar o processo de instalação do Painel e-SUS em ambiente Linux. Para isso, foi utilizado o Linux Mint na versão 21.12.
 
 ![Linux Mint na versão 21.12](media/figura-linux-mint.png)
 
 ### 4.2.1 Instalação do Painel e-SUS APS
 
-O primeiro passo para instalar o Painel é realizar o download do instalador. O arquivo de instalação do Painel e-SUS APS deve ser baixado no Portal e-SUS APS.
+O primeiro passo para instalar o Painel é realizar o download do instalador. O arquivo de instalação do Painel e-SUS APS deve ser baixado no [Portal e-SUS APS](https://sisaps.saude.gov.br/esus/), sessão **Painel e-SUS APS**.
 
 Diferentemente da versão windows do **Painel e-SUS APS**, a versão Linux do sistema é instalada através do arquivo **.tar.gz,**. 
 
