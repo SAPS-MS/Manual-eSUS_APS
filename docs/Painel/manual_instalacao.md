@@ -247,7 +247,8 @@ Ao executar a aplicação, um terminal será automaticamente aberto, como aprese
 
 Figura 18 - Início do carregamento do Painel.
 
-O processo de inicialização do Painel pode levar vários minutos, considerando o tamanho da base de dados do PEC e-SUS APS. Durante este processo, é essencial aguardar a conclusão total antes de iniciar a utilização do Painel.
+{: .atencao }
+O processo de inicialização do Painel pode levar vários minutos, até mesmo horas, considerando o tamanho da base de dados do PEC e-SUS APS. Durante este processo, é essencial aguardar a conclusão total antes de iniciar a utilização do Painel.
 
 Dependendo da versão do sistema operacional utilizado, ao final do processo de inicialização será necessário fornecer permissões de acesso novamente ao Painel e-SUS APS. Nesse caso, ao final do processo de inicialização do sistema, uma janela como a apresentada na **Figura 19** será exibida. Para seguir com o processo de inicialização clique no botão “**Permitir**”. 
 
