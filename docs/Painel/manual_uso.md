@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Painel e-SUS APS - Manual de Uso
-parent: Painel
+parent: Painel e-SUS APS
 nav_order: 2
 has_children: false
 has_toc: true
