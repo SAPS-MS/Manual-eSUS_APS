@@ -306,7 +306,7 @@ Os dados do Relatório Temático de **Qualidade de Cadastro** são provenientes 
 
 ## Informações Gerais
 
-O **total de cadastros** registrados a partir de 2019 e a **porcentagem de cadastros atualizados** nos últimos 24 meses são apresentados conforme ilustrado no exemplo a seguir, em que o nível de visualização escolhido foi Município. 
+O **total de cadastros** registrados a partir de 2019 e a **porcentagem de cadastros atualizados** nos últimos 24 meses são apresentados conforme ilustrado no exemplo a seguir, em que o nível de visualização escolhido foi Município.
 
 Total de cadastros e a porcentagem de cadastros atualizados nos últimos 24 meses  
 ![Total de cadastros e a porcentagem de cadastros atualizados nos últimos 24 meses](media/cadastros-porcentagem-cadastro.png)
