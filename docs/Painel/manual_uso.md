@@ -262,7 +262,7 @@ Pessoas com hipertensão por sexo
 A quantidade de  **adultos (20 a 60 anos de idade) com hipertensão de acordo com o IMC (Índice de Massa Corporal)** é ilustrada através de gráficos que representam o percentual dos adultos com hipertensão em cada uma das categorias de classificação, baseadas nas faixas de valores de IMC: **baixo peso** (IMC menor que 18,5), **peso adequado** (IMC entre 18,5 e 24,9), **excesso de peso** (IMC entre 25 e 29,9), **obesidade** (IMC maior ou igual a 30\) ou, caso a informação de peso e altura não esteja disponível, foi classificado como **não informado**. O IMC é calculado utilizando-se  o último registro simultâneo de peso e altura. O percentual das pessoas com hipertensão compreendidas em cada classificação pode ser visualizado quando o(a) usuário(a) posicionar o cursor em cada parte do gráfico.
 
 Adultos com hipertensão de acordo com o IMC  
-![Adultos com hipertensão de acordo com o IMC](media/adultos-hipertensao-imc.png24]
+![Adultos com hipertensão de acordo com o IMC](media/adultos-hipertensao-imc.png24)
 
 ## Estratificação de atendimentos por profissional
 
@@ -276,7 +276,7 @@ Estratificação de atendimentos por profissional
 Para avaliar a **situação dos exames nos últimos 12 meses** temos as indicações de quantidade de exames com **solicitação pendente** e com **avaliação pendente,** para o total de pessoas com diabetes, por tipo de exame: **Glicemia**, **Creatinina**, **EAS/EQU** (urina rotina), **Sódio e potássio**, **Colesterol total**, **Hemograma** e **Eletrocardiograma**.
 
 Situação dos exames nos últimos 12 meses  
-![Situação dos exames nos últimos 12 meses](media/hipertensao-situacao-exames.png26]
+![Situação dos exames nos últimos 12 meses](media/hipertensao-situacao-exames.png)
 
 ## Lista Nominal das Pessoas atendidas nos últimos 12 meses
 
