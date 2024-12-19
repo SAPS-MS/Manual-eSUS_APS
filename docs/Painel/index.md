@@ -44,11 +44,11 @@ Adriano Neves de Paula e Souza, Ana Clara Araujo Caires, Juliana Lucatelli Dóri
 
 **Revisão Textual**
 
-Luciana Dantas Soares Alves, Joana Natalia Cella, Renata Bernardes David, Tales Mota Machado, Wanessa da Silva de Almeida
+Luciana Dantas Soares Alves, Joana Natalia Cella, Priscila Mara Anjos Nunes, Renata Bernardes David, Tales Mota Machado, Walter Augusto Alcântara Vieira, Wanessa da Silva de Almeida
 
 **Revisão Técnica**
 
-Luciana Dantas Soares Alves, Joana Natalia Cella, Priscila Mara Anjos Nunes, Renata Bernardes David, Tales Mota Machado, Walter Augusto Alcantara Vieira, Wanessa da Silva de Almeida
+Luciana Dantas Soares Alves, Joana Natalia Cella, Priscila Mara Anjos Nunes, Renata Bernardes David, Tales Mota Machado, Walter Augusto Alcântara Vieira, Wanessa da Silva de Almeida
 
 **Projeto Gráfico**
  

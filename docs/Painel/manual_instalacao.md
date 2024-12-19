@@ -102,9 +102,7 @@ Para a instalação remota, o Painel e-SUS APS pode ser instalado em uma estrutu
 
 ### 4.1.1 Instalação do Painel e-SUS APS
 
-O primeiro passo para instalar o **Painel** é realizar o download do instalador. O arquivo de instalação do *Painel e-SUS APS* é um arquivo ***.exe,*** podendo ser baixado no link a seguir:
-
-[<img alt="alt_text" src="media/download.gif"/>](https://paineis-esus-bucket-new.s3.sa-east-1.amazonaws.com/painel-esus-setup1.0.15.2.exe)
+O primeiro passo para instalar o Painel é realizar o download do instalador. O arquivo de instalação do Painel e-SUS APS deve ser baixado no [Portal e-SUS APS](https://sisaps.saude.gov.br/esus/), sessão **Painel e-SUS APS** (arquivo *.exe).
 
 Ao clicar no link, o download do arquivo **.exe** será iniciado automaticamente no navegador. Caso o download não ocorra de imediato, clicar com o botão direito no link e selecionar a opção **"Salvar link como..."** para iniciar manualmente o processo de download.
 
@@ -280,15 +278,15 @@ Figura 21 – Tela de acesso ao Painel e-SUS APS
 
 ## 4.2 Sistema Operacional GNU/Linux
 
-Essa seção irá abordar o processo de instalação do Painel e-SUS em ambiente linux. Para isso, foi utilizado o Linux Mint na versão 21.12.
+Essa seção irá abordar o processo de instalação do Painel e-SUS em ambiente Linux. Para isso, foi utilizado o Linux Mint na versão 21.12.
 
 ![Linux Mint na versão 21.12](media/figura-linux-mint.png)
 
 ### 4.2.1 Instalação do Painel e-SUS APS
 
-O primeiro passo para instalar o **Painel e-SUS APS** no ambiente Linux é realizar o download da versão mais atualizada do sistema. Diferentemente da versão windows do **Painel e-SUS APS**, a versão Linux do sistema é instalada através do arquivo **.tar.gz,** disponível para download no link abaixo: 
+O primeiro passo para instalar o Painel é realizar o download do instalador. O arquivo de instalação do Painel e-SUS APS deve ser baixado no [Portal e-SUS APS](https://sisaps.saude.gov.br/esus/), sessão **Painel e-SUS APS**.
 
-[<img alt="alt_text" src="media/download.gif"/>](https://painel-esus-public.s3.sa-east-1.amazonaws.com/instalador/painel-esus-setup1.0.16.tar.gz)
+Diferentemente da versão windows do **Painel e-SUS APS**, a versão Linux do sistema é instalada através do arquivo **.tar.gz,**. 
 
 Ao clicar no link, o download do arquivo **.tar.gz** será iniciado automaticamente no navegador. Caso o download não ocorra de imediato, clicar com o botão direito no link e selecionar a opção **"Salvar link como..."** para iniciar manualmente o processo de download.
 
@@ -443,7 +441,7 @@ Com o docker devidamente instalado, agora é necessário instalar o docker-compo
 Sendo assim, execute os comandos abaixo no seu terminal para concluir a instalação do docker-compose: 
 
 ```jsx
-sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo curl -L "https://github.com/docker/compose/releases/download/0.9/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 
 sudo chmod +x /usr/local/bin/docker-compose
 
@@ -466,7 +464,7 @@ Agora, com um editor de texto de sua preferência, precisamos configurar o conte
 version: "3.3"
 services:
   painel_esus:
-    image: "painelsaudefiocruz/demo:backend-1.0.16"
+    image: "painelsaudefiocruz/painel-esus:0.9"
     environment:
       RELOAD_BASE_SCHELDULE: '4:00'
       DB_HOST: ''
