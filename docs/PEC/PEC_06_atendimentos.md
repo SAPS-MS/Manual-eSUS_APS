@@ -816,11 +816,11 @@ Figura 6.4.8 - Folha de Rosto com informações sumarizadas a partir de registro
 
 Fonte: SAPS/MS
 
-A partir da versão 5.3 também é possível visualizar na folha de rosto, caso o cidadão seja beneficiário do Programa Bolsa Família. Para isso é necessário que o instalador faça a Importação de Dados do Programa Bolsa Família (Consultar Capítulo Administração e Configuração do Sistema).
+A partir da versão 5.3 também é possível visualizar na folha de rosto, caso o cidadão seja beneficiário do Programa Bolsa Família. Para isso é necessário que o instalador faça a Importação de Dados do Programa Bolsa Família [Consultar Capítulo Administração e Configuração do Sistema](https://saps-ms.github.io/Manual-eSUS_APS/docs/PEC/PEC_03_adm_conf/#314-importa%C3%A7%C3%A3o-do-bolsa-fam%C3%ADlia).
 
 Ao visualizar a folha de rosto de um cidadão que consta como beneficiário no arquivo importado da vigência mais atual, será apresentada uma sinalização de que ele é beneficiário do Programa Bolsa Família, conforme imagem:
 
-![](media/imagem_pec_bolsa.png)
+![](media/folha_cidadao_beneficiario_bolsa_familia.png)
 
 Fonte: SAPS/MS
 
