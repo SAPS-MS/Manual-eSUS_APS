@@ -161,26 +161,32 @@ Figura 10 - Configuração do banco de dados.
 
 
 ![Figura 11 - Diretório do arquivo “credenciais” PEC e-SUS APS.](media/figura11-diretorio-credenciais-pec.png)
+
 Figura 11 - Diretório do arquivo “credenciais” PEC e-SUS APS.
 
 ![Figura 12 - Arquivo .txt “credenciais” PEC e-SUS APS.](media/figura12-credenciais-pec.png)
+
 Figura 12 - Arquivo .txt “credenciais” PEC e-SUS APS.
 
 {: .atencao }
-**Atenção**: Deve-se utilizar um usuário esus_leitura, que tem permissão apenas de leitura no banco de dados. **Não** se deve utilizar o usuário postgres ou usuário que tenha acesso master ao banco de dados.
+**Atenção**: Deve-se sempre utilizar um usuário do banco de dados que possua permissão apenas de leitura nas tabelas que, por padrão, é o usuário **esus_leitura**. **Não** se deve utilizar o usuário **postgres** ou outro usuário que tenha acesso total ao banco de dados.
 
-{: .dica }
-Nos casos em que o usuário esus_leitura não existir é possível criá-lo por meio do seguinte comando:
-CREATE USER esus_leitura WITH ENCRYPTED PASSWORD 'senha'
-Observação: substituir a palavra senha pela senha de sua preferência.
-Após criação do usuário, conceda as permissões somente leitura, executando o seguinte script:
+Nos casos em que o usuário **esus_leitura** não existir no banco de dados, em especial, onde a aplicação do PEC e-SUS APS foi instalada em uma máquina diferente do banco de dados, é possível criá-lo por meio do seguinte script utilizando o **pgAdmin** ou outro sistema utilizado para gerenciar o banco de dados PostgreSQL:
+
+```CREATE USER esus_leitura WITH ENCRYPTED PASSWORD 'senha'```
+
+Observação: substituir a palavra **senha** pela senha de sua preferência.
+
+Após criação do usuário, conceda as permissões **somente leitura**, executando o seguinte script:
+
+```
 grant select on all tables in schema public to esus_leitura;
 grant select on all sequences in schema public to esus_leitura;
 alter default privileges in schema public grant select on tables to esus_leitura;
 alter default privileges in schema public grant select on sequences to esus_leitura;
+```
 
-
-De posse desses dados, preencher os campos da **Aba “Banco de dados”**, considerando o exemplo abaixo e Figura 13, conforme as configurações padrão da Instalação do PEC e-SUS APS:
+De posse de todos os dados solicitados para configuração, preencher os campos da **Aba “Banco de dados”**, considerando o exemplo abaixo e Figura 13, conforme as configurações padrão da Instalação do PEC e-SUS APS:
 
 - **Host =** host de acesso ao banco de dados da UBS. 
 *Para instalações do Painel e-SUS APS diretamente no servidor, utilizar o padrão: **localhost**
@@ -227,6 +233,7 @@ Figura 15 - Configuração do painel.
 Após completar o preenchimento desta aba, clicar no botão "Finalizar Configuração". Com a finalização dessas etapas, o Painel estará devidamente configurado e pronto para inicialização (**Figura 16**).
 
 ![Figura 16 - Configuração realizada com sucesso.](media/figura16-configutacao-sucesso-painel.png)
+
 Figura 16 - Configuração realizada com sucesso.
 
 ### 4.1.3 Inicialização do Painel
@@ -266,9 +273,11 @@ Destaca-se que, para que o Painel seja acessado, é necessário que este termina
 
 ### 4.1.4 Acesso ao Painel e dicas de uso
 
-Ao completar todos os passos descritos anteriormente, o Painel já se encontrará apto para acesso. Para acessá-lo, abrir em um navegador web o seguinte endereço: [http://localhost:5001/](http://localhost:5001/)**.** É possível acessar o Painel via IP público ou domínio, desde que o computador onde o Painel e-SUS APS foi instalado tenha essas possibilidades e a porta 5001 esteja devidamente configurada para acesso externo.
+Ao completar todos os passos descritos anteriormente, o Painel já se encontrará apto para acesso. Para acessá-lo localmente (no mesmo computador no qual o Painel e-SUS APS foi instalado), abrir em um navegador web o seguinte endereço: [http://localhost:5001](http://localhost:5001).
 
-{: .atencao }
+{: .dica }
+É possível acessar o Painel externamente à instalação, via protocolo HTTP, por **IP público** (exemplo: http://191.10.20.30:5001) ou **domínio** (exemplo: http://esus.municipio.uf.gov.br:5001), desde que o computador onde o Painel e-SUS APS foi instalado tenha essas possibilidades e a porta 5001 esteja devidamente configurada para acesso externo.
+
 Durante a utilização do Painel, é importante monitorar o uso do processamento (CPU) e da memória do servidor do banco de dados do PEC e-SUS APS. Isso ajuda a garantir que a execução do Painel não comprometa a performance do prontuário, especialmente em servidores com configurações inferiores às recomendadas, conforme descrito no Manual do e-SUS APS – Apoio à Implantação - Preparar Ambiente ([LINK](https://saps-ms.github.io/Manual-eSUS_APS/docs/Apoio%20a%20Implanta%C3%A7%C3%A3o/Apoio_implantacao/))
 
 
