@@ -1790,3 +1790,38 @@ Após concluída inserção do HTTPS/SSL, para habilitação do GOV.BR no seu PE
 
 
 {: .atencao } Este é um procedimento determinado pelo DATASUS em prol da segurança na atualização dos dados no CADWEB. Todo o processo de segurança é necessário, visto que o PEC, além de realizar pesquisas no CADSUS, também realiza alterações.
+
+
+## 3.14 Importação do Bolsa Família
+
+Para importar um arquivo com os beneficiários do bolsa família de uma vigência específica para que eles sejam identificados em seus prontuários, o profissional deverá acessar o e-GESTOR APS. 
+
+![](media/importacaobolsaegestor.png)
+
+Selecionar o Programa Bolsa Família conforme abaixo:
+
+![](media/importacaobolsaegestor1.png)
+
+Em seguida, abrirá um aviso na tela que orienta sobre o relatório e a LGPD. 
+
+![](media/importacaobolsaegestor2.png)
+
+Na sequência será possível gerar o arquivo para importação do Bolsa Família para o PEC.
+
+![](media/importacaobolsaegestor3.png)
+
+O arquivo deverá ser baixado no e-Gestor APS (SISAB), descompactado e importado no formato JSON pela funcionalidade "Importação do bolsa família", que pode ser acessada pelo menu lateral com o perfil de Administrador da Instalação, Administrador Municipal ou Gestor Municipal. 
+
+{: .nota } Somente é possível importar um arquivo por vigência do Programa Bolsa Família.
+
+![](media/importacao_beneficiarios_bolsa_familia.gif)
+
+
+Ao visualizar a folha de rosto de um cidadão que consta como beneficiário no arquivo importado da vigência mais atual, será apresentada uma sinalização de que ele é beneficiário do Programa Bolsa Família.
+
+![](media/folha_cidadao_beneficiario_bolsa_familia.png)
+
+Além da sinalização no "Acompanhamento de vulnerabilidade", também aparecerá a tela com aviso de que o cidadão consta como beneficiário na vigência mais recente importada. 
+
+![](media/importacaobolsaegestor4.png)
+
