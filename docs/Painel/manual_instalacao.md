@@ -220,7 +220,9 @@ Uma vez confirmada a conexão, seguir para aba "Painel e-SUS" e preencher todos 
     
     **Exemplos:**
     
-    **http://localhost:8080** (Instalação local do PEC sem acesso externo)
+    **http://localhost:8080** (Instalação local do PEC, sem acesso externo ou em rede)
+
+    **http://192.168.1.105:8080** (Instalação local do PEC com acesso em rede)
     
     **http://191.10.20.30:8080** (Instalação do PEC acessada por IP público)
     
