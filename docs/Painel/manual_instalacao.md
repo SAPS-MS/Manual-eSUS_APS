@@ -157,8 +157,7 @@ Ao abrir o arquivo, a interface de configuração será aberta apresentando duas
 Figura 10 - Configuração do banco de dados.
 
 {: .nota }
-**É imprescindível preencher todos os campos de maneira correta. Para isto, é necessário o acesso ao arquivo “credenciais” presente no diretório raiz da Instalação do PEC e-SUS APS: “C:\Program Files\e-SUS\webserver\config“, conforme Figuras 11 e 12.**
-
+É imprescindível preencher todos os campos de maneira correta. Para isto, é necessário o acesso ao arquivo “credenciais” presente no diretório raiz da Instalação do PEC e-SUS APS: “C:\Program Files\e-SUS\webserver\config“, conforme Figuras 11 e 12.
 
 ![Figura 11 - Diretório do arquivo “credenciais” PEC e-SUS APS.](media/figura11-diretorio-credenciais-pec.png)
 
@@ -276,7 +275,6 @@ Ao completar todos os passos descritos anteriormente, o Painel já se encontrar�
 É possível acessar o Painel externamente à instalação, via protocolo HTTP, por **IP público** (exemplo: http://191.10.20.30:5001) ou **domínio** (exemplo: http://esus.municipio.uf.gov.br:5001), desde que o computador onde o Painel e-SUS APS foi instalado tenha essas possibilidades e a porta 5001 esteja devidamente configurada para acesso externo.
 
 Durante a utilização do Painel, é importante monitorar o uso do processamento (CPU) e da memória do servidor do banco de dados do PEC e-SUS APS. Isso ajuda a garantir que a execução do Painel não comprometa a performance do prontuário, especialmente em servidores com configurações inferiores às recomendadas, conforme descrito no Manual do e-SUS APS – Apoio à Implantação - Preparar Ambiente ([LINK](https://saps-ms.github.io/Manual-eSUS_APS/docs/Apoio%20a%20Implanta%C3%A7%C3%A3o/Apoio_implantacao/))
-
 
 Ao abrir a aplicação, terá o direcionamento para a tela de login. No campo **Login**, inserir o CPF do usuário e no campo **Senha**, digitar a senha correspondente. O acesso do administrador do Painel é configurado durante a instalação inicial, enquanto os profissionais de saúde utilizarão as mesmas credenciais (login e senha) do PEC e-SUS APS. Após preencher os campos, clicar no botão **Entrar** para iniciar a navegação no Painel, como ilustra a **Figura 21**.
 
@@ -409,7 +407,8 @@ Ao executar o comando especificado, o Painel e-SUS começará a ser executado au
 ![Figura 32: Logs de execução do Painel e-SUS.](media/10.png)
 Figura 32: Logs de execução do Painel e-SUS.
 
-O tempo de inicialização do Painel e-SUS está diretamente relacionado ao tamanho da base de dados do município, podendo demorar vários minutos até a sua conclusão. Sendo assim, espere até que todas as bases necessárias sejam criadas. 
+{: .atencao }
+O processo de inicialização do Painel pode levar vários minutos, até mesmo horas, considerando o tamanho da base de dados do PEC e-SUS APS. Durante este processo, é essencial aguardar a conclusão total antes de iniciar a utilização do Painel.
 
 Quando o sistema estiver pronto para acesso, será apresentado um log assim como o da Figura 33, especificando que o Painel está pronto rodando na porta 5001.
 
