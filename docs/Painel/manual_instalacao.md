@@ -188,16 +188,11 @@ alter default privileges in schema public grant select on sequences to esus_leit
 
 De posse de todos os dados solicitados para configuração, preencher os campos da **Aba “Banco de dados”**, considerando o exemplo abaixo e Figura 13, conforme as configurações padrão da Instalação do PEC e-SUS APS:
 
-- **Host =** host de acesso ao banco de dados da UBS. 
-*Para instalações do Painel e-SUS APS diretamente no servidor, utilizar o padrão: **localhost**
-- **Base de dados =** nome da base de dados da UBS.
-Padrão: **esus**
-- **Usuário do banco de dados =** usuário de acesso ao banco de dados da UBS. 
-Utilizar por padrão o usuário **esus_leitura** ou outro que possua acesso somente leitura do banco de dados.
-- **Senha do banco de dados =** senha de acesso ao banco de dados da UBS. 
-Por padrão está presente no arquivo **credenciais**, conforme Figura 11.
-- **Porta do banco de dados =** porta de acesso ao banco de dados da UBS.
-Padrão: **5433**
+- **Host =** host de acesso ao banco de dados. Para instalações do Painel e-SUS APS diretamente no servidor, utilizar o padrão: ***localhost***
+- **Base de dados =** nome da base de dados. Padrão: ***esus***
+- **Usuário do banco de dados =** usuário de acesso ao banco de dados. Padrão: ***esus_leitura*** ou outro usuário que possua acesso somente leitura do banco de dados.
+- **Senha do banco de dados =** senha de acesso do usuário ao banco de dados. Por padrão, esta senha é encontrada no arquivo ***credenciais***, conforme Figura 11.
+- **Porta do banco de dados =** porta de acesso ao banco de dados da UBS. Padrão: ***5433***
 
 ![Figura 13 - Configurações padrão do PEC e-SUS APS.](media/figura13-configuracao-pec-painel.png)
 Figura 13 - Configurações padrão do PEC e-SUS APS.
@@ -336,23 +331,33 @@ O processo de configuração das variáveis de ambiente é dividido em duas etap
 - **Banco de Dados:** configuração de todas as variáveis de ambiente necessárias para a conexão do Painel e-SUS com o banco de dados do município.
 - **Painel e-SUS:** configuração das variáveis de login no sistema.
 
-{: .atencao }
+{: .nota }
 É imprescindível preencher todos os campos de maneira correta. Para isto, é necessário o acesso ao arquivo “credenciais” presente no diretório raiz da Instalação do PEC e-SUS APS.**
 
+{: .atencao }
+Deve-se sempre utilizar um usuário do banco de dados que possua permissão apenas de leitura nas tabelas que, por padrão, é o usuário **esus_leitura**. **Não** se deve utilizar o usuário **postgres** ou outro usuário que tenha acesso total ao banco de dados.
 
+Nos casos em que o usuário **esus_leitura** não existir no banco de dados, em especial, onde a aplicação do PEC e-SUS APS foi instalada em uma máquina diferente do banco de dados, é possível criá-lo por meio do seguinte script utilizando o **pgAdmin** ou outro sistema utilizado para gerenciar o banco de dados PostgreSQL:
 
+```CREATE USER esus_leitura WITH ENCRYPTED PASSWORD 'senha'```
+
+Observação: substituir a palavra **senha** pela senha de sua preferência.
+
+Após criação do usuário, conceda as permissões **somente leitura**, executando o seguinte script:
+
+```
+grant select on all tables in schema public to esus_leitura;
+grant select on all sequences in schema public to esus_leitura;
+alter default privileges in schema public grant select on tables to esus_leitura;
+alter default privileges in schema public grant select on sequences to esus_leitura;
+```
 De posse desses dados, preencher os campos da **Aba “Banco de dados”**, considerando o exemplo abaixo e Figura 27, conforme as configurações padrão da Instalação do PEC e-SUS APS:
 
-- **Host =** host de acesso ao banco de dados da UBS. 
-*Para instalações do Painel e-SUS APS diretamente no servidor, utilizar o **padrão: localhost***
-- **Base de dados =** nome da base de dados da UBS.
-***Padrão: esus***
-- **Usuário do banco de dados =** usuário de acesso ao banco de dados da UBS. 
-*Utilizar por padrão o usuário esus_leitura ou outro que possua acesso somente leitura do banco de dados.*
-- **Senha do banco de dados =** senha de acesso ao banco de dados da UBS. 
-*Por padrão está presente no arquivo credenciais, conforme Figura 11.*
-- **Porta do banco de dados =** porta de acesso ao banco de dados da UBS.
-*Padrão: 5433*
+- **Host =** host de acesso ao banco de dados. Para instalações do Painel e-SUS APS diretamente no servidor, utilizar o padrão: ***localhost***
+- **Base de dados =** nome da base de dados. Padrão: ***esus***
+- **Usuário do banco de dados =** usuário de acesso ao banco de dados. Padrão: ***esus_leitura*** ou outro usuário que possua acesso somente leitura do banco de dados.
+- **Senha do banco de dados =** senha de acesso do usuário ao banco de dados. Por padrão, esta senha é encontrada no arquivo ***credenciais***, conforme Figura 11.
+- **Porta do banco de dados =** porta de acesso ao banco de dados da UBS. Padrão: ***5433***
 
 ![Figura 27 - Configurações padrão do PEC e-SUS APS.](media/figura13-configuracao-pec-painel.png)
 Figura 27 - Configurações padrão do PEC e-SUS APS.
@@ -375,7 +380,9 @@ Uma vez confirmada a conexão, seguir para aba "Painel e-SUS" e preencher todos 
     
     **Exemplos:**
     
-    **http://localhost:8080** (Instalação local do PEC sem acesso externo)
+    **http://localhost:8080** (Instalação local do PEC, sem acesso externo ou em rede)
+
+    **http://192.168.1.105:8080** (Instalação local do PEC com acesso em rede)
     
     **http://191.10.20.30:8080** (Instalação do PEC acessada por IP público)
     
@@ -500,23 +507,15 @@ services:
 
 É necessário preencher os valores das variáveis vazias no docker-compose, sendo elas: 
 
-- **DB_HOST:** host de acesso ao banco de dados da UBS. 
-*Para instalações do Painel e-SUS APS diretamente no servidor, utilizar o **padrão: localhost***
-- **DB_USER:** usuário de acesso ao banco de dados da UBS. 
-*Utilizar por padrão o usuário esus_leitura ou outro que possua acesso somente leitura do banco de dados.*
-- **DB_PASSWORD:** senha de acesso ao banco de dados da UBS. 
-*Por padrão está presente no arquivo credenciais, conforme Figura 11.*
-- **DB_PORT:**  porta de acesso ao banco de dados da UBS.
-*Padrão: 5433*
-- **DB_DATABASE:**  nome da base de dados da UBS.
-***Padrão: esus***
-- **CIDADE_IBGE:**  código IBGE correspondente ao município em que o sistema está sendo instalado. O código deverá ser composto dos 7 dígitos numéricos do IBGE. Caso seja necessário maiores informações, buscar no site do IBGE: [https://www.ibge.gov.br/cidades-e-estados](https://www.ibge.gov.br/cidades-e-estados) .
-- **ADMIN_USERNAME:**  nome do usuário administrador para acesso ao Painel. 
-*Padrão: **admin***
-- **ADMIN_PASSWORD:** senha do usuário administrador.
-*Coloque uma senha forte. Ex: 7Hz4eq395O4kZtBD2D*
-- **BRIDGE_LOGIN_URL:** Endereço para acesso ao PEC e-SUS APS. 
-*Importante destacar que esta configuração deve estar correta para que o Painel seja acessado pelos profissionais utilizando as mesmas credenciais do PEC e-SUS APS.*
+- **DB_HOST:** host de acesso ao banco de dados. Para instalações do Painel e-SUS APS diretamente no servidor, utilizar o padrão: ***localhost***
+- **DB_USER:** usuário de acesso ao banco de dados. Padrão: ***esus_leitura*** ou outro usuário que possua acesso somente leitura do banco de dados.
+- **DB_PASSWORD:** senha de acesso ao banco de dados da UBS. Por padrão, a senha é encontrada no arquivo ***credenciais***, conforme Figura 11.
+- **DB_PORT:**  porta de acesso ao banco de dados. Padrão: ***5433***
+- **DB_DATABASE:**  nome da base de dados. Padrão: ***esus***
+- **CIDADE_IBGE:**  código IBGE correspondente ao município em que o sistema está sendo instalado. O código deverá ser composto dos 7 dígitos numéricos do IBGE. Caso seja necessário maiores informações, buscar no site do IBGE: [https://www.ibge.gov.br/cidades-e-estados](https://www.ibge.gov.br/cidades-e-estados).
+- **ADMIN_USERNAME:**  nome do usuário administrador para acesso ao Painel. Padrão: ***admin***
+- **ADMIN_PASSWORD:** senha do usuário administrador. Coloque uma senha forte. Ex: ***7Hz4eq395O4kZtBD2D***
+- **BRIDGE_LOGIN_URL:** Endereço para acesso ao PEC e-SUS APS. Importante destacar que esta configuração deve estar correta para que o Painel seja acessado pelos profissionais utilizando as mesmas credenciais do PEC e-SUS APS.*
 
 Com o docker-compose devidamente criado e configurado, agora é a hora de realmente executar o Painel e-SUS. Para isso execute o comando abaixo dentro do diretório escolhido para a criação do docker-compose.yml.
 
