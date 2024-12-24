@@ -83,7 +83,7 @@ Para município de até 100 mil habitantes recomenda-se uma máquina com pelo me
 Recomenda-se que a instalação do Painel e-SUS APS seja realizada em um servidor diferente da instalação do Prontuário Eletrônico do Cidadadão (PEC).
 
 {: .atencao }
-O Painel e-SUS APS foi homologado em sistema operacional Linux Ubuntu,  Windows 10 e Windows 11. Sendo compatível com banco de dados Postgres.
+O Painel e-SUS APS foi homologado em sistema operacional Linux Ubuntu,  Windows 10 e Windows 11. Sendo compatível somente com banco de dados PostgreSQL.
 
 # 4 Instalação, Configuração, Inicialização e Acesso ao Painel
 
@@ -102,13 +102,13 @@ Para a instalação remota, o Painel e-SUS APS pode ser instalado em uma estrutu
 
 ### 4.1.1 Instalação do Painel e-SUS APS
 
-O primeiro passo para instalar o Painel é realizar o download do instalador. O arquivo de instalação do Painel e-SUS APS deve ser baixado no [Portal e-SUS APS](https://sisaps.saude.gov.br/esus/), sessão **Painel e-SUS APS** (arquivo *.exe).
+O primeiro passo para instalar o Painel é realizar o download do instalador. O arquivo de instalação do Painel e-SUS APS deve ser baixado no [Portal e-SUS APS](https://sisaps.saude.gov.br/esus/), sessão **Painel e-SUS APS**.
 
-Ao clicar no link, o download do arquivo **.exe** será iniciado automaticamente no navegador. Caso o download não ocorra de imediato, clicar com o botão direito no link e selecionar a opção **"Salvar link como..."** para iniciar manualmente o processo de download.
+Ao clicar no link, o download do arquivo será iniciado automaticamente no navegador. Caso o download não ocorra de imediato, clicar com o botão direito no link e selecionar a opção **"Salvar link como..."** para iniciar manualmente o processo de download.
 
 Após a conclusão do download, o arquivo de instalação estará disponível no diretório **"Downloads"** do computador por padrão ou em outro diretório selecionado.
 
-Com o download concluído, clicar no arquivo **.exe** para iniciar o processo de instalação. Isso abrirá o assistente de instalação do **Painel**.
+Com o download concluído, descompacte o arquivo baixado e execute o arquivo **.exe** para iniciar o processo de instalação. Isso abrirá o assistente de instalação do **Painel**.
 
 Dependendo da versão utilizada do sistema operacional Windows, será exibida uma tela de "Controle de Conta de Usuário", solicitando permissão para a instalação do Painel.
 
