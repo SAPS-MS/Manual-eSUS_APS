@@ -330,7 +330,7 @@ O processo de configuração das variáveis de ambiente é dividido em duas etap
 - **Painel e-SUS:** configuração das variáveis de login no sistema.
 
 {: .nota }
-É imprescindível preencher todos os campos de maneira correta. Para isto, é necessário o acesso ao arquivo “credenciais” presente no diretório raiz da Instalação do PEC e-SUS APS.**
+É imprescindível preencher todos os campos de maneira correta. Para isto, é necessário o acesso ao arquivo “credenciais” presente no diretório raiz da Instalação do PEC e-SUS APS.
 
 {: .atencao }
 Deve-se sempre utilizar um usuário do banco de dados que possua permissão apenas de leitura nas tabelas que, por padrão, é o usuário **esus_leitura**. **Não** se deve utilizar o usuário **postgres** ou outro usuário que tenha acesso total ao banco de dados.
@@ -366,7 +366,7 @@ Após preencher todos os campos desta aba, clicar no botão "**Testar Conexão**
 Figura 28 - Conexão estabelecida.
 
 {: .atencao }
-**Atenção: A execução correta do Painel depende da conexão bem-sucedida com o banco de dados.**
+A execução correta do Painel depende da conexão bem-sucedida com o banco de dados.
 
 
 Uma vez confirmada a conexão, seguir para aba "Painel e-SUS" e preencher todos os campos, como demonstra a **Figura 29**. Considerar os exemplos a seguir para o preenchimento dos campos:
@@ -529,7 +529,7 @@ Para acessar o Paine e-SUS, leia atentamente a seção 4.4.
 Ao completar todos os passos descritos anteriormente, o Painel já se encontrará apto para acesso. Para acessá-lo, abrir em um navegador web o seguinte endereço: [http://localhost:5001/](http://localhost:5001/)**.** É possível acessar o Painel via IP público ou domínio, desde que o computador onde o Painel e-SUS APS foi instalado tenha essas possibilidades e a porta 5001 esteja devidamente configurada para acesso externo.
 
 {: .atencao }
-**Atenção**: Durante a utilização do Painel, é importante monitorar o uso da Unidade Central de Processamento (CPU) e da memória do servidor do banco de dados do PEC e-SUS APS. Isso ajuda a garantir que a execução do Painel não comprometa a performance do prontuário, especialmente em servidores com configurações inferiores às recomendadas, conforme descrito no Manual do e-SUS APS – Apoio à Implantação - Preparar Ambiente: LINK.
+Durante a utilização do Painel, é importante monitorar o uso da Unidade Central de Processamento (CPU) e da memória do servidor do banco de dados do PEC e-SUS APS. Isso ajuda a garantir que a execução do Painel não comprometa a performance do prontuário, especialmente em servidores com configurações inferiores às recomendadas, conforme descrito no Manual do e-SUS APS – Apoio à Implantação - Preparar Ambiente: [LINK](https://saps-ms.github.io/Manual-eSUS_APS/docs/Apoio%20a%20Implanta%C3%A7%C3%A3o/Apoio_implantacao/).
 
 Ao abrir a aplicação, terá o direcionamento para a tela de login. No campo **Login**, inserir o CPF do usuário e no campo **Senha**, digitar a senha correspondente. O acesso do administrador do Painel é configurado durante a instalação inicial, enquanto os profissionais de saúde utilizarão as mesmas credenciais (login e senha) do PEC e-SUS APS. Após preencher os campos, clicar no botão **Entrar** para iniciar a navegação no Painel, como ilustra a **Figura 34**.
 
