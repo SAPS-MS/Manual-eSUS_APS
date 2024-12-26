@@ -210,7 +210,7 @@ Uma vez confirmada a conexão, seguir para aba "Painel e-SUS" e preencher todos 
 - **Código IBGE da Cidade** = código IBGE correspondente ao município em que o sistema está sendo instalado. O código deverá ser composto dos 7 dígitos numéricos do IBGE. Caso seja necessário maiores informações, buscar no site do IBGE: [https://www.ibge.gov.br/cidades-e-estados](https://www.ibge.gov.br/cidades-e-estados) .
 - **Usuário de acesso ao painel-esus:** criar um nome de usuário para o administrador do Painel. Padrão: **admin**
 - **Senha de acesso ao painel-esus:** criar uma senha do usuário administrador.
-- **Url de login:** Endereço para acesso ao PEC e-SUS APS. Importante destacar que esta configuração deve estar correta para que o Painel seja acessado pelos profissionais utilizando as mesmas credenciais do PEC e-SUS APS.
+- **Url de login:** Endereço para acesso ao PEC e-SUS APS, **sem informar barra (/) no fim do endereço**. Importante destacar que esta configuração deve estar correta para que o Painel seja acessado pelos profissionais utilizando as mesmas credenciais do PEC e-SUS APS.
     
     **Exemplos:**
     
@@ -374,7 +374,7 @@ Uma vez confirmada a conexão, seguir para aba "Painel e-SUS" e preencher todos 
 - **Código IBGE da Cidade** = código IBGE correspondente ao município em que o sistema está sendo instalado. O código deverá ser composto dos 7 dígitos numéricos do IBGE. Caso seja necessário maiores informações, buscar no site do IBGE: [https://www.ibge.gov.br/cidades-e-estados](https://www.ibge.gov.br/cidades-e-estados) .
 - **Usuário de acesso ao painel-esus:** nome do usuário administrador para acesso ao Painel. Padrão: **admin**
 - **Senha de acesso ao painel-esus:** senha do usuário administrador.
-- **Url de login:** Endereço para acesso ao PEC e-SUS APS. Importante destacar que esta configuração deve estar correta para que o Painel seja acessado pelos profissionais utilizando as mesmas credenciais do PEC e-SUS APS.
+- **Url de login:** Endereço para acesso ao PEC e-SUS APS, **sem informar barra (/) no fim do endereço**. Importante destacar que esta configuração deve estar correta para que o Painel seja acessado pelos profissionais utilizando as mesmas credenciais do PEC e-SUS APS.
     
     **Exemplos:**
     
@@ -514,7 +514,7 @@ services:
 - **CIDADE_IBGE:**  código IBGE correspondente ao município em que o sistema está sendo instalado. O código deverá ser composto dos 7 dígitos numéricos do IBGE. Caso seja necessário maiores informações, buscar no site do IBGE: [https://www.ibge.gov.br/cidades-e-estados](https://www.ibge.gov.br/cidades-e-estados).
 - **ADMIN_USERNAME:**  nome do usuário administrador para acesso ao Painel. Padrão: ***admin***
 - **ADMIN_PASSWORD:** senha do usuário administrador. Coloque uma senha forte. Ex: ***7Hz4eq395O4kZtBD2D***
-- **BRIDGE_LOGIN_URL:** Endereço para acesso ao PEC e-SUS APS. Importante destacar que esta configuração deve estar correta para que o Painel seja acessado pelos profissionais utilizando as mesmas credenciais do PEC e-SUS APS.*
+- **BRIDGE_LOGIN_URL:** Endereço para acesso ao PEC e-SUS APS, **sem informar barra (/) no fim do endereço**. Importante destacar que esta configuração deve estar correta para que o Painel seja acessado pelos profissionais utilizando as mesmas credenciais do PEC e-SUS APS.
 
 Com o docker-compose devidamente criado e configurado, agora é a hora de realmente executar o Painel e-SUS. Para isso execute o comando abaixo dentro do diretório escolhido para a criação do docker-compose.yml.
 
