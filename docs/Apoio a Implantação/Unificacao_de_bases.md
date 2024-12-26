@@ -5,7 +5,7 @@ parent: Apoio a Implantação
 nav_order: 3
 has_children: false
 has_toc: true
-last_modified_date: "10/09/2024"
+last_modified_date: "26/12/2024"
 ---
 <head>
     <style>
@@ -77,69 +77,69 @@ processo de unificação de bases para criação de uma estrutura centralizada d
 
 Os benefícios da unificação de bases são significativos para uma Atenção Primária mais digital e bem qualificada, no entanto, é crucial um planejamento assertivo para garantir a disponibilidade contínua do cenário e consistência dos dados.
 
-Após a unificação das bases, qualquer reversão para o cenário anterior exigirá uma
-infraestrutura descentralizada em cada instalação PEC, com requisitos computacionais robustos para suportar o volume total de dados resultantes dessa unificação.
+Após a unificação das bases, qualquer reversão para o cenário anterior (descentralizado) exigirá uma infraestrutura descentralizada em cada Instalação do PEC, com requisitos computacionais robustos para suportar o volume total de dados resultantes dessa unificação.
 
-![](media/unificacao_de_bases_005.png)
-![](media/unificacao_de_bases_006.png)
-![](media/unificacao_de_bases_007.png)
-![](media/unificacao_de_bases_008.png)
+{: .atencao }
+- Considerando as boas práticas da Lei Geral de Proteção de Dados (LGPD/ Lei n° 13.709/2018), é importante salientar que a unificação de bases de dados é um processo crítico e envolve a manipulação de dados de diversos cidadãos, Unidades de Saúde e/ou municípios (Instalações Multimunicipais). É muito relevante considerar as melhores práticas de segurança da informação (PSI), com vistas a manutenção do sigilo e confidencialidade dos dados, para que se evite o vazamento de dados pessoais e sensíveis;
+- Recomenda-se que, na Instalação Descentralizada, todas as doses de vacina com inconsistências identificadas no Relatório do SISAB de Vacinas Registradas no e-SUS APS sejam excluídas ou corrigidas antes de iniciar o processo de unificação das bases. Caso essa etapa não seja realizada, não será possível excluir doses registradas de origem PEC na Instalação Central, pois, a exclusão deve ocorrer na mesma instalação onde a dose foi registrada. No entanto, para doses de origem CDS, não há impedimentos para exclusão ou retificação após a unificação, podendo ser feito o processo via Vacinação do módulo CDS.
 
-### 5.0 Etapas de Unificação de bases de dados no e-SUS PEC:
+## 4.1 Prodecimentos a serem realizados antes do processo de Unificação de Bases
 
-**Considerações iniciais:**
+![](media/unificacao_de_bases_antes_desc.png)
+![](media/unificacao_de_bases_antes_cent.png)
 
-É importante destacar que o processo de unificação de bases de dados foi desenvolvido para operar de forma remota, onde uma Instalação do PEC (Instalação
-descentralizada que será unificada e desativada após o processo) remete dados para outra Instalação do PEC (Instalação central) a partir de um link de internet! Durante o processo de unificação, caso haja queda no link de internet ou interrupção de energia, o processo de unificação será interrompido e o processo deverá ser reiniciado, restaurando-se os backups da Instalação descentralizada e da Instalação Central que foram realizados antes de iniciar o processo de unificação, para assim realizar uma nova tentativa! 
+### 5. Etapas de Unificação de bases de dados no e-SUS PEC:
 
-Sempre que possível, considere preparar um ambiente na rede local da Instalação Central, com uma “instalação alternativa do PEC” para receber o backup das instalações descentralizadas, um por vez, e realizar a unificação dentro da mesma infraestrutura; tal ação permitirá maior agilidade, segurança e rapidez no processo de unificação das bases de dados e evitará transtornos advindos de quaisquer interrupções.
+**Considerações importantes:**
 
-**Ideia para o fluxo Homologação e Produção no processo de Unificação de Bases**
+Destaca-se que o processo de unificação de bases de dados foi desenvolvido para operar de forma remota, onde uma Instalação do PEC (Instalação
+descentralizada que será unificada) remete dados para outra Instalação do PEC (Instalação Central que receberá os dados) a partir de um link de internet! Durante o processo de unificação, caso haja queda no link de internet ou interrupção de energia, o processo de unificação será interrompido e o processo deverá ser reiniciado, restaurando-se os backups da Instalação Descentralizada e da Instalação Central que foram realizados antes de iniciar o processo de unificação, para assim realizar uma nova tentativa.
+
+Sempre que possível, considere preparar um ambiente na rede local da Instalação Central, com uma “instalação alternativa do PEC” para receber o backup das Instalações Descentralizadas, um por vez, e realizar a unificação dentro da mesma infraestrutura; tal ação permitirá maior agilidade, segurança e rapidez no processo de unificação das bases de dados e evitará transtornos advindos de quaisquer interrupções.
+
+Também é altamente recomendado que o processo de unificação de bases seja realizado fora do horário de expediente das Unidades de Saúde ou, que no momento da unificação, nenhum profissional tenha acesso tanto à Instalação Central quanto à Instalação Descentralizada.
+
+{: .atencao }
+Não orientamos realizar o processo diretamente em ambiente de PRODUÇÃO! Considere realizá-lo sempre em HOMOLOGAÇÃO e, uma vez bem-sucedido, valide o êxito da unificação e, na sequência, realizar todo o processo em ambiente de PRODUÇÃO. 
+
+**5.1 Fluxo Homologação e Produção no processo de Unificação de Bases (sugestão)**
 
 ![](media/unificacao_hom_prod.png)
 
-Fonte: SAPS / Educa e-SUS APS
+Fonte: SAPS / UFMG (Educa e-SUS APS)
 
-**Processo no PEC**
+**5.2 Processo de Unificação de Bases no PEC**
 
-O Administrador da Instalação deverá acessar o PEC com sua respectiva credencial de acesso e clicar na aba lateral “Configurações da instalação”. Ao clicar em “Unificação de base”, o sistema apresentará as opções abaixo:
-
-![](media/unificacao_de_bases_009.png)
-![](media/unificacao_de_bases_010.png)
-![](media/unificacao_de_bases_011.png)
-![](media/unificacao_de_bases_012.png)
-![](media/unificacao_de_bases_013.png)
-
-> **Observações:**
-
-▪ Não é possível solicitar uma unificação de bases enquanto houver outra em andamento;
-
-▪ É necessário finalizar todos os recebimentos para poder realizar uma nova solicitação;
-
-▪ Ao unificar a sua base com a instalação central do município, seu sistema será
-desativado e o novo link de acesso e-SUS APS será repassado pelo administrador da
-instalação central.
-
-**Sobre o tempo de unificação:**
-
-O tempo de unificação poderá variar conforme o tamanho da base de dados remetente
-(descentralizada), podendo levar algumas horas para ser concluído; a depender da volumetria da base de dados, considere realizar o procedimento no final de semana; caso o processo não tenha sido concluído, tenha sempre em mãos um plano de contingência a ser adotado; se necessário, acione o Suporte Técnico para maiores informações.
-
-![](media/unificacao_de_bases_014.png)
-
-Clique em **ACEITAR** para autorizar o início do processo de unificação por parte da Instalação Central.
-
-![](media/unificacao_de_bases_015.png)
-
-Em seguida, aguarde o término da unificação, que poderá variar de acordo com o tamanho da base de dados da Unidade de Saúde que está enviando seu banco para a Instalação Central:
-
-![](media/unificacao_de_bases_016.png)
+![](media/unificacao_de_bases_part1.png)
+![](media/unificacao_de_bases_part2.png)
+![](media/unificacao_de_bases_part3.png)
+![](media/unificacao_de_bases_part4.png)
+![](media/unificacao_de_bases_part5.png)
 
 {: .atencao }
-Após realizada a unificação, repasse o novo link de acesso da Instalação Central do PEC aos profissionais de saúde da Unidade unificada e valide o êxito da operação! 
+Em caso de erro no processo, NÃO tente realizar nova tentativa. Abra um chamado no Canal de Suporte do e-SUS APS, enviando os arquivos “pec.log”, encontrado nos diretórios “e-SUS\webserver\logs” e o backup das duas instalações (Instalação Central e Instalação Descentralizada). Aguarde o retorno do chamado para a resolução do erro. Nesse ínterim, restaure nas Instalações os backups realizados antes de se iniciar todo o processo, evitando-se assim qualquer situação de inconsistência dos dados e inacessibilidade das Instalações.
 
-![](media/unificacao_de_bases_017.png)
+Após realizada a unificação com sucesso, valide o êxito do processo e repasse o novo link de acesso da Instalação Central do PEC aos profissionais de saúde da(s) Unidade(s) que teve(tiveram) a(s) sua(s) base(s) unificada(s)!
+
+Vale ressaltar que todos os profissionais que acessavam a Instalação Descentralizada terão suas senhas resetadas.
+
+{: .dica }
+Se a Instalação Central tem o serviço de SMTP ativado e os profissionais tem seus e-mails cadastrados corretamente no CNES municipal ou no Prontuário Eletrônico do e-SUS APS, basta que eles utilizem a opção “Esqueci minha senha” na tela de login para recuperar o acesso.
+
+## 5.3 Processos a serem realizados após Unificações de Base
+ 
+![](media/unificacao_de_bases_pos1.png)
+![](media/unificacao_de_bases_pos2.png)
+![](media/unificacao_de_bases_pos3.png)
+
+## Mais informações:
+
+### 9º Webinário da série Atualiza e-SUS APS: Unificação de Bases de Dados
+
+<iframe width="800" height="520" src="https://www.youtube.com/watch?v=3iB9WMnq-i0" title="Unificação de Bases de Dados" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+**DOWNLOAD DA APRESENTAÇÃO TÉCNICA**: [LINK](downloads/apt_unifbases.pdf)
 
 **FIM**
 
-1ª versão. Atualizado em 25 de outubro de 2024.
+2ª versão. Atualizado em 26 de dezembro de 2024.
