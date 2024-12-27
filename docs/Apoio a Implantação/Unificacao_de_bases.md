@@ -137,10 +137,9 @@ Se a Instalação Central tem o serviço de SMTP ativado e os profissionais tem 
 
 ## 6. Mais informações:
 
-**9º Webinário da série Atualiza e-SUS APS: Unificação de Bases de Dados**: [**LINK**](https://www.youtube.com/watch?v=3iB9WMnq-i0)
+**9º Webinário da série Atualiza e-SUS APS: Unificação de Bases de Dados**
+Transmitido em 05 de dezembro de 2024: [**LINK**](https://www.youtube.com/watch?v=3iB9WMnq-i0)
 
 **DOWNLOAD da apresentação técnica**: [**LINK**](downloads/apt_unifbases.pdf)
-
-**FIM**
 
 2ª versão. Atualizado em 26 de dezembro de 2024.
