@@ -149,6 +149,7 @@ Para encerrar o instalador, basta clicar em **"Concluir"**. O Painel e-SUS APS e
 Antes de iniciar o uso do Painel e-SUS APS, é crucial configurar adequadamente as variáveis de ambiente para garantir o funcionamento correto da aplicação. Para realizar essa configuração, navegue até o diretório onde o Painel e-SUS APS foi instalado. Em seguida, abra o arquivo **config.exe** para iniciar o processo de configuração, conforme ilustrado na **Figura 9**.
 
 ![Figura 9 - Arquivo de configuração.](media/figura09-arquivo-configuracao.png)
+
 Figura 9 - Arquivo de configuração.
 
 Ao abrir o arquivo, a interface de configuração será aberta apresentando duas abas na parte superior: **"Banco de Dados"** e **"Painel e-SUS"**, conforme ilustrado na **Figura 10**.
@@ -363,6 +364,7 @@ Figura 27 - Configurações padrão do PEC e-SUS APS.
 Após preencher todos os campos desta aba, clicar no botão "**Testar Conexão**" ao final da seção para verificar a conectividade com a base de dados do PEC e-SUS APS. Uma mensagem será exibida, sinalizando que a conexão foi estabelecida (**Figura 28**).
 
 ![Figura 28 - Conexão estabelecida.](media/figura14-conexao-estabelecida.png)
+
 Figura 28 - Conexão estabelecida.
 
 {: .atencao }
@@ -393,6 +395,7 @@ Figura 29 - Configuração do painel.
 Após completar o preenchimento desta aba, clicar no botão "Finalizar Configuração". Com a finalização dessas etapas, o Painel estará devidamente configurado e pronto para inicialização (**Figura 30**).
 
 ![Figura 30 - Configuração realizada com sucesso.](media/figura16-configutacao-sucesso-painel.png)
+
 Figura 30 - Configuração realizada com sucesso.
 
 ### 4.2.3 Inicialização do Painel em ambiente Linux
@@ -584,6 +587,7 @@ Figura 36: Arquivo para desinstalar do Painel e-SUS APS.
 Ao clicar duas vezes sobre o executável o sistema operacional irá exibir uma mensagem assim como a apresentada na Figura18.
 
 ![Figura 37: Mensagem de confirmação para desinstalação software.](media/figura-mensagem-confirmacao.png)
+
 Figura 37: Mensagem de confirmação para desinstalação software.
 
 Basta clicar em “sim” que o processo de desinstalação irá começar automaticamente. 
