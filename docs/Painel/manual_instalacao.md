@@ -218,9 +218,9 @@ Uma vez confirmada a conexão, seguir para aba "Painel e-SUS" e preencher todos 
 
     **http://192.168.1.105:8080** (Instalação local do PEC com acesso em rede)
     
-    **http://191.10.20.30:8080** (Instalação do PEC acessada por IP público)
-    
-    **https://esus.municipio.uf.gov.br** (Instalação do PEC acessada por domínio com HTTPS)
+    **http://191.10.20.30:8080** (Instalação do PEC, sem HTTPS configurado, acessada por IP público)
+  
+    **https://esus.municipio.uf.gov.br** (Instalação do PEC, com HTTPS configurado, acessada por domínio)
     
 
 ![Figura 15 - Configuração do painel.](media/figura15-configuracao-painel.png)
@@ -382,9 +382,9 @@ Uma vez confirmada a conexão, seguir para aba "Painel e-SUS" e preencher todos 
 
     **http://192.168.1.105:8080** (Instalação local do PEC com acesso em rede)
     
-    **http://191.10.20.30:8080** (Instalação do PEC acessada por IP público)
-    
-    **https://esus.municipio.uf.gov.br** (Instalação do PEC acessada por domínio com HTTPS)
+    **http://191.10.20.30:8080** (Instalação do PEC, sem HTTPS configurado, acessada por IP público)
+  
+    **https://esus.municipio.uf.gov.br** (Instalação do PEC, com HTTPS configurado, acessada por domínio)
     
 
 ![Figura 29 - Configuração do painel.](media/figura15-configuracao-painel.png)
@@ -515,6 +515,16 @@ services:
 - **ADMIN_USERNAME:**  nome do usuário administrador para acesso ao Painel. Padrão: ***admin***
 - **ADMIN_PASSWORD:** senha do usuário administrador. Coloque uma senha forte. Ex: ***7Hz4eq395O4kZtBD2D***
 - **BRIDGE_LOGIN_URL:** Endereço para acesso ao PEC e-SUS APS, **sem informar barra (/) no fim do endereço**. Importante destacar que esta configuração deve estar correta para que o Painel seja acessado pelos profissionais utilizando as mesmas credenciais do PEC e-SUS APS.
+
+    **Exemplos:**
+    
+    **http://localhost:8080** (Instalação local do PEC, sem acesso externo ou em rede)
+
+    **http://192.168.1.105:8080** (Instalação local do PEC com acesso em rede)
+    
+    **http://191.10.20.30:8080** (Instalação do PEC, sem HTTPS configurado, acessada por IP público)
+  
+    **https://esus.municipio.uf.gov.br** (Instalação do PEC, com HTTPS configurado, acessada por domínio)
 
 Com o docker-compose devidamente criado e configurado, agora é a hora de realmente executar o Painel e-SUS. Para isso execute o comando abaixo dentro do diretório escolhido para a criação do docker-compose.yml.
 
