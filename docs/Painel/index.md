@@ -18,7 +18,7 @@ e-SUS Atenção Primária à Saúde (e-SUS APS)
 PAINEL e-SUS APS
 {: .fs-8 }
 {: .text-center }
-MANUAL (PRELIMINAR)
+MANUAL
 {: .fs-8 }
 {: .text-center }
 <br>
