@@ -2986,7 +2986,7 @@ O envio do RAC à RNDS é feito ao finalizar o atendimento individual.
 Como prontuário eletrônico, o e-SUS APS é uma poderosa ferramenta que poderá fortalecer a rede de saúde do município na longitudinalidade do cuidado junto a APS e na facilitação do dia a dia dos serviços da Atenção Ambulatorial Especializada, organizando internamente os processos e diminuindo cada vez mais o uso do papel.
 
 {: .nota }
-No que se refere a apresentação dos procedimentos realizados, neste momento, mesmo utilizando o PEC e-SUS APS, todos os registros destes serviços devem continuar mantendo seu fluxo comum, sendo necessário o preenchimento do Boletim de Produção Ambulatorial (BPA) ou Registro das Ações Ambulatoriais de Saúde (RAAS) no caso dos CAPS, e posterior envio ao Sistema de Informações Ambulatoriais do SUS (SIASUS) como de costume, pois estes serviços exigem este meio de registro para controle de registros e financiamento.
+No que se refere a apresentação dos procedimentos realizados, neste momento, mesmo utilizando o PEC e-SUS APS, todos os registros destes serviços devem continuar mantendo seu fluxo comum, sendo necessário o preenchimento do Boletim de Produção Ambulatorial (BPA) ou Registro das Ações Ambulatoriais de Saúde (RAAS) no caso dos CAPS, e posterior envio ao Sistema de Informações Ambulatoriais do SUS (SIASUS) como de costume, pois estes serviços exigem esta forma de registro para controle e manutenção do financiamento.
 
 Atualmente, o e-SUS Ampliado possui regras específicas para os estabelecimentos **Policlínicas** (CNES com tipo de estabelecimento = 04) e **Pronto atendimentos** (CNES com tipo de estabelecimento = 73 e subtipo = 001 ou 002 ou 003).
 
