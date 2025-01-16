@@ -418,7 +418,7 @@ Quando o sistema estiver pronto para acesso, será apresentado um log assim como
 ![Figura 33: Fim da inicialização do Painel e-SUS em ambiente Linux.](media/12.png)
 Figura 33: Fim da inicialização do Painel e-SUS em ambiente Linux.
 
-Para acessar o Paine e-SUS, leia atentamente a seção 4.4.
+Para acessar o Painel e-SUS APS, leia atentamente a seção 4.4.
 
 ## 4.3 Docker
 
@@ -539,7 +539,10 @@ Para acessar o Paine e-SUS, leia atentamente a seção 4.4.
 
 ## 4.4 Acesso ao Painel e dicas de uso
 
-Ao completar todos os passos descritos anteriormente, o Painel já se encontrará apto para acesso. Para acessá-lo, abrir em um navegador web o seguinte endereço: [http://localhost:5001/](http://localhost:5001/)**.** É possível acessar o Painel via IP público ou domínio, desde que o computador onde o Painel e-SUS APS foi instalado tenha essas possibilidades e a porta 5001 esteja devidamente configurada para acesso externo.
+Ao completar todos os passos descritos anteriormente, o Painel já se encontrará apto para acesso. Para acessá-lo, abrir em um navegador web o seguinte endereço: [http://localhost:5001/](http://localhost:5001/)**.** 
+
+{: .dica }
+É possível acessar o Painel externamente à instalação, via protocolo HTTP, por **IP público** (exemplo: http://191.10.20.30:5001) ou **domínio** (exemplo: http://esus.municipio.uf.gov.br:5001), desde que o computador onde o Painel e-SUS APS foi instalado tenha essas possibilidades e a porta 5001 esteja devidamente configurada para acesso externo.
 
 {: .atencao }
 Durante a utilização do Painel, é importante monitorar o uso da Unidade Central de Processamento (CPU) e da memória do servidor do banco de dados do PEC e-SUS APS. Isso ajuda a garantir que a execução do Painel não comprometa a performance do prontuário, especialmente em servidores com configurações inferiores às recomendadas, conforme descrito no Manual do e-SUS APS – Apoio à Implantação - Preparar Ambiente: [LINK](https://saps-ms.github.io/Manual-eSUS_APS/docs/Apoio%20a%20Implanta%C3%A7%C3%A3o/Apoio_implantacao/).
