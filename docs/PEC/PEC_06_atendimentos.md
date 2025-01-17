@@ -1172,7 +1172,7 @@ Fonte: SAPS/MS.
 
 #### 6.4.3.4.2 Ferramentas do Plano - Exames
 
-Nesta ferramenta, é possível solicitar exames para o cidadão em atendimento. Exames cadastrados neste módulo irão ser incluídos no bloco "Objetivo" do registro de atendimento do SOAP, na parte de exames solicitados e/ou avaliados, após a finalização da consulta em que eles foram inseridos.
+Nesta ferramenta, é possível solicitar exames para o cidadão em atendimento e solicitar inclusão na Oferta de Cuidados Integrados (OCI). Exames cadastrados neste módulo irão ser incluídos no bloco "Objetivo" do registro de atendimento do SOAP, na parte de exames solicitados e/ou avaliados, após a finalização da consulta em que eles foram inseridos.
 
 Como podemos ver na Figura 6.4.17 há duas opções para solicitação de exames:
 
@@ -1266,7 +1266,6 @@ Fonte: SAPS/MS.
 Fonte: SAPS/MS.
 
 
-
 - Para realizar edição de alguma "solicitação de exames" cique em "Editar"![](media/pec_image944.png). O sistema abrirá a tela conforme figura abaixo. 
 
 ![](media/pec_image945.png)
@@ -1280,6 +1279,31 @@ Fonte: SAPS/MS.
 - Passo 3. Caso deseje excluir alguma exame clique em "Excluir" ![](media/pec_image941.png).
 
 Passo 4.  Após as alterações, clique no botão "Salvar" ![](media/pec_image930.png).
+
+
+
+##### 6.4.3.4.2.3 Solicitar exame para OCI (Oferta de Cuidados Integrados)
+
+
+A Oferta de Cuidados Integrados (OCI) foi incorporada no Prontuário Eletrônico do Cidadão (PEC) a partir do contexto no Programa Mais Acesso a Especialistas (PMAE).
+
+A Oferta de Cuidados Integrados (OCI) foi incorporada no Prontuário Eletrônico do Cidadão (PEC) a partir do lançamento do Programa Mais Acesso a Especialistas (PMAE). A **Oferta de Cuidado Integrado – OCI**, pode ser compreendida como um conjunto de procedimentos e tecnologias de cuidado necessários a uma atenção oportuna e com qualidade, integrados para concluir uma etapa na linha de cuidado ou na condução de agravos específicos de rápida resolução, de diagnóstico ou de tratamento, conforme disposto na [Portaria SAES/MS nº 1.821, de 11 de junho de 2024](https://bvsms.saude.gov.br/bvs/saudelegis/Saes/2024/prt1821_12_06_2024.html) (BRASIL, 2024d). É uma estratégia para viabilizar o cuidado em saúde em rede, contribuindo para a regulação do acesso, a continuidade do cuidado e o fortalecimento da APS, com o objetivo de reduzir a peregrinação dos pacientes. 
+
+Para uma leitura mais aprofundada sobre o Programa de Mais Acesso a Especialistas e as OCIs é indicada a leitura [Mais acesso a especialistas](  https://www.gov.br/saude/pt-br/composicao/saes/pmae) e [Financiamento e Contratualização](https://www.gov.br/saude/pt-br/composicao/saes/pmae/financiamento-e-contratualizacao) 
+
+Esta funcionalidade estará disponível no PEC, dentro do SOAP, em Plano. 
+![](media/oci.png)
+
+Ao selecionar “Adicionar OCI” abrirá a tela com informações obrigatórias como procedimentos, CID10 e justificativa de procedimento, e de forma complementar observações. 
+
+![](media/oci1.png)
+
+Após o preenchimento, será gerado um Laudo para solicitação/autorização de procedimentos ambulatorial que poderá ser impresso.  
+
+![](media/oci2.png)
+
+A informação de solicitação ficará salva no prontuário do cidadão. 
+![](media/oci3.png)
 
 #### 6.4.3.4.3 Ferramentas do Plano - Prescrição de Medicamentos
 
