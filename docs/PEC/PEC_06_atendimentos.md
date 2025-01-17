@@ -2791,7 +2791,9 @@ Para a elaboração de uma evolução clínica de qualidade é essencial seguir 
 
 Na parte do Subjetivo registra- se as informações sobre o motivo da consulta e as impressões subjetivas do profissional de saúde e as expressadas pela pessoa idosa.
 
-Na parte Objetiva registram- se as observações importantes do exame físico, os sinais vitais, a glicemia capilar, os exames solicitados e/ou avaliados e as medições antropométricas, que a partir da versão 3.2, foi incluído o campo para o registro do perímetro da panturrilha. Para realizar a avaliação no módulo de acompanhamento da pessoa idosa é essencial digitar o PESO e ALTURA para o cálculo do IMC, o PERÍMETRO DA PANTURRILHA, quando necessário, além do da PRESSÃO ARTERIAL e da GLICEMIA CAPILAR, se necessário.
+Na parte Objetiva registram- se as observações importantes do exame físico, os sinais vitais, a glicemia capilar, a antropometria, os exames solicitados e/ou avaliados, que a partir da versão 3.2, foi incluído o campo para o registro do perímetro da panturrilha. Para realizar a avaliação no módulo de acompanhamento da pessoa idosa é essencial digitar o PESO e ALTURA para o cálculo do IMC, o PERÍMETRO DA PANTURRILHA, quando necessário, além do da PRESSÃO ARTERIAL e da GLICEMIA CAPILAR, se necessário.
+
+A partir da versão 5.3, foi implementado o Índice de Vulnerabilidade Clínico Funcional (IVCF-20) que é um instrumento de rápida utilização e com potência para identificar possíveis fragilidades no idoso, que interfiram em sua qualidade de vida. São avaliados dados como idade, percepção da saúde, atividades da vida diária, cognição, humor, mobilidade, comunicação e presença de comorbidades. 
 
 Na parte da Avaliação utiliza-se o CIAP-2 ou CID-10 para a classificação do problema ou condição detectada. Para o acompanhamento dos problemas/condições e alergias/reações adversas presente na pessoa idosa, deve- se registrar no módulo "Problemas/Condições e Alergias" e informar como "Ativo", conforme descrito no capítulo 6.4.3. Para registrar apenas os problemas e condições de saúde, outra alternativa é clicar no box "inserir na lista de problema/condição como ativo", conforme figura abaixo.
 
@@ -2803,19 +2805,10 @@ Na bloco **Plano** registra-se o plano de cuidados ou condutas a serem tomadas e
 
 ### 6.5.4.2 - Acompanhamento da pessoa idosa
 
-O *Cartão* minimizado apresenta informações sobre o estado nutricional e se a pessoa idosa faz uso de 5 ou mais medicamentos como mostra a pec_imagem abaixo.
+Na lateral esquerda do SOAP e na folha de rosto é possível identificar informações do Acompanhamento da pessoa idosa. Dentro deste acompanhamento estão informações do Índice de Vulnerabilidade Clínico-Funcional (IVCF-20), bem como sua classificação, dimensões alteradas e a data da última avaliação multidimensional. 
 
-Figura 6.5.56 - Cartão da pessoa idosa
+Também é possível acessar informações como Alergias/Reações adversas, Lista de problemas/condições, Medições, Medicamentos em uso, Problemas/condições autorreferidas, Lembretes e Resultados de exames. 
 
-![](media/pec_image606.png)
-
-Clicando em cima do *Cartão* é possível verificar o conjunto de informações completas relacionadas ao acompanhamento da pessoa idosa. Existem quatro blocos de informações principais, sendo eles: "Medicamentos ativos", "Problemas/Condições", "Gráficos e medições" e "Alergias/Reações Adversas".
-
-Figura 6.5.57 - Cartão da pessoa idosa
-
-![](media/pec_image607.png)
-
-Cada bloco das informações sobre o acompanhamento da pessoa idosa serão detalhados a seguir.
 
 #### 6.5.4.2.1 - Medicamentos ativos
 
