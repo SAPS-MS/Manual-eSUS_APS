@@ -2797,7 +2797,11 @@ O Índice de Vulnerabilidade Clínico Funcional (IVCF-20) é um instrumento de r
 
 O Índice de Vulnerabilidade Clínico-Funcional (IVCF-20), está disponível no campo “Objetivo”, dentro do SOAP (Subjetivo, Objetivo, Avaliação e Plano). 
 
+![](media/idoso1.png)
+
 Para ter acesso à nova funcionalidade, será necessário habilitar o campo (imagem)
+
+![](media/idoso2.png)
 
 Após habilitar, aparecerão as perguntas que serão direcionadas à pessoa idosa e devem ser confirmadas pelo familiar ou acompanhante, desde que convivam com a pessoa idosa e estejam em condições de responder aos questionamentos. Nas pessoas idosas que são incapazes de responder, o profissional deverá utilizar as respostas do cuidador. 
 
@@ -2810,20 +2814,20 @@ Ao habilitar o campo IVCF-20, é necessário preencher e completar a avaliação
 |IDADE|Item preenchido automaticamente conforme cadastro. |Checar a data de nascimento cadastrada no prontuário. |60 a 74 anos (0 ponto); 75 a 84 anos (01 ponto); ou ≥ 85 anos (03 pontos) |  
 | PERCEPÇÃO DA SAÚDE| Em geral, comparando com outras pessoas da sua idade, você diria que sua saúde é: ( ) Excelente, muito boa ou boa; ( )Regular ou ruim . |Excelente, muito boa ou boa (0 ponto) Regular ou ruim (01 ponto)| 
 
-IMAGEM 
+![](media/idoso3.png)
 
 |**TÓPICO**|PERGUNTA|**PONTUAÇÃO ATRIBUÍDA**| 
 |--|--|--| 
 | ATIVIDADES DE VIDA DIÁRIA - Atividade de Vida Diária instrumental (AVDi) | - Por causa de sua saúde ou condição física, você deixou de fazer compras? - Por causa de sua saúde ou condição física, você deixou de controlar seu dinheiro, gastos ou pagar as contas de sua casa? -Por causa de sua saúde ou condição física, você deixou de realizar pequenos trabalhos domésticos, como lavar louça, arrumar a casa ou fazer uma limpeza leve? | - Sim (04 pontos) Não ou não faz compras por outros motivos que não a saúde (0 ponto). - Sim (04 pontos) Não ou não controla o dinheiro por outros motivos que não a saúde (0 ponto). - Sim (04 pontos) Não ou não faz mais pequenos trabalhos domésticos por outros motivos que não a saúde (0 Ponto). ** *A pontuação máxima nesse item é de 4 pontos. **|  
 | ATIVIDADES DE VIDA DIÁRIA - Atividade de Vida Diária básica (AVDb) | -  Por causa de sua saúde ou condição física, você deixou de tomar banho sozinho? | - Sim (06 pontos ) Não (0 pontos).|
 
-IMAGEM
+![](media/idoso4.png)
 
 |**TÓPICO**|PERGUNTA|**PONTUAÇÃO ATRIBUÍDA**| 
 |--|--|--| 
 |COGNIÇÃO|- Algum familiar ou amigo falou que você está ficando esquecido? - Este esquecimento está piorando nos últimos meses? - Este esquecimento está impedindo a realização de alguma atividade do cotidiano? |- Sim (01 ponto) Não (0 pontos ). - Sim (01 pontos) Não (0 pontos).  - Sim (02 pontos) Não (0 pontos). A pontuação final é a soma das respostas de cada item. A pontuação máxima nesta seção é de 4 pontos. | |HUMOR| - No último mês você ficou com desânimo, tristeza ou desesperança? - No último mês você perdeu interesse ou prazer em atividades anteriormente prazerosas? | - Sim (02 pontos) Não (0 pontos). - Sim (02 pontos) Não (0 pontos).  A pontuação final é a soma das respostas de cada item. A pontuação máxima nesta seção é de 4 pontos. |  
 
-IMAGEM
+![](media/idoso5.png)
 
 |**TÓPICO**|PERGUNTA|**PONTUAÇÃO ATRIBUÍDA**| 
 |--|--|--| 
@@ -2832,7 +2836,7 @@ IMAGEM
 |MARCHA| - Você tem dificuldade para caminhar capaz de impedir a realização de alguma atividade do cotidiano? - Você teve duas ou mais quedas no último ano? | -Sim (02 pontos) Não (0 pontos). - Sim (02 pontos) Não (0 pontos). A pontuação máxima no item 'marcha' é de 4 pontos |  
 |CONTINÊNCIA ESFINCTERIANA| Você perde urina ou fezes, sem querer, em algum momento?| - Sim (02 pontos) Não (0 pontos). A pontuação máxima neste item é de 2 pontos. |  
 
-IMAGEM
+![](media/idoso6.png)
 
 |**TÓPICO**|PERGUNTA|**PONTUAÇÃO ATRIBUÍDA**| 
 |--|--|--| 
@@ -2840,9 +2844,11 @@ IMAGEM
 |COMUNICAÇÃO - Audição| Você tem problemas de audição capazes de impedir a realização de alguma atividade do cotidiano? É permitido o uso de aparelhos de audição | Sim (02 pontos) Não (0 pontos). A pontuação máxima neste item é de 2 pontos. |  
 |COMORBIDADE MÚLTIPLA| Você tem alguma das três condições abaixo relacionadas? ( ) cinco ou mais doenças crônicas; ( ) uso regular de cinco ou mais medicamentos diferentes, todo dia; ( ) internação recente, nos últimos seis meses.  | Sim (04 pontos ) Não (0 pontos). A pontuação máxima nesta seção é de 4 pontos, mesmo que a pessoa pontue em mais de um item. | 
 
-imagem
+![](media/idoso7.png)
 
 Ao selecionar para calcular o índice, o sistema fará o cálculo do IVCF-20, mostrando o resultado do risco, identificando três categorias: Baixo Risco de Vulnerabilidade Clínico-Funcional (pontuação de 0 a 6); Moderado Risco de Vulnerabilidade Clínico-Funcional (pontuação de 7 a 14) e Alto Risco de Vulnerabilidade Clínico-Funcional (pontuação de 15 a 40).  Na sequência, mostrará as dimensões alteradas, conforme exemplo da PEC imagem: 
+
+![](media/idoso8.png)
 
 No que se refere à estratificação do risco e interpretação de resultados, a equipe de saúde deve aprofundar a avaliação de cada dimensão alterada garantindo acesso oportuno e manejo adequado, levando em conta os aspectos sociais e da rede de apoio disponível, bem como os princípios do SUS. 
 
@@ -2856,11 +2862,11 @@ No que se refere à estratificação do risco e interpretação de resultados, a
 
 Após a conclusão do preenchimento da ficha, automaticamente será gerado o código SIGTAP de Avaliação Multidimensional da Pessoa Idosa, em intervenções e/ou procedimentos clínicos, no campo Plano do SOAP. 
 
-IMAGEM
+![](media/idoso9.png)
 
 Na aba **"Acompanhamento da pessoa idosa"** na folha de rosto, um resumo com cada uma das dimensões alteradas será gerado, com destaque para a estratificação.  
 
-IMAGEM
+![](media/idoso10.png)
 
 # 6.6 Atendimentos Realizados Por Estagiário
 
