@@ -26,6 +26,10 @@ O acompanhamento do histórico de registros do IVCF-20, junto à análise críti
 
 O IVCF-20, está disponível no campo “Objetivo”, dentro do SOAP (Subjetivo, Objetivo, Avaliação e Plano). 
 
+![](./media/idoso1.png)
+
+Para explicação mais detalhada desta funcionalidade, consultar o Capítulo [Atendimento](https://saps-ms.github.io/Manual-eSUS_APS/docs/PEC/PEC_06_atendimentos/#6541---registrando-o-atendimento-a-pessoa-idosa)
+
 **OCI - Oferta de Cuidados Integrados**
 
 A Oferta de Cuidados Integrados (OCI) foi incorporada no Prontuário Eletrônico do Cidadão (PEC) a partir do lançamento do  Programa Mais Acesso a Especialistas (PMAE). A *OCI*, pode ser compreendida como um conjunto de procedimentos e tecnologias de cuidado necessários a uma atenção oportuna e com qualidade, integrados para concluir uma etapa na linha de cuidado ou na condução de agravos específicos de rápida resolução, de diagnóstico ou de tratamento, conforme disposto na [Portaria SAES/MS nº 1.821, de 11 de junho de 2024](https://bvsms.saude.gov.br/bvs/saudelegis/Saes/2024/prt1821_12_06_2024.html) (BRASIL, 2024d). É uma estratégia para viabilizar o cuidado em saúde em rede, contribuindo  para a regulação do acesso, a continuidade do cuidado e o fortalecimento  da APS, com o objetivo de reduzir a peregrinação dos pacientes. 
