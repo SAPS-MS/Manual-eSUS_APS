@@ -2781,84 +2781,86 @@ Figura 6.5.54 - Bloco de Lista de problemas do Acompanhamento da Puericultura
 
 ## 6.5.4 - Idoso
 
-Para qualificar o cuidado à saúde ofertada às pessoas idosas, o sistema e-SUS APS com PEC, conta com a funcionalidade de acompanhamento do idoso. Para tirar o maior proveito desta funcionalidade é fundamental o preenchimento adequado das informações no prontuário eletrônico.
+Para qualificar o cuidado à saúde ofertada às pessoas idosas, o sistema e-SUS APS com PEC, conta com um instrumento para auxiliar o profissional no atendimento à esta população. Para tirar o maior proveito desta funcionalidade é fundamental o preenchimento adequado das informações no prontuário eletrônico.
 
-Neste primeiro momento todas as pessoas com 60 anos ou mais poderão ser avaliadas, tendo em vista, a situação da polifarmácia, os problemas/condições presente, avaliações antropométricas, incluindo o perímetro da panturrilha, alergias/reações adversas, além da aferição da pressão arterial e glicemia capilar.
+A partir da versão 5.3, foi implementado o Índice de Vulnerabilidade Clínico Funcional (IVCF-20) que é um instrumento de rápida utilização e com potência para identificar possíveis fragilidades no idoso, que interfiram em sua qualidade de vida. São avaliados dados como idade, percepção da saúde, atividades da vida diária, cognição, humor, mobilidade, comunicação e presença de comorbidades.
 
-### 6.5.4.1 - Registrando o atendimento a pessoa idosa
+### 6.5.4.1 - Registrando o Acompanhamento da  pessoa idosa
 
 Para a elaboração de uma evolução clínica de qualidade é essencial seguir o modelo RCOP e o preenchimento das estruturas do SOAP.
-
-Na parte do Subjetivo registra- se as informações sobre o motivo da consulta e as impressões subjetivas do profissional de saúde e as expressadas pela pessoa idosa.
-
-Na parte Objetiva registram- se as observações importantes do exame físico, os sinais vitais, a glicemia capilar, a antropometria, os exames solicitados e/ou avaliados, que a partir da versão 3.2, foi incluído o campo para o registro do perímetro da panturrilha. Para realizar a avaliação no módulo de acompanhamento da pessoa idosa é essencial digitar o PESO e ALTURA para o cálculo do IMC, o PERÍMETRO DA PANTURRILHA, quando necessário, além do da PRESSÃO ARTERIAL e da GLICEMIA CAPILAR, se necessário.
-
-A partir da versão 5.3, foi implementado o Índice de Vulnerabilidade Clínico Funcional (IVCF-20) que é um instrumento de rápida utilização e com potência para identificar possíveis fragilidades no idoso, que interfiram em sua qualidade de vida. São avaliados dados como idade, percepção da saúde, atividades da vida diária, cognição, humor, mobilidade, comunicação e presença de comorbidades. 
-
-Na parte da Avaliação utiliza-se o CIAP-2 ou CID-10 para a classificação do problema ou condição detectada. Para o acompanhamento dos problemas/condições e alergias/reações adversas presente na pessoa idosa, deve- se registrar no módulo "Problemas/Condições e Alergias" e informar como "Ativo", conforme descrito no capítulo 6.4.3. Para registrar apenas os problemas e condições de saúde, outra alternativa é clicar no box "inserir na lista de problema/condição como ativo", conforme figura abaixo.
-
-Figura 6.5.55 - Problema e / ou condição detectada
-
-![](media/pec_image605.png)
-
-Na bloco **Plano** registra-se o plano de cuidados ou condutas a serem tomadas em relação ao problema ou necessidade avaliada para a pessoa idosa. No plano terapêutico com a finalidade de avaliar no acompanhamento se a pessoa idosa faz uso concomitante de 5 ou mais medicamentos, o profissional de saúde deverá prescrever os medicamentos utilizando a ferramenta "Prescrição de Medicamentos", conforme descrito no capítulo 6.4.2.8. Entretanto, para este acompanhamento, somente é considerado os medicamentos classificados como de uso contínuo e que não estão como tratamentos concluídos.
-
-### 6.5.4.2 - Acompanhamento da pessoa idosa
 
 Na lateral esquerda do SOAP e na folha de rosto é possível identificar informações do Acompanhamento da pessoa idosa. Dentro deste acompanhamento estão informações do Índice de Vulnerabilidade Clínico-Funcional (IVCF-20), bem como sua classificação, dimensões alteradas e a data da última avaliação multidimensional. 
 
 Também é possível acessar informações como Alergias/Reações adversas, Lista de problemas/condições, Medições, Medicamentos em uso, Problemas/condições autorreferidas, Lembretes e Resultados de exames. 
 
+O Índice de Vulnerabilidade Clínico Funcional (IVCF-20) é um instrumento de rápida utilização e com potência para identificar possíveis fragilidades no idoso, que interfiram em sua qualidade de vida. São avaliados dados como idade, percepção da saúde, atividades da vida diária, cognição, humor, mobilidade, comunicação e presença de comorbidades.
 
-#### 6.5.4.2.1 - Medicamentos ativos
+O Índice de Vulnerabilidade Clínico-Funcional (IVCF-20), está disponível no campo “Objetivo”, dentro do SOAP (Subjetivo, Objetivo, Avaliação e Plano). 
 
-O bloco Medicamentos ativos oferta aos profissionais de saúde informações importantes relacionadas aos medicamentos em uso contínuo pela pessoa idosa, conforme mostra a pec_imagem abaixo:
+Para ter acesso à nova funcionalidade, será necessário habilitar o campo (imagem)
 
-Figura 6.5.58 - Medicamentos ativos
+Após habilitar, aparecerão as perguntas que serão direcionadas à pessoa idosa e devem ser confirmadas pelo familiar ou acompanhante, desde que convivam com a pessoa idosa e estejam em condições de responder aos questionamentos. Nas pessoas idosas que são incapazes de responder, o profissional deverá utilizar as respostas do cuidador. 
 
-![](media/pec_image608.png)
+Ao habilitar o campo IVCF-20, é necessário preencher e completar a avaliação de todos os itens no mesmo atendimento. O tempo de preenchimento pode variar entre 5 e 10 minutos, oportunizando o planejamento e gestão de tempo global do atendimento.  
 
-Neste bloco também é possível verificar se há prescrições de medicações sujeitos a controle especial conforme o tipo de prescrição.
+**Tabela de Orientações sobre preenchimento do Instrumento** 
 
-Figura 6.5.59 - Medicamentos ativos
+|**TÓPICO**|PERGUNTA|**PONTUAÇÃO ATRIBUÍDA**| 
+|--|--|--| 
+|IDADE|Item preenchido automaticamente conforme cadastro. |Checar a data de nascimento cadastrada no prontuário. |60 a 74 anos (0 ponto); 75 a 84 anos (01 ponto); ou ≥ 85 anos (03 pontos) |  
+| PERCEPÇÃO DA SAÚDE| Em geral, comparando com outras pessoas da sua idade, você diria que sua saúde é: ( ) Excelente, muito boa ou boa; ( )Regular ou ruim . |Excelente, muito boa ou boa (0 ponto) Regular ou ruim (01 ponto)| 
 
-![](media/pec_image609.png)
+IMAGEM 
 
-#### 6.5.4.2.2 - Problemas/Condições
+|**TÓPICO**|PERGUNTA|**PONTUAÇÃO ATRIBUÍDA**| 
+|--|--|--| 
+| ATIVIDADES DE VIDA DIÁRIA - Atividade de Vida Diária instrumental (AVDi) | - Por causa de sua saúde ou condição física, você deixou de fazer compras? - Por causa de sua saúde ou condição física, você deixou de controlar seu dinheiro, gastos ou pagar as contas de sua casa? -Por causa de sua saúde ou condição física, você deixou de realizar pequenos trabalhos domésticos, como lavar louça, arrumar a casa ou fazer uma limpeza leve? | - Sim (04 pontos) Não ou não faz compras por outros motivos que não a saúde (0 ponto). - Sim (04 pontos) Não ou não controla o dinheiro por outros motivos que não a saúde (0 ponto). - Sim (04 pontos) Não ou não faz mais pequenos trabalhos domésticos por outros motivos que não a saúde (0 Ponto). ** *A pontuação máxima nesse item é de 4 pontos. **|  
+| ATIVIDADES DE VIDA DIÁRIA - Atividade de Vida Diária básica (AVDb) | -  Por causa de sua saúde ou condição física, você deixou de tomar banho sozinho? | - Sim (06 pontos ) Não (0 pontos).|
 
-O bloco do acompanhamento da pessoa idosa apresenta a Lista de problemas/condições ativas ou latentes, informando qual a situação, o problema/condição, a idade de início do problema e a última atualização, conforme vemos a seguir.
+IMAGEM
 
-Figura 6.5.60 - Problemas/Condições
+|**TÓPICO**|PERGUNTA|**PONTUAÇÃO ATRIBUÍDA**| 
+|--|--|--| 
+|COGNIÇÃO|- Algum familiar ou amigo falou que você está ficando esquecido? - Este esquecimento está piorando nos últimos meses? - Este esquecimento está impedindo a realização de alguma atividade do cotidiano? |- Sim (01 ponto) Não (0 pontos ). - Sim (01 pontos) Não (0 pontos).  - Sim (02 pontos) Não (0 pontos). A pontuação final é a soma das respostas de cada item. A pontuação máxima nesta seção é de 4 pontos. | |HUMOR| - No último mês você ficou com desânimo, tristeza ou desesperança? - No último mês você perdeu interesse ou prazer em atividades anteriormente prazerosas? | - Sim (02 pontos) Não (0 pontos). - Sim (02 pontos) Não (0 pontos).  A pontuação final é a soma das respostas de cada item. A pontuação máxima nesta seção é de 4 pontos. |  
 
-![](media/pec_image610.png)
+IMAGEM
 
-#### 6.5.4.2.3 - Gráficos e Medições da pessoa idosa
+|**TÓPICO**|PERGUNTA|**PONTUAÇÃO ATRIBUÍDA**| 
+|--|--|--| 
+|MOBILIDADE - Alcance, preensão e pinça. |- Você é incapaz de elevar os braços acima do nível do ombro? - Você é incapaz de manusear ou segurar pequenos objetos? |- Sim (01 pontos) Não (0 pontos). - Sim (01 pontos) Não (0 pontos). A pontuação máxima neste item é de 2 pontos.|  
+|MOBILIDADE - Capacidade aeróbica e/ou muscular | -Você tem alguma das quatro condições abaixo: • Perda de peso não intencional de 4,5 kg ou 5% do peso corporal no último ano ou 6 kg nos últimos 6 meses ou 3 kg no último mês; • IMC menor que 22 kg/m2; • Circunferência da panturrilha < 31 cm; • Tempo gasto no teste de velocidade da marcha (4m) > 5 segundos. |Na presença de alteração em qualquer uma dessas condições, marcar a resposta Sim. Sim (02 pontos) Não (0 pontos). Mesmo que haja alteração em mais de um item, a pontuação máxima nesta seção é de 2 pontos.  
+|MARCHA| - Você tem dificuldade para caminhar capaz de impedir a realização de alguma atividade do cotidiano? - Você teve duas ou mais quedas no último ano? | -Sim (02 pontos) Não (0 pontos). - Sim (02 pontos) Não (0 pontos). A pontuação máxima no item 'marcha' é de 4 pontos |  
+|CONTINÊNCIA ESFINCTERIANA| Você perde urina ou fezes, sem querer, em algum momento?| - Sim (02 pontos) Não (0 pontos). A pontuação máxima neste item é de 2 pontos. |  
 
-Abaixo, o bloco Gráficos e medições da pessoa idosa apresenta os dados de medições registradas durante as consultas. Estão representadas em forma de tabela e gráficos. A tabela mostra os dados da data da consulta, a idade da pessoa idosa naquela data, o peso, estatura, o IMC calculado para aquela data, o perímetro da panturrilha, a pressão arterial e a glicemia capilar.
+IMAGEM
 
-Figura 6.5.61 - Gráficos e medições
+|**TÓPICO**|PERGUNTA|**PONTUAÇÃO ATRIBUÍDA**| 
+|--|--|--| 
+|COMUNICAÇÃO - Visão| Você tem problemas de visão capazes de impedir a realização de alguma atividade do cotidiano? É permitido o uso de óculos ou lentes de contato.| Sim (02 pontos) Não (0 pontos). A pontuação máxima neste item é de 2 pontos.|  
+|COMUNICAÇÃO - Audição| Você tem problemas de audição capazes de impedir a realização de alguma atividade do cotidiano? É permitido o uso de aparelhos de audição | Sim (02 pontos) Não (0 pontos). A pontuação máxima neste item é de 2 pontos. |  
+|COMORBIDADE MÚLTIPLA| Você tem alguma das três condições abaixo relacionadas? ( ) cinco ou mais doenças crônicas; ( ) uso regular de cinco ou mais medicamentos diferentes, todo dia; ( ) internação recente, nos últimos seis meses.  | Sim (04 pontos ) Não (0 pontos). A pontuação máxima nesta seção é de 4 pontos, mesmo que a pessoa pontue em mais de um item. | 
 
-![](media/pec_image611.png)
+imagem
 
-As outras abas trazem os gráficos montados pelo sistema a partir dos dados registrados durante as consultas. Estão disponíveis os gráficos de IMC e perímetro da panturrilha. Estes gráficos permitem a avaliação do estado nutricional e da massa muscular da pessoa idosa, respectivamente.
+Ao selecionar para calcular o índice, o sistema fará o cálculo do IVCF-20, mostrando o resultado do risco, identificando três categorias: Baixo Risco de Vulnerabilidade Clínico-Funcional (pontuação de 0 a 6); Moderado Risco de Vulnerabilidade Clínico-Funcional (pontuação de 7 a 14) e Alto Risco de Vulnerabilidade Clínico-Funcional (pontuação de 15 a 40).  Na sequência, mostrará as dimensões alteradas, conforme exemplo da PEC imagem: 
 
-Os dados são agrupados em faixas etárias, numa escala de 05 em 05 anos, a partir dos 60 anos até a faixa etária atual da pessoa idosa. Foram utilizados como base os padrões utilizados pela Caderneta de Saúde da Pessoa Idosa de 2017.
+No que se refere à estratificação do risco e interpretação de resultados, a equipe de saúde deve aprofundar a avaliação de cada dimensão alterada garantindo acesso oportuno e manejo adequado, levando em conta os aspectos sociais e da rede de apoio disponível, bem como os princípios do SUS. 
 
-Figura 6.5.62 - Gráfico com dados de IMC
+ 
+**Tabela de Interpretação de Resultados** 
 
-![](media/pec_image612.png)
+|**PONTUAÇÃO**|**CLASSIFICAÇÃO**|**ESTRATIFICAÇÃO DE RISCO** 
+|**0 a 6 pontos**| Baixo Risco de Vulnerabilidade Clínico-Funcional. | 
+|**7 a 14 pontos**| Moderado Risco de Vulnerabilidade Clínico-Funcional. |  
+|**15 pontos ou mais**| Alto Risco de Vulnerabilidade Clínico-Funcional. | 
 
-Figura 6.5.63 - Gráficos com dados do perímetro da panturrilha
+Após a conclusão do preenchimento da ficha, automaticamente será gerado o código SIGTAP de Avaliação Multidimensional da Pessoa Idosa, em intervenções e/ou procedimentos clínicos, no campo Plano do SOAP. 
 
-![](media/pec_image613.png)
+IMAGEM
 
-#### 6.5.4.2.4 - Alergias e Reações Adversas
+Na aba **"Acompanhamento da pessoa idosa"** na folha de rosto, um resumo com cada uma das dimensões alteradas será gerado, com destaque para a estratificação.  
 
-O último bloco do acompanhamento da pessoa idosa é a lista de Alergias/Reações adversas, informando qual é a alergia, a data da instalação do problema e o nível de criticidade, conforme a figura abaixo.
-
-Figura 6.5.64 - Alergias/Reações adversas
-
-![](media/pec_image614.png)
+IMAGEM
 
 # 6.6 Atendimentos Realizados Por Estagiário
 
