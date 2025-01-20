@@ -14,7 +14,7 @@ last_modified_date: "09/11/2023"
     </style>
 </head>
 
-# CAPÍTULO 6 - Atendimentos.
+# CAPÍTULO 6 - Atendimentos
 {: .no_toc }
 
 Neste capítulo serão apresentadas as funcionalidades que garantem a ordenação da maior parte dos fluxos de atendimento que ocorrem nos serviços de atenção primária.
@@ -1085,7 +1085,7 @@ O sistema ainda disponibiliza algumas ferramentas específicas para auxiliar no 
 
 - **Atestados**: ferramenta que ajuda o profissional na emissão e controle de atestados e de licença maternidade elaborados para o cidadão; Nesta opção, também há a disponibilidade de Declaração de Comparecimento: ferramenta que permite ao colaborador e paciente comprovar comparecimento ao atendimento em saúde. 
 
-- **Solicitação de exames**: ferramenta que auxilia o profissional na solicitação de exame comum e/ou de alto custo;
+- **Solicitação de exames/procedimentos**: ferramenta que auxilia o profissional na solicitação de exame comum e/ou de alto custo e solicitação de procedimentos de Ofertas de Cuidados Integrados (OCIs);
 
 - **Prescrição de medicamentos**: ferramenta que auxilia o profissional nas prescrições farmacológicas no atendimento ao cidadão, na visualização do histórico de prescrições e da lista de medicamentos, além da impressão dos receituários com as medicamentos prescritos no momento;
 
@@ -1282,7 +1282,7 @@ Passo 4.  Após as alterações, clique no botão "Salvar" ![](media/pec_image93
 
 
 
-##### 6.4.3.4.2.3 Solicitar exame para OCI (Oferta de Cuidados Integrados)
+##### 6.4.3.4.2.3 Solicitar de procedimento OCI (Oferta de Cuidados Integrados)
 
 
 A Oferta de Cuidados Integrados (OCI) foi incorporada no Prontuário Eletrônico do Cidadão (PEC) a partir do contexto no Programa Mais Acesso a Especialistas (PMAE).
@@ -1297,6 +1297,7 @@ Esta funcionalidade estará disponível no PEC, dentro do SOAP, em Plano.
 Ao selecionar “Adicionar OCI” abrirá a tela com informações obrigatórias como procedimentos, CID10 e justificativa de procedimento, e de forma complementar observações. 
 
 ![](media/oci1.png)
+
 
 Após o preenchimento, será gerado um Laudo para solicitação/autorização de procedimentos ambulatorial que poderá ser impresso.  
 
@@ -2823,7 +2824,7 @@ O Índice de Vulnerabilidade Clínico-Funcional (IVCF-20), está disponível no 
 
 ![](media/idoso1.png)
 
-Para ter acesso à nova funcionalidade, será necessário habilitar o campo (imagem)
+Para ter acesso à nova funcionalidade, será necessário habilitar o campo da imagem abaixo:
 
 ![](media/idoso2.png)
 

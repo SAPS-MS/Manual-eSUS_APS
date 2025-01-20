@@ -20,27 +20,27 @@ last_modified_date: "04/11/2024"
 
 **IVCF20** - Índice de Vulnerabilidade Clínico-Funcional
 
-A nova funcionalidade **IVCF20**, foi implementada para auxiliar no atendimento à pessoa idosa. O Índice de Vulnerabilidade Clínico Funcional (IVCF-20) é um instrumento de rápida utilização (5 a 10 minutos) e com potência para identificar possíveis fragilidades no idoso, que interfiram em sua qualidade de vida. São avaliados dados como idade, percepção da saúde, atividades da vida diária, cognição, humor, mobilidade, comunicação e presença de comorbidades. 
+A nova funcionalidade **IVCF20**, foi implementada para auxiliar no atendimento à pessoa idosa. O Índice de Vulnerabilidade Clínico Funcional (IVCF-20) é um instrumento de rápida utilização (5 a 10 minutos) e com potência para identificar possíveis fragilidades da pessoa idosa, que interfiram em sua qualidade de vida. São avaliados dados como idade, percepção da saúde, atividades da vida diária, cognição, humor, mobilidade, comunicação e presença de comorbidades. 
 
 O acompanhamento do histórico de registros do IVCF-20, junto à análise crítica dos parâmetros que foram alterados ou aprimorados ao longo do tempo, proporciona dados úteis às equipes de saúde, auxiliando na avaliação da efetividade das intervenções e do tratamento proposto. 
 
-O IVCF-20, está disponível no campo “Objetivo”, dentro do SOAP (Subjetivo, Objetivo, Avaliação e Plano). 
+O IVCF-20, está disponível no campo “Objetivo” do SOAP (Subjetivo, Objetivo, Avaliação e Plano). 
 
 ![](./media/idoso1.png)
 
-Para explicação mais detalhada desta funcionalidade, consultar o Capítulo [Atendimento](https://saps-ms.github.io/Manual-eSUS_APS/docs/PEC/PEC_06_atendimentos/#6541---registrando-o-atendimento-a-pessoa-idosa)
+Para explicação mais detalhada desta funcionalidade, consultar o Capítulo [Atendimento](https://saps-ms.github.io/Manual-eSUS_APS/docs/PEC/PEC_06_atendimentos/#6541---registrando-o-atendimento-a-pessoa-idosa).
 
 **OCI - Oferta de Cuidados Integrados**
 
-A Oferta de Cuidados Integrados (OCI) foi incorporada no Prontuário Eletrônico do Cidadão (PEC) a partir do lançamento do  Programa Mais Acesso a Especialistas (PMAE). A *OCI*, pode ser compreendida como um conjunto de procedimentos e tecnologias de cuidado necessários a uma atenção oportuna e com qualidade, integrados para concluir uma etapa na linha de cuidado ou na condução de agravos específicos de rápida resolução, de diagnóstico ou de tratamento, conforme disposto na [Portaria SAES/MS nº 1.821, de 11 de junho de 2024](https://bvsms.saude.gov.br/bvs/saudelegis/Saes/2024/prt1821_12_06_2024.html) (BRASIL, 2024d). É uma estratégia para viabilizar o cuidado em saúde em rede, contribuindo  para a regulação do acesso, a continuidade do cuidado e o fortalecimento  da APS, com o objetivo de reduzir a peregrinação dos pacientes. 
+A Oferta de Cuidados Integrados (OCI) foi incorporada no Prontuário Eletrônico do Cidadão (PEC) a partir do lançamento do  Programa Mais Acesso a Especialistas (PMAE). A *OCI*, pode ser compreendida como um conjunto de procedimentos e tecnologias de cuidado necessários a uma atenção oportuna e com qualidade, integrados para concluir uma etapa na linha de cuidado ou na condução de agravos específicos de rápida resolução, de diagnóstico ou de tratamento, conforme disposto na [Portaria SAES/MS nº 1.821, de 11 de junho de 2024](https://bvsms.saude.gov.br/bvs/saudelegis/Saes/2024/prt1821_12_06_2024.html) (BRASIL, 2024d). É uma estratégia para viabilizar o cuidado em saúde em rede, contribuindo para a regulação do acesso, a continuidade do cuidado e o fortalecimento  da APS, com o objetivo de reduzir a peregrinação dos pacientes. 
 
-Para uma leitura mais aprofundada sobre o Programa de Mais Acesso a Especialistas e as OCIs é indicada a leitura [Mais acesso a especialistas](  https://www.gov.br/saude/pt-br/composicao/saes/pmae) e [Financiamento e Contratualização](https://www.gov.br/saude/pt-br/composicao/saes/pmae/financiamento-e-contratualizacao) 
+Para uma leitura mais aprofundada sobre o Programa de Mais Acesso a Especialistas e as OCIs é indicada a leitura [Mais acesso a especialistas](  https://www.gov.br/saude/pt-br/composicao/saes/pmae) e [Financiamento e Contratualização](https://www.gov.br/saude/pt-br/composicao/saes/pmae/financiamento-e-contratualizacao).
 
-Esta funcionalidade está disponível no PEC, dentro do SOAP, em Plano. 
+Esta funcionalidade está disponível no campo "Plano" do SOAP (Subjetivo, Objetivo, Avaliação e Plano), em "Solicitação de exames/procedimentos", "Adicionar OCI". 
 
 ![](./media/oci.png)
 
-Para explicações mais detalhadas, consultar capítulo [Atendimento](https://saps-ms.github.io/Manual-eSUS_APS/docs/PEC/PEC_06_atendimentos/#64342-ferramentas-do-plano---exames)
+Para explicações mais detalhadas desta funcionalidade, consultar capítulo [Atendimento](https://saps-ms.github.io/Manual-eSUS_APS/docs/PEC/PEC_06_atendimentos/#64342-ferramentas-do-plano---exames).
 
 
 **Acompanhamento do Território:**
