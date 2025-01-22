@@ -2965,8 +2965,8 @@ No que se refere à estratificação do risco e interpretação de resultados, a
  
 **Tabela de Interpretação de Resultados** 
 
-|**PONTUAÇÃO**|**CLASSIFICAÇÃO**|**ESTRATIFICAÇÃO DE RISCO** 
-|--|--|--| 
+|**PONTUAÇÃO**|**CLASSIFICAÇÃO**| 
+|--|--| 
 |**0 a 6 pontos**| Baixo Risco de Vulnerabilidade Clínico-Funcional. | 
 |**7 a 14 pontos**| Moderado Risco de Vulnerabilidade Clínico-Funcional. |  
 |**15 pontos ou mais**| Alto Risco de Vulnerabilidade Clínico-Funcional. | 
