@@ -2806,19 +2806,17 @@ Figura 6.5.54 - Bloco de Lista de problemas do Acompanhamento da Puericultura
 
 ## 6.5.4 - Pessoa idosa
 
-Para qualificar o cuidado à saúde ofertada às pessoas idosas, o sistema e-SUS APS com PEC, conta com um instrumento para auxiliar o profissional no atendimento à esta população. Para tirar o maior proveito desta funcionalidade é fundamental o preenchimento adequado das informações no prontuário eletrônico.
+Para qualificar o cuidado à saúde ofertada às pessoas idosas, o sistema e-SUS APS com PEC, conta com um instrumento para auxiliar o profissional no atendimento a esta população. Para tirar o maior proveito desta funcionalidade é fundamental o preenchimento adequado das informações no prontuário eletrônico.
 
-A partir da versão 5.3, foi implementado o Índice de Vulnerabilidade Clínico Funcional (IVCF-20) que é um instrumento de rápida utilização e com potência para identificar possíveis fragilidades no idoso, que interfiram em sua qualidade de vida. São avaliados dados como idade, percepção da saúde, atividades da vida diária, cognição, humor, mobilidade, comunicação e presença de comorbidades.
+A partir da versão 5.3, foi implementado o Índice de Vulnerabilidade Clínico Funcional (IVCF-20) que é um instrumento de apoio ao acompanhamento de saúde da pessoa idosa, de rápida aplicação, com objetivo de qualificar a assistência e a gestão de dados em saúde dessa população. São avaliados dados como idade, percepção da saúde, atividades da vida diária, cognição, humor, mobilidade, comunicação e presença de comorbidades.
 
-### 6.5.4.1 - Registrando o Acompanhamento da  pessoa idosa
+### 6.5.4.1 - Registrando o acompanhamento da pessoa idosa
 
 Para a elaboração de uma evolução clínica de qualidade é essencial seguir o modelo RCOP e o preenchimento das estruturas do SOAP.
 
-Na lateral esquerda do SOAP e na folha de rosto é possível identificar informações do Acompanhamento da pessoa idosa. Dentro deste acompanhamento estão informações do Índice de Vulnerabilidade Clínico-Funcional (IVCF-20), bem como sua classificação, dimensões alteradas e a data da última avaliação multidimensional. 
+Na lateral esquerda do SOAP e na folha de rosto é possível identificar informações do Acompanhamento da pessoa idosa. Dentro deste acompanhamento estão informações do Índice de Vulnerabilidade Clínico-Funcional (IVCF-20), bem como sua classificação, dimensões alteradas e a data da última avaliação multidimensional. São avaliados dados como idade, percepção da saúde, atividades da vida diária, cognição, humor, mobilidade, comunicação e presença de comorbidades.
 
-Também é possível acessar informações como Alergias/Reações adversas, Lista de problemas/condições, Medições, Medicamentos em uso, Problemas/condições autorreferidas, Lembretes e Resultados de exames. 
-
-O Índice de Vulnerabilidade Clínico Funcional (IVCF-20) é um instrumento de rápida utilização e com potência para identificar possíveis fragilidades no idoso, que interfiram em sua qualidade de vida. São avaliados dados como idade, percepção da saúde, atividades da vida diária, cognição, humor, mobilidade, comunicação e presença de comorbidades.
+Também é possível acessar informações como Alergias/Reações adversas, Lista de problemas/condições, Medições, Medicamentos em uso, Problemas/condições autorreferidas, Lembretes e Resultados de exames.
 
 O Índice de Vulnerabilidade Clínico-Funcional (IVCF-20), está disponível no campo “Objetivo”, dentro do SOAP (Subjetivo, Objetivo, Avaliação e Plano). 
 
@@ -2838,7 +2836,7 @@ Ao habilitar o campo IVCF-20, é necessário preencher e completar a avaliação
 
 |**TÓPICO**|PERGUNTA|**PONTUAÇÃO ATRIBUÍDA**| 
 |--|--|--| 
-|IDADE (Grupo 1/8)|Item preenchido automaticamente conforme cadastro. |Checar a data de nascimento cadastrada no prontuário. |60 a 74 anos (0 ponto); 75 a 84 anos (01 ponto); ou ≥ 85 anos (03 pontos) |  
+|IDADE (Grupo 1/8)|Item preenchido automaticamente conforme cadastro (checar a data de nascimento cadastrada no prontuário). |60 a 74 anos (0 ponto); 75 a 84 anos (01 ponto); ou ≥ 85 anos (03 pontos) |  
 | PERCEPÇÃO DA SAÚDE (grupo 2/8)| Em geral, comparando com outras pessoas da sua idade, você diria que sua saúde é: Excelente, muito boa ou boa; Regular ou ruim . | Excelente, muito boa ou boa (0 ponto) - Regular ou ruim (01 ponto)| 
 
 
@@ -2919,7 +2917,7 @@ A pontuação máxima neste item é de 4 pontos.
 |Você tem dificuldade para caminhar capaz de impedir a realização de alguma atividade do cotidiano? | Sim (02 pontos) - Não (0 ponto).
 |Você teve duas ou mais quedas no último ano? | Sim (02 pontos) - Não (0 ponto).|  
 
-**Constinência Esfincteriana**
+**Continência Esfincteriana**
 
 A pontuação máxima neste item é de 2 pontos.
 
