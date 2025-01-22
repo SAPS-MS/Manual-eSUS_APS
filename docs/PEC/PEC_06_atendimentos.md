@@ -2804,7 +2804,7 @@ Figura 6.5.54 - Bloco de Lista de problemas do Acompanhamento da Puericultura
 
 ![](media/pec_image604.png)
 
-## 6.5.4 - Idoso
+## 6.5.4 - Pessoa idosa
 
 Para qualificar o cuidado à saúde ofertada às pessoas idosas, o sistema e-SUS APS com PEC, conta com um instrumento para auxiliar o profissional no atendimento à esta população. Para tirar o maior proveito desta funcionalidade é fundamental o preenchimento adequado das informações no prontuário eletrônico.
 
@@ -2832,51 +2832,138 @@ Após habilitar, aparecerão as perguntas que serão direcionadas à pessoa idos
 
 Ao habilitar o campo IVCF-20, é necessário preencher e completar a avaliação de todos os itens no mesmo atendimento. O tempo de preenchimento pode variar entre 5 e 10 minutos, oportunizando o planejamento e gestão de tempo global do atendimento.  
 
-**Tabela de Orientações sobre preenchimento do Instrumento** 
-
-|**TÓPICO**|PERGUNTA|**PONTUAÇÃO ATRIBUÍDA**| 
-|--|--|--| 
-|IDADE|Item preenchido automaticamente conforme cadastro. |Checar a data de nascimento cadastrada no prontuário. |60 a 74 anos (0 ponto); 75 a 84 anos (01 ponto); ou ≥ 85 anos (03 pontos) |  
-| PERCEPÇÃO DA SAÚDE| Em geral, comparando com outras pessoas da sua idade, você diria que sua saúde é: ( ) Excelente, muito boa ou boa; ( )Regular ou ruim . |Excelente, muito boa ou boa (0 ponto) Regular ou ruim (01 ponto)| 
+**Orientações sobre preenchimento do instrumento** 
 
 ![](media/idoso3.png)
 
 |**TÓPICO**|PERGUNTA|**PONTUAÇÃO ATRIBUÍDA**| 
 |--|--|--| 
-| ATIVIDADES DE VIDA DIÁRIA - Atividade de Vida Diária instrumental (AVDi) | - Por causa de sua saúde ou condição física, você deixou de fazer compras? - Por causa de sua saúde ou condição física, você deixou de controlar seu dinheiro, gastos ou pagar as contas de sua casa? -Por causa de sua saúde ou condição física, você deixou de realizar pequenos trabalhos domésticos, como lavar louça, arrumar a casa ou fazer uma limpeza leve? | - Sim (04 pontos) Não ou não faz compras por outros motivos que não a saúde (0 ponto). - Sim (04 pontos) Não ou não controla o dinheiro por outros motivos que não a saúde (0 ponto). - Sim (04 pontos) Não ou não faz mais pequenos trabalhos domésticos por outros motivos que não a saúde (0 Ponto). ** *A pontuação máxima nesse item é de 4 pontos. **|  
-| ATIVIDADES DE VIDA DIÁRIA - Atividade de Vida Diária básica (AVDb) | -  Por causa de sua saúde ou condição física, você deixou de tomar banho sozinho? | - Sim (06 pontos ) Não (0 pontos).|
+|IDADE (Grupo 1/8)|Item preenchido automaticamente conforme cadastro. |Checar a data de nascimento cadastrada no prontuário. |60 a 74 anos (0 ponto); 75 a 84 anos (01 ponto); ou ≥ 85 anos (03 pontos) |  
+| PERCEPÇÃO DA SAÚDE (grupo 2/8)| Em geral, comparando com outras pessoas da sua idade, você diria que sua saúde é: Excelente, muito boa ou boa; Regular ou ruim . | Excelente, muito boa ou boa (0 ponto) - Regular ou ruim (01 ponto)| 
+
+
+
+**TÓPICO: ATIVIDADES DE VIDA DIÁRIA** (Grupo 3/8)
 
 ![](media/idoso4.png)
 
-|**TÓPICO**|PERGUNTA|**PONTUAÇÃO ATRIBUÍDA**| 
-|--|--|--| 
-|COGNIÇÃO|- Algum familiar ou amigo falou que você está ficando esquecido? - Este esquecimento está piorando nos últimos meses? - Este esquecimento está impedindo a realização de alguma atividade do cotidiano? |- Sim (01 ponto) Não (0 pontos ). - Sim (01 pontos) Não (0 pontos).  - Sim (02 pontos) Não (0 pontos). A pontuação final é a soma das respostas de cada item. A pontuação máxima nesta seção é de 4 pontos. | |HUMOR| - No último mês você ficou com desânimo, tristeza ou desesperança? - No último mês você perdeu interesse ou prazer em atividades anteriormente prazerosas? | - Sim (02 pontos) Não (0 pontos). - Sim (02 pontos) Não (0 pontos).  A pontuação final é a soma das respostas de cada item. A pontuação máxima nesta seção é de 4 pontos. |  
+**Atividade de Vida Diária instrumental (AVDi)**
 
-![](media/idoso5.png)
+A pontuação máxima nesse item é de 4 pontos.
 
-|**TÓPICO**|PERGUNTA|**PONTUAÇÃO ATRIBUÍDA**| 
-|--|--|--| 
-|MOBILIDADE - Alcance, preensão e pinça. |- Você é incapaz de elevar os braços acima do nível do ombro? - Você é incapaz de manusear ou segurar pequenos objetos? |- Sim (01 pontos) Não (0 pontos). - Sim (01 pontos) Não (0 pontos). A pontuação máxima neste item é de 2 pontos.|  
-|MOBILIDADE - Capacidade aeróbica e/ou muscular | -Você tem alguma das quatro condições abaixo: • Perda de peso não intencional de 4,5 kg ou 5% do peso corporal no último ano ou 6 kg nos últimos 6 meses ou 3 kg no último mês; • IMC menor que 22 kg/m2; • Circunferência da panturrilha < 31 cm; • Tempo gasto no teste de velocidade da marcha (4m) > 5 segundos. |Na presença de alteração em qualquer uma dessas condições, marcar a resposta Sim. Sim (02 pontos) Não (0 pontos). Mesmo que haja alteração em mais de um item, a pontuação máxima nesta seção é de 2 pontos.  
-|MARCHA| - Você tem dificuldade para caminhar capaz de impedir a realização de alguma atividade do cotidiano? - Você teve duas ou mais quedas no último ano? | -Sim (02 pontos) Não (0 pontos). - Sim (02 pontos) Não (0 pontos). A pontuação máxima no item 'marcha' é de 4 pontos |  
-|CONTINÊNCIA ESFINCTERIANA| Você perde urina ou fezes, sem querer, em algum momento?| - Sim (02 pontos) Não (0 pontos). A pontuação máxima neste item é de 2 pontos. |  
+|PERGUNTA|**PONTUAÇÃO ATRIBUÍDA**| 
+|--|--| 
+| Por causa de sua saúde ou condição física, você deixou de fazer compras? | Sim (04 pontos) - Não ou não faz compras por outros motivos que não a saúde (0 ponto).
+| Por causa de sua saúde ou condição física, você deixou de controlar seu dinheiro, gastos ou pagar as contas de sua casa? | Sim (04 pontos) - Não ou não controla o dinheiro por outros motivos que não a saúde (0 ponto).
+| Por causa de sua saúde ou condição física, você deixou de realizar pequenos trabalhos domésticos, como lavar louça, arrumar a casa ou fazer uma limpeza leve? | Sim (04 pontos) - Não ou não faz mais pequenos trabalhos domésticos por outros motivos que não a saúde (0 ponto).|
 
-![](media/idoso6.png)
+**Atividade de Vida Diária básica (AVDb)**
+|PERGUNTA|**PONTUAÇÃO ATRIBUÍDA**| 
+|--|--|
+|  Por causa de sua saúde ou condição física, você deixou de tomar banho sozinho? | - Sim (06 pontos) - Não (0 ponto).|
 
-|**TÓPICO**|PERGUNTA|**PONTUAÇÃO ATRIBUÍDA**| 
-|--|--|--| 
-|COMUNICAÇÃO - Visão| Você tem problemas de visão capazes de impedir a realização de alguma atividade do cotidiano? É permitido o uso de óculos ou lentes de contato.| Sim (02 pontos) Não (0 pontos). A pontuação máxima neste item é de 2 pontos.|  
-|COMUNICAÇÃO - Audição| Você tem problemas de audição capazes de impedir a realização de alguma atividade do cotidiano? É permitido o uso de aparelhos de audição | Sim (02 pontos) Não (0 pontos). A pontuação máxima neste item é de 2 pontos. |  
-|COMORBIDADE MÚLTIPLA| Você tem alguma das três condições abaixo relacionadas? ( ) cinco ou mais doenças crônicas; ( ) uso regular de cinco ou mais medicamentos diferentes, todo dia; ( ) internação recente, nos últimos seis meses.  | Sim (04 pontos ) Não (0 pontos). A pontuação máxima nesta seção é de 4 pontos, mesmo que a pessoa pontue em mais de um item. | 
+**TÓPICO: COGNIÇÃO** (Grupo 4/8)
 
-![](media/idoso7.png)
+![](media/idoso-g48.png)
 
-Ao selecionar para calcular o índice, o sistema fará o cálculo do IVCF-20, mostrando o resultado do risco, identificando três categorias: Baixo Risco de Vulnerabilidade Clínico-Funcional (pontuação de 0 a 6); Moderado Risco de Vulnerabilidade Clínico-Funcional (pontuação de 7 a 14) e Alto Risco de Vulnerabilidade Clínico-Funcional (pontuação de 15 a 40).  Na sequência, mostrará as dimensões alteradas, conforme exemplo da PEC imagem: 
+A pontuação final é a soma das respostas de cada item e a pontuação máxima nesta seção é de 4 pontos.
 
-![](media/idoso8.png)
+|PERGUNTA|**PONTUAÇÃO ATRIBUÍDA**| 
+|--|--| 
+|Algum familiar ou amigo falou que você está ficando esquecido? | Sim (01 ponto) - Não (0 ponto). 
+|Este esquecimento está piorando nos últimos meses? | Sim (01 ponto) - Não (0 ponto).
+|Este esquecimento está impedindo a realização de alguma atividade do cotidiano? | Sim (02 pontos) - Não (0 ponto).|
+
+**TÓPICO: HUMOR** (Grupo 5/8)
+
+![](media/idoso-g58.png)
+
+A pontuação final é a soma das respostas de cada item e a pontuação máxima nesta seção é de 4 pontos.
+
+|PERGUNTA|**PONTUAÇÃO ATRIBUÍDA**| 
+|--|--| 
+|No último mês você ficou com desânimo, tristeza ou desesperança? | Sim (02 pontos) - Não (0 ponto).
+|No último mês você perdeu interesse ou prazer em atividades anteriormente prazerosas? | Sim (02 pontos) - Não (0 ponto).|    
+
+**TÓPICO: MOBILIDADE** (Grupo 6/8)
+
+![](media/idoso-g68.png)
+
+**Alcance, preensão e pinça**
+
+A pontuação máxima neste item é de 2 pontos.
+
+|PERGUNTA|**PONTUAÇÃO ATRIBUÍDA**| 
+|--|--| 
+|Você é incapaz de elevar os braços acima do nível do ombro? | Sim (01 pontos) - Não (0 ponto).
+|Você é incapaz de manusear ou segurar pequenos objetos? |Sim (01 pontos) - Não (0 pontos)|
+
+**Capacidade aeróbica e/ou muscular**
+
+Na presença de alteração em qualquer uma dessas condições, marcar a resposta Sim. Sim (02 pontos) - Não (0 ponto). Mesmo que haja alteração em mais de um item, a pontuação máxima nesta seção é de 2 pontos.
+
+|PERGUNTA|**RESPOSTA**| 
+|--|--|
+|Você teve perda de peso não intencional de 4,5 kg ou 5% do peso corporal no último ano? | Sim - Não. 
+|Você teve perda de peso não intencionalou 6 kg nos últimos 6 meses ou 3 kg no último mês? | Sim - Não.
+|Você tem Índice de Massa Corporal (IMG) menor que 22 kg/m²? | Sim - Não.
+|Você tem a circunferência (perímetro) da panturrilha menor que 31 cm? | Sim - Não.
+|Em um teste de velocidade da marcha, o tempo gasto pela pessoa idosa para percorrer 4 metros é maior do que 5 segundos? | Sim - Não.|
+
+**Marcha**
+
+A pontuação máxima neste item é de 4 pontos.
+
+|PERGUNTA|**PONTUAÇÃO ATRIBUÍDA**| 
+|--|--|
+|Você tem dificuldade para caminhar capaz de impedir a realização de alguma atividade do cotidiano? | Sim (02 pontos) - Não (0 ponto).
+|Você teve duas ou mais quedas no último ano? | Sim (02 pontos) - Não (0 ponto).|  
+
+**Constinência Esfincteriana**
+
+A pontuação máxima neste item é de 2 pontos.
+
+|PERGUNTA|**PONTUAÇÃO ATRIBUÍDA**| 
+|--|--|
+|Você perde urina ou fezes, sem querer, em algum momento? | - Sim (02 pontos) - Não (0 ponto).|  
+
+**TÓPICO: COMUNICAÇÃO** (Grupo 7/8)
+
+![](media/idoso-g78.png)
+
+**Visão**
+
+A pontuação máxima neste item é de 2 pontos.
+
+|PERGUNTA|**PONTUAÇÃO ATRIBUÍDA**| 
+|--|--| 
+| Você tem problemas de visão capazes de impedir a realização de alguma atividade do cotidiano? (É permitido o uso de óculos ou lentes de contato) | Sim (02 pontos) - Não (0 ponto).|  
+
+**Audição**
+
+A pontuação máxima neste item é de 2 pontos.
+
+|PERGUNTA|**PONTUAÇÃO ATRIBUÍDA**| 
+|--|--| 
+|Você tem problemas de audição capazes de impedir a realização de alguma atividade do cotidiano? (É permitido o uso de aparelhos de audição) | Sim (02 pontos) - Não (0 ponto).|  
+
+**TÓPICO: COMUNICAÇÃO** (Grupo 8/8)
+
+![](media/idoso-g88.png)
+
+A pontuação máxima nesta seção é de 4 pontos, mesmo que a pessoa pontue em mais de um item.
+
+|PERGUNTA|**RESPOSTA**| 
+|--|--|
+|Você tem cinco ou mais doenças crônicas? | Sim - Não
+|Você faz uso regular de cinco ou mais medicamentos diferentes todos os dias? | Sim - Não
+|Você teve alguma internação nos últimos seis meses? |  Sim - Não|
+
+Por fim, ao selecionar para calcular o índice, o sistema fará o cálculo do IVCF-20, mostrando o resultado do risco, identificando três categorias: Baixo Risco de Vulnerabilidade Clínico-Funcional (pontuação de 0 a 6); Moderado Risco de Vulnerabilidade Clínico-Funcional (pontuação de 7 a 14) e Alto Risco de Vulnerabilidade Clínico-Funcional (pontuação de 15 a 40).  Na sequência, mostrará as dimensões alteradas, conforme exemplo da PEC imagem: 
+
+![](media/idoso-resultado.png)
 
 No que se refere à estratificação do risco e interpretação de resultados, a equipe de saúde deve aprofundar a avaliação de cada dimensão alterada garantindo acesso oportuno e manejo adequado, levando em conta os aspectos sociais e da rede de apoio disponível, bem como os princípios do SUS. 
-
  
 **Tabela de Interpretação de Resultados** 
 
