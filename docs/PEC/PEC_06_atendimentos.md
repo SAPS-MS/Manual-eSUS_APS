@@ -1291,7 +1291,8 @@ A Oferta de Cuidados Integrados (OCI) foi incorporada no Prontuário Eletrônico
 
 Para uma leitura mais aprofundada sobre o Programa de Mais Acesso a Especialistas e as OCIs é indicada a leitura [Mais acesso a especialistas](  https://www.gov.br/saude/pt-br/composicao/saes/pmae) e [Financiamento e Contratualização](https://www.gov.br/saude/pt-br/composicao/saes/pmae/financiamento-e-contratualizacao) 
 
-Esta funcionalidade estará disponível no PEC, dentro do SOAP, em Plano. 
+Esta funcionalidade estará disponível no PEC, dentro do SOAP, em Plano.
+
 ![](media/oci.png)
 
 Ao selecionar “Adicionar OCI” abrirá a tela com informações obrigatórias como procedimentos, CID10 e justificativa de procedimento, e de forma complementar observações. 
@@ -2851,14 +2852,17 @@ A pontuação máxima nesse item é de 4 pontos.
 
 |PERGUNTA|**PONTUAÇÃO ATRIBUÍDA**| 
 |--|--| 
-| Por causa de sua saúde ou condição física, você deixou de fazer compras? | Sim (04 pontos) - Não ou não faz compras por outros motivos que não a saúde (0 ponto).
-| Por causa de sua saúde ou condição física, você deixou de controlar seu dinheiro, gastos ou pagar as contas de sua casa? | Sim (04 pontos) - Não ou não controla o dinheiro por outros motivos que não a saúde (0 ponto).
-| Por causa de sua saúde ou condição física, você deixou de realizar pequenos trabalhos domésticos, como lavar louça, arrumar a casa ou fazer uma limpeza leve? | Sim (04 pontos) - Não ou não faz mais pequenos trabalhos domésticos por outros motivos que não a saúde (0 ponto).|
+|Por causa de sua saúde ou condição física, você deixou de fazer compras? | Sim (04 pontos) - Não ou não faz compras por outros motivos que não a saúde (0 ponto).
+|Por causa de sua saúde ou condição física, você deixou de controlar seu dinheiro, gastos ou pagar as contas de sua casa? | Sim (04 pontos) - Não ou não controla o dinheiro por outros motivos que não a saúde (0 ponto).
+|Por causa de sua saúde ou condição física, você deixou de realizar pequenos trabalhos domésticos, como lavar louça, arrumar a casa ou fazer uma limpeza leve? | Sim (04 pontos) - Não ou não faz mais pequenos trabalhos domésticos por outros motivos que não a saúde (0 ponto).|
 
 **Atividade de Vida Diária básica (AVDb)**
+
+A pontuação máxima nesse item é de 6 pontos.
+
 |PERGUNTA|**PONTUAÇÃO ATRIBUÍDA**| 
 |--|--|
-|  Por causa de sua saúde ou condição física, você deixou de tomar banho sozinho? | - Sim (06 pontos) - Não (0 ponto).|
+|Por causa de sua saúde ou condição física, você deixou de tomar banho sozinho? |Sim (06 pontos) - Não (0 ponto).|
 
 **TÓPICO: COGNIÇÃO** (Grupo 4/8)
 
