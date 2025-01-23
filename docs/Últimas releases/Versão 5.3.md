@@ -18,6 +18,7 @@ last_modified_date: "04/11/2024"
 
 ## Novidades - Ferramentas relacionadas aos cuidados
 
+
 **IVCF20** - Índice de Vulnerabilidade Clínico-Funcional
 
 A nova funcionalidade **IVCF20**, foi implementada para auxiliar no atendimento à pessoa idosa. O Índice de Vulnerabilidade Clínico Funcional (IVCF-20) é um instrumento de rápida utilização (5 a 10 minutos) e com potência para identificar possíveis fragilidades da pessoa idosa, que interfiram em sua qualidade de vida. São avaliados dados como idade, percepção da saúde, atividades da vida diária, cognição, humor, mobilidade, comunicação e presença de comorbidades. 
@@ -28,7 +29,7 @@ O IVCF-20, está disponível no campo “Objetivo” do SOAP (Subjetivo, Objetiv
 
 ![](./media/idoso1.png)
 
-Para explicação mais detalhada desta funcionalidade, consultar o Capítulo [Atendimento](https://saps-ms.github.io/Manual-eSUS_APS/docs/PEC/PEC_06_atendimentos/#6541---registrando-o-atendimento-a-pessoa-idosa).
+Para explicação mais detalhada desta funcionalidade, consultar o Capítulo [Atendimento](https://saps-ms.github.io/Manual-eSUS_APS/docs/PEC/PEC_06_atendimentos/#6541---registrando-o-acompanhamento-da-pessoa-idosa).
 
 **OCI - Oferta de Cuidados Integrados**
 
@@ -40,7 +41,7 @@ Esta funcionalidade está disponível no campo "Plano" do SOAP (Subjetivo, Objet
 
 ![](./media/oci.png)
 
-Para explicações mais detalhadas desta funcionalidade, consultar capítulo [Atendimento](https://saps-ms.github.io/Manual-eSUS_APS/docs/PEC/PEC_06_atendimentos/#64342-ferramentas-do-plano---exames).
+Para explicações mais detalhadas desta funcionalidade, consultar capítulo [Atendimento](https://saps-ms.github.io/Manual-eSUS_APS/docs/PEC/PEC_06_atendimentos/#643423-solicitar-de-procedimento-oci-oferta-de-cuidados-integrados).
 
 
 **Acompanhamento do Território:**
