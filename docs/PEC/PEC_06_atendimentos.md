@@ -14,7 +14,7 @@ last_modified_date: "09/11/2023"
     </style>
 </head>
 
-# CAPÍTULO 6 - Atendimentos.
+# CAPÍTULO 6 - Atendimentos
 {: .no_toc }
 
 Neste capítulo serão apresentadas as funcionalidades que garantem a ordenação da maior parte dos fluxos de atendimento que ocorrem nos serviços de atenção primária.
@@ -1085,7 +1085,7 @@ O sistema ainda disponibiliza algumas ferramentas específicas para auxiliar no 
 
 - **Atestados**: ferramenta que ajuda o profissional na emissão e controle de atestados e de licença maternidade elaborados para o cidadão; Nesta opção, também há a disponibilidade de Declaração de Comparecimento: ferramenta que permite ao colaborador e paciente comprovar comparecimento ao atendimento em saúde. 
 
-- **Solicitação de exames**: ferramenta que auxilia o profissional na solicitação de exame comum e/ou de alto custo;
+- **Solicitação de exames/procedimentos**: ferramenta que auxilia o profissional na solicitação de exame comum e/ou de alto custo e solicitação de procedimentos de Ofertas de Cuidados Integrados (OCIs);
 
 - **Prescrição de medicamentos**: ferramenta que auxilia o profissional nas prescrições farmacológicas no atendimento ao cidadão, na visualização do histórico de prescrições e da lista de medicamentos, além da impressão dos receituários com as medicamentos prescritos no momento;
 
@@ -1172,7 +1172,7 @@ Fonte: SAPS/MS.
 
 #### 6.4.3.4.2 Ferramentas do Plano - Exames
 
-Nesta ferramenta, é possível solicitar exames para o cidadão em atendimento. Exames cadastrados neste módulo irão ser incluídos no bloco "Objetivo" do registro de atendimento do SOAP, na parte de exames solicitados e/ou avaliados, após a finalização da consulta em que eles foram inseridos.
+Nesta ferramenta, é possível solicitar exames para o cidadão em atendimento e solicitar inclusão na Oferta de Cuidados Integrados (OCI). Exames cadastrados neste módulo irão ser incluídos no bloco "Objetivo" do registro de atendimento do SOAP, na parte de exames solicitados e/ou avaliados, após a finalização da consulta em que eles foram inseridos.
 
 Como podemos ver na Figura 6.4.17 há duas opções para solicitação de exames:
 
@@ -1266,7 +1266,6 @@ Fonte: SAPS/MS.
 Fonte: SAPS/MS.
 
 
-
 - Para realizar edição de alguma "solicitação de exames" cique em "Editar"![](media/pec_image944.png). O sistema abrirá a tela conforme figura abaixo. 
 
 ![](media/pec_image945.png)
@@ -1280,6 +1279,32 @@ Fonte: SAPS/MS.
 - Passo 3. Caso deseje excluir alguma exame clique em "Excluir" ![](media/pec_image941.png).
 
 Passo 4.  Após as alterações, clique no botão "Salvar" ![](media/pec_image930.png).
+
+
+
+##### 6.4.3.4.2.3 Solicitar de procedimento OCI (Oferta de Cuidados Integrados)
+
+
+A Oferta de Cuidados Integrados (OCI) foi incorporada no Prontuário Eletrônico do Cidadão (PEC) a partir do contexto no Programa Mais Acesso a Especialistas (PMAE).
+
+A Oferta de Cuidados Integrados (OCI) foi incorporada no Prontuário Eletrônico do Cidadão (PEC) a partir do lançamento do Programa Mais Acesso a Especialistas (PMAE). A **Oferta de Cuidado Integrado – OCI**, pode ser compreendida como um conjunto de procedimentos e tecnologias de cuidado necessários a uma atenção oportuna e com qualidade, integrados para concluir uma etapa na linha de cuidado ou na condução de agravos específicos de rápida resolução, de diagnóstico ou de tratamento, conforme disposto na [Portaria SAES/MS nº 1.821, de 11 de junho de 2024](https://bvsms.saude.gov.br/bvs/saudelegis/Saes/2024/prt1821_12_06_2024.html) (BRASIL, 2024d). É uma estratégia para viabilizar o cuidado em saúde em rede, contribuindo para a regulação do acesso, a continuidade do cuidado e o fortalecimento da APS, com o objetivo de reduzir a peregrinação dos pacientes. 
+
+Para uma leitura mais aprofundada sobre o Programa de Mais Acesso a Especialistas e as OCIs é indicada a leitura [Mais acesso a especialistas](  https://www.gov.br/saude/pt-br/composicao/saes/pmae) e [Financiamento e Contratualização](https://www.gov.br/saude/pt-br/composicao/saes/pmae/financiamento-e-contratualizacao) 
+
+Esta funcionalidade estará disponível no PEC, dentro do SOAP, em Plano. 
+![](media/oci.png)
+
+Ao selecionar “Adicionar OCI” abrirá a tela com informações obrigatórias como procedimentos, CID10 e justificativa de procedimento, e de forma complementar observações. 
+
+![](media/oci1.png)
+
+
+Após o preenchimento, será gerado um Laudo para solicitação/autorização de procedimentos ambulatorial que poderá ser impresso.  
+
+![](media/oci2.png)
+
+A informação de solicitação ficará salva no prontuário do cidadão. 
+![](media/oci3.png)
 
 #### 6.4.3.4.3 Ferramentas do Plano - Prescrição de Medicamentos
 
@@ -2779,93 +2804,180 @@ Figura 6.5.54 - Bloco de Lista de problemas do Acompanhamento da Puericultura
 
 ![](media/pec_image604.png)
 
-## 6.5.4 - Idoso
+## 6.5.4 - Pessoa idosa
 
-Para qualificar o cuidado à saúde ofertada às pessoas idosas, o sistema e-SUS APS com PEC, conta com a funcionalidade de acompanhamento do idoso. Para tirar o maior proveito desta funcionalidade é fundamental o preenchimento adequado das informações no prontuário eletrônico.
+Para qualificar o cuidado à saúde ofertada às pessoas idosas, o sistema e-SUS APS com PEC, conta com um instrumento para auxiliar o profissional no atendimento a esta população. Para tirar o maior proveito desta funcionalidade é fundamental o preenchimento adequado das informações no prontuário eletrônico.
 
-Neste primeiro momento todas as pessoas com 60 anos ou mais poderão ser avaliadas, tendo em vista, a situação da polifarmácia, os problemas/condições presente, avaliações antropométricas, incluindo o perímetro da panturrilha, alergias/reações adversas, além da aferição da pressão arterial e glicemia capilar.
+A partir da versão 5.3, foi implementado o Índice de Vulnerabilidade Clínico Funcional (IVCF-20) que é um instrumento de apoio ao acompanhamento de saúde da pessoa idosa, de rápida aplicação, com objetivo de qualificar a assistência e a gestão de dados em saúde dessa população. São avaliados dados como idade, percepção da saúde, atividades da vida diária, cognição, humor, mobilidade, comunicação e presença de comorbidades.
 
-### 6.5.4.1 - Registrando o atendimento a pessoa idosa
+### 6.5.4.1 - Registrando o acompanhamento da pessoa idosa
 
 Para a elaboração de uma evolução clínica de qualidade é essencial seguir o modelo RCOP e o preenchimento das estruturas do SOAP.
 
-Na parte do Subjetivo registra- se as informações sobre o motivo da consulta e as impressões subjetivas do profissional de saúde e as expressadas pela pessoa idosa.
+Na lateral esquerda do SOAP e na folha de rosto é possível identificar informações do Acompanhamento da pessoa idosa. Dentro deste acompanhamento estão informações do Índice de Vulnerabilidade Clínico-Funcional (IVCF-20), bem como sua classificação, dimensões alteradas e a data da última avaliação multidimensional. São avaliados dados como idade, percepção da saúde, atividades da vida diária, cognição, humor, mobilidade, comunicação e presença de comorbidades.
 
-Na parte Objetiva registram- se as observações importantes do exame físico, os sinais vitais, a glicemia capilar, os exames solicitados e/ou avaliados e as medições antropométricas, que a partir da versão 3.2, foi incluído o campo para o registro do perímetro da panturrilha. Para realizar a avaliação no módulo de acompanhamento da pessoa idosa é essencial digitar o PESO e ALTURA para o cálculo do IMC, o PERÍMETRO DA PANTURRILHA, quando necessário, além do da PRESSÃO ARTERIAL e da GLICEMIA CAPILAR, se necessário.
+Também é possível acessar informações como Alergias/Reações adversas, Lista de problemas/condições, Medições, Medicamentos em uso, Problemas/condições autorreferidas, Lembretes e Resultados de exames.
 
-Na parte da Avaliação utiliza-se o CIAP-2 ou CID-10 para a classificação do problema ou condição detectada. Para o acompanhamento dos problemas/condições e alergias/reações adversas presente na pessoa idosa, deve- se registrar no módulo "Problemas/Condições e Alergias" e informar como "Ativo", conforme descrito no capítulo 6.4.3. Para registrar apenas os problemas e condições de saúde, outra alternativa é clicar no box "inserir na lista de problema/condição como ativo", conforme figura abaixo.
+O Índice de Vulnerabilidade Clínico-Funcional (IVCF-20), está disponível no campo “Objetivo”, dentro do SOAP (Subjetivo, Objetivo, Avaliação e Plano). 
 
-Figura 6.5.55 - Problema e / ou condição detectada
+![](media/idoso1.png)
 
-![](media/pec_image605.png)
+Para ter acesso à nova funcionalidade, será necessário habilitar o campo da imagem abaixo:
 
-Na bloco **Plano** registra-se o plano de cuidados ou condutas a serem tomadas em relação ao problema ou necessidade avaliada para a pessoa idosa. No plano terapêutico com a finalidade de avaliar no acompanhamento se a pessoa idosa faz uso concomitante de 5 ou mais medicamentos, o profissional de saúde deverá prescrever os medicamentos utilizando a ferramenta "Prescrição de Medicamentos", conforme descrito no capítulo 6.4.2.8. Entretanto, para este acompanhamento, somente é considerado os medicamentos classificados como de uso contínuo e que não estão como tratamentos concluídos.
+![](media/idoso2.png)
 
-### 6.5.4.2 - Acompanhamento da pessoa idosa
+Após habilitar, aparecerão as perguntas que serão direcionadas à pessoa idosa e devem ser confirmadas pelo familiar ou acompanhante, desde que convivam com a pessoa idosa e estejam em condições de responder aos questionamentos. Nas pessoas idosas que são incapazes de responder, o profissional deverá utilizar as respostas do cuidador. 
 
-O *Cartão* minimizado apresenta informações sobre o estado nutricional e se a pessoa idosa faz uso de 5 ou mais medicamentos como mostra a pec_imagem abaixo.
+Ao habilitar o campo IVCF-20, é necessário preencher e completar a avaliação de todos os itens no mesmo atendimento. O tempo de preenchimento pode variar entre 5 e 10 minutos, oportunizando o planejamento e gestão de tempo global do atendimento.  
 
-Figura 6.5.56 - Cartão da pessoa idosa
+**Orientações sobre preenchimento do instrumento** 
 
-![](media/pec_image606.png)
+![](media/idoso3.png)
 
-Clicando em cima do *Cartão* é possível verificar o conjunto de informações completas relacionadas ao acompanhamento da pessoa idosa. Existem quatro blocos de informações principais, sendo eles: "Medicamentos ativos", "Problemas/Condições", "Gráficos e medições" e "Alergias/Reações Adversas".
+|**TÓPICO**|PERGUNTA|**PONTUAÇÃO ATRIBUÍDA**| 
+|--|--|--| 
+|IDADE (Grupo 1/8)|Item preenchido automaticamente conforme cadastro (checar a data de nascimento cadastrada no prontuário). |60 a 74 anos (0 ponto); 75 a 84 anos (01 ponto); ou ≥ 85 anos (03 pontos) |  
+| PERCEPÇÃO DA SAÚDE (grupo 2/8)| Em geral, comparando com outras pessoas da sua idade, você diria que sua saúde é: Excelente, muito boa ou boa; Regular ou ruim . | Excelente, muito boa ou boa (0 ponto) - Regular ou ruim (01 ponto)| 
 
-Figura 6.5.57 - Cartão da pessoa idosa
 
-![](media/pec_image607.png)
 
-Cada bloco das informações sobre o acompanhamento da pessoa idosa serão detalhados a seguir.
+**TÓPICO: ATIVIDADES DE VIDA DIÁRIA** (Grupo 3/8)
 
-#### 6.5.4.2.1 - Medicamentos ativos
+![](media/idoso4.png)
 
-O bloco Medicamentos ativos oferta aos profissionais de saúde informações importantes relacionadas aos medicamentos em uso contínuo pela pessoa idosa, conforme mostra a pec_imagem abaixo:
+**Atividade de Vida Diária instrumental (AVDi)**
 
-Figura 6.5.58 - Medicamentos ativos
+A pontuação máxima nesse item é de 4 pontos.
 
-![](media/pec_image608.png)
+|PERGUNTA|**PONTUAÇÃO ATRIBUÍDA**| 
+|--|--| 
+| Por causa de sua saúde ou condição física, você deixou de fazer compras? | Sim (04 pontos) - Não ou não faz compras por outros motivos que não a saúde (0 ponto).
+| Por causa de sua saúde ou condição física, você deixou de controlar seu dinheiro, gastos ou pagar as contas de sua casa? | Sim (04 pontos) - Não ou não controla o dinheiro por outros motivos que não a saúde (0 ponto).
+| Por causa de sua saúde ou condição física, você deixou de realizar pequenos trabalhos domésticos, como lavar louça, arrumar a casa ou fazer uma limpeza leve? | Sim (04 pontos) - Não ou não faz mais pequenos trabalhos domésticos por outros motivos que não a saúde (0 ponto).|
 
-Neste bloco também é possível verificar se há prescrições de medicações sujeitos a controle especial conforme o tipo de prescrição.
+**Atividade de Vida Diária básica (AVDb)**
+|PERGUNTA|**PONTUAÇÃO ATRIBUÍDA**| 
+|--|--|
+|  Por causa de sua saúde ou condição física, você deixou de tomar banho sozinho? | - Sim (06 pontos) - Não (0 ponto).|
 
-Figura 6.5.59 - Medicamentos ativos
+**TÓPICO: COGNIÇÃO** (Grupo 4/8)
 
-![](media/pec_image609.png)
+![](media/idoso-g48.png)
 
-#### 6.5.4.2.2 - Problemas/Condições
+A pontuação final é a soma das respostas de cada item e a pontuação máxima nesta seção é de 4 pontos.
 
-O bloco do acompanhamento da pessoa idosa apresenta a Lista de problemas/condições ativas ou latentes, informando qual a situação, o problema/condição, a idade de início do problema e a última atualização, conforme vemos a seguir.
+|PERGUNTA|**PONTUAÇÃO ATRIBUÍDA**| 
+|--|--| 
+|Algum familiar ou amigo falou que você está ficando esquecido? | Sim (01 ponto) - Não (0 ponto). 
+|Este esquecimento está piorando nos últimos meses? | Sim (01 ponto) - Não (0 ponto).
+|Este esquecimento está impedindo a realização de alguma atividade do cotidiano? | Sim (02 pontos) - Não (0 ponto).|
 
-Figura 6.5.60 - Problemas/Condições
+**TÓPICO: HUMOR** (Grupo 5/8)
 
-![](media/pec_image610.png)
+![](media/idoso-g58.png)
 
-#### 6.5.4.2.3 - Gráficos e Medições da pessoa idosa
+A pontuação final é a soma das respostas de cada item e a pontuação máxima nesta seção é de 4 pontos.
 
-Abaixo, o bloco Gráficos e medições da pessoa idosa apresenta os dados de medições registradas durante as consultas. Estão representadas em forma de tabela e gráficos. A tabela mostra os dados da data da consulta, a idade da pessoa idosa naquela data, o peso, estatura, o IMC calculado para aquela data, o perímetro da panturrilha, a pressão arterial e a glicemia capilar.
+|PERGUNTA|**PONTUAÇÃO ATRIBUÍDA**| 
+|--|--| 
+|No último mês você ficou com desânimo, tristeza ou desesperança? | Sim (02 pontos) - Não (0 ponto).
+|No último mês você perdeu interesse ou prazer em atividades anteriormente prazerosas? | Sim (02 pontos) - Não (0 ponto).|    
 
-Figura 6.5.61 - Gráficos e medições
+**TÓPICO: MOBILIDADE** (Grupo 6/8)
 
-![](media/pec_image611.png)
+![](media/idoso-g68.png)
 
-As outras abas trazem os gráficos montados pelo sistema a partir dos dados registrados durante as consultas. Estão disponíveis os gráficos de IMC e perímetro da panturrilha. Estes gráficos permitem a avaliação do estado nutricional e da massa muscular da pessoa idosa, respectivamente.
+**Alcance, preensão e pinça**
 
-Os dados são agrupados em faixas etárias, numa escala de 05 em 05 anos, a partir dos 60 anos até a faixa etária atual da pessoa idosa. Foram utilizados como base os padrões utilizados pela Caderneta de Saúde da Pessoa Idosa de 2017.
+A pontuação máxima neste item é de 2 pontos.
 
-Figura 6.5.62 - Gráfico com dados de IMC
+|PERGUNTA|**PONTUAÇÃO ATRIBUÍDA**| 
+|--|--| 
+|Você é incapaz de elevar os braços acima do nível do ombro? | Sim (01 pontos) - Não (0 ponto).
+|Você é incapaz de manusear ou segurar pequenos objetos? |Sim (01 pontos) - Não (0 pontos)|
 
-![](media/pec_image612.png)
+**Capacidade aeróbica e/ou muscular**
 
-Figura 6.5.63 - Gráficos com dados do perímetro da panturrilha
+Na presença de alteração em qualquer uma dessas condições, marcar a resposta Sim. Sim (02 pontos) - Não (0 ponto). Mesmo que haja alteração em mais de um item, a pontuação máxima nesta seção é de 2 pontos.
 
-![](media/pec_image613.png)
+|PERGUNTA|**RESPOSTA**| 
+|--|--|
+|Você teve perda de peso não intencional de 4,5 kg ou 5% do peso corporal no último ano? | Sim - Não. 
+|Você teve perda de peso não intencionalou 6 kg nos últimos 6 meses ou 3 kg no último mês? | Sim - Não.
+|Você tem Índice de Massa Corporal (IMG) menor que 22 kg/m²? | Sim - Não.
+|Você tem a circunferência (perímetro) da panturrilha menor que 31 cm? | Sim - Não.
+|Em um teste de velocidade da marcha, o tempo gasto pela pessoa idosa para percorrer 4 metros é maior do que 5 segundos? | Sim - Não.|
 
-#### 6.5.4.2.4 - Alergias e Reações Adversas
+**Marcha**
 
-O último bloco do acompanhamento da pessoa idosa é a lista de Alergias/Reações adversas, informando qual é a alergia, a data da instalação do problema e o nível de criticidade, conforme a figura abaixo.
+A pontuação máxima neste item é de 4 pontos.
 
-Figura 6.5.64 - Alergias/Reações adversas
+|PERGUNTA|**PONTUAÇÃO ATRIBUÍDA**| 
+|--|--|
+|Você tem dificuldade para caminhar capaz de impedir a realização de alguma atividade do cotidiano? | Sim (02 pontos) - Não (0 ponto).
+|Você teve duas ou mais quedas no último ano? | Sim (02 pontos) - Não (0 ponto).|  
 
-![](media/pec_image614.png)
+**Continência Esfincteriana**
+
+A pontuação máxima neste item é de 2 pontos.
+
+|PERGUNTA|**PONTUAÇÃO ATRIBUÍDA**| 
+|--|--|
+|Você perde urina ou fezes, sem querer, em algum momento? | - Sim (02 pontos) - Não (0 ponto).|  
+
+**TÓPICO: COMUNICAÇÃO** (Grupo 7/8)
+
+![](media/idoso-g78.png)
+
+**Visão**
+
+A pontuação máxima neste item é de 2 pontos.
+
+|PERGUNTA|**PONTUAÇÃO ATRIBUÍDA**| 
+|--|--| 
+| Você tem problemas de visão capazes de impedir a realização de alguma atividade do cotidiano? (É permitido o uso de óculos ou lentes de contato) | Sim (02 pontos) - Não (0 ponto).|  
+
+**Audição**
+
+A pontuação máxima neste item é de 2 pontos.
+
+|PERGUNTA|**PONTUAÇÃO ATRIBUÍDA**| 
+|--|--| 
+|Você tem problemas de audição capazes de impedir a realização de alguma atividade do cotidiano? (É permitido o uso de aparelhos de audição) | Sim (02 pontos) - Não (0 ponto).|  
+
+**TÓPICO: COMUNICAÇÃO** (Grupo 8/8)
+
+![](media/idoso-g88.png)
+
+A pontuação máxima nesta seção é de 4 pontos, mesmo que a pessoa pontue em mais de um item.
+
+|PERGUNTA|**RESPOSTA**| 
+|--|--|
+|Você tem cinco ou mais doenças crônicas? | Sim - Não
+|Você faz uso regular de cinco ou mais medicamentos diferentes todos os dias? | Sim - Não
+|Você teve alguma internação nos últimos seis meses? |  Sim - Não|
+
+Por fim, ao selecionar para calcular o índice, o sistema fará o cálculo do IVCF-20, mostrando o resultado do risco, identificando três categorias: Baixo Risco de Vulnerabilidade Clínico-Funcional (pontuação de 0 a 6); Moderado Risco de Vulnerabilidade Clínico-Funcional (pontuação de 7 a 14) e Alto Risco de Vulnerabilidade Clínico-Funcional (pontuação de 15 a 40).  Na sequência, mostrará as dimensões alteradas, conforme exemplo da PEC imagem: 
+
+![](media/idoso-resultado.png)
+
+No que se refere à estratificação do risco e interpretação de resultados, a equipe de saúde deve aprofundar a avaliação de cada dimensão alterada garantindo acesso oportuno e manejo adequado, levando em conta os aspectos sociais e da rede de apoio disponível, bem como os princípios do SUS. 
+ 
+**Tabela de Interpretação de Resultados** 
+
+|**PONTUAÇÃO**|**CLASSIFICAÇÃO**| 
+|--|--| 
+|**0 a 6 pontos**| Baixo Risco de Vulnerabilidade Clínico-Funcional. | 
+|**7 a 14 pontos**| Moderado Risco de Vulnerabilidade Clínico-Funcional. |  
+|**15 pontos ou mais**| Alto Risco de Vulnerabilidade Clínico-Funcional. | 
+
+Após a conclusão do preenchimento da ficha, automaticamente será gerado o código SIGTAP de Avaliação Multidimensional da Pessoa Idosa, em intervenções e/ou procedimentos clínicos, no campo Plano do SOAP. 
+
+![](media/idoso9.png)
+
+Na aba **"Acompanhamento da pessoa idosa"** na folha de rosto, um resumo com cada uma das dimensões alteradas será gerado, com destaque para a estratificação.  
+
+![](media/idoso10.png)
 
 # 6.6 Atendimentos Realizados Por Estagiário
 
