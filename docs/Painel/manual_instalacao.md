@@ -80,7 +80,7 @@ Para a instalação do Painel e-SUS APS é necessário avaliar a o tamanho base 
 Para município de até 100 mil habitantes recomenda-se uma máquina com pelo menos um processador i5 e com 16 GB de memória RAM.
 
 {: .nota }
-Recomenda-se que a instalação do Painel e-SUS APS seja realizada em um servidor diferente da instalação do Prontuário Eletrônico do Cidadadão (PEC).
+Recomenda-se que a instalação do Painel e-SUS APS seja realizada em um servidor diferente da instalação do Prontuário Eletrônico do Cidadão (PEC).
 
 {: .atencao }
 O Painel e-SUS APS foi homologado em sistema operacional Linux Ubuntu,  Windows 10 e Windows 11. Sendo compatível somente com banco de dados PostgreSQL.
