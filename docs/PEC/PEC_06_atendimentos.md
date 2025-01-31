@@ -1371,7 +1371,7 @@ Para as demais formas farmacêuticas será necessário preencher o campo QUANTID
 
 ![](media/pec_image1135.png)
 
-
+Neste campo, é possível visualizar o último peso inserido no prontuário do cidadão para facilitar o cálculo da medicação. 
 
  - Passo 6. Escolha a periodicidade da dose, que poderão ser, "intervalo" (em horas), "Frequência" (vezes dentro de um período e frequência (Dia(s), semana)s) ou mês(es), "Turno" (manhã,tarde ou noite). Conforme figuras abaixo:
 
