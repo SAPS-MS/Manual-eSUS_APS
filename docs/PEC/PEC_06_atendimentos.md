@@ -1323,7 +1323,7 @@ Fonte: SAPS/MS.
 
 Figura 6.4.23 - Adicionar prescrição
 
-![](media/adicionarprescricao.png)
+![](media/adicionar prescricao.png)
 
 fonte: SAPS/MS.
 
