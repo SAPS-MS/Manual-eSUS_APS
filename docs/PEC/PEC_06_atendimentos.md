@@ -407,6 +407,8 @@ Para registrar uma vacina aplicada siga as seguintes etapas:
 Nesse caso, deve ser selecionada a opção "Aplicar". No registro de aplicação, os seguintes campos são de preenchimento obrigatório: estratégia, grupo de atendimento, lote/fabricante, via de administração e local de aplicação.
 Os campos para o registro do "Imunobiológico" e "dose" aparecerão conforme o card selecionado previamente pelo profissional na tela do quadro de vacinação, não sendo possível a sua alteração.
 
+Destacamos a importância da atenção no preenchimento dos campos estratégia e grupo de atendimento, pois são fundamentais para definir o contexto da aplicação e garantir que o procedimento esteja alinhado às diretrizes da Política Nacional de Imunização. A seleção correta dessas informações é essencial para a rastreabilidade, o planejamento e o controle adequado das aplicações.
+
 Figura - Tela para adicionar vacinação
 
 ![](media/pec_image11122.png)
