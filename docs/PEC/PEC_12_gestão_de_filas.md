@@ -71,16 +71,9 @@ Figura 4 - Histórico do cidadão na garantia do acesso
 ![](media/garantiainformacao.png)
 Fonte: SAPS/MS 
 
-A origem de inserção de um cidadão na garantia do acesso pode ser através do próprio módulo ou do compartilhamento do cuidado. É possível filtrar a visualização dos cidadãos por meio da origem, como exibido na figura 5. 
+A origem de inserção de um cidadão na garantia do acesso pode ser através do próprio módulo ou do compartilhamento do cuidado. É possível filtrar a visualização dos cidadãos por meio da origem.
 
-Figura 5 - Origem do registro na garantia do acesso
-![](media/pec_image1134.png)
-Fonte: SAPS/MS
 Além do filtro de origem, é possível filtrar também pelo período do registro, equipe, profissional e tipo de atendimento. 
-
-Figura 6 - Filtros de busca na garantia do acesso
-![](media/pec_image1133.png)
-Fonte: SAPS/MS 
 
 #### Remover registro da lista 
 Para retirar o cidadão da lista deve-se clicar no ícone ![](media/garantiaremoverdalista.png) e em seguida aparecerá na tela a Figura 12.4.
