@@ -45,8 +45,6 @@ A partir da versão 3.2.1, é possível utilizar o CPF para identificar os cidad
 É recomendado que preferencialmente seja utilizado o CPF para novos cadastros e atendimentos aos cidadãos no contexto da APS. 
 Quando o cidadão não possuir CPF, poderá utilizar Cartão Nacional de Saúde (CNS), como por exemplo nos casos de indígenas e estrangeiros. 
 
-Os cadastros que já possuem CNS não precisam ser modificados para CPF.
-
 {: .nota } 
 O uso do CPF como número suficiente para identificação do cidadão está em acordo com a [Lei 14.534 de 11 de janeiro de 2023](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14534.htm)
 
