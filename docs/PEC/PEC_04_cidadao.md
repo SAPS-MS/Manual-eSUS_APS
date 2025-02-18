@@ -39,6 +39,17 @@ Fonte: SAPS/MS.
 
 Considerando as diferentes fontes de informações da base de cidadãos do Sistema e-SUS APS e das possibilidades de consultas integradas à base de Cadastramento Nacional de usuários do SUS (CADSUS), por meio do Cartão Nacional de Saúde (CNS), antes de realizar qualquer ação no cadastro de um cidadão, seja para consultar ou alterar os dados dele ou para cadastrar um novo cidadão, o sistema solicita que o usuário realize uma busca sobre a base local ou na base do CNS, quando houver conectividade. O cadastro realizado utilizando este módulo **é enviado para a base nacional do SISAB**, e portanto, **será contabilizado no cadastro do território**.
 
+**Cadastro na Atenção Primária à Saúde (APS)**
+
+A partir da versão 3.2.1, é possível utilizar o CPF para identificar os cidadãos, facilitando o atendimento e ampliando o acesso da população. 
+É recomendado que preferencialmente seja utilizado o CPF para novos cadastros e atendimentos aos cidadãos no contexto da APS. 
+Quando o cidadão não possuir CPF, poderá utilizar Cartão Nacional de Saúde (CNS), como por exemplo nos casos de indígenas e estrangeiros. 
+
+Os cadastros que já possuem CNS não precisam ser modificados para CPF.
+
+{: .nota } 
+O uso do CPF como número suficiente para identificação do cidadão está em acordo com a [Lei 14.534 de 11 de janeiro de 2023](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14534.htm)
+
 # 4.1 Busca pelo cidadão
 
 Para iniciar a busca pelo cidadão, é necessário selecionar a opção “Cidadão” na aba lateral de navegação e inserir ao menos um dos seguintes dados, conforme é exibido na figura 4.2:
