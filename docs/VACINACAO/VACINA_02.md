@@ -145,7 +145,7 @@ Os dados ficarão armazenados nas bases de dados do Ministério da Saúde pelo t
 
 #### 2.4.3.2 Compartilhamento dos dados
 
-As Fichas de Vacinação CDS produzidas pelo aplicativo serão compartilhadas apenas com o servidor e-SUS APS PEC informado pelo usuário, mediante envio manual das mesmas. Este servidor e-SUS APS PEC, por sua vez, compartilha tais fichas com o Centralizador Nacional e-SUS APS do Ministério da Saúde, para fins de elaboração de políticas públicas de saúde. 
+As Fichas de Vacinação CDS produzidas pelo aplicativo serão compartilhadas apenas com o servidor e-SUS APS PEC informado pelo usuário, mediante envio manual destas. Este servidor e-SUS APS PEC, por sua vez, compartilha tais fichas com o Centralizador Nacional e-SUS APS do Ministério da Saúde, para fins de elaboração de políticas públicas de saúde. 
 Dados e estatísticas de uso individualizados do aplicativo serão coletados e tratados, sempre respeitando o anonimato do usuário, através da plataforma Google Analytics, para melhoria e suporte da aplicação.
 
 ### 2.4.4 Direitos do Titular

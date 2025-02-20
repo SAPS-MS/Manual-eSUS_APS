@@ -31,12 +31,12 @@ O aplicativo **e-SUS Vacinação** é integrado ao **Sistema e-SUS APS com Pront
 
 Para melhorar ainda mais as funcionalidades deste aplicativo, a sua experiência de uso pode contribuir para que o *e-SUS Vacinação* e o sistema e-SUS APS dialoguem cada vez mais com a sua prática profissional em ambientes onde ocorrem a vacinação. O canal para registro de sua experiência e sugestões é o [Pesquisa de Opinião do e-SUS APS](http://sisaps.saude.gov.br/pesquisa/).
 
-Caso ainda tenha alguma dificuldade em utilizar este aplicativo, consulte este Manual de instrução de instalação e uso, se ainda assim permancer a dificuldade, entre em contato com os desenvolvedores por este [Suporte](http://esusaps.bridge.ufsc.br/support/login).
+Caso ainda tenha alguma dificuldade em utilizar este aplicativo, consulte este Manual de instrução de instalação e uso, se ainda assim permanecer a dificuldade, entre em contato com os desenvolvedores por este [Suporte](http://esusaps.bridge.ufsc.br/support/login).
 
 
 ## 1.1 Versão do Aplicativo Usado neste Manual
 
-Este manual foi elaborado usando como referência a **versão 0.1.0** do Aplicativo *e-SUS Vacinação*. 
+Este manual foi elaborado usando como referência a **versão 3.2.7** do Aplicativo *e-SUS Vacinação*. 
 
 ## 1.2 A Estratégia e-SUS Atenção Primária à Saúde
 
@@ -63,11 +63,11 @@ Nessa perspectiva, o desenvolvimento dos Sistemas da Estratégia e-SUS APS passa
 
 ## 1.4 As ações de imunização e a importância do registro qualificado
 
-Para que o país continue seguindo no controle e na erradicação das doenças imunopreviníveis as ações de imunizações realizadas nos serviços de saúde, principalmente na APS, tem um papel fundamental para concretizar os benefícios que uma boa cobertura vacinal traz para a população brasileira. Estima-se que um elevado percentual de cobertura vacinal na população alvo pode se obter uma imunidade coletiva que garanta proteção contra a disseminação e até mesmo a erradicação dessas doenças. 
+Para que o país continue seguindo no controle e na erradicação das doenças imunopreviníveis, as ações de imunizações realizadas nos serviços de saúde, principalmente na APS, tem um papel fundamental para concretizar os benefícios que uma boa cobertura vacinal traz para a população brasileira. Estima-se que um elevado percentual de cobertura vacinal na população alvo pode se obter uma imunidade coletiva que garanta proteção contra a disseminação e até mesmo a erradicação dessas doenças. 
 
 Entretanto, para que possamos mensurar a cobertura vacinal é fundamental o registro de qualidade das ações de vacinação realizadas nos serviços de saúde. Somente a partir de um registro preocupado com a qualidade da informação poderemos trazer subsídios para os gestores quanto às necessidades e dificuldades para o alcance das metas de cobertura da população. Um registro qualificado e identificado por meio do CPF ou CNS proporcionará melhorias na continuidade do cuidado e na captação de indivíduos que não estão imunizados no território de acompanhamento das equipes de saúde. 
 
-Entende-se que não só o registro de boa qualidade é importante para produzir relatórios consistentes que auxiliem na tomada de decisão, mas também são fundamentais outros fatores, como disponibilidade de insumos e vacinas, organização do processo de trabalho, equipes treinadas, uso de intrumentos e ferramentas que facilitem os registros dos profissionais que atuam na sala de vacina, entre outros. 
+Entende-se que não só o registro de boa qualidade é importante para produzir relatórios consistentes que auxiliem na tomada de decisão, mas também são fundamentais outros fatores, como disponibilidade de insumos e vacinas, organização do processo de trabalho, equipes treinadas, uso de instrumentos e ferramentas que facilitem os registros dos profissionais que atuam na sala de vacina, entre outros. 
 
 Pensando no uso de ferramentas que facilitem e agilizem o trabalho dos profissionais que atuam nas salas de vacina dos serviços de saúde, a SAPS por meio da Estratégia e-SUS APS, está lançando o aplicativo ***e-SUS Vacinação***, objetivando tornar mais prático o preenchimento dos dados de imunização durante as campanhas de vacinação.  O *e-SUS Vacinação* funciona também de forma offline, permitindo que o registro dos dados das ações de imunizações também possam acontecer fora da unidade de saúde, ou seja, em local onde for mais oportuno para a efetividade dessa ação. Num primeiro momento, o aplicativo esteve focado na estratégia de campanhas de vacinação, na qual conciliar o ato de vacinar e registrar os dados em um sistema, quase que ao mesmo tempo, é um desafio. Porém, a partir da versão 3.0 deste aplicativo, as estratégias de rotina passaram a integrar as informações possíveis de registro no aplicativo. Esperamos que essa aplicação traga boas experiências de usabilidade para os usuários e estamos sempre a disposição para receber sugestões e melhorias para atender a real necessidade dos trabalhadores de saúde. 
 

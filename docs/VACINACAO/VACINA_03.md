@@ -66,7 +66,7 @@ Fonte: SAPS/MS
 
 Ao finalizar, clique em "Salvar e cadastrar outro" quando mais de um imunobiológico será aplicado naquele instante, no local indicado. Ou clique em "salvar" quando todos os imunobiológicos que serão aplicados já estão cadastrados.
 
-Após este cadastro, todos os locais com os respectivos imunobológicos e estratégias cadastrados, ficam listados para inserção posterior dos dados do cidadão vacinado. Como mostra a Figura 3.3.
+Após este cadastro, todos os locais com os respectivos imunobiológicos e estratégias cadastrados, ficam listados para inserção posterior dos dados do cidadão vacinado. Como mostra a Figura 3.3.
 
 Figura 3.3 - Lista com locais e respectivos imunobiológicos e estratégias cadastrados
 ![](media/image_6.jpeg)
@@ -78,7 +78,7 @@ Fonte: SAPS/MS
 Antes de começar a campanha ou qualquer estratégia de vacinação faça o cadastro prévio de todas as vacinas que serão administradas no dia, assim o usuário do aplicativo agiliza o processo de registro das doses aplicadas. 
 
 {: .nota } 
-Após o cadastro do imunobiológico e estratégia, todos os locais de vacinação cadastrados serão listados para posterior cadastro dos cidadão que receberão a vacina(Vide figura 3.2). 
+Após o cadastro do imunobiológico e estratégia, todos os locais de vacinação cadastrados serão listados para posterior cadastro dos cidadãos que receberão a vacina(Vide figura 3.2). 
 
 ## 3.2 Cadastrar Cidadão
 
@@ -221,7 +221,7 @@ Esta seção apresenta principalmente a versão do aplicativo. Os usuários do s
 
 Figura 3.9 - Tela 'Sobre"
 
-![](media/image_21.jpeg)
+![](media/image_22.png)
 
 Fonte: SAPS/MS
 
