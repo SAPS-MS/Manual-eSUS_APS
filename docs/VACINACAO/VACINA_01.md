@@ -29,7 +29,9 @@ A Secretaria de Atenção Primária (SAPS) está disponibilizando o aplicativo m
 
 O aplicativo **e-SUS Vacinação** é integrado ao **Sistema e-SUS APS com Prontuário Eletrônico do Cidadão (PEC)** ampliando a capacidade da captação das informações nos serviços de saúde. Nesse contexto, o quarto aplicativo desenvolvido para a Estratégia e-SUS APS priorizou as ações realizadas pelos profissionais que atuam nas campanhas de imunização do país. O aplicativo **e-SUS Vacinação** pode ser utilizado em dispositivos do tipo tablet e smartphones, levando em conta aspectos relacionados ao conforto, à segurança e à usabilidade da ferramenta dentro do processo de trabalho destes profissionais. Na Seção 2.2 serão oferecidas especificações do tablet e do smartphone que melhor se adequam ao aplicativo.
 
-Para melhorar ainda mais as funcionalidades deste aplicativo, a sua experiência de uso pode contribuir para que o *e-SUS Vacinação* e o sistema e-SUS APS dialoguem cada vez mais com a sua prática profissional em ambientes onde ocorrem a vacinação. O canal para registro de sua experiência e sugestões é o [Pesquisa de Opinião do e-SUS APS](http://sisaps.saude.gov.br/pesquisa/).
+Para melhorar ainda mais as funcionalidades deste aplicativo, a sua experiência de uso pode contribuir para que o *e-SUS Vacinação* e o sistema e-SUS APS dialoguem cada vez mais com a sua prática profissional em ambientes onde ocorrem a vacinação. 
+
+O canal para registro de sua experiência e sugestões é o mesmo canal do suporte referido abaixo.
 
 Caso ainda tenha alguma dificuldade em utilizar este aplicativo, consulte este Manual de instrução de instalação e uso, se ainda assim permanecer a dificuldade, entre em contato com os desenvolvedores por este [Suporte](http://esusaps.bridge.ufsc.br/support/login).
 
