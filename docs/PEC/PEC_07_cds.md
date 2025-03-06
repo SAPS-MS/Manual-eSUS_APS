@@ -290,7 +290,7 @@ Fonte:SAPS/MS.
 
 #### 7.2.1.1.6 Cidadão em situação de rua
 
-6.Preencha as informações de "Em situação de rua" de acordo com as informações registradas na ficha. Observe que a pergunta "Está em situação de rua" é obrigatória;
+6.Caso o cidadão cadastrado está em situação de rua, preencha os campos relacionados do grupo "Cidadão em situação de rua" de acordo com as informações coletadas na ficha.
 
 ![](media/pec_image645.png)
 
