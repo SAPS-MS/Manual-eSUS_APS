@@ -53,8 +53,8 @@ O uso do CPF como número suficiente para identificação do cidadão está em a
 Para iniciar a busca pelo cidadão, é necessário selecionar a opção “Cidadão” na aba lateral de navegação e inserir ao menos um dos seguintes dados, conforme é exibido na figura 4.2:
 
 - Nome do cidadão;
-- número do CNS do cidadão;
-- número do CPF;
+- Número do CNS do cidadão;
+- Número do CPF;
 - Data de nascimento;
 - Nome da mãe;
 - Município de nascimento.
