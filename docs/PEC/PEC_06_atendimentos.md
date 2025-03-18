@@ -210,7 +210,7 @@ Figura 6.1.10 - Adicionar Atendimento
 Fonte: SAPS/MS
 
 {: .atencao }
-Caso o cidadão tenha procurado a Unidade Básica de Saúde (UBS) para a realização de vacinação a recepção poderá, no momento de inclusão do cidadão na lista de atendimento, marcar a opção "**Vacina**".
+Caso o cidadão tenha procurado a Unidade Básica de Saúde (UBS) para a realização de vacinação a recepção deverá, no momento de inclusão do cidadão na lista de atendimento, marcar a opção "**Vacina**".
 
 # 6.2 Escuta Inicial
 
@@ -270,7 +270,7 @@ Se forem preenchidos os grupos **Antropometria**, no que se refere a peso e altu
 - VERMELHO - para risco e/ou vulnerabilidade **alta**.
 
 {: .nota }
-o protocolo de classificação de risco utilizado no sistema está definido no [Caderno de Atenção Básica (CAB) 28 - Acolhimento à Demanda Espontânea - Volume I](http://189.28.128.100/dab/docs/publicacoes/geral/miolo_CAP_28.pdf). Adaptações deste protocolo podem ser realizadas de acordo com a necessidade local.
+O protocolo de classificação de risco utilizado no sistema está definido no [Caderno de Atenção Básica (CAB) 28 - Acolhimento à Demanda Espontânea - Volume I](http://189.28.128.100/dab/docs/publicacoes/geral/miolo_CAP_28.pdf). Adaptações deste protocolo poderão ser realizadas de acordo com a necessidade e organização local.
 
 {: .atencao }
 A classificação de risco/vulnerabilidade é um campo de preenchimento obrigatório para os atendimentos à demanda espontânea, em especial para as consultas que serão realizadas no mesmo dia.
@@ -500,7 +500,7 @@ Através da aba de "outras doses e imunobiológicos", clique em clique em ![](me
 
 ## 6.3.4 Realizar Aprazamento das doses das vacinas
 
-Quando for o caso, o profissional de saúde poderá aprazar a data do retorno do cidadão para receber a dose subsequente da vacina.
+Quando for o caso, o profissional de saúde poderá aprazar a data do retorno do cidadão para receber a dose subsequente da vacina. O sistema gera a data automática de intervalo mínimo recomendado pelo fabricante entre as doses, porém o campo do aprazamento é editável. 
 
 Para realizar o aprazamento siga as seguintes etapas:
 
