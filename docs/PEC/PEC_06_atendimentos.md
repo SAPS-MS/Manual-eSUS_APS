@@ -1087,11 +1087,11 @@ O sistema ainda disponibiliza algumas ferramentas específicas para auxiliar no 
 
 - **Atestados**: ferramenta que ajuda o profissional na emissão e controle de atestados e de licença maternidade elaborados para o cidadão; Nesta opção, também há a disponibilidade de Declaração de Comparecimento: ferramenta que permite ao colaborador e paciente comprovar comparecimento ao atendimento em saúde. 
 
-- **Solicitação de exames/procedimentos**: ferramenta que auxilia o profissional na solicitação de exame comum e/ou de alto custo e solicitação de procedimentos de Ofertas de Cuidados Integrados (OCIs);
+- **Solicitação de exames/procedimentos**: ferramenta que auxilia o profissional na solicitação de exame comum e/ou de alto custo e solicitação de procedimentos de Ofertas de Cuidados Integrados (OCIs).
 
-- **Prescrição de medicamentos**: ferramenta que auxilia o profissional nas prescrições farmacológicas no atendimento ao cidadão, na visualização do histórico de prescrições e da lista de medicamentos, além da impressão dos receituários com as medicamentos prescritos no momento;
+- **Prescrição de medicamentos**: ferramenta que auxilia o profissional nas prescrições farmacológicas no atendimento ao cidadão, na visualização do histórico de prescrições e da lista de medicamentos, além da impressão dos receituários com as medicamentos prescritos no momento.
 
-- **Orientações**: ferramenta que auxilia o profissional na elaboração de recomendações para o cidadão;
+- **Orientações**: ferramenta que auxilia o profissional na elaboração de recomendações para o cidadão.
 
 - **Encaminhamentos**: ferramenta de registro e geração de impressão da guia de referência e contra referência para atendimento em outros níveis de atenção à saúde.
 
