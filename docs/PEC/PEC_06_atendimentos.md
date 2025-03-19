@@ -769,13 +769,13 @@ Fonte: SAPS/MS
 
 Conforme podemos ver na Figura 6.4.6, a folha de rosto conta com os seguintes blocos de informações:
 
-- **Escuta inicial**: permite visualizar os registros do atendimento ao cidadão realizados na escuta inicial;
+- **Escuta inicial**: permite visualizar os registros do atendimento ao cidadão realizados na escuta inicial.
 
 ![](media/pec_image390.png)
 
-**Acompanhamento de Vulnerabilidade**: sinaliza caso o cidadão seja beneficiário do Programa Bolsa Família ou esteja em risco para insegurança alimentar de acordo com a [TRIA](https://saps-ms.github.io/Manual-eSUS_APS/docs/CDS/CDS_02/#triagem-para-risco-de-inseguran%C3%A7a-alimentar-tria)
+- **Acompanhamento de Vulnerabilidade**: sinaliza caso o cidadão seja beneficiário do Programa Bolsa Família ou esteja em risco para insegurança alimentar de acordo com a [TRIA](https://saps-ms.github.io/Manual-eSUS_APS/docs/CDS/CDS_02/#triagem-para-risco-de-inseguran%C3%A7a-alimentar-tria).
 
-- **Últimos contatos**: exibe os últimos atendimentos do cidadão na unidade de saúde, permitindo saber quais os problemas/condições avaliadas e quando ocorreram. Caso haja necessidade de ver mais informações do histórico do cidadão é possível clicar na guia "Histórico;
+- **Últimos contatos**: exibe os últimos atendimentos do cidadão na unidade de saúde, permitindo saber quais os problemas/condições avaliadas e quando ocorreram. Caso haja necessidade de ver mais informações do histórico do cidadão é possível clicar na guia "Histórico.
 
 
 ![](media/pec_image391.png)
@@ -788,7 +788,7 @@ Conforme podemos ver na Figura 6.4.6, a folha de rosto conta com os seguintes bl
 
 ![](media/pec_image393.png)
 
-- **Vacinação**: são exibidas as últimas vacinas aplicadas no cidadão e as próximas vacinas aprazadas. Será apresentado, no máximo, as 3 últimas aplicações ou aprazamentos realizados para o cidadão. Caso haja doses de vacinas atrasadas (independente de faixa etária), aparecerá uma  mensagem de alerta: "Existem vacinas atrasadas ou não registradas! Confira o cartão de vacinação do cidadão."
+- **Vacinação**: são exibidas as últimas vacinas aplicadas no cidadão e as próximas vacinas aprazadas. Será apresentado, no máximo, as 3 últimas aplicações ou aprazamentos realizados para o cidadão. Caso haja doses de vacinas atrasadas (independente de faixa etária), aparecerá uma  mensagem de alerta: "Existem vacinas atrasadas ou não registradas! Confira o cartão de vacinação do cidadão".
 
 ![](media/pec_image901.png)
 
@@ -802,7 +802,7 @@ condições autorreferidas pelo cidadão registradas em seu  cadastro individual
 - **Alergias/Reações Adversas**: exibe a lista de alergias e as reações adversas do cidadão, identificando Agente Causador, Categoria, Tipo de reação e Criticidade. Ao clicar no card é possível ver o detalhamento de cada Alergia/Reação adversa com informações de data de início, manifestações e outras observações registradas. 
 
 - **Lista de Problemas/condições**: exibe os problemas/condições ativos ou latentes do cidadão. São exibidos no card os últimos cinco registros de problemas/condições com as informações: CID10/CIAP2; data de início do problema ou condição; idade do problema/condição, ou seja, há quanto tempo ele existe; e data da última atualização do problema/condição no PEC.
- **Não exibe os problemas/condições resolvidos** (estes poderão ser visualizados em Antecedentes no SOAP);
+ **Não exibe os problemas/condições resolvidos** (estes poderão ser visualizados em Antecedentes no SOAP).
 
 - **Resultados de exames**: o card exibe uma lista dos três últimos resultados de exames inseridos com as informações
 de nome do exame, data de realização e resultado do exame.
