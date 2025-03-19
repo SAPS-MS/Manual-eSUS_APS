@@ -1066,7 +1066,7 @@ Agora relacionado a alergia , em consultas posteriores, é possível incluí-lo 
 Fonte: SAPS/MS.
 
 {: .nota }
-Agora é possível inserir informações de Alergias e reações adversas pelo campo "Avaliação" no SOAP, conforme figura abaixo. Para maiores intruções de como preencher esse campo, observar o item 6.4.4.2 do manual e-SUS APS.
+Agora é possível inserir informações de Alergias e reações adversas pelo campo "Avaliação" no SOAP, conforme figura abaixo. Para maiores intruções de como preencher esse campo, observar o item [6.4.4.2](https://saps-ms.github.io/Manual-eSUS_APS/docs/PEC/PEC_06_atendimentos/#6442-alergias-e-rea%C3%A7%C3%B5es-adversas).
 
 ### 6.4.3.4 SOAP - Plano
 
