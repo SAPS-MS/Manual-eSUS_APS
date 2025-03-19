@@ -1176,7 +1176,7 @@ Fonte: SAPS/MS.
 
 Nesta ferramenta, é possível solicitar exames para o cidadão em atendimento e solicitar inclusão na Oferta de Cuidados Integrados (OCI). Exames cadastrados neste módulo irão ser incluídos no bloco "Objetivo" do registro de atendimento do SOAP, na parte de exames solicitados e/ou avaliados, após a finalização da consulta em que eles foram inseridos.
 
-Como podemos ver na Figura 6.4.17 há duas opções para solicitação de exames:
+Como podemos ver na Figura 6.4.17 há três opções para solicitação de exames:
 
 Figura 6.4.17 - SOAP - Plano - exames
 
@@ -1216,6 +1216,9 @@ Fonte: SAPS/MS.
 
 
 Esta é uma alternativa que agiliza a requisição de exames, visto que são apresentados combos de exames previamente selecionados para cada condição (gestante 1º, 2º e 3º trimestre, além dos exames de risco cardiovascular). Clique na opção ![](media/pec_image431.png) \"Adicionar\" para incluir um grupo de exames, ao clicar aparecerá uma lista de exames. Em seguida siga os passos:
+
+{: .nota }
+Os grupos de exames podem ser adicionador pelo administrador municipal.
 
 - Passo 1. Caso o profissional queira adicionar outros exames além dos apresentados na lista de cada grupo, basta adicionar no campo "Exame";
 
