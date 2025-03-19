@@ -1122,7 +1122,7 @@ Conforme podemos ver na Figura acima, para emitir um atestado, basta seguir os p
 ![](media/pec_image1080.png)
 Fonte: SAPS/MS.
 
-##### Modelo de Atestado para Impressão
+#### Modelo de Atestado para Impressão
 ![](media/pec_image1081.png)
 Fonte: SAPS/MS.
 
