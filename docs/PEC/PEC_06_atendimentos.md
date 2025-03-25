@@ -1288,9 +1288,7 @@ A Oferta de Cuidados Integrados (OCI) foi incorporada no Prontuário Eletrônico
 
 Para uma leitura mais aprofundada sobre o Programa de Mais Acesso a Especialistas e as OCIs é indicada a leitura [Mais acesso a especialistas](  https://www.gov.br/saude/pt-br/composicao/saes/pmae) e [Financiamento e Contratualização](https://www.gov.br/saude/pt-br/composicao/saes/pmae/financiamento-e-contratualizacao) 
 
-Esta funcionalidade estará disponível no PEC, dentro do SOAP, em Plano.
-
-![](media/oci.png)
+![](media/adicionarOCI.png)
 
 Ao selecionar “Adicionar OCI” abrirá a tela com informações obrigatórias como procedimentos, CID10 e justificativa de procedimento, e de forma complementar observações. 
 
