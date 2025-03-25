@@ -1172,13 +1172,13 @@ Fonte: SAPS/MS.
 ![](media/pec_image1083.png)
 Fonte: SAPS/MS.
 
-#### 6.4.3.4.2 Ferramentas do Plano - Exames
+#### 6.4.3.4.2 Ferramentas do Plano - Exames/Procedimentos
 
-Nesta ferramenta, é possível solicitar exames para o cidadão em atendimento e solicitar inclusão na Oferta de Cuidados Integrados (OCI). Exames cadastrados neste módulo irão ser incluídos no bloco "Objetivo" do registro de atendimento do SOAP, na parte de exames solicitados e/ou avaliados, após a finalização da consulta em que eles foram inseridos.
+Nesta ferramenta, é possível solicitar exames ou procedimentos para o cidadão em atendimento e solicitar inclusão na Oferta de Cuidados Integrados (OCI). Exames/Procedimentos cadastrados neste módulo irão ser incluídos no bloco "Objetivo" do registro de atendimento do SOAP, na parte de exames solicitados e/ou avaliados, após a finalização da consulta em que eles foram inseridos.
 
 Como podemos ver na Figura 6.4.17 há três opções para solicitação de exames:
 
-Figura 6.4.17 - SOAP - Plano - exames
+Figura 6.4.17 - SOAP - Plano - exames/procedimentos
 
 ![](media/pec_image1084.png)
 
@@ -1260,16 +1260,15 @@ Fonte: SAPS/MS.
 
 - Ao selecionar a opção "Ver somente as minhas solicitações" ![](media/pec_image938.png) aparecerá somente as solicitações do profissional que realizou à solicitação de exames do atendimento. 
 
-- Ao clicar na opção "Imprimir" ![](media/pec_image938.png).  será apresentada a tela com a solicitação de exame em modo de impressão;
+- Ao clicar na opção "Imprimir"![](media/pec_image938.png).  será apresentada a tela com a solicitação de exame em modo de impressão;
 
-- Ao clicar na opção "Mais opçoes" ![](media/pec_image940.png) terá a opção de editar ou excluir uma solicitação de exames. 
+- Ao clicar na opção "Mais opções" ![](media/pec_image940.png) terá a opção de editar ou excluir uma solicitação de exames. 
 
 - Para realizar exclusão de algum exame clique em "Excluir" ![](media/pec_image942.png). O sistema pedirá a confirmação da exclusão, conforme figura abaixo:
 
 ![](media/pec_image943.png)
 
 Fonte: SAPS/MS.
-
 
 - Para realizar edição de alguma "solicitação de exames" cique em "Editar"![](media/pec_image944.png). O sistema abrirá a tela conforme figura abaixo. 
 
