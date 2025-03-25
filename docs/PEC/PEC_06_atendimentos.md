@@ -1264,9 +1264,9 @@ Fonte: SAPS/MS.
 
 - Ao clicar na opção "Mais opções" ![](media/pec_image940.png) terá a opção de editar ou excluir uma solicitação de exames. 
 
-- Para realizar exclusão de algum exame clique em "Excluir" ![](media/pec_image942.png). O sistema pedirá a confirmação da exclusão, conforme figura abaixo:
+- Para realizar exclusão de algum exame clique em "Excluir" O sistema pedirá a confirmação da exclusão, conforme figura abaixo:
 
-![](media/pec_image943.png)
+![](media/excluir_exame.png)
 
 Fonte: SAPS/MS.
 
