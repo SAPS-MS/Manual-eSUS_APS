@@ -425,7 +425,7 @@ Este bloco deverá ser preenchido pelo agente de ação social das equipes de Co
 
 **Objetivo da ficha:** registrar as características sociossanitárias dos domicílios no território das equipes de AB. Por meio dela, é possível registrar também situações de populações domiciliadas em locais que não podem ser considerados domicílio, por exemplo, situação de rua (IBGE, 2010), mas que devem ser monitoradas pela equipe de saúde. As informações presentes nesta ficha são relevantes porque compõem indicadores de monitoramento e avaliação para a AB e para as Redes de Atenção à Saúde.
 
-**Profissionais que utilizam esta ficha:** todos os membros das Equipes que atuam na Atenção Básica. Todos os profissionais são habilitados a preencher a ficha de Cadastro Individual.
+**Profissionais que utilizam esta ficha:** todos os membros das Equipes que atuam na Atenção Básica. Todos os profissionais são habilitados a preencher a ficha de Cadastro Domiciliar.
 
 A seguir detalharemos o modo de preenchimento da ficha, atenção aos
 campos assinalados na ficha com asterisco (*), pois estes são de
