@@ -1218,7 +1218,7 @@ Fonte: SAPS/MS.
 Esta é uma alternativa que agiliza a requisição de exames, visto que são apresentados combos de exames previamente selecionados para cada condição (gestante 1º, 2º e 3º trimestre, além dos exames de risco cardiovascular). Clique na opção ![](media/pec_image431.png) \"Adicionar\" para incluir um grupo de exames, ao clicar aparecerá uma lista de exames. Em seguida siga os passos:
 
 {: .nota }
-Os grupos de exames podem ser adicionador pelo administrador municipal.
+Os grupos de exames podem ser adicionados pelo administrador municipal.
 
 - Passo 1. Caso o profissional queira adicionar outros exames além dos apresentados na lista de cada grupo, basta adicionar no campo "Exame";
 
