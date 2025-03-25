@@ -1275,7 +1275,7 @@ Fonte: SAPS/MS.
 
 - Passo 3. Caso deseje excluir alguma exame clique em "Excluir" ![](media/pec_image941.png).
 
-Passo 4.  Após as alterações, clique no botão "Salvar" ![](media/pec_image930.png).
+- Passo 4.  Após as alterações, clique no botão "Salvar" ![](media/pec_image930.png).
 
 
 
