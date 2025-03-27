@@ -1876,7 +1876,7 @@ Para acessar o histórico, basta clicar no botão "Histórico". No menu à esque
 
 Figura 6.76 - Histórico de atendimento
 
-![](media/pec_image972.png)
+![](media/historico1.jpg)
 
 Fonte: SAPS/MS.
 
@@ -1886,7 +1886,7 @@ Fonte: SAPS/MS.
 
 Figura 6.77 - Tela de visualização do atendimento
 
-![](media/pec_image975.png)
+![](media/historicoatendimento.png)
 
 Fonte: SAPS/MS.
 
