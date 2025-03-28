@@ -21,7 +21,7 @@ Este manual tem como objetivo oferecer suporte a Estados, Municípios e Institui
 
 A instalação de treinamento do PEC e-SUS APS foi desenvolvida para proporcionar um ambiente seguro de simulação, onde profissionais da saúde, gestores, equipes técnicas, professores e estudantes podem explorar as funcionalidades do sistema sem comprometer dados reais. Dessa forma, é possível realizar estudos práticos, treinamentos e testes operacionais, garantindo maior familiaridade com a plataforma antes de sua implementação no dia a dia dos serviços de saúde.
 
-Ao longo deste manual, serão apresentadas as orientações para instalação e configurações iniciais do ambiente, utilizando o arquivo XML fictício disponibilizado pelo Ministério da Saúde, que traz a seguinte uma estrutura:
+Ao longo deste manual, serão apresentadas as orientações para instalação e configurações iniciais do ambiente, utilizando o arquivo XML fictício disponibilizado pelo Ministério da Saúde, que traz a seguinte estrutura:
 
 - 9 unidades de saúde (2 UBS, 1 CAPS, 1 Centro de Especialidades, 1 CEO, 1 CER, 1 Policlínica, 1 Unidade do Serviço de Atenção Domiciliar e 1 UPA);
 - 8 equipes de saúde da APS (2 eSF, 1 eAP, 2 eSB, 1 eMulti, 1 eCR, 1 eAPP);
@@ -34,17 +34,13 @@ Observação: Qualquer incidente ou dúvida em relação ao processo aqui explic
 
 ## 2. Requisitos de ambiente para a instalação:
 
-- Requisitos mínimos de sistema
-A instalação de treinamento segue as mesmas premissas da instalação de produção. Assim sendo, indica-se leitura da seção [Apoio à Implantação](https://saps-ms.github.io/Manual-eSUS_APS/docs/Apoio%20a%20Implanta%C3%A7%C3%A3o/Apoio_implantacao/) deste manual para mais informações.
+- Requisitos mínimos de sistema: a instalação de treinamento segue as mesmas premissas da instalação de produção. Assim sendo, indica-se leitura da seção [Apoio à Implantação](https://saps-ms.github.io/Manual-eSUS_APS/docs/Apoio%20a%20Implanta%C3%A7%C3%A3o/Apoio_implantacao/) deste manual para mais informações.
 
-- Java
-É necessário instalar previamente a aplicação Java, versão 64 bits, no ambiente. Para download, [clique aqui](https://www.java.com/pt-BR/download/).
+- Java: é necessário instalar previamente a aplicação Java, versão 64 bits, no ambiente. Para download, [clique aqui](https://www.java.com/pt-BR/download/).
 
-- Instalador do PEC e-SUS APS
-Para download da versão disponibilizada nacionalmente, [clique aqui](https://sisaps.saude.gov.br/esus/). Vale destacar que a versão treinamento é a mesma versão de produção.
+- Instalador do PEC e-SUS APS: para download da versão disponibilizada nacionalmente, [clique aqui](https://sisaps.saude.gov.br/esus/). Vale destacar que a versão treinamento é a mesma versão de produção.
 
-- XML fictício
-Para download da última versão do arquivo, [clique aqui]().
+- XML fictício: para download da última versão do arquivo, [clique aqui]().
 
 ## 3. Processo de instalação
 
@@ -94,7 +90,7 @@ Após a instalação do PEC e-SUS APS, daremos início ao processo de configura�
 
 **Passo 1 - Abra um navegador de internet e acesso o seguinte endereço: http://localhost:8080**
 
-Observação: Logo após a instalação, dependendo das configurações de hardware do ambiente, a inicialização da aplicação do PEC e-SUS APS pode demorar alguns minutos para ser iniciada. Aguarde a conclusão deste processo.
+Observação: Logo após a instalação, dependendo das configurações do ambiente, a inicialização da aplicação do PEC e-SUS APS pode demorar alguns minutos para ser iniciada. Aguarde a conclusão deste processo.
 
 ![alt text](media/treina-8.png)
 
@@ -164,17 +160,17 @@ Sua instalação de treinamento está pronta para uso.
 
 ## 5. Orientações finais
 
-- Unidades e Equipes
+- **Unidades e Equipes**
 
-Para verificar as unidades e equipes da instalação, como Administrador Municipal, acesso o módulo "Unidades de saúde".
+Para verificar as unidades e equipes da instalação, como Administrador Municipal, acesse o módulo "Unidades de saúde".
 
 ![alt text](media/treina-22.png)
 
-- Profissionais
+- **Profissionais**
 
 Para liberar o acesso dos profissionais fictícios à instalação, como Administrador Municipal, acesse o módulo "Profissionais".
 
-Na busca, digite "%%%" para lista todos os profissionais.
+Na busca, digite "%%%" para listar todos os profissionais.
 
 ![alt text](media/treina-23.png)
 
@@ -186,12 +182,14 @@ Confirme a redefinição de senha.
 
 ![alt text](media/treina-25.png)
 
-De preferência, crie uma senha provisório para o profissional fictício.
+De preferência, crie uma senha provisória para o profissional fictício.
 
 ![alt text](media/treina-26.png)
 
 Ao criar a senha, clique em SALVAR.
 
 ![alt text](media/treina-27.png)
+
+Observação: ao realizar login no sistema pela primeira vez com a senha provisória, será solicitada a criação de uma nova senha para o profissional.
 
 **1ª versão. Atualizado em 28 de março de 2025.**
