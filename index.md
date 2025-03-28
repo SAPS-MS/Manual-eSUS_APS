@@ -49,11 +49,11 @@ Elaboração, distribuição e informações:<br>
 
 **Ministra de Estado de Saúde**
 
-Nísia Trindade
+Alexandre Rocha Santos Padilha
 
 **Supervisor Geral**
 
-Felipe Proenço de Oliveira
+Ana Luiza Ferreira Rodrigues Caldas
 
 **Coordenação Geral**
 
