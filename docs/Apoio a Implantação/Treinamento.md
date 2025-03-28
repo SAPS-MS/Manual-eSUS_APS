@@ -158,7 +158,7 @@ Selecione o módulo inicial para o perfil de Administrador Municipal (sugestão:
 ![alt text](media/treina-21.png)
 
 {: .dica }
-Agora, sua instalação de treinamento já está pronta pronta para uso.
+Agora, sua instalação de treinamento já está pronta para uso.
 
 ## 5. Orientações finais
 
