@@ -41,7 +41,7 @@ Qualquer incidente ou dúvida em relação ao processo aqui explicado, abra um c
 
 - **Instalador do PEC e-SUS APS:** para download da versão disponibilizada nacionalmente, [clique aqui](https://sisaps.saude.gov.br/esus/). Vale destacar que a versão treinamento é a mesma versão de produção.
 
-- **XML fictício:** para download da última versão do arquivo, [clique aqui]().
+- **XML fictício:** para download da última versão do arquivo, [clique aqui](https://drive.google.com/file/d/1KTTaOrXsrsQcvxbHYx897O6lsf29BArm/view?usp=sharing).
 
 ## 3. Processo de instalação
 
