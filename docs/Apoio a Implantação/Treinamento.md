@@ -21,7 +21,7 @@ Este manual tem como objetivo oferecer suporte a Estados, Municípios e Institui
 
 A instalação de treinamento do PEC e-SUS APS foi desenvolvida para proporcionar um ambiente seguro de simulação, onde profissionais da saúde, gestores, equipes técnicas, professores e estudantes podem explorar as funcionalidades do sistema sem comprometer dados reais. Dessa forma, é possível realizar estudos práticos, treinamentos e testes operacionais, garantindo maior familiaridade com a plataforma antes de sua implementação na rotina dos serviços de saúde.
 
-Ao longo deste manual, serão apresentadas as orientações para instalação e configurações iniciais do ambiente, utilizando o arquivo XML **fictício** disponibilizado pelo Ministério da Saúde, que traz a seguinte estrutura:
+Ao longo deste manual, serão apresentadas as orientações para instalação e configurações iniciais do ambiente, utilizando o arquivo XML **fictício** disponibilizado pelo Ministério da Saúde, que traz a seguinte estrutura fictícia:
 
 - 9 unidades de saúde (2 UBS, 1 CAPS, 1 Centro de Especialidades, 1 CEO, 1 CER, 1 Policlínica, 1 Unidade do Serviço de Atenção Domiciliar e 1 UPA);
 - 8 equipes de saúde da APS (2 eSF, 1 eAP, 2 eSB, 1 eMulti, 1 eCR, 1 eAPP);
