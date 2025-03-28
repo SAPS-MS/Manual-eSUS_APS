@@ -67,6 +67,7 @@ Clique em AVANÇAR.
 **Passo 3 - Gerenciamento automático de certificado TLS/SSL**
 
 Marque a opção NÃO e clique em avançar.
+
 ![alt text](media/treina-4.png)
 
 Observação: Se o seu ambiente de treinamento possuir IP público para acesso externo e domínio configurado, utilize a opção SIM. Para mais detalhes sobre este processo, visite o manual completo da funcionalidade [aqui](https://saps-ms.github.io/Manual-eSUS_APS/docs/Apoio%20a%20Implanta%C3%A7%C3%A3o/HTTPS_Automatizado/).
