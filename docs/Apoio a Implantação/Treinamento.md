@@ -88,9 +88,9 @@ Clique em FINALIZAR.
 
 Após a instalação do PEC e-SUS APS, daremos início ao processo de configuração inicial do sistema.
 
-**Passo 1 - Abra um navegador de internet e acesso o seguinte endereço: http://localhost:8080**
+**Passo 1 - Abra um navegador de internet e acesse o seguinte endereço: http://localhost:8080**
 
-Observação: Logo após a instalação, dependendo das configurações do ambiente, a inicialização da aplicação do PEC e-SUS APS pode demorar alguns minutos para ser iniciada. Aguarde a conclusão deste processo.
+Observação: Logo após a instalação, dependendo das configurações do ambiente, a inicialização da aplicação do PEC e-SUS APS pode demorar alguns minutos. Aguarde a conclusão deste processo.
 
 ![alt text](media/treina-8.png)
 
