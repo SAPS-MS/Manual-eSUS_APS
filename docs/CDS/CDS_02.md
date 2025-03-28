@@ -178,7 +178,7 @@ Fonte: SAPS/MS.
 |     SERVIDOR PÚBLICO/MILITAR    |     Pessoa que mantêm vínculo de trabalho profissional com os   órgãos e entidades governamentais, integrados em cargos ou empregos de   qualquer delas: União, estados, Distrito Federal, municípios e suas   respectivas autarquias, fundações, empresas públicas e sociedades de economia   mista.    |
 |     OUTRA    |     Pessoa que não se enquadra em   nenhuma das situações de trabalho referidas acima.    |
 
-Fonte: SAS/MS.
+Fonte: SAPS/MS.
 
 **Frequenta escola ou creche?**: Informar se o cidadão frequenta ou não escola ou creche.
 
@@ -219,7 +219,7 @@ Fonte: SAPS/MS.
 |CRECHE|Neste caso,   a criança vai para uma creche ou instituição que a supervisiona e que atenda   às suas necessidades básicas.    |
 |OUTRO|Caso a   criança permaneça sob circunstâncias diferentes não mencionadas acima.|
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 **Frequenta cuidador tradicional? Participa de algum grupo comunitário? e Possui plano de saúde privado? :** são campos que retratam a interação do cidadão com a comunidade e com outras modalidade de cuidado em saúde, regulamentadas ou não.
 
@@ -298,7 +298,7 @@ Quando a identidade de gênero é diferente das identidades cisgênero, é poss�
 |     FÍSICA    |     É alteração completa ou   parcial de um ou mais segmentos do corpo humano que acarreta o   comprometimento da função física, apresentando-se sob as formas de   paraplegia, paraparesia, monoplegia, monoparesia, tetraplegia, tetraparesia,   triplegia, triparesia, hemiplegia, hemiparesia, ostomia, amputação ou   ausência de membro, paralisia cerebral, nanismo, membros com deformidade   congênita ou adquirida, exceto as deformidades estéticas e as que não   produzam dificuldades para o desempenho de funções.    |
 |     OUTRA    |     Outros tipos de   limitações, temporárias ou permanentes.     |
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 ### 2.1.5 Informações socioeconômicas
 
@@ -357,7 +357,7 @@ Este bloco deverá ser preenchido com informações oferecidas pelo usuário e c
 
 ![](media/cds_image11.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 **Quadro 2.11 -- Condições/situações de saúde gerais**
 
@@ -391,7 +391,7 @@ Este bloco deverá ser preenchido com informações oferecidas pelo usuário e c
 |USA OUTRAS PRÁTICAS INTEGRATIVAS E COMPLEMENTARES?|	Assinale com um "x" a opção referida. Exemplos de PIC: medicina tradicional chinesa, homeopatia, termalismo/crenoterapia, medicina antroposófica, entre outras. |
 |OUTRAS CONDIÇÕES DE SAÚDE, QUAL?|	Campo aberto. Indicar doenças referidas pelo usuário que não foram citadas anteriormente.|
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 \** *Campo obrigatório condicionado à pergunta anterior**
 
@@ -416,7 +416,7 @@ Este bloco deverá ser preenchido pelo agente de ação social das equipes de Co
 |TEM ACESSO À HIGIENE PESSOAL?|	Assinale com um "x" a opção referida.
 |SE SIM, INDIQUE QUAL(IS)?**| – indicar qual recurso de higiene pessoal a que o usuário tem acesso. Pode-se marcar mais de uma opção:<br> ●	Banho;<br> ●	Acesso ao Sanitário;<br> ●	Higiene Bucal;<br> ●	Outros.
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 \* *Campo de preenchimento obrigatório.*
 \** *Campos de preenchimento obrigatório condicionados à pergunta anterior*
@@ -439,7 +439,7 @@ O cabeçalho do instrumento, assim como o de todas as fichas de coleta de dados,
 
 ![](media/cds_image12.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 **Quadro 2.13 -- Identificação e controle da digitação**
 
@@ -450,7 +450,7 @@ O cabeçalho do instrumento, assim como o de todas as fichas de coleta de dados,
 |     CONFERIDO POR    |     Nome do profissional que fez a   supervisão do preenchimento da ficha.    |
 |     FOLHA Nº    |     Este campo pode ser utilizado na   organização do processo de trabalho do profissional que realizou o cadastro,   por meio da inserção de numeração das folhas.    |
 
-*Fonte: SAS/MS.*
+*Fonte: SAOS/MS.*
 
 ### 2.2.2 Identificação do profissional e do estabelecimento de saúde
 
@@ -460,7 +460,7 @@ O próximo bloco é utilizado para identificação do profissional que realizou 
 
 ![](media/cds_image8.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 **Quadro 2.14 -- Identificação do profissional e lotação**
 
@@ -472,7 +472,7 @@ O próximo bloco é utilizado para identificação do profissional que realizou 
 |     INE*    |     Código   Identificador Nacional de Equipes (INE) no Cadastro Nacional de   Estabelecimentos de Saúde (CNES) do Ministério da Saúde, onde o profissional   está lotado, seja equipes Saúde da Família, Nasf, CnR, etc. Este campo não é   obrigatório para profissionais que não estão vinculados a equipes.    |
 |     DATA*    |     Dia/mês/ano em que foi realizado o   cadastro do cidadão.    |
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 /* Campo de preenchimento obrigatório.
 
@@ -484,7 +484,7 @@ Neste bloco, é registrado o endereço do domicílio localizado na área de atua
 
 ![](media/cds_image13.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 **Quadro 2.15 -- Endereço/Local de permanência**
 
@@ -504,7 +504,7 @@ Neste bloco, é registrado o endereço do domicílio localizado na área de atua
 |TELEFONE RESIDENCIAL|	Anote o número do telefone fixo com DDD (Discagem Direta a Distância) do município em que o usuário reside.|
 |TELEFONE DE REFERÊNCIA|	Anote o número do telefone com DDD do município em que o usuário pode ser encontrado mais facilmente. A preferência é que seja telefone fixo ou contato próximo ao domicílio. Caso não possua, o campo deverá ficar em branco. O telefone celular deverá ser preenchido no cadastro individual. Evitar telefones de empresa, que são trocados com frequência.|
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 \* *Campo de preenchimento obrigatório.*
 
@@ -557,7 +557,7 @@ O bloco de condições de moradia é composto por campos que mapeiam as condiç�
 
 ![](media/cds_image14.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 **Situação de moradia/posse da terra**: O preenchimento deste campo informa a situação de propriedade do domicílio. Este é um campo de preenchimento obrigatório. Deverá ser assinalada uma das opções, conforme descrição a seguir:
 
@@ -573,7 +573,7 @@ O bloco de condições de moradia é composto por campos que mapeiam as condiç�
 |     OCUPAÇÃO    |     Domicílio,   área pública ou privada cuja ocupação se deu sem regularização formal.    |
 |     SITUAÇÃO DE   RUA    |     A população   em situação de rua forma um grupo heterogêneo, em situação de   vulnerabilidade. Não apresenta moradia convencional regular, utilizando a rua   como espaço de moradia, por condição temporária ou de forma permanente.   Quando esta opção for assinalada, é importante o preenchimento de todo o   bloco “endereço/local de permanência” e do campo “localização” para que a informação   “situação de rua” possa ser digitada no sistema com CDS.    |
 |     OUTRA    |     Para o   domicílio que não se enquadre em nenhuma das categorias acima.    |
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 \* *Campo de preenchimento obrigatório.*
 
@@ -589,7 +589,7 @@ Quadro 2.17 -- Localização
 |URBANA|Área correspondente às cidades (sedes municipais), às vilas (sedes distritais) ou às áreas urbanas isoladas (IBGE, 2010).|
 |RURAL|Toda a área situada fora dos limites do perímetro urbano, inclusive os aglomerados rurais de extensão urbana, os povoados e os núcleos. Esse critério também é utilizado na classificação da população urbana e rural (IBGE, 2010).|
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 \* Campo de preenchimento obrigatório.
 
@@ -604,7 +604,7 @@ Quadro 2.17 -- Localização
 |CÔMODO|Habitação que se caracteriza pelo uso comum do morador de instalações hidráulica, elétrica e/ou sanitária (banheiro, cozinha etc.), composta por um ou mais aposentos localizados em uma casa de cômodos, cortiço, cabeça de porco etc. (IBGE, 2010).|
 |OUTRO|Quando o tipo de domicílio não se enquadra em nenhuma das categorias acima.|
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 **Número de moradores e cômodos**: preencher com o número de moradores e cômodos do domicílio.
 
@@ -615,7 +615,7 @@ Quadro 2.17 -- Localização
 |NÚMERO DE MORADORES|Anote o número de moradores no domicílio (campo numérico). Se neste domicílio mora mais de um núcleo familiar/família, o número a ser registrado é o total de moradores de todas as famílias.|
 |NÚMERO DE CÔMODOS|Anote o número de cômodos no domicílio. Cômodos ou peças são "todos os compartimentos integrantes do domicílio, inclusive banheiro e cozinha, separados por paredes, e os existentes na parte externa do prédio, desde que constituam parte integrante do domicílio, com exceção de corredores, alpendres, varandas abertas e outros compartimentos utilizados para fins não residenciais como garagens, depósitos etc." (IBGE, 1994). Investiga-se aqui, com a variável de número de moradores, a relação de cômodos por moradores do domicílio.|
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 **Condições de posso e uso da terra**: preencher informações sobre a condição de posse e uso da terra no caso do domicílio estar em área de produção rural. Deverá ser assinalada uma das opções, conforme descrição a seguir:
 
@@ -632,7 +632,7 @@ Quadro 2.20 -- Condições de posse e uso da terra em área de produção rural
 |BENEFICIÁRIO(A) DO BANCO DA TERRA|Trabalhadores rurais (assalariados), parceiros, meeiros, posseiros ou arrendatários que comprovem, no mínimo, cinco anos de experiência na agropecuária e que tenham financiado a propriedade rural pelo programa Fundo de Terras e Reforma Agrária, ou Banco da Terra.|
 |NÃO SE APLICA|Pessoa que não se enquadra em nenhuma das variáveis sobre condição de posse e uso da terra citadas acima.|
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 **Tipo de acesso ao domicílio**: refere-se ao principal tipo de pavimentação ou vias de acesso para se chegar ao logradouro que dá acesso ao domicílio. Deverá ser assinalada uma das opções, conforme descrição a seguir:
 
@@ -645,7 +645,7 @@ Quadro 2.21 -- Acesso ao domicílio
 |FLUVIAL|Para se chegar ao domicílio, é necessário utilizar meios de transporte fluviais como canoa, barco, balsa etc.|
 |OUTRO|Quando o tipo de acesso não se enquadra em nenhuma das categorias acima.|
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 **Disponibilidade de energia elétrica**: informa a existência de energia elétrica no domicílio. Marque com um /"x/" a opção escolhida.
 
@@ -664,7 +664,7 @@ Quadro 2.22 -- Material predominante na construção das paredes externas do dom
 |PALHA|                               Domicílio com as paredes feitas de sapé, folha ou casca de vegetal.|
 |OUTRO MATERIAL|                      Quando o material utilizado não se enquadra em nenhuma das categorias acima.|
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 **Abastecimento de água**: Informa a existência de água canalizada no domicílio e a sua procedência. Deverá ser assinalada uma das opções, conforme descrição a seguir:
 
@@ -678,7 +678,7 @@ Quadro 2.23 -- Abastecimento de água
 |CARRO-PIPA|                      Quando a água utilizada no domicílio for transportada por meio de carro-pipa, podendo a água ser proveniente de várias fontes (BRASIL, 2010a).
 |OUTRO|                           Quando o domicílio for servido de água de reservatório (ou caixa), poço ou nascente localizado fora do terreno onde está construído, quando for servido de água de rio ou lago, ou ainda de outra maneira não descrita acima.
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 **Forma de escoamento do banheiro ou sanitário**: Refere-se ao principal tipo de escoamento do banheiro ou sanitário do domicílio. Deverá ser assinalada uma das opções, conforme descrição a seguir:
 
@@ -693,7 +693,7 @@ Quadro 2.24 -- Forma de escoamento do banheiro ou sanitário
 |CÉU ABERTO|                           Quando os dejetos ou águas provenientes do banheiro ou do sanitário forem esgotados diretamente para uma vala a céu aberto (BRASIL, 2010a).
 |OUTRA FORMA|                          Quando o escoadouro dos dejetos e águas provenientes do banheiro ou do sanitário não se enquadrar nas categorias descritas anteriormente.
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 **Água para consumo no domicílio**: Refere-se ao tratamento predominante da água realizado no domicílio para ingestão. Deverá ser assinalada uma das opções, conforme descrição a seguir:
 
@@ -707,7 +707,7 @@ Quadro 2.25 -- Água para consumo no domicílio
 |CLORADA|          Adição de cloro ou de outros produtos desinfetantes e/ou bactericidas. Tem como finalidade a eliminação dos microrganismos ainda existentes.|
 |SEM TRATAMENTO|   Marque esta opção quando não for referido nenhum tratamento de água realizado no domicílio.|
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 **Destino do lixo**: deverá ser assinalada uma das opções oferecidas.
 Abaixo, são apresentadas as opções de destino do lixo.
@@ -721,7 +721,7 @@ Quadro 2.26 -- Destinação dada ao lixo
 |CÉU ABERTO|Quando o lixo do domicílio é jogado a céu aberto em lugares como terrenos baldios, logradouros públicos, margens de rio, lago ou mar (BRASIL, 2010b).
 |OUTRO|Quando o lixo tiver outro destino que não se enquadre em nenhuma das categorias acima.
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 ### 2.2.5 Animais no domicílio
 
@@ -731,7 +731,7 @@ Figura 2.10 -- Animais no domicílio
 
 ![](media/cds_image15.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 ### 2.2.6 Identificação de famílias ou núcleos familiares
 
@@ -745,7 +745,7 @@ Figura 2.11 -- Identificação de famílias ou núcleos familiares
 
 ![](media/cds_image16.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 \* *Campo com obrigatoriedade condicional*
 
@@ -761,7 +761,7 @@ Figura 2.11 -- Identificação de famílias ou núcleos familiares
 |     RESIDE DESDE    |     Coloque a data em que o   núcleo familiar passou a residir nesse domicílio (mudou-se para o atual   domicílio), preenchida no formato mês/ano. Não tendo a informação do mês,   preencher somente o ano.    |
 |     MUDOU-SE    |     Utilize este campo apenas quando a   família sair do território.    |
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 {: .atencao }
 o bloco de identificação de famílias/núcleos familiares deve ser preenchido somente se houver moradores ocupando o domicílio. Caso esteja ocupado, será obrigatório o preenchimento do CNS ou CPF do responsável a fim de permitir a identificação de vínculos familiares entre os indivíduos cadastrados pela Ficha de Cadastro Individual.
@@ -783,7 +783,7 @@ Básica
 
 ![](media/cds_image17.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 ### 2.2.10 Instituição de Permanência
 
@@ -793,7 +793,7 @@ Figura 2.13 -- Instituição de permanência
 
 ![](media/cds_image18.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 **Identificação do Responsável Técnico pela Instituição de Permanência**: neste bloco, deve-se inserir os dados referentes ao responsável técnico pela instituição de permanência. Os campos assinalados com asterisco (/*) são de preenchimento obrigatório.  
 
@@ -801,7 +801,7 @@ Figura 2.14 -- Identificação do responsável técnico da instituição de perm
 
 ![](media/cds_image19.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 Quadro 2.28 -- Identificação do responsável técnico da instituição de
 permanência
@@ -813,7 +813,7 @@ permanência
 |CARGO NA INSTITUIÇÃO|Descreva o cargo ocupado pelo responsável na instituição de permanência.|
 |TEL. CONTATO|Anote o número do telefone com DDD do município em que o responsável pela instituição de permanência pode ser encontrado mais facilmente.|
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 ### 2.2.11 Termo de Recusa da instituição de Permanência
 
@@ -823,7 +823,7 @@ Figura 2.15 -- Termo de recusa da instituição de permanência
 
 ![](media/cds_image20.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 [^1]: Como este cadastro é uma extensão do CADSUS, os dados devem    garantir consistência com o Manual de Operações do CADSUS.
 
