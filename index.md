@@ -51,7 +51,7 @@ Elaboração, distribuição e informações:<br>
 
 Alexandre Rocha Santos Padilha
 
-**Supervisor Geral**
+**Supervisora Geral**
 
 Ana Luiza Ferreira Rodrigues Caldas
 
