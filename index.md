@@ -47,13 +47,13 @@ Tiragem: Edição revista e ampliada – 2025 – Versão eletrônica<br>
 Elaboração, distribuição e informações:<br>
 
 
-**Ministra de Estado de Saúde**
+**Ministro de Estado de Saúde**
 
-Nísia Trindade
+Alexandre Rocha Santos Padilha
 
-**Supervisor Geral**
+**Supervisora Geral**
 
-Felipe Proenço de Oliveira
+Ana Luiza Ferreira Rodrigues Caldas
 
 **Coordenação Geral**
 
