@@ -19,28 +19,29 @@ last_modified_date: "26/12/2024"
 
 Este manual tem como objetivo oferecer suporte a Estados, Municípios e Instituições de Ensino interessadas em utilizar o PEC e-SUS APS como ferramenta de estudo e capacitação.
 
-A instalação de treinamento do PEC e-SUS APS foi desenvolvida para proporcionar um ambiente seguro de simulação, onde profissionais da saúde, gestores, equipes técnicas, professores e estudantes podem explorar as funcionalidades do sistema sem comprometer dados reais. Dessa forma, é possível realizar estudos práticos, treinamentos e testes operacionais, garantindo maior familiaridade com a plataforma antes de sua implementação no dia a dia dos serviços de saúde.
+A instalação de treinamento do PEC e-SUS APS foi desenvolvida para proporcionar um ambiente seguro de simulação, onde profissionais da saúde, gestores, equipes técnicas, professores e estudantes podem explorar as funcionalidades do sistema sem comprometer dados reais. Dessa forma, é possível realizar estudos práticos, treinamentos e testes operacionais, garantindo maior familiaridade com a plataforma antes de sua implementação na rotina dos serviços de saúde.
 
-Ao longo deste manual, serão apresentadas as orientações para instalação e configurações iniciais do ambiente, utilizando o arquivo XML fictício disponibilizado pelo Ministério da Saúde, que traz a seguinte estrutura:
+Ao longo deste manual, serão apresentadas as orientações para instalação e configurações iniciais do ambiente, utilizando o arquivo XML **fictício** disponibilizado pelo Ministério da Saúde, que traz a seguinte estrutura:
 
 - 9 unidades de saúde (2 UBS, 1 CAPS, 1 Centro de Especialidades, 1 CEO, 1 CER, 1 Policlínica, 1 Unidade do Serviço de Atenção Domiciliar e 1 UPA);
 - 8 equipes de saúde da APS (2 eSF, 1 eAP, 2 eSB, 1 eMulti, 1 eCR, 1 eAPP);
 - 2 equipes de saúde do programa Melhor em Casa (1 EMAP, 1 EMAD);
 - 40 profissionais, cada um com lotações em todas as unidades e equipes, com diversos perfis, possibilitando o uso de todas as funcionalidades do sistema.
 
-Destaca-se que o XML fictício facilita o processo de configuração e viabiliza que todos possam criar uma instalação de treinamento do PEC e-SUS APS.´
+Destaca-se que o XML **fictício** facilita o processo de configuração e viabiliza que todos possam criar uma instalação de treinamento do PEC e-SUS APS.
 
-Observação: Qualquer incidente ou dúvida em relação ao processo aqui explicado, abra um chamado no [Canal de Suporte dos sistemas da Estratégia e-SUS APS](http://esusaps.bridge.ufsc.br/).
+{: .nota }
+Qualquer incidente ou dúvida em relação ao processo aqui explicado, abra um chamado no [Canal de Suporte dos sistemas da Estratégia e-SUS APS](http://esusaps.bridge.ufsc.br/).
 
 ## 2. Requisitos de ambiente para a instalação:
 
-- Requisitos mínimos de sistema: a instalação de treinamento segue as mesmas premissas da instalação de produção. Assim sendo, indica-se leitura da seção [Apoio à Implantação](https://saps-ms.github.io/Manual-eSUS_APS/docs/Apoio%20a%20Implanta%C3%A7%C3%A3o/Apoio_implantacao/) deste manual para mais informações.
+- **Requisitos mínimos de sistema:** a instalação de treinamento segue as mesmas premissas da instalação de produção. Assim sendo, indica-se leitura da seção [Apoio à Implantação](https://saps-ms.github.io/Manual-eSUS_APS/docs/Apoio%20a%20Implanta%C3%A7%C3%A3o/Apoio_implantacao/) deste manual para mais informações.
 
-- Java: é necessário instalar previamente a aplicação Java, versão 64 bits, no ambiente. Para download, [clique aqui](https://www.java.com/pt-BR/download/).
+- **Java:** é necessário instalar previamente a aplicação Java, versão 64 bits, no ambiente. Para download, [clique aqui](https://www.java.com/pt-BR/download/).
 
-- Instalador do PEC e-SUS APS: para download da versão disponibilizada nacionalmente, [clique aqui](https://sisaps.saude.gov.br/esus/). Vale destacar que a versão treinamento é a mesma versão de produção.
+- **Instalador do PEC e-SUS APS:** para download da versão disponibilizada nacionalmente, [clique aqui](https://sisaps.saude.gov.br/esus/). Vale destacar que a versão treinamento é a mesma versão de produção.
 
-- XML fictício: para download da última versão do arquivo, [clique aqui]().
+- **XML fictício:** para download da última versão do arquivo, [clique aqui]().
 
 ## 3. Processo de instalação
 
@@ -102,7 +103,7 @@ Clique em AVANÇAR.
 
 **Passo 3 - Cadastre o Administrador da Instalação (exemplo na imagem abaixo)**
 
-Observação: Somente são obrigatórios os campos com *.
+Observação: Somente são obrigatórios os campos com **"*"**.
 
 ![alt text](media/treina-10.png)
 
@@ -190,6 +191,7 @@ Ao criar a senha, clique em SALVAR.
 
 ![alt text](media/treina-27.png)
 
-Observação: ao realizar login no sistema pela primeira vez com a senha provisória, será solicitada a criação de uma nova senha para o profissional.
+{: .nota }
+Ao realizar login no sistema pela primeira vez com a senha provisória, será solicitada a criação de uma nova senha para o profissional.
 
 **1ª versão. Atualizado em 28 de março de 2025.**
