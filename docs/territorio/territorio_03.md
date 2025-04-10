@@ -45,7 +45,7 @@ Figura 3.1 - Lista de logradouros e imóveis, app e-SUS Território
 
 Caso a base local esteja vazia, a tela apresentada na Figura 3.1 não mostrará nenhuma informação, cabendo ao agente de saúde o início do cadastramento do território.
 
-O ícone ![](media/image16.png) situado no canto inferior direito da tela é utilizado para ofertar opções de interação de acordo com as funcionalidades disponíveis na tela.
+O ícone ![](media/image16.png) situado no canto inferior direito da tela é utilizado para iniciar um novo cadastro de Imóvel em quatro etapas.
 
 O botão ![](media/image17.png) no canto superior esquerdo mostra o menu principal do aplicativo com informações sobre o agente que está logado no aplicativo, além das opções "Sincronizar", "Inconsitências da Sicronização", "Mapa", "Cidadãos", "Relatórios de território", "Unificar Logradouros", "Editar Logradouro", "Trocar lotação", "Obter ajuda", "Sobre" e "Sair".
 
@@ -61,9 +61,9 @@ Figura 3.3 - Lista de imóveis.
 ![](media/image20.png)
 *Fonte: SAPS/MS*
 
-Ao selecionar um imóvel é possível visualizar um resumo das suas informações de cadastro, como podemos ver na imagem abaixo. Para facilitar a identificação de situações de saúde é possível visualizar alguns marcadores que facilitam o acompanhamento do cidadão, da família e do território. Informações como ![](media/image21.png), ![](media/image22.png) e ![](media/image23.png) serão apresentadas para que os agentes de saúde organizem o seu trabalho no dia a dia.
+Ao selecionar um imóvel é possível visualizar um resumo das suas informações de cadastro a partir do tipo de imóvel, como podemos ver no exemplo abaixo. Para facilitar a identificação de situações de saúde é possível visualizar alguns marcadores que facilitam o acompanhamento do cidadão, da família e do território. Informações como ![](media/image21.png), ![](media/image22.png) e ![](media/image23.png) serão apresentadas para que os agentes de saúde organizem o seu trabalho no dia a dia.
 
-Figura 3.4 - Informações do imóvel
+Figura 3.4 - Informações do Domicílio
 
 ![](media/image24.png)
 
@@ -84,7 +84,7 @@ Para mais informações sobre os conceitos que dizem respeito ao cadastramento d
 
 O cadastro de imóveis é dividido em quatro etapas para os seguintes tipos de imóveis: Domicílio, Abrigo, Instituição de Longa Permanência, Unidade Prisional, Unidade de Medida Sócio Educativa e Delegacia. Já os imóveis com duas etapas para cadastro são: Estalelecimento Religioso, Terreno Baldio, Ponto Estratégico, Escola, Creche, Comércio, Casai e Outros.  
 
--   Primeira etapa: dados do endereço.
+-  **Etapa 1:** dados do endereço.
 
 Figura 3.5 - Tela Cadastro de imóvel com quatro etapas
 
@@ -94,7 +94,7 @@ Fonte: SAPS/MS.
 
 {: .dica Inclusão do tipo de imóvel CASAI - Casa de Saúde Indígena}  
 
--   Segunda etapa: dados de condições de moradia (parte 1).
+-   **Etapa 2:** dados de condições de moradia (parte 1).
 
 Figura 3.6 - Tela Edição de imóvel
 
