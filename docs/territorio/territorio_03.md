@@ -31,7 +31,7 @@ O cadastro está organizado em quatro dimensões (imóvel, territorial, familiar
 O aplicativo e-SUS território a partir da versão 4.3.8 incluiu novos campos relacionados ao contexto de atendimento da saúde indígena. 
 
 {: .dica }
-a manutenção de registros de imóveis permite fazer um melhor controle pela equipe de questões de vigilância do território, bem como auxilia na inserção de novos núcleos familiares em imóveis já cadastrados.
+A manutenção de registros de imóveis permite fazer um melhor controle pela equipe de questões de vigilância do território, bem como auxilia na inserção de novos núcleos familiares em imóveis já cadastrados.
 
 O aplicativo permite uma visão ampliada sobre o território no qual a equipe é responsável. Inicialmente é mostrada a lista de logradouros previamente cadastrados na base de dados local do PEC após a sincronização, como mostra a imagem a seguir.
 
@@ -71,7 +71,9 @@ Figura 3.4 - Informações do imóvel
 
 ## 3.1 Cadastro de Imóvel
 
-O Cadastro de imóvel é utilizado para registrar as características sociossanitárias dos imóveis no território das equipes de Atenção Primária. Por meio dele, é possível registrar e acompanhar a situação do territótio, assim como as condições de saúde dos cidadãos. As informações solicitadas no cadastro compõem indicadores de monitoramento e avaliação para a Atenção Primária e para as Redes de Atenção à Saúde.
+O Cadastro de imóvel é utilizado para registrar as características sociossanitárias dos imóveis no território das equipes de Atenção Primária. Por meio dele, é possível registrar e acompanhar a situação do territótio, assim como as condições de saúde dos cidadãos. As informações solicitadas no cadastro compõem o II Componente de vínculo e acompanhamento territorial do Novo Financiamento da Atenção Primária à Saúde. 
+
+A dimensão cadastro é dividida em Cadastro Individual e de Cadastro Domiciliar e Territorial. Serão considerados cadastros atualizados e completos, aqueles que forem inseridos ou alterados no sistema de informação nos últimos 24 (vinte e quatro) meses. 
 
 ### 3.1.1 Novo Imóvel
 
