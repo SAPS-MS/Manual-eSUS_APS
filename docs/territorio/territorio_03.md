@@ -23,7 +23,7 @@ last_modified_date: "25/09/2023"
 - TOC
 {:toc}
 
-O cadastro da Atenção Primária à Saúde é uma extensão do Cadastro Nacional do SUS (CadSUS), complementando as informações com o objetivo de apoiar as equipes de Atenção Primária no mapeamento das características sociais, econômicas e de saúde da população adscrita[^1] ao território sob sua responsabilidade.
+O cadastro da Atenção Primária à Saúde é uma extensão do Cadastro Nacional do SUS (CadSUS), complementando as informações para apoiar as equipes de Atenção Primária no mapeamento das características sociais, econômicas e de saúde da população adscrita[^1] ao território sob sua responsabilidade.
 
 O cadastro está organizado em quatro dimensões (imóvel, territorial, familiar e individual) conforme detalhado nas seções a seguir.
 

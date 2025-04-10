@@ -43,7 +43,7 @@ Figura 2.1 - App no no Google Play Store
 
 3.  Clique em ![](media/image8.png) e aguarde a conclusão do processo de instalação.
 
-4.  Após finalizado o dispositivo irá notificar a conclusão da instalação.
+4.  Após finalizado, o dispositivo irá notificar a conclusão da instalação.
 
 ## 2.2 Requisitos Mínimos
 
@@ -76,7 +76,7 @@ Durante o primeiro acesso, o profissional de saúde deve realizar a sincronizaç
 
 2)  O profissional que fará uso do aplicativo deve estar cadastrado no sistema e-SUS APS com PEC;
 
-3)  Deve haver uma rede local, sem fio (wireless), com acesso à instalação do e-SUS APS PEC para que seja possível fazer a sincronização do sistema com o aplicativo;
+3)  Deve haver uma rede local, sem fio (wireless), com acesso à instalação do e-SUS APS PEC para ser possível fazer a sincronização do sistema com o aplicativo;
 
 ## 2.4 Sincronização
 
@@ -94,7 +94,7 @@ A tela de sincronização apresenta três campos de preenchimento obrigatório:
 O processo de sincronização depende de conectividade entre o tablet/smartphone e a instalação PEC do e-SUS APS, seja por rede local Wi-Fi, seja via internet. Verifique com a gestão do seu município as orientações para esta configuração.  
 
 {: .atencao }
-Durante a sincronização o PEC envia apenas cadastros do território consistentes em relação aos vínculos entre responsável familiar, domicílio e logradouro. Caso alguns cadastros não sejam sincronizados em nenhuma das direções é necessário resolver estas inconsistências, seja no PEC ou no Aplicativo, para que haja 100% de sucesso neste processo.
+Durante a sincronização o PEC envia apenas cadastros do território consistentes em relação aos vínculos entre responsável familiar, domicílio e logradouro. Caso alguns cadastros não sejam sincronizados em nenhuma das direções é necessário resolver estas inconsistências, seja no PEC ou no Aplicativo, para haver 100% de sucesso neste processo.
 
 ### 2.4.1 Sicronizando apenas os cadastros de sua microárea
 

@@ -5,7 +5,7 @@ parent: e-SUS Território
 nav_order: 2
 has_children: false
 has_toc: true
-last_modified_date: "25/09/2023"
+last_modified_date: "09/04/2025"
 ---
 
 <head>
@@ -33,11 +33,11 @@ A estratégia e-SUS Atenção Primária à Saúde (e-SUS APS) é uma estratégia
 
 O aplicativo e-SUS Território foi desenvolvido para utilização em dispositivos do tipo tablet ou smartphone, levando em consideração aspectos relacionados ao conforto, à segurança e à usabilidade da ferramenta no processo de trabalho dos agentes. 
 
-Sua experiência de uso poderá contribuir para a evolução do aplicativo e-SUS Território e o Sistema e-SUS APS com a finalidade de que estes sistemas dialoguem cada vez mais com a sua prática profissional. O canal para registro de sugestões é o [Pesquisa de Opinião do e-SUS AB - Seção e-SUS Território](http://sisaps.saude.gov.br/pesquisa/). Para relatar problemas no aplicativo, abra um chamado no [Suporte e-SUS APS](http://esusaps.bridge.ufsc.br/pt-BR/support/login).
+Sua experiência de uso poderá contribuir para a evolução do aplicativo e-SUS Território e o Sistema e-SUS APS para que estes sistemas dialoguem cada vez mais com a sua prática profissional. Em caso de dúvidas, incidentes ou sugestões para o aplicativo e-SUS Território, abra um chamado no [Suporte e-SUS APS](http://esusaps.bridge.ufsc.br/pt-BR/support/login).
 
 ## 1.1 Versão do Aplicativo Usado neste Manual
 
-Este manual foi elaborado usando como referência o Aplicativo e-SUS Território em sua **versão 4.4.0**. O acesso às informações sobre a versão do aplicativo, bem como as alterações realizadas nesta e nas versões anteriores, podem ser visualizadas na opção **Sobre**, acessada no menu principal do aplicativo![](media/image2.png)
+Este manual foi elaborado usando como referência o Aplicativo e-SUS Território em sua versão atual. O acesso às informações sobre a versão do aplicativo, bem como as alterações realizadas nesta e nas versões anteriores, podem ser visualizadas na opção **Sobre**, acessada no menu principal do aplicativo![](media/image2.png)
 
 Figura 1.1 -- Versão do Aplicativo e-SUS Território
 
@@ -47,17 +47,17 @@ Figura 1.1 -- Versão do Aplicativo e-SUS Território
 
 ## 1.2 A Estratégia e-SUS Atenção Primária à Saúde (e-SUS APS)
 
-A Secretaria de Atenção Primária à Saúde (SAPS) assumiu o compromisso de reestruturar o Sistema de Informação da Atenção Básica (SIAB), substituído pelo Sistema de Informação em Saúde para a Atenção Básica (SISAB) com o objetivo de melhorar a qualidade da informação em saúde e de otimizar o uso das informações pelos gestores, profissionais de saúde e cidadãos. Essa reestruturação denominada Estratégia e-SUS APS preconiza:
+A Secretaria de Atenção Primária à Saúde (SAPS) assumiu o compromisso de reestruturar o Sistema de Informação da Atenção Básica (SIAB), substituído pelo Sistema de Informação em Saúde para a Atenção Básica (SISAB) visando melhorar a qualidade da informação em saúde e de otimizar o uso das informações pelos gestores, profissionais de saúde e cidadãos. Essa reestruturação denominada Estratégia e-SUS APS preconiza:
 
-1.  o registro individualizado das informações em saúde, para o acompanhamento dos atendimentos aos cidadãos;
+1.  O registro individualizado das informações em saúde, para o acompanhamento dos atendimentos aos cidadãos;
 
-2.  a integração dos diversos sistemas de informação oficiais existentes na APS, reduzindo a necessidade de registrar informações similares em mais de um instrumento (fichas/sistemas) ao mesmo tempo;
+2.  A integração dos diversos sistemas de informação oficiais existentes na APS, reduzindo a necessidade de registrar informações similares em mais de um instrumento (fichas/sistemas) ao mesmo tempo;
 
-3.  o desenvolvimento de soluções tecnológicas que contemplem os processos de trabalho da APS, com recomendações de boas práticas e o estímulo à informatização dos serviços de saúde;
+3.  O desenvolvimento de soluções tecnológicas que contemplem os processos de trabalho da APS, com recomendações de boas práticas e o estímulo à informatização dos serviços de saúde;
 
-4.  a introdução de novas tecnologias para otimizar o trabalho dos profissionais;
+4.  A introdução de novas tecnologias para otimizar o trabalho dos profissionais;
 
-5.  a qualificação do uso da informação na gestão e no cuidado em saúde.
+5.  A qualificação do uso da informação na gestão e no cuidado em saúde.
 
 ## 1.3 SISAB e e-SUS APS
 
@@ -67,7 +67,7 @@ Nessa perspectiva, o desenvolvimento do Sistema e-SUS APS passa a priorizar o at
 
 ## 1.4 Visita Domiciliar
 
-A visita domiciliar, no contexto das ações realizadas pelos profissionais (TACS, ACS, ACE e AAS), foco deste aplicativo, tem como principal objetivo registrar as ações de acompanhamento do usuário que se encontra adscrito no território da equipe da APS. Nesse sentido, quando a visita demandar ações às pessoas específicas de um núcleo familiar, tais como `cadastramento/atualização`, `busca ativa`, `acompanhamento`, `egresso de internação`, `convites para atividades coletivas/campanhas de saúde`, `orientação/prevenção` ou `outros`, deve ser registrada a visita ao cidadão.
+A visita domiciliar, no contexto das ações realizadas pelos profissionais (TACS, ACS, ACE e AAS), foco deste aplicativo, tem como principal objetivo registrar as ações de acompanhamento do cidadão que se encontra adscrito no território da equipe da APS. Nesse sentido, quando a visita demandar ações às pessoas específicas de um núcleo familiar, tais como `cadastramento/atualização`, `busca ativa`, `acompanhamento`, `egresso de internação`, `convites para atividades coletivas/campanhas de saúde`, `orientação/prevenção` ou `outros`, deve ser registrada a visita ao cidadão.
 
 {: .nota }
 Vale contextualizar que o **conceito de visita domiciliar**, no Sistema e-SUS APS, foi redefinido, considerando apenas as ações em domicílio realizadas pelos agentes de saúde. Para os outros profissionais de saúde, nível médio/técnico e nível superior, as ações realizadas no domicílio são agora definidas como **atendimento no domicílio**.
@@ -76,15 +76,15 @@ Desde a utilização do Sistema com CDS, com o registro das informações de for
 
 ## 1.5 Fluxo de Cadastro e Atualização pelo Aplicativo
 
-O fluxo de cadastro e atualização do território, como ilustrado na Figura 1.2, é um processo contínuo que se inicia do primeiro contato da equipe de APS com uma família no território e é atualizado dentro de uma rotina pré-estabelecida pela organização da equipe, sempre buscando manter uma regularidade.
+O fluxo de cadastro e atualização do território, como ilustrado na Figura 1.2, é um processo contínuo que se inicia do primeiro contato da equipe de APS com uma família no território e é atualizado em uma rotina pré-estabelecida pela organização da equipe, sempre buscando manter uma regularidade.
 
 O processo das ações dos agentes de saúde utilizando as **fichas do CDS**, ocorre como segue:
 
 1.  Agente de saúde programa uma visita no domicílio ou território em conjunto com a equipe:
 
-    a.  se é um domicílio/família/terreno já cadastrado, o agente irá buscar as fichas arquivadas na UBS para serem atualizadas;
+    a.  Se é um domicílio/família/terreno já cadastrado, o agente irá buscar as fichas arquivadas na UBS para serem atualizadas;
 
-    b.  caso seja um novo domicílio/família/terreno, novas fichas de registro serão iniciadas.
+    b.  Caso seja um novo domicílio/família/terreno, novas fichas de registro serão iniciadas.
 
 2.  Ao visitar o domicílio as seguintes etapas são executadas:
 
