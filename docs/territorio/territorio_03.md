@@ -63,10 +63,15 @@ Figura 3.3 - Lista de imóveis.
 
 Ao selecionar um imóvel é possível visualizar um resumo das suas informações de cadastro a partir do tipo de imóvel, como podemos ver no exemplo abaixo. Para facilitar a identificação de situações de saúde é possível visualizar alguns marcadores que facilitam o acompanhamento do cidadão, da família e do território. Informações como ![](media/image21.png), ![](media/image22.png) e ![](media/image23.png) serão apresentadas para que os agentes de saúde organizem o seu trabalho no dia a dia.
 
-Figura 3.4 - Informações do Domicílio
+Figura 3.4 - Informações do Domicílio com condições de moradia
 
 ![](media/image24.png)
+*Fonte: SAPS/MS*
 
+
+Informações de Comércio
+
+![](media/informacaoimovelcomercio.png)
 *Fonte: SAPS/MS*
 
 ## 3.1 Cadastro de Imóvel
@@ -313,6 +318,8 @@ Fonte: SAPS/MS.
 
 {: .nota }
 Caso tenha sido cadastrado em situação de rua, será exibida uma oitava etapa com questões pertinentes à tal situação.
+
+ Pessoas em situação de rua, poderão ser cadastradas onde identificam sua moradia, caso isso não seja possível, orienta-se cadastrar no endereço da Unidade de Saúde.  
 
 ### 3.3.2 Recusa do Cadastro de Cidadão
 
