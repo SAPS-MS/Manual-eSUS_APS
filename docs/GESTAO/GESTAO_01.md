@@ -37,21 +37,21 @@ Caso ainda tenha alguma dificuldade em utilizar este aplicativo, consulte este M
 
 ## 1.1 Versão do Aplicativo Usado neste Manual
 
-Este manual foi elaborado usando como referência a **versão 1.0** do Aplicativo *Gestão e-SUS APS*. 
+Este manual foi elaborado usando como referência a a versão mais atual disponível do Aplicativo *Gestão e-SUS APS*. 
 
 ## 1.2 A Estratégia e-SUS Atenção Primária à Saúde
 
-O DESF assumiu o compromisso de reestruturar o Sistema de Informação da Atenção Básica (SIAB), com o objetivo de melhorar a qualidade da informação em saúde e de otimizar o uso dessas informações pelos gestores, profissionais de saúde e cidadãos. Essa reestruturação chamada de Estratégia e-SUS APS preconiza:
+A SAPS assumiu o compromisso de reestruturar o Sistema de Informação da Atenção Básica (SIAB), com o objetivo de melhorar a qualidade da informação em saúde e de otimizar o uso dessas informações pelos gestores, profissionais de saúde e cidadãos. Essa reestruturação chamada de Estratégia e-SUS APS preconiza:
 
-1.  o registro individualizado das informações em saúde, para o acompanhamento dos atendimentos aos cidadãos;
+1.  O registro individualizado das informações em saúde, para o acompanhamento dos atendimentos aos cidadãos;
 
-2.  a integração dos diversos sistemas de informação oficiais existentes na APS, reduzindo a necessidade de registrar informações similares em mais de um instrumento (fichas/sistemas) ao mesmo tempo;
+2.  A integração dos diversos sistemas de informação oficiais existentes na APS, reduzindo a necessidade de registrar informações similares em mais de um instrumento (fichas/sistemas) ao mesmo tempo;
 
-3.  o desenvolvimento de soluções tecnológicas que contemplem os processos de trabalho da APS, com recomendações de boas práticas e o estímulo à informatização dos serviços de saúde;
+3.  O desenvolvimento de soluções tecnológicas que contemplem os processos de trabalho da APS, com recomendações de boas práticas e o estímulo à informatização dos serviços de saúde;
 
-4.  a introdução de novas tecnologias para otimizar o trabalho dos profissionais;
+4.  A introdução de novas tecnologias para otimizar o trabalho dos profissionais;
 
-5.  a qualificação do uso da informação na gestão e no cuidado em saúde.
+5.  A qualificação do uso da informação na gestão e no cuidado em saúde.
 
 ## 1.3 SISAB e Sistema e-SUS APS
 
