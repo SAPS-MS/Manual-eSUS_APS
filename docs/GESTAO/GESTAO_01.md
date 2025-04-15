@@ -37,7 +37,7 @@ Caso ainda tenha alguma dificuldade em utilizar este aplicativo, consulte este M
 
 ## 1.1 Versão do Aplicativo Usado neste Manual
 
-Este manual foi elaborado usando como referência a a versão mais atual disponível do Aplicativo *Gestão e-SUS APS*. 
+Este manual foi elaborado usando como referência a a versão mais atual disponível do Aplicativo *Gestão e-SUS APS*, versão 1.7.2
 
 ## 1.2 A Estratégia e-SUS Atenção Primária à Saúde
 
