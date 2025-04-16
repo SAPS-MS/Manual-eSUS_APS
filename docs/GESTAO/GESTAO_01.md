@@ -17,7 +17,9 @@ has_toc: true
 # Capítulo 1 - Introdução
 {: .no_toc }
 
-Neste capítulo, apresentaremos brevemente, os conceitos e as orientações para utilização do Aplicativo Gestão e-SUS APS.
+
+Neste capítulo, vamos expor de forma concisa os conceitos e as diretrizes para o uso do Aplicativo Gestão e-SUS APS. 
+
 
 ## Sumário
 {: .no_toc .text-delta }
@@ -25,19 +27,27 @@ Neste capítulo, apresentaremos brevemente, os conceitos e as orientações para
 - TOC
 {:toc}
 
-A Secretaria de Atenção Primária à Saúde (SAPS) incluiu na Estratégia e-SUS Atenção Primária à Saúde (e-SUS APS) este aplicativo móvel para o gerenciamento e acompanhamento das ações de saúde dos serviços de Atenção Primária à Saúde (APS) em tempo oportuno. O objetivo do aplicativo é fornecer acesso simplificado e dinâmico aos dados dos Relatórios de Produção do e-SUS APS PEC. 
+![](media/gestaocapa.png)
 
-Sendo assim, o aplicativo **Gestão e-SUS APS** é integrado ao **Sistema e-SUS APS com Prontuário Eletrônico do Cidadão (PEC)** ampliando a capacidade de gestão das informações da APS. Nesse contexto, o terceiro aplicativo desenvolvido para APS priorizou as ações de gerenciamento desenvolvidas por todos os profissionais responsáveis pelos serviços de saúde neste nível de atenção.
+A Secretaria de Atenção Primária à Saúde (SAPS) incorporou à Estratégia eSUS Atenção Primária à Saúde (e-SUS APS) este aplicativo móvel para o gerenciamento e monitoramento das atividades de saúde dos serviços de Atenção Primária à Saúde (APS) de forma oportuna. O propósito do aplicativo é oferecer acesso facilitado e ágil aos dados dos Relatórios de Produção do eSUS APS PEC.
 
-O aplicativo *Gestão e-SUS APS* foi desenvolvido para utilização em dispositivos do tipo tablet e smartphones, levando em conta aspectos relacionados ao conforto, à segurança e à usabilidade da ferramenta dentro do processo de trabalho dos gestores dos serviços de saúde da APS. Na Seção 2.2 serão oferecidas especificações do tablet e do smartphone que melhor se adequam à ferramenta.
+Dessa forma, o aplicativo **Gestão e-SUS APS** está vinculado ao **Sistema e-SUS APS** com o Prontuário Eletrônico do Cidadão (PEC), ampliando a capacidade de administração das informações da APS. Nesse cenário, o terceiro aplicativo criado para a APS enfatizou as atividades de gestão realizadas por todos os
+profissionais responsáveis pelos serviços de saúde nesse nível de atenção.
 
-Sua experiência de uso poderá contribuir para que o aplicativo *Gestão e-SUS APS* e o sistema e-SUS APS dialoguem cada vez mais com a sua prática profissional. O canal para registro de sua experiência e sugestões é o [Pesquisa de Opinião do e-SUS APS](http://sisaps.saude.gov.br/pesquisa/).
+O aplicativo *Gestão e-SUS APS* foi concebido para ser utilizado em dispositivos móveis, como tablets e smartphones, levando em consideração fatores relacionados ao conforto, à segurança e à eficiência da ferramenta no contexto das atividades dos gestores dos serviços de saúde da APS. Na Seção 2.2, serão detalhadas as especificações dos dispositivos móveis que melhor se alinham
+com as exigências da ferramenta.
+
+Sua vivência no uso da ferramenta poderá enriquecer a interação entre o aplicativo Gestão e-SUS APS e o sistema e-SUS APS, promovendo uma integração crescente com sua prática profissional. O meio adequado para o registro de suas experiências e contribuições é a [Pesquisa de Opinião do e-SUS APS](http://sisaps.saude.gov.br/pesquisa/).
 
 Caso ainda tenha alguma dificuldade em utilizar este aplicativo, consulte este Manual de instrução de instalação e uso. Permancendo a dificuldade entre em contato com os desenvolvedores por este [Suporte](http://esusaps.bridge.ufsc.br/support/login).
 
 ## 1.1 Versão do Aplicativo Usado neste Manual
 
 Este manual foi elaborado usando como referência a a versão mais atual disponível do Aplicativo *Gestão e-SUS APS*, versão 1.7.2
+
+A partir desta versão foi realizada a alteração da terminologia "Idoso" para "Pessoa idosa".
+
+Esta versão tem como objetivo fornecer ferramentas para os gestores de saúde acompanharem os dados e serviços de saúde nos territórios, facilitando o controle e a tomada de decisões.
 
 ## 1.2 A Estratégia e-SUS Atenção Primária à Saúde
 
