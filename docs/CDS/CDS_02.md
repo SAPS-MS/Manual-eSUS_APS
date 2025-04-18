@@ -702,9 +702,9 @@ Quadro 2.25 -- Água para consumo no domicílio
 |ITEM|DESCRIÇÃO DO ITEM|
 |-|-|
 |MINERAL|          A água mineral é obtida diretamente de fontes naturais ou por extração de águas subterrâneas. Caracteriza-se pelo conteúdo definido e constante de sais minerais, oligoelementos e outros constituintes, considerando-se as flutuações naturais.|
-|FILTRADA|         A água passa por um leito filtrante constituído por saibro, areia com granulometria variável, ou outras matérias porosas, com o objetivo de reter microrganismos e impurezas.|
+|FILTRADA|  A água passa por um leito filtrante constituído por saibro, areia com granulometria variável, ou outras matérias porosas, com o objetivo de reter microrganismos e impurezas.|
 |FERVIDA|          Aquecimento da água até o ponto de ferver por, pelo menos, cinco minutos.|
-|CLORADA|          Adição de cloro ou de outros produtos desinfetantes e/ou bactericidas. Tem como finalidade a eliminação dos microrganismos ainda existentes.|
+|CLORADA| Adição de cloro ou de outros produtos desinfetantes e/ou bactericidas. Tem como finalidade a eliminação dos microrganismos ainda existentes.|
 |SEM TRATAMENTO|   Marque esta opção quando não for referido nenhum tratamento de água realizado no domicílio.|
 
 *Fonte: SAPS/MS.*

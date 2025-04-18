@@ -242,11 +242,52 @@ Registre os dados do imóvel e contato, conforme campos abaixo:
 
 ![](media/acompanhamento_do_territorio_004.png)
 
-**Em condições de moradia:**
+**Condições de moradia:**
 
-Informe a situação de moradia do cidadão, localização, quantidade de cômodos, tipo de acesso, etc.
+Informe a situação de moradia do cidadão, localização, quantidade de cômodos, tipo de acesso, principal tipo de abastecimento de água, água para consumo, escoamento do banheiro, destino do lixo, se possui energia elétrica e o tipo, se possui animais do domicílio, o tipo e a quantidade. 
 
 ![](media/acompanhamento_do_territorio_005.png)
+
+Situação de moradia/posse de terra: Próprio, alugado, financiado, arrendado, cedido, ocupação, situação de rua, temporário, outra.
+
+![](media/situacaomoradia.png)
+
+Localização: Urbana, rural ou periurbana.
+
+![](media/localizacao.png)
+
+Número de cômodos: campo aberto.
+
+Material predominante: 
+
+![](media/materialpredominante.png)
+
+Tipo de acesso:
+
+![](media/tipodeacesso.png)
+
+Principal tipo de abastecimento de água:
+
+![](media/abastecimentoagua.png)
+
+Água para consumo:
+
+![](media/aguaparaconsumo.png)
+
+
+*MINERAL:* A água mineral é obtida diretamente de fontes naturais ou por extração de águas subterrâneas. Caracteriza-se pelo conteúdo definido e constante de sais minerais, oligoelementos e outros constituintes, considerando-se as flutuações naturais.~
+
+*FILTRADA COM FILTRO DE BARRO:* A água passa por um leito filtrante constituído por saibro, areia com granulometria variável, ou outras matérias porosas, com o objetivo de reter microrganismos e impurezas.
+
+*FILTRADA POR OUTRO TIPO DE FILTRO:* A água passa por um leito filtrante para remover partículas, também remove contaminantes químicos, como cloro, e microorganismos, como bactérias e vírus.
+
+*FERVIDA:* Aquecimento da água até o ponto de ferver por, pelo menos, cinco minutos.
+
+*CLORADA:* Adição de cloro ou de outros produtos desinfetantes e/ou bactericidas. Tem como finalidade a eliminação dos microrganismos ainda existentes.
+
+*CLORADA INTRADOMICILIAR COM HIPOCLORITO DE SÓDIO:*  Adição de hipoclorito de sódio a fim de reduzir, destruir e/ou inativar microrganismos patogênicos na água destinada ao consumo humano. Geralmente água proveniente de solução alternativa individual, no domicílio, sem tratamento.
+
+*SEM TRATAMENTO:* Marque esta opção quando não for referido nenhum tratamento de água realizado no domicílio.
 
 E por último, vincule famílias ao imóvel e seus respectivos responsáveis familiares:
 
