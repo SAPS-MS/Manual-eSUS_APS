@@ -36,6 +36,10 @@ O aplicativo **Gestão e-SUS APS** também está disponível para iOS na Play St
 
 * Na Play Store acesse a instalação do aplicativo [aqui](https://play.google.com/store/apps/details?id=br.gov.saude.)
 
+Após a instalação do aplicativo, será necessário aceitar o Termo de Uso do aplicativo. Leia com atenção e aceite o termo para prosseguir.
+
+![](media/termodeuso.jpg)
+
 ## 2.2 Requisitos Mínimos
 
 Para um bom funcionamento do aplicativo, fique atento aos requisitos mínimos do dispositivo:
@@ -101,15 +105,14 @@ Para escolher o perfil da lotação com os relatórios que deseja visualizar bas
 
 Figura 2.4.1 - Tela Perfil do usuário do aplicativo
 
-![](media/image17.png)
+![](media/perfil.png)
 
 Fonte: SAPS/MS
 
 {: .nota }
-Na tela do perfil, se precisar de suporte para uso do aplicativo, o usuário pode acessar o card "Obter ajuda" e será direcionado para o canal de suporte oficial do e-SUS APS. 
+Na tela de perfil, caso necessite de assistência para utilizar o aplicativo, o usuário pode selecionar o card "Obter ajuda", que o redirecionará ao canal oficial de [Suporte do e-SUS APS](https://esusaps.freshdesk.com/a/dashboard/default).
 
-{: .atencao }
-Para acessar a funcionalidade "Obter ajuda" o dispositivo deverá ter acesso a internet. 
+Para utilizar a opção "Obter ajuda", é necessário que o dispositivo esteja conectado à internet.
 
 Na tela do perfil ainda é possível acessar a ferramenta "**Sobre**" ![](media/image3.png) para acessar às informações da versão do aplicativo
 

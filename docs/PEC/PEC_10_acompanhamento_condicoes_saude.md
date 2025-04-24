@@ -289,6 +289,19 @@ Principal tipo de abastecimento de água:
 
 *SEM TRATAMENTO:* Marque esta opção quando não for referido nenhum tratamento de água realizado no domicílio.
 
+Escoamento do banheiro:
+
+![](media/escoamentobanheiro.png)
+
+Destino do lixo:
+
+![](media/destinodolixo.png)
+
+
+Possui energia elétrica e o tipo e se possui animais no domicílio com a quantidade e o tipo (campo aberto).
+
+![](media/energiaeletrica.png)
+
 E por último, vincule famílias ao imóvel e seus respectivos responsáveis familiares:
 
 ![](media/acompanhamento_do_territorio_006.png)

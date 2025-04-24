@@ -239,8 +239,38 @@ III) **DETALHAMENTO**
             - *Atividade* (Reunião de equipe, Atendimento em grupo, Avaliação/Procedimento coletivo, Reunião com outras equipes de saúde, Reunião intersetorial/Conselho local de saúde/Controle social, Educação em saúde, Mobilização social e Não informado)
             - *Temas para reunião* (Questões administrativas/Funcionamento, Processo de trabalho, Diagnóstico do território/Monitoramento das ações da equipe, Discussão de caso/Projeto terapêutico singular, Educação Permanente e Outros)
 
-{: .nota  }
-Para maiores informações sobre as variávies constantes nos relatórios analíticos leia o [Manual de Uso do Sistema de Coleta de Dados Simplificada](https://cgiap-saps.github.io/Manual-eSUS-APS/docs/CDS)
+### 3.2.6 - Detalhamento do Relatório Analítico: Visita Domiciliar e Territorial
+
+Ao acessar o card de relatório das visitas domiciliares e territoriais o gestor observará (3) quatro blocos com seus respectivos dados:
+
+I) **PRODUÇÃO**
+
+          - *Resumo de produção* (Registros identificados e Registros não identificados)
+          - *Local de Atendimento* (UBS, Domicílio, Escola/Creche, Instituição/Abrigo, Polo/Academia da saúde, Rua, Unidade móvel, Unidade prisional/congênere, Unidade
+         socioeducativa e outros)
+          - *Turno* (Manhã, Tarde, Noite e Não informado)
+          - *Tipo de Atendimento* (Consulta no dia, Escuta inicial, Atendimento de urgência, Consulta agendada, Cuidado continuado e Não informado).
+          - *Tipo de Imóvel * (Domicilio, Ponto Estratégico, Instituições de Longa Permanência para idosos, Unidade Prisional)
+
+II) **POPULAÇÃO**
+
+       - *Sexo* (Masculino, Feminino, Não informado, Indeterminado).
+
+       - *Faixa etária* (Criança de 0 a 09 anos, Adolescente de 10 a 19 anos, Adultos de 20 a 59 anos e Pessoa Idosa de 60 anos ou mais).
+
+III) **Visita** 
+
+        - *Desfecho *- (Visita Domiciliar, Visita Recusada, Ausente)
+        - *Motivo de Visita (Geral) * - (Não informado, Cadastramento/ Atualização, Convite para atividades coletivas/ Campanha de saúde, Egresso de internação, Orientação/ Prevenção, Controle ambiental/ territorial, Acompanhamento, Busca Ativa, Outros,Visita Periódica)
+        - *Motivo de visita - Acompanhamento*- Sintomáticos respiratórios, Pessoa em reabilitação ou com deficiência, Saúde mental.
+        - *Problemas/Condições avaliadas - Doenças Transmissíveis
+        - *Motivo de visita - Acompanhamento*- Sintomáticos respiratórios, Pessoa em reabilitação ou com deficiência, Saúde mental.
+        - *Motivo de Visita – Controle ambiental/vetorial*- Ação Educativa, Ação Mecânica, Imóvel em foco, Tratamento focal.
+        - *Visita Compartilhada*- Não informado, Sim, Não.
+        - *Motivo de Visita – Controle ambiental/vetorial*- Ação Educativa, Ação Mecânica, Imóvel em foco, Tratamento focal.
+        - *Glicemia*- Não informado, Glicemia capilar (jejum, pré-prandial, pósprandial ou não especificado).
+        - *Antropometria*- Peso, Altura.
+        - *Sinais Vitais *- Pressão Arterial, Temperatura.
 
 ## 3.3 Relatório Série Histórica
 
@@ -288,3 +318,31 @@ Figura 3.3.2 - Tabela do relatório série histórica
 ![](media/image30.png)
 
 Fonte: SAPS/MS
+
+Figura 3.3.3 - Tabela do relatório série histórica Visita Domiciliar e territorial
+
+![](media/figuravisita.png)
+
+Fonte: SAPS/MS
+
+Figura 3.3.4 - Tabela do relatório série histórica Visita Domiciliar e territorial 
+
+![](media/figuravisita2.png)
+
+Fonte: SAPS/MS
+
+
+
+### RELEASES APLICATIVO GESTÃO e-SUS###
+
+Versão *1.7.2 do Gestão e-SUS APS*
+
+Conteúdo principal da versão:
+
+- Ajuste de terminologia: Alteração da terminologia "Idoso" para "Pessoa idosa".
+
+Versão *1.7.1* do Gestão e-SUS APS
+
+Conteúdo principal da versão:
+- Adição da informação de sexo "Indeterminado", permitindo filtrar e visualizar relatórios com essa informação se sincronizado com um servidor e-SUS APS PEC compatível.
+
