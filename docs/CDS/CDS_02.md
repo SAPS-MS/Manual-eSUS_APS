@@ -112,7 +112,7 @@ Fonte: SAPS/MS.
 |NOME COMPLETO*|Preencha o nome completo   do cidadão.|
 |NOME SOCIAL|Registro do nome social,   independentemente do registro civil do cidadão, conforme apresentado no box acima.|
 |DATA DE NASCIMENTO*|Anote a data de   nascimento do usuário, no formato dia/mês/ano.|
-|SEXO*|Marque com um "x" no sexo: masculino ou feminino.|
+|SEXO*|Marque com um "x" no sexo: masculino ou feminino ou indeterminado.|
 |RAÇA/COR*|Raça autodeclarada do   indivíduo. Este campo é de preenchimento obrigatório. Pode ser: Branca,   Preta, Parda, Amarela e Indígena. Se indígena, indique a   etnia**. No   sistema, há uma listagem de 264 etnias encontradas no Brasil.  |
 |N°NIS-PIS-Pasep|NIS: preencha o número   do NIS do usuário que está sendo cadastrado. O número de identificação social   é usado pelo Ministério de Desenvolvimento Social e Combate à Fome para   identificar os titulares do Programa Bolsa Família. Esse campo também pode   ser utilizado para vinculação do cidadão a programas sociais.     OU      PIS/Pasep: o número de   identificação nos fundos do Programa de Integração Social (PIS) e do Programa   de Formação do Patrimônio do Servidor Público (Pasep) é constituído com a   arrecadação das contribuições dos trabalhadores.|
 |NOME COMPLETO DA MÃE*|Preencher com o nome completo da mãe do usuário. Este é um campo de preenchimento obrigatório. Caso não seja possível obter essa informação, poderá ser assinalado um "x" no campo “desconhecido”.|
@@ -296,8 +296,18 @@ Quando a identidade de gênero é diferente das identidades cisgênero, é poss�
 |     VISUAL    |     A Política Nacional de   Saúde da Pessoa com Deficiência compreende a deficiência visual como sendo   uma situação irreversível da função visual, mesmo após tratamentos clínicos e   ou cirúrgicos pertinentes e uso de óculos convencionais. A pessoa com   deficiência visual, cegueira ou baixa visão tem sua funcionalidade   comprometida, com prejuízo na capacidade de realização de tarefas. Deficiência   visual é a cegueira cuja acuidade visual for igual ou menor que 0,05 no   melhor olho, com a melhor correção óptica; baixa visão que significa acuidade   visual entre 0,3 e 0,05 no melhor olho, com a melhor correção óptica; casos   em que o somatório da medida do campo visual, em ambos os olhos, for igual ou   menor que 60º; ocorrência simultânea de qualquer das condições anteriores.    |
 |     INTELECTUAL/COGNITIVA    |     Limitação, temporária   ou permanente, de natureza intelectual/cognitiva. A deficiência mental, segundo   a Política Nacional de Saúde da Pessoal com Deficiência, é o funcionamento   intelectual significativamente inferior à média, com manifestações antes dos   18 anos e limitações associadas a duas ou mais áreas de habilidades   adaptativas: comunicação, cuidado pessoal, habilidades sociais, utilização   dos recursos da comunidade, saúde e segurança, habilidades acadêmicas, lazer   e trabalho.    |
 |     FÍSICA    |     É alteração completa ou   parcial de um ou mais segmentos do corpo humano que acarreta o   comprometimento da função física, apresentando-se sob as formas de   paraplegia, paraparesia, monoplegia, monoparesia, tetraplegia, tetraparesia,   triplegia, triparesia, hemiplegia, hemiparesia, ostomia, amputação ou   ausência de membro, paralisia cerebral, nanismo, membros com deformidade   congênita ou adquirida, exceto as deformidades estéticas e as que não   produzam dificuldades para o desempenho de funções.    |
+|     TEA    |    Transtorno do Espectro Autista. Considerada pessoa com transtorno do espectro autista aquela portadora de síndrome clínica. |
 |     OUTRA    |     Outros tipos de   limitações, temporárias ou permanentes.     |
 
+
+Conforme a [Lei nº 12.764, de 27 de dezembro de 2012](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12764.htm)
+é considerada pessoa com transtorno do espectro autista aquela portadora de síndrome clínica caracterizada na forma dos seguintes incisos I ou II:
+
+*I - deficiência persistente e clinicamente significativa da comunicação e da interação sociais, manifestada por deficiência marcada de comunicação verbal e não verbal usada para interação social; ausência de reciprocidade social; falência em desenvolver e manter relações apropriadas ao seu nível de desenvolvimento.*
+
+*II - padrões restritivos e repetitivos de comportamentos, interesses e atividades, manifestados por comportamentos motores ou verbais estereotipados ou por comportamentos sensoriais incomuns; excessiva aderência a rotinas e padrões de comportamento ritualizados; interesses restritos e fixos.*
+
+*§ 2º A pessoa com transtorno do espectro autista é considerada pessoa com deficiência, para todos os efeitos legais.*
 *Fonte: SAPS/MS.*
 
 ### 2.1.5 Informações socioeconômicas

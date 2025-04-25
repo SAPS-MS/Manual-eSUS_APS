@@ -5,7 +5,7 @@ parent: Últimas releases
 nav_order: 1
 has_children: false
 has_toc: true
-last_modified_date: "04/11/2024"
+last_modified_date: "25/04/2025"
 ---
 
 <head>
@@ -18,6 +18,29 @@ last_modified_date: "04/11/2024"
 
 ## Novidades - Ferramentas relacionadas aos cuidados
 
+
+**TEA** - Inclusão de opção no campo Possui Deficiência?
+
+A partir da versão 5.3.30, foi incluída, na Ficha de Cadastro Individual (FCI) e no Modelo de Informação de Cadastro Individual (MICI), a opção **"TEA – Transtorno do Espectro Autista”** entre as alternativas do campo Possui Deficiência. Esta opção deve ser selecionada para os cidadãos que tenham recebido diagnóstico confirmado por avaliação profissional.
+
+![](./media/tea.png)
+
+{: .nota }
+Conforme o §2º da [Lei nº 12.764](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12764.htm):
+
+*“A pessoa com transtorno do espectro autista é considerada pessoa com deficiência, para todos os efeitos legais.”*
+ 
+**Campo obrigatório - Está em situação de rua?**
+
+Foi tornado campo obrigatório,  o preenchimento do campo “Está em situação de rua?” no Cadastro individual do CDS e no recebimento de MICI de sistemas próprios. 
+
+![](./media/situacaoderua.png)
+
+**Inclusão de novo "Tipo de Serviço"**
+
+A partir da versão 5.3.30 é possível incluir o tipo de serviço Arboviroses, para as Unidades Básicas de Saúde e Unidade de Pronto Atendimento. 
+
+![](./media/tipodeserviço.png)
 
 **IVCF20** - Índice de Vulnerabilidade Clínico-Funcional
 

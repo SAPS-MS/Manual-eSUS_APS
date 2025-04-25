@@ -155,6 +155,7 @@ Fonte:SAPS/MS.
 Após clicar no botão \"Adicionar\", o sistema mostrará a tela de preenchimento da ficha de cadastro, conforme as Figuras 7.8, 7.9 (continuação) e 7.10 (continuação).
 
 Figura 7.8 - Adicionar cadastro individual
+
 ![](media/pec_image638.png)
 Fonte:SAPS/MS.
 
@@ -163,6 +164,7 @@ Figura 7.9 - Adicionar cadastro individual - continuação
 Fonte:SAPS/MS.
 
 Figura 7.10 - Adicionar cadastro individual - continuação
+
 ![](media/pec_image640.png)
 Fonte:SAPS/MS.
 
@@ -191,6 +193,10 @@ Fonte:SAPS/MS.
 #### 7.2.1.1.3 Informações sociodemográficas
 
 3.Preencha as "Informações sociodemográficas" de acordo com as informações da ficha. Se a resposta de uma questão for "Sim", verifique as opções adicionais de preenchimento (ex.: Tem alguma deficiência? "Sim". Então, responda também "Se sim, quais?" outro exemplo; É membro de povo ou comunidade tradicional? Se sim, qual?). No momento da digitação, deve- se escolher uma das opções disponíveis no software, conforme seu preenchimento na ficha.
+
+A partir da versão 5.3.30, foi incluída, na Ficha de Cadastro Individual (FCI) a opção **“TEA – Transtorno do Espectro Autista”** entre as alternativas do campo Possui Deficiência.
+
+ Esta opção deve ser selecionada para os cidadãos que tenham recebido diagnóstico confirmado por avaliação profissional. Conforme o §2º da [Lei nº 12.764](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12764.htm), *“A pessoa com transtorno do espectro autista é considerada pessoa com deficiência, para todos os efeitos legais.”* 
 
 ![](media/pec_image1109.png)
 Fonte:SAPS/MS.
@@ -255,11 +261,17 @@ Quando a identidade de gênero é diferente das identidades cisgênero, é poss�
 |     INTELECTUAL/COGNITIVA    |     Limitação, temporária   ou permanente, de natureza intelectual/cognitiva. A deficiência mental, segundo   a Política Nacional de Saúde da Pessoal com Deficiência, é o funcionamento   intelectual significativamente inferior à média, com manifestações antes dos   18 anos e limitações associadas a duas ou mais áreas de habilidades   adaptativas: comunicação, cuidado pessoal, habilidades sociais, utilização   dos recursos da comunidade, saúde e segurança, habilidades acadêmicas, lazer   e trabalho.    |
 |     FÍSICA    |     É alteração completa ou   parcial de um ou mais segmentos do corpo humano que acarreta o   comprometimento da função física, apresentando-se sob as formas de   paraplegia, paraparesia, monoplegia, monoparesia, tetraplegia, tetraparesia,   triplegia, triparesia, hemiplegia, hemiparesia, ostomia, amputação ou   ausência de membro, paralisia cerebral, nanismo, membros com deformidade   congênita ou adquirida, exceto as deformidades estéticas e as que não   produzam dificuldades para o desempenho de funções.    |
 |     OUTRA    |     Outros tipos de   limitações, temporárias ou permanentes.     |
-
-Fonte: SAPS/MS.
-
+|     TEA    |    Transtorno do Espectro Autista. Considerada pessoa com transtorno do espectro autista aquela portadora de síndrome clínica. |
 
 
+Conforme a [Lei nº 12.764, de 27 de dezembro de 2012](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12764.htm)
+é considerada pessoa com transtorno do espectro autista aquela portadora de síndrome clínica caracterizada na forma dos seguintes incisos I ou II:
+
+*I - deficiência persistente e clinicamente significativa da comunicação e da interação sociais, manifestada por deficiência marcada de comunicação verbal e não verbal usada para interação social; ausência de reciprocidade social; falência em desenvolver e manter relações apropriadas ao seu nível de desenvolvimento.*
+
+*II - padrões restritivos e repetitivos de comportamentos, interesses e atividades, manifestados por comportamentos motores ou verbais estereotipados ou por comportamentos sensoriais incomuns; excessiva aderência a rotinas e padrões de comportamento ritualizados; interesses restritos e fixos.*
+
+*§ 2º A pessoa com transtorno do espectro autista é considerada pessoa com deficiência, para todos os efeitos legais.*
 
 
 #### 7.2.1.1.4 Informações socioeconômicas - Triagem para Risco de Insegurança Alimentar (TRIA)
@@ -293,6 +305,10 @@ Fonte:SAPS/MS.
 6.Caso o cidadão cadastrado está em situação de rua, preencha os campos relacionados do grupo "Cidadão em situação de rua" de acordo com as informações coletadas na ficha.
 
 ![](media/pec_image645.png)
+
+A partir da versão 5.3.30 foi tornado como campo obrigatório,  o preenchimento “Está em situação de sua?” no Cadastro individual do CDS e no recebimento de MICI de sistemas próprios.
+
+![](media/rua.png)
 
 7.Após a digitação dos dados, clique no botão ![](media/pec_image646.png) e, caso haja alguma inconsistência, o sistema mostrará mensagem na tela indicando os campos que deverão ser corrigidos. Se não houver inconsistência, o sistema salvará os dados e voltará para a tela anterior.
 
