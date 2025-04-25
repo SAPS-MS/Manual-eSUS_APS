@@ -26,9 +26,7 @@ A partir da versão 5.3.30, foi incluída, na Ficha de Cadastro Individual (FCI)
 ![](./media/tea.png)
 
 {: .nota }
-Conforme o §2º da [Lei nº 12.764](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12764.htm):
-
-*“A pessoa com transtorno do espectro autista é considerada pessoa com deficiência, para todos os efeitos legais.”*
+Conforme o §2º da [Lei nº 12.764](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12764.htm): *“A pessoa com transtorno do espectro autista é considerada pessoa com deficiência, para todos os efeitos legais.”*
  
 **Campo obrigatório - Está em situação de rua?**
 
