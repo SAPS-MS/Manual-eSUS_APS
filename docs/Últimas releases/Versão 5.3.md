@@ -21,7 +21,7 @@ last_modified_date: "25/04/2025"
 
 **TEA** - Inclusão de opção no campo Possui Deficiência?
 
-A partir da versão 5.3.30, foi incluída, na Ficha de Cadastro Individual (FCI) e no Modelo de Informação de Cadastro Individual (MICI), a opção **"TEA – Transtorno do Espectro Autista”** entre as alternativas do campo Possui Deficiência. Esta opção deve ser selecionada para os cidadãos que tenham recebido diagnóstico confirmado por avaliação profissional.
+A partir da versão 5.3.30, foi incluída, na Ficha de Cadastro Individual (FCI), a opção **"TEA – Transtorno do Espectro Autista”** entre as alternativas do campo Possui Deficiência. Esta opção deve ser selecionada para os cidadãos que tenham recebido diagnóstico confirmado por avaliação profissional.
 
 ![](./media/tea.png)
 
@@ -30,7 +30,7 @@ Conforme o §2º da [Lei nº 12.764](https://www.planalto.gov.br/ccivil_03/_ato2
  
 **Campo obrigatório - Está em situação de rua?**
 
-Foi tornado campo obrigatório,  o preenchimento do campo “Está em situação de rua?” no Cadastro individual do CDS e no recebimento de MICI de sistemas próprios. 
+Foi tornado campo obrigatório,  o preenchimento do campo “Está em situação de rua?” no Cadastro individual do CDS.
 
 ![](./media/situacaoderua.png)
 
