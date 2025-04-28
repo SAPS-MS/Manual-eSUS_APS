@@ -1,21 +1,21 @@
 ---
 layout: default
-title: Últimas releases
-nav_order: 9
+title: e-SUS Atenção Domiciliar
+nav_order: 7
 nav_exclude: false
 has_children: true
-last_modified_date: "05/11/2024"
-description: "Últimas releases"
-permalink: /docs/Últimas releases
+description: "Manual e-SUS APS"
+permalink: /docs/esusAD
+last_modified_date: "23/04/2025"
 ---
 
-e-SUS Atenção Primária à Saúde (e-SUS APS)
+e-SUS Atenção Primária à Saúde
 {: .fs-10 }
 {: .fw-700 }
 {: .text-center }
 <br>
 <br>
-PRONTUÁRIO ELETRÔNICO DO CIDADÃO (PEC)
+e-SUS Atenção Domiciliar
 {: .fs-8 }
 {: .text-center }
 MANUAL DE USO
@@ -23,10 +23,11 @@ MANUAL DE USO
 {: .text-center }
 <br>
 <br>
-(Histórico de versões do PEC)
+(versão 2.5)
 {: .fs-6 }
 {: .text-center }
 <br>
- 
+<br>
+
 {: .nota }
 Você conhece o ["Educa e-SUS APS"](https://educaesusaps.medicina.ufmg.br/)? É uma parceria do Ministério da Saúde e UFMG na oferta nacional de cursos gratuitos de educação permanente para a APS, contextualizada no sistema e-SUS APS. Aproveite e confira agora mesmo!

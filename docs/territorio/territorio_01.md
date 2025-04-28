@@ -2,7 +2,7 @@
 layout: default
 title: Introdução
 parent: e-SUS Território
-nav_order: 2
+nav_order: 1
 has_children: false
 has_toc: true
 last_modified_date: "09/04/2025"
