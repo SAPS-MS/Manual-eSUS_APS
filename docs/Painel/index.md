@@ -22,13 +22,14 @@ MANUAL
 {: .fs-8 }
 {: .text-center }
 <br>
-**Ministra de Estado de Saúde**
 
-Nísia Trindade
+**Ministro de Estado de Saúde**
 
-**Supervisor Geral**
+Alexandre Rocha Santos Padilha
 
-Felipe Proenço de Oliveira
+**Supervisora Geral**
+
+Ana Luiza Ferreira Rodrigues Caldas
 
 **Coordenação Geral**
 
