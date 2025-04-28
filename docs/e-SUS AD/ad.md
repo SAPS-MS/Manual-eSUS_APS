@@ -40,6 +40,15 @@ Sua experiência de uso poderá contribuir para que o aplicativo e-SUS Atenção
 
 
 # Capítulo 2 - Instalação
+{: .no_toc }
+
+Neste capítulo serão abordados os passos para a instalação do aplicativo. 
+
+## Sumário
+{: .no_toc .text-delta }
+
+- TOC
+{:toc}
 
 ## 2.1 Instalação 
 
@@ -76,7 +85,7 @@ Requisitos mínimos para a funcionalidade, uso e instalação do aplicativo:
 
 *Também é possível a sincronização via cabo USB, entretanto é desejável a sincronização por rede sem fio (Wi-Fi) ou internet (3G). 
 
-## 2.2 Configurações Mínimas para a sincronização
+## 2.3 Configurações Mínimas para a sincronização
 
 É importante, antes de sincronizar os dados, realizar as verificações abaixo no computador:  
 
@@ -96,7 +105,7 @@ Para identificar o IP da máquina:
 2) Dentro do Prompt (janela preta), digitar “ipconfig” e clicar no “Enter”. 
 3) Verificar o número/endereço da linha IPV 4. Este é o IP que deverá ser digitado para compor a URL. A URL, no caso de rede externa, corresponde ao link (endereço no navegador) da instalação do PEC com a qual será feita a sincronização. 
 
-## Atualização das versões
+## 2.4 Atualização das versões
 
 Previamente a uma atualização, deve-se: 
 
@@ -105,9 +114,19 @@ Previamente a uma atualização, deve-se:
 - Verificar se a carga da bateria do seu dispositivo é suficiente. Se estiver com pouca carga, carregar a bateria antes de iniciar a atualização.
 - Verificar o espaço disponível no tablet. Se necessário, remover alguns aplicativos ou outros itens grandes. 
 
-# Capítulo 2 - Como utilizar o Aplicativo
+# Capítulo 3 - Como utilizar o Aplicativo
+{: .no_toc }
 
-**Realizando o login pela primeira vez**
+Neste capítulo serão abordados os passos para a utilização do aplicativo com a qualificação dos dados inseridos.
+
+## Sumário
+{: .no_toc .text-delta }
+
+- TOC
+{:toc}
+
+
+## 3.1 **Realizando o login pela primeira vez**
 
 Primeiramente faça o login com o seu CPF e senha, a mesma que é utilizada para acessar o PEC.
 
@@ -151,7 +170,7 @@ A sincronização deve ser realizada sempre que houver oportunidade a fim de se 
 O tablet não poderá ser utilizado ao mesmo tempo por mais de uma equipe. Caso seja necessário modificar o INE da equipe, é imprescindível fazer a sincronização dos dados antes, pois o aplicativo mantém registros vinculados a um INE apenas. 
 
 
-**Tela de lista de cidadãos**
+## 3.2 **Tela de lista de cidadãos**
 
  Contém os cidadãos já cadastrados na unidade de saúde, com os respectivos prontuários, oriundos do banco de dados do PEC durante a sincronização. Ao clicar no cidadão, é possível entrar na aba de dados (cadastro), histórico e atendimento. 
 
@@ -165,7 +184,7 @@ Nesta aba é possível selecionar filtros ou organizadores da visualização dos
 **Ordem por:** ordene os cidadãos por nome ou data da próxima visita.  
 
 
-**Ícones do canto superior direito da tela:**
+## **Ícones do canto superior direito da tela:**
 
  No ícone ![](media/adicionarcidadao.png) é possível cadastrar/adicionar novo cidadão.
 
@@ -179,7 +198,7 @@ Tela ícone *Sobre*
 
 
 
- **Adicionar novo cidadão**
+## **Adicionar novo cidadão**
 
 Para adicionar novo cidadão na lista, deverá selecionar o ícone supracitado.
 
@@ -214,7 +233,7 @@ Fonte: SAPS/MS.
 **Atenção:** apenas as Emad podem cadastrar cidadãos em AD. 
 
 
-**Avaliação de Elegibilidade**
+## 3.3 **Avaliação de Elegibilidade**
 
 A avaliação de elegibilidade tem como objetivo definir se o usuário preenche os requisitos mínimos para admissão no Serviço de Atenção Domiciliar, de acordo com as modalidades de Atenção Domiciliar (AD1, AD2 e AD3), as quais se caracterizam pela frequência e intensidade necessária ao cuidado no domicílio.  
 
@@ -256,14 +275,14 @@ Fonte: SAPS/MS.
 
  Depois que o aplicativo for sincronizado, a avaliação de elegibilidade será apresentada no histórico de atendimentos do cidadão. 
 
- **Histórico do Cidadão**
+ ## 3.4 **Histórico do Cidadão**
 
  Esta tela é composta pelo histórico dos atendimentos em Atenção Domiciliar, durante um mesmo período de admissão na equipe, contendo os dados do profissional que atendeu, registros escritos e procedimentos. Caso o usuário tenha alta e seja admitido novamente, o histórico completo deverá ser acessado por meio do PEC. 
 
  ![](media/historico.png)
 Fonte: SAPS/MS.
 
- **Atendimento** 
+ ## 3.5 **Atendimento** 
 
  Na aba Atendimento, é possível visualizar os dados do cidadão bem como os dados do atendimento, as condições avaliadas e dados do SOAP, os quais serão descritos abaixo.
 
@@ -329,7 +348,7 @@ Selecionar as condições e/ou procedimentos presentes neste caso. As situaçõe
 **Atenção:** o registro serve para facilitar a identificação e as situações frequentes na AD, auxiliando na organização do trabalho da equipe e na análise do público-alvo. Não deve, portanto, substituir o registro de informações na evolução. 
 
 
-**SOAP**
+## 3.6 **SOAP**
 
 As funcionalidades presentes no SOAP dentro do aplicativo, deverão seguir o mesmo padrão de usabilidade que é utilizado dentro do PEC, disponível no capítulo [Atendimento](https://saps-ms.github.io/Manual-eSUS_APS/docs/PEC/PEC_06_atendimentos/#643-soap).
 
@@ -345,7 +364,7 @@ Registrar ações/procedimentos realizados.
 
 Observar que é necessário clicar em “Adicionar procedimento” para salvar o procedimento selecionado. 
 
-**Concluindo o atendimento**
+## 3.7 **Concluindo o atendimento**
 
 Para concluir o atendimento, clicar no botão **“Salvar”* ![](media/salvar.png). No canto superior direito, o sistema salvará os dados e voltará para a tela anterior.
 
