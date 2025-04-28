@@ -1,10 +1,11 @@
 ---
 layout: default
-title: Introdução
-parent: e-SUS AD - Atenção Domiciliar
-nav_order: 2
-has_children: false
-has_toc: true
+title: e-SUS Atenção Domiciliar
+nav_order: 13
+nav_exclude: false
+has_children: true
+description: "Manual e-SUS APS"
+permalink: /docs/esusAD
 last_modified_date: "23/04/2025"
 ---
 
@@ -369,3 +370,4 @@ Observar que é necessário clicar em “Adicionar procedimento” para salvar o
 Para concluir o atendimento, clicar no botão **“Salvar”* ![](media/salvar.png). No canto superior direito, o sistema salvará os dados e voltará para a tela anterior.
 
  Caso haja alguma inconsistência, será mostrada mensagem na tela indicando os campos que deverão ser preenchidos e/ou corrigidos. Após a realização do atendimento e sincronização, é possível imprimir o resumo do atendimento (veja orientações no Capítulo 3, item 4, deste guia), que pode ser utilizado para compor o prontuário domiciliar. 
+
