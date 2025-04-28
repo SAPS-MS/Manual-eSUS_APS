@@ -1,12 +1,11 @@
 ---
 layout: default
-title: e-SUS Atenção Domiciliar
-nav_order: 7
-nav_exclude: false
-has_children: true
-description: "Manual e-SUS APS"
-permalink: /docs/esusAD
-last_modified_date: "23/04/2025"
+title: Manual
+parent: e-SUS AD
+nav_order: 1
+has_children: false
+has_toc: true
+last_modified_date: "09/04/2025"
 ---
 
 <head>
