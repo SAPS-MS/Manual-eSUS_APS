@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Manual
-parent: e-SUS AD
+parent: e-SUS Atenção Domiciliar
 nav_order: 1
 has_children: false
 has_toc: true
