@@ -55,11 +55,11 @@ Francy Webster de Andrade Pereira, Igor de Carvalho Gomes
 
 **Elaboração de texto** 
 
-Cinthia Caldas Rios, Jacqueline Aedinet Pruner Polidoro, Janaína Nogueira Guimarães, Jordana Soares Iankoski, Lilian Suelen de Oliveira Cunha, Nicoli Ferreira Demarche, Walter Augusto Alcantara Vieira, Willian Soares Lima 
+Ana Clara Tupam Newlands, Cinthia Caldas Rios, Jacqueline Aedinet Pruner Polidoro, Janaína Nogueira Guimarães, Joana Darc Rodrigues de Sousa, Jordana Soares Iankoski, Lilian Suelen de Oliveira Cunha, Nicoli Ferreira Demarche, Walter Augusto Alcantara Vieira, Willian Soares Lima 
 
 **Revisão Textual** 
 
-Adriana Kitajima, Adriene dos Santos Sá, Bruno Costa Mariani Maciel, Cinthia Caldas Rios, Elaine de Almeida, Francy Webster de Andrade Pereira, Igor de Carvalho Gomes, Ingryd Isabelle Maia de Souza, Jacqueline Aedinet Pruner Polidoro, Janaína Nogueira Guimarães, Jordana Soares Iankoski, Lilian Suelen de Oliveira Cunha, Marcelo Alves Miranda, Nicoli Ferreira Demarche, Priscila Mara Anjos Nunes, Rodrigo André Cuevas Gaete, Romario Araujo Matias Rocha, Thaís Alessa Leite, Vanessa Lora, Vania Priamo, Walter Augusto Alcantara Vieira  
+Ana Clara Tupam Newlands, Adriana Kitajima, Adriene dos Santos Sá, Bruno Costa Mariani Maciel, Cinthia Caldas Rios, Elaine de Almeida, Francy Webster de Andrade Pereira, Fernando Henrique da Silva Benassi, Igor de Carvalho Gomes, Ingryd Isabelle Maia de Souza, Jacqueline Aedinet Pruner Polidoro, Janaína Nogueira Guimarães, Joana Darc Rodrigues de Sousa, Jordana Soares Iankoski, Lilian Suelen de Oliveira Cunha, Marcelo Alves Miranda, Nicoli Ferreira Demarche, Priscila Mara Anjos Nunes, Rodrigo André Cuevas Gaete, Romario Araujo Matias Rocha, Thaís Alessa Leite, Vanessa Lora, Vania Priamo, Walter Augusto Alcantara Vieira  
 
 **Revisão Técnica**  
 
