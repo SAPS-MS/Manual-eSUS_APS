@@ -1,12 +1,12 @@
 ---
 layout: default
 title: e-SUS Território
-nav_order: 20
+nav_order: 4
 nav_exclude: false
 has_children: true
 description: "Manual e-SUS APS"
 permalink: /docs/territorio
-last_modified_date: "06/11/2024"
+last_modified_date: "28/04/2025"
 ---
 
 e-SUS Atenção Primária à Saúde
