@@ -256,18 +256,18 @@ Se o campo "Elegível para Atenção Domiciliar" for marcado como "Não", será 
 ![](media/INELEGIBILIDADE.png)
 Fonte: SAPS/MS.
 
- Depois que o aplicativo for sincronizado, a avaliação de elegibilidade será apresentada no histórico de atendimentos do cidadão. 
+Depois que o aplicativo for sincronizado, a avaliação de elegibilidade será apresentada no histórico de atendimentos do cidadão. 
 
- ## 3.4 Histórico do Cidadão
+## 3.4 Histórico do Cidadão
 
- Esta tela é composta pelo histórico dos atendimentos em Atenção Domiciliar, durante um mesmo período de admissão na equipe, contendo os dados do profissional que atendeu, registros escritos e procedimentos. Caso o usuário tenha alta e seja admitido novamente, o histórico completo deverá ser acessado por meio do PEC. 
+Esta tela é composta pelo histórico dos atendimentos em Atenção Domiciliar, durante um mesmo período de admissão na equipe, contendo os dados do profissional que atendeu, registros escritos e procedimentos. Caso o usuário tenha alta e seja admitido novamente, o histórico completo deverá ser acessado por meio do PEC. 
 
- ![](media/historico.png)
+![](media/historico.png)
 Fonte: SAPS/MS.
 
- ## 3.5 Atendimento
+## 3.5 Atendimento
 
- Na aba Atendimento, é possível visualizar os dados do cidadão bem como os dados do atendimento, as condições avaliadas e dados do SOAP, os quais serão descritos abaixo.
+Na aba Atendimento, é possível visualizar os dados do cidadão bem como os dados do atendimento, as condições avaliadas e dados do SOAP, os quais serão descritos abaixo.
 
 ![](media/atendimento.png)
 
@@ -348,7 +348,7 @@ Observar que é necessário clicar em “Adicionar procedimento” para salvar o
 
 ## 3.7 Concluindo o atendimento
 
-Para concluir o atendimento, clicar no botão **“Salvar”* ![](media/salvar.png). No canto superior direito, o sistema salvará os dados e voltará para a tela anterior.
+Para concluir o atendimento, clicar no botão **“Salvar”** ![](media/salvar.png). No canto superior direito, o sistema salvará os dados e voltará para a tela anterior.
 
  Caso haja alguma inconsistência, será mostrada mensagem na tela indicando os campos que deverão ser preenchidos e/ou corrigidos. Após a realização do atendimento e sincronização, é possível imprimir o resumo do atendimento (veja orientações no Capítulo 3, item 4, deste guia), que pode ser utilizado para compor o prontuário domiciliar. 
 
