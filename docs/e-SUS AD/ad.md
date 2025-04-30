@@ -230,6 +230,9 @@ I) “Origem”, que aponta de qual instituição o cidadão veio antes de ser a
 
 II) “Classificação Internacional de Doenças (CID)”: CID10 principal – campo obrigatório; CID10 secundário 1; CID10 secundário 2. O CID apontado tanto pode ser um já classificado anteriormente quanto um identificado no momento da avaliação e que possivelmente motivará a admissão no SAD; 
 
+O CID obrigatório refere-se ao CID que está relacionado à condição que motivou a admissão do usuário, ou seja, sua agudização.
+Neste aspecto é importante  compreender que os pacientes admitidos no programa, algumas vezes, terão acompanhamento transitório, e não necessariamente o CID principal da doença de base será o motivo de internação ou acompanhamento domiciliar. 
+
 III) a tela ainda exibirá o questionário de "Condição(ões) Avaliada(s)", que também vai aparecer no atendimento. 
 
 ![](media/fichadeelegibilidade.png)
@@ -350,4 +353,126 @@ Observar que é necessário clicar em “Adicionar procedimento” para salvar o
 Para concluir o atendimento, clicar no botão **“Salvar”** ![](media/salvar.png). No canto superior direito, o sistema salvará os dados e voltará para a tela anterior.
 
  Caso haja alguma inconsistência, será mostrada mensagem na tela indicando os campos que deverão ser preenchidos e/ou corrigidos. Após a realização do atendimento e sincronização, é possível imprimir o resumo do atendimento (veja orientações no Capítulo 3, item 4, deste guia), que pode ser utilizado para compor o prontuário domiciliar. 
+
+# Capítulo 4 - Orientações Gerais
+
+**ORIENTAÇÕES PARA O PREENCHIMENTO DOS CAMPOS DE CADASTRO E DE ADMISSÃO**
+
+**Dados de Cadastro**
+
+**4.1 Grupo Dados Gerais**
+
+|CAMPO|ORIENTAÇÃO DE PREENCHIMENTO|
+|-|-|
+|NOME COMPLETO |Registrar com o nome completo do usuário.|
+|Nº CARTÃO SUS | Incluir o número do CNS do usuário.|   
+|NOME SOCIAL|Registrar o nome pelo qual o usuário deseja ser identificado quando possuir registro de nome social.|
+|DATA DE NASCIMENTO | Preenchido no formato dia/mês/ano. |
+|NOME DA MÃE | Escrever o nome completo da mãe do usuário.  | 
+|SEXO | Assinalar “Feminino” ou “Masculino” ou "Indeterminado.| 
+|MUNICÍPIO DE NASCIMENTO | Escolher o nome da cidade em que o usuário nasceu; ou assinalar “Estrangeiro” caso tenha nascido fora do País. | 
+|RAÇA/COR | Assinalar a opção de raça/cor, conforme autodeclaração do cidadão.| 
+ 
+ **Observação:** para todos os campos de “nome”, são exigidos ao menos dois nomes para ser aceito como campo válido.  
+
+**4.2 Grupo Localização**
+
+Atenção: iniciar o preenchimento pelo campo CEP e alguns dados básicos serão carregados; em seguida, preencher os campos complementares. 
+
+|CAMPO|ORIENTAÇÃO DE PREENCHIMENTO|
+|-|-|
+|LOGRADOURO| Preencher com o nome da rua ou logradouro do domicílio do cidadão.|  
+|NÚMERO | Preencher com o número do domicílio do cidadão. Marcar o check box “sem número” caso não exista ou seja desconhecido.|
+|COMPLEMENTO | Escrever o complemento do endereço se houver. Pode ser preenchido com o nome e número (alfanumérico) do edifício ou algum outro dado que não se enquadrar nos outros campos. | 
+| CEP | Digitar o CEP do cidadão. |  
+| ESTADO | Escrever o estado de residência do cidadão conforme IBGE.  
+|MUNICÍPIO| Escrever o nome da cidade em que o usuário reside atualmente. |
+| BAIRRO| Escrever o bairro em que o usuário reside atualmente. Pode ser preenchido com nomes e números (alfanumérico).  |
+|PONTO DE REFERÊNCIA| Descrever um local de referência para localizar o domicílio do cidadão.  |
+
+**4.3 Grupo Informações Complementares**
+
+|CAMPO|ORIENTAÇÃO DE PREENCHIMENTO|
+|-|-|
+|ESTADO CIVIL | Estado civil Casado(a) Pessoa que tem a situação conjugal de casada. Separado(a) judicialmente Pessoa que tem a situação conjugal de divorciada ou separada/desquitada, homologada por decisão judicial (IBGE, 2010). Solteiro(a) Pessoa que tem o estado civil de solteira. União consensual Pessoa que vive e partilha com o(a) parceiro(a) o mesmo domicílio. Viúvo(a) Pessoa cujo esposo(a) ou parceiro(a) está falecido(a).|  
+|TIPO SANGUÍNEO| Assinalar o tipo sanguíneo do cidadão.|
+|OCUPAÇÃO| Informar a principal ocupação do usuário cadastrado. As opções disponíveis estão de acordo com a Classificação Brasileira de Ocupações (CBO). |
+|ESCOLARIDADE| Creche; Pré-escola ; Classe de alfabetização (CA);Ensino fundamental 1ª a 4ª séries; Ensino fundamental 5ª a 8ª séries,  Nova denominação para o curso supletivo de ensino fundamental ou de 1° grau, seriado ou não (BRASIL, 2010b). Ensino médio, 2º grau, médio 2º ciclo (científico, clássico, técnico, normal) Curso de ensino médio organizado em três ou quatro séries anuais ou em regime de créditos, períodos letivos, semestres, fases, módulos, ciclos etc. (BRASIL, 2010b). Ensino médio especial Atendimento educacional especializado no ensino médio regular, voltado a pessoas com necessidades especiais originadas de deficiência ou altas habilidades/superdotação (BRASIL, 2010b). Ensino médio eja (supletivo) Nova denominação para o curso supletivo de ensino médio ou de 2° grau, seriado ou não (BRASIL, 2010b). Superior, aperfeiçoamento, especialização, mestrado, doutorado Curso regular de graduação universitária, frequentado após o término do ensino médio, que habilita a pessoa a exercer uma profissão, e cursos frequentados após a conclusão do ensino superior (BRASIL, 2010b). 49 Escolaridade Alfabetização para adultos (Mobral etc.) Curso destinado à alfabetização de jovens e adultos (BRASIL, 2010b). Nenhuma Quando a pessoa não se enquadrar em nenhuma das descrições anteriores.  |
+
+**4.4 Grupo “Dados do responsável”**
+
+
+Caso o usuário seja menor de idade ou tutelado (grupo de dados disponível para preenchimento apenas no tablet. Nesta versão, informações ainda não estarão visíveis no PEC, mas os registros irão para a base de dados ao sincronizar). 
+
+
+|NOME| Escrever o nome completo do responsável pelo usuário.|  
+| CARTÃO NACIONAL DE SAÚDE (CNS)| Digitar o número do CNS do responsável.|
+|DATA DE NASCIMENTO| Registrar a data de nascimento do responsável. Para definir a DN, escolha dia, mês e ano no calendário, passando o dedo para cima ou para baixo sobre a unidade desejada. |
+
+ 
+**4.5 Grupo “Dados do cuidador”**  
+
+Neste campo, há a opção de copiar os dados do responsável por meio de “Sim” ou “Não”:  
+
+Clicar em “Sim” caso o responsável e o cuidador sejam a mesma pessoa. Os dados do responsável serão adicionados automaticamente aos dados do cuidador.  
+
+Clicar em “Não” caso o responsável e o cuidador sejam pessoas diferentes. Neste caso, os dados do cuidador deverão ser acrescentados.  
+
+# Capítulo 5 -  Informações de admissão em AD**  
+
+ 
+Modalidade de Atenção Domiciliar:  
+
+ 
+Art. 539. Considera-se elegível, na modalidade AD 2, o usuário que, tendo indicação de AD, necessite de cuidados multiprofissionais, transitórios e intensificados, minimamente semanais, com atendimentos regulares fora do horário de funcionamento dos serviços de APS, e que apresente as seguintes condições clínicas:
+
+I - Afecções agudas, com necessidade de tratamentos parenterais ou outros procedimentos frequentes;
+
+II - Afecções crônicas agudizadas, com necessidade de cuidados sequenciais, tratamentos parenterais ou reabilitação com possibilidade de ganho de funcionalidade;
+
+III - Afecções que demandem cuidados paliativos, com necessidade de visitas sequenciais para manejo de sintomas não controlados; e
+
+IV - Prematuridade com necessidade de ganho ponderal ou de procedimentos sequenciais". (NR)
+
+"Art. 540. Considera-se elegível, na modalidade AD 3, o usuário:
+
+I - Que se enquadre em qualquer das situações listadas no art. 539 e que necessite de:
+
+a) Cuidados predominantemente multiprofissionais; e
+
+b) Uso de equipamentos ou agregação de procedimentos de maior complexidade, tais como:
+
+1. Ventilação mecânica invasiva e não invasiva domiciliar;
+
+2. Nutrição parenteral;
+
+3. Transfusão sanguínea;
+
+4. Diálise peritoneal;
+
+5. Hemodiálise;
+
+6. Drenagens repetidas (toracocentese, paracentese e outras);
+
+7. Cuidados paliativos em fase final de vida; ou
+
+8. Condições crônico-degenerativas progressivas; e
+
+II - Com necessidade de procedimentos sistemáticos em domicílio, como reabilitação intensiva, antibioticoterapia e outros.
+
+ 
+
+
+**AD1 – Atenção Domiciliar tipo 1**
+
+A prestação da assistência à saúde na modalidade AD1 é de responsabilidade das equipes de Atenção Básica (eSF, eAB, Nasf), por meio de visitas regulares em domicílio, no mínimo, 1 (uma) vez por mês. Refere-se a usuários que possuam problemas de saúde controlados/compensados e com dificuldade ou impossibilidade física de locomoção até uma unidade de saúde e que necessitem de cuidados de menor complexidade, incluídos os de recuperação nutricional, de menor frequência, com menor necessidade de recursos de saúde e dentro da capacidade de atendimento da Atenção Básica. Ainda que AD1 seja de responsabilidade das equipes de Atenção Básica, caso o cidadão em acompanhamento com o SAD seja classificado nesta modalidade, deverá ser identificado desta forma.  
+
+**AD2 – Atenção Domiciliar tipo 2**
+
+ A prestação da assistência à saúde na modalidade AD2 é de responsabilidade das equipes de Atenção Domiciliar – Equipe Multiprofissional de Atenção Domiciliar (Emad) e Equipe Multiprofissional de Apoio (Emap), mantendo o cuidado compartilhado com as equipes de Atenção Básica. Refere-se a usuários que possuam problemas de saúde e dificuldade ou impossibilidade física de locomoção até uma unidade de saúde e que necessitem de maior frequência de cuidado, recursos de saúde e acompanhamento contínuo, podendo ser oriundos de diferentes serviços da rede de atenção. Exemplos de situações que caracterizam AD2: demanda por procedimentos de maior complexidade, que podem ser realizados no domicílio, tais como: curativos complexos; dependência de monitoramento frequente de sinais vitais; adaptação ao uso de sondas e ostomias; acompanhamento domiciliar em pós-operatório; uso de aspirador de vias aéreas para higiene brônquica; necessidade de medicação parenteral.  
+
+
+**AD3 – Atenção Domiciliar tipo 3**
+
+A prestação da assistência à saúde na modalidade AD3 é de responsabilidade das equipes de Atenção Domiciliar (Emad e Emap), mantendo o cuidado compartilhado com a equipe de Atenção Básica. Refere-se ao usuário de AD2 que demanda também o uso de suporte ventilatório não invasivo, ou paracentese, ou diálise peritoneal.  
 
