@@ -404,7 +404,8 @@ Atenção: iniciar o preenchimento pelo campo CEP e alguns dados básicos serão
 
 Caso o usuário seja menor de idade ou tutelado (grupo de dados disponível para preenchimento apenas no tablet. Nesta versão, informações ainda não estarão visíveis no PEC, mas os registros irão para a base de dados ao sincronizar). 
 
-
+|CAMPO|ORIENTAÇÃO DE PREENCHIMENTO|
+|-|-|
 |NOME| Escrever o nome completo do responsável pelo usuário.|  
 | CARTÃO NACIONAL DE SAÚDE (CNS)| Digitar o número do CNS do responsável.|
 |DATA DE NASCIMENTO| Registrar a data de nascimento do responsável. Para definir a DN, escolha dia, mês e ano no calendário, passando o dedo para cima ou para baixo sobre a unidade desejada. |
@@ -412,13 +413,14 @@ Caso o usuário seja menor de idade ou tutelado (grupo de dados disponível para
  
 **4.5 Grupo “Dados do cuidador”**  
 
-Neste campo, há a opção de copiar os dados do responsável por meio de “Sim” ou “Não”:  
+|CAMPO|ORIENTAÇÃO DE PREENCHIMENTO|
+|-|-|
+|SIM| Clicar em “Sim” caso o responsável e o cuidador sejam a mesma pessoa. Os dados do responsável serão adicionados automaticamente aos dados do cuidador.|
+|NÃO| Clicar em “Não” caso o responsável e o cuidador sejam pessoas diferentes. Neste caso, os dados do cuidador deverão ser acrescentados.|
 
-Clicar em “Sim” caso o responsável e o cuidador sejam a mesma pessoa. Os dados do responsável serão adicionados automaticamente aos dados do cuidador.  
 
-Clicar em “Não” caso o responsável e o cuidador sejam pessoas diferentes. Neste caso, os dados do cuidador deverão ser acrescentados.  
 
-# Capítulo 5 -  Informações de admissão em AD**  
+# Capítulo 5 -  Informações de admissão em AD
 
  
 Modalidade de Atenção Domiciliar:  
