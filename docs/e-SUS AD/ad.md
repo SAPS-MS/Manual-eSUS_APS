@@ -425,56 +425,57 @@ Caso o usuário seja menor de idade ou tutelado (grupo de dados disponível para
  
 Modalidade de Atenção Domiciliar:  
 
- 
-Art. 539. Considera-se elegível, na modalidade AD 2, o usuário que, tendo indicação de AD, necessite de cuidados multiprofissionais, transitórios e intensificados, minimamente semanais, com atendimentos regulares fora do horário de funcionamento dos serviços de APS, e que apresente as seguintes condições clínicas:
+Conforme a [Portaria GM/MS Nº 3.005](https://bvsms.saude.gov.br/bvs/saudelegis/gm/2024/prt3005_05_01_2024.html) no 
+*Art. 539*:
 
-I - Afecções agudas, com necessidade de tratamentos parenterais ou outros procedimentos frequentes;
+**AD1 - Atenção Domiciliar tipo 1**
 
-II - Afecções crônicas agudizadas, com necessidade de cuidados sequenciais, tratamentos parenterais ou reabilitação com possibilidade de ganho de funcionalidade;
+Conforme a [Portaria GM/MS Nº 3.005](https://bvsms.saude.gov.br/bvs/saudelegis/gm/2024/prt3005_05_01_2024.html) no *Art. 538*
 
-III - Afecções que demandem cuidados paliativos, com necessidade de visitas sequenciais para manejo de sintomas não controlados; e
-
-IV - Prematuridade com necessidade de ganho ponderal ou de procedimentos sequenciais". (NR)
-
-"Art. 540. Considera-se elegível, na modalidade AD 3, o usuário:
-
-I - Que se enquadre em qualquer das situações listadas no art. 539 e que necessite de:
-
-a) Cuidados predominantemente multiprofissionais; e
-
-b) Uso de equipamentos ou agregação de procedimentos de maior complexidade, tais como:
-
-1. Ventilação mecânica invasiva e não invasiva domiciliar;
-
-2. Nutrição parenteral;
-
-3. Transfusão sanguínea;
-
-4. Diálise peritoneal;
-
-5. Hemodiálise;
-
-6. Drenagens repetidas (toracocentese, paracentese e outras);
-
-7. Cuidados paliativos em fase final de vida; ou
-
-8. Condições crônico-degenerativas progressivas; e
-
-II - Com necessidade de procedimentos sistemáticos em domicílio, como reabilitação intensiva, antibioticoterapia e outros.
-
- 
+*"Considera-se elegível, na modalidade AD 1, o usuário que, tendo indicação de AD devido a adoecimento por condição crônica estável e a restrição ao leito ou lar, requeira cuidados da equipe de saúde com frequência espaçada e programada, a ser definida conforme seu Plano Terapêutico Singular (PTS)".*
 
 
-**AD1 – Atenção Domiciliar tipo 1**
-
-A prestação da assistência à saúde na modalidade AD1 é de responsabilidade das equipes de Atenção Básica (eSF, eAB, Nasf), por meio de visitas regulares em domicílio, no mínimo, 1 (uma) vez por mês. Refere-se a usuários que possuam problemas de saúde controlados/compensados e com dificuldade ou impossibilidade física de locomoção até uma unidade de saúde e que necessitem de cuidados de menor complexidade, incluídos os de recuperação nutricional, de menor frequência, com menor necessidade de recursos de saúde e dentro da capacidade de atendimento da Atenção Básica. Ainda que AD1 seja de responsabilidade das equipes de Atenção Básica, caso o cidadão em acompanhamento com o SAD seja classificado nesta modalidade, deverá ser identificado desta forma.  
 
 **AD2 – Atenção Domiciliar tipo 2**
 
- A prestação da assistência à saúde na modalidade AD2 é de responsabilidade das equipes de Atenção Domiciliar – Equipe Multiprofissional de Atenção Domiciliar (Emad) e Equipe Multiprofissional de Apoio (Emap), mantendo o cuidado compartilhado com as equipes de Atenção Básica. Refere-se a usuários que possuam problemas de saúde e dificuldade ou impossibilidade física de locomoção até uma unidade de saúde e que necessitem de maior frequência de cuidado, recursos de saúde e acompanhamento contínuo, podendo ser oriundos de diferentes serviços da rede de atenção. Exemplos de situações que caracterizam AD2: demanda por procedimentos de maior complexidade, que podem ser realizados no domicílio, tais como: curativos complexos; dependência de monitoramento frequente de sinais vitais; adaptação ao uso de sondas e ostomias; acompanhamento domiciliar em pós-operatório; uso de aspirador de vias aéreas para higiene brônquica; necessidade de medicação parenteral.  
+Conforme a [Portaria GM/MS Nº 3.005](https://bvsms.saude.gov.br/bvs/saudelegis/gm/2024/prt3005_05_01_2024.html) no *Art. 539*:
+
+*"Considera-se elegível, na modalidade **AD 2**, o usuário que, tendo indicação de AD, necessite de cuidados multiprofissionais, transitórios e intensificados, minimamente semanais, com atendimentos regulares fora do horário de funcionamento dos serviços de APS, e que apresente as seguintes condições clínicas:*
+
+*I - Afecções agudas, com necessidade de tratamentos parenterais ou outros procedimentos frequentes;*
+
+*II - Afecções crônicas agudizadas, com necessidade de cuidados sequenciais, tratamentos parenterais ou reabilitação com possibilidade de ganho de funcionalidade;*
+
+*III - Afecções que demandem cuidados paliativos, com necessidade de visitas sequenciais para manejo de sintomas não controlados; e*
+
+*IV - Prematuridade com necessidade de ganho ponderal ou de procedimentos sequenciais". (NR)"*
 
 
-**AD3 – Atenção Domiciliar tipo 3**
+**AD3 - Atenção Domiciliar tipo 3**
 
-A prestação da assistência à saúde na modalidade AD3 é de responsabilidade das equipes de Atenção Domiciliar (Emad e Emap), mantendo o cuidado compartilhado com a equipe de Atenção Básica. Refere-se ao usuário de AD2 que demanda também o uso de suporte ventilatório não invasivo, ou paracentese, ou diálise peritoneal.  
+Conforme a [Portaria GM/MS Nº 3.005](https://bvsms.saude.gov.br/bvs/saudelegis/gm/2024/prt3005_05_01_2024.html) no *"Art. 540. Considera-se elegível, na modalidade **AD 3**, o usuário:*
+
+*I - Que se enquadre em qualquer das situações listadas no art. 539 e que necessite de:*
+
+*a) Cuidados predominantemente multiprofissionais;*
+
+*b) Uso de equipamentos ou agregação de procedimentos de maior complexidade, tais como:*
+
+*1. Ventilação mecânica invasiva e não invasiva domiciliar;*
+
+*2. Nutrição parenteral;*
+
+*3. Transfusão sanguínea;*
+
+*4. Diálise peritoneal;*
+
+*5. Hemodiálise;*
+
+*6. Drenagens repetidas (toracocentese, paracentese e outras);*
+
+*7. Cuidados paliativos em fase final de vida; ou*
+
+*8. Condições crônico-degenerativas progressivas; e*
+
+*II - Com necessidade de procedimentos sistemáticos em domicílio, como reabilitação intensiva, antibioticoterapia e outros.*
 
