@@ -1056,6 +1056,9 @@ c. O campo "Comunicante de hanseníase" somente estará habilitado  após a conf
 {: .atencao }
 Para habilitar o campo e registrar um comunicante de hanseníase, o digitador terá que preencher, no bloco "Vacinação", o campo imunobiológico com a vacina **BCG** e os demais campos obrigatórios. Em seguida deverá clicar no botão "confirmar".
 
+![](media/comunicante.png)
+
+
 ### 7.11.1.3 Vacinação
 
 No bloco "Vacinação" digite o Imunobiológico, a Estratégia, a Dose, o Lote e o Fabricante, conforme preenchido na ficha de vacinação. Em seguida clique no botão ![](media/pec_image740.png) para adicionar o registro do imunobiológico. Para cada imunobiológico repita essa mesma operação.
