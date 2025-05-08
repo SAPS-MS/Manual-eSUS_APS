@@ -42,7 +42,7 @@ Figura 10.1 -- Cabeçalho da Ficha de Vacinas
 
 ![cabeçalho_vacina.png](media/cds_image94.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SASP/MS.*
 
 Quadro 10.1 -- Identificação e controle da digitação
 |CAMPO|ORIENTAÇÃO DE PREENCHIMENTO|
@@ -52,7 +52,7 @@ Quadro 10.1 -- Identificação e controle da digitação
 |CONFERIDO POR   Nome do profissional que conferiu o correto preenchimento da ficha.|
 |FOLHA Nº|Este campo pode ser utilizado na organização do processo de trabalho do profissional que realizou o procedimento, por meio da inserção de numeração das folhas.|
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 ## 10.2 Identificação do profissional e do estabelecimento de saúde
 
@@ -89,7 +89,7 @@ Figura 10.3 -- Identificação dos cidadãos e local de atendimento
 
 ![](media/cds_image23.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 Quadro 10.3 -- Dados dos usuários e local de atendimento
 
@@ -100,10 +100,10 @@ Quadro 10.3 -- Dados dos usuários e local de atendimento
 |     Nº PRONTUÁRIO    |     Campo destinado ao número do   prontuário da família ou do indivíduo no estabelecimento de saúde. Este campo é usado como   referência da informação do paciente na unidade, para os casos em que seja   necessário fazer verificação dos dados.    |
 |     CNS ou CPF DO   CIDADÃO    |     Campo destinado ao número do Cartão Nacional de   Saúde (CNS) do cidadão que está em atendimento. Os   números devem ser inseridos no sentido   vertical. Cidadãos sem o CNS poderão e   deverão ser atendidos pela equipe.     |
 |     DATA DE NASCIMENTO*    |     Informe o dia, mês e ano do   nascimento do cidadão. Variável de verificação do CNS.     |
-|     SEXO*    |     Assinalar F – feminino ou M –   masculino.    |
+|     SEXO*    |     Assinalar F – feminino ou M –   masculino ou I - indeterminado. |
 |     LOCAL DE ATENDIMENTO*    |     Informar o número referente   ao local em que foi realizada a(s) vacinação(ões) do usuário, considerando as   seguintes opções:<br>      (01) UBS<br>      (02) Unidade Móvel<br>      (03) Rua<br>      (04) Domicílio<br>      (05) Escola/Creche<br>      (06) Outros <br>     (07) Polo (Academia da Saúde) – denomina-se polo a unidade (espaço físico)   do Programa Academia da Saúde. É considerado polo tanto a estrutura física   construída especificamente para o desenvolvimento do programa quanto o espaço   físico destinado para tal fim nas dependências de uma UBS, desde que o número   de CNES desta UBS esteja associado ao código 12 (estrutura de Academia da   Saúde).<br>      (08) Instituição/Abrigo – instituições para acolhimento destinadas a   famílias e/ou indivíduos com vínculos familiares rompidos ou fragilizados, a   fim de garantir proteção integral. <br>     (09) Unidade prisional ou   congêneres – cadeia pública, colônia   agrícola, industrial ou similar, casa do albergado, centro de observação   e  hospital de custódia e tratamento   psiquiátrico.<br>      (10) Unidade socioeducativa –   base física necessária para a   organização e o funcionamento de programa de atendimento de medidas   socioeducativas.    |
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 \* *Campo de preenchimento obrigatório.*
 
@@ -115,7 +115,7 @@ Figura 10.4 -- Situação / Condição no momento da vacinação
 
 ![PNI_situação.png](media/cds_image98.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 ## 10.5 Imunobiológico
 
@@ -125,13 +125,13 @@ Figura 10.5 -- Imunobiológicos (frente)
 
 ![PNI_imuno_1.png](media/cds_image99.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 Figura 10.6 - Imunobiológicos (verso)
 
 ![Captura de tela 2017-10-10 16.55.05.png](media/cds_image100.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 Para cada vacina aplicada o profissional deverá indicar a estratégia, a dose, o lote e o fabricante do imunobiológico. A estratégia e a dose obedecerão à legenda disponível no verso da ficha.
 
@@ -144,7 +144,7 @@ Figura 10.7 - Registro de aplicação de outros imunobiológicos
 
 ![](media/cds_image101.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 ### 10.5.1 Vacinas COVID-19
 
@@ -154,7 +154,7 @@ Figura 10.8 - Registro de aplicação da vacina contra COVID-19
 
 ![](media/cds_image102.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 Para esta vacina será obrigatória a identificação do cidadão através do CPF ou CNS, data de nascimento, sexo, local de atendimento e grupo de atendimento. Este último se aplica apenas à campanhas de vacinação e é representada pela legenda com os códigos de cada grupo de atendimento específico como mostra o quadro a seguir:
 
@@ -242,7 +242,7 @@ Figura 10.9 - Registro de aplicação da vacina contra COVID-19
 
 ![](media/cds_image103.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 O campo `Vacina COVID-19` deve ser preenchido com a **sigla** referente à vacina aplicada, de acordo com o quadro a seguir:
 

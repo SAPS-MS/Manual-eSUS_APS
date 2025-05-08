@@ -22,6 +22,8 @@ last_modified_date: "25/09/2023"
 - TOC
 {:toc}
 
+![](media/fichaatividadecoletiva.png)
+
 **Objetivo da ficha:** registrar as ações realizadas em grupo pelas equipes, conforme as necessidades do território e da própria equipe. Já em sua organização, marcada por blocos de tonalidades de cor diferentes, é perceptível que a ficha apresenta dois focos: as ações coletivas de saúde para a população (como atividades de educação em saúde, atendimentos e avaliações em grupo, e mobilizações sociais) e as ações coletivas para a organização da equipe (reuniões de equipe, reuniões com outras equipes, ou reuniões com outros órgãos).
 
 **Profissionais que utilizam esta ficha:** É utilizada por profissionais das equipes de Atenção Básica (incluindo equipe de Saúde Bucal), do Núcleo de Apoio à Saúde da Família (NASF), do Polo Academia da Saúde, do Consultório na Rua (eCR) e das equipes de Atenção Básica Prisional (EABP).
@@ -42,7 +44,7 @@ Figura 5.1 -- Cabeçalho do formulário de Atividade Coletiva
 
 ![](media/cds_image50.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 Quadro 5.1 -- Identificação e controle da digitação
 
@@ -53,7 +55,7 @@ Quadro 5.1 -- Identificação e controle da digitação
 |CONFERIDO POR|Nome do profissional que conferiu o correto preenchimento da ficha.|
 |FOLHA Nº|Este campo pode ser utilizado na organização do processo de trabalho do profissional que realizou o registro, por meio da inserção de numeração das folhas.|
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 ## 5.2 Identificação do profissional e do estabelecimento de saúde
 
@@ -63,7 +65,7 @@ Figura 5.2 -- Identificação do profissional responsável e lotação
 
 ![](media/cds_image8.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 \* *Campo de preenchimento obrigatório.*
 
@@ -77,7 +79,7 @@ Quadro 5.2 -- Identificação do profissional e lotação
 |INE|Código Identificador Nacional de Equipes (INE) no Cadastro Nacional de Estabelecimentos de Saúde (CNES) do Ministério da Saúde, onde o profissional está lotado, seja equipes Saúde da Família, Nasf, CnR, etc. Este campo não é obrigatório para profissionais que não estão vinculados a equipes.|
 |DATA|Dia/mês/ano em que foi realizado o registro no formulário.|
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 \* *Campo de preenchimento obrigatório.*
 
@@ -89,7 +91,7 @@ Figura 5.3 -- Identificação da atividade coletiva e de outros profissionais
 
 ![](media/cds_image52.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 \* *Campo de preenchimento obrigatório.*
 
@@ -129,7 +131,7 @@ Figura 5.4 -- Tipos de atividade coletiva
 
 ![](media/cds_image54.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 ## 5.5 Atividades e Temas para reunião
 
@@ -143,7 +145,7 @@ Quadro 5.4 -- Atividade (Opção única)
 |     02) REUNIÃO COM OUTRAS EQUIPES DE SAÚDE    |     Opção utilizada para indicar reunião da   equipe com outras equipes de saúde (inclusive com outras equipes de AB, por   exemplo, reunião entre eSF e eNasf ou reunião entre eSF e eCR).    |
 |     03) REUNIÃO INTERSETORIAL/     CONSELHO LOCAL DE SAÚDE/     CONTROLE SOCIAL    |     Indica a realização de reunião com   agentes externos da comunidade ou outros órgãos de governo.    |
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 \* *Campo de preenchimento obrigatório.*
 
@@ -161,7 +163,7 @@ Quadro 5.5 -- Temas para reuniões (Opção múltipla)
 |     06) EDUCAÇÃO PERMANENTE    |     Opção utilizada quando a equipe   desenvolve uma atividade de produção de conhecimento dentro das premissas básicas de ser um processo   constante de promoção e desenvolvimento integral e contextualizado da equipe,   centrando-se nas circunstâncias e problemas de seu processo de trabalho, de   modo crítico e criativo, envolvendo práticas que considerem elementos que   façam sentido para os profissionais envolvidos. Saiba mais : http://dab.saude.gov.br/portaldab/educacao_permanente.php    |
 |     07) OUTROS    |     Campo destinado para registro de temas   que não se encontram listados acima.     |
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 \* *Campo de preenchimento obrigatório.*
 
@@ -178,7 +180,7 @@ O segundo tipo de atividade é composto de ações de saúde voltadas para a pop
 |     06) AVALIAÇÃO/PROCEDIMENTO COLETIVO    |     Indica avaliações ou procedimentos   realizados em um grupo, como avaliação antropométrica, testes de acuidade   visual, escovação dental supervisionada, aplicação tópica de flúor, entre outros.     Exige a identificação dos usuários que participaram da atividade por meio do preenchimento   do CNS.    |
 |     07) MOBILIZAÇÃO SOCIAL     |     Ações de promoção de mobilização   comunitária com a constituição de redes sociais de apoio e ambientes de   convivência e solidariedade.     Essa opção não exige que os usuários da atividade sejam   identificados.    |
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 \* *Campo de preenchimento obrigatório.*
 
@@ -217,7 +219,7 @@ Para as atividades coletivas que demandam a identificação dos usuários (opç�
 
 -   Data de nascimento do cidadão (ATENÇÃO: campo com obrigatoriedade condicionada);
 
--   Sexo do cidadão, podendo optar por F - feminino ou M - masculino (ATENÇÃO: campo com obrigatoriedade condicionada);
+-   Sexo do cidadão, podendo optar por F - feminino ou M - masculino ou I - Indeterminado (ATENÇÃO: campo com obrigatoriedade condicionada);
 
 -   Marcar se o cidadão apresentou avaliação alterada;
 
@@ -232,6 +234,6 @@ as opções 05 - Atendimento em Grupo e 06 -- Avaliação/Procedimento Coletivo,
 
 Figura 5.5 - Identificação dos cidadãos participantes da atividade coletiva
 
-![](media/cds_image55.png)
+![](media/dadoscidadão.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*

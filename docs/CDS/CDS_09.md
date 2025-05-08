@@ -22,6 +22,8 @@ last_modified_date: "25/09/2023"
 - TOC
 {:toc}
 
+![](media/ATENDIMENTODOMICILIAR.png)
+
 A Coleta de Dados Simplificada, no âmbito do Serviço de Atenção Domiciliar (SAD), é composta por duas fichas de uso exclusivo das equipes que compõem o SAD -- Equipe Multiprofissional de Atenção Domiciliar (EMAD) e Equipe Multiprofissional de Apoio (EMAP): a Ficha de Avaliação de Elegibilidade e Admissão e a Ficha de Atendimento Domiciliar. Além disso, as equipes de Atenção Domiciliar (AD) também devem utilizar a Ficha de Atividade Coletiva da Atenção Básica, sobretudo, para registro do processo de qualificação do cuidador.
 
 {: .atencao }
@@ -51,7 +53,7 @@ Figura 9.1 -- Cabeçalho da ficha de avaliação de elegibilidade e admissão
 
 ![](media/cds_image76.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 Quadro 9.1 -- Bloco Cabeçalho
 
@@ -62,7 +64,7 @@ Quadro 9.1 -- Bloco Cabeçalho
 |CONFERIDO POR|Nome do profissional que fez a supervisão do preenchimento da ficha.|
 |FOLHA Nº|Esse campo pode ser utilizado na organização do processo de trabalho do profissional que realizou o cadastro, através da inserção da numeração das folhas.|
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 ### 9.1.2 Identificação identificação do profissional realizou a avaliação e da equipe
 
@@ -70,7 +72,7 @@ Figura 9.2 -- Identificação do profissional e da equipe
 
 ![](media/cds_image77.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 Quadro 9.2 -- Bloco de identificação do profissional e da equipe
 
@@ -84,7 +86,7 @@ Para aumentar o número de registros identificados, a partir da versão 3.2.20 �
 |CNES\*|                  Código do Cadastro Nacional de Estabelecimentos de Saúde (CNES) referente ao estabelecimento no qual o SAD está sediado. Observe que o CNES deve ser o mesmo habilitado por portaria.|
 |INE\*|                   Código identificador nacional de equipes no Cadastro Nacional de Estabelecimentos de Saúde (CNES) do Ministério da Saúde.|
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 \* *Campo de preenchimento obrigatório.*
 
@@ -98,7 +100,7 @@ Figura 9.3 -- Identificação do cidadão
 
 ![](media/cds_image78.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 Quadro 9.3 -- Bloco de identificação do cidadão
 
@@ -106,9 +108,9 @@ Quadro 9.3 -- Bloco de identificação do cidadão
 |-|-|
 |CNS ou CPF do Cidadão\*|Número do cartão nacional de saúde do cidadão que está sendo avaliado.|
 |DATA DE NASCIMENTO\*|Anote o dia/mês/ano de nascimento do cidadão.|
-|SEXO\*|Assinalar F - feminino ou M - masculino.|
+|SEXO\*|Assinalar F - feminino ou M - masculino ou I - indeterminado.|
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 \* *Campo de preenchimento obrigatório.*
 
@@ -120,7 +122,7 @@ Figura 9.4 - Procedência
 
 ![](media/cds_image80.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 Campo para registrar a procedência do cidadão para o acompanhamento em Atenção Domiciliar. Mesmo que o usuário já esteja no domicílio, deve-se registrar a informação do serviço que o encaminhou. Este campo é de preenchimento obrigatório.
 
@@ -135,7 +137,7 @@ Quadro 9.4 -- Bloco origem do usuário
 |     Iniciativa do paciente   ou terceiros    |     Utilizar este campo para cidadãos que chegaram ao   serviço por demanda espontânea, ou seja, não vieram encaminhados por nenhum   outro serviço de saúde.    |
 |     Outros    |     Utilizar este campo para cidadãos que   chegaram ao serviço por procedência diferente daquelas descritas nos demais   campos.    |
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 ### 9.1.5 Condição(ões) avaliada(s)
 
@@ -143,7 +145,7 @@ Figura 9.5 - Bloco Condição(ões) avaliada(s)
 
 ![](media/cds_image81.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 Esse bloco deve ser utilizado para registrar situações/condições presentes e/ou avaliadas pelo profissional de saúde na avaliação de elegibilidade para possível admissão.
 
@@ -160,7 +162,7 @@ Figura 9.6 -- Bloco Conclusão/destino
 
 ![](media/cds_image82.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 Com a utilização da ficha de elegibilidade, o processo de avaliação do cidadão pode ter duas conclusões/destinos, conforme detalhado a seguir.
 
@@ -199,7 +201,7 @@ modalidades
 | INELEGÍVEL |     Ausência de cuidador (em casos de   necessidade)    |     Assinale esta opção nos casos em que a   avaliação indicar que o cidadão é inelegível para a Atenção Domiciliar em   função de não haver cuidador disponível, nos casos de usuários dependentes   funcionalmente, assim considerados nos termos da Classificação Internacional   de Funcionalidade, Incapacidade e Saúde (CIF).    |
 | INELEGÍVEL |     Outras condições sociais e/ou familiares   impeditivas do cuidado domiciliar    |     Assinale esta opção nos casos em que a   avaliação indicar que o cidadão é inelegível para a Atenção Domiciliar em   função de outras condições sociais e/ou familiares impeditivas do cuidado   domiciliar (ex.: negativa da família em realizar o cuidado domiciliar;   conflitos familiares envolvendo o cidadão que necessita de AD; condições de   moradia que impossibilitem o cuidado no domicílio).    |
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 ### 9.1.7 Identificação do usuário/cidadão para admissão
 
@@ -230,7 +232,7 @@ Quadro 9.7 -- Segundo bloco de identificação do usuário
 |     ETNIA    |     O campo “Etnia” é obrigatório quando a opção “Raça/Cor” for   “Indígena”.    |  
 |     E-MAIL    |     Endereço de correio eletrônico do usuário.    |  
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 Nota: ^1^ Conforme a Pesquisa nacional por amostra de domicílios (IBGE, 2010).
 
@@ -238,7 +240,7 @@ Figura 9.8 -- Bloco Endereço/local de permanência
 
 ![](media/cds_image84.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 Quadro 9.8 -- Bloco de endereço/local de permanência
 
@@ -256,7 +258,7 @@ Quadro 9.8 -- Bloco de endereço/local de permanência
 |     TELEFONE RESIDENCIAL    |     Anote o número do telefone fixo com DDD   (Discagem Direta a Distância) do município em que o usuário reside.    |
 |     TELEFONE DE CONTATO    |     Anote o número do telefone com DDD do   município em que o usuário pode ser encontrado mais facilmente. A preferência   é que seja telefone fixo ou contato próximo ao domicílio. Caso não possua, o   campo deverá ficar em branco. Evitar telefones de empresa, que são trocados   com frequência.    |
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 ### 9.1.8 Cuidador
 
@@ -266,7 +268,7 @@ Figura 9.9 - Bloco Cuidador
 
 ![](media/cds_image85.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 Quadro 9.9 - Cuidador
 
@@ -282,7 +284,7 @@ Quadro 9.9 - Cuidador
 |OUTRO|Marcar se o cuidador tiver outro grau de parentesco que não descrito anteriormente.|
 
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 ## 9.2 Ficha de Atendimento Domiciliar
 
@@ -302,7 +304,7 @@ Figura 9.10 -- Cabeçalho da ficha de atendimento domiciliar
 
 ![](media/cds_image86.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 O cabeçalho do instrumento, assim como na ficha de avaliação, tem um bloco para a identificação e o controle da digitação, que é importante na organização do trabalho em nível local. Esse bloco será preenchido pelo digitador.
 
@@ -312,7 +314,7 @@ Figura 9.11 -- Bloco de identificação do profissional e do estabelecimento de 
 
 ![](media/cds_image8.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 O bloco de identificação do atendimento compreende o registro de informações referentes à equipe e ao profissional de saúde. Esse bloco difere da ficha de elegibilidade apenas pelo campo "turno", que deverá ser informado em cada atendimento, constando no bloco seguinte. Assim essa ficha deverá ser de produção diária. Exemplo: se, no dia 10 de fevereiro, o profissional realizou dez atendimentos domiciliares, no dia seguinte, 11 de fevereiro, ele deve iniciar com uma nova ficha, mesmo que tenha sobrado espaço para outros atendimentos na ficha do dia anterior. As fichas de coleta de dados trazem a informação individualizada por cidadão, por meio do número do CNS, além da identificação do estabelecimento de saúde e dos profissionais de saúde envolvidos, que também é feita pelo número do CNS.
 
@@ -338,7 +340,7 @@ Figura 9.12 -- Bloco Identificação dos cidadãos e local do atendimento
 
 ![](media/cds_image88.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 Nesse bloco, serão identificados os dados dos cidadão tais como: turno em que ele foi atendido (manhã, tarde ou noite), CNS do Cidadão, data de nascimento, sexo e local de atendimento. O número do CNS não é obrigatório em função de esse registro ainda estar em processo de universalização. Entretanto sua utilização é de suma importância, uma vez que esse registro permitirá a vinculação dos dados de todos os atendimentos de um mesmo cidadão, permitindo seu acompanhamento integral e longitudinal de fato e a geração de relatórios. Ou seja, é através da agregação das informações em um mesmo número de CNS que, futuramente, o cidadão poderá acessar informações de seus atendimentos em diferentes serviços de saúde.
 
@@ -352,7 +354,7 @@ Quadro 9.11 -- Bloco de identificação do usuário
 |     SEXO*    |     Assinalar F – feminino ou M – masculino.    |
 |     LOCAL DE ATENDIMENTO*    |     Informar o número referente ao local em   que foi realizado o atendimento do usuário, considerando as seguintes opções:<br>      (01) UBS - Unidade Básica de Saúde<br>     (02) Unidade Móvel<br>      (03) Rua<br>      (04) Domicílio<br>      (05) Escola/Creche<br>      (06) Outros<br>      (07) Polo (Academia da Saúde) – denomina-se polo a unidade (espaço físico) do Programa Academia da   Saúde. É considerado polo tanto a estrutura física construída especificamente   para o desenvolvimento do programa quanto o espaço físico destinado para tal   fim nas dependências de uma UBS, desde que o número de CNES desta UBS esteja   associado ao código 12 (estrutura de Academia da Saúde).<br>      (08) Instituição/Abrigo – instituições para acolhimento destinadas a famílias e/ou indivíduos   com vínculos familiares rompidos ou fragilizados, a fim de garantir proteção   integral.<br>      (09) Unidade prisional ou congêneres – cadeia pública, colônia agrícola,   industrial ou similar, casa do albergado, centro de observação e hospital de   custódia e tratamento psiquiátrico.<br>      (10) Unidade socioeducativa – base física necessária para a organização   e o funcionamento de programa de atendimento de medidas socioeducativas.    |
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 \* *Campo de preenchimento obrigatório.*
 
@@ -362,7 +364,7 @@ Figura 9.13 -- Bloco modalidade de AD
 
 ![](media/cds_image89.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 ### 9.2.4 Tipo de atendimento
 
@@ -370,7 +372,7 @@ Figura 9.14 -- Bloco Tipo de atendimento
 
 ![](media/cds_image90.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 Quadro 9.12 -- Tipo de atendimento
 
@@ -380,7 +382,7 @@ Quadro 9.12 -- Tipo de atendimento
 |  ATENDIMENTO   NÃO PROGRAMADO| assinale   este campo caso o atendimento tenha sido realizado em função de demanda do   usuário/cuidadores, outro serviço ou outros, não programado previamente pela equipe.    |
 |    VISITA   DOMICILIAR PÓS-ÓBITO| Esse   campo deve ser assinalado no(s) atendimento(s) posterior(es) à constatação de   óbito do cidadão, nas situações em que ocorrerá acompanhamento da   família/cuidador mesmo após o óbito. Verificar, ao final do capítulo,   orientações específicas de preenchimento da ficha, nestes casos.    |
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 ### 9.2.5 Situações presentes e/ou avaliadas e CID
 
@@ -393,7 +395,7 @@ Figura 9.15 -- Bloco Situações presentes e/ou avaliadas e CID
 
 ![](media/cds_image91.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 Quadro 9.13 -- Orientação sobre a CID-10 e CIAP-2
 
@@ -402,7 +404,7 @@ Quadro 9.13 -- Orientação sobre a CID-10 e CIAP-2
 |CID-10|      Utilize esse campo para registro da patologia/lesão que motivou o atendimento domiciliar do cidadão. É possível repetir o CID-10 de admissão do paciente ou utilizar algum CID-10 que tenha motivado especificamente este atendimento.|
 |CIAP-2|      Utilize este campo para registro da CIAP-2 que motivou o atendimento domiciliar do cidadão.|
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 ### 9.2.6 Procedimentos realizados
 
@@ -423,7 +425,7 @@ Figura 9.16 -- Bloco Procedimentos
 
 ![](media/cds_image92.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 ### 9.2.7 Conduta / Desfecho
 
@@ -433,7 +435,7 @@ Figura 9.17 -- Bloco Conduta/desfecho
 
 ![](media/cds_image93.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 Quadro 9.14 -- Conduta/desfecho
 
@@ -445,7 +447,7 @@ Quadro 9.14 -- Conduta/desfecho
 |Óbito|	Utilize este desfecho nas situações de óbito do usuário em acompanhamento.
 |Encaminhamento|	**Atenção Básica (AD1)**: Utilize esta conduta/desfecho nas situações em que o acompanhamento for descontinuado em função de situações como:<br> ●	melhora das condições clínicas e/ou estabilidade clínica, com encaminhamento para a Atenção Básica;<br><br>  **Serviço de urgência e emergência**: Utilize esta conduta/desfecho nas situações em que o acompanhamento for descontinuado em função de situações como:<br> ●	situação clínica que demande encaminhamento para serviço de urgência/emergência, seja encaminhado pela equipe, seja por procura espontânea do usuário/cuidador.<br> <br> **Serviço de internação hospitalar**:<br> Utilize este desfecho nas situações em que o acompanhamento for descontinuado em função de situações como:<br> ●	piora clínica que justifique internação hospitalar.
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 Quando o paciente é hospitalizado se faz necessário lançar na produção o desfecho de encaminhamento para serviço de internação hospitalar ou campo similar. Após o retorno deverá ser realizada nova avaliação. 
 
@@ -466,4 +468,4 @@ Uma situação muito frequente na AD é a necessidade de acompanhar a família o
 Os demais campos, a exemplo do "Turno", devem ser preenchidos conforme
 orientações anteriores, constantes neste manual.
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*

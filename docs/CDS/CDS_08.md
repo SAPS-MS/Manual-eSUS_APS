@@ -22,6 +22,8 @@ last_modified_date: "25/09/2023"
 - TOC
 {:toc}
 
+![](media/marcadoresconsumo.png)
+
 **Objetivo do formulário:** este remete à etapa inicial do Ciclo de Gestão e Produção do Cuidado, que corresponde ao uso do instrumento para avaliar as práticas alimentares e o registro das informações. Os formulários de marcadores de consumo alimentar propõem a avaliação de alimentos consumidos no dia anterior. Esse instrumento permite a identificação de marcadores positivos ou negativos da alimentação e, de maneira mais dinâmica, a composição de indicadores. Por meio da avaliação do consumo alimentar, o profissional da equipe de saúde pode orientar quanto às práticas alimentares adequadas e saudáveis.
 
 **Profissionais que utilizam esta ficha:** podem ser utilizados por qualquer profissional da equipe de Atenção Básica.
@@ -42,7 +44,7 @@ Figura 8.1 -- Cabeçalho do formulário de Marcadores de Consumo Alimentar
 
 ![](media/cds_image70.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 Quadro 8.1 -- Identificação e controle da digitação
 
@@ -63,7 +65,7 @@ Figura 8.2 -- Identificação do profissional e lotação
 
 ![](media/cds_image8.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 \* *Campo de preenchimento obrigatório.*
 
@@ -77,7 +79,7 @@ Quadro 8.2 -- Identificação do profissional e lotação
 |INE\*|Código Identificador Nacional de Equipes (INE) no Cadastro Nacional de Estabelecimentos de Saúde (CNES) do Ministério da Saúde, onde o profissional está lotado, seja equipes Saúde da Família, Nasf, CnR, etc. Este campo não é obrigatório para profissionais que não estão vinculados a equipes.
 |DATA\*|Dia/mês/ano em que foi realizado o registro no formulário.
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 \* *Campo de preenchimento obrigatório.*
 
@@ -92,7 +94,7 @@ Figura 8.3 -- Identificação do cidadão e local de atendimento
 
 ![](media/cds_image71.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 \* *Campo de preenchimento obrigatório.*
 
@@ -103,9 +105,9 @@ Quadro 8.3 -- Identificação do cidadão e local de atendimento
 |     CNS ou CPF DO CIDADÃO    |     Campo destinado ao número do Cartão   Nacional de Saúde (CNS) do cidadão que está em atendimento. Os números devem   ser inseridos no sentido vertical. Cidadãos sem o CNS poderão e deverão ser   atendidos pela equipe.     |
 |     NOME DO CIDADÃO*    |     Preencha o nome do cidadão.    |
 |     DATA DE NASCIMENTO*    |     Informe o dia, mês e ano do   nascimento do cidadão. Variável de verificação do CNS.     |
-|     SEXO*    |     Assinalar F – feminino ou M –   masculino.    |
+|     SEXO*    |     Assinalar F – feminino ou M –   masculino ou I - Indeterminado. |
 |     LOCAL DE ATENDIMENTO*    |     Informar o número referente ao   local em que foi realizado o atendimento do usuário, considerando as   seguintes opções:<br>     (01) UBS<br>      (02) Unidade Móvel<br>      (03) Rua<br>      (04) Domicílio<br>      (05) Escola/Creche<br>      (06) Outros<br>      (07)   Polo (Academia da Saúde) – denomina-se   polo a unidade (espaço físico) do Programa Academia da Saúde. É considerado   polo tanto a estrutura física construída especificamente para o   desenvolvimento do programa quanto o espaço físico destinado para tal fim nas   dependências de uma UBS, desde que o número de CNES desta UBS esteja   associado ao código 12 (estrutura de Academia da Saúde).<br>      (08)   Instituição/Abrigo – instituições para   acolhimento destinadas a famílias e/ou indivíduos com vínculos familiares   rompidos ou fragilizados, a fim de garantir proteção integral.<br>      (09) Unidade prisional ou congêneres   – cadeia pública, colônia agrícola,   industrial ou similar, casa do albergado, centro de observação e  hospital de custódia e tratamento   psiquiátrico.<br>      (10) Unidade socioeducativa – base física necessária para a organização   e o funcionamento de programa de atendimento de medidas socioeducativas.    |
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 \* *Campo de preenchimento obrigatório.*
 
@@ -121,7 +123,7 @@ Quadro 8.4 -- Marcadores de consumo alimentar para crianças menores de 6 meses
 
 ![](media/cds_image73.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 \* *Todas as questões do bloco devem ser respondidas.*
 
@@ -132,7 +134,7 @@ meses**
 
 ![](media/cds_image74.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 \* *Todas as questões do bloco devem ser respondidas.*
 
@@ -142,7 +144,7 @@ Quadro 8.6 -- Marcadores de consumo alimentar para crianças com 2 anos ou mais,
 
 ![](media/cds_image75.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 \* *Todas as questões do bloco devem ser respondidas.*
 
@@ -157,4 +159,4 @@ Quadro 8.7 -- Periodicidade de registro no formulário de marcadores de consumo 
 |Crianças até 2 anos|	Aos 15 dias de vida, 1 mês, 2, 4, 6, 9, 12, 18 e 24 meses|
 |Indivíduos a partir de 2 anos|	No mínimo, 1 registro por ano|
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*

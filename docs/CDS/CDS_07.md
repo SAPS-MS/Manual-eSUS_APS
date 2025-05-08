@@ -23,6 +23,10 @@ last_modified_date: "25/09/2023"
 - TOC
 {:toc}
 
+![](media/VISITADOMICILIAR.png)
+
+![](media/VISITADOMICILIAR2.png)
+
 **Objetivo da ficha:** registrar a atividade de visita ao cidadão ou a outros pontos do território adscrito da equipe da AB. As informações solicitadas na ficha foram selecionadas segundo a sua importância e por comporem indicadores de monitoramento e avaliação para a AB e para as Redes de Atenção à Saúde.
 
 **Profissionais que utilizam esta ficha:** o conceito de visita domiciliar foi redefinido. Dessa forma, agora é considerado apenas de competência do agente comunitário de saúde (ACS) e do agente de combate às endemias (ACE). Para todos os outros profissionais de saúde, nível médio e nível superior redefiniu-se como atendimento individual, e o local - domicílio.
@@ -51,7 +55,7 @@ Quadro 7.1 -- Identificação e controle da digitação
 |CONFERIDO POR|Nome do profissional que fez a supervisão do preenchimento da ficha.|
 |FOLHA Nº|Esse campo pode ser utilizado na organização do processo de trabalho do profissional que realizou o cadastro, através da inserção de numeração nas folhas.|
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 Os demais campos do cabeçalho são utilizados para identificar o profissional que realizou a visita domiciliar e territorial:
 
@@ -82,7 +86,7 @@ Para aumentar o número de registros identificados, a partir da versão 3.2.20 �
 
 Figura 7.3 -- Identificação do usuário e visita compartilhada
 
-![](media/cds_image63.png)
+![](media/fichavd.png)
 
 *Fonte: SAPS/MS.*
 
@@ -97,7 +101,7 @@ Quadro 7.3 -- Identificação do usuário e visita compartilhada
 |     Nº PRONTUÁRIO    |     Campo destinado ao número do prontuário   da família, próprio do estabelecimento de saúde. Este campo é usado como   referência da informação do paciente na própria unidade, para os casos em que   seja necessário fazer verificação dos dados.    |
 |     CNS ou CPF DO   CIDADÃO     |     Campo destinado ao número do Cartão Nacional de Saúde do cidadão   ou do responsável familiar, os números são   incluídos no sentido vertical. Para visita periódica ou visita para controle   vetorial utilizar o CNS do Responsável   Familiar.    |
 |     DATA DE NASCIMENTO    |     Informe o dia, mês e ano.   Variável de verificação do número do CNS.     |
-|     SEXO*    |     Assinalar F – feminino ou M – masculino.    |
+|     SEXO*    |     Assinalar F – feminino ou M – masculino ou I - Indeterminado. |
 |     VISITA COMPARTILHADA COM   OUTRO PROFISSIONAL    |     Campo utilizado para   identificar se a visita de um ACS ou ACE foi realizada com outro   profissional. Marque um “X” na linha quando for o caso.    |
 
 *Fonte: SAPS/MS.*
@@ -170,6 +174,7 @@ Quadro 7.6 -- Motivo de visita -- Acompanhamento
 |     EGRESSO DE   INTERNAÇÃO    |     Acompanhamento   de usuários egressos de internação.    |
 |     CONVITE   ATIVIDADES COLETIVAS/CAMPANHA DE SAÚDE    |     Convite a   alguma atividade realizada pela equipe no território ou sob sua supervisão.    |
 |     ORIENTAÇÃO/PREVENÇÃO    |     Realização   de orientações relacionadas às   condições de saúde e situações apresentadas pelo cidadão   ou para prevenção de agravos.    |
+|     PESSOA IDOSA  |     Pessoas com 60 anos ou mais.    |
 |     OUTROS    |     Outras   ações que não constam nas descrições acima.    |
 
 *Fonte: SAPS/MS.*
@@ -263,4 +268,4 @@ Quadro 7.10 -- Desfecho
 *Fonte: SAPS/MS.*
 
 {: .atencao }
-quando a visita for recusada ou o cidadão estiver ausente, o profissional deverá apontar um dos desfechos: "Visita recusada" ou "Ausente", lembrando sempre de preencher a identificação do profissional, lotação e data, para que seja possível a inserção da ficha no sistema.
+Quando a visita for recusada ou o cidadão estiver ausente, o profissional deverá apontar um dos desfechos: "Visita recusada" ou "Ausente", lembrando sempre de preencher a identificação do profissional, lotação e data, para que seja possível a inserção da ficha no sistema.

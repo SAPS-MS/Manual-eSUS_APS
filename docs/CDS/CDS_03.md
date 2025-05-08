@@ -23,6 +23,12 @@ last_modified_date: "25/09/2023"
 - TOC
 {:toc}
 
+![](media/fichatendimentoindividual.png)
+
+
+![](media/fichatendimentoindividual1.png)
+
+
 **Objetivo da ficha:** registro das informações de atendimentos individuais realizados por profissionais de nível superior na Atenção Básica. Não objetiva esgotar todo o processo de atendimento de um indivíduo e também não substitui o registro clínico feito no prontuário clínico de papel. As informações que constam na ficha foram selecionadas segundo a sua relevância e por comporem indicadores de monitoramento e avaliação da AB e das Redes de Atenção à Saúde.
 
 **Profissionais que utilizam esta ficha:** É utilizada por profissionais de nível superior das equipes de Atenção Básica, do Núcleo de Apoio à Saúde da Família (NASF), do Polo Academia da Saúde, do Consultório na Rua (eCR) e das equipes de Atenção Básica Prisional (eABP), com exceção do cirurgião-dentista, que preenche a Ficha de Atendimento Odontológico Individual (específica para ESB).
@@ -43,7 +49,7 @@ Figura 3.1 -- Identificação e controle da digitação da ficha
 
 ![](media/cds_image21.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 Quadro 3.1 -- Identificação e controle da digitação
 
@@ -54,7 +60,7 @@ Quadro 3.1 -- Identificação e controle da digitação
 |CONFERIDO POR|Nome do profissional que fez a supervisão do preenchimento da ficha.|
 |FOLHA Nº|Este campo pode ser utilizado na organização do processo de trabalho do profissional que realizou o cadastro, por meio da inserção de numeração das folhas.|
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 ## 3.2 Identificação do(s) profissional(is) e lotação(ões)
 
@@ -64,7 +70,7 @@ Figura 3.2 -- Identificação do(s) profissional(is) e lotação(ões)
 
 ![](media/cds_image22.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 Quadro 3.2 -- Identificação do(s) profissional(is) e lotação(ões)
 
@@ -76,7 +82,7 @@ Quadro 3.2 -- Identificação do(s) profissional(is) e lotação(ões)
 |INE*|Código Identificador Nacional de Equipes (INE) no Cadastro Nacional de Estabelecimentos de Saúde (CNES) do Ministério da Saúde, onde o profissional está lotado, seja equipes Saúde da Família, NASF, CnR, etc. Este campo não é obrigatório para profissionais que não estão vinculados a equipes.|
 |DATA*|Dia/mês/ano em que foram realizados os atendimentos.|
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 \* *Campo de preenchimento obrigatório.*
 
@@ -92,7 +98,7 @@ Figura 3.3 -- Identificação do cidadão e local de atendimento
 
 ![](media/cds_image23.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 Quadro 3.3 -- Identificação dos cidadãos e local de atendimento
 
@@ -103,10 +109,10 @@ Quadro 3.3 -- Identificação dos cidadãos e local de atendimento
 |     Nº PRONTUÁRIO    |     Campo destinado ao número do prontuário   da família no estabelecimento de saúde. Este campo é usado como referência da   informação do paciente na unidade, para os casos em que seja necessário fazer   verificação dos dados.    |
 |     CNS ou CPF   DO CIDADÃO    |     Campo destinado ao número do Cartão   Nacional de Saúde (CNS) do cidadão que está em atendimento. Os números devem   ser inseridos no sentido vertical. Cidadãos sem o CNS poderão e deverão ser   atendidos pela equipe.     |
 |     DATA DE NASCIMENTO*     |     Informe o dia, mês e ano do nascimento do   cidadão. Variável de verificação do CNS.     |
-|     SEXO*    |     Assinalar F – feminino ou M – masculino.    |
+|     SEXO*    |     Assinalar F – feminino ou M – masculino ou Indeterminado    |
 |     LOCAL DE ATENDIMENTO*    |     Informar o número referente ao local em   que foi realizado o atendimento do usuário, considerando as seguintes opções:     (01) UBS - Unidade Básica de Saúde     (02) Unidade Móvel     (03) Rua     (04) Domicílio     (05) Escola/Creche     (06) Outros     (07) Polo (Academia da Saúde) – denomina-se polo a unidade (espaço físico) do Programa Academia da   Saúde. É considerado polo tanto a estrutura física construída especificamente   para o desenvolvimento do programa quanto o espaço físico destinado para tal   fim nas dependências de uma UBS, desde que o número de CNES desta UBS esteja   associado ao código 12 (estrutura de Academia da Saúde).     (08) Instituição/Abrigo – instituições para acolhimento destinadas a famílias e/ou indivíduos   com vínculos familiares rompidos ou fragilizados, a fim de garantir proteção   integral.     (09) Unidade prisional ou congêneres – cadeia pública, colônia agrícola,   industrial ou similar, casa do albergado, centro de observação e hospital de   custódia e tratamento psiquiátrico.     (10) Unidade socioeducativa – base física necessária para a organização   e o funcionamento de programa de atendimento de medidas socioeducativas.    |
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 \* *Campo de preenchimento obrigatório.*
 
@@ -129,7 +135,7 @@ Figura 3.4 - Tipo de atendimento
 
 ![](media/cds_image25.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 \* *Campo de preenchimento obrigatório.*
 
@@ -151,7 +157,7 @@ Figura 3.5: Atenção Domiciliar e Racionalidades em Saúde
 
 ![](media/cds_image26.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPsS/MS.*
 
 ### 3.4.2 Atenção Domiciliar
 
@@ -180,7 +186,7 @@ Quadro 3.6 -- Racionalidade em Saúde
 |-|
 |Tipos de racionalidades em saúde	●	01 - Medicina Tradicional Chinesa<br> ●	02 - Antroposofia Aplicada à Saúde<br> ●	03 - Homeopatia <br> ●	04 - Fitoterapia <br> ●	05 - Ayurveda <br> ●	06 - Outra (Caso a racionalidade utilizada seja a Alopatia/ Convencional, deixar este campo em branco)|
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 
 ### 3.4.4 Avaliação antropométrica
@@ -191,7 +197,7 @@ Figura 3.6 - Avaliação antropométrica
 
 ![](media/cds_image27.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 Quadro 3.7 -- Avaliação antropométrica
 
@@ -211,7 +217,7 @@ Figura 3.6 -- Vacinação em dia, criança, gestante
 
 ![](media/cds_image27_2.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 
 Quadro 3.8 -- Vacinação em dia, criança, gestante
@@ -222,7 +228,7 @@ Quadro 3.8 -- Vacinação em dia, criança, gestante
 |     CRIANÇA     Aleitamento Materno          |     Utilizar o número indicado na   legenda:<br> 01 – Aleitamento materno exclusivo (AME) – quando a criança recebe somente leite   materno, da mama ou ordenhado, ou leite humano de outra fonte, sem outros   líquidos ou sólidos, com exceção de medicamentos, sais de reidratação oral e   vitaminas.<br> 02 – Aleitamento materno predominante (AMP) – quando a criança recebe, além do   leite materno, água ou bebidas à base de água (água adocicada, chás,   infusões, sucos de frutas).<br>  03 – Aleitamento materno complementado (AMC) – quando a criança recebe, além do   leite materno, qualquer alimento sólido ou semissólido com a finalidade de   complementá-lo, e não de substituí-lo. Nessa categoria, a criança pode   receber, além do leite materno, outro tipo de leite.<br> 04 – Aleitamento materno inexistente (AMI) – a criança ingere alimentos sólidos e   semissólidos, sem o leite materno.    |
 |     GESTANTE    |     **DUM** (dia/mês/ano): informar dia, mês e ano da última menstruação da gestante.<br>      **Gravidez planejada**: assinalar se a gestação foi planejada ou não.   <br>   **Idade gestacional (semanas)**: registrar com quantas semanas de gestação a mulher se   encontra. Não preencher os dias, apenas as semanas.  <br>    **Gestas prévias/partos**: preencher número de gestações anteriores à atual (não incluir a   gestação atual) e o número de partos. Não incluir em “partos” casos de   aborto. Exemplo: mulher é atendida   em sua terceira gestação. Tem uma filha e história de um aborto. O   preenchimento na ficha será 2/1 ou 02/01, ou seja, duas gestações prévias e   um parto.    |
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 ### 3.4.6 Problema/condição avaliada
 
@@ -246,7 +252,7 @@ Figura 3.7 -- Problema/condição avaliada
 
 ![](media/cds_image29.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SASP/MS.*
 
 \* *Campo de preenchimento obrigatório.*
 
@@ -264,7 +270,7 @@ Figura 3.7 -- Problema/condição avaliada
 |**OUTROS**||
 |CIAP-2 e CID-10|Caso o problema não esteja descrito no bloco "problema/condição avaliada", pode ser utilizado o campo "**Outros**" para esse registro, utilizando os códigos CIAP-2 e/ou CID-10.|
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 \* *Campo de preenchimento obrigatório.*
 
@@ -276,7 +282,7 @@ Figura 3.8 -- Bloco de exames solicitados (S) e avaliados (A)
 
 ![](media/cds_image30.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 Quadro 3.10 -- Exames solicitados (S) e avaliados (A)
 
@@ -286,7 +292,7 @@ Quadro 3.10 -- Exames solicitados (S) e avaliados (A)
 |**TRIAGEM NEONATAL**<br>TESTE DA ORELHINHA (EOA), TESTE DO OLHINHO (TRV), TESTE DO PEZINHO|	O campo “S” deve ser assinalado com um “X” quando o exame for solicitado na consulta; o campo “A” deve ser assinalado com um “X” quando o resultado desse tipo de exame for avaliado pelo profissional durante o atemdimento.|
 |OUTROS EXAMES (código do SIGTAP)|	Campo destinado para registro de exames que não se encontram listados acima. Utilizar código do SIGTAP. Saiba mais: http://sigtap.datasus.gov.br/tabela-unificada/app/sec/inicio.jsp |
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 ### 3.4.8 Ficou em observação?
 
@@ -296,14 +302,14 @@ Figura 3.9 - Ficou em observação?
 
 ![](media/cds_image31.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 Quadro 3.11 - Ficou em observação?
 
 |CAMPO|ORIENTAÇÃO SOBRE O BLOCO/PREENCHIMENTO|
 |FICOU EM OBSERVAÇÃO?|Deve ser marcado "**Sim**" quando o cidadão necessitou ficar em observação serviço de saúde, com ou sem medicação, para recuperação do seu estado de saúde ou estabilização, e/ou aguardando ser encaminhado para outro ponto da rede. Caso contrário, deve ser marcado a opção **"Não"**.|
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 {: .atencao }
 **concluído** o tempo de **observação**, o campo "**Conduta**" **deve** ser **informado** normalmente, por exemplo, informando se o cidadão foi "Encaminhamento para urgência" ou se teve "Alta do episódio", de acordo com cada caso.
@@ -328,7 +334,7 @@ Quadro 3.12 -- Campo exclusivo para uso dos profissionais do NASF e Polo Academi
 |PROCEDIMENTOS CLÍNICOS/TERAPÊUTICOS|Deve ser marcado sempre que ocorrer intervenção (manipulações osteoarticulares, exercícios respiratórios, estimulações neurossensoriais, exercícios ortoarticulares, exercícios de equilíbrio, psicoterapia, entre outras).|
 |PRESCRIÇÃO TERAPÊUTICA|Deve ser marcado sempre que ocorrerem prescrições, orientações e recomendações (prescrições de atividades psicoterapêuticas, recomendações para o usuário -- como dietas, exercícios, adaptações no domicílio para atender às demandas relacionadas à funcionalidade e à autonomia, entre outras).|
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 ### 3.4.10 Conduta/Desfecho
 
@@ -338,7 +344,7 @@ Figura 3.11 - Conduta
 
 ![](media/cds_image33.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 Quadro 3.13 -- Conduta
 
@@ -347,7 +353,7 @@ Quadro 3.13 -- Conduta
 |RETORNO PARA CONSULTA AGENDADA|Conduta atribuída no momento do atendimento em consulta ou em escuta inicial que demande o agendamento de nova consulta. Não devem ser marcados aqui os retornos que caracteristicamente sejam de cuidado continuado ou programado.
 |RETORNO PARA CUIDADO CONTINUADO/PROGRAMADO|Conduta aplicada aos casos em que for necessário o retorno para continuidade do cuidado, como condições crônicas ou de acompanhamento prolongado.|
 |AGENDAMENTO PARA GRUPOS|Assinalar quando o usuário for orientado a participar de algum grupo terapêutico, de educação em saúde ou de convivência.|
-|AGENDAMENTO PARA NASF|Campo utilizado para registrar o agendamento do cidadão para os profissionais do NASF.|
+|AGENDAMENTO PARA e-Multi|Campo utilizado para registrar o agendamento do cidadão para os profissionais do NASF.|
 |ALTA DO EPISÓDIO|Utilizado para identificar os atendimentos realizados sem a necessidade de retorno referente ao problema ou condição apresentada.|
 |ENCAMINHAMENTO INTERNO NO DIA|Assinalar quando, após o atendimento, o usuário for encaminhado para atendimento de outro profissional da UBS.|
 |ENCAMINHAMENTO PARA SERVIÇO ESPECIALIZADO|Utilizado para registrar os casos em que for necessário fazer encaminhamento do usuário para serviço especializado.

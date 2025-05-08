@@ -22,6 +22,10 @@ last_modified_date: "25/09/2023"
 - TOC
 {:toc}
 
+![](media/atendimentodontologico.png)
+
+![](media/atendimentodontologico1.png)
+
 **Objetivo da ficha:** registrar as informações do atendimento individual realizado pela equipe de Saúde Bucal na Atenção Básica.
 
 **Profissionais que utilizam esta ficha:** os profissionais da Atenção Básica aptos a fazer o uso dela são: cirurgião-dentista e técnico em saúde bucal (TSB), além do auxiliar em saúde bucal (ASB) quando acompanhar o atendimento com o cirurgião-dentista.
@@ -36,7 +40,7 @@ Figura 4.1 - Cabeçalho do formulário de Marcadores de Consumo Alimentar**
 
 ![](media/cds_image39.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 Quadro 4.1 -- Identificação e controle da digitação
 
@@ -47,7 +51,7 @@ Quadro 4.1 -- Identificação e controle da digitação
 |CONFERIDO POR|   Nome do profissional que conferiu o correto preenchimento da ficha.|
 |FOLHA Nº|        Este campo pode ser utilizado na organização do processo de trabalho do profissional que realizou o registro, por meio da inserção de numeração das folhas.|
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 ## 4.2 Identificação do(s) profissional(is) e lotação(ões)
 
@@ -57,7 +61,7 @@ Figura 4.2 -- Identificação do(s) profissional(is) e lotação(ões)
 
 ![](media/cds_image22.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 Quadro 4.2 -- Identificação do(s) profissional(is) e lotação(ões)
 
@@ -69,7 +73,7 @@ Quadro 4.2 -- Identificação do(s) profissional(is) e lotação(ões)
 |INE*|                   Código Identificador Nacional de Equipes (INE) no Cadastro Nacional de Estabelecimentos de Saúde (CNES) do Ministério da Saúde, onde o profissional está lotado, seja equipes Saúde da Família, Nasf, CnR, etc. Este campo não é obrigatório para profissionais que não estão vinculados a equipes.
 |DATA*|                  Dia/mês/ano em que foram realizados os atendimentos.
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 \* *Campo de preenchimento obrigatório.*
 
@@ -82,7 +86,7 @@ Figura 4.3 -- Identificação do cidadão e local de atendimento e condição de
 
 ![](media/cds_image40.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 Quadro 4.3 - Identificação do cidadão e local de atendimento e condição de saúde
 
@@ -93,12 +97,12 @@ Quadro 4.3 - Identificação do cidadão e local de atendimento e condição de 
 |     Nº PRONTUÁRIO    |     Campo destinado ao   número do prontuário da família no estabelecimento de saúde. Este campo é   usado como referência da informação do paciente na unidade, para os casos em   que seja necessário fazer verificação dos dados.    |
 |     CNS ou CPF DO CIDADÃO    |     Campo destinado ao   número do Cartão Nacional de Saúde (CNS) do cidadão que está em atendimento.   Os números devem ser inseridos no sentido vertical. Cidadãos sem o CNS   poderão e deverão ser atendidos pela equipe.     |
 |     DATA DE NASCIMENTO*     |     Informe o dia, mês e ano   do nascimento do cidadão. Variável de verificação do CNS.     |
-|     SEXO*    |     Assinalar F – feminino   ou M – masculino.    |
+|     SEXO*    |     Assinalar F – feminino   ou M – masculino ou I - Indeterminado    |
 |     LOCAL DE ATENDIMENTO*    |     Informar o número   referente ao local em que foi realizado o atendimento do cidadão,   considerando as seguintes opções:     (01) UBS - Unidade   Básica de Saúde     (02) Unidade Móvel     (03) Rua     (04) Domicílio     (05) Escola/Creche     (06) Outros     (07) Polo (Academia da Saúde) – denomina-se polo a unidade (espaço físico)   do Programa Academia da Saúde. É considerado polo tanto a estrutura física construída   especificamente para o desenvolvimento do programa quanto o espaço físico   destinado para tal fim nas dependências de uma UBS, desde que o número de   CNES desta UBS esteja associado ao código 12 (estrutura de Academia da   Saúde).     (08) Instituição/Abrigo – instituições para acolhimento destinadas a   famílias e/ou indivíduos com vínculos familiares rompidos ou fragilizados, a   fim de garantir proteção integral.     (09) Unidade prisional   ou congêneres – cadeia pública, colônia   agrícola, industrial ou similar, casa do albergado, centro de observação e   hospital de custódia e tratamento psiquiátrico.     (10) Unidade   socioeducativa – base física necessária   para a organização e o funcionamento de programa de atendimento de medidas   socioeducativas.    |
 |     PACIENTE COM NECESSIDADES   ESPECIAIS    |     Marque com um “x” caso o usuário seja uma   pessoa com necessidades especiais.     Na odontologia, é considerado paciente   com necessidades especiais todo usuário que apresente uma ou mais limitações,   temporárias ou permanentes, de ordem mental, física, sensorial, emocional, de   crescimento ou médica, que o impeça de ser submetido a uma situação   odontológica convencional. As razões das necessidades especiais são inúmeras   e vão desde doenças hereditárias e defeitos congênitos até alterações que ocorrem   durante a vida, como moléstias sistêmicas, alterações comportamentais,   envelhecimento etc.     Para saber mais, acesse o Caderno de Atenção Básica nº 17 – Saúde Bucal – no   endereço eletrônico    <http://bvsms.saude.gov.br/bvs/publicacoes/saude_bucal.pdf>    |
 |     GESTANTE    |     Marque com um “x” caso a usuária esteja   gestante, independentemente do período gestacional.    |
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 \* *Campo de preenchimento obrigatório.*
 
@@ -116,7 +120,7 @@ Figura 4.4 - Tipo de atendimento
 
 ![](media/cds_image42.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 \* *Campo de preenchimento obrigatório.*
 
@@ -130,7 +134,7 @@ Quadro 4.4 -- Tipo de atendimento
 |CONSULTA NO DIA|É a consulta que é realizada no mesmo dia em que o usuário busca o serviço, de caráter não urgente. Pode representar também a consulta realizada no dia por haver disponibilidade na agenda do profissional Por exemplo, um usuário procura a UBS para atendimento odontológico sem relato de urgência; e, ao verificar disponibilidade na agenda, o profissional realiza o atendimento no mesmo dia e mediante a necessidade garante o retorno do usuário para continuidade do tratamento.|
 |ATENDIMENTO DE URGÊNCIA|É o atendimento realizado ao usuário acometido por quadros agudos ou agudizações de patologias crônicas, podendo haver possibilidade de agravamento do quadro que determina a necessidade de assistência imediata para alívio do sofrimento físico e/ou psíquico, recuperação do estado de saúde, estabilização/suporte de vida e/ou encaminhamento a outro ponto da rede quando necessário, por exemplo usuário procura atendimento odontológico com queixa de dor dentária espontânea, necessita de atendimento odontológico no mesmo turno.|
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 \* C*ampo de preenchimento obrigatório.*
 
@@ -142,7 +146,7 @@ Este bloco visa a indicar qual o tipo de consulta realizada. Para tanto, marque 
 
 ![](media/cds_image43.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 \* *Campo de preenchimento obrigatório.*
 

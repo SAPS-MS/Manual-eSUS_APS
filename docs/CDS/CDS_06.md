@@ -22,6 +22,11 @@ last_modified_date: "25/09/2023"
 - TOC
 {:toc}
 
+![](media/fichaprocedimentos.png)
+
+![](media/fichaprocedimentos2.png)
+
+
 **Objetivo da ficha:** registrar os procedimentos realizados na Atenção Básica. Ela, identifica os procedimentos que foram feitos por determinado profissional, em ato, diferentemente da Ficha de Atendimento Individual, em que são registradas a solicitação e a avaliação de procedimentos de exames, por exemplo.
 
 **Profissionais que utilizam esta ficha:** é utilizada pelos profissionais de equipes da Saúde da Família, de Saúde Prisional, dos Núcleos de Apoio à Saúde da Família, da Academia da Saúde, de Consultório na Rua e outras equipes de AB. Todos os profissionais de nível superior são habilitados a preenchê-la (médico, enfermeiro, fisioterapeuta, nutricionista, etc.) ou de nível médio (técnicos e auxiliares de enfermagem) da área da saúde, com exceção da equipe de Saúde Bucal (que utiliza a Ficha de Atendimento Odontológico Individual).
@@ -36,7 +41,7 @@ Figura 6.1 -- Cabeçalho da Ficha de Procedimentos
 
 ![](media/cds_image56.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 Quadro 6.1 -- Identificação e controle da digitação
 
@@ -47,7 +52,7 @@ Quadro 6.1 -- Identificação e controle da digitação
 |CONFERIDO POR|Nome do profissional que conferiu o correto preenchimento da ficha.|
 |FOLHA Nº|Este campo pode ser utilizado na organização do processo de trabalho do profissional que realizou o procedimento, por meio da inserção de numeração das folhas.|
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 ## 6.2 Identificação do profissional e do estabelecimento de saúde
 
@@ -57,7 +62,7 @@ Figura 6.2 -- Identificação do profissional e lotação
 
 ![](media/cds_image8.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 Quadro 6.2 - Identificação do profissional e lotação
 
@@ -69,7 +74,7 @@ Quadro 6.2 - Identificação do profissional e lotação
 |INE*|Código Identificador Nacional de Equipes (INE) no Cadastro Nacional de Estabelecimentos de Saúde (CNES) do Ministério da Saúde, onde o profissional está lotado, seja equipes Saúde da Família, Nasf, CnR, etc. Este campo não é obrigatório para profissionais que não estão vinculados a equipes.|
 |DATA*|Dia/mês/ano em que foram realizados os procedimentos.|
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 \* *Campo de preenchimento obrigatório.*
 
@@ -86,7 +91,7 @@ Figura 6.3 -- Identificação dos cidadãos, local de atendimento e escuta inici
 
 ![](media/cds_image57.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 Quadro 6.3 -- Dados dos usuários, local de atendimento e escuta inicial/orientação
 
@@ -97,10 +102,10 @@ Quadro 6.3 -- Dados dos usuários, local de atendimento e escuta inicial/orienta
 |     Nº PRONTUÁRIO    |     Campo destinado ao número do prontuário   da família no   estabelecimento de saúde. Este campo é usado como referência da informação do   paciente na unidade, para os casos em que seja necessário fazer verificação   dos dados.    |
 |     CNS DO CIDADÃO    |     Campo destinado ao número do Cartão Nacional de   Saúde (CNS) do cidadão que está em atendimento. Os   números devem ser inseridos no sentido   vertical. Cidadãos sem o CNS poderão e   deverão ser atendidos pela equipe.     |
 |     DATA DE NASCIMENTO*    |     Informe o dia, mês e ano do nascimento   do cidadão. Variável de verificação do CNS.     |
-|     SEXO*    |     Assinalar F – feminino ou M –   masculino.    |
+|     SEXO*    |     Assinalar F – feminino ou M –   masculino ou I - Indeterminado.  |
 |     LOCAL DE ATENDIMENTO*    |     Informar o número referente   ao local em que foi realizado o atendimento do usuário, considerando as   seguintes opções:     (01) UBS     (02) Unidade Móvel     (03) Rua     (04) Domicílio     (05) Escola/Creche     (06) Outros     (07) Polo (Academia da Saúde) – denomina-se polo a unidade (espaço físico)   do Programa Academia da Saúde. É considerado polo tanto a estrutura física   construída especificamente para o desenvolvimento do programa quanto o espaço   físico destinado para tal fim nas dependências de uma UBS, desde que o número   de CNES desta UBS esteja associado ao código 12 (estrutura de Academia da   Saúde).     (08) Instituição/Abrigo – instituições para acolhimento destinadas a   famílias e/ou indivíduos com vínculos familiares rompidos ou fragilizados, a   fim de garantir proteção integral.     (09) Unidade prisional ou   congêneres – cadeia pública, colônia   agrícola, industrial ou similar, casa do albergado, centro de observação   e  hospital de custódia e tratamento   psiquiátrico.     (10) Unidade socioeducativa –   base física necessária para a   organização e o funcionamento de programa de atendimento de medidas   socioeducativas.    |
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 \* *Campo de preenchimento obrigatório.*
 
@@ -122,7 +127,7 @@ Figura 6.4 -- Procedimentos/pequenas cirurgias
 
 ![](media/cds_image58.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 O profissional deverá marcar um "x" na opção da linha correspondente ao procedimento realizado.
 
@@ -135,7 +140,7 @@ Figura 6.5 -- Registro de outros procedimentos
 
 ![](media/cds_image59.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*
 
 {: .nota }
 para mais informações sobre o **SIGTAP** acesse: http://sigtap.datasus.gov.br/tabela-unificada/app/sec/inicio.jsp.
@@ -153,4 +158,4 @@ Figura 6.6 -- Registro de procedimentos consolidados
 
 ![](media/cds_image60.png)
 
-*Fonte: SAS/MS.*
+*Fonte: SAPS/MS.*

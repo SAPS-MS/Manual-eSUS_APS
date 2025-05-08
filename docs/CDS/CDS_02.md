@@ -33,6 +33,9 @@ novos conceitos! A visão de território agora está ampliada. Além de cadastra
 
 ## 2.1 Cadastro Individual
 
+
+![](media/fichacadastroindividual.png)
+
 **Objetivo da ficha:** registrar as condições de saúde, características sociais, econômicas, demográficas, entre outras, dos usuários no território das equipes de AB. É composta por duas partes: informações de identificação/sociodemográficas e condições de saúde autorreferidas pelo usuário.
 
 **Profissionais que utilizam esta ficha:** Todos os membros das Equipes que atuam na Atenção Básica. Todos os profissionais são habilitados a preencher a ficha de Cadastro Individual.
