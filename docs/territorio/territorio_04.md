@@ -60,9 +60,11 @@ Figura 4.3 - Tela visita ao cidadão
 {: .atualizacao }
 A partir da versão 3.2, além da possibilidade de registrar a antropometria e se a "visita foi acompanhada por outro profissional", também é possível registrar os sinais vitais (temperatura e pressão arterial), assim como o momento da coleta da glicemia capilar.
 
+A partir da versão 4.4.4 foi incluso como opção na visita o  acompanhamento "pessoa idosa". 
+
 Figura 4.4 - Tela visita ao cidadão
 
-![](media/image118.png)
+![](media/telavisita.png)
 
 *Fonte: SAPS/MS*
 

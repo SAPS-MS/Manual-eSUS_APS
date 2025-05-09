@@ -272,6 +272,7 @@ Este cadastro é formado por quatro blocos de informações:
 - Informações complementares; e
 - Compartilhamento de prontuário.
 
+
 ### 4.5.1 Dados pessoais
 
 O bloco de dados pessoais identifica o cidadão por meio do Cartão Nacional de Saúde (CNS) e/ou CPF, além do preenchimento dos dados obrigatórios: nome completo, data de nascimento, sexo, raça/cor, nome da mãe e nome do pai ( que pode ser registrado como informação desconhecida). Permite informar também um nome social caso o cidadão possua. 
@@ -304,38 +305,14 @@ Fonte: SAPS/MS.
 
 ### 4.5.4 Equipe responsável pelo cidadão
 
-Este recurso permite a vinculação dos cidadãos às equipes de saúde, apresentando duas formas de informar a vinculação: 
+Este recurso permite a visualização da equipe de saúde vinculada ao cidadão, apresentando a unidade e equipe responsável. Esta informação de vínculo com a equipe responsável é gerada de forma automática advinda das informações preenchidas no cadastro individual. 
 
-**Automática:** quando a caixa "Utilizar informação do cadastro indvidual do cidadão" é marcada, a equipe responsável será sempre a última a atualizar o cadastro individual do cidadão. 
-**Manualmente:** quando a caixa "Utilizar informação do cadastro indvidual do cidadão" é desmarcada, o vínculo será sempre alterado manualmente. 
+![](media/equiperesponsavel.png)
+Fonte: SAPS/MS.
 
- A partir dessa vinculação a equipe será responsável pelo acompanhamento do cidadão. Caso o cidadão não esteja vinculado a nenhuma equipe este bloco irá ser apresentado da seguinte forma:
+ {: .nota }
+A partir da versão 5.3.31, não será mais possível selecionar uma equipe diferente da informada no Cadastro Individual do cidadão.
 
-Figura 4.15 - Cidadão sem equipe vinculada
-
-![](media/pec_image258.png)
-Fonte: SAPS/MS
-
-Para vincular o cidadão, clique no botão "Vincular Equipe", que será apresentada uma lista com as equipes disponíveis.
-
-Figura 4.16 - Vincular equipe responsável, selecionar equipe
-
-![](media/pec_image259.png)
-
-Caso haja registro de vinculação do cidadão a uma equipe, o sistema apresentará as informações da seguinte forma: 
-
-Figura 4.17 - Equipe responsável pelo cidadão
-
-![](media/pec_image260.png)
-Fonte: SAPS/MS
-
-Caso o cidadão opte por ser acompanhado por outra equipe, clique no botão ![](media/pec_image261.png), desmarque a opção "Utilizar a informação do cadastro individual do cidadão", selecione a equipe responsável e clique em Salvar.
-
-Caso o cidadão tenha um cadastro individual e deseja manter o acompanhamento com a mesma equipe de cadastro individual, mantenha selecionada a opção "Utilizar a informação do cadastro individual do cidadão" e clique em Salvar.
-
-Figura 4.18 - Vincular equipe responsável
-
-![](media/pec_image262.png)
 
 {: .atencao }
 Pessoas não cadastradas na equipe podem ser atendidas normalmente, porém o acompanhamento de saúde deve ser realizado pela equipe responsável.

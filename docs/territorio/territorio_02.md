@@ -146,3 +146,9 @@ A tela de autenticação apresenta dois campos de preenchimento obrigatório:
 
 {: .nota }
 A **senha de acesso** para o Aplicativo é a mesma utilizada pelo agente de saúde no PEC.
+
+
+
+A partir da versão 4.4.4 foi realizada a correção na exibição de notificações em dispositivos com Android 13 e superiores.
+
+

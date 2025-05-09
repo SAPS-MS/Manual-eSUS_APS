@@ -4,7 +4,7 @@ title: e-SUS Atividade Coletiva
 nav_order: 5
 nav_exclude: false
 has_children: true
-last_modified_date: "25/09/2023"
+last_modified_date: "08/05/2025"
 description: "Manual e-SUS APS"
 permalink: /docs/ac
 ---
@@ -23,7 +23,7 @@ MANUAL DE USO
 {: .text-center }
 <br>
 <br>
-(versão 1.5.14)
+(versão 1.5.17)
 {: .fs-6 }
 {: .text-center }
 <br>

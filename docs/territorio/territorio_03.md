@@ -299,16 +299,26 @@ Figura 3.21 - Tela Cadastrar cidadão
 Na quarta etapa, os profissionais devem obrigatoriamente solicitar do cidadão informações para os campos orientação sexual e identidade de gênero.
 
 Figura 3.22 - Tela Cadastrar cidadão
+
 ![](media/image54.png)
 *Fonte: SAPS/MS*
 
 -   Quinta e sexta etapa: Condições/situações de saúde, selecione a resposta (Sim ou Não) às questões conforme a pergunta indicada no quadro;
 
 Figura 3.23 - Tela Cadastrar cidadão
+
 ![](media/image55.png)
 Fonte: SAPS/MS.
 
+
 - Sétima etapa: Informações sócioeconômicas, selecione a respota (sim ou não) às questões conforme a pergunta indicada no quadro.
+
+A partir da versão 4.4.4 adicionada a opção "Espectro autista - TEA" ao informar deficiência no cadastro do cidadão.
+
+![](media/tea.png)
+Fonte: SAPS/MS.
+
+Esta opção deve ser selecionada para os cidadãos que tenham recebido diagnóstico confirmado por avaliação profissional. Conforme o §2º da [Lei nº 12.764](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12764.htm), *“A pessoa com transtorno do espectro autista é considerada pessoa com deficiência, para todos os efeitos legais.”* 
 
 Figura 3.24 - Tela Cadastrar cidadão
 ![](media/image56.png)
@@ -319,7 +329,10 @@ Fonte: SAPS/MS.
 {: .nota }
 Caso tenha sido cadastrado em situação de rua, será exibida uma oitava etapa com questões pertinentes à tal situação.
 
- Pessoas em situação de rua, poderão ser cadastradas onde identificam sua moradia, caso isso não seja possível, orienta-se cadastrar no endereço da Unidade de Saúde.  
+ Pessoas em situação de rua, poderão ser cadastradas onde identificam sua moradia, caso isso não seja possível, orienta-se cadastrar no endereço da Unidade de Saúde. 
+
+A partir da versão 4.4.4 ao carregar dados de um cidadão, agora as informações das etapas 3 a 8 também são carregadas automaticamente.
+
 
 ### 3.3.2 Recusa do Cadastro de Cidadão
 
