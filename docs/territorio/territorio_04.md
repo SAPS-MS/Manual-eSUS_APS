@@ -75,8 +75,11 @@ O registro dos campos sinais vitais (temperatura e pressão arterial) e glicemia
 A partir da versão 4.3.0 a funcionalidade de campo de anotações no cadastro de visitas. Este espaço é reservado para informações que o TACS e ACS considerem relevantes, por exemplo: problemas reportados pelos cidadãos, tratamentos e/ou qualquer acompanhamento que considerar necessário. Essas anotações poderão ser consultadas no histórico das visitas.  
 
 Figura 4.5 - Tela visita ao cidadão
+
 ![](media/image119.png)
+
 *Fonte: SAPS/MS*
+
 ## 4.2 Visitar Família
 Quando não houver um motivo de busca ativa ou acompanhamento, a visita familiar é destinada a abordagem familiar, caracterizando-se como "Visita Periódica" que também faz parte da rotina dos TACS e ACS.
 

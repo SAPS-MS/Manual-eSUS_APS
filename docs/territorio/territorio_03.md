@@ -320,9 +320,14 @@ Fonte: SAPS/MS.
 
 Esta opção deve ser selecionada para os cidadãos que tenham recebido diagnóstico confirmado por avaliação profissional. Conforme o §2º da [Lei nº 12.764](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12764.htm), *“A pessoa com transtorno do espectro autista é considerada pessoa com deficiência, para todos os efeitos legais.”* 
 
-Figura 3.24 - Tela Cadastrar cidadão
+Faça as duas perguntas da TRIA para o cidadão e registre a resposta com uma das opções: “sim” ou “não”. Essas informações são importantes para rastrear o Risco de insegurança alimentar da família.
+
+Figura 3.24 - Socioeconômico
+
 ![](media/image56.png)
 Fonte: SAPS/MS.
+
+Refazer as perguntas no intervalo de três a seis meses para verificar possíveis mudanças advindas dos encaminhamentos intersetoriais.
 
 -   Clique em FINALIZAR CADASTRO para finalizar e salvar o cadastro do cidadão.
 
