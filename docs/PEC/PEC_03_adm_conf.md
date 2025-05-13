@@ -1580,9 +1580,9 @@ Para adicionar, clique em "Adicionar tipo de serviço", informe o nome do tipo d
 
 Para editar, clique em ![](media/pec_image228.png). Para excluir um tipo de serviço, cliquem em ![](media/pec_image229.png).
 
-### 3.11.4 Configuração RNDS
+### 3.11.4 Certificados
 
-A partir da versão 4.2, esta funcionalidade foi implementada no sistema e-SUS APS com PEC com a finalidade de acessar a Rede Nacional de Dados em Saúde (RNDS), que é a plataforma que integrará os dados de saúde no país. Na prática, quando o **administrador municipal** habilita essa funcionalidade, o profissional de saúde da APS consegue acessar o site *ConectSUS Profissional*, por meio do PEC, para visualizar os dados de saúde oriundos de outros pontos de atenção à saúde onde o cidadão já foi atendido.
+Esta funcionalidade foi implementada no sistema PEC e-SUS APS com a finalidade de habilitar o certificado digital, gerado atualmente via **e-Gestor APS**, sistema **Implantação e-SUS APS**.
 
 Figura 3.11.4 - Tela de Configuração RNDS
 
@@ -1590,209 +1590,29 @@ Figura 3.11.4 - Tela de Configuração RNDS
 
 Fonte: SAPS/MS
 
-A funcionalidade apresenta a "Contra-Chave" da instalação do sistema e-SUS APS PEC para ser copiada; os campos para a inclusão do "Certificado"; "Senha" e "Identificador solicitante".
+{: .dica }
+Para geração e habilitação do certificado digital no PEC e-SUS APS, além de mais informações sobre as funcionalidades do certificado, siga o manual completo disponibilizado na seção "Apoio à Implantação": [LINK](https://saps-ms.github.io/Manual-eSUS_APS/docs/Apoio%20a%20Implanta%C3%A7%C3%A3o/Certificado_eGestor/)
 
-## 3.12 Acessando a RNDS por meio do PEC
+O certificado digital habilitado permitirá:
 
-Esta seção visa orientar os gestores e técnicos responsáveis pela Estratégia e-SUS APS a habilitarem o PEC para acessar a RNDS.
+Opção "**RNDS**": 
+- Envio direto de registros de origem PEC à RNDS (vacinas, atendimentos, prescrição de medicamentos e atestados);
+- Habilitação do acesso ao **SUS Digital Profissional** ([mais informações](https://webatendimento.saude.gov.br/faq/susdigitalprofissional)) via prontuário do cidadão pelos profissionais médicos, enfermeiros e cirurgiões-dentistas.
 
-### 3.12.1 Municípios que NÃO possuem certificado digital A1
+Opção "**CADSUS**": 
 
-Quando o Município ou Distrito Federal que utilizam o PEC não possuir certificado digital do tipo A1, o **administrador municipal** da instalação PEC deverá seguir os seguintes passos:
-
-1º\) Acessar o ambiente restrito do portal [e-Gestor Atenção Básica](https://egestorab.saude.gov.br/paginas/login.xhtml/) com Login e Senha do **gestor municipal**;
-
-Figura 3.12.1 Ambiente Restrito do sistema e-Gestor AB
-
-![](media/pec_image885.png)
-
-Fonte: SAPS/MS
-
-2º\) Após o login no sistema e-Gestor AB, selecionar o sistema "TOKEN PARA IMPLANTAÇÃO e-SUS APS";
-
-Figura 3.12.2 - Tela de seleção de sistemas no e-Gestor AB
-
-![](media/pec_image886.png)
-
-Fonte: SAPS/MS
-
-3º\) Preencha o Formulário (Figura 3.12.3) com os dados do usuário responsável pela geração do token (CPF e Nome) e selecione o Estabelecimento de saúde onde o token será utilizado para autenticação, em seguida clique em "Gerar Token". Todos os tokens gerados serão exibidos na aba "Tokens gerados".
-
-Figura 3.12.3 - Formulário Gerador de Token no sistema e-Gestor AB
-
-![](media/pec_image887.png)
-
-Fonte: SAPS/MS
+Novas opções no módulo Cidadão:
+- Cadastrar cidadãos na base local por busca direta na base nacional do CADSUS, evitando retrabalho de digitação de informações e duplicações de cadastro;
+- Ao editar dados cadastrais de um cidadão no PEC e-SUS APS, edita-se também estes dados diretamente no CADSUS, como por exemplo, telefone de contato e endereço;
+- Gerar novo CNS válido diretamente pelo PEC e-SUS APS, como por exemplo para recém-nascidos, sem a necessidade de entrar no CADSUS para esta ação;
+- Durante a edição de um cadastro, será possível sincronizar o cadastro da base local com a base nacional do CADSUS para correção de dados digitados de maneira equivocada antes da integração com o login GOV.BR, como por exemplo, nome e data de nascimento.
 
 {: .atencao }
-[**ATENÇÃO**] A validade do token é até às 23:59h do dia de sua geração. Após esse período é automaticamente desativado, não sendo mais possível utilizá-lo.
-
-{: .nota }
-O responsável (CPF) por gerar o token no e-Gestor AB deverá ser o mesmo a realizar a solicitação de credenciamento no e-GESTOR AB.
-
-4º\) Após obter o **Token** copie a **Contra Chave** no sistema e-SUS APS com PEC no módulo "Gestão Municipal" na aba "Configuração RNDS, conforme a figura 3.11.4.
-
-5º\) De posse do **token** gerado no sistema e-Gestor AB e a **Contra Chave** copiada no sistema e-SUS APS com PEC, proceda na solicitação de credenciamento no e-GESTOR AB, para obter permissão de acesso a RNDS e APROVAÇÃO para produção. 
-
-6º\) Após realizar o credenciamento faça o download do certificado gerado.
-
-### 3.12.2 Municípios que POSSUEM certificado digital A1
-
-Os Municípios/Distrito Federal que possuam certificado digital A1 também deverão gerar o token no e-Gestor AB e copiar a Contra Chave do PEC para preehimento dos campos abaixo:
-
-![](media/pec_image1028.png)
-
-{: .atencao }
-[**ATENÇÃO**] Não carregue o 'certificado .cer'. O tipo de arquivo gerado não é compatível com o sistema.
-
-### 3.12.3 Realizando solicitação de credenciamento no e-GESTOR AB:
-
-Ao logar no e-GESTOR AB com o perfil de gestor municipal, selecione o programa Implantação e-SUS APS:
-
-![](media/pec_image1029.png)
-
-Na tela seguinte, serão exibidas informações diversas relativas as credenciais geradas, termo de uso, certificado disponível e solicitação de nova credencial, conforme pode ser visto na imgem abaixo:
-
-![](media/pec_image1030.png)
-
-Clicando em ![](media/pec_image1031.png) será solicitado ao integrador, informar o token e contra-chave para seguimento no processo de credenciamento:
-
-![](media/pec_image1028.png)
-
-Após validação dos dados na tela acima, será apresentado ao solicitante o formulário de credenciamento abaixo:
-
-![](media/pec_image1032.png)
-
-Na área de Certificado Digital, caso tenha um certificado próprio, importe-o conforme a extensão .CER ou .PFX. Caso não tenha um certificado próprio, clique em gerar certificado e cadaste uma senha:
-
-![](media/pec_image1033.png)
-
-Siga com o preenchimento dos dados do formulário, informando o telefone de contato e e-mail da gestão responsável.
-
-Em "Indique um estabelecimento filho", informe os estabelecimentos que ficarão vinculados ao CNES pai:
-
-![](media/pec_image1037.png)
-
-Depois indique os dados do gestor responsável:
-
-![](media/pec_image1038.png)
-
-E as informações do sistema solicitante:
-
-![](media/pec_image1039.png)
-
-Ao clicar em ![](media/pec_image1040.png) será exibida a tela de aceite dos termos de uso, conforme pode ser visto abaixo:
-
-![](media/pec_image1041.png)
-
-Ao clicar em "Confirmar e avançar", será realizada a conclusão de solicitação de credenciamento no e-GESTOR AB e o integrador estará formalmente apto para integração a RNDS via e-SUS APS PEC. 
-
-![](media/pec_image1042.png)
-
-Na tela de credenciais geradas, será possível ter acesso ao ID do solicitante e ao certificado que deverá ser informado no PEC, conforme item 3.12.4.
-
-![](media/pec_image1043.png)
-
-### 3.12.4 Configurando a instalação do PEC com a chave gerada no e-GESTOR AB:
-
-Nesta etapa é fundamental o papel do **administrador da instalação**.
-
-O **administrador da instalação** de posse do certificado (.pfx ou .p12) gerado no e-GESTOR AB pelo gestor municipal deverá **criar a pasta "chaves"** e incluir o arquivo (.pfx ou .p12) nesta pasta. A depender do sistema operacional o administrador da instalação deverá proceder da seguinte forma:
-
-* Se o sistema operacional for Windows - *C:\ProgramFiles\e-SUS\webserver\chaves*. Inclua o arquivo (.pfx ou .p12) na pasta "chaves". 
-
-Figura 3.12.4 Tela do Windows
-
-![](media/pec_image889.png)
-
-Fonte: Windows10/Microsoft
-
-* Se o sistema operacional for Linux - Acesse o repositório com o comando *cd/opt/e-SUS/webserver/*. Para criar a pasta "chaves" é utilizado o comando */opt/e-SUS/webserver$ sudo mkdir chaves*. Inclua o arquivo (.pfx ou .p12) na pasta "chaves". 
-
-Figura 3.12.5 Tela do Linux
-
-![](media/pec_image890.png)
-
-Fonte: Linux/Canonical
-
-### 3.12.5 Habilitando o PEC para o Acesso a RNDS
-
-Nesta etapa o **administrador municipal** acessa a instalação PEC com login e senha para habilitar o acesso do PEC à RNDS por meio do módulo "Gestão Municipal". Neste módulo, conforme a figura 3.11.4, na aba "Configuração RNDS", o **administrador municipal** selecionará o certificado - previamente inserido pelo *administrador da instalação* na pasta "chaves" da instalação PEC - informará a senha do certificado e o identificador do solicitante obtido no e-GESTOR AB, no momento em que a solicitação de credenciamento é homologada para o acesso a RNDS.
-
-Após a habilitação, na tela de atendimento do cidadão pelo *profissional de saúde* no PEC é apresentado o botão para acessar a RNDS conforme a figura 3.12.5
-
-Figura 3.12.5 - Tela de Atendimento do cidadão no PEC
-
-![](media/pec_image891.png)
-
-Fonte: SAPS/MS
-
-### 3.12.5 Desabilitando o PEC para o Acesso a RNDS
-
-Figura 3.12.8 - Configuração RNDS
-
-![](media/pec_image892.png)
-
-Fonte: SAPS/MS
-
-Após habilitado o acesso à RNDS, caso seja necessário desabilitá-lo, basta clicar no botão "Desabilitar", conforme a figura 3.12.8. Ao desabilitar o certificado digital o botão de acesso a RNDS na tela de atendimento do PEC (Figura 3.12.7) não será mais apresentado.
-
- **Relatório de erros retornados pela RNDS**
-
-A partir da versão 5.3 é possível gerar o relatório de erros de dados enviados à RNDS. 
-
-Para gerar o relatório, o gestor municial deverá selecionar na aba lateral ![](media/gestaomunicipal.png)
-Em seguida selecionar![](media/rnds.pngpng) e "gerar relatório de erro"
-
-Abrirá uma tela onde poderá selecionar o período desejado e gerar o relatório CSV.
-
-![](media/relatoriornds2.png)
-
-Deverá marcar todos ou os que desejar.
-
-O relatório gerado, terá as informações: data de envio, tipo de registro, ID do registro, Status do envio, erro retornado pela RND.
-
-![](media/relatoriornds3.png)
-
-
-## 3.13 Acessando ao CADSUS por meio do PEC
-
-Esta seção visa orientar os gestores e técnicos responsáveis pela Estratégia e-SUS APS a habilitarem consulta ao CADSUS dentro do PEC.
-
-A partir da versão 5.1.14 do e-SUS APS PEC, é necessário a habilitação de três principais fatores para que o CADSUS passe a funcionar em sua aplicação. 
-
- Estes procedimentos devem ser realizados para garantir a segurança na atualização das informações dos cidadãos delimitadas pelo Ministério da Saúde e DATASUS. Sendo assim, você precisará realizar a configuração dos tópicos:
-
-- Cadastramento de Certificado Digital de sistema fornecido pelo e-gestor AB;
-- Habilitação de certificado SSL/HTTPS no e-SUS APS PEC;
-- Habilitação do GOV.BR no e-SUS APS PEC;
-
-Passo 1  - Cadastramento do Certificado Digital:
-
-O primeiro procedimento necessário é a parametrização do Certificado Digital no e-SUS APS PEC, para isso, siga o passo a passo disponibilizado na seção 3.12.1 e 3.12.2.  Para este cenário, ao realizar a habilitação do Certificado Digital, você deverá selecionar tanto o habilitação da RNDS quanto para os processos de PIX e PDQ (consulta e alterações) no CADSUS.
-
-    Após a habilitação do Certificado através do e-Gestor, você precisará inserir o Certificado no e-SUS APS PEC. Neste caso, acesse com o perfil de Administrador Municipal, na aba de "Certificados" e selecione o módulo de CADSUS. Assim, você poderá selecionar tanto a RNDS quanto o CADSUS para habilita-los:
-
-Figura 3.13.1
-
-![](media/pec_image1044.png)
-SAPS/MS
-
-Passo 2  - Habilitação de certificado SSL/HTTPS no e-SUS APS PEC:
-
-A  habilitação do certificado SSL/HTTPS no PEC, deverá ser realizada seguindo as instruções da seção 3.1.1.3.5, dependendo do seu sistema operacional. 
-
-**ATENÇÃO** 
-Disponibilizamos também um vídeo com o passo a passo para a inclusão do certificado utilizando o sistema operacional Windows, com o objetivo de facilitar a compreensão no menu "Apoio a Implantação" no Manual e-SUS APS
-
-Passo 3 - Habilitação do GOV.BR no e-SUS APS PEC:
-Após concluída inserção do HTTPS/SSL, para habilitação do GOV.BR no seu PEC, você precisará seguir todo o passo a passo disponibilizado na seção 1.3.3 para Ativação do login via GOV.BR. 
-
-
-{: .atencao } Este é um procedimento determinado pelo DATASUS em prol da segurança na atualização dos dados no CADWEB. Todo o processo de segurança é necessário, visto que o PEC, além de realizar pesquisas no CADSUS, também realiza alterações.
-
-
-## 3.14 Importação do Bolsa Família
+A habilitação do certificado digital é apenas uma das etapas do processo de habilitação da sincronização do sistema com o CADSUS. Para completar todo o processo desta importante habilitação, será necessário na instalação do PEC e-SUS APS:
+- Habilitar o acesso ao sistema por endereço de domínio gov.br via protocolo HTTPS ([manual completo](https://saps-ms.github.io/Manual-eSUS_APS/docs/Apoio%20a%20Implanta%C3%A7%C3%A3o/HTTPS_Automatizado/))
+- Habilitar o login via conta gov.br no sistema ([manual completo](https://saps-ms.github.io/Manual-eSUS_APS/docs/Apoio%20a%20Implanta%C3%A7%C3%A3o/Login_GOV.BR/))
+
+## 3.12 Importação do Bolsa Família
 
 Para importar um arquivo com os beneficiários do bolsa família de uma vigência específica para que eles sejam identificados em seus prontuários, o profissional deverá acessar o e-GESTOR APS. 
 
