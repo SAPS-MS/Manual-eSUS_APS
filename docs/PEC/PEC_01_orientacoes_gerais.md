@@ -188,23 +188,25 @@ Após a conclusão destes passos o usuário que teve a senha bloqueada deverá a
 ## 1.3.3 Autenticação via gov.br
 
 {: .novidade }
-A autenticação eletrônica via gov.br garente maior segurança da informação. A autenticação via gov.br utiliza o serviço de integração do Login Ùnico.
+A autenticação eletrônica via gov.br garante maior segurança de acesso ao sistema e também aos dados.
 
-Visite aqui o manual completo para habilitação do login via conta **gov.br** no PEC e-SUS APS: [LINK](docs/Apoio%20a%20Implanta%C3%A7%C3%A3o/Login_GOV.BR/)
+Para habilitação do login gov.br no PEC e-SUS APS, siga o manual completo disponibilizado na seção "Apoio à Implatação": [LINK](https://saps-ms.github.io/Manual-eSUS_APS/docs/Apoio%20a%20Implanta%C3%A7%C3%A3o/Login_GOV.BR/)
 
 ## 1.3.3.1 Fazendo login no PEC por meio da conta gov.br
-
-Para realizar o acesso via gov.br basta clicar no botão indicado na figura acima e o profissional de saúde será redirecionado para o site do gov.br.
-
-![](media/pec_image923.png)
 
 {: .nota }
 Para saber mais como criar uma conta gov.br, acesse esse [link](https://www.gov.br/governodigital/pt-br/conta-gov-br/conta-gov-br/)
 
-Após criar a conta gov.br, basta digitar o CPF e senha na tela de login do site gov.br e o usuário do sistema será direcionado para o PEC e-SUS APS.
+Para realizar o acesso via gov.br, na tela de autenticação do PEC e-SUS APS, clique no botão indicado na figura abaixo.
+
+![](media/botaogovbr.png)
+
+ O usuário será redirecionado para a tela de autenticação do gov.br.
+
+![](media/pec_image923.png)
 
 {: .atencao }
-Ao ser redirecionado para o PEC alguns cenários podem acontecer, tais como:
+Ao realizar a autenticação com a conta gov.br, o usuário será redirecionado para o PEC e-SUS APS e alguns cenários podem acontecer, tais como:
 * Se o usuário não possui nenhuma lotação na instalação PEC que será usada, será exibido a seguinte mensagem: "Você não possui nenhum acesso habilitado. Entre em contato com o administrador do sistema para liberar o seu acesso.";
 * Se o usuário tive no tempo de alterar a senha, neste caso o usuário será redirecionado para a tela de troca de senha;
 * Se o usuário estiver com o acesso bloqueado, por excesso de tentativas de acesso, precisará solicitar a redefinição da senha.
