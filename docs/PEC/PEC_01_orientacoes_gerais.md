@@ -185,14 +185,12 @@ Caso deseje, poderá cadastrar **senha provisória** e repassar ao profissonal p
 
 Após a conclusão destes passos o usuário que teve a senha bloqueada deverá acessar o sistema utilizando a senha provisória repassada pelo gestor ou acessar o link ou QR CODE informados. No primeiro acesso o sistema solicitará ao usuário que troque a senha padrão por uma senha pessoal.
 
-## 1.3.3 Autenticação via gov.br
+## 1.3.3 Acesso ao sistema via conta gov.br
 
 A autenticação eletrônica via gov.br garante maior segurança de acesso ao sistema. A Conta GOV.BR é uma identificação que comprova em meios digitais que você é você. Com ela, você se identifica com segurança na hora de acessar serviços digitais. Ela é gratuita e está disponível para todos os cidadãos brasileiros.
 
 {: .dica }
 Para habilitação do login gov.br no PEC e-SUS APS, siga o manual completo disponibilizado na seção "Apoio à Implantação": [LINK](https://saps-ms.github.io/Manual-eSUS_APS/docs/Apoio%20a%20Implanta%C3%A7%C3%A3o/Login_GOV.BR/)
-
-## 1.3.3.1 Fazendo login no PEC por meio da conta gov.br
 
 {: .nota }
 Para saber mais como criar uma conta gov.br, acesse esse [link](https://www.gov.br/governodigital/pt-br/conta-gov-br/conta-gov-br/)
