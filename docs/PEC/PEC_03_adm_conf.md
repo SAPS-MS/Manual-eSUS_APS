@@ -1564,7 +1564,7 @@ Fonte: SAPS/MS
 
 Os grupos também podem ser editados por meio do botão ![](media/pec_image225.png) ou excluídos no botão ![](media/pec_image226.png).
 
-### 3.11.3 Tipos de serviço
+## 3.11.3 Tipos de serviço
 
 Figura 3.11.3 - Tipos de serviço
 
@@ -1580,7 +1580,7 @@ Para adicionar, clique em "Adicionar tipo de serviço", informe o nome do tipo d
 
 Para editar, clique em ![](media/pec_image228.png). Para excluir um tipo de serviço, cliquem em ![](media/pec_image229.png).
 
-### 3.11.4 Certificados
+## 3.11.4 Certificados
 
 Esta funcionalidade foi implementada no sistema PEC e-SUS APS com a finalidade de habilitar o certificado digital, gerado atualmente via **e-Gestor APS**, sistema **Implantação e-SUS APS**.
 
