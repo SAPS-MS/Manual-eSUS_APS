@@ -190,117 +190,18 @@ Após a conclusão destes passos o usuário que teve a senha bloqueada deverá a
 {: .novidade }
 A autenticação eletrônica via gov.br garente maior segurança da informação. A autenticação via gov.br utiliza o serviço de integração do Login Ùnico.
 
-## 1.3.3.1 Como habilitar a autenticação via gov.br no PEC
+Visite aqui o manual completo para habilitação do login via conta **gov.br** no PEC e-SUS APS: [LINK](docs/Apoio%20a%20Implanta%C3%A7%C3%A3o/Login_GOV.BR/)
 
-**ADMINISTRADOR MUNICIPAL DO PEC**
-
-Nesta seção, disponibilizaremos a forma como você poderá habilitar, em sua instalação municipal, o login dos profissionais com o gov.br.
-
- Para isso, existem algumas regras que precisam ser seguidas, tanto para habilitação no e-SUS quanto para liberação do município na plataforma gov.br para acesso ao sistema. É válido também ressaltar que para utilização do login via gov.br, é necessário que o município possua o protocolo HTTPS/SSL em sua instalação PEC.
-
-    Lembrando que esse processo é destinado a instalações municipais, a ativação para instalações multimunicipais ainda está em desenvolvimento. Os municípios que buscam liberar o login devem pertencer à Rede GOV.BR.
-
-
-## 1.3.3.2 Como habilitar o gov.br no Município?
-
-Para habilitar o gov.br no munícipio serão necessárias as etapas abaixo e descritas a seguir:
-
-Fase 1: Adesão à Adesões à Rede Nacional de Governo Digital (Rede GOV.BR);
-
-Fase 2: Integração do Acesso GOV.BR (Login Único).
-
-Para habilitar a autenticação o município deve seguir o roteiro de integração de serviços ao Login Único do gov.br constante no [sitio eletônico do gov.br](https://manual-roteiro-integracao-login-unico.servicos.gov.br/pt/stable/solicitarconfiguracao.html).
-
-Caso seu município não faça parte da Rede GOV.BR ainda, o prefeito precisará realizar a adesão através da Plataforma Rede GOV.BR, seguindo os passos abaixo:
-
-1. Acessar a plataforma pelo link: https://plataforma.rede.gov.br/;
-2. Na homepage, selecionar a opção “Entrar” (canto superior direito). Para o acesso, o Prefeito deverá informar os dados de login da sua conta GOV.BR (ou indicar o seu certificado digital de pessoa física);
-3. No menu à esquerda, selecionar a opção “Credenciamento” e preencher o cadastro - importante indicar o município/UF e indicar ser servidor público;
-4. No menu à esquerda, selecione a opção “Adesão à Rede GOV.BR e Indicação de Ponto Focal”. Selecionar a opção “Prefeito” e, em seguida, preencher os dados do “Ponto Focal”. Selecionar a opção “Prosseguir” para iniciar o processo de assinatura digital.
-5. Nessa etapa, o assinador GOV.BR enviará por SMS ou pelo aplicativo gov.br um código de segurança ao telefone celular cadastrado na conta GOV.BR do prefeito.
-6. Informar o código recebido por SMS ou pelo aplicativo GOV.BR e selecionar a opção “Prosseguir”. Uma mensagem de conclusão será exibida ao final do processo indicando o sucesso da adesão.
-7. Pronto! Agora já será possível visualizar ou baixar o termo de adesão assinado.
-Dicas: se o assinador digital indicar o envio por SMS, o número do telefone deverá estar atualizado no perfil da conta gov.br (ou do certificado digital); já se o assinador indicar o envio pelo aplicativo gov.br, as notificações do aplicativo deverão estar habilitadas no aparelho para o código enviado ser exibido em sua tela.
-
-Fase 1: Adesão à Rede Nacional de Governo Digital (Rede GOV.BR)
-
-Após a adesão à Rede GOV.BR, será possível liberar o login solicitando a chave do ambiente de produção através dos seguintes passos:
-
-Realizar a requisição para o login único através deste manual, preenchendo os dados da seguinte forma: 
-
-1. Email do Solicitante: <Adicionar o Email do Solicitante para utilização do eSUS>
-2. Celular do Solicitante: <Adicionar o Celular do Solicitante para utilização do eSUS>
-3. CNPJ do Órgão: <Adicionar o CNPJ do Órgão para utilização do eSUS>
-4. Unidade Requisitante: <Adicionar Unidade Requisitante para utilização do eSUS>
-5. Esfera: <Adicionar Esfera para utilização do eSUS>
-6. Estado: <Adicionar Estado para utilização do eSUS>
-7. Munícipio: <Adicionar Munícipio para utilização do eSUS>
-8. Legislação de criação do órgão: <Adicionar Legislação de criação do órgão (Lei, decreto e outros) para utilização do eSUS>
-9. Nome Completo do Departamento: <Adicionar Nome Completo do Departamento para utilização do eSUS>
-10. Produtos ID em que possui interesse: <Adicionar o texto "Login Único / Sistema eSUS">
-11. Quais os serviços públicos o cidadão acessará: <Adicionar o texto "eSUS">
-
-Após receber a permissão para acesso ao login, deverá realizar a solicitação para a Credencial para Login Único, conferindo este manual e seguindo o padrão abaixo:
-
-1. Nome do Sistema: eSUS APS - <Adicionar o Nome do Órgão>
-2. Descrição do Sistema: <Adicionar o texto “eSUS APS”>
-3. Quais Serviços públicos a cidadão acessará no sistema: <Adicionar o texto “eSUS APS”>
-4. Descreva os benefícios ofertados ao cidadão: <Adicionar o texto “eSUS APS”>
-5. Quantidade atual de contas: <Adicionar o Número de Contas atuais utilizando o sistema>
-6. Número de acessos por dia: <Adicionar uma estimativa de acessos>
-7. Sazonalidade: <Adicionar o texto “0”>
-8. Lista de IP(s): <Adicionar os IPs a serem utilizados para aplicação>
-9. Quais níveis, categorias e selos de confiabilidade: <Selecionar a opção com Ouro>
-10. URL(s) de retorno de homologação:
-http://<Adicionar o domínio de instalação do eSUS>/oauth2/code/govbr ;
-http://<Adicionar o domínio de instalação do eSUS>/login/oauth2/code/govbr ; https://<Adicionar o domínio de instalação do eSUS>/oauth2/code/govbr ;
-https://<Adicionar o domínio de instalação do eSUS>/login/oauth2/code/govbr
-11. URL de Logout (Homologação): <Adicionar o domínio de instalação do eSUS>/logout
-12. Data Prevista para Início do Desenvolvimento: <Adicionar a data para início da instalação do sistema>
-13. Data Prevista para homologação: <Adicionar a data para início da instalação do sistema>
-14. Data Prevista para disponibilização para a sociedade: <Adicionar a data que sistema estará disponível para utilização final>
-15. URL única para página inicial do sistema: <Adicionar o domínio de instalação do eSUS>
-
-## 1.3.3.3 Como habilitar o botão gov.br na tela de login no PEC?
-
-Após seguir o passo a passo descrito no Manual de integração com o Login Único, o administrador municipal receberá um "ClientID" e ""ClientSecret". 
-
-**ADMINISTRADOR DA INSTALAÇÃO**
-De posse do "ClentID" e "ClientSecret" o adminstrador da instalação deve inserir os tokens no arquivo de configuração da instalação (application.properties). Nas váriaveis:
-
-* "ClientID" deve ser inserido na váriavel "bridge.security.oauth2.client.registration.govbr.client-id";
-* "ClientSecret" deve ser inserido na váriavel "bridge.security.oauth2.client.registration.govbr.client-secret".
-
-Obs: Você deverá alterar os valores "ClientID" e "ClientSecret" para o valor recebido pelo gov.br.
- 
-
-{: .nota }
-Com os parâmetros incluídos, salve as alterações do arquivo e reinicie o servidor do PEC. Somente após a inserção do token no arquivo de configuração é que o botão Gov.br deve ser exibido na tela de login. Sendo necessário que você utilize o HTTPS nas instalações para que a comunicação com o Gov.br aconteça.
-
-
-Figura 1.6 - Tela de Login do PEC com o botão de acesso gov.br
-
-![](media/pec_image922.png)
-
-Fonte: SAPS/MS
-
-{: .atencao }
-Caso a internet esteja desabilitada o botão do gov.br não será exibido
-
-## 1.3.3.4 Fazendo login no PEC por meio do gov.br
+## 1.3.3.1 Fazendo login no PEC por meio da conta gov.br
 
 Para realizar o acesso via gov.br basta clicar no botão indicado na figura acima e o profissional de saúde será redirecionado para o site do gov.br.
 
-Figura 1.7 Tela de login do site gov.br
-
 ![](media/pec_image923.png)
 
-Fonte:SAPS/MS
-
 {: .nota }
-Para realizar o login via gov.br o usuário do sistema e-SUS APS com PEC deverá criar o seu acesso digitando o CPF. Para saber mais como criar a conta gov.br acesse esse [link](https://www.gov.br/governodigital/pt-br/conta-gov-br/conta-gov-br/)
+Para saber mais como criar uma conta gov.br, acesse esse [link](https://www.gov.br/governodigital/pt-br/conta-gov-br/conta-gov-br/)
 
-Após criar o acesso ao gov.br basta digitar o CPF e senha na tela de login do site gov.br e o usuário do sistema será direcionado para o PEC.
+Após criar a conta gov.br, basta digitar o CPF e senha na tela de login do site gov.br e o usuário do sistema será direcionado para o PEC e-SUS APS.
 
 {: .atencao }
 Ao ser redirecionado para o PEC alguns cenários podem acontecer, tais como:
