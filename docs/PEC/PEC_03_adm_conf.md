@@ -1652,9 +1652,16 @@ Figura 3.11.5.4
 
 Fonte: SAPS/MS
 
-Deverá ser marcado pelo menos um modelo de informação e o relatório gerado trará as seguintes informações: data de envio, tipo de registro, ID do registro, status do envio, erro retornado pela RNDS.
+Deverá ser marcado pelo menos um modelo de informação e o relatório gerado trará as seguintes informações:
+- Data de envio
+- Tipo de registro
+- ID do registro
+- Status do envio
+- Erro retornado pela RNDS.
 
-![](/docs/Últimas%20releasesmedia/relatoriornds3.png)
+Figura 3.11.5.5
+
+![](https://saps-ms.github.io/Manual-eSUS_APS/docs/%C3%9Altimas%20releases/media/relatoriornds3.png)
 
 Fonte: SAPS/MS
 
