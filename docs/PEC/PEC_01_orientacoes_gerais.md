@@ -187,10 +187,10 @@ Após a conclusão destes passos o usuário que teve a senha bloqueada deverá a
 
 ## 1.3.3 Autenticação via gov.br
 
-{: .novidade }
-A autenticação eletrônica via gov.br garante maior segurança de acesso ao sistema e também aos dados.
+A autenticação eletrônica via gov.br garante maior segurança de acesso ao sistema. A Conta GOV.BR é uma identificação que comprova em meios digitais que você é você. Com ela, você se identifica com segurança na hora de acessar serviços digitais. Ela é gratuita e está disponível para todos os cidadãos brasileiros.
 
-Para habilitação do login gov.br no PEC e-SUS APS, siga o manual completo disponibilizado na seção "Apoio à Implatação": [LINK](https://saps-ms.github.io/Manual-eSUS_APS/docs/Apoio%20a%20Implanta%C3%A7%C3%A3o/Login_GOV.BR/)
+{: .dica }
+Para habilitação do login gov.br no PEC e-SUS APS, siga o manual completo disponibilizado na seção "Apoio à Implantação": [LINK](https://saps-ms.github.io/Manual-eSUS_APS/docs/Apoio%20a%20Implanta%C3%A7%C3%A3o/Login_GOV.BR/)
 
 ## 1.3.3.1 Fazendo login no PEC por meio da conta gov.br
 
