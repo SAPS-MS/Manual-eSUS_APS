@@ -1519,7 +1519,7 @@ Caso o imunobiológico já esteja vinculado a algum registro de aplicação de v
 
 ![](media/pec_image214.png)
 
-O módulo de Gestão municipal agrupa funcionalidades gerais, que somente podem ser acessados com o perfil de **Administrador Municipal** do sistema e-SUS APS, são elas: Configuração da agenda padrão, Certificados, Grupos de exames, Tipos de serviço e RNDS.
+O módulo de Gestão municipal agrupa funcionalidades gerais, que somente podem ser acessadas com o perfil de **Administrador Municipal** do sistema e-SUS APS, são elas: Configuração da agenda padrão, Certificados, Grupos de exames, Tipos de serviço e RNDS.
 
 ![](media/pec_image881.png)
 
@@ -1606,6 +1606,57 @@ Para adicionar, clique em "Adicionar tipo de serviço", informe o nome do tipo d
 ![](media/pec_image882.png)
 
 Para editar, clique em ![](media/pec_image228.png). Para excluir um tipo de serviço, cliquem em ![](media/pec_image229.png).
+
+## 3.11.5 RNDS
+
+Esta aba é destinada para acompanhamentos dos envios diretos de registros à Rede Nacioanal de Dados em Saúde (RNDS) pelo PEC e-SUS APS.
+
+Caso não haja certificado digital habilitado no sistema, a seguinte mensagem é exibida:
+
+Figura 3.11.5.1
+
+![](media/rnds1.png)
+
+Fonte: SAPS/MS
+
+Com o certificado digital devidamente habilitado, será possível visualizar, por modelo de informação da RNDS, os registros "enviados" e "não enviados", conforme imagem abaixo:
+
+Figura 3.11.5.2
+
+![](media/rnds2.png)
+
+Fonte: SAPS/MS
+
+Também é possível observar o retorno do sistema em relação a conexão com a RNDS quanto ao último envio realizado em "Status do último envio", podendo este campo apresentar as seguintes mensagens:
+
+- **Conexão bem-sucedida**: Ao enviar um registro e não houver problemas de conexão;
+- **Sem conexão**: Ao enviar um registro para o serviço da RNDS e houver algum erro de conexão;
+- **Certificado expirado**: Quando a data de validade do certificado for menor que a data atual;
+- **Falha no certificado**: Ao ocorrer algum erro na autenticação do certificado.
+
+Figura 3.11.5.3
+
+![](media/rnds3.png)
+
+Fonte: SAPS/MS
+
+Vale destacar que a partir da versão 5.3 do PEC e-SUS APS é possível gerar o relatório de erros de registros não enviados diretamente à RNDS.
+
+Para gerar o relatório, selecione a opção "Gerar relatório de erro".
+
+Será exibida uma tela onde poderá ser selecionado o período desejado e gerar o relatório CSV.
+
+Figura 3.11.5.4
+
+![](/docs/Últimas%20releases/media/relatoriornds1.png)
+
+Fonte: SAPS/MS
+
+Deverá ser marcado pelo menos um modelo de informação e o relatório gerado trará as seguintes informações: data de envio, tipo de registro, ID do registro, status do envio, erro retornado pela RNDS.
+
+![](/docs/Últimas%20releasesmedia/relatoriornds3.png)
+
+Fonte: SAPS/MS
 
 # 3.12 Importação do Bolsa Família
 
