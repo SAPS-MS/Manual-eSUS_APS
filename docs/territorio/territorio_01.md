@@ -5,7 +5,7 @@ parent: e-SUS Território
 nav_order: 1
 has_children: false
 has_toc: true
-last_modified_date: "09/04/2025"
+last_modified_date: "13/05/2025"
 ---
 
 <head>
@@ -14,6 +14,7 @@ last_modified_date: "09/04/2025"
     </style>
 </head>
 
+![](media/territorio.png)
 
 # Capítulo 1 - Introdução
 {: .no_toc }
