@@ -1519,18 +1519,13 @@ Caso o imunobiológico já esteja vinculado a algum registro de aplicação de v
 
 ![](media/pec_image214.png)
 
-O módulo de Gestão municipal agrupa funcionalidades gerais, que somente podem ser acessados com o perfil de **administrador municipal** do sistema e-SUS APS, são elas: Configuração da agenda padrão dos profissionais, Grupos de exames, Tipos de serviço e Configuração RNDS.
+O módulo de Gestão municipal agrupa funcionalidades gerais, que somente podem ser acessados com o perfil de **Administrador Municipal** do sistema e-SUS APS, são elas: Configuração da agenda padrão, Certificados, Grupos de exames, Tipos de serviço e RNDS.
 
 ![](media/pec_image881.png)
 
-{: .atualizacao }
-O módulo para Configuração de Compartilhamento de Prontuário foi descontinuado. A partir da versão 4.2, todos os municípios que utilizam a mesma instalação multimunicipal irão compartilhar os prontuário dos cidadãos. Esta alteração não interfere na geração de relatórios do PEC. A nova regra de compartilhamento de prontuário entre municípios está de acordo com a política de privacidade da RNDS.
-
-Este módulo permitia que um município optasse por não compartilhar dados de prontuário com outros municípios da mesma instalação multimunicipal.
-
 ## 3.11.1 Configuração da agenda padrão
 
-A funcionalidade de "Configuração da agenda padrão" permite configurar um horário padrão de atendimento de todos os profissionais da unidade de saúde para cada dia da semana, incluindo sábado e domingo (opção "Mostrar fim de semana").
+A funcionalidade de "Configuração da agenda padrão" permite configurar um horário padrão de atendimento de todos os profissionais das unidades de saúde para cada dia da semana, incluindo sábado e domingo (opção "Mostrar fim de semana").
 
 Para configurar os horários de atendimento padrão, informe os horários e clique em "Salvar".
 
@@ -1544,47 +1539,11 @@ Também é possível configurar a duração padrão do agendamento (duração pa
 
 ![](media/pec_image219.png)
 
-## 3.11.2 Grupos de exame
-
-Os grupos de exames são apresentados no módulo de solicitação de exames durante o atendimento no PEC, em "Opções rápidas". Estes filtros são filtrados de acordo com idade e sexo do cidadão em atendimento.
-
-Figura 3.11.2 - Grupos de exames
-
-![](media/pec_image223.png)
-
-Fonte: SAPS/MS
-
-É possível criar novos grupos de exame na aba "Grupos de exames". Para isso, clique em "Adicionar grupo de exames". Informe o "Nome do grupo" e selecione os exames no combo "Exames". Para concluir, clique em "Adicionar".
-
-Figura 3.11.3 - Grupos de exames
-
-![](media/pec_image224.png)
-
-Fonte: SAPS/MS
-
-Os grupos também podem ser editados por meio do botão ![](media/pec_image225.png) ou excluídos no botão ![](media/pec_image226.png).
-
-## 3.11.3 Tipos de serviço
-
-Figura 3.11.3 - Tipos de serviço
-
-![](media/pec_image227.png)
-
-Fonte: SAPS/MS
-
-Na aba "Tipos de serviço", é possível adicionar, editar e excluir os tipos de serviços de saúde disponíveis para o município.
-
-Para adicionar, clique em "Adicionar tipo de serviço", informe o nome do tipo de serviço e clique em "Adicionar" para concluir.
-
-![](media/pec_image882.png)
-
-Para editar, clique em ![](media/pec_image228.png). Para excluir um tipo de serviço, cliquem em ![](media/pec_image229.png).
-
-## 3.11.4 Certificados
+## 3.11.2 Certificados
 
 Esta funcionalidade foi implementada no sistema PEC e-SUS APS com a finalidade de habilitar o certificado digital, gerado atualmente via **e-Gestor APS**, sistema **Implantação e-SUS APS**.
 
-Figura 3.11.4 - Tela de Configuração RNDS
+Figura 3.11.2 - Tela de Configuração RNDS
 
 ![](media/pec_image883.png)
 
@@ -1611,6 +1570,42 @@ Novas opções no módulo Cidadão:
 A habilitação do certificado digital é apenas uma das etapas do processo de habilitação da sincronização do sistema com o CADSUS. Para completar todo o processo desta importante habilitação, será necessário na instalação do PEC e-SUS APS:
 - Habilitar o acesso ao sistema por endereço de domínio gov.br via protocolo HTTPS ([manual completo](https://saps-ms.github.io/Manual-eSUS_APS/docs/Apoio%20a%20Implanta%C3%A7%C3%A3o/HTTPS_Automatizado/))
 - Habilitar o login via conta gov.br no sistema ([manual completo](https://saps-ms.github.io/Manual-eSUS_APS/docs/Apoio%20a%20Implanta%C3%A7%C3%A3o/Login_GOV.BR/))
+
+## 3.11.3 Grupos de exame
+
+Os grupos de exames são apresentados no módulo de solicitação de exames durante o atendimento no PEC, em "Opções rápidas". Estes filtros são filtrados de acordo com idade e sexo do cidadão em atendimento.
+
+Figura 3.11.3.1 - Grupos de exames
+
+![](media/pec_image223.png)
+
+Fonte: SAPS/MS
+
+É possível criar novos grupos de exame na aba "Grupos de exames". Para isso, clique em "Adicionar grupo de exames". Informe o "Nome do grupo" e selecione os exames no combo "Exames". Para concluir, clique em "Adicionar".
+
+Figura 3.11.3.2 - Grupos de exames
+
+![](media/pec_image224.png)
+
+Fonte: SAPS/MS
+
+Os grupos também podem ser editados por meio do botão ![](media/pec_image225.png) ou excluídos no botão ![](media/pec_image226.png).
+
+## 3.11.4 Tipos de serviço
+
+Figura 3.11.4 - Tipos de serviço
+
+![](media/pec_image227.png)
+
+Fonte: SAPS/MS
+
+Na aba "Tipos de serviço", é possível adicionar, editar e excluir os tipos de serviços de saúde disponíveis para o município.
+
+Para adicionar, clique em "Adicionar tipo de serviço", informe o nome do tipo de serviço e clique em "Adicionar" para concluir.
+
+![](media/pec_image882.png)
+
+Para editar, clique em ![](media/pec_image228.png). Para excluir um tipo de serviço, cliquem em ![](media/pec_image229.png).
 
 # 3.12 Importação do Bolsa Família
 
