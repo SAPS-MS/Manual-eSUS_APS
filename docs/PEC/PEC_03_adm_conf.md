@@ -1612,7 +1612,7 @@ A habilitação do certificado digital é apenas uma das etapas do processo de h
 - Habilitar o acesso ao sistema por endereço de domínio gov.br via protocolo HTTPS ([manual completo](https://saps-ms.github.io/Manual-eSUS_APS/docs/Apoio%20a%20Implanta%C3%A7%C3%A3o/HTTPS_Automatizado/))
 - Habilitar o login via conta gov.br no sistema ([manual completo](https://saps-ms.github.io/Manual-eSUS_APS/docs/Apoio%20a%20Implanta%C3%A7%C3%A3o/Login_GOV.BR/))
 
-## 3.12 Importação do Bolsa Família
+# 3.12 Importação do Bolsa Família
 
 Para importar um arquivo com os beneficiários do bolsa família de uma vigência específica para que eles sejam identificados em seus prontuários, o profissional deverá acessar o e-GESTOR APS. 
 
