@@ -1648,7 +1648,7 @@ Será exibida uma tela onde poderá ser selecionado o período desejado e gerar 
 
 Figura 3.11.5.4
 
-![](/docs/Últimas%20releases/media/relatoriornds1.png)
+![](media/rnds4.png)
 
 Fonte: SAPS/MS
 
