@@ -59,7 +59,7 @@ Conforme a [Portaria SGD/MGI Nº 7.076, de 2 de outubro de 2024](http://www.in.g
 {: .nota }
 Saiba o que é a Rede Nacional de Governo Digital: [LINK](https://www.gov.br/governodigital/pt-br/estrategias-e-governanca-digital/rede-nacional-de-governo-digital) 
 
-Inicialmente, verifique se seu município já realizou adesão à Rede Nacional de Governo Digital aqui: [LINK](https://www.gov.br/governodigital/pt-br/estrategias-e-governanca-digital/rede-nacional-de-governo-digital/adesoes-a-rede-nacional-de-governo-digital) 
+Inicialmente, verifique se seu município já realizou adesão à Rede Nacional de Governo Digital aqui: [LINK](https://plataforma.rede.gov.br/adesoes) 
 
 > Observação: todos os estados já realizaram esta adesão. 
 
