@@ -149,7 +149,7 @@ https://SEU-DOMINIO.gov.br/logout
 
 ### 2ª PARTE
 
-11º Passo: após conclusão do passo anterior, recomendamos que seja verificado nos próximos dias (pois o processo pode não demorar até 10 dias úteis) se o status do processo foi alterado. Para isso, entre no site de solicitação do Serviço de Integração aos Produtos de Identidade Digital GOV.BR: **https://www.gov.br/governodigital/integrarprodutoid**
+11º Passo: após conclusão do passo anterior, recomendamos que seja verificado nos próximos dias (pois o processo pode não demorar até 10 dias úteis) se o status do processo foi alterado. Para isso, entre no site de solicitação do Serviço de Integração aos Produtos de Identidade Digital GOV.BR: [LINK](https://www.gov.br/governodigital/pt-br/estrategias-e-governanca-digital/transformacao-digital/servico-de-integracao-aos-produtos-de-identidade-digital-gov.br)
 
 12º Passo: clique no botão “Acompanhamento”; 
 
