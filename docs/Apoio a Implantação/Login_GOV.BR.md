@@ -98,7 +98,7 @@ Destacamos que todos os passos dos formulários a seguir deverão ser realizadas
 
 > Observações:
 >- No campo ”CNPJ do órgão/entidade pública”, deve-se utilizar preferencialmente o CNPJ do município ou do Estado;
->- No campo "Unidade requisitante", deve-se preencher o nome completo da Secretaria Municipal/Estadual.
+>- No campo "Unidade requisitante", deve-se preencher o nome completo da Secretaria Municipal/Estadual de Saúde.
 
 5º Passo: preencha dos dados do Responsável Negocial e do Responsável Técnico em “Dados Funcionais”;
 
